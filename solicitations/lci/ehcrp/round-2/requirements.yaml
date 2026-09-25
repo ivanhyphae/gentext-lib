@@ -1,0 +1,49 @@
+# Requirements that are NOT a narrative question (DR-0012). Each cites the standard it comes from.
+# kind: hard (non-compliance = ineligible/penalty) | scored (affects points) | expectation (reviewer guidance)
+# check: how M7 can test it — auto (deterministic), llm (rubric pass), human.
+- id: priority-points-mdb
+  kind: scored
+  text: >-
+    Funding-priority points (up to 15) require that the project's benefits to the claimed community be meaningful and
+    direct under all four criteria: direct, tangible and substantial; builds climate resilience for that community's
+    resources or quality of life; responds to that community's needs or desired benefit; no long-term degradation of its
+    resources. Staff judge this from specific narrative sections.
+  sources: [{asset: ehcrp-r2-guidelines, locator: "§7.1, §7.4, Appendix E"}, {asset: ehcrp-r2-meaningful-direct-benefits, locator: "pp. 12–13"}]
+  applies_to: [hr-q1, hr-q2, be-q2]
+  check: llm
+  status: draft
+- id: belonging-design-activities
+  kind: hard
+  text: "At least 4% of the Early Infrastructure budget supports Belonging design and implementation activities; Belonging design must be completed before Readiness Review."
+  sources: [{asset: ehcrp-r2-guidelines, locator: "§3.4, §5.3 Task 3, Appendix B"}]
+  applies_to: [be-q1, be-q2, workbook]
+  check: human
+  status: draft
+- id: partners-budget-share
+  kind: hard
+  text: "At least 8% of the Early Infrastructure budget goes directly to partners (Co-Applicants and/or Contributors)."
+  sources: [{asset: ehcrp-r2-guidelines, locator: "§3.4"}]
+  applies_to: [pt-q1, workbook]
+  check: human
+  status: draft
+- id: harm-reduction-metrics
+  kind: expectation
+  text: "Expected harm-reduction outcomes are measurable, with who tracks them, how, and when."
+  sources: [{asset: ehcrp-r2-full-application-form, locator: "Harm Reduction Q2"}, {asset: ehcrp-r2-ta-guide-harm-reduction, locator: "steps 1–4"}]
+  applies_to: [hr-q2]
+  check: llm
+  status: draft
+- id: local-knowledge-as-evidence
+  kind: expectation
+  text: "Where formal data is limited, local knowledge and lived experience are valid evidence of both the harm and the project's impact."
+  sources: [{asset: ehcrp-r2-ta-guide-harm-reduction, locator: "What does Harm Reduction look like"}]
+  applies_to: [hr-q1, hr-q2]
+  check: llm
+  status: draft
+- id: faq-review
+  kind: expectation
+  text: "Re-read the live FAQ before submission; staff answers can clarify or amend guideline requirements."
+  sources: [{asset: ehcrp-r2-faq}]
+  applies_to: [all]
+  check: human
+  status: open
