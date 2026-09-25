@@ -49,3 +49,72 @@
   found: 45
   recorded: 26
   notes: Resolved 5 wanted items (MDBA, CCHS 2015, Full Application Form, UGG guidelines, R1 resources). The R2 resources page linked TA guides and checklists not referenced anywhere in the working doc. CDPH download failed on TLS.
+
+- id: s-2026-09-25-gdrive-02
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: gdrive
+  method: Google Drive connector search_files folder walks (parentId, excludeContentSnippets, pageSize 50), recursing into relevant subfolders to depth 2; one content read (read_file_content) of the 2023 research doc to identify the R1 application
+  queries:
+    - "parentId = '11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS'  # Extreme Heat Grant (2023) folder"
+    - "parentId = '1rNOExjsW83KUu44nKimsNrn3oxiTfzRI'  # EHCRP Round 2 folder"
+    - "parentId = '1pG4QUiGHFsiCxoQYGVIDncxtJ0cilUcJ'  # Fresno folder"
+    - "parentId = '1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA'  # '02 Leads' (parent of EHCRP Round 2)"
+    - "parentId = '1u1Jt36WJthRCuja0XTxCNmebxRgvcul0' or parentId = '11e9aSUDsOtNMTWThtLseEMNEu3_vD50i'  # Ambrose subfolders (empty)"
+    - "parentId = '1noy28uEah5803ciAiBfX9Kid7z6ImcJE'  # 2023 icons subfolder (first page only)"
+    - "parentId = '1eRWKd1cj2I3ReHlXY4kOLZDBMfWLjA_d' or parentId = '1StMvI0XAS6JNvjE5WjRYivu2D170Peuw' or parentId = '1HXCMOfl7Weeu5DKh9Pu08yfeG0DbpX6Q' or parentId = '12k38Unz1tqjginsfPvG4AF_aJJZ74FZE' or parentId = '10IgzJ3ytfSAByqTjOeq0bPeDQODlaDCx'  # Nueva, Sacramento PLG, REPAIR_BAAQMD, Urban Greening Grant, Boston"
+    - "parentId = '1xGzJhhAvrnLPlWtiACOA95VrFbGhjbJC' or parentId = '1UPKG8ZIC2lKT54klf0nvXY-pi6tgtQR2' or parentId = '118XjF0EqSLeM9TbPFKOWkHr5TVE5Hs-u' or parentId = '1emdr467cQDFC0MLMLm-bW4x_CjRVmBvp' or parentId = '1H5An7iWdA3r79J2fOxDdz5Fmdd74gmdW'  # Rodeo/NOAA, TTF Dallas, New York, Johns Hopkins, miami"
+    - "parentId = '1HxLYYfyvLQOgWE8vsu5EmwB89X5bCMf8' or parentId = '1znUTecwJ8Gz-ucuyFiM9yaFqrxtY0C-O'  # Richmond UGG Submitted Proposal, REPAIR Working Application Documents (depth 3, exception for submitted proposals)"
+    - "get_file_metadata 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA  # folder title '02 Leads'"
+  found: 260
+  recorded: 41
+  notes: >
+    33 new records + 8 updates; about 230 files are covered by grouping siblings in `notes`.
+    ANSWER: the 'Extreme Heat Grant (2023)' folder IS Hyphae's EHCRP Round 1 effort (2024): 'Extreme heat grant research (EHCRP)' holds the R1 Full Application Form transcribed with drafted answers for CEJC's COMMON project (Hyphae as technical partner). CEJC is not on the R1 awards list.
+    Paging: the connector returned 5 items on some first pages despite pageSize 50, so every folder was paged until nextPageToken was absent. Exceptions: the 2023 icons subfolder (stopped after page 1 of SVG icons) and the Richmond/REPAIR combined query (1 page; the REPAIR financial folders were not walked).
+    Not walked: 02 Leads partner/teaming folders (Stantec, PerkinsWill, PORT Urbanism, SWT Design, Luckett and Farley, Studio Kremer, Origin Park, Archive, old bixplans/leads), REPAIR_* subfolders, Richmond '2021' and 'Attachments'.
+    Next: walk 'Current Proposals' (0B_S772FWorU8TFZXUzhwNHA4eUE) and 'AdaptOS (EH)' (1i0UEEacH7bevfpj5rOezw7kiRbDujVMQ).
+
+- id: s-2026-09-25-gdrive-03
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: gdrive
+  method: Google Drive connector search_files by funder/program and by project name (metadata only, excludeContentSnippets, pageSize 40–50)
+  queries:
+    - "fullText contains 'Urban and Community Forestry' or title contains 'CalFire' or title contains 'CAL FIRE' or title contains 'UCF'"
+    - "fullText contains 'Transformative Climate Communities' or title contains 'TCC' or title contains 'AB 617' or title contains 'AB617'"
+    - "title contains 'STEP' or fullText contains 'Sustainable Transportation Equity' or fullText contains 'Sustainable Transportation Planning' or title contains 'Caltrans'"
+    - "(title contains 'Urban Greening' or title contains 'CNRA' or title contains 'Strategic Growth Council' or title contains 'SGC') and not title contains 'Richmond'"
+    - "(title contains 'EPA' or title contains 'Community Change' or title contains 'Environmental Justice') and (title contains 'application' or title contains 'Application' or title contains 'narrative' or title contains 'Narrative' or title contains 'proposal' or title contains 'Proposal' or title contains 'FINAL' or title contains 'Final' or title contains 'submitted')"
+    - "title contains 'NSF' or title contains 'SBIR' or title contains 'NIH' or title contains 'NIEHS'"
+    - "title contains 'Prescott' or title contains 'Stockton' or title contains 'vegetative barrier' or title contains 'Vegetative Barrier' or title contains 'Veg Buffer'"
+    - "title contains 'Oakland STEP' or title contains 'STEP' or title contains 'Green Heart' or title contains 'AdaptOS' or title contains 'Depave' or title contains 'DePave' or title contains 'West Oakland'"
+    - "(fullText contains 'Stockton' or fullText contains 'West Oakland' or fullText contains 'Green Heart' or fullText contains 'Prescott') and (title contains 'proposal' or title contains 'Proposal' or title contains 'application' or title contains 'Application' or title contains 'narrative' or title contains 'Narrative' or title contains 'FINAL' or title contains 'Final' or title contains 'submitted' or title contains 'Submission' or title contains 'report' or title contains 'Report')"
+  found: 343
+  recorded: 43
+  notes: >
+    40 new records + 3 updates. `found` counts results per query, so overlap between queries is heavy; roughly 200 distinct files were seen.
+    Stopped after page 1 for every query. Each first page ran 13–50 results, and the tail of each was already low-relevance (meeting transcripts, GIS files, timesheets); next-page tokens exist for all but the EPA query.
+    CalFire/UCF: NO CalFire or Urban & Community Forestry application found. The query matched only generic full-text hits; try `title contains 'Forest'` next time.
+    Caltrans hits are dominated by Modesto SR-132 regulatory records (excluded). No Caltrans Sustainable Transportation Planning application found; Oakland STEP is represented by the grant-acceptance agenda report and the task 2.3 urban-greening material.
+    Project cases now covered by primary sources: Prescott (proposal, final and planting reports, modeling), Stockton (James's 2023 deck, the Little Manila claim report, the TCC Stockton Rising annual report, an AI-drafted Apr 2026 progress report), Oakland STEP, Green Heart (2022 final report), DePave LA (final Google Doc), AdaptOS/NSF (Phase II description + award letter), UGG (Richmond 2021 submitted, West Oakland 2020), EPA (AQ final submission, AirSense, TTF CCG).
+    Live, parallel: West Oakland TCC Round 6 (Sept 2026) Strategy 7 urban-greening answers; watch for cross-application reuse.
+
+- id: s-2026-09-25-gdrive-04
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: gdrive
+  method: Google Drive connector search_files for heat work by teammates since 2025, plus files owned by the lead grant writer; one content read (Ambrose Center Park notes, headings/grep only) to check for James's heat language
+  queries:
+    - "fullText contains 'extreme heat' and modifiedTime > '2025-01-01T00:00:00Z'"
+    - "owner = 'james@hyphae.net'"
+    - "parentId = '1A8GAqhNRKFSt2tqLn4wGiXJ9k4kxomYa' or parentId = '1DVVBxCiIyH32qWJr8dUgsP0BXjqOsv8e'  # James's CNRA folder"
+    - "get_file_metadata 0B_S772FWorU8TFZXUzhwNHA4eUE  # folder title 'Current Proposals'"
+  found: 165
+  recorded: 21
+  notes: >
+    19 new records + 2 updates (prior-heat-application-language-james, ambrose-community-voices).
+    'extreme heat' since 2025: 3 pages (5 + 50 + 50). Stopped on page 3: its tail was research PDFs, colormap PNGs and DePave drafts; a next-page token remains.
+    owner = james: 2 pages (5 + 50). Stopped on page 2: it had moved into CVs, headshots, GIS layers and pesticide-grant citations; a next-page token remains.
+    James's heat language: NOT FOUND. No James-owned heat application exists in the shared Drive. His files are Ambrose/UGG material (UGG concept form, Willow Pass bus-stop draft, project notes, Resilience Hub survey) and a DPR pesticide application. Prior heat-application text by others is recorded (EHCRP R1 CEJC draft, Max's 'EHCRP Round 2' 2025 doc, Greening Africatown, Resilient Philadelphia, CalEPA EJ). The wanted item stays open: ask James.
+    High-value P1 finds: 'Past Proposals' doc (matches past-hyphae-proposals-overview), the Ambrose Resilience Hub survey (matches ambrose-community-voices), and James's Willow Pass and Ambrose UGG concept drafts.

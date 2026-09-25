@@ -36,7 +36,7 @@
     sha256: 78ecee68d704a2e850246b285e8879d209b12da9844cb571bafb748954191a34
     acquired: 2026-09-25
     via: connector-text
-  notes: 'Connector text: tabs render as plain H1s (# Overview, # Notes, # Template Letter, # Fresno EHCRP example, # Pre-application); TOC links all point to ?tab=t.0, so no tab ids; images dropped; comments come with thread status + timestamps. Contains team emails.'
+  notes: 'Connector text: tabs render as plain H1s (# Overview, # Notes, # Template Letter, # Fresno EHCRP example, # Pre-application); TOC links all point to ?tab=t.0, so no tab ids; images dropped; comments come with thread status + timestamps. Contains team emails. 2026-09-25: the EHCRP Round 2 folder also holds per-site Google Docs ''Ambrose Memorial Park EHCRP'' (1XUQxpLCwFCkANNubP55I0KwMWHjLGHkhyTxcv45irWc) and ''Ambrose Center Park EHCRP'' (1g-L8522IMdJjtdRRba5IHoPQLvjQbeqRR2U3iGqsJhY), created 2026-08-11 and edited 2026-08-18, which match the two DOCX exports; an archived predecessor is ehcrp-r2-working-doc-archive.'
 
 - id: ehcrp-r2-ambrose-memorial-docx
   title: Ambrose Memorial Park EHCRP.docx (export of the working doc, Memorial Park pre-app)
@@ -64,10 +64,11 @@
   kind: proposal-draft
   status: acquired
   priority: 2
-  location: {system: local}
+  location: {system: gdrive, id: 1SIMAZj0GEO1mGwA9dU5SujxFvAAhIVBqUvVhuqMQSXM, url: https://docs.google.com/document/d/1SIMAZj0GEO1mGwA9dU5SujxFvAAhIVBqUvVhuqMQSXM/edit, mime: application/vnd.google-apps.document, size: 9995, modified: 2026-08-11, parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI}
   relevance: {programs: [cnra-ugg-2026], funders: [cnra], places: [bay-point], note: "Second funder, same community: tests funder-neutral library."}
   local: {path: "projects/EHCRP Round 2/2026 URBAN GREENING GRANT PROGRAM CONCEPT PROPOSAL.docx", sha256: 6847c2448951a594d5eb28f62782f98753a61671921788d843bd9cd6c393cb1c, acquired: 2026-09-25, via: manual}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  notes: "Live Google Doc located 2026-09-25 (s-2026-09-25-gdrive-02) in the EHCRP Round 2 folder; the local DOCX is its export. James's related drafts: willow-pass-bus-stop-gi-concept (transit stops) and ambrose-memorial-ugg-concept-form (Ambrose Memorial Park UGG concept)."
 
 # ─── EHCRP program reference material ───────────────────────────────────────────────
 - id: ehcrp-r1-awards-list
@@ -141,7 +142,7 @@
   location: {system: gdrive, id: 19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-, url: "https://drive.google.com/file/d/19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-/view", mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, size: 224990, modified: 2026-09-01, parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI}
   relevance: {programs: [ehcrp-r2], note: "Program-published partner-seeking list; entity registry candidates (M3)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
-  notes: 'Full-row CSV-like dump. Many third-party contact emails and phones: restricted (DR-0004); use only org names and interests for the entity registry. Public copy also at https://lci.ca.gov/wp-content/uploads/20251231-EHCRP_Round_2_Partnership_Survey_Responses.xlsx'
+  notes: 'Full-row CSV-like dump. Many third-party contact emails and phones: restricted (DR-0004); use only org names and interests for the entity registry. Public copy also at https://lci.ca.gov/wp-content/uploads/20251231-EHCRP_Round_2_Partnership_Survey_Responses.xlsx. Duplicate copies (2026-09-25): "kj''s Copy of ..." 1JrjzgUbTt9sbyjbSUzNM2_oJI2HQkVHf (R2 folder) and ''ARCHIVE 20251231-...'' 11kdTM2lLVW3rAguxt4v2Prb84GXr-mRb (kj).'
 
   local:
     path: sources/ehcrp-r2-partnership-survey/ehcrp-r2-partnership-survey.md
@@ -154,7 +155,7 @@
   status: include
   priority: 1
   location: {system: gdrive, id: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI, url: "https://drive.google.com/drive/folders/1rNOExjsW83KUu44nKimsNrn3oxiTfzRI", mime: application/vnd.google-apps.folder, modified: 2026-07-22}
-  relevance: {programs: [ehcrp-r2], note: "Walk children (parentId sweep) for anything not yet inventoried."}
+  relevance: {programs: [ehcrp-r2], note: "Walked 2026-09-25 (s-2026-09-25-gdrive-02). New: live Google Docs for both Ambrose pre-apps (ehcrp-r2-ambrose-memorial-gdoc, ehcrp-r2-ambrose-center-gdoc). Subfolders 'Ambrose Memorial Park' and 'Ambrose Center Park' are empty. Re-walk before the deadline."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
 
 - id: ehcrp-r2-meaningful-direct-benefits
@@ -259,6 +260,7 @@
   hint: "Harm Reduction Q1 'High' band requires community voices. Possible sources: ARPD/CCRCD engagement records, Garden Club, CSAHC, prior surveys. Needs the lead writer or partners."
   relevance: {programs: [ehcrp-r2], places: [bay-point], note: "The biggest rubric gap in current drafts (DR-0002)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  notes: 'Candidate found 2026-09-25: ambrose-resilience-hub-survey (35 responses, James, March 2026). Check for quotable free-text answers and consent before use.'
 
 # ─── Hyphae past proposals and project material (library candidates) ───────────────
 - id: fresno-rfp-hyphae-2024
@@ -364,10 +366,10 @@
 - id: epa-enhanced-aq-narrative-form
   title: EPA Enhanced Air Quality Application Narrative Form (shortcut)
   kind: proposal-draft
-  status: discovered
+  status: exclude
   priority: 2
   location: {system: gdrive, id: 1qntNAYHIhkobEr-K-0SNrkEUbrKeztha, url: "https://drive.google.com/file/d/1qntNAYHIhkobEr-K-0SNrkEUbrKeztha/view", mime: application/vnd.google-apps.shortcut, modified: 2023-05-23, owner: ivan@hyphae.net}
-  relevance: {funders: [epa], note: "Shortcut — resolve target before triage."}
+  relevance: {funders: [epa], note: "Shortcut only; probable target (same title) recorded as epa-enhanced-aq-narrative-gdoc (1jCw1-u-8uLjSW6fmf9YvpeA9l4Q91tH0SG4HtgmikMU)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
 
 - id: bay-area-refinery-corridor-workplan
@@ -402,7 +404,7 @@
   status: defer
   priority: 3
   location: {system: gdrive, id: 1JmPwYmUJe-fGx2rDx1XybUcjAvWwhI4v, url: "https://drive.google.com/file/d/1JmPwYmUJe-fGx2rDx1XybUcjAvWwhI4v/view", mime: application/pdf, size: 1353985, modified: 2026-04-24, parent: 1StMvI0XAS6JNvjE5WjRYivu2D170Peuw}
-  relevance: {note: "Prior solicitation with a Claude gap analysis alongside; useful as an M5 test case."}
+  relevance: {note: "Prior solicitation with a Claude gap analysis alongside; useful as an M5 test case. Hyphae's submittal: sacramento-plg-submittal-2026."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
 
 - id: nueva-planning-study-rfp
@@ -412,6 +414,8 @@
   priority: 3
   location: {system: gdrive, id: 1TUtR4DlJ7zUfrqot1lUFFKYLwBuu19krewPCxjoqbhU, url: "https://docs.google.com/document/d/1TUtR4DlJ7zUfrqot1lUFFKYLwBuu19krewPCxjoqbhU/edit", mime: application/vnd.google-apps.document, size: 6804527, modified: 2026-09-04, parent: 1eRWKd1cj2I3ReHlXY4kOLZDBMfWLjA_d}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  relevance:
+    note: RFP for the Nueva planning study; Hyphae's response letter and scope are nueva-corridor-hyphae-letter-2026.
 
 - id: stockton-rfp-review
   title: Stockton RFP Review
@@ -428,8 +432,9 @@
   status: include
   priority: 1
   location: {system: gdrive, id: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS, url: "https://drive.google.com/drive/folders/11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS", mime: application/vnd.google-apps.folder, modified: 2023-11-15, owner: brent@hyphae.net}
-  relevance: {programs: [ehcrp-r1], note: "Possibly the EHCRP Round 1 (2023–24) application effort. Walk children next sweep."}
+  relevance: {programs: [ehcrp-r1], note: "YES, this is Hyphae's EHCRP Round 1 effort (2024, despite the '2023' name): it holds the R1 Full Application draft for CEJC's COMMON project (ehcrp-r1-cejc-common-application-draft), the Hyphae EHCRP pitch deck, the R1 small-grant awardee list, and research/GIS inputs. Walked 2026-09-25 (s-2026-09-25-gdrive-02)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  notes: 'Walked in s-2026-09-25-gdrive-02: 3 pages, ~95 children (mostly images, icons, research PDFs). Submission status of the CEJC application unconfirmed; CEJC is absent from the 2025-05-29 R1 awards list.'
 
 - id: depave-la-report
   title: DePave_LA_260209 (LA County depave / green infrastructure strategy)
@@ -439,6 +444,7 @@
   location: {system: gdrive, id: 1guo5m1EY7c9ZUk7HX5XCexrecwxp6ARh, url: "https://drive.google.com/file/d/1guo5m1EY7c9ZUk7HX5XCexrecwxp6ARh/view", mime: application/pdf, size: 28342694, modified: 2026-06-23, owner: ivan@hyphae.net}
   relevance: {places: [los-angeles-county], projects: [la-depave], note: "Working doc research priority: 'Review Chapters 5 p.129+ of the Depave LA report'. Source for the LA Depave project-case chunk."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  notes: 'Editable final Google Doc: depave-la-report-final-gdoc (1RtDqgiLROps4xz2FAmlgiK6FyDcWa9KgUDpKEPbVP-U), found 2026-09-25.'
 
 - id: ebd-approaches-deck
   title: "Evidence-based design approaches: Modeling, measurement, and design at Hyphae Design Lab (deck)"
@@ -448,6 +454,7 @@
   location: {system: gdrive, id: 1-QSkLPP2qUm4-P_tz9NLTMBK5S4gq3M8GVhKl5KyJIk, url: "https://docs.google.com/presentation/d/1-QSkLPP2qUm4-P_tz9NLTMBK5S4gq3M8GVhKl5KyJIk/edit", mime: application/vnd.google-apps.presentation, size: 277048545, modified: 2026-09-08}
   relevance: {note: "Current firm capabilities narrative; capability/method chunks. Text export only."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  notes: PDF export 'Evidence-based design approaches_ ... .pdf' 1d_reSVB6_H3gzveWB0vtcXDQRv5vHN4J (71 MB, 2026-09-08); working copy 'Copy of Evidence-based design approaches...' 1H7MLp53JD6COa4f5h-pgD1aGRj96EesUmfpesa7yHow (2026-09-18). Found in 02 Leads walk (s-2026-09-25-gdrive-02).
 
 - id: central-valley-extreme-heat-deck
   title: Central Valley Extreme Heat (deck)
@@ -516,6 +523,7 @@
   hint: "Action item in the 2026-08-07 meeting notes: 'James Hansen will provide or adapt his prior heat-focused application language'. Ask James, or sweep Drive for docs he owns."
   relevance: {programs: [ehcrp-r2], note: "Likely the best-matched existing heat narrative."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  notes: "2026-09-25 sweeps s-2026-09-25-gdrive-02..04 (owner='james@hyphae.net' 2 pages + 'extreme heat' full-text since 2025, 3 pages): NO James-authored heat application found. James's Drive holds Ambrose/UGG material (ambrose-memorial-ugg-concept-form, willow-pass-bus-stop-gi-concept, ambrose-center-park-project-notes, ambrose-resilience-hub-survey) and a non-heat DPR application (spm-2027-pesticide-application-james). The prior heat-application language found is by others: ehcrp-r1-cejc-common-application-draft (Brent, EHCRP R1 2024), fresno-rfp-hyphae-2024, ehcrp-r2-early-doc-2025 (Max), greening-africatown-final-submission, resilient-philadelphia-grant-2025. His prior heat work may predate Hyphae or live outside the shared Drive. Still ask James."
 
 - id: past-hyphae-proposals-overview
   title: Past Hyphae proposals (the empty 'Past Proposals' section of the working doc)
@@ -525,6 +533,7 @@
   hint: "Sweep Drive by funder: CalFire UCF, SGC TCC, CARB AB 617, MTC PCA, Caltrans, NSF, EPA; the pilot boilerplate names Prescott, Stockton, LA Depave, Oakland STEP, SW Medical District, AdaptOS, Green Heart."
   relevance: {note: "Each named project case needs its primary source for fact-checking (M3)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  notes: "Strong candidate found 2026-09-25: past-proposals-doc ('Past Proposals', mei, 27 MB, in the Current Proposals folder). Not marked resolved until its content is checked. Primary sources now inventoried for Prescott, Stockton, Oakland STEP, Green Heart, DePave LA, AdaptOS (NSF) and Richmond UGG (sweep s-2026-09-25-gdrive-03)."
 
 - id: urban-greening-2026-guidelines
   title: CNRA Urban Greening Grant Program 2026 Guidelines (incl. Appendix D definitions)
@@ -1096,3 +1105,2110 @@
     date: *id001
     by: claude-opus-5-5
     sweep: s-2026-09-25-web-02
+- id: ehcrp-r1-cejc-common-application-draft
+  title: 'Extreme heat grant research (EHCRP): EHCRP R1 Full Application draft, CEJC lead / COMMON project (2024)'
+  kind: proposal-draft
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 16s8-q0WVHwTUsI5KY5n710yKi9EdgaD6V6Z9qKrFiog
+    url: https://docs.google.com/document/d/16s8-q0WVHwTUsI5KY5n710yKi9EdgaD6V6Z9qKrFiog/edit
+    mime: application/vnd.google-apps.document
+    size: 6635520
+    modified: 2024-10-30
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    places:
+    - central-valley
+    - imperial-valley
+    - stockton
+    - fresno
+    note: "Hyphae's EHCRP ROUND 1 effort: the R1 Full Application Form (due 2024-05-07) transcribed with drafted answers for the California Environmental Justice Coalition (lead) 'Community-led Microclimate Observation Network (COMMON)', Hyphae as technical partner with JPL and UC Merced, Central/Imperial Valleys (Stockton, Fresno). Answers exist for Project Vision/Description; also a 2024-04-24 CEJC proposal summary, partner lists, and research links. Direct precedent for EHCRP R2 Project Description, Partnership and Harm Reduction answers and for Hyphae's heat-monitoring/digital-twin capability chunks. CEJC is not on the 2025-05-29 R1 awards list, so it was probably unfunded or not submitted."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Content read 2026-09-25 (text export ~172k chars) to answer 'is this the R1 application?'. Snapshot copy 'Copy of Extreme heat grant research (EHCRP)' 1WJyRNYIvVsKbWzjYyZplSOwZeJHY_TIVjcJwLDIIeIA (2024-05-08, brent) is the same doc at an earlier date. Submission status unconfirmed: ask Brent."
+- id: hyphae-ehcrp-prez-2024
+  title: Hyphae_EHCRP+prez (deck, 2024)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1AVtB2oOjZYFDN4xwMRHNtb958uNW87_Dw1yOlBJznp8
+    url: https://docs.google.com/presentation/d/1AVtB2oOjZYFDN4xwMRHNtb958uNW87_Dw1yOlBJznp8/edit
+    mime: application/vnd.google-apps.presentation
+    size: 303804920
+    modified: 2024-11-25
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    note: "Hyphae's EHCRP pitch deck from the R1 period: heat capability and approach narrative (capability/method chunks, Project Description framing). Very large; text export only."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: hyphae-extreme-heat-deck-2024
+  title: Hyphae-Extreme Heat (deck, 2024)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 18YRsx-AscESDBwq-Cs6625niKsOi1DnwrWfctaAk47s
+    url: https://docs.google.com/presentation/d/18YRsx-AscESDBwq-Cs6625niKsOi1DnwrWfctaAk47s/edit
+    mime: application/vnd.google-apps.presentation
+    size: 201138817
+    modified: 2024-09-17
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: Firm extreme-heat capability deck (2024); source for heat method/capability chunks and project-case one-liners. Text export only.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Copies: 'Copy of Hyphae-Extreme Heat' 11wnSuQ8Q2K40gdxVu4ARVyUyP9hih7iH8W-RsU5CG6A (max, 2024-09-05) and 152dXOFrDRkUrDCN5OB26UwL4MJLBpVl2QyNTPYkda5E (merissa, 2024-06-07)."
+- id: hyphae-design-lab-deck-2024
+  title: Hyphae Design Lab (deck, 2024)
+  kind: presentation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1IZ-VxkkGGhb5HDMAs6gXHFqq1jtir0-WBhL92e2rR2k
+    url: https://docs.google.com/presentation/d/1IZ-VxkkGGhb5HDMAs6gXHFqq1jtir0-WBhL92e2rR2k/edit
+    mime: application/vnd.google-apps.presentation
+    size: 146803878
+    modified: 2024-08-01
+    owner: merissa@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: General firm deck; superseded by ebd-approaches-deck for capability chunks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: ehcrp-r1-small-grant-awardees-2024
+  title: 20241104-Small_Grant_Awardees_EHCRP_R1.pdf
+  kind: award-list
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1Z0TYdTtihzu6_d9ikbV6Ix4Huv-dDmM6
+    url: https://drive.google.com/file/d/1Z0TYdTtihzu6_d9ikbV6Ix4Huv-dDmM6/view
+    mime: application/pdf
+    size: 110823
+    modified: 2024-11-10
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    note: R1 small-grant awardees (Nov 2024 tranche); complements ehcrp-r1-awards-list; shows what reviewers funded at small scale.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: arvin-lamont-veg-barrier-rfp-2024
+  title: arvin-lamont-vegetative-barrier-rfp-nov_2024_final.pdf
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1dS2EoM1rTzinmzgtuTchUoCYAEuTlcmA
+    url: https://drive.google.com/file/d/1dS2EoM1rTzinmzgtuTchUoCYAEuTlcmA/view
+    mime: application/pdf
+    size: 8305359
+    modified: 2024-11-26
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    places:
+    - arvin
+    - lamont
+    note: RFP behind arvin-lamont-veg-buffer-proposal; keep for M5 comparison.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: city-heat-plan-rfps-2024
+  title: RFP_Extreme-Heat-Plan-FINAL-2.pdf (+ Escondido Extreme Heat Action Plan RFP)
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1ZCcFcoDC9594SZL_iOilx9mX29BTfi1R
+    url: https://drive.google.com/file/d/1ZCcFcoDC9594SZL_iOilx9mX29BTfi1R/view
+    mime: application/pdf
+    size: 314860
+    modified: 2024-11-10
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: Municipal extreme-heat plan RFPs Hyphae looked at in 2024; solicitation-model test cases.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: 'Sibling: Escondido Extreme Heat Action Plan RFP (PDF).pdf 1ZI7VbbVz2m_0YGcGGf8e3HyyzQD4QIgo.'
+- id: communicating-heat-risk-guide
+  title: Communicating-Heat-Risk.pdf
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1ZNQ5hZVbciljPPamV8dsfN2Gsq1Flsm2
+    url: https://drive.google.com/file/d/1ZNQ5hZVbciljPPamV8dsfN2Gsq1Flsm2/view
+    mime: application/pdf
+    size: 5638899
+    modified: 2024-11-11
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: Heat-risk communication guidance; possible citation for Harm Reduction outreach measures.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: eh2023-heat-research-pdfs
+  title: extremeheatpublichealthreportfinal_09302020.pdf (+ ~25 research PDFs in the 2023 heat folder)
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 11aVoLdhpy-jbYIoAoM6ZiAsAUHoOeNdi
+    url: https://drive.google.com/file/d/11aVoLdhpy-jbYIoAoM6ZiAsAUHoOeNdi/view
+    mime: application/pdf
+    size: 625344
+    modified: 2024-02-18
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: Background literature collected for the R1 effort (heat-health, MRT simulation, co-exposure mortality, heat-resilient schools). Candidate citations if a draft needs them; not prose.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: 'Group. Others: rahman-et-al-2022 co-exposure 118Ut6VNSZ7AL70kw8F7Gzk7PXRcFUlVk; s41467-023-40599-x 119n-R7Cidio4-j7RNiKmfBTmi0g4RbG1; Protecting-Californians-with-Heat-Resilient-Schools 11tE5VGlQBUSpXjeQI97Vz32wpgoIyg9F; MRT simulation method 1CqkiDajpJb4rL_Fs7q0QKopAjCYQdZya; popova-2011 EPPM 1AQbEzB9Racf_CKjURqyumlG5qUPNlzg6; Kantor/Unger 2011 1Cme4fRyVjttP9b7riq7Z95xNOheFcCcC; 10.2478_s13533-011-0010-x 1CU9Ogv2utrhbrX6pxeB6XbWUWun8AyeE (dup 18mu_5ITQ5n7bh2KQgD69rkOrAnw0dUvr); BS2019_210301 1CsxzY_o-BntelS_gbDqS5jWhoBZUIueA; FULLTEXT01 1CWCvVIR_okKrVZnnRMydIM3Ks5jWr0eg; 20171006 1G82b_qs69eYukY9xYx7NeFHQycaSBS0o; Green Sustainable Parking Guide 11abLWL1iF6Mskn1zytgAvRnfEXmf0uAQ (dup 11b3ga7Mrikv9xHdwf4ZRVBz4zhsjyd8p); CCHI E-Code fact sheet 12wFb_DO4XegCnrukUl5tg6fY6VOKHl7F; VPCcart 12J-0IkYs_J8yDzn9oWvOgGaYoYUn1_bN; EJ TCTAC project summaries 18tf9NscpeS-hEGaPFasckSD-gancML0r; Stockton SRTS Plan 2017 19weqeZFXAMGUJ1vVutom8pJVRj0tC9sd; 2020-21-TRANS 14ldOpIh0DNDWShyhlN9WfHQ8Fzu4MqTb; Imperial OWTS ordinance 14s0dCDESdZ4da_8_6noG-8bdCmzRk7Km (dup 14tDuK_WvZ_YpU025-iPpfp5Ke8AXo0kR); Oil & gas LA County 14qa76mmxUa1CAkGffQcn30AiwLiG46mS; FY2425_ORG0650_BCP7630 1ZFiVbPxviquBVA0p5Xfqcu037yN0P5fD (dup 1ZHpv72cGNy-8xNmJf4nPFc6FgOXaIZZa).'
+- id: x-eh2023-images-icons-gis
+  title: icons folder + image/GIS files in the 2023 heat folder
+  kind: other
+  status: exclude
+  location:
+    system: gdrive
+    id: 1noy28uEah5803ciAiBfX9Kid7z6ImcJE
+    url: https://drive.google.com/drive/folders/1noy28uEah5803ciAiBfX9Kid7z6ImcJE
+    mime: application/vnd.google-apps.folder
+    modified: 2024-05-05
+    owner: brent@hyphae.net
+    parent: 11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS
+  relevance:
+    note: 'Excluded: Noun Project SVG icons (~100+), product/figure images (webp/jpg/png), and GIS layers (sb535_disadvantaged1/2.gpkg, California_Important_Farmland_2020.geojson 506 MB, Justice40 DAC geojson). Not prose; GIS layers are public and re-downloadable.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: 'GIS ids: 1f5yEFMief0Mo-sur6yVk7HkFGPZSG4WE, 1_J3U7eW1yyggfOnv9b3gbTf3Hx5PYknc, 1QVPi5-fvJh_Mb4fkk9VKVTBnaf-ZBXbv, 147510maHfmAdsXzPjDBYTfTn1aBPxsWZ. Icon folder paged once (50 of more) then skipped.'
+- id: ehcrp-r2-ambrose-memorial-gdoc
+  title: Ambrose Memorial Park EHCRP (Google Doc, EHCRP Round 2 folder)
+  kind: working-doc
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1XUQxpLCwFCkANNubP55I0KwMWHjLGHkhyTxcv45irWc
+    url: https://docs.google.com/document/d/1XUQxpLCwFCkANNubP55I0KwMWHjLGHkhyTxcv45irWc/edit
+    mime: application/vnd.google-apps.document
+    size: 4879070
+    modified: 2026-08-18
+    parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    places:
+    - bay-point
+    - ambrose-memorial-park
+    note: Live Google Doc behind the 'Ambrose Memorial Park EHCRP.docx' export (created 2026-08-11, last edit 2026-08-18). Likely the copy the team is authoring in; resolves part of the 'which copy is canonical' question on ehcrp-r2-working-doc. Re-acquire via connector-text before drafting.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: ehcrp-r2-ambrose-center-gdoc
+  title: Ambrose Center Park EHCRP (Google Doc, EHCRP Round 2 folder)
+  kind: working-doc
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1g-L8522IMdJjtdRRba5IHoPQLvjQbeqRR2U3iGqsJhY
+    url: https://docs.google.com/document/d/1g-L8522IMdJjtdRRba5IHoPQLvjQbeqRR2U3iGqsJhY/edit
+    mime: application/vnd.google-apps.document
+    size: 4876003
+    modified: 2026-08-18
+    parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    places:
+    - bay-point
+    - ambrose-center-park
+    note: Live Google Doc behind 'Ambrose Center Park EHCRP.docx'; sibling pre-app for the Center Park site. Compare with the Memorial Park doc before treating either as canonical.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: fresno-extreme-heat-budget-2024
+  title: Fresno Extreme Heat Hyphae Budget Hyphae.pdf
+  kind: proposal
+  status: defer
+  priority: 2
+  location:
+    system: gdrive
+    id: 1bclud1Aq5AJ8DKSKjzof_k9_03S9lFRz
+    url: https://drive.google.com/file/d/1bclud1Aq5AJ8DKSKjzof_k9_03S9lFRz/view
+    mime: application/pdf
+    size: 161696
+    modified: 2024-11-27
+    owner: ivan@hyphae.net
+    parent: 1pG4QUiGHFsiCxoQYGVIDncxtJ0cilUcJ
+  relevance:
+    places:
+    - fresno
+    note: Budget attachment of the submitted Fresno 2024 heat proposal; reference for EHCRP workplan/budget workbook task costing.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: adaptos-platform-budgets
+  title: Hyphae_AdaptOS_Platform_Budgets (spreadsheet)
+  kind: dataset
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1szR85wo6CH5BNqR7lDKAp7_LP588OXMeIw100GfTgr4
+    url: https://docs.google.com/spreadsheets/d/1szR85wo6CH5BNqR7lDKAp7_LP588OXMeIw100GfTgr4/edit
+    mime: application/vnd.google-apps.spreadsheet
+    size: 853605
+    modified: 2026-09-22
+    owner: brent@hyphae.net
+    parent: 1pG4QUiGHFsiCxoQYGVIDncxtJ0cilUcJ
+  relevance:
+    note: Internal AdaptOS pricing/budget workbook; context for budget justifications, not prose.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Exports: '2025-11-05 Hyphae_AdaptOS_Platform_Budgets - TAMU PO1.pdf' 1b8esPCM5G4X0z_cZFUy6Vi2hhS-r1BCb; '... TAMU PO1 - 2025-07-16.pdf' 1miJry5ivIJGMrgJIBFZYK0RGPgvIcehC."
+- id: leads-drive-folder
+  title: 'Drive folder: 02 Leads (parent of EHCRP Round 2, Upcoming Grants, EBD deck)'
+  kind: other
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+    url: https://drive.google.com/drive/folders/1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+    mime: application/vnd.google-apps.folder
+    modified: 2020-05-12
+    parent: 0AM8t-DfHd81NUk9PVA
+  relevance:
+    note: 'Business-development area: holds per-opportunity subfolders (EHCRP Round 2, Nueva corridor, REPAIR_BAAQMD, Sacramento PLG, Urban Greening Grant/Richmond) and lead lists. Walked to depth 2 on 2026-09-25; partner/teaming subfolders not walked.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: community-heat-modeling-routing-decks
+  title: Community AQ & Heat Modeling, Monitoring and Routing (deck, 2024)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1-yJt72IY3BY4IjoSMU7o8raFfFL71hjewj3j36-TV7Y
+    url: https://docs.google.com/presentation/d/1-yJt72IY3BY4IjoSMU7o8raFfFL71hjewj3j36-TV7Y/edit
+    mime: application/vnd.google-apps.presentation
+    size: 138039645
+    modified: 2024-06-28
+    parent: 1emdr467cQDFC0MLMLm-bW4x_CjRVmBvp
+  relevance:
+    note: 2024 pitch (Johns Hopkins) of Hyphae's community heat/AQ modeling, sensing and cool-route service; capability chunks and the harm-reduction 'cool routing' idea for EHCRP.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Sibling: 'Community Heat Modeling, Monitoring and Routing' 1psWDCVKm86SzXzh4ylKIOKPleCHPqEBZXMZTgAS1Eig (miami folder, 2024-05-21)."
+- id: richmond-ugg-proposal-submitted-2021
+  title: UGG Richmond Proposal as Submitted.pdf (CNRA Urban Greening Grant, 2021)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1xSWxwkYssjDGqZ98V8xqIJhxMjurnylo
+    url: https://drive.google.com/file/d/1xSWxwkYssjDGqZ98V8xqIJhxMjurnylo/view
+    mime: application/pdf
+    size: 587397
+    modified: 2021-02-02
+    parent: 1HxLYYfyvLQOgWE8vsu5EmwB89X5bCMf8
+  relevance:
+    programs:
+    - cnra-ugg
+    funders:
+    - cnra
+    places:
+    - richmond
+    note: 'SUBMITTED CNRA Urban Greening Grant proposal (Richmond Parkway, with Groundwork Richmond). Closest prior-round precedent for the Bay Point UGG concept proposal: same funder and program, so its answers map onto the 2026 concept questions.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Found at depth 3 (02 Leads > Urban Greening Grant > Richmond Urban Greening Grant Submitted Proposal); subfolders '2021' 1QUd3fOus4tuQBgjRC8yQJfSssBPerAOK and 'Attachments' 1h6Jc0UA_AspPuL5QLBdQvw9s0nRF1fEq not walked. Related: deck 'Urban Greening Grant: Richmond' 1sy1LCenuMM37w8nj0ZggXlEXoAoCi5EL5y0zKN07S7E, backup deck 1J8CA7qr1TSqrE54GTfBmt2Qc_KOkkehfuZ-RdNKntDw, 'GWR resolution for CNRA.pdf' 1Hkt5MU3LO91TZNyzLLpAkKFb-ll2hqdu, irrigation plan scans 1A19Sp29zTwqE9McP4Lt5e274ANycUukd / 1n5vN_84ZPbNz4W2TWhr5si_gAYHbEyA8."
+- id: richmond-ugg-proposal-gdoc
+  title: 'Urban Greening Grant: Richmond Proposal (Google Doc)'
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1KoQ8Lpa1zyRqJCbYFDafB8B9q4NbdmCozLjjIiwFPg4
+    url: https://docs.google.com/document/d/1KoQ8Lpa1zyRqJCbYFDafB8B9q4NbdmCozLjjIiwFPg4/edit
+    mime: application/vnd.google-apps.document
+    size: 54047
+    modified: 2025-06-02
+    parent: 12k38Unz1tqjginsfPvG4AF_aJJZ74FZE
+  relevance:
+    programs:
+    - cnra-ugg
+    funders:
+    - cnra
+    places:
+    - richmond
+    note: Editable text of the Richmond UGG proposal; connector-text acquirable (the PDF needs manual download). Use to harvest UGG answer chunks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: ugg-program-guidelines-2020
+  title: Uban Greening Program Guidelines (2020 notes doc)
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1JK6cWhEmzIwHgKWcy_uJkkCpAhQgAqgq6gzJAB61538
+    url: https://docs.google.com/document/d/1JK6cWhEmzIwHgKWcy_uJkkCpAhQgAqgq6gzJAB61538/edit
+    mime: application/vnd.google-apps.document
+    modified: 2020-07-07
+    parent: 12k38Unz1tqjginsfPvG4AF_aJJZ74FZE
+  relevance:
+    programs:
+    - cnra-ugg
+    funders:
+    - cnra
+    note: 2020 UGG guidelines notes; superseded by urban-greening-2026-guidelines.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: boston-urban-forest-plan-response-2020
+  title: Boston Urban Greening RFP (response draft, 2020)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1scBeCmkKQvYoMYNWvg_jMSsY4pDEYPqttCfV7_n3BQo
+    url: https://docs.google.com/document/d/1scBeCmkKQvYoMYNWvg_jMSsY4pDEYPqttCfV7_n3BQo/edit
+    mime: application/vnd.google-apps.document
+    modified: 2020-10-22
+    parent: 10IgzJ3ytfSAByqTjOeq0bPeDQODlaDCx
+  relevance:
+    note: 2020 Boston Urban Forest Plan response draft; older urban-forestry qualifications text.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Siblings: 'Urban Greening Vision' 1uP2iNL25DUBUvUy0T26YBaLlc8ocEm_PwcDre2hXQQg; RFP 'Urban Forest Plan RFP_2020.pdf' 1DUrQG9P3qmc2FPT8QkBro4mZLLyBTodf."
+- id: nueva-corridor-hyphae-letter-2026
+  title: Hyphae_Letter_Nueva_Corridor (proposal letter, 2026)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 17bDFCGYUraW30jakqo5mGHzmHLdtcghKnsoa9512uY4
+    url: https://docs.google.com/document/d/17bDFCGYUraW30jakqo5mGHzmHLdtcghKnsoa9512uY4/edit
+    mime: application/vnd.google-apps.document
+    size: 190538
+    modified: 2026-09-08
+    parent: 1eRWKd1cj2I3ReHlXY4kOLZDBMfWLjA_d
+  relevance:
+    note: Recent (Sept 2026) Hyphae proposal letter plus detailed scope for the Nueva planning study; current firm-qualification and scope-of-work language.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Siblings: Ivan's earlier draft 1eOntJwSVTvINrWpt4jH7ovkQVIS47jso9WxpbVUmBfo; 'Detailed Scope of Work — Nueva Nueva Planning Study' 1e_nJlF6j4nZy6-yeFZXFbLusfKs7hQcnHKwvTqLFZlQ; RFP docx copy (james) 1NkYBYupfv0i0bO8eLGjIzhtFJu5uSLBh. RFP itself is nueva-planning-study-rfp."
+- id: sacramento-plg-submittal-2026
+  title: Sacramento Parking Lot Greening & Depaving - Full Submittal Package (2026)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1AbMMuP6d3n7RDa8YhUtba1Ha5hdc7sk4J0ALNhAdyeY
+    url: https://docs.google.com/document/d/1AbMMuP6d3n7RDa8YhUtba1Ha5hdc7sk4J0ALNhAdyeY/edit
+    mime: application/vnd.google-apps.document
+    size: 8226
+    modified: 2026-04-24
+    owner: brent@hyphae.net
+  relevance:
+    places:
+    - sacramento
+    note: April 2026 SOQ/work plan for Sacramento's Parking Lot Greening Guidebook RFP (G15252000); recent depave/greening qualifications and work-plan chunks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Sibling: 'DRAFT: Sacramento Technical Proposal (SOQ & Work Plan)' 1o6fmCD4czyAMLBwee6yo5AJhzwdnBtRKHQTGC7kirk0. Folder 1StMvI0XAS6JNvjE5WjRYivu2D170Peuw also holds Addendum 1 1r0UiYVKKEUX-cuQYcIhcvaLSGBSms6df, Q&A 1oeqfTxTqXbKTV4_zsiZzmSMqSU9dUzFw, 10-H Form 1xdA4fraaXPFmqoUnTcJAsUT4zng7z7q3, invoice template 1iPcfr0vMV8bq3yPakTZe24NvIzwOXg5P, bidders list 1TYzBtMCkH387GcaOlOtNUnWKA6WHog3rXoJsXqwTup8, Claude gap analysis 1UwcWIZMzygdGOMb9d7DQfVk3TDIrsRmQwexM3EK717M."
+- id: repair-benicia-project-narrative-2026
+  title: Benicia_26LCB33_Project Narrative.docx (BAAQMD REPAIR application, 2026)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1GKYXROcABPv55fmgVI7pFJjLg9kC3FrI
+    url: https://drive.google.com/file/d/1GKYXROcABPv55fmgVI7pFJjLg9kC3FrI/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 349071
+    modified: 2026-05-29
+    parent: 1znUTecwJ8Gz-ucuyFiM9yaFqrxtY0C-O
+  relevance:
+    funders:
+    - baaqmd
+    places:
+    - benicia
+    note: May 2026 BAAQMD REPAIR application narrative (Benicia, with community partners). Recent, nearby geography (Carquinez strait), air-quality plus community-partnership prose; chunks for Partnership and community engagement answers.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Siblings in 'REPAIR Working Application Documents': Overall Narrative 107XBgtp9RwmmjekX0KinXDi_MeBpBnMu, Plan 11vvZTRDiCmPzv4kwKvuJBQnOg_PVnu7q, References 1plhNsQXr00ei3eqFAAPaYiq3gc-Pu2kY, Budget 1H1XfP-i7DqPS8bYQI-WAbHTBx9iNHETV, Application Summary 12WZges9rmCMJl0YWMNfVSn9Q8dQJ2gfx, SOW 11D8tn02d2z3hWMMye4-EVzgnbP8bbdRy. Financial attachments are x-repair-financial-attachments."
+- id: repair-grant-proposal-notes
+  title: REPAIR Grant Proposal and Notes (working doc, 2026)
+  kind: working-doc
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1Bb87EBrHt4i21wNaYC2AYTofzVvrbSBcsmY1gzMKlHk
+    url: https://docs.google.com/document/d/1Bb87EBrHt4i21wNaYC2AYTofzVvrbSBcsmY1gzMKlHk/edit
+    mime: application/vnd.google-apps.document
+    size: 16553078
+    modified: 2026-05-29
+    parent: 1HXCMOfl7Weeu5DKh9Pu08yfeG0DbpX6Q
+  relevance:
+    funders:
+    - baaqmd
+    places:
+    - benicia
+    note: Working doc behind the REPAIR application; likely has long/short variants of narrative answers. Contains notes, so treat as context plus draft source.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: 'REPAIR_BAAQMD subfolders not walked: REPAIR_Budget, REPAIR_Outreach, REPAIR_Other_Docs, REPAIR_Research, REPAIR_BAAQMD_Material; shortcuts TAC_Package 1lgz4WwE00zgKQf2safZ4CwYT92l-o6hf, REPAIR_CEERP 1qZGOGMY-upZ9WUaYvPePhooYOlNpJncR.'
+- id: x-repair-financial-attachments
+  title: Benicia_26LCB33 financial attachments (Hyphae/OCE/CAMN financial statements, 990s, budgets, IRS letters)
+  kind: other
+  status: exclude
+  location:
+    system: gdrive
+    id: 16Te7Inz3Sl0E_RV4W_ZmmRP5aks0nIPx
+    url: https://drive.google.com/file/d/16Te7Inz3Sl0E_RV4W_ZmmRP5aks0nIPx/view
+    mime: application/pdf
+    size: 306176
+    modified: 2026-05-29
+    parent: 1znUTecwJ8Gz-ucuyFiM9yaFqrxtY0C-O
+  relevance:
+    note: 'Excluded: organizational financial statements, 990s, IRS letters and forms for Hyphae and partners. Admin/financial, not prose; partner financials are sensitive.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: ~25 files in 1znUTecwJ8Gz-ucuyFiM9yaFqrxtY0C-O named Benicia_26LCB33_*Financial*, *990*, *Budget*.pdf/xlsx, *IRS*, *501(c)3*, *Agreement to Terms*, FORM_Agreement to Terms; plus folders Hyphae financials / CAMN financials / OCE financials.
+- id: carb-tribe-cbo-ej-research-application-2023
+  title: Tribe and CBO Application to Co-Develop Environmental Justice Research with CARB (2023)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1ZbYVk1d4lf_1FSiFvz-hyWcepPrs06a9yG2QIQdXxRY
+    url: https://docs.google.com/document/d/1ZbYVk1d4lf_1FSiFvz-hyWcepPrs06a9yG2QIQdXxRY/edit
+    mime: application/vnd.google-apps.document
+    size: 3816
+    modified: 2023-11-09
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: Short 2023 CARB application stub; small.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: baltimore-data-day-deck
+  title: baltimore data day presentation (deck, 2024)
+  kind: presentation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 19ecethqe4UoKer3UsHCL0_PVrRaaBlSEigs-HsmXIHc
+    url: https://docs.google.com/presentation/d/19ecethqe4UoKer3UsHCL0_PVrRaaBlSEigs-HsmXIHc/edit
+    mime: application/vnd.google-apps.presentation
+    size: 121160935
+    modified: 2026-02-03
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: 2024 conference deck; possible capability one-liners.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: pptx export 1mcQ8_EX74B-8ER4CpsfbCpERW4UlsM6R.
+- id: campus-heat-lead-pipeline
+  title: campus-heat-lead-pipeline.xlsx (2026)
+  kind: dataset
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1gWL-LM-Y6Y3ddoc2d_qzqgfTnLl3Hw5R
+    url: https://drive.google.com/file/d/1gWL-LM-Y6Y3ddoc2d_qzqgfTnLl3Hw5R/view
+    mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    size: 28062
+    modified: 2026-03-03
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: Business-development lead list for campus heat work; context only (may contain contacts).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: adapt-oakland-vision
+  title: Adapt Oakland Vision (As) (2020)
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1PlmCDfPAO9pP698kERWqzUF1lREi0sA6p8F48nR7P3k
+    url: https://docs.google.com/document/d/1PlmCDfPAO9pP698kERWqzUF1lREi0sA6p8F48nR7P3k/edit
+    mime: application/vnd.google-apps.document
+    size: 32997
+    modified: 2024-08-28
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: Older Oakland vision text; possible West Oakland / Oakland STEP background.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+- id: rodeo-shoreline-noaa-nofo-2022
+  title: NOAA-NMFS-HCPO-2022-2007354 NOFO (Rodeo Shoreline, with CCRCD)
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 19AnyktQ0LgRvgplp2paUFJwTKc3siT4o
+    url: https://drive.google.com/file/d/19AnyktQ0LgRvgplp2paUFJwTKc3siT4o/view
+    mime: application/pdf
+    size: 327920
+    modified: 2022-10-05
+    parent: 1xGzJhhAvrnLPlWtiACOA95VrFbGhjbJC
+  relevance:
+    note: 2022 NOAA opportunity pursued with CCRCD (the Bay Point UGG partner); a history-of-partnership pointer.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: 'Sibling: Timeline v2.xlsx 1u2NA0kPQaXTp2-hTv7pPXwUGhDmvqJBD.'
+- id: bizdev-outreach-templates
+  title: Outreach Email Templates (+ EJ outreach letter, Outreach doc)
+  kind: template
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 13_XqrN6mrdIzywrWw6KLPL-vrzd7PPkMqEek8d2hgk4
+    url: https://docs.google.com/document/d/13_XqrN6mrdIzywrWw6KLPL-vrzd7PPkMqEek8d2hgk4/edit
+    mime: application/vnd.google-apps.document
+    modified: 2020-07-09
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: Business-development outreach copy (2020–2024); marketing-copy chunks at best.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Siblings: 'Env Justice Outreach Letter' 1V_IKREtx-3157tdGCbhJTThueKd9PlLaG54uN3_Md20; 'Outreach' 1kYGaoT5CsJutyBfXTag7Z1ZWm24KY74SJwmrrVEsn90; 'Copy of EcosystemHealthUtility:prez' 1lRcNl1SWr4dwUSs_VxPx7sKx-HHwWz3lVuJ6dKQdwEs."
+- id: notes-leads-folder-misc
+  title: Viaduct Bridge Notes (+ other short notes in 02 Leads)
+  kind: notes
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1r5z8VSuK_0wg5LOyTQn-MPdst_I3Whu2UJLG2HnXGQM
+    url: https://docs.google.com/document/d/1r5z8VSuK_0wg5LOyTQn-MPdst_I3Whu2UJLG2HnXGQM/edit
+    mime: application/vnd.google-apps.document
+    size: 2910118
+    modified: 2025-05-08
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: Meeting/lead notes; context only.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Also: 'Air monitoring grant due soon!' 1zi3niRA6p9pnUJ-fw-KDx_KfrDDRtao5Pyw9TOnNs4U; 'TTF south dallas parking lot notes' 1I16My2mB_TXWdR-I5FVM23_fLOOswNdRGxNp6qaF6kA; 'Hold for Johns Hopkins ... Transcript' 1aXq0OzkjGR9y0zFGnSXq26jarnvheWmAR7CA7KAZUew (empty)."
+- id: x-bizdev-lead-contact-lists
+  title: Hyphae Contacts and Leads (+ archived lead/contact lists)
+  kind: dataset
+  status: exclude
+  location:
+    system: gdrive
+    id: 1Tt0HmEstYlBHRP75WZajmQcqgLlDIhQIervxahF8Rmw
+    url: https://docs.google.com/spreadsheets/d/1Tt0HmEstYlBHRP75WZajmQcqgLlDIhQIervxahF8Rmw/edit
+    mime: application/vnd.google-apps.spreadsheet
+    size: 1106207
+    modified: 2026-09-01
+    parent: 1Z5tPDAmR90jKZgBvArwDt-bMkg9tynmA
+  relevance:
+    note: 'Excluded: CRM-style contact and lead lists (personal contact details, DR-0004); not proposal prose.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-02
+  notes: "Also: BU copy 1gDh8b6teR9rVQJgHN3vtei5rDHEJi3rxu6Y2eHFW4_g; archive:BD Leads 1S3feDkeLox7cT_L9TtS1HZe4qGYHB_OFFM805Ej62KQ; ARCHIVE (EJ leads) 1yZVTKfRtC3-mbwNZjsLKAwgYpt5ZpA1t5gqsSjiFiyI; Leading Archicts List 1YgTiRgHWkcEvCZt64y651kpM5qkFRsIdv1j9giHkvNc; BB_LinkedIN_Connections.csv 1lshrt2uCTQf3ASsrWA9six45-QEAlawm; NY EJ LEads 1z4EcVuQkpXdNZ11cShbeh9eh5FBOIUuwfeKhTRHl4Hc; shortcut 'Business Development: LEADS' 13dItdvph-Jbdetl97Okpe5FlGNpYQV7O; 0313.mp4 1gRBZ0MyWouW8A99zK4ngY4mSF0fFRdAb; CentralAndWolfeBrochure.pdf 0B1dSxQ7iFUSzcXV6QkRfelpkQm8 (third-party)."
+- id: epa-aq-final-submission-2024
+  title: EPA AQ final submission.pdf (2024)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1r7iRbVx7SpAqp19g984LzO1FxArTbEkJ
+    url: https://drive.google.com/file/d/1r7iRbVx7SpAqp19g984LzO1FxArTbEkJ/view
+    mime: application/pdf
+    size: 4301725
+    modified: 2024-09-21
+    owner: max@hyphae.net
+    parent: 1Yu8-kuYNDPDVmR6xuTCEeVZPrYL6iiR5
+  relevance:
+    funders:
+    - epa
+    note: 'Submitted 2024 EPA air-quality grant (same folder as FINAL EPA DALLAS GREEN SPINE). Federal-format project narrative: monitoring methods, community engagement, outcomes; capability and approach chunks.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Identical-size copies: 1GbfpxBOGlIb-Rtmprf0XFwu88n2Ia4AE (max) and 'EPA_ProjectNarrative.pdf' 1AI2q6or10Fc1pDlFpsBiBlDx1LAIgTfD (juan). Treat as one document until hashes are compared."
+- id: airsense-epa-proposal-2024
+  title: EPA_grant_ProjectNarrative_AirSense.pdf (2024)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1dcIt4iwsvTxQPoL602wKqgJJCBENCb0h
+    url: https://drive.google.com/file/d/1dcIt4iwsvTxQPoL602wKqgJJCBENCb0h/view
+    mime: application/pdf
+    size: 2337759
+    modified: 2024-11-03
+    owner: juan@hyphae.net
+    parent: 17SmnR2ZU9aX31ayoCa9k4HpjQ9_vR8z_
+  relevance:
+    funders:
+    - epa
+    note: 'AirSense EPA project narrative (2024): community sensor-network proposal; method chunks for monitoring and data-sharing, which EHCRP Harm Reduction metrics can reuse.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Siblings: 'AirSense_EPA_Proposal_V4_DF_June24_2024.pdf' 1Fhmz0xtJWUGgK5lDFnvgOgF17_ez0ARW; 'AirSense_Community Engagement Plan_Pingeon.docx' 1rXJEt97eWF7wQZTEcDiCL6SsgdZiDBsk."
+- id: epa-enhanced-aq-narrative-gdoc
+  title: EPA Enhanced Air Quality Application Narrative Form (Google Doc, 2022)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1jCw1-u-8uLjSW6fmf9YvpeA9l4Q91tH0SG4HtgmikMU
+    url: https://docs.google.com/document/d/1jCw1-u-8uLjSW6fmf9YvpeA9l4Q91tH0SG4HtgmikMU/edit
+    mime: application/vnd.google-apps.document
+    size: 117194
+    modified: 2024-10-21
+    owner: ryanhirano18@gmail.com
+  relevance:
+    funders:
+    - epa
+    note: Probable target of the shortcut recorded as epa-enhanced-aq-narrative-form (same title). 2022 EPA Enhanced AQ Monitoring narrative; community AQ monitoring approach chunks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: ccrcd-epa-sfbwqif-narrative
+  title: EPA San Francisco Bay Water Quality Improvement Fund narrative (CCRCD)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1MvX4zkb6MPA_mX3xVcMty-VPFUEeWorHdGel7j97nSM
+    url: https://docs.google.com/document/d/1MvX4zkb6MPA_mX3xVcMty-VPFUEeWorHdGel7j97nSM/edit
+    mime: application/vnd.google-apps.document
+    size: 4465386
+    modified: 2024-11-15
+    owner: clim@ccrcd.org
+  relevance:
+    funders:
+    - epa
+    places:
+    - contra-costa
+    note: 'CCRCD-authored EPA SFBWQIF narrative (2024). CCRCD is the lead on the Bay Point UGG concept, so this gives vetted partner-description and Contra Costa context language for Partnership answers. Partner authorship: record in provenance.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: 'PDF: 1PlloR5pF3vZUqKyI5KES8qVB4zSxrxQ6.'
+- id: arlington-park-ttf-epa-ccg-2024
+  title: Arlington Park_TTF_Texas A&M_EPA Grant_hyphae (EPA Community Change, 2024)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1OiSWgEBztfUW2qnpvzyOSrqr03S-ps4Oh8VqknFBgcY
+    url: https://docs.google.com/document/d/1OiSWgEBztfUW2qnpvzyOSrqr03S-ps4Oh8VqknFBgcY/edit
+    mime: application/vnd.google-apps.document
+    size: 35906944
+    modified: 2025-11-19
+    owner: max@hyphae.net
+    parent: 1Yu8-kuYNDPDVmR6xuTCEeVZPrYL6iiR5
+  relevance:
+    funders:
+    - epa
+    places:
+    - dallas
+    note: Hyphae's section of the Texas Trees Foundation / TAMU EPA Community Change application (Dallas, 2024). Heat and greening in an EJ community; strong analogue for EHCRP Project Description and Lasting Community Benefits.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'TTF-EPA EJ Proposal Task Tracking.xlsx' 1OIgJ375HKs6TNuNeoexOupYvQ56xsORZ; NOFO 'epa-ira-oejecr-ccg-nofo-final-2024-08-06.pdf' 1AQ00V3jqII1OBLHT9qafuwgY6EkM7lj3; community engagement plan recorded as ttf-community-engagement-governance-plan."
+- id: ttf-community-engagement-governance-plan
+  title: Attachment E_Community Engagement_Governance Plan_TTF for review.docx (2024)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1EHX4RgRw8OQp7HZ7ho0eYsz40V4sL1c9
+    url: https://drive.google.com/file/d/1EHX4RgRw8OQp7HZ7ho0eYsz40V4sL1c9/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 675977
+    modified: 2024-11-22
+    owner: laurabrsinc@gmail.com
+    parent: 1Gp-8HnQ7eOAIL9efdSWQTeE1DqPMHYxJ
+  relevance:
+    funders:
+    - epa
+    places:
+    - dallas
+    note: Community engagement and governance plan from the TTF EPA CCG application; template for the EHCRP Partnership and Belonging answers (governance, decision-making, compensation of residents). Partner-authored.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: epa-community-change-nofo-2023
+  title: epa-community-change-grants-notice-of-funding-opportunity-november-2023.pdf
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1ABam2DOrpDvjVsPd8nWC9ENsSUyYzvDm
+    url: https://drive.google.com/file/d/1ABam2DOrpDvjVsPd8nWC9ENsSUyYzvDm/view
+    mime: application/pdf
+    size: 1342691
+    modified: 2023-11-22
+    owner: brent@hyphae.net
+    parent: 19rjzheDAGS-pUbXwCNdhjXeMLI1AUGP3
+  relevance:
+    funders:
+    - epa
+    note: Federal solicitation; M5 test case only.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: tcc-stockton-rising-annual-report-2026
+  title: TCC Stockton Rising Project 2_ Annual Progress Report_Partner (8.2.2025-6.30.2026).pdf
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1NhzMOWgUVF0Uin6ZyRPQRpMXXvwuUhXW
+    url: https://drive.google.com/file/d/1NhzMOWgUVF0Uin6ZyRPQRpMXXvwuUhXW/view
+    mime: application/pdf
+    size: 142514
+    modified: 2026-09-24
+    parent: 1KaGYMW7agsQHTvxytWr9D67ZPG3HqSfz
+  relevance:
+    programs:
+    - tcc
+    funders:
+    - sgc
+    places:
+    - stockton
+    projects:
+    - stockton-rising
+    note: Partner annual progress report for Stockton Rising (SGC TCC) Project 2. Citable, recent outcome facts for the Stockton project case (M3 fact registry).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: west-oakland-tcc-r6-strategy7-urban-greening
+  title: Copy of 07 Urban Greening_Infra Qs.docx (West Oakland TCC Round 6, Strategy 7)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1kVzkF5dQZ3Ii63I8c4YGveHOK7YJ0-O9
+    url: https://drive.google.com/file/d/1kVzkF5dQZ3Ii63I8c4YGveHOK7YJ0-O9/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 316726
+    modified: 2026-09-21
+    parent: 1IkbE-8qMIRcepSxcQnGYu_WbU8J2Hu3N
+  relevance:
+    programs:
+    - tcc-r6
+    funders:
+    - sgc
+    places:
+    - west-oakland
+    note: LIVE (Sept 2026) West Oakland TCC Round 6 Strategy 7 'Urban Greening and Green Infrastructure' answers (OPRF project area greening). Current urban-greening narrative Hyphae is co-writing; overlaps UGG and EHCRP greening language. Watch for cross-application reuse and context leakage.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Siblings: NOTES version 16kxlHSdIpWa8tUgJTs7-sz21E7SJghzU; earlier 1jGn5RhGXjV_2ZGqUZBipBZbQLZF0MyE2 / 1QLlmcmhW7IeRZcJt-XHe8fetZeCWYuF0; Strategy 7 Questions doc 1S2xODb_SIm9oHXw62ofRXgO7Mg0JVOKzMRWN_aZ4hCA; Strategy 7 Urban Greening.xlsx 1XfUO73C52O7vxQXbi0r9pj43JQiA_5Jv / 1qqXjWuHeCwP06s_E9i7nMzFHQCyXMqNu; zip 1ml-Iv7Za-mYsF8FbbOYXoxdcdy2V4DoY. Folder '1kJJ1p6GfjmdRFcN61xjBD64Ltsdno_zl' is marked DON'T USE."
+- id: west-oakland-tcc-r6-application-kit
+  title: TCC Round 6 West Oakland Template.docx (+ checklist, SGC Q&A docs, submissions list)
+  kind: template
+  status: defer
+  priority: 2
+  location:
+    system: gdrive
+    id: 1-EU173JGopM-K9XRgycR6QEKVQGXyjsu
+    url: https://drive.google.com/file/d/1-EU173JGopM-K9XRgycR6QEKVQGXyjsu/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 25316
+    modified: 2026-08-27
+    parent: 1Meujt-s20kkZYn-B30LfhyTXhhwXv9v9
+  relevance:
+    programs:
+    - tcc-r6
+    funders:
+    - sgc
+    places:
+    - west-oakland
+    note: Coordination kit for the live West Oakland TCC R6 application; context for how the team structures multi-partner applications. Not Hyphae prose.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Siblings: West Oakland TCC Checklist.docx 1xrVUQMLSePf2TeWWKCisXGf5l_AeJGbN; 'TCC Rd 6 West Oakland Submissions 6-30-2026.pdf' 1IbwBQtVY5hq5CN_ZMTDPQLLChPK7m418; 'West Oakland TCC — Questions for SGC sept 9' 1apfov6piSFigaLZdHo406HYyhycGP0YcDsYUvYEaEJY; 'Questions for SGC Office Hours 09.22.26' 1s4bBKQpwWIZHbggCBw0civIZr61iJSYDtiDNNaEWcHY; City Letter of Commitment 1hARTmPqXg0vg-YknfUnNghWuUVlvRDQU; Survey Slim 1Og6l7zwdziI1JC3_PsI5wxbeszrr_NvC; Screening Questionnaire responses 1Gq3DFsUBHN4MlV59MkF1gFUcmuvOTLzDTp8ANOWXb6o (contacts); EBALDC Slim Jenkins Strategy 4 draft 1BB48FWZZlefyT029aeP4pgyAzXKA3An4; EB PREC Strategy 2 1_5hMkPwgb-gYJg4dDaxIc87HD0uJIL7VFlhiZPtJnu4; kj meeting-notes distillation 1HSB8JTLRym1_ub7N4DeVY3Fh555Q_Mzy."
+- id: tcc-r6-guidelines-draft
+  title: 20260414-TCC-R6FinalGuidelines-Draft.pdf (+ BAM notes, SGC implementation narrative questions)
+  kind: solicitation
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1jZH7w2SqlnMLZQdpWJ8c8Civw_6C9QYX
+    url: https://drive.google.com/file/d/1jZH7w2SqlnMLZQdpWJ8c8Civw_6C9QYX/view
+    mime: application/pdf
+    size: 1926552
+    modified: 2026-09-14
+    parent: 1R756phwoDiLYKElAgUM45z8UYZtzpHg8
+  relevance:
+    programs:
+    - tcc-r6
+    funders:
+    - sgc
+    note: TCC Round 6 guidelines draft; second live solicitation for the M5 requirements model.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Annotated copies 1Ib0HZ2VJ5g3Q5nkGD6IsnE4wfv-ere3P / 1_EQ-nVAgmIXIZ2_BU-PolLQQyt6WnBtN; 'NEW (SGC published 9/9) Implementation Narrative Questions' 1CFFkO6o4gro8D-YnuByCnmnqIl2JNIlP; TCC R5: Guidelines 1pkuPc4iXsnxnEgfcfwagkdXScQfVXK2yksYRZyNV1Jg, PDG Narrative Questions 1RlCryaBMHhLxXgO65D0Gw5pwWDVUkbyR."
+- id: west-oakland-tcc-2017-woeip
+  title: TCC-PlanningGrantApplication-Workbook_WOEIP (2017, + support letter, SGC summary)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1T5VM-4E33qNRQ33XuGB6_Af9lFeMMQ-CLP1Wupg0R8Q
+    url: https://docs.google.com/spreadsheets/d/1T5VM-4E33qNRQ33XuGB6_Af9lFeMMQ-CLP1Wupg0R8Q/edit
+    mime: application/vnd.google-apps.spreadsheet
+    modified: 2018-02-10
+    owner: megprier@gmail.com
+    parent: 1IyaA6Jt57jUCcg_e0eAL-Pglu_uo8T1a
+  relevance:
+    programs:
+    - tcc
+    funders:
+    - sgc
+    places:
+    - west-oakland
+    note: 2017 WOEIP/BAAQMD West Oakland green-infrastructure TCC planning application; history for the West Oakland project case.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Siblings: ACPHD letter of support 0B8XWHrjIaseLS0hxb2I2MTRJQV8wWmFtLUstR2t0VGcxcXYw; 'SGC Grant Project Summary_CalTrans' 1VVXbXZzyFvGcmM1xSeJ7ezXprefCMI7bY9zUlMy39f4; '[EXTERNAL] - West Oakland - Grant application' (Aclima) 1WkhGdlYwCYINQMe7TCwiu2LmjWAQ7iVeph4dtwYqmUs."
+- id: west-oakland-steps-grant-acceptance-2022
+  title: Agenda Report - West Oakland STEPS Grant Acceptance v2 (2022)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1y__8IAw1iGFGZhaC97VNdCZAyaWWWwd5
+    url: https://drive.google.com/file/d/1y__8IAw1iGFGZhaC97VNdCZAyaWWWwd5/view
+    mime: application/pdf
+    size: 207094
+    modified: 2022-06-24
+    owner: brent@hyphae.net
+    parent: 1kA2MiHkRt9IeBzoezEdhKW4Em_3f53xN
+  relevance:
+    programs:
+    - caltrans-step
+    places:
+    - west-oakland
+    projects:
+    - oakland-step
+    note: 'Public agenda report accepting the West Oakland STEP grant: citable award facts (amount, scope, partners) for the Oakland STEP project case in firm boilerplate (M3).'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Copies: 'STEP GRANT: Agenda Report...' 1N0A3nzuzlf5bk9H9PvSCZDiRk0fZMr5b; docx 1dBO8lZY0a_j3I2XzeP2z63QW2mxKTqsB."
+- id: oakland-step-project2-urban-greening
+  title: STEP Project 2_Ped_Urban Greening (2022)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1tYWS9qaEHbrPDFGaTDFPF0b8MUYElexZcMyvDxU9Nmk
+    url: https://docs.google.com/document/d/1tYWS9qaEHbrPDFGaTDFPF0b8MUYElexZcMyvDxU9Nmk/edit
+    mime: application/vnd.google-apps.document
+    size: 8418
+    modified: 2022-09-10
+    owner: brent@hyphae.net
+    parent: 1jt77Z2_9WL9SD3ns9pU48cF3OZk2qlZp
+  relevance:
+    programs:
+    - caltrans-step
+    places:
+    - west-oakland
+    projects:
+    - oakland-step
+    note: Project text for the Oakland STEP pedestrian/urban-greening component; the primary source behind the 'Oakland STEP' project case.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Same folder: 'Urban Greening 2.3 - Partners presentation' 1UkHp37XW2f-m2pNE6SDd4DZC0inuxftuPVlc4umad6o and '- CARB presentation' 1rHfOLKDHxlWtCwi09ZQ0A51LjVbY4-kXoXUnsmlIGpI (mei, 2024), recorded as oakland-step-urban-greening-decks-2024."
+- id: oakland-step-urban-greening-decks-2024
+  title: Urban Greening 2.3 - Partners presentation (Oakland STEP, 2024)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1UkHp37XW2f-m2pNE6SDd4DZC0inuxftuPVlc4umad6o
+    url: https://docs.google.com/presentation/d/1UkHp37XW2f-m2pNE6SDd4DZC0inuxftuPVlc4umad6o/edit
+    mime: application/vnd.google-apps.presentation
+    size: 89338838
+    modified: 2024-06-20
+    owner: mei@hyphae.net
+    parent: 1jt77Z2_9WL9SD3ns9pU48cF3OZk2qlZp
+  relevance:
+    programs:
+    - caltrans-step
+    places:
+    - west-oakland
+    projects:
+    - oakland-step
+    note: '2024 progress decks for STEP task 2.3 urban greening (partners and CARB versions): delivered outcomes and numbers for the Oakland STEP case.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: 'CARB version: 1rHfOLKDHxlWtCwi09ZQ0A51LjVbY4-kXoXUnsmlIGpI.'
+- id: groundwork-cnra-budget-press-release
+  title: Groundwork:CNRA:Budget&PressRelease.pdf (2022)
+  kind: report
+  status: include
+  priority: 3
+  location:
+    system: gdrive
+    id: 1ghbjVVRK709KWUpdKXfEyPwoZxzBNSIK
+    url: https://drive.google.com/file/d/1ghbjVVRK709KWUpdKXfEyPwoZxzBNSIK/view
+    mime: application/pdf
+    size: 1669077
+    modified: 2022-06-25
+    owner: brent@hyphae.net
+    parent: 1U2yG4I6BNDznr3mBwtKvXdym0sjBwNbk
+  relevance:
+    programs:
+    - cnra-ugg
+    funders:
+    - cnra
+    note: Award press release plus budget for a Groundwork (Richmond) CNRA urban greening grant; citable award facts for a UGG project case.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Sibling: 'CNRA Budget - Urban Greening.pdf' 1Gcqfh8W35KEtzw3sraKoZrcWo-L2xogQ."
+- id: west-oakland-ugg-proposal-2020
+  title: 'Urban Greening Grant: West Oakland Proposal (2020)'
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1ANDILq_CE8Xn-mqtcEsc4dRvtBFm-eKXVQtfmE1S5VQ
+    url: https://docs.google.com/document/d/1ANDILq_CE8Xn-mqtcEsc4dRvtBFm-eKXVQtfmE1S5VQ/edit
+    mime: application/vnd.google-apps.document
+    modified: 2020-07-07
+    owner: brent@hyphae.net
+    parent: 128ystfcWeI75ey8EDyWHkRvPNML5VxMb
+  relevance:
+    programs:
+    - cnra-ugg
+    funders:
+    - cnra
+    places:
+    - west-oakland
+    note: 2020 CNRA UGG proposal draft for West Oakland; second UGG precedent next to Richmond.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: stockton-ugvb-deck-2023
+  title: 4.11.23_Stockton's Urban Greening and Vegetative Barriers presentation.pptx
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 15_l3ih6P2cgP7FMyD3Dr0ikxQmd1MbqF
+    url: https://drive.google.com/file/d/15_l3ih6P2cgP7FMyD3Dr0ikxQmd1MbqF/view
+    mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
+    size: 4505426
+    modified: 2026-08-24
+    owner: james@hyphae.net
+    parent: 1fphPcd_IZTurJYosaJyqIWqDa9WFPnSy
+  relevance:
+    programs:
+    - ab617
+    places:
+    - stockton
+    projects:
+    - stockton-vegetative-barriers
+    note: Stockton urban greening and vegetative barriers (AB 617) project deck, owned by James; source for the Stockton project case (tree/barrier scope). James edited it in Aug 2026, so it may be feeding current applications.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: stockton-ugvb-claim6-summary-report
+  title: Claim 6 - Urban Greening Summary Report.docx (Little Manila Rising, 2026)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 18VeT781CFOnRM7mQEtGQF9oMaKzwV06F
+    url: https://drive.google.com/file/d/18VeT781CFOnRM7mQEtGQF9oMaKzwV06F/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 324454
+    modified: 2026-06-26
+    owner: koji@littlemanila.org
+  relevance:
+    programs:
+    - ab617
+    places:
+    - stockton
+    projects:
+    - stockton-vegetative-barriers
+    note: 'Grant-claim summary report for the Stockton urban greening / vegetative barrier project (Little Manila Rising): citable delivered quantities for the Stockton case (M3). Partner-authored.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'Urban Greening & Vegetative Barriers Update 6_4.pptx' 14EJhszK3oE3dYkv24rHkwKUoyCAMO1sT (2025); Little Manila 'Urban Greening RFP' docs (their sub-RFPs) 1Z_2T3Ms_ZUjgrfSAkjByK-mImpvYf315f3df9IsjP6I, 1B9R585QRpTqKpsXZsps2uIfhHMHZ1XaUYPSMCYDad4I, 1WpOJ9TNVoYuy94-JT_oNIwzt98QJTOMpM79yVhh7GVU, 1lac8kQlbkCy2rKmVeTxSNPqCkkKHqTTtd882DVUOx50."
+- id: stockton-progress-report-apr2026
+  title: Stockton_Progress_Report_Apr2026_Claude
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1XBSSACdrsApB10eCN-M3oEuyg7nfdUTXtkm9m1Rrl-w
+    url: https://docs.google.com/document/d/1XBSSACdrsApB10eCN-M3oEuyg7nfdUTXtkm9m1Rrl-w/edit
+    mime: application/vnd.google-apps.document
+    size: 13910
+    modified: 2026-08-25
+    owner: mei@hyphae.net
+    parent: 1sPKmgMsA5WN5fK0lWixVG5tMj2MQBs0w
+  relevance:
+    places:
+    - stockton
+    projects:
+    - stockton-vegetative-barriers
+    note: April 2026 Stockton progress report, apparently AI-drafted (title says Claude). Recent Stockton outcomes, but verify every fact against primary records before citing, and record AI authorship (DR-0008).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: shafter-veg-barriers-program-plan
+  title: shafter-final-vegetative-barriers_urban-greening-cerp-program-plan.pdf
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1O1DGs6A8PaHkhO_Y183mUPvcF0fju2We
+    url: https://drive.google.com/file/d/1O1DGs6A8PaHkhO_Y183mUPvcF0fju2We/view
+    mime: application/pdf
+    size: 6740683
+    modified: 2024-10-25
+    owner: brent@hyphae.net
+    parent: 1JZwGyfTPStU-hvknXwJlSAfqPR_0B76n
+  relevance:
+    programs:
+    - ab617
+    places:
+    - shafter
+    note: 'Shafter vegetative-barrier / urban-greening CERP program plan (AB 617): method and precedent for the vegetative-barrier project case.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'Shafter Veg Buffer cnra_ug_finalcalculator_12-31-2024.xlsx' 184mSECImUnfZYN49HoEuAPNDY0SpfvVB (CNRA UG benefits calculator); 'CEJA_AB617_r4-2.pdf' 1LjJ52YDqUjP5pYoElS3o8u5qvcORU5fo."
+- id: sgc22127-signed-grant-agreement
+  title: Signed Grant Agreement - SGC22127.pdf (2024)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1zGi4-rGAHkqexIUcpyQi2_QzG1iU-50o
+    url: https://drive.google.com/file/d/1zGi4-rGAHkqexIUcpyQi2_QzG1iU-50o/view
+    mime: application/pdf
+    size: 8100292
+    modified: 2024-11-06
+    owner: merissa@hyphae.net
+    parent: 1xu8_cQhhSEaYKjQ5AWFMyTb1k8f6QA0m
+  relevance:
+    funders:
+    - sgc
+    note: "Executed SGC grant agreement: authoritative award facts (grantee, amount, term, scope) for an SGC-funded project case. Contract; cite facts, don't reuse prose."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: arvin-lamont-veg-buffer-proposal
+  title: Arvin/Lamont Veg Buff RFP proposal (2024–25)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1lkmGpcEdsJwlrbyFKNMHKAQ-_xuror1M9_1nGZb-ADc
+    url: https://docs.google.com/document/d/1lkmGpcEdsJwlrbyFKNMHKAQ-_xuror1M9_1nGZb-ADc/edit
+    mime: application/vnd.google-apps.document
+    size: 103246675
+    modified: 2025-11-03
+    owner: max@hyphae.net
+  relevance:
+    programs:
+    - ab617
+    places:
+    - arvin
+    - lamont
+    note: 'Hyphae proposal for the Arvin/Lamont vegetative barrier RFP (Kern County, AB 617 area): recent vegetative-barrier qualifications and approach chunks.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: prescott-greening-proposal-2021
+  title: Prescott Greening Proposal 2021(Update)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1O-ElI6kkXUxRr0YUKe_3u_1VZNWN7pW81RvsOsu5NRI
+    url: https://docs.google.com/document/d/1O-ElI6kkXUxRr0YUKe_3u_1VZNWN7pW81RvsOsu5NRI/edit
+    mime: application/vnd.google-apps.document
+    size: 6905574
+    modified: 2024-03-01
+    owner: brent@hyphae.net
+    parent: 12ODKI1WUOGtq0IUZgJijI3p_ic89JX2W
+  relevance:
+    places:
+    - west-oakland
+    projects:
+    - prescott
+    note: Proposal for the Prescott (West Oakland) greening project (MTC-funded per invoices); primary source for the Prescott project case in firm boilerplate.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: prescott-final-report-2026
+  title: Prescott - Final Report (2026)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1TVy-I2W5NK6L3_i84R_ubTXC9KbAUtZh_nZunDCTy_U
+    url: https://docs.google.com/document/d/1TVy-I2W5NK6L3_i84R_ubTXC9KbAUtZh_nZunDCTy_U/edit
+    mime: application/vnd.google-apps.document
+    size: 32630611
+    modified: 2026-09-02
+    owner: mei@hyphae.net
+    parent: 1EXqSN22iKgA8lcVFEr7v6T2-gCnv6pBA
+  relevance:
+    places:
+    - west-oakland
+    projects:
+    - prescott
+    note: 'Final report of the Prescott greening project: citable outcomes (trees, measured cooling/AQ) for the Prescott case (M3). Highest-value Prescott source.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'Prescott Project: Management & Reports' 1FJZW_a0irQb1dDNUndDgcREbGroYSgXUfkxfzvkUiJ4 (working doc); 'Prescott Scope (Working Description)' 1nh47OnAdh2d8rtBYiriORckPyNsfSX4IDQUlT4l047w; 'Prescott and 7th Basis of Design Draft.docx' 1Bx1qd3zPXeqY6A_6z4dqBqmvpvt33qfB; 'Prescott Inputs Tables' 1HRJ3OfDqbIvCbc8rkVz665ALWSFXcazv1ypZwQke7rE."
+- id: prescott-planting-report-2026
+  title: 2.3_PrescottGreeningPlantingReport_FINAL.pdf (2026)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1jthPYaFxDNRf5wWQqnVxhP5WM3KZ9kDZ
+    url: https://drive.google.com/file/d/1jthPYaFxDNRf5wWQqnVxhP5WM3KZ9kDZ/view
+    mime: application/pdf
+    size: 13700471
+    modified: 2026-03-27
+    owner: mei@hyphae.net
+    parent: 1r3l5iYz2e8LSNkJVYdmgzp9ctDE2exTX
+  relevance:
+    places:
+    - west-oakland
+    projects:
+    - prescott
+    note: 'Final planting report (task 2.3): planted counts and species for the Prescott case.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: prescott-modeling-simulations-report
+  title: Prescott Modeling and Simulations Report
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1XvEhLXAKChMuvwQv78xSJT-ZzeY54peya7z-DEM2qho
+    url: https://docs.google.com/document/d/1XvEhLXAKChMuvwQv78xSJT-ZzeY54peya7z-DEM2qho/edit
+    mime: application/vnd.google-apps.document
+    size: 8006086
+    modified: 2026-08-27
+    owner: mei@hyphae.net
+    parent: 1VvJFnIqGBzI7MTi25pNleEUAQeqkDXD1
+  relevance:
+    places:
+    - west-oakland
+    projects:
+    - prescott
+    note: 'Microclimate/AQ modeling results for Prescott: evidence-based-design method chunks and quantitative outcomes (UTCI; check the glossary expansion).'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'Prescott Simulation 2024 (Submittal)' deck 1C4Z4dI_Tg8H-_F063mION_yykFiGbX_SJwmVmQc3F1E; 'Prescott_CFD_proposed_Tile3' 1Ttg1oAA75RwP1q8v8JmXsIR3l7h1v2ih."
+- id: prescott-final-report-deck-2020
+  title: Prescott_Final_Report_Deck_2020-08-04.pdf
+  kind: report
+  status: include
+  priority: 3
+  location:
+    system: gdrive
+    id: 1dCmeOsPXGY4x3yqLr4BOK4u3Dp-W4dMZ
+    url: https://drive.google.com/file/d/1dCmeOsPXGY4x3yqLr4BOK4u3Dp-W4dMZ/view
+    mime: application/pdf
+    size: 52844337
+    modified: 2020-08-04
+    owner: ivan@hyphae.net
+    parent: 1QNafB7c9PjBM1FtioknX6kggN8G9Pn_5
+  relevance:
+    places:
+    - west-oakland
+    projects:
+    - prescott
+    note: 2020 phase-1 Prescott final report deck; earlier-phase outcomes.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Small version 1EWCUTuFM21A3FMP86i4glX9to64BskZf. Current overview deck: 'Prescott Project Overview (current)' 1cedds3hNoh8hdNU7gvcbF7sWGkCagJg1L9FBpqkp3cc (brent, 2026-03)."
+- id: greenheart-report-2022
+  title: Greenheart_Report_20220328_final.pdf
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1p-Y-A7gC7LP0UvKMsUYpaf2Ia19-e4mI
+    url: https://drive.google.com/file/d/1p-Y-A7gC7LP0UvKMsUYpaf2Ia19-e4mI/view
+    mime: application/pdf
+    size: 3127128
+    modified: 2023-07-11
+    owner: fletch@hyphae.net
+    parent: 1MmDpCivna7YBxvgpfGXcNDcnfxjFLVx_
+  relevance:
+    places:
+    - louisville
+    projects:
+    - green-heart
+    note: 'Final Green Heart Louisville report (2022): citable outcomes for the Green Heart project case in firm boilerplate.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'GH-Research Strategy - Final-12-14-2017.pdf' 18dCgDSZI6QI7JpS0MOQSY8EIZgMztRtH (dup 0B_S772FWorU8RTdwRjVvNTRBZ0tiQW13OVlnclgxd0t1b1Vr); 'Hyphae_Green_Heart.pdf' 1A03tVSseTLhFhx_sl9dpmf8JKREIYYSJ; 'Index of Important Green Heart Documents' 1OoepkygDpQj2u8EDZIPYsuRuZfeLa4P-_JIGatdb_M8; MOU 1o1OEqa0gLGJe15ecfFBXE3AjBe2N2MFU."
+- id: nsf-sbir-p2-project-description
+  title: Hyphae_NSF_SBIR_PHASE_II_PROJECT_DESCRIPTION (Google Doc)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1RlG2wZxNn6pQ945Vbql1C0E2b0PeDAkBwXh1O1s9d9M
+    url: https://docs.google.com/document/d/1RlG2wZxNn6pQ945Vbql1C0E2b0PeDAkBwXh1O1s9d9M/edit
+    mime: application/vnd.google-apps.document
+    size: 13981932
+    modified: 2025-07-17
+    owner: fletch@hyphae.net
+    parent: 1fq5jdoXZg84QHAPJYtL61aPykaUeGumE
+  relevance:
+    funders:
+    - nsf
+    projects:
+    - adaptos
+    note: Awarded NSF SBIR Phase II project description (award letter 1pf-sxxjQ5vYpHr_cRNo6280EMELS3Wdf). Authoritative technical narrative for AdaptOS/simulation capability chunks; pairs with nsf-sbir-p1-final-technical-narrative.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: PDF 105Krx65Klyqy6ud3coiy1xMtQV1oBtOw; award letter 'NSF_phase2_award_letter.pdf' 1pf-sxxjQ5vYpHr_cRNo6280EMELS3Wdf; schedules 1OvZ5XeVQ6oBduJTTamftSVZr8TPi0NMS7xIJGG_3p_8 / 1P214w5oau7Qic4E0Q4p5k80cikbvSCfh.
+- id: nsf-scc-tamu-2025
+  title: NSF S&CC TAMU (proposal draft, 2025)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1fidMYELx1bhy6ZvJsDjJoaXze6HNRQrcZMNpjgo30jA
+    url: https://docs.google.com/document/d/1fidMYELx1bhy6ZvJsDjJoaXze6HNRQrcZMNpjgo30jA/edit
+    mime: application/vnd.google-apps.document
+    size: 49777848
+    modified: 2025-03-28
+    owner: max@hyphae.net
+    parent: 0B1dSxQ7iFUSzOEhwWEQtdjdTdzA
+  relevance:
+    funders:
+    - nsf
+    note: 2025 NSF Smart & Connected Communities proposal with TAMU (heat-relevant, per the heat full-text hit). Research-framed heat/community narrative.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Sibling: 'NSF S&CC USF' 18KN2Ud7wAkILBTGyxm_x3ZRrvurnebanBcWeZskVBJQ; SoW 'Hyphae_TAMU_NSF_SoW_2025.' 1sJcv08GBKqmSVZvtzGEzzHsI1yY-jNSFtk5jxxpPpQk (+ pdf 1JL1zMEXfJfrY6Dgcj41zQsd_MmR_pSws)."
+- id: tamu-nih-calt-p01-2025
+  title: TAMU NIH CALT 2025 hyphae scope of work (+ budget justification)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1lEJZpH7p32e5cCvWKldes-JmWGGBgZaSxVz1qDVz_j8
+    url: https://docs.google.com/document/d/1lEJZpH7p32e5cCvWKldes-JmWGGBgZaSxVz1qDVz_j8/edit
+    mime: application/vnd.google-apps.document
+    size: 3448
+    modified: 2026-01-21
+    owner: fletch@hyphae.net
+    parent: 1_Og01Wl0-TjGCr9A1RL9KG6ROuLxqjmh
+  relevance:
+    funders:
+    - nih
+    note: Hyphae subaward scope for the TAMU NIH P01 (cancer and heat risk); heat-health research framing.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "'Hyphae_TAMU_NIH_Budget_Justification_2025.docx' 1WfOqSSUsghDAmsDcO_unPQsIK3WXuKU9; pre-proposal deck 13z6pTluQqcNxojyFvzsb9lQxHjX8oxwE (549 MB). Meeting notes/transcripts not recorded."
+- id: staff-cvs-biosketches-2026
+  title: CURRENT Hyphae CVs (folder) + NIH biosketches (2026)
+  kind: other
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1BRPI-fD08F8fVJqC9a4aU4HSCzXuqX75
+    url: https://drive.google.com/drive/folders/1BRPI-fD08F8fVJqC9a4aU4HSCzXuqX75
+    mime: application/vnd.google-apps.folder
+    modified: 2026-09-02
+    owner: james@hyphae.net
+    parent: 1aVPCDTRgKsTjJOLVhEpSm-dQzdmaEmi1
+  relevance:
+    note: 'Current staff CVs and NIH-format biosketches assembled by James (Sept 2026): source for the staff-bio and key-personnel chunks every application needs. Contains personal details; library chunks should keep professional content only.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: 'CV docx: Brent 1-eR9VpmrFRPJ4HGxDhhcgS3u2upaez33, Travis 1ld9inQG5a3wEvXMKO-K3Oz7cUu8bO2ak, James 1L5aFtxUqajFuhTNTCiEXMC9AjVULWSl0, Jacqueline 1cFrdP4mhH6meNZtwTwwyZ2EGggfzqebX, Daniel 1slFIDiaUZNy6RnrrdSa1lZjRyc0So-5l, Juan 1nQYjdWYopV2siBA-VIObviii0JAGlABS. Biosketches: Brent 1ctgcyFbaeFGtoXo9oEzNuvKbAWOhmnpx27bHjnzGKfE, Daniel 1_I3SYqTFH3cyz5uRUy3ZAfA-LxXaJLSGAyIhGb2Vupg, Brent 2023 1i77fjnRkgHIb6R9DqsTtsB1tIf9ZZrhnIH54UUJiG2U. Headshots and partner resumes (VIP CVs) not recorded.'
+- id: depave-la-report-final-gdoc
+  title: FINAL VERSION of DepaveLA Report (Google Doc)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1RtDqgiLROps4xz2FAmlgiK6FyDcWa9KgUDpKEPbVP-U
+    url: https://docs.google.com/document/d/1RtDqgiLROps4xz2FAmlgiK6FyDcWa9KgUDpKEPbVP-U/edit
+    mime: application/vnd.google-apps.document
+    size: 195157526
+    modified: 2026-02-13
+    owner: max@hyphae.net
+    parent: 1igOaoXS5wc-yTbc-fJI7y32sdwfB8TWn
+  relevance:
+    places:
+    - los-angeles
+    projects:
+    - depave-la
+    note: Editable final text of the DePave LA report (the PDF is depave-la-report). Connector-text acquirable, so Chapter 5 and the project-case chunks can be harvested without OCR.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: 'Drafts/variants: internal 1wk9SGekva7BLRg-sZzOo_sm15Vw8ZRWuJ8FCkbaVFDM; archived copies 1YQzaHhmFwjPFVDo88F1uIaXj9YX-Ha2gxNq5XZWBOQ8, 1vuVNZYhuK2Vb_nDKKwNwP2QQRrG9FSooLVMyAFvwLl0; Second Full Draft 1wjqTtYoBoplIaBC9Y-0LYC2GQiM9kHsp7CFJNQdujcU (pdf 1Y145a3mTHYhiUGRCxOwVUPV53BOnlZep); First Full Draft 1oFHfhQoUmyoKWpAk8zg9lZSG06TDnM5qeyR2o0v4lkM (pdf 1-hPYBcSiKT9XyW5zPLN5sCbbDvKfcvDh); 12_03_25 pdf 1pkaAYzj0m5OxOGSproqxZj1E43FkseTy; mockup 1rmShHctAiiFqC1MZMqMjPVPp1e59hwZP; orphan text 17ijFjd-5d9W9ciw4rtQXF6UwA6bz8dAUeJYjxWrW-Bc; Step_5b project description 1Yrdx_VU8b5ySzwehciMBrKBH4rdOQDr5i0bjNk7rYxk; decks DepaveLA_WIP 1ByGJFt4_wEamaQf9m6wMTAd5rbr0YdcYsMQttne4Pbs, DepaveLA:Olympics 1fgn_w86xTtupK-zj7dMqybnHrJQYakHT3DfVx3WZetc; comms 1MgPI4eCYmTk8nES1HyTE0RTybZmb5dqQUI8zQjufUUs.'
+- id: icarp-neighborhood-depave-atlas
+  title: ICARP neighborood Depave Atlas (deck, 2025)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 10nFJ4kX0ICd2qZ4AB1qxONgUEJ0Vp0A3qtnJUhHJJZM
+    url: https://docs.google.com/presentation/d/10nFJ4kX0ICd2qZ4AB1qxONgUEJ0Vp0A3qtnJUhHJJZM/edit
+    mime: application/vnd.google-apps.presentation
+    size: 109793948
+    modified: 2025-04-03
+    owner: fletch@hyphae.net
+    parent: 1b66J1LpRjlawVx8huKmLICbAii5oEryD
+  relevance:
+    funders:
+    - lci
+    projects:
+    - depave-la
+    note: Depave atlas framed for ICARP, the LCI program family that runs EHCRP. Its heat-mitigation framing is already in funder vocabulary; Project Description and LCB chunks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+- id: adaptos-marketing-copy
+  title: Hyphae/adapt OS copy (marketing copy)
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1TOP8NqhALUf3fTVfasGWsmJr4qM-Z933kueTwj7LqRc
+    url: https://docs.google.com/document/d/1TOP8NqhALUf3fTVfasGWsmJr4qM-Z933kueTwj7LqRc/edit
+    mime: application/vnd.google-apps.document
+    size: 2035389
+    modified: 2025-12-02
+    parent: 113b52x-GRMv85yBVpU6r2Kx4grB4lT33
+  relevance:
+    projects:
+    - adaptos
+    note: 'AdaptOS website/marketing copy: current product description chunks (marketing-copy type) to reconcile with the NSF narratives.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: "Related: 'AdaptOS KITs' 11_IDERPzWZK05umQdPlJ8QoWzW6cIBj11fYtpKp0W5s; folder 'AdaptOS (EH)' 1i0UEEacH7bevfpj5rOezw7kiRbDujVMQ (not walked)."
+- id: x-caltrans-sr132-modesto-site-records
+  title: Caltrans SR 132 / Modesto soil-stockpile site records (FEIR, RAP, GW monitoring, DTSC letters)
+  kind: other
+  status: exclude
+  location:
+    system: gdrive
+    id: 1o5f5hflTD9EBmmOg_qRP8PLpw_7lo6Ui
+    url: https://drive.google.com/file/d/1o5f5hflTD9EBmmOg_qRP8PLpw_7lo6Ui/view
+    mime: application/pdf
+    size: 20061379
+    modified: 2026-06-26
+    parent: 19oSkvro9dy5-KgZKFnznI8st-pKiZKM1
+  relevance:
+    note: "Excluded: third-party Caltrans/DTSC regulatory records for a current Modesto project (matched 'Caltrans' queries). Project reference, not Hyphae proposal prose."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: ~30 PDFs in 19oSkvro9dy5-KgZKFnznI8st-pKiZKM1 (SR_132 FEIR/DEIR, S1200/S9525/S9800 reports, Caltrans letters, O&M agreement, LUC).
+- id: x-everhour-time-reports
+  title: Everhour time/invoice reports (Stockton, Prescott, staff)
+  kind: dataset
+  status: exclude
+  location:
+    system: gdrive
+    id: 1sAuHMNDbVR3vxM9S_3dc-x78ykFt80S0
+    url: https://drive.google.com/file/d/1sAuHMNDbVR3vxM9S_3dc-x78ykFt80S0/view
+    mime: application/pdf
+    size: 210296
+    modified: 2026-08-20
+    owner: mei@hyphae.net
+  relevance:
+    note: "Excluded: timesheet and invoice exports (admin); matched project-name 'report' queries."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: Also 1y3bIvgXWyNwIcpKJ5OEhJSFTcZsHbZHS, 1gx3m-_UG9eM2jNwj__k5h3SgJpRo3afB, 1RoTJ7e_B7NcpRbAlxXiMmUXIzphqQmNZ, 1bizR4lul2BAiFUJZrUlk9KvBS08iG-Qy, 1GZL02IGWMhsbxldxfoMrMBPRAWKCkeaB, 1lhViUBJmmpNpj7uwnfPxVUggF2mISLNv, 1O1kwbmisolYq4vTr2urvRsxa5HuUU8mb, 1OLfDmkG9pa-LADy9olCslZ5Mp-d6h8_A, 1HyPBmutSdfBpHlcOQrxMf5Wen2ERQPfk, 1_B-enstg_61JpNNe0VrjlvwvhMnYl7BQ, 1u1paSU0thd0da3v4QQMnvOQeuatVAKba, 1hJN3Xoi1oTXMgRafw07M2GAwjM6SI4qU; invoice doc 1bbtlXaXxqtQSveUndoLuggHQeWYfq7pijMbqCBzqhFc; hours-report.csv 1GUAhrrFZ7PnB6ZB3JpACb_l9O51H3wFbtpmd7dEWE_M / 1fN37SXB-z72IRNNA4lsiwm28uxwNfMOnrBzrjPUNKv4.
+- id: notes-stockton-meetings
+  title: Stockton project meeting notes (2024 AB 617 check-ins; 2026 planning/GIS sessions)
+  kind: notes
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1HMs8e4WTtqKJvWD0Ic_4EIT-1dkh9Qp2Q3mgBI3gkNA
+    url: https://docs.google.com/document/d/1HMs8e4WTtqKJvWD0Ic_4EIT-1dkh9Qp2Q3mgBI3gkNA/edit
+    mime: application/vnd.google-apps.document
+    size: 37269
+    modified: 2026-03-11
+    owner: ivan@hyphae.net
+    parent: 1tgJFG0m_JAallBgPjpXiw2Cua-xX0y_k
+  relevance:
+    places:
+    - stockton
+    note: Meeting notes, context only (DR-0004).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: '2026: 1jyWEeNoUW5ddUR41vwnkdk-S1B7H4NGDUaT_Ek1xlbU, 1ALnh-GgFMpwE3AxJ41fl92yTIWh9I5DchuwFw38IMss, 1ovZ2A_HxHaQi4JqQ2qNhp21V1u3bCCXSaHzb_QDiuEI, 1YJwhaC1y02mnvifSafFXin5uaFyyVQ2wSdW2jHSoW_w, 1XveIpGgHtsP9MJYAYsFI8xIjRvP5-HbhlXawVA1cWNI, 1Jjhfig_W0KHKFtZCZhmfiZSa2bS8zoem7NWp7_XlYO4, 11Z54qHb05BkwioF5nawOLCfaMhVkeXItE-Zk-bOUmbw. 2024 AB 617: 1rNa7PTvrVpm4_cWnr0-bLnXGCBn33T2kBvH0A0_sl0M, 1KPXhcS7Xoh1jbd0deCuq5_a3Mmkvm1Tph7RI-3pvYMI, 12PSLGCu9QX9xDqg63HEssiSZzWQbesm-j_93KP5enI0, 1JRKekCMZ5vTg496EH0ZPs0ChuTfCO8zXjL2tjYVe2yU, 1tI4NcpljmrWatGRct-8Yf7PjKcmLabSV2ZzGMpoisS4, 10T5wYd4MW5uhqP17XQy920rfO97chSLABIJBnTqHrBg, 1FelYmuEc8kyrcNCo6_ECK3c1XTy6Z8TPK9cIwu8eVCc; STEP science timeline 11ydQZjDA9MKDuc2JohgArbHLqloS106oy5H_0EyKqXE.'
+- id: notes-prescott-meetings
+  title: Prescott project meeting notes and transcripts (2025)
+  kind: notes
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1cHgzmU7-3q6VnU13JULSCBP2RmKZgGytt6vmOCq3X8s
+    url: https://docs.google.com/document/d/1cHgzmU7-3q6VnU13JULSCBP2RmKZgGytt6vmOCq3X8s/edit
+    mime: application/vnd.google-apps.document
+    size: 56813
+    modified: 2025-12-02
+    owner: ivan@hyphae.net
+    parent: 1UxyxY_BDnObFN_HWJsmajWGxTChe6zq2
+  relevance:
+    projects:
+    - prescott
+    note: Meeting notes, context only.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-03
+  notes: Also 1ppPskmYo2K0f2FFR8_YJMEeXZjXAeqSqIYXB107fqL0, 1OF_Md5DM8_JDPkbI6-XJd_2PyeHHjnkrphMfbLXbcok, 1X-omkc6K_gs7zN-zLFQMGH-tpzSazXWq8D0yQ0or260, 12C9eoVPbuOUwZsJp5VJSI_9gzq5x9AJw8aRC5M4wGZg, 1WloA7OK4iSBw_ANVc0pc2cL3DtcZopMgQsocKebouMU, 1XDPREiV_tYT4_diqsayb5Q4Rb1gdHG39WpYhH74wrhI, 14Tr9JjpVm51c10NqaB2Qr0GXcE8ghH5OIxRCjhxgUPQ, 1vRMHeklQZSH9sBFmM62kj3DTUL30jx193tXbhvqu5C8, 1a_lJ4P4Byo5u9SxIRvu96vO0vHIECCZFxLg7DrEyPNs, 1QML-9fnvGCwWTMkI1hcD-tl0s0ql0Fs-e3lCbYr0FHI; recording folder 1Dg_jCESGuYByOezrAF0abk-Mmyaj972H.
+- id: past-proposals-doc
+  title: Past Proposals (Google Doc, Current Proposals folder)
+  kind: working-doc
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1eJ2c_-aKL43U7dqnJlKMjONWVs4Oy3cxV3qYaDeW94w
+    url: https://docs.google.com/document/d/1eJ2c_-aKL43U7dqnJlKMjONWVs4Oy3cxV3qYaDeW94w/edit
+    mime: application/vnd.google-apps.document
+    size: 27059670
+    modified: 2026-09-09
+    owner: mei@hyphae.net
+    parent: 0B_S772FWorU8TFZXUzhwNHA4eUE
+  relevance:
+    note: "A team-maintained 'Past Proposals' compilation (27 MB, edited 2026-09-09) that matches the empty 'Past Proposals' section in the pilot working doc. Likely an index of prior applications and excerpts: the fastest route to primary sources for every project case. Acquire first (connector-text)."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: Matches wanted item past-hyphae-proposals-overview (not yet confirmed by content).
+- id: current-proposals-folder
+  title: 'Drive folder: Current Proposals'
+  kind: other
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 0B_S772FWorU8TFZXUzhwNHA4eUE
+    url: https://drive.google.com/drive/folders/0B_S772FWorU8TFZXUzhwNHA4eUE
+    mime: application/vnd.google-apps.folder
+    modified: 2025-04-17
+    owner: ivan@hyphae.net
+    parent: 0APS772FWorU8Uk9PVA
+  relevance:
+    note: 'Proposals working folder: holds Past Proposals, CalEPA EJ Action Grant, RGISC RFQ, USTA/MIG. Walk next sweep (parentId), as for leads-drive-folder.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: ehcrp-r2-early-doc-2025
+  title: EHCRP Round 2 (Google Doc, Max, 2025)
+  kind: working-doc
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1TE_bWfWmW1xmfFl-6o8yrJcmt-8CCc9poF28s-IP1qc
+    url: https://docs.google.com/document/d/1TE_bWfWmW1xmfFl-6o8yrJcmt-8CCc9poF28s-IP1qc/edit
+    mime: application/vnd.google-apps.document
+    size: 10173167
+    modified: 2025-12-12
+    owner: max@hyphae.net
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Early EHCRP R2 doc started July 2025 (last edited Dec 2025), before the Bay Point effort. Likely program research and early heat framing or answer drafts. Check for reusable Harm Reduction and LCB language and for the team's R2 strategy.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: ehcrp-r2-working-doc-archive
+  title: ARCHIVE Hyphae + I-ReLab EHCRP (kj, July 2026)
+  kind: working-doc
+  status: defer
+  priority: 2
+  location:
+    system: gdrive
+    id: 1FVtOURMg3sttmPcPpnlJ_-Ww0HnDl9ZglkOz2PYQY8Y
+    url: https://docs.google.com/document/d/1FVtOURMg3sttmPcPpnlJ_-Ww0HnDl9ZglkOz2PYQY8Y/edit
+    mime: application/vnd.google-apps.document
+    size: 4814262
+    modified: 2026-07-22
+    owner: kj@i-relab.com
+  relevance:
+    programs:
+    - ehcrp-r2
+    places:
+    - bay-point
+    note: Archived predecessor of ehcrp-r2-working-doc (I-ReLab copy). Use only to trace text lineage and authorship (DR-0008).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: willow-pass-bus-stop-gi-concept
+  title: Willow Pass Road Green Infrastructure Bus Stop Improvements (James, 2026)
+  kind: proposal-draft
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1YI_P5n_XajYxSTd2dVYI9uZQkdK1Uf9q3d5MJqoiUl8
+    url: https://docs.google.com/document/d/1YI_P5n_XajYxSTd2dVYI9uZQkdK1Uf9q3d5MJqoiUl8/edit
+    mime: application/vnd.google-apps.document
+    size: 7972
+    modified: 2026-06-04
+    owner: james@hyphae.net
+    parent: 1A8GAqhNRKFSt2tqLn4wGiXJ9k4kxomYa
+  relevance:
+    programs:
+    - cnra-ugg-2026
+    funders:
+    - cnra
+    places:
+    - bay-point
+    note: "James's draft for the Bay Point transit-stop (Willow Pass Road) green-infrastructure project: the sibling CNRA UGG concept named in the pilot. Primary text for the UGG concept proposal and for shared Bay Point context."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: Folder 'CNRA' 1A8GAqhNRKFSt2tqLn4wGiXJ9k4kxomYa (james) also has 'Bus stop Graphics' 1T_Aker9snwnVwD3ZRHoXwogzwQOPc-6O.
+- id: ambrose-memorial-ugg-concept-form
+  title: 2026 CONCEPT PROPOSAL FORM_Ambrose Recreation and Park District_Ambrose Memorial Park Urban Greening Project (James)
+  kind: proposal-draft
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1K6PDM0Tmkn0yDlX4KcvfsAx7vXkERs68P_ke5agMNKM
+    url: https://docs.google.com/document/d/1K6PDM0Tmkn0yDlX4KcvfsAx7vXkERs68P_ke5agMNKM/edit
+    mime: application/vnd.google-apps.document
+    size: 13116
+    modified: 2026-08-07
+    owner: james@hyphae.net
+  relevance:
+    programs:
+    - cnra-ugg-2026
+    funders:
+    - cnra
+    places:
+    - bay-point
+    - ambrose-memorial-park
+    note: "James's CNRA UGG 2026 concept proposal for Ambrose Memorial Park (ARPD applicant): same site as the EHCRP pilot. Shared project description, benefits and partner language to align across both applications (and to check for inconsistencies)."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: docx version 1BKdw2J0C8V4qQZaFc1FNgDFPlQzv3QhW (2026-08-07).
+- id: ambrose-resilience-hub-survey
+  title: Ambrose Community Center - Resilience Hub Feedback Survey(1-35).xlsx (2026)
+  kind: dataset
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 180SfJAatoSn3CYXxpncr-1yTflvVTr9Q
+    url: https://drive.google.com/file/d/180SfJAatoSn3CYXxpncr-1yTflvVTr9Q/view
+    mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    size: 22699
+    modified: 2026-03-31
+    owner: james@hyphae.net
+    parent: 1HoT9LTynTQUpka6EZ5t0ymgHFfeyhycr
+  relevance:
+    programs:
+    - ehcrp-r2
+    places:
+    - bay-point
+    - ambrose
+    note: 35 community survey responses about the Ambrose Community Center resilience hub (March 2026). The strongest candidate yet for the Harm Reduction / Belonging community-voice gap (ambrose-community-voices). Quote only with consent and anonymized; may contain respondent contact data (DR-0004).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: Matches wanted item ambrose-community-voices; not marked resolved until content is checked.
+- id: ambrose-center-park-project-notes
+  title: Ambrose Center Park Project Report and Notes (James, 2025–26)
+  kind: notes
+  status: defer
+  priority: 1
+  location:
+    system: gdrive
+    id: 14DVc8P8OwLVMh5FNG2oHrU9xZ_r2U2PgZOlrdjtEIy0
+    url: https://docs.google.com/document/d/14DVc8P8OwLVMh5FNG2oHrU9xZ_r2U2PgZOlrdjtEIy0/edit
+    mime: application/vnd.google-apps.document
+    size: 25730588
+    modified: 2026-09-23
+    owner: james@hyphae.net
+    parent: 1uofRXroycLtj-igJWqza-hxWKpoQrMVX
+  relevance:
+    places:
+    - bay-point
+    - ambrose-center-park
+    note: James's running project log for the Ambrose Center Park design (CEQA, drainage/basins, bike path, bid set; Jul–Sep 2026 meeting notes, including a 'Grant opportunities' entry that plans EHCRP for planning and UGG for implementation). Context for the Ambrose project facts behind the EHCRP answers. It is not heat application language.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: "Content read 2026-09-25 (headings/grep only) to check for James's heat language: none found. Contains candid meeting notes; context only. Related: 'Ambrose Center Park Pricing, Materials, Notes' 1fP1ZyzobIdsxHlSEakxgdW2Of0FxXmiODY_MWlT7vMs; invoice 1SHJRFrpjWhaqc4aIJL_Jizymu0Wsl_nQZYpPsJbUNLI; CEQA Examples folder 1-CJ3OZ66yXyi_rpqYAZNgQlUJ7v-NDEA; Ambrose2_08-04-2026.dwg 14wP52NYGo5oZTEdXwI3USuPB2HOCl1z6."
+- id: ecc-gi-contra-costa-deck
+  title: 'ECC GI: Contra Costa County (deck, James)'
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1fYaM7twOFAaFweTDUV4MAENj3I83yY7cxmF-LRRhUe8
+    url: https://docs.google.com/presentation/d/1fYaM7twOFAaFweTDUV4MAENj3I83yY7cxmF-LRRhUe8/edit
+    mime: application/vnd.google-apps.presentation
+    size: 102374503
+    modified: 2026-09-16
+    owner: james@hyphae.net
+    parent: 18E3Q2TzivntiSgktnTXz2sGv8fZNWe5o
+  relevance:
+    places:
+    - contra-costa
+    - bay-point
+    note: 'East Contra Costa green-infrastructure deck James maintains (edited 2026-09-16): county context, maps and GI opportunity framing near Bay Point. Setting and need chunks for EHCRP/UGG.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: environmental-datasets-library-tracker
+  title: Environmental_DataSets_Library_Tracker (James)
+  kind: dataset
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1LvalSBsqgdPQJ31fm7DpKQDUFLySPzs1Bhjk5HOpxig
+    url: https://docs.google.com/spreadsheets/d/1LvalSBsqgdPQJ31fm7DpKQDUFLySPzs1Bhjk5HOpxig/edit
+    mime: application/vnd.google-apps.spreadsheet
+    size: 859581
+    modified: 2026-09-08
+    owner: james@hyphae.net
+    parent: 1vb2DAxVAh2KfuoNkvqTu23uNqic6ChYz
+  relevance:
+    note: James's catalog of environmental datasets (sources, links). Seed for M3 data-source records and the CHAT/VCP/CES citations the drafts need.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: spm-2027-pesticide-application-james
+  title: 2027_spm_grants_program_proposal_application.docx (DPR SPM grant, James, 2026)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1OBGdYbGTM7SwLbJwO01-QXhO34aKyEQT
+    url: https://drive.google.com/file/d/1OBGdYbGTM7SwLbJwO01-QXhO34aKyEQT/view
+    mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    size: 362149
+    modified: 2026-09-01
+    owner: james@hyphae.net
+    parent: 1LYVVVLRrVDN1RveiUTgwMj7DtrSoYF62
+  relevance:
+    note: James's Sept 2026 DPR pesticide-management grant application draft. Not heat, but a recent sample of James's application voice (style reference).
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: "Folder 'Application Materials' 1LYVVVLRrVDN1RveiUTgwMj7DtrSoYF62: solicitation 1yBwvc_3ebcLQkcZWhe5RJ0OU_t5GFMkC, budget tables 1mUMx_n2sm7_bFJECIaqWBn6NW4v4NR8x / 1EP_HvKGIr-C1nzOBkxlycZhM5Y0OarPG; citations folder 1uPdlrMLBZ4fPIIO_yt8Y33viOY4oIoUP."
+- id: greening-africatown-final-submission
+  title: Final Submission_Greening Africatown_ Urban Cooling, Cultural Identity, and Economic Growth (2025)
+  kind: proposal
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 19i5jZYZxO3bk5JCAcjlds8LfN2bYkFDKa4nQoNYpEOI
+    url: https://docs.google.com/document/d/19i5jZYZxO3bk5JCAcjlds8LfN2bYkFDKa4nQoNYpEOI/edit
+    mime: application/vnd.google-apps.document
+    size: 92671
+    modified: 2025-05-09
+    owner: merissa@hyphae.net
+    parent: 1wFz2hRdQGy7BZXmoIsZ64WL9vSfx5bVn
+  relevance:
+    places:
+    - africatown
+    note: SUBMITTED 2025 proposal centred on urban cooling in a historic Black community (Africatown, Mobile AL). Heat, belonging and cultural-identity framing maps onto EHCRP Harm Reduction and Belonging.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: docx 1c5B3KD7sBlzRpW5Y77FeBvsz5hySiDir (max, 2025-01-31).
+- id: resilient-philadelphia-grant-2025
+  title: Resilient Philadelphia Grant (RPCCRPU) (2025)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1oA6spaEr11w1qpBM6js8rYeqROYQAtSUh0Il37Q0aU4
+    url: https://docs.google.com/document/d/1oA6spaEr11w1qpBM6js8rYeqROYQAtSUh0Il37Q0aU4/edit
+    mime: application/vnd.google-apps.document
+    size: 39049080
+    modified: 2025-04-21
+    owner: max@hyphae.net
+    parent: 0B1dSxQ7iFUSzOEhwWEQtdjdTdzA
+  relevance:
+    places:
+    - philadelphia
+    note: 2025 Philadelphia climate-resilience application (heat full-text hit). Ambrose notes cite 'Extreme heat examples in PHL and dallas' as models; heat narrative candidate.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: calepa-ej-action-grant-2025
+  title: CalEPA EJ Action Grant (2025)
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1Iewf1d_2jSyW6UB1Iv5ypPoKgHBusVsvWHVpFcad2FE
+    url: https://docs.google.com/document/d/1Iewf1d_2jSyW6UB1Iv5ypPoKgHBusVsvWHVpFcad2FE/edit
+    mime: application/vnd.google-apps.document
+    size: 35898676
+    modified: 2025-02-25
+    owner: max@hyphae.net
+    parent: 0B_S772FWorU8TFZXUzhwNHA4eUE
+  relevance:
+    funders:
+    - calepa
+    note: "2025 CalEPA Environmental Justice Action Grant draft (heat full-text hit): California EJ-community framing close to EHCRP's Belonging and Partnership language."
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: 'Near-identical-size sibling: epa-region9-see-2025 (1GbkR9-iy-fd4XUw5GCK0JHEoH_anSMDMbIUgqk-xfaI).'
+- id: epa-region9-see-2025
+  title: EPA Region 9 SEE (2025)
+  kind: proposal-draft
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1GbkR9-iy-fd4XUw5GCK0JHEoH_anSMDMbIUgqk-xfaI
+    url: https://docs.google.com/document/d/1GbkR9-iy-fd4XUw5GCK0JHEoH_anSMDMbIUgqk-xfaI/edit
+    mime: application/vnd.google-apps.document
+    size: 35898219
+    modified: 2025-02-25
+    owner: max@hyphae.net
+    parent: 1OpDhnwMD5wnr2efB4e36scfd1NzR9Iqc
+  relevance:
+    funders:
+    - epa
+    note: Near-identical size to calepa-ej-action-grant-2025 (35.9 MB); probably a fork of the same draft. Compare before harvesting.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: eemp-2025-proposal
+  title: EEMP 2025 Proposal Doc
+  kind: proposal-draft
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 12awlLAGIeS-yxyXRAvyn5hWnObY5V1VEq6yIk9dz41E
+    url: https://docs.google.com/document/d/12awlLAGIeS-yxyXRAvyn5hWnObY5V1VEq6yIk9dz41E/edit
+    mime: application/vnd.google-apps.document
+    size: 7703976
+    modified: 2026-05-05
+    owner: max@hyphae.net
+    parent: 1-C1XTLTVBOQsxnL9mZoYeJNgQISXEl8C
+  relevance:
+    programs:
+    - cnra-eemp
+    funders:
+    - cnra
+    note: 2025 CNRA Environmental Enhancement and Mitigation Program proposal (heat full-text hit). Same funder as UGG; urban-greening benefit language.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: gsi-heat-reduction-guide-2024
+  title: GSI_Heat-Reduction_Guide_Oct2024.pdf
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1oTf7PqSsYyfJMWgt1ytfvPXnxxeQ3tAc
+    url: https://drive.google.com/file/d/1oTf7PqSsYyfJMWgt1ytfvPXnxxeQ3tAc/view
+    mime: application/pdf
+    size: 8475497
+    modified: 2025-07-15
+    owner: max@hyphae.net
+    parent: 1WUJ9JAbY0gLUGBstytuKr-_kbOggnR-A
+  relevance:
+    note: 'Guidance on green stormwater infrastructure for heat reduction: citable evidence linking GSI/greening to cooling, for EHCRP Harm Reduction Q1 intervention logic.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+- id: la-county-cva-2021
+  title: 2021_LA-County-Climate-Vulnerability-Assessment.pdf
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 14n_qTv6l6lnYfu3aFAsVd-LNUCcufLHx
+    url: https://drive.google.com/file/d/14n_qTv6l6lnYfu3aFAsVd-LNUCcufLHx/view
+    mime: application/pdf
+    size: 43312574
+    modified: 2025-08-11
+    owner: max@hyphae.net
+    parent: 1uwtuqqpTK3lMRJ4Mt0zWFH3tgEzmSbeR
+  relevance:
+    places:
+    - los-angeles
+    note: Public LA County vulnerability assessment (DePave source); not Bay Point.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: 'Sibling: 2019_OurCounty-Sustainability-Plan.pdf 1005QFWuxhgPja8MClinUYkmAjUe3m87w.'
+- id: acana-reporting-draft
+  title: ACANA reporting draft (2026)
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1upWDWQUIgQlt2ZOwryev3PoNKjPnMWxWYyT6nlfhn10
+    url: https://docs.google.com/document/d/1upWDWQUIgQlt2ZOwryev3PoNKjPnMWxWYyT6nlfhn10/edit
+    mime: application/vnd.google-apps.document
+    size: 79075666
+    modified: 2026-07-29
+    owner: fletch@hyphae.net
+    parent: 1IFDsq6SqOaibR1DT3Fwo1C4gcEh_gqTj
+  relevance:
+    note: Project report draft (ACANA sensors / GSI); possible monitoring-outcome facts later.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-04
+  notes: "Related: 'Acana sensor highlighs' 1p3SKlerZMhEm5aAP3COi_EcUuymyYn7UpcwV4WqIX7s; 'ACANA_GSI_James_Task_List.docx' 15NLO5ojRkLZjcAga3QD3wjdpwd99Zt-P."
