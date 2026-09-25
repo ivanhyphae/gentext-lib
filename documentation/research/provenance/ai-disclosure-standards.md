@@ -45,7 +45,7 @@ sources:
   The vocabulary was designed for images and video in XMP. C2PA reuses it in `digitalSourceType` action parameters.
 - **C2PA** (Content Credentials). This is a cryptographically signed manifest of assertions (actions, ingredients, creator) bound to an asset by hash. Spec 2.4 has **A.8 Embedding Manifests into Unstructured Text** (manifest bytes encoded as non-rendering Unicode variation selectors, bound with a data-hash assertion, "only where no other embedding method is feasible") and **A.9 Structured Text** (Markdown, YAML, source code). Implementations exist, mostly from third parties (e.g., writerslogic, Encypher). A third-party repo notes the unstructured-text wire format should be treated as draft until it appears in a released spec. That conflicts with the 2.4 spec page, which includes A.8, so check which applies.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Funders and clients may start asking "was this AI-written?". Using IPTC's terms for `origin` keeps our answer legible outside the team, with no invented taxonomy.
 

@@ -33,10 +33,10 @@ sources:
 1. **Memory tool** (`memory_20250818`, client-side). Claude issues `view`, `create`, `str_replace`, `insert`, `delete`, and `rename` on paths under `/memories`, and **our** code executes them against storage we choose. It's available on Claude 4+ models. SDK helpers: `BetaAbstractMemoryTool` and `BetaLocalFilesystemMemoryTool` (Python). We're responsible for path-traversal protection.
 2. **Managed Agents memory stores** (beta header `agent-memory-2026-07-22`, public beta since April 2026). Workspace-scoped collections of text documents, mounted into the agent sandbox at `/mnt/memory/<slug>/`, read-only or read-write. Every change creates an **immutable memory version** (audit, point-in-time restore, redaction). Versions are retained 30 days (recent versions of live memories are kept) and can be exported via the API. Limits: 100 kB per memory, 10,000 memories per store, 8 stores per session. Edits support optimistic concurrency via `content_sha256` preconditions.
 
-## Why it matters for gentext
-The README asks for a production memory layer. This one has the same shape as DR-0005 (Markdown files and paths), is Claude-native, and is inspectable (list, read, and diff versions through the API or Console). A hosted gentext agent could mount:
-- `gentext-library` **read-only**: a synced copy of promoted library chunks (git stays canonical),
-- `gentext-working` **read-write**: drafting notes, reviewer feedback, per-person style preferences.
+## Why it matters for adapt-rfp
+The README asks for a production memory layer. This one has the same shape as DR-0005 (Markdown files and paths), is Claude-native, and is inspectable (list, read, and diff versions through the API or Console). A hosted adapt-rfp agent could mount:
+- `adapt-rfp-library` **read-only**: a synced copy of promoted library chunks (git stays canonical),
+- `adapt-rfp-working` **read-write**: drafting notes, reviewer feedback, per-person style preferences.
 
 ## Strengths
 - File semantics, versioning, redaction, read-only mounts (a guard against prompt-injection writes, which the docs explicitly warn about).

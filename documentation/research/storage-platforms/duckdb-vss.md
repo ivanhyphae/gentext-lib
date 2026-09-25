@@ -29,11 +29,11 @@ sources:
 ## What it is
 DuckDB is an embedded columnar OLAP database (MIT). The **vss** extension adds HNSW indexes (via usearch) for `ARRAY` columns, and the `fts` extension adds BM25 full-text search.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 M4 produces per-chunk metrics, and M7 produces reports over drafts. Questions like "which boilerplate appears in more than 3 applications?" or "sentence-length distribution by chunk type" are analytic queries that DuckDB answers well. It can `ATTACH` the SQLite index read-only, so we get this without a second copy.
 
 ## How it would fit
-An optional `gentext analyze` command or notebook that opens `index.db` through DuckDB's sqlite scanner. It isn't part of the serving path.
+An optional `adapt-rfp analyze` command or notebook that opens `index.db` through DuckDB's sqlite scanner. It isn't part of the serving path.
 
 ## Strengths
 - Fast, embedded, SQL-rich (window functions, `PIVOT`), and it reads Parquet, CSV, JSON, and SQLite.

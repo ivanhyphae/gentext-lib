@@ -29,7 +29,7 @@ sources:
 ## What it is
 A Python utility and CLI from Microsoft (MIT) that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio and more to Markdown. It also ships an MCP server (`markitdown-mcp`), opt-in plugins (e.g. LLM-vision OCR), and optional Azure Document Intelligence for PDFs (repo, accessed 2026-09-25). DOCX goes through mammoth to HTML and then to Markdown.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 It is the fastest way to give Claude a readable view of a file, and the MCP server could be handy in Claude Desktop sessions.
 
 ## Pilot results

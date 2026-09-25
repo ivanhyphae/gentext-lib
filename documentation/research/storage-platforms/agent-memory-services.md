@@ -50,7 +50,7 @@ sources:
 - **Letta** (ex-MemGPT): stateful-agent framework. "Memory blocks" are pinned in the prompt, and Letta Filesystem handles documents. Since Feb 2026 Letta Code uses **Context Repositories**, git-backed memory files with auto-commits. (Letta API server agents don't use the local repo.)
 - **Supermemory**: memory/context API, consumer app, and an open-source MCP server. Free, Pro $19/mo, Scale $399/mo, plus metered usage (secondary).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The README says "consider a third-party memory system for production." Checked against our needs:
 - **Library chunks and facts** need human curation, provenance, and variants. Auto-extracted memories can't supply these, and AGENTS.md forbids unsourced claims.
 - **Working memory** (who prefers which voice, what reviewers flagged last round) is a real but small need. File-based stores ([claude-memory-stores.md](claude-memory-stores.md)) or a `notes/` folder cover it.

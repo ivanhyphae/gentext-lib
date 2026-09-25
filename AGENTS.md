@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for AI agents (Claude Code, Claude web, others) and human collaborators working in `gentext-lib`.
+Guidance for AI agents (Claude Code, Claude web, others) and human collaborators working in `adapt-rfp`.
 
 > **Start here:** [`documentation/status.md`](documentation/status.md) has the current state, what's in hand for the live application, next steps, and how to resume in a cloud session. The tooling backlog is in [`documentation/backlog.md`](documentation/backlog.md).
 
@@ -25,7 +25,7 @@ documentation/decision-record/    numbered decision records (see below)
 documentation/research/          progressive-disclosure research wiki (start at index.md)
 projects/                         RAW client/solicitation sources, committed (private repo, DR-0004)
 pyproject.toml, uv.lock, .python-version   uv project (DR-0006); .venv/ is local and gitignored
-src/gentext/                      the Python package and `gentext` CLI (inventory, profile, card, extract)
+src/adapt_rfp/                      the Python package and `adapt-rfp` CLI (inventory, profile, card, extract)
 library/_candidates/              T3 candidate chunks (verbatim, with provenance); not yet the library
 scripts/cloud-setup.sh            setup script for Claude Code cloud environments
 inventory/                        asset manifest (assets.yaml), sweep log (sweeps.yaml), generated index.md (DR-0010);
@@ -70,13 +70,13 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - Watch for **context leakage**: text reused from one client/place and still naming the old one. The pilot contains a real case: firm boilerplate in the Bay Point doc ends with "…for Fresno County."
 
 ### Finding and tracking sources (DR-0010)
-- Before hunting for material, check `inventory/index.md`. If something is missing, follow `skills/asset-discovery/SKILL.md`: log a sweep, run `gentext inventory find` before adding a record, triage, then validate → index → test → commit.
+- Before hunting for material, check `inventory/index.md`. If something is missing, follow `skills/asset-discovery/SKILL.md`: log a sweep, run `adapt-rfp inventory find` before adding a record, triage, then validate → index → test → commit.
 - Anything we know we need but don't have goes in as `status: wanted` with a `hint`, including evidence gaps in drafts (a cited report, a dataset, community quotes).
 
 ### Processing sources: spend tokens in proportion to value (DR-0011)
-- Don't read large sources end to end. Run `uv run gentext profile` (free), then read the **cards** in `inventory/cards/` (disposition, reusable sections, fact candidates) before opening any source.
-- Make new cards with `uv run --env-file .env gentext card run [ids]` (Batch API, **Haiku**). In cloud sessions without a key, use `gentext card prepare` plus Haiku sub-agents, then `gentext card ingest`.
-- Only `hold` documents go on to extraction, **in need order**. `uv run --env-file .env gentext extract [ids]` uses **Sonnet 5** (tested better than Haiku for chunk boundaries and quoted facts). Without a key: `gentext extract --prepare`, then Sonnet sub-agents write JSON to `build/extract-raw/<run>/<asset>__<sid>.json`, then `gentext extract --revalidate <dir>`.
+- Don't read large sources end to end. Run `uv run adapt-rfp profile` (free), then read the **cards** in `inventory/cards/` (disposition, reusable sections, fact candidates) before opening any source.
+- Make new cards with `uv run --env-file .env adapt-rfp card run [ids]` (Batch API, **Haiku**). In cloud sessions without a key, use `adapt-rfp card prepare` plus Haiku sub-agents, then `adapt-rfp card ingest`.
+- Only `hold` documents go on to extraction, **in need order**. `uv run --env-file .env adapt-rfp extract [ids]` uses **Sonnet 5** (tested better than Haiku for chunk boundaries and quoted facts). Without a key: `adapt-rfp extract --prepare`, then Sonnet sub-agents write JSON to `build/extract-raw/<run>/<asset>__<sid>.json`, then `adapt-rfp extract --revalidate <dir>`.
 - Candidates in `library/_candidates/` are staging, not library. Promotion (T4) is a deliberate human/Opus step.
 - `reference` documents are looked up when a question needs them.
 
@@ -86,7 +86,7 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 
 ### Python environment (DR-0006)
 - The machine is Arch Linux. System Python is externally managed, so **never** `pip install` into it, and never use pacman `python-*` packages for this project.
-- The project uses a repo-local **`.venv` managed by uv**, on a uv-managed interpreter pinned in `.python-version` (3.12). Run `uv sync` after pulling, then run everything through **`uv run`** (`uv run gentext …`, `uv run pytest`, `uv run python script.py`). Don't call bare `python3` for project code.
+- The project uses a repo-local **`.venv` managed by uv**, on a uv-managed interpreter pinned in `.python-version` (3.12). Run `uv sync` after pulling, then run everything through **`uv run`** (`uv run adapt-rfp …`, `uv run pytest`, `uv run python script.py`). Don't call bare `python3` for project code.
 - Add dependencies with `uv add <pkg>`, or `uv add --group nlp|models <pkg>` for heavy ones. Commit `pyproject.toml` + `uv.lock` together.
 - pandoc comes from `pypandoc-binary` (inside `.venv`); Vale from the `vale` PyPI wrapper; LanguageTool, if needed, from a podman container.
 - Quick throwaway experiments go in a temp venv under the scratchpad (`uv venv`), not in the project's dependencies.

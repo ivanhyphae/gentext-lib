@@ -32,7 +32,7 @@ sources:
 ## What it is
 A Python library and CLI. It parses PDF (layout model, reading order, TableFormer tables, optional OCR/VLM), DOCX, PPTX, XLSX, HTML and more into `DoclingDocument`. That model can be exported to Markdown, HTML, JSON or DocTags. MIT licence, LF AI & Data hosted (repo, accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - **Typed items:** `TitleItem`, `SectionHeaderItem`, `TextItem`, `ListItem`, `TableItem`, `PictureItem`, each with provenance (page/bbox for PDF). On the Ambrose DOCX it found 7 titles, 123 section headers, 524 list items and 4 tables, and it mapped the tab-like `Title` paragraphs to `#`.
 - **Chunkers:** `HierarchicalChunker` gives one chunk per element (list items merged). `HybridChunker` splits oversized chunks and merges undersized peers with the same headings, using a tokenizer you choose (align it with the embedding model). `contextualize()` prepends heading and caption metadata for embedding (docs). On the pilot it made 170 chunks, median 81 words, each with a heading path such as `[doc title, Introduction, subsection]`.
 - **One model for DOCX and solicitation PDFs**, which simplifies M1.

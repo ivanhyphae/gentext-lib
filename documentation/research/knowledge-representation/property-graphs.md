@@ -37,11 +37,11 @@ sources:
 - **Kùzu**: an embedded Cypher graph DB with built-in vector and full-text search, from the University of Waterloo. The repo was archived (read-only) on 2025-10-10 with a final release 0.11.3. Secondary reports say Apple acqui-hired the team and that maintenance has passed to community forks ([gdotv](https://gdotv.com/blog/kuzu-legacy-embedded-graph-database-landscape/), accessed 2026-09-25; secondary). Graphiti now labels its Kùzu backend "deprecated, unmaintained upstream" ([graphrag-family.md](graphrag-family.md)).
 - **NetworkX 3.7** (2026-09-21, BSD-3-Clause, Python ≥3.12): an in-memory graph library for analysis, not storage ([PyPI](https://pypi.org/project/networkx/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Property graphs are the usual backend for GraphRAG-style tools. Picking one pulls in a server, a non-diffable store and a sync job from git. Our queries are one-hop lookups over a few thousand nodes at most ([graph-decision.md](graph-decision.md)).
 
 ## How it would fit (if ever)
-- **NetworkX (trial)**: `gentext graph` loads the registries and chunk references into a `MultiDiGraph` for a handful of reports: orphan facts, chunks with no place or org, lineage families (the forked Ambrose documents), and org co-occurrence. Nothing is persisted. It rebuilds in seconds.
+- **NetworkX (trial)**: `adapt-rfp graph` loads the registries and chunk references into a `MultiDiGraph` for a handful of reports: orphan facts, chunks with no place or org, lineage families (the forked Ambrose documents), and org co-occurrence. Nothing is persisted. It rebuilds in seconds.
 - **Neo4j/others (hold)**: only if a future deployment needs a hosted multi-user graph API and the RDF view proves insufficient. Even then, it would be loaded from git, never canonical.
 
 ## Strengths

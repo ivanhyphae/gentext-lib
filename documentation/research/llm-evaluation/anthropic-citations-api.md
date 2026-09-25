@@ -33,7 +33,7 @@ A Messages API feature, generally available on the Claude API, AWS, Bedrock, Goo
 - Citation location types are `char_location` (text), `page_location` (PDF), and `content_block_location` (custom content). `search_result` blocks can also carry citations.
 - The docs state that citations "are guaranteed to contain valid pointers to the provided documents". `cited_text` "does not count toward output tokens" and is not counted as input when passed back.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The verifier's claim "fact F-0123 supports this sentence" has to be checkable without trusting the verifier. With Citations, the proof is a character range in the fact text returned by the API. It is not a quote the model could have paraphrased or invented. That is the same standoff-pointer idea as [span anchoring](../provenance/span-anchoring.md), applied to sources rather than drafts.
 

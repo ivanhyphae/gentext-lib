@@ -41,7 +41,7 @@ sources:
 - **TextDescriptives** v2.8.4 (2024-12; repo commits to 2026-05). spaCy v3 components for descriptive stats, readability, dependency distance, POS proportions, coherence, information theory, and **quality**. The quality component implements heuristics from Gopher (Rae et al. 2021) and T5 (Raffel et al. 2020): duplicate line, paragraph, and n-gram fractions, symbol-to-word ratio, and more. It exposes a `QualityThresholds` class and a `passed_quality_check` flag. Release cadence is slow, so check spaCy 3.8 compatibility.
 - **Passive voice.** Either compute it from spaCy dependencies (`nsubjpass`/`auxpass`, see [spaCy rules](spacy-rule-matching.md)) or use PassivePy (MIT). PassivePy has not been released since 2023, so we prefer the handful of lines ourselves.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - **Variant selection (M6).** Given a 250-word limit and three variants of a method chunk, prefer the one inside the funder's readability band.
 - **Drift detection.** Sentence-length spread and passive ratio per author/voice help M1 attribute mixed-voice sections (firm vs partner) *(heuristic; see [stylometry](stylometry-ai-detection.md) caveats)*.

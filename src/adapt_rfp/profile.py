@@ -13,8 +13,8 @@ from pathlib import Path
 
 import yaml
 
-from gentext import inventory as inv
-from gentext.extract import EMAIL, PHONE, cached_text
+from adapt_rfp import inventory as inv
+from adapt_rfp.extract import EMAIL, PHONE, cached_text
 
 PROFILE_DIR = Path("inventory/profiles")
 PROFILER_VERSION = "p2"

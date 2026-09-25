@@ -33,7 +33,7 @@ sources:
 
 An industrial NLP library: tokenizer, POS tagger, dependency parser, NER, and rule components. `Matcher` matches token-attribute patterns (LOWER, POS, TAG, DEP, OP quantifiers). `PhraseMatcher` does fast exact matching over thousands of phrases (optionally on `LOWER`). `EntityRuler` adds pattern-based entities with custom labels and `id`s, and can run before or after the statistical NER.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 | Pilot defect | spaCy mechanism |
 |---|---|
@@ -54,7 +54,7 @@ In the same probe, LanguageTool's public API missed all three errors ([card](lan
 
 ## How it would fit
 
-- `gentext.nlp.pipeline(target)` builds `en_core_web_sm` (or `_md`/`_trf` if accuracy matters) + EntityRuler from `library/registry/*.yaml` + custom Matchers, cached per registry hash.
+- `adapt-rfp.nlp.pipeline(target)` builds `en_core_web_sm` (or `_md`/`_trf` if accuracy matters) + EntityRuler from `library/registry/*.yaml` + custom Matchers, cached per registry hash.
 - Each finding records `pattern_id`, token span, and registry id. That meets the inspectability bar.
 - The gazetteer carries `scope` metadata (`place: fresno-county`, `region: central-valley`), so the leakage rule is "entity scope ∉ target scope". Places *near* the target (e.g., Pittsburg, Concord) can be allowlisted per chunk.
 - The same pipeline gives M4 its tokens, sentences, and POS ratios. TextDescriptives and scispaCy plug in as components.

@@ -35,7 +35,7 @@ sources:
 - **Constitutional-style critique**: the model critiques and revises against a written list of principles, the "constitution" ([arXiv 2212.08073](https://arxiv.org/abs/2212.08073)). For us the constitution is Appendix F's checklist items plus AGENTS.md truthfulness rules: no invented facts, visible placeholders, and no context leakage.
 - **The counter-evidence**: on reasoning tasks, *intrinsic* self-correction (no external feedback) doesn't help and sometimes degrades output. Earlier gains relied on oracle labels ([arXiv 2310.01798](https://arxiv.org/abs/2310.01798)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Writers want suggestions, not just a grade. A critic–reviser loop turns the findings from the [adversarial pass](adversarial-review-pass.md) into a candidate revision. The danger is specific to proposals: a reviser "improving" specificity will happily invent a resident quote or a tree count. The loop has to be fenced.
 

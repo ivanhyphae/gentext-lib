@@ -1,5 +1,5 @@
 ---
-title: Claude API features for gentext pipelines
+title: Claude API features for adapt-rfp pipelines
 slug: api-features
 level: 3
 parent: index.md
@@ -25,13 +25,13 @@ sources:
     accessed: 2026-09-25
 ---
 
-# Claude API features for gentext pipelines
+# Claude API features for adapt-rfp pipelines
 
-> **TL;DR** Several API features pay off in *headless* gentext jobs: structured outputs (M1 classification, M5 extraction), Batch (50% off bulk runs), prompt caching (library and rubric prefixes), Files, and web search/fetch (solicitation research). The memory tool and context editing matter only for long agent runs. **Assess**: adopt each one when a P3 pipeline needs it. None of them is needed for the pilot.
+> **TL;DR** Several API features pay off in *headless* adapt-rfp jobs: structured outputs (M1 classification, M5 extraction), Batch (50% off bulk runs), prompt caching (library and rubric prefixes), Files, and web search/fetch (solicitation research). The memory tool and context editing matter only for long agent runs. **Assess**: adopt each one when a P3 pipeline needs it. None of them is needed for the pilot.
 
 ## Feature table (status per the features overview, 2026-09-25)
 
-| Feature | Status on Claude API | gentext use | Notes |
+| Feature | Status on Claude API | adapt-rfp use | Notes |
 |---|---|---|---|
 | Structured outputs (JSON outputs, strict tool use) | GA | M1 chunk-type classification; M5 rubric → YAML; M7 judge reports | Schema-guaranteed. **Not combinable with Citations.** Schemas cached ≤24 h |
 | Batch processing | GA | Re-characterize the whole library; judge every chunk against a rubric | 50% cheaper, asynchronous. Not ZDR eligible |
@@ -45,15 +45,15 @@ sources:
 | Context editing / compaction | Beta | Long ingest or QA agent runs | Clears old tool results or summarizes |
 | Tool search, programmatic tool calling | GA | Only if the tool count grows large | Probably unnecessary |
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 DR-0003 puts LLM steps (classification, extraction, adaptation, judging) behind human review. The API gives those steps typed outputs and bulk pricing, which interactive chat can't provide. The README's "third party memory system" idea can be compared against the memory tool, which is our own storage and therefore inspectable.
 
 ## How it would fit
 
-- `gentext classify --llm`: structured outputs + Batch + a cached glossary prefix, producing candidate metadata for human confirmation (M1).
-- `gentext solicitation extract`: Files API PDF + structured outputs → draft YAML → human review (M5).
-- `gentext judge`: rubric coverage with structured outputs, run separately from the Citations-enabled compose call.
+- `adapt-rfp classify --llm`: structured outputs + Batch + a cached glossary prefix, producing candidate metadata for human confirmation (M1).
+- `adapt-rfp solicitation extract`: Files API PDF + structured outputs → draft YAML → human review (M5).
+- `adapt-rfp judge`: rubric coverage with structured outputs, run separately from the Citations-enabled compose call.
 
 ## Strengths
 

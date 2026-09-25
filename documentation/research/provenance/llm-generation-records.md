@@ -46,7 +46,7 @@ The pattern is a provenance record for a generation *activity*:
 
 OTel's GenAI conventions are built for observability traces, not document provenance. Several practitioner write-ups note they were not yet stable in 2026 *(check status before pinning names)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 "AI wrote it" is not enough provenance. What matters is *which inputs* the model saw, because AGENTS.md requires every factual claim to trace to a chunk or fact. With input ids we can check that an AI-drafted sentence only restates facts that were present in its inputs, a deterministic M7 check.
 

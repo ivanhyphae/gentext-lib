@@ -26,11 +26,11 @@ sources:
 ## What it is
 Jeremy Howard proposed llms.txt on 2024-09-03. The site lists a v2 update dated 2026-08-10 *(date as shown on the site; contents of v2 not reviewed in detail)*. The format, in order: an H1 with the project name (the only required element), a blockquote summary, optional prose, then zero or more H2 sections containing Markdown link lists of the form `[name](url): optional notes`. An `Optional` section, by convention, holds secondary material that can be skipped. Sites are also encouraged to serve `.md` versions of pages. The site reports that Mintlify, GitBook and others generate llms.txt automatically, and that major AI labs publish llms.txt files for their docs ([llmstxt.org](https://llmstxt.org/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 It is the smallest possible "level 0" of a progressive-disclosure wiki. It is readable by Claude, by humans, and by a 20-line generator. It also matches DR-0005's `library/index.md` → type index → chunk layout.
 
 ## How it would fit
-- `gentext index --md` regenerates `library/index.md` and `library/<type>/index.md` from frontmatter (`title`, `summary`, `variants[].words`).
+- `adapt-rfp index --md` regenerates `library/index.md` and `library/<type>/index.md` from frontmatter (`title`, `summary`, `variants[].words`).
 - Example entry: `- [UTCI microclimate modeling](method/utci-modeling.md): heat-exposure modeling method; variants 60/150/300 words`.
 - An `## Optional` section lists deprecated or low-confidence chunks.
 

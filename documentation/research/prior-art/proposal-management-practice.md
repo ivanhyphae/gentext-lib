@@ -11,7 +11,7 @@ updated: 2026-09-25
 
 # Proposal management practice: compliance matrices, color teams, themes
 
-> **TL;DR** Federal proposal practice (Shipley, APMP) already has the workflow gentext is rebuilding: **shred** the solicitation into one row per requirement (M5), write to **theme statements** backed by proof (M2/M3/M6), and review in **staged color teams** where an independent **red team** scores the draft the way an evaluator would. That red team is our adversarial LLM pass (M7). The method is free to borrow. Add proposal QA checks (acronyms, readability, plain language) and current funder AI policies.
+> **TL;DR** Federal proposal practice (Shipley, APMP) already has the workflow adapt-rfp is rebuilding: **shred** the solicitation into one row per requirement (M5), write to **theme statements** backed by proof (M2/M3/M6), and review in **staged color teams** where an independent **red team** scores the draft the way an evaluator would. That red team is our adversarial LLM pass (M7). The method is free to borrow. Add proposal QA checks (acronyms, readability, plain language) and current funder AI policies.
 
 ## 1. Compliance matrix (M5)
 
@@ -23,7 +23,7 @@ For EHCRP this means the Appendix F rubric "High" descriptors are requirements t
 
 Shipley's staged reviews are named by color. Shipley's own public pages describe the course but not the stages ([Shipley](https://www.shipleywins.com/training/winning-color-team-reviews), accessed 2026-09-25). The table below follows a secondary playbook ([GovEagle](https://www.goveagle.com/blog/pink-red-gold-team-reviews-playbook), accessed 2026-09-25; practitioner blog, consistent with other guides):
 
-| Team | When | Who | Scores against | gentext analogue |
+| Team | When | Who | Scores against | adapt-rfp analogue |
 |---|---|---|---|---|
 | Blue | Before writing | Capture lead | Win strategy | `model-solicitation` + outline |
 | Pink | ~20–40% draft | Writers, SMEs | Structure vs requirements/criteria | `check-draft --stage pink`: coverage map of rubric items to outline |
@@ -34,7 +34,7 @@ The key idea for us is **independence**. Red-team reviewers did not write the pr
 
 ## 3. Theme statements and proof (M2, M3, M6)
 
-Shipley: "Theme statements in proposals link a customer benefit to the discriminating features of your offer." State the benefit first, quantify it, keep it to about one sentence, and use it consistently ([Shipley blog](https://www.shipleywins.com/blogs/effective-theme-statements), accessed 2026-09-25). Practitioner guides add that every benefit needs **proof** (past performance, data). That maps straight onto gentext:
+Shipley: "Theme statements in proposals link a customer benefit to the discriminating features of your offer." State the benefit first, quantify it, keep it to about one sentence, and use it consistently ([Shipley blog](https://www.shipleywins.com/blogs/effective-theme-statements), accessed 2026-09-25). Practitioner guides add that every benefit needs **proof** (past performance, data). That maps straight onto adapt-rfp:
 
 - A `theme` chunk type (or a `themes[]` field on a solicitation response plan) with `benefit`, `discriminator`, `proof: [fact ids]`.
 - M7 check: every theme used in a draft has at least one resolvable fact. That makes the check for "unhedged boosters" ("cutting-edge", DR-0002 §6) *constructive*: replace the booster with a proof point.

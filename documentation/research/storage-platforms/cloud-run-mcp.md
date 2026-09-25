@@ -1,5 +1,5 @@
 ---
-title: Google Cloud Run for the gentext MCP server
+title: Google Cloud Run for the adapt-rfp MCP server
 slug: cloud-run-mcp
 level: 3
 parent: index.md
@@ -19,14 +19,14 @@ sources:
     accessed: 2026-09-25
 ---
 
-# Google Cloud Run for the gentext MCP server
+# Google Cloud Run for the adapt-rfp MCP server
 
 > **TL;DR** **Adopt** (DR-0009). Hyphae already uses Google Cloud, and Cloud Run officially hosts remote MCP servers over Streamable HTTP (and SSE; not stdio), naming FastMCP as a supported SDK. The one thing to solve is auth: Cloud Run defaults to IAM, while claude.ai connectors expect OAuth.
 
 ## What it is
 A managed container runtime that scales to zero. Google's docs have a dedicated guide for MCP servers: "Cloud Run supports hosting MCP servers with streamable HTTP transport, but not MCP servers with stdio transport."
 
-## Why it fits gentext
+## Why it fits adapt-rfp
 - It's the team's existing cloud: no new vendor, billing, or admin.
 - Our server is small and mostly stateless (read, search, check tools over a baked-in SQLite index). That suits scale-to-zero containers.
 - Container builds are reproducible and inspectable (Dockerfile + `uv.lock`).

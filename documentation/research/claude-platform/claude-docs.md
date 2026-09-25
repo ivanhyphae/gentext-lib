@@ -27,7 +27,7 @@ sources:
 
 # Claude Docs
 
-> **TL;DR** Claude Docs are living rich-text documents in claude.ai, stored under Artifacts. Claude drafts them, people co-edit and comment, and an @Claude comment gets Claude to revise. It launched in beta on 2026-09-16 on paid plans. A connector lets Claude (including Claude Code) create, read, edit and comment on docs programmatically. **Trial** as gentext's iteration surface. Don't treat it as a record, because it has no version history.
+> **TL;DR** Claude Docs are living rich-text documents in claude.ai, stored under Artifacts. Claude drafts them, people co-edit and comment, and an @Claude comment gets Claude to revise. It launched in beta on 2026-09-16 on paid plans. A connector lets Claude (including Claude Code) create, read, edit and comment on docs programmatically. **Trial** as adapt-rfp's iteration surface. Don't treat it as a record, because it has no version history.
 
 ## What it is (verified 2026-09-25)
 
@@ -39,13 +39,13 @@ sources:
 - **Export.** The doc name menu → Export offers Word, PDF or Markdown, for the open tab only (connector guide). The Help Center also lists **Google Docs** as an export target. *Conflict: test before relying on it.* The connector's `export` tool gives Claude a Word or PDF file.
 - **Gaps.** No version history, no File menu, a doc can't be put in a Project, no compliance-API logging, and charts don't auto-update.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The README says "try working in claude docs", and DR-0003 open question 5 asks Claude Docs vs Google Docs. Claude Docs is the only surface where Claude can edit *existing* text in place and act on reviewer comments. Google Docs through the Drive connector is read-only for existing files ([google-drive-connector.md](google-drive-connector.md)).
 
 ## How it would fit
 
-M9 surface: one doc per application, one tab per question, provenance as comments, a QA tab. See [docs-roundtrip.md](docs-roundtrip.md). Harvest goes through Claude reading the doc and then calling gentext tools, because our server can't read Docs directly.
+M9 surface: one doc per application, one tab per question, provenance as comments, a QA tab. See [docs-roundtrip.md](docs-roundtrip.md). Harvest goes through Claude reading the doc and then calling adapt-rfp tools, because our server can't read Docs directly.
 
 ## Strengths
 

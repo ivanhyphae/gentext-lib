@@ -56,8 +56,8 @@ A custom connector (Pro/Max/Team/Enterprise) needs a **publicly reachable** Stre
 | Google Cloud Run *(not researched in depth)* | any container | our own | scale-to-zero | option if Hyphae's Google Workspace/GCP is the home |
 
 ## How it would fit
-- `src/gentext/mcp_server.py` (FastMCP) imports the same library code as the CLIs, so there's a single implementation.
-- Build step: `gentext index rebuild --sensitivity-max=<hosted>` → `index.db` baked into the image. Data is read-only at runtime.
+- `src/adapt_rfp/mcp_server.py` (FastMCP) imports the same library code as the CLIs, so there's a single implementation.
+- Build step: `adapt-rfp index rebuild --sensitivity-max=<hosted>` → `index.db` baked into the image. Data is read-only at runtime.
 - Write tools use a GitHub App token scoped to the repo to open PRs, and never push to `main`.
 - Log every tool call (tool, args, chunk ids returned) for inspectability.
 

@@ -35,7 +35,7 @@ Structure-first segmentation. Section boundaries come from the author's headings
 - **LangChain MarkdownHeaderTextSplitter:** `headers_to_split_on=[("#","h1"),…]`, `strip_headers`. Each chunk gets its header values as metadata. Run a size splitter afterwards with `split_documents`.
 - **LlamaIndex** has comparable Markdown/hierarchical node parsers *(not re-verified today)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - Proposal prose is authored by section ("Modeling", "Monitoring", "SHORTENED VERSION"), so headings are the natural chunk unit (DR-0003 open question 1: section-level chunks).
 - The heading path becomes the **locator** in `sources[]` and a strong classification feature. A path containing "Notes", "Meeting" or "Template Letter" points to context-only or template chunks.
 - Deterministic and diffable. A re-run on a new export produces the same ids when the content is unchanged (id = hash of path + normalised text).

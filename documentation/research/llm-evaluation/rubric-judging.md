@@ -37,7 +37,7 @@ sources:
 - **G-Eval**: the judge gets criteria, generates evaluation steps (chain of thought), then fills a form score. It reported Spearman 0.514 with humans on summarisation, a large gain over BLEU/ROUGE-era metrics ([arXiv 2303.16634](https://arxiv.org/abs/2303.16634)).
 - **Prometheus / Prometheus 2**: open evaluator LMs trained to grade against a *user-supplied* score rubric, in both direct-assessment and pairwise formats ([arXiv 2405.01535](https://arxiv.org/abs/2405.01535)). The lasting idea is that the rubric is an input, not something baked into the judge.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 EHCRP Appendix F already *is* an analytic rubric. Each question has points, three bands with point ranges, and descriptors that name evidence types. HR Q1 High wants "community voices… quotes or stories", and Medium penalises "broad terms that could apply to many communities". M5 already plans to extract these "evidence expectations". Rubric judging is the step that turns them into a check.
 

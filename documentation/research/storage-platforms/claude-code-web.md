@@ -26,11 +26,11 @@ sources:
 ## What it is
 Cloud sessions of Claude Code started from claude.ai/code, or with `claude --cloud "…"` from the terminal. Each session gets an isolated VM with the repo cloned and limited network access by default. Repos connect through the Claude GitHub App. It's a research preview for Pro, Max, and Team, and for Enterprise premium / Chat+Claude Code seats (per docs, Aug 2026).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The README target is "Claude web can operate the system end to end." For technical team members this works on day one: ingest → segment → draft → check, with every change landing as a reviewable PR. There's no server, no OAuth, and no hosted database.
 
 ## How it would fit
-- A repo-level setup hook runs `uv sync && gentext index rebuild`, so every session starts with a fresh SQLite index.
+- A repo-level setup hook runs `uv sync && adapt-rfp index rebuild`, so every session starts with a fresh SQLite index.
 - Skills in `skills/` (M8) load as project skills.
 - Confidential `projects/` sources aren't in the repo (DR-0004), so cloud sessions only see promoted library text. That's a feature. Ingesting new raw sources stays a local-machine task.
 

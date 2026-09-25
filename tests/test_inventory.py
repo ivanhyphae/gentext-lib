@@ -3,7 +3,7 @@ import datetime as dt
 import pytest
 from pydantic import ValidationError
 
-from gentext import inventory as inv
+from adapt_rfp import inventory as inv
 
 
 def _asset(**kw):

@@ -38,7 +38,7 @@ sources:
 - **KeyBERT** (MIT; v0.9.0 2025-02, repo active 2026-08). Embeds the document and candidate n-grams with any sentence-transformers model (or others) and ranks candidates by cosine to the document. It supports MMR or Max-Sum diversification and seeded keywords. Deterministic given the model, but the reason for a ranking is "embedding similarity", which is less inspectable.
 - Alternatives *(not evaluated)*: spaCy noun chunks + TF-IDF against the library, `pke`, TextRank variants.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - **Metadata proposals.** M1 must propose `topics[]` so humans only confirm (DR-0003). Keyphrases mapped onto the controlled glossary topics give suggestions that are grounded in the text.
 - **Prompt coverage (T4).** Extract keyphrases from the M5 question prompt and rubric High band. Report which ones have no lexical or semantic counterpart in the draft. It is a coarse signal, and cheaper than an LLM pass.
@@ -57,7 +57,7 @@ sources:
 ## Weaknesses / risks
 
 - Keyphrases are noisy for short (≤ 250-word) texts.
-- YAKE's license ambiguity (AGPL in the repo) matters if gentext is ever offered as a network service. Treat it as AGPL until clarified.
+- YAKE's license ambiguity (AGPL in the repo) matters if adapt-rfp is ever offered as a network service. Treat it as AGPL until clarified.
 - Neither measures quality. They only describe content.
 
 ## Verdict rationale

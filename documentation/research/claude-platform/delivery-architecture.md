@@ -29,13 +29,13 @@ Each surface has a hard limit that pushes a capability into a particular layer:
 
 | Capability (DR-0003) | Core/CLI | MCP tool / resource | Skill |
 |---|---|---|---|
-| M0/M1 ingest, segment | `gentext ingest`, `gentext segment` | none in P2 (confidential sources stay local, DR-0004) | `ingest-source` (Claude Code only) |
-| M2 library lookup | `gentext find` | `search_chunks`, `get_chunk`; resources `chunk://{id}`, `library://index` | `find-copy`: how to choose variants, when to stop |
-| M3 facts, glossary | `gentext facts`, `gentext glossary` | `lookup_fact`, `resolve_entity`, `glossary_check` | referenced from drafting skills |
-| M5 solicitation | `gentext solicitation` | `get_requirements`, `compliance_matrix`; resource `solicitation://ehcrp/r2` | `model-solicitation` (LLM-assisted extraction → human review) |
-| M6 compose | `gentext compose --plan` (retrieval + fit) | `draft_context` returns chunks + limits + provenance scaffold | `draft-answer`: the method, the voice, the placeholder rule |
-| M7 QA | `gentext check` (word limits, leakage, glossary, provenance) | `check_draft` → report JSON | `check-draft`: run the check, then judge rubric coverage |
-| M9 harvest | `gentext harvest` | `propose_variant` writes a branch/PR, never `main` | `harvest-edits` |
+| M0/M1 ingest, segment | `adapt-rfp ingest`, `adapt-rfp segment` | none in P2 (confidential sources stay local, DR-0004) | `ingest-source` (Claude Code only) |
+| M2 library lookup | `adapt-rfp find` | `search_chunks`, `get_chunk`; resources `chunk://{id}`, `library://index` | `find-copy`: how to choose variants, when to stop |
+| M3 facts, glossary | `adapt-rfp facts`, `adapt-rfp glossary` | `lookup_fact`, `resolve_entity`, `glossary_check` | referenced from drafting skills |
+| M5 solicitation | `adapt-rfp solicitation` | `get_requirements`, `compliance_matrix`; resource `solicitation://ehcrp/r2` | `model-solicitation` (LLM-assisted extraction → human review) |
+| M6 compose | `adapt-rfp compose --plan` (retrieval + fit) | `draft_context` returns chunks + limits + provenance scaffold | `draft-answer`: the method, the voice, the placeholder rule |
+| M7 QA | `adapt-rfp check` (word limits, leakage, glossary, provenance) | `check_draft` → report JSON | `check-draft`: run the check, then judge rubric coverage |
+| M9 harvest | `adapt-rfp harvest` | `propose_variant` writes a branch/PR, never `main` | `harvest-edits` |
 
 Rules of thumb:
 
@@ -47,15 +47,15 @@ Rules of thumb:
 ## Packaging
 
 ```
-plugins/gentext/
+plugins/adapt-rfp/
   .claude-plugin/plugin.json      name, version, userConfig (server URL)
   skills/{find-copy,draft-answer,check-draft,harvest-edits}/SKILL.md
-  .mcp.json                       P1: stdio `uv run gentext-mcp`; P2: {"type":"http","url":"https://…/mcp"}
+  .mcp.json                       P1: stdio `uv run adapt-rfp-mcp`; P2: {"type":"http","url":"https://…/mcp"}
   scripts/                        helpers (no top-level bin/)
 .claude-plugin/marketplace.json   repo-local catalog
 ```
 
-- **Claude Code:** `/plugin marketplace add <org>/gentext-lib`, then `/plugin install gentext@<marketplace>`. Or register it for the repo with `--scope project` and commit `.claude/settings.json` ([host a marketplace](https://code.claude.com/docs/en/plugins/host-marketplace)).
+- **Claude Code:** `/plugin marketplace add <org>/adapt-rfp`, then `/plugin install adapt-rfp@<marketplace>`. Or register it for the repo with `--scope project` and commit `.claude/settings.json` ([host a marketplace](https://code.claude.com/docs/en/plugins/host-marketplace)).
 - **claude.ai (Team/Enterprise):** Organization settings → Plugins & skills → sync a private GitHub repo. Plugins then appear in web chat, Desktop, Cowork and Claude Code ([manage plugins](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)).
 - **claude.ai (Pro/Max):** upload each skill as a zip under Customize → Skills and add the MCP URL as a custom connector.
 

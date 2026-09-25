@@ -35,7 +35,7 @@ sources:
 ## What it is
 An open-source (Apache-2.0) SQL database whose storage is a Merkle-DAG. `dolt commit`, `dolt diff`, `dolt branch`, and `dolt merge` work on tables. **Dolt 2.0** (May 2026) adds automatic storage cleanup and compression, and ships beta support for version-controlled vector indexes (the MariaDB `VECTOR` type, adopted Sept 2025). **DoltgreSQL** (a Postgres-compatible variant) is still beta. DoltHub offers GitHub-style hosting.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The fact and entity registries (M3) are tabular, and cell-level diffs ("CHAT score 3.55 → 3.61, source updated") would be nicer than YAML line diffs. Versioned embeddings would make index history auditable.
 
 ## How it would fit

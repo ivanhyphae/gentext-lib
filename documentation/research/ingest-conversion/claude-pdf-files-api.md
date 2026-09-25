@@ -33,7 +33,7 @@ sources:
 - Plain text (`.md`, `.txt`) can be uploaded as `text/plain` document blocks. `.docx`/`.xlsx` must be converted first.
 - Citations can point answers back to document passages.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - M5 extraction (questions, word limits, points, rubric bands, budget floors) benefits from seeing layout. Citations give each extracted field a locator for human verification.
 - It is available in Claude web, which is the README's end-to-end target, so a skill can hand Claude the PDF directly.
 

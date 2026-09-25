@@ -1,5 +1,5 @@
 ---
-title: Proposed provenance schema for gentext
+title: Proposed provenance schema for adapt-rfp
 slug: schema
 level: 2
 parent: index.md
@@ -9,7 +9,7 @@ status: draft
 updated: 2026-09-25
 ---
 
-# Proposed provenance schema for gentext
+# Proposed provenance schema for adapt-rfp
 
 > **TL;DR** There are three plain-text artifacts: (1) a mandatory `provenance:` block in chunk frontmatter, (2) an agent registry plus one YAML file per LLM generation, and (3) an optional `<chunk>.prov.yaml` span sidecar that records exceptions only. Field names map one-to-one onto W3C PROV, so we can export to PROV-O later without migrating. This is a proposal for a future DR, not a decision.
 
@@ -136,7 +136,7 @@ spans:
     status: anchored          # anchored | fuzzy | orphaned
 ```
 
-The CLI (`gentext prov check`) re-anchors every span. Exact matches keep `status: anchored`. Fuzzy matches become `fuzzy` with a score. Misses become `orphaned` and fail CI until a human resolves them. See [span anchoring](span-anchoring.md).
+The CLI (`adapt-rfp prov check`) re-anchors every span. Exact matches keep `status: anchored`. Fuzzy matches become `fuzzy` with a score. Misses become `orphaned` and fail CI until a human resolves them. See [span anchoring](span-anchoring.md).
 
 ## Composed drafts (M6)
 

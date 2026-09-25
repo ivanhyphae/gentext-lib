@@ -24,10 +24,10 @@ from typing import Literal
 import yaml
 from pydantic import BaseModel, ConfigDict
 
-from gentext import inventory as inv
-from gentext.card import CARD_DIR, PRICES, _M as _Strict
-from gentext.extract import redact
-from gentext.profile import asset_text, shingles
+from adapt_rfp import inventory as inv
+from adapt_rfp.card import CARD_DIR, PRICES, _M as _Strict
+from adapt_rfp.extract import redact
+from adapt_rfp.profile import asset_text, shingles
 
 CAND_DIR = Path("library/_candidates")
 RUN_LOG = Path("library/_candidates/extract-runs.yaml")
@@ -264,7 +264,7 @@ PROMPT_DIR = Path("build/extract-prompts")
 
 def prepare(asset_ids: list[str] | None = None) -> int:
     """Sub-agent backend: one self-contained prompt file per section. A sub-agent must write the JSON object it
-    produces (matching `schema`) to build/extract-raw/<run>/<asset>__<sid>.json; then run `gentext extract --revalidate`."""
+    produces (matching `schema`) to build/extract-raw/<run>/<asset>__<sid>.json; then run `adapt-rfp extract --revalidate`."""
     todo, _ = plan(asset_ids)
     PROMPT_DIR.mkdir(parents=True, exist_ok=True)
     for it in todo:

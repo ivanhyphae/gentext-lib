@@ -11,11 +11,11 @@ updated: 2026-09-25
 
 # Prior art for proposal content and AI grant writing
 
-> **TL;DR** Nothing on the market fits a small partner firm that needs an inspectable, git-native library plus funder-specific requirement models. **Build** gentext, **don't buy** an RFP platform or grant-AI tool as the core, and **borrow** a lot: content governance from RFP libraries (owners, review cadences, freshness, moderation), compliance matrices and color-team reviews from federal proposal practice, acronym and plain-language checks from proposal QA tools, and citation gates from a small open-source project.
+> **TL;DR** Nothing on the market fits a small partner firm that needs an inspectable, git-native library plus funder-specific requirement models. **Build** adapt-rfp, **don't buy** an RFP platform or grant-AI tool as the core, and **borrow** a lot: content governance from RFP libraries (owners, review cadences, freshness, moderation), compliance matrices and color-team reviews from federal proposal practice, acronym and plain-language checks from proposal QA tools, and citation gates from a small open-source project.
 
 ## The question
 
-Who has already solved "reusable proposal prose + requirement tracking + drafting + QA", and what should gentext take from them?
+Who has already solved "reusable proposal prose + requirement tracking + drafting + QA", and what should adapt-rfp take from them?
 
 ## Landscape (September 2026)
 
@@ -33,7 +33,7 @@ Who has already solved "reusable proposal prose + requirement tracking + draftin
 
 - **Build** the library, fact registry, solicitation models, and checks as planned in DR-0003. The commercial tools confirm the design (owners, citations, "unavailable" flags) but hide it behind a closed store. That fails our inspectability test.
 - **Borrow** governance fields, review workflows, and QA checks (list below).
-- **Buy** nothing now. Revisit only for *funder discovery* (Instrumentl, Candid), which is outside gentext's scope.
+- **Buy** nothing now. Revisit only for *funder discovery* (Instrumentl, Candid), which is outside adapt-rfp's scope.
 
 ## Ideas to borrow, mapped to modules
 

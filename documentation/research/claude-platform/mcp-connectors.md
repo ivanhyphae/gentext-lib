@@ -27,7 +27,7 @@ sources:
 
 # MCP servers and custom connectors
 
-> **TL;DR** An MCP server exposes **tools** (actions), **resources** (addressable content) and **prompts** (templates). Locally that runs over stdio in Claude Code/Desktop; remotely over Streamable HTTP, which claude.ai reaches from Anthropic's cloud as a *custom connector*. **Adopt.** A hosted gentext MCP server is the only way Claude web can reach our library and checks.
+> **TL;DR** An MCP server exposes **tools** (actions), **resources** (addressable content) and **prompts** (templates). Locally that runs over stdio in Claude Code/Desktop; remotely over Streamable HTTP, which claude.ai reaches from Anthropic's cloud as a *custom connector*. **Adopt.** A hosted adapt-rfp MCP server is the only way Claude web can reach our library and checks.
 
 ## What it is
 
@@ -39,7 +39,7 @@ sources:
 - **Adding it.** Pro/Max users add a URL themselves. On Team/Enterprise an Owner adds it and each member authenticates. The free plan allows one custom connector. Connectors added on claude.ai also show up in Claude Code when logged in with that account.
 - **Claude Code scopes:** local (`~/.claude.json`), project (`.mcp.json`, committed) and user.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Skills on the web can't see our repo ([agent-skills.md](agent-skills.md)). MCP is the bridge. The same server also serves Claude Code, the Agent SDK and the API's MCP connector (beta), so one implementation covers every surface.
 

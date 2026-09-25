@@ -38,7 +38,7 @@ sources:
 ## What it is
 A block-based docs and databases workspace. Its API models databases as **data sources** (API version 2025-09-03, a breaking migration). A **hosted MCP server** (`mcp.notion.com`, OAuth) exposes search, fetch, create and update pages, data-source queries, views, and comments. It works with page content as token-efficient "enhanced Markdown".
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Colleagues could browse and filter chunks by type, place, or funder in a familiar UI, and Claude web can already reach Notion through its connector.
 
 ## Limits that matter (verified 2026-09-25)

@@ -41,7 +41,7 @@ sources:
 - **Open models** (license tags checked on HF 2026-09-25): `bge-small-en-v1.5` (MIT), `bge-m3` (MIT), `gte-modernbert-base` (Apache-2.0), `nomic-embed-text-v1.5` (Apache-2.0, needs task prefixes), `Qwen3-Embedding-0.6B` (Apache-2.0), `voyage-4-nano` (Apache-2.0), `embeddinggemma-300m` (Gemma terms, not OSI).
 - **Voyage API.** `voyage-4-large`, `voyage-4`, and `voyage-4-lite`: 32k context, 1024-d default with 256/512/2048 Matryoshka options, `int8`/binary quantization, and `input_type="query"|"document"` (which prepends a retrieval prompt). `voyage-context-4` embeds chunks with document context (120k). `rerank-2.5` is the reranker. Anthropic states it "does not offer its own embedding model".
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 | Use | Module | Notes |
 |---|---|---|

@@ -29,7 +29,7 @@ sources:
 ## What it is
 An open-source Python library (Apache-2.0) with a commercial platform/API on top. `partition_*` functions return elements. The docs list `Title`, `NarrativeText`, `ListItem`, `Table` (with `metadata.text_as_html`), `Header`, `Footer`, `PageBreak`, `Image`, `FigureCaption`, `Formula`, `Address`, `EmailAddress`, `UncategorizedText`, and `CompositeElement` for chunks. Metadata includes `page_number`, `parent_id`, `category_depth` and coordinates.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - The element types line up with M1's *context-only* detection. `EmailAddress`/`Address` flag contact blocks, and `NarrativeText` vs `ListItem` separates prose from action items.
 - Its `by_title` chunking (section-bounded chunks) is the same idea as our heading chunker *(chunking-strategy details not re-verified today)*.
 

@@ -34,15 +34,15 @@ sources:
 - **JSON Schema**: the language-neutral schema. Editors (VS Code YAML extension) can autocomplete and lint frontmatter against it. The 360Giving grants standard is itself published as JSON Schema ([grant-ontologies.md](grant-ontologies.md)).
 - **LinkML**: a YAML schema language (Apache-2.0) whose generators emit JSON Schema, SHACL, RDF/OWL, pydantic, SQL DDL and more. It gives every element a URI and has Schemasheets for spreadsheet-based authoring ([linkml.io](https://linkml.io/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Metadata is only useful if it is consistent: an `orgs:` entry that is not a registry id is a silent leakage bug. Validation also makes cross-reference checks cheap, e.g. that every `facts[]` id exists and every `lineage.derived_from` resolves.
 
 ## How it would fit
 ```
-src/gentext/schema.py        # pydantic: Chunk, Variant, Fact, Org, Place, Program, Term…
+src/adapt_rfp/schema.py        # pydantic: Chunk, Variant, Fact, Org, Place, Program, Term…
 schema/*.schema.json         # generated; referenced by editors via yaml-language-server comment
-gentext validate             # loads repo → models → referential-integrity pass → report
-.pre-commit-config.yaml      # runs gentext validate on changed files
+adapt-rfp validate             # loads repo → models → referential-integrity pass → report
+.pre-commit-config.yaml      # runs adapt-rfp validate on changed files
 ```
 - Two passes: (1) *shape* (types, enums, required fields) and (2) *integrity* (ids resolve, no alias shared by two orgs, variant word counts match the actual text, `sensitivity` compatible with links).
 - With LinkML, pass 2 can partly move to generated SHACL run by pySHACL over the RDF export ([rdf-toolchain.md](rdf-toolchain.md)).

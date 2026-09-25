@@ -1,4 +1,4 @@
-# Asset inventory (DR-0010). Validate: `uv run gentext inventory validate`. Regenerate index: `uv run gentext inventory index`.
+# Asset inventory (DR-0010). Validate: `uv run adapt-rfp inventory validate`. Regenerate index: `uv run adapt-rfp inventory index`.
 # Status lifecycle: wanted → discovered → include|defer|exclude → acquired → ingested → harvested
 # Priority: 1 = needed for the live EHCRP application (due 2026-10-13), 2 = high library value, 3 = nice to have.
 

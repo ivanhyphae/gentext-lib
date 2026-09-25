@@ -38,7 +38,7 @@ sources:
 - **Quartz**: a static site generator for Obsidian-style vaults, with wikilinks, transclusions, backlinks, a graph view and full-text search. The homepage announces Quartz 5 with a date of 2026-09-20 ([quartz.jzhao.xyz](https://quartz.jzhao.xyz/), accessed 2026-09-25). v5 is days old, so expect churn.
 - **Material for MkDocs** entered maintenance mode (announced 2025-11-05; 9.7.0 was the last feature release). New work moved to **Zensical**, from the same team, which reads `mkdocs.yml`. Critical fixes are reported to continue until 2027-05-05 (secondary sources; see [Zensical](https://zensical.org/upcoming-changes/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Non-technical colleagues need to browse the library without git. Obsidian over a synced checkout gives them tables ("all `project-case` chunks, sensitivity, last_reviewed"), backlinks (which chunks cite `fact:…`) and a graph picture at no build cost.
 
 ## How it would fit

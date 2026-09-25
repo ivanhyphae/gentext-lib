@@ -18,4 +18,4 @@ fi
 cd "$(dirname "$0")/.."
 uv sync
 uv run pytest -q
-echo "gentext ready. Start at documentation/status.md. No API key here: use the sub-agent backends."
+echo "adapt-rfp ready. Start at documentation/status.md. No API key here: use the sub-agent backends."

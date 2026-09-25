@@ -66,7 +66,7 @@ sources:
 - **Non-native and formal writing**: Liang et al. 2023 found 61% of TOEFL essays flagged by seven early detectors. A 2026 Czech replication found no such bias in modern detectors. But arXiv 2608.26710 (13 detectors, 135k non-native / native-edited pairs) found FPRs from **0% to 100%** by tool, with score changes tracking the *amount of professional editing*, and the direction varied by detector. Proposal prose is formal, edited and templated, which is exactly the confound.
 - **EditLens** reframes detection as "how much AI editing", and it tracks edit magnitude better than binary Pangram (r 0.606 vs 0.491 on APT-Eval). That is closer to our reality of mixed authorship, but it is still not a quality measure.
 
-## Why hold for gentext
+## Why hold for adapt-rfp
 
 1. **Wrong question.** Provenance (DR-0008) records which model wrote which span. A detector's guess adds nothing to that, and the [Wikipedia guide](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) itself cautions against relying on detectors.
 2. **Wrong gradient.** Rewriting to lower a detector score rewards "humanizer" tricks (odd word choice, injected errors) over clarity and specificity. The [slop lexicons](s-slop-lexicons.md) and [LAMP categories](s-edit-based-rewards-lamp.md) point at *fixable* problems.

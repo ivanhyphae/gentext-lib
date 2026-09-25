@@ -27,13 +27,13 @@ sources:
 
 # BERTScore
 
-> **TL;DR** **Hold.** BERTScore compares a candidate text to a *reference* by greedily matching contextual token embeddings, and reports precision, recall, and F1. gentext rarely has a gold reference, and plain sentence embeddings or MinHash answer our similarity questions more simply. The package has had no release since 2023.
+> **TL;DR** **Hold.** BERTScore compares a candidate text to a *reference* by greedily matching contextual token embeddings, and reports precision, recall, and F1. adapt-rfp rarely has a gold reference, and plain sentence embeddings or MinHash answer our similarity questions more simply. The package has had no release since 2023.
 
 ## What it is
 
 A reference-based generation metric (Zhang et al., ICLR 2020). Each candidate token is matched to its most similar reference token (cosine over BERT-family contextual embeddings), with optional IDF weighting and baseline rescaling. Output: P (candidate supported by reference), R (reference covered by candidate), and F1. MIT-licensed. PyPI 0.3.13 was released 2023-02, and the last repo push was 2024-07.
 
-## Why it might matter for gentext
+## Why it might matter for adapt-rfp
 
 The one plausible use is **variant fidelity**: when a "SHORTENED" variant is made from a long chunk, BERTScore *precision* (short vs long as reference) estimates whether the short version adds content that isn't in the source. Recall estimates how much it drops. Token-level alignments can be visualized, which is somewhat inspectable.
 

@@ -47,7 +47,7 @@ SaaS for RFP, RFI, and questionnaire response with a Content Library of Q&A pair
 - **Trivial**: search for specific *client names* left in answers.
 - Cadence: corporate content every 90 days; product 6–12 months or on release; evergreen 12–24 months.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - The owner/moderator split fits DR-0003's open question about partner-authored text. `owner: partner:i-relab` is responsible for accuracy, while a Hyphae moderator decides promotion to `canonical`.
 - "Search client names" is our **context-leakage** check (the "Fresno County" defect) applied to the library.

@@ -53,7 +53,7 @@ SaaS for answering RFPs and security questionnaires from a central "Library" of 
 - Four health metrics: content usage %, freshness, performance, automation %.
 - A customer case: tags reduced from 500+ to 75 broad categories; unused entries deleted after a year.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It shows which governance fields matter and how a library fails. Competitor-compiled reviews say Magic underperforms when "the Library is not sufficiently maintained". Treat that source with caution, since a competitor wrote it, but the point is plausible and matches Responsive's own audit advice.
 

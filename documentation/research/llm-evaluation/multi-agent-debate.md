@@ -35,7 +35,7 @@ sources:
 - **Adversarial debate for oversight**: two expert debaters argue opposite answers and a non-expert judge chooses. Judges reached 76% (model) and 88% (human) accuracy versus 48% and 60% baselines, and more persuasive debaters *helped* truthfulness ([arXiv 2402.06782](https://arxiv.org/abs/2402.06782)).
 - **Caveats**: in controlled logic puzzles, "majority pressure suppresses independent correction". Reasoning strength and diversity of agents mattered more than debate structure ([arXiv 2511.07784](https://arxiv.org/abs/2511.07784)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The skeptic in the [adversarial pass](adversarial-review-pass.md) produces false positives: nit-picks, and objections already answered elsewhere in the draft. Some adjudication is needed, or writers drown. The Khan et al. set-up maps well: the debaters have evidence (the draft and registry), and the judge only has to check whether cited evidence supports the claim.
 

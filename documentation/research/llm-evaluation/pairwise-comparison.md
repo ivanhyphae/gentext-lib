@@ -36,13 +36,13 @@ sources:
 
 Pairwise (A vs B) is the Chatbot Arena and MT-Bench format ([arXiv 2306.05685](https://arxiv.org/abs/2306.05685)). The alternative is pointwise: one output scored against a rubric ([rubric-judging](rubric-judging.md)). Prometheus 2 trains a single evaluator for both modes ([arXiv 2405.01535](https://arxiv.org/abs/2405.01535)). promptfoo's `select-best` assertion does this across prompt or provider outputs ([docs](https://www.promptfoo.dev/docs/configuration/expected-outputs/model-graded/)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 M6 will often produce several candidates for one question: different chunk selections, the long variant versus the SHORTENED one, or different partner framings. Writers need to know *which is closer to High on item X*, not an absolute score. Pairwise answers that question directly.
 
 ## How it would fit
 
-- `gentext compare draftA draftB --question EHCRP-R2/HR-Q1 --items voices,not-generic`
+- `adapt-rfp compare draftA draftB --question EHCRP-R2/HR-Q1 --items voices,not-generic`
 - For each item, run A|B, then B|A. Record `winner`, with the quote from each side supporting the decision.
 - Aggregate: win if both orders agree, tie otherwise. This is Wang et al.'s *balanced position calibration* ([arXiv 2305.17926](https://arxiv.org/abs/2305.17926)).
 - Only compare drafts **of equal length**. Word limits make this natural and neutralise verbosity bias.

@@ -43,7 +43,7 @@ Role-conditioned LLM judges stand in for an expert review panel. EHCRP applicati
 
 Every persona gets the **same** checklist items ([rubric-judging](rubric-judging.md)). The persona only changes emphasis and the notes it writes, never the rubric. Scores roll up as the median band. Items where personas disagree by a full band go into a "contested" list for humans.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Writers ask "how will the panel read this?" A panel output grouped by rubric item shows unanimous gaps first (e.g. "Voices: absent, 3/3") and contested items second. That report is more actionable than one score and more honest about uncertainty.
 

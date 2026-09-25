@@ -27,7 +27,7 @@ sources:
 
 # Claude Code plugins and marketplaces
 
-> **TL;DR** A plugin bundles skills, commands, agents, hooks and MCP server configs under `.claude-plugin/plugin.json`. A marketplace is a git-hosted `marketplace.json` catalog. On Team/Enterprise the same private repo syncs into claude.ai, Desktop and Cowork. **Adopt** as the single package for gentext's Claude surface.
+> **TL;DR** A plugin bundles skills, commands, agents, hooks and MCP server configs under `.claude-plugin/plugin.json`. A marketplace is a git-hosted `marketplace.json` catalog. On Team/Enterprise the same private repo syncs into claude.ai, Desktop and Cowork. **Adopt** as the single package for adapt-rfp's Claude surface.
 
 ## What it is
 
@@ -37,18 +37,18 @@ sources:
 - **claude.ai org sync** (Team/Enterprise). Organization settings → Plugins & skills connects a private GitHub/GitLab repo, or accepts a zip upload (≤200 MB). Plugins then appear in web chat, Desktop chat, Cowork and Claude Code. Restrictions: the repo must be private or internal, and **no top-level `bin/`**.
 - `claude plugin validate .` checks the manifest and catalog.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It is the one artifact that carries skills plus the MCP connection to every surface we target, and it versions them together. Hooks can enforce working agreements mechanically, for example a PreToolUse hook that blocks writes under `projects/` (DR-0004).
 
 ## How it would fit
 
 ```
-.claude-plugin/marketplace.json          { "name": "hyphae", "plugins": [{ "name": "gentext", "source": "./plugins/gentext" }] }
-plugins/gentext/.claude-plugin/plugin.json
-plugins/gentext/skills/...
-plugins/gentext/.mcp.json                 P1 stdio → P2 http URL (via userConfig)
-plugins/gentext/hooks/hooks.json          guard projects/, run `gentext check` after draft writes
+.claude-plugin/marketplace.json          { "name": "hyphae", "plugins": [{ "name": "adapt-rfp", "source": "./plugins/adapt-rfp" }] }
+plugins/adapt-rfp/.claude-plugin/plugin.json
+plugins/adapt-rfp/skills/...
+plugins/adapt-rfp/.mcp.json                 P1 stdio → P2 http URL (via userConfig)
+plugins/adapt-rfp/hooks/hooks.json          guard projects/, run `adapt-rfp check` after draft writes
 ```
 
 The sibling `hyphae_ai_skills` repo could become a second plugin in the same `hyphae` marketplace.

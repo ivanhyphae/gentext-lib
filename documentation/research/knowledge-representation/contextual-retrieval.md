@@ -26,7 +26,7 @@ sources:
 ## What it is
 From Anthropic's 2024-09-19 post: Claude writes a short context for each chunk ("this chunk is from X's Q2 filing, discussing…"), and that context is prepended before both embedding and BM25 indexing. Reported top-20 retrieval failure rates were 5.7% → 3.7% (contextual embeddings), → 2.9% (+ contextual BM25), → 1.9% (+ reranking). For knowledge bases under about 200,000 tokens (about 500 pages), the post recommends including the whole knowledge base in the prompt, with prompt caching to cut latency (>2×) and cost (up to 90%) ([anthropic.com](https://www.anthropic.com/news/contextual-retrieval), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - Chunks cut from working documents lose context ("the park", "the District"). The fix is the same whether an LLM writes the context or a human curates it.
 - Our chunks carry `type`, `summary`, `places`, `orgs` and `programs`. Rendering those as a header line gives most of the benefit deterministically and inspectably.
 - The 200k-token rule of thumb tells us that retrieval infrastructure is optional for the pilot (15–25 chunks) and for most filtered queries later.

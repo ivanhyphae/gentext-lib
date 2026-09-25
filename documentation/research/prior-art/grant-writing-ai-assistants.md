@@ -74,7 +74,7 @@ Most comparison articles are published by these vendors (Granted, Grantable, Gra
 
 ## How it would fit
 
-- Not in the core. Optional, outside gentext: Instrumentl or Candid for *finding* opportunities.
+- Not in the core. Optional, outside adapt-rfp: Instrumentl or Candid for *finding* opportunities.
 - **Borrow**: an Instrumentl-style section builder as the output of M5 (`outline` generated from the compliance matrix); a Granted-style multi-persona red team in M7 (e.g., "program officer", "community reviewer", "technical reviewer"), each scoring independently before reconciliation.
 
 ## Verdict rationale

@@ -29,7 +29,7 @@ Sources: [Web Annotation Data Model §4.2.4–4.2.5](https://www.w3.org/TR/annot
 
 The W3C spec itself calls position selectors "very brittle with regards to changes to the resource". That is why the quote is primary and the offset is only a hint.
 
-## The re-anchor cascade (`gentext prov check`)
+## The re-anchor cascade (`adapt-rfp prov check`)
 
 Run it on each commit (pre-commit hook or CI) and at every harvest:
 

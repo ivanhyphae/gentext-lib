@@ -36,7 +36,7 @@ updated: 2026-09-25
 # level-3 cards only:
 kind: library                    # library | service | platform | algorithm | technique | standard | product
 verdict: adopt                   # adopt | trial | assess | hold  (Thoughtworks-radar style)
-fit: [M7]                        # gentext modules it serves (see decision-record/0003)
+fit: [M7]                        # adapt-rfp modules it serves (see decision-record/0003)
 license: MIT
 maturity: mature                 # experimental | emerging | mature | legacy
 inspectability: high             # high | medium | low: can we see, diff, and audit what it does/stores?
@@ -51,7 +51,7 @@ sources:
 
 1. `# Title`
 2. `> **TL;DR** …` (1–3 sentences, including the verdict for cards)
-3. Body. Suggested card sections: *What it is · Why it matters for gentext · How it would fit (module, interface) · Strengths · Weaknesses / risks · Verdict rationale · Sources*.
+3. Body. Suggested card sections: *What it is · Why it matters for adapt-rfp · How it would fit (module, interface) · Strengths · Weaknesses / risks · Verdict rationale · Sources*.
 4. Link only with relative Markdown links. Every page links to its `parent`. Level-1 pages link to all their children.
 
 ## Evidence standards

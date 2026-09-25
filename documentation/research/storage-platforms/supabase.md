@@ -54,7 +54,7 @@ A managed Postgres platform. Relevant pieces:
 
 **Pricing (2026-09, secondary sources; verify on supabase.com/pricing):** Free: 500 MB DB, 1 GB storage, 2 active projects, paused after 7 days inactive, no backups. Pro: $25/month per project with 8 GB DB and $10 compute credit. Team: $599/month.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 It's the one vendor that covers the whole phase-2 checklist: a shared live index, per-user auth tied to `sensitivity`/`owner` via RLS, file storage for source PDFs/DOCX (if DR-0004 permits), and a place to host the MCP server next to the data.
 
 ## How it would fit

@@ -51,7 +51,7 @@ Below that, Anthropic's guidance for knowledge bases under ~200k tokens applies:
 ## Privacy and cost
 
 - API embedding and rerank calls send text off the machine, so apply DR-0004 and send only chunks at an allowed `sensitivity`. Voyage lists 200M free tokens on most current models ([docs.voyageai.com](https://docs.voyageai.com/docs/pricing), accessed 2026-09-25). Our whole corpus is well under 1M tokens, so embedding cost is negligible. If text must not leave the machine, the fallback is the open-weight `voyage-4-nano` (Apache-2.0, listed in Anthropic's embeddings guide) or another local model, run in the same pipeline *(local quality not evaluated here)*.
-- Rebuild is one command (`gentext index`), and the index is gitignored (DR-0005).
+- Rebuild is one command (`adapt-rfp index`), and the index is gitignored (DR-0005).
 
 ## Inspectability hooks
 

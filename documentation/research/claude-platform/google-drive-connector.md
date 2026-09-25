@@ -39,13 +39,13 @@ sources:
 - **Setup.** Each user signs in with their own Google account. On Team/Enterprise an Owner must add the connector first. Drive files can go into project knowledge only in *private* projects.
 - **Timeline.** Workspace connectors expanded in 2026. Third-party reporting puts the integration update at 2026-02-24 *(secondary source)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The team works in Google Docs today (DR-0003 Q5), and the final application is a tabbed Google Doc. The connector lets Claude read the team's working docs for **M0 ingest** without downloading DOCX files by hand. It also lets Claude read the **final** Doc so M7 checks can run on what will actually be submitted.
 
 ## How it would fit
 
-- `ingest-source` skill: Drive search → `read_file_content` → `gentext ingest --stdin --source gdrive:<fileId>`, recording the file id and modified time in the manifest.
+- `ingest-source` skill: Drive search → `read_file_content` → `adapt-rfp ingest --stdin --source gdrive:<fileId>`, recording the file id and modified time in the manifest.
 - Final QA: read the submission Doc → `check_draft` per section → report leftover `{>>TK …<<}`, leakage and word overruns.
 - **Not** a write target for final prose. A human pastes (see [docs-roundtrip.md](docs-roundtrip.md)).
 - For full Google Docs editing we would need our own MCP server calling the Google Docs API (`documents.batchUpdate`). Out of scope. *(assess later)*

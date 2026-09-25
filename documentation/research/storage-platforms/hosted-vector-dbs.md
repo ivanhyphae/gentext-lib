@@ -34,7 +34,7 @@ sources:
 - **Pinecone**: managed vector DB. The free Starter tier offers about 2 GB storage, 5 indexes, 2M write / 1M read units per month, AWS us-east-1 only, paused after 3 weeks idle *(secondary; verify)*.
 - **Qdrant**: open-source engine (Apache-2.0, self-hostable) plus Qdrant Cloud. The free cluster is 1 GB RAM / 4 GB disk, suspended after 1 week idle and deleted after 4 weeks *(secondary; verify)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Mostly it doesn't, at our scale. The one legitimate draw is having a hosted index that the MCP server can query without redeploying, but Postgres + pgvector gives us that along with our metadata tables.
 
 ## Strengths

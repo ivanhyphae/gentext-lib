@@ -1,11 +1,11 @@
 ---
 name: asset-discovery
-description: Discover, triage, and record proposal assets (past proposals, solicitations, award lists, reports, datasets, funder guidance) that are not yet in the gentext library, using the Google Drive connector and web search, into the inventory manifest at inventory/assets.yaml. Use when asked to "find past proposals", "what do we have on X", "sweep Drive", "inventory sources", "what's missing for this application", or before building library chunks for a new solicitation.
+description: Discover, triage, and record proposal assets (past proposals, solicitations, award lists, reports, datasets, funder guidance) that are not yet in the adapt-rfp library, using the Google Drive connector and web search, into the inventory manifest at inventory/assets.yaml. Use when asked to "find past proposals", "what do we have on X", "sweep Drive", "inventory sources", "what's missing for this application", or before building library chunks for a new solicitation.
 ---
 
 # Asset discovery
 
-Maintain `inventory/assets.yaml` (records) and `inventory/sweeps.yaml` (run log) in the gentext repo. The schema and lifecycle are in `src/gentext/inventory.py` and DR-0010. This skill covers **discovery and triage**. Acquisition and ingest are separate steps.
+Maintain `inventory/assets.yaml` (records) and `inventory/sweeps.yaml` (run log) in the adapt-rfp repo. The schema and lifecycle are in `src/adapt_rfp/inventory.py` and DR-0010. This skill covers **discovery and triage**. Acquisition and ingest are separate steps.
 
 ## Lifecycle
 
@@ -25,7 +25,7 @@ Maintain `inventory/assets.yaml` (records) and `inventory/sweeps.yaml` (run log)
    - Folder walks: `parentId = '<folder id>'` for any folder recorded as `include`
    - Recency: `modifiedTime > '<date>'` for incremental sweeps
    - Page with `pageToken` until results stop being relevant, and say in the sweep notes where you stopped.
-4. **Dedup before writing.** For each hit, run `uv run gentext inventory find gdrive <fileId>`. Exit code 0 means it's already recorded: update it if the metadata changed, and never create a duplicate.
+4. **Dedup before writing.** For each hit, run `uv run adapt-rfp inventory find gdrive <fileId>`. Exit code 0 means it's already recorded: update it if the metadata changed, and never create a duplicate.
 5. **Triage from metadata first.** Title, owner, folder, mime, size, and dates are usually enough. Read content (`read_file_content`) only when the title is ambiguous and the item could be priority 1–2. Priority:
    - **1**: needed for a live application (currently EHCRP R2, due 2026-10-13)
    - **2**: high library value: submitted proposals, project deliverables with citable facts, current capability decks
@@ -39,7 +39,7 @@ Maintain `inventory/assets.yaml` (records) and `inventory/sweeps.yaml` (run log)
    - `relevance.note`: *why* it matters, naming the chunk types or rubric question it serves
    - `discovered`: date, model id, sweep id
 7. **Web sources.** Use WebSearch for funder pages: prior-round award lists, FAQs, webinar slides, cited reports. Record them with `system: web` and a `url`.
-8. **Close out.** Run `uv run gentext inventory validate`, then `uv run gentext inventory index`, then `uv run pytest -q tests/test_inventory.py`. Commit `assets.yaml`, `sweeps.yaml`, and `index.md` together, with a message summarising the sweep's counts.
+8. **Close out.** Run `uv run adapt-rfp inventory validate`, then `uv run adapt-rfp inventory index`, then `uv run pytest -q tests/test_inventory.py`. Commit `assets.yaml`, `sweeps.yaml`, and `index.md` together, with a message summarising the sweep's counts.
 
 ## Acquisition (after triage, per DR-0010)
 

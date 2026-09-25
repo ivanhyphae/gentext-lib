@@ -35,7 +35,7 @@ sources:
 - **CriticMarkup**: five plain-text marks. Addition `{++ ++}`, deletion `{-- --}`, substitution `{~~ old ~> new ~~}`, comment `{>> <<}`, highlight `{== ==}`. Its stated goals include multi-author change tracking through comments. MultiMarkdown 6 and MkDocs extensions render it. Editors (Emacs, others) can accept or reject marks.
 - **Footnotes** (`[^1]`) and HTML comments (`<!-- by: … -->`) are cheaper ad-hoc variants.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Inline is the most *obvious* representation. You see the attribution where you read the text, and moving text moves its markup. For a review draft pushed to colleagues, CriticMarkup comments like `{>>from I-ReLab 2026 memo<<}` are a quick, readable provenance hint.
 

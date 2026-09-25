@@ -45,7 +45,7 @@ sources:
 - **Voyage** (as of 2026-09-25): `voyage-4-large` $0.12, `voyage-4` $0.06 and `voyage-4-lite` $0.02 per M tokens, plus `voyage-context-4`. Rerankers: `rerank-3` $0.05 and `rerank-3-lite` $0.02 (200M free tokens each), and `rerank-2.5`/`-lite` ([pricing](https://docs.voyageai.com/docs/pricing), accessed 2026-09-25). rerank-2.5 is instruction-following, meaning it accepts a natural-language steer such as "prefer chunks with community quotes" ([blog](https://blog.voyageai.com/2025/08/11/rerank-2-5/)).
 - **Cohere Rerank 4** (Pro and Fast, released 2025-12-11): 32k per-document context, 100+ languages. Prices are reported at about $0.0025 (Pro) and $0.002 (Fast) per search (secondary sources; see [Cohere](https://cohere.com/blog/rerank-4), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 BM25 wins on exact tokens (acronyms, tract ids, "hsCRP"). Embeddings win on paraphrase, such as matching a rubric descriptor ("community voices… quotes or stories") to chunks that never use those words. A reranker scores query and chunk *jointly*, which fixes most fusion noise, and it is the cheapest quality lever in Anthropic's Contextual Retrieval results ([contextual-retrieval.md](contextual-retrieval.md)).
 
 ## How it would fit

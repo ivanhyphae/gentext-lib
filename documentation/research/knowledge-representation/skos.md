@@ -26,7 +26,7 @@ sources:
 ## What it is
 SKOS (W3C Recommendation, 2009-08-18) models knowledge organization systems "as-is", without forcing them into formal logic. Classes: `skos:Concept`, `skos:ConceptScheme`, `skos:Collection`. Labels: `prefLabel` (one per language), `altLabel`, and `hiddenLabel` (for search, e.g. misspellings). Relations: `broader`/`narrower` (plus transitive variants) and `related`. Documentation: `definition`, `scopeNote`, `notation`. Mapping: `exactMatch`, `closeMatch`, `broadMatch`/`narrowMatch` ([w3.org](https://www.w3.org/TR/skos-reference/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The glossary problems in DR-0002 are SKOS problems:
 - **UTCI**: one `prefLabel`, and the wrong expansion recorded as a forbidden variant. SKOS has no "forbidden" label, so we add a custom `forbidden_labels` field. `hiddenLabel` suits tolerated misspellings that should still match in search.
 - **Topics** for chunks (extreme heat → microclimate modeling → UTCI modeling) are a `broader`/`narrower` hierarchy. Retrieval can expand a topic filter to its narrower concepts.

@@ -6,10 +6,10 @@
 
 | # | Item | Module | Notes |
 |---|---|---|---|
-| 1 | **Fact registry** (`library/facts/*.yaml`): pydantic schema, `gentext facts add/verify`, source + locator + access date, verification status | M3 | Seed from candidate `facts`. Verification = quote found in the source text + human confirm. |
-| 2 | **Promotion (T4)**: `gentext promote <candidate>` → `library/<type>/<slug>.md` with DR-0008 provenance (steward, authors, reviewed_by), split/merge, sensitivity tag | M2 | Candidates are staging only. Promotion is a human/Opus decision. |
+| 1 | **Fact registry** (`library/facts/*.yaml`): pydantic schema, `adapt-rfp facts add/verify`, source + locator + access date, verification status | M3 | Seed from candidate `facts`. Verification = quote found in the source text + human confirm. |
+| 2 | **Promotion (T4)**: `adapt-rfp promote <candidate>` → `library/<type>/<slug>.md` with DR-0008 provenance (steward, authors, reviewed_by), split/merge, sensitivity tag | M2 | Candidates are staging only. Promotion is a human/Opus decision. |
 | 3 | **Draft scaffold per application/question**: `solicitations/.../applications/<app>/answers/<qid>.md` with a sentence→source provenance map | M6 | Composition is done by Claude (Opus) in-session from facts and chunks, not a pipeline. |
-| 4 | **Deterministic checks** `gentext check <draft>`: word limit, leftover `{>>TK`, glossary/acronym (UTCI), entity-name near-misses (rapidfuzz), place/org leakage against the application's allowed set, booster lexicon | M7 | See `documentation/research/nlp-quality/check-catalog.md`. Emits the unified finding record (`research/prose-signals/span-feedback-schema.md`). |
+| 4 | **Deterministic checks** `adapt-rfp check <draft>`: word limit, leftover `{>>TK`, glossary/acronym (UTCI), entity-name near-misses (rapidfuzz), place/org leakage against the application's allowed set, booster lexicon | M7 | See `documentation/research/nlp-quality/check-catalog.md`. Emits the unified finding record (`research/prose-signals/span-feedback-schema.md`). |
 | 5 | **Glossary + entity registry seed** (`library/glossary/`, `library/entities/`) with SKOS-style labels | M3 | Needed by #4. Seed: UTCI, CHAT, VCP, DAC/SDAC, ARPD, CCRCD, CSAHC (Caribbean South America Hispanic Council), Bay Point Garden Club. |
 
 ## Soon after
@@ -17,7 +17,7 @@
 | # | Item | Module | Notes |
 |---|---|---|---|
 | 6 | Rubric-coverage pass (witness-style LLM judge; quotes + rubric line, validated) | M7 | `research/llm-evaluation/adversarial-review-pass.md` |
-| 7 | Prose signals v1 (`gentext signals`): concreteness/anchor density percentiles vs exemplar corpus, slop lexicon | M4/M7 | `research/prose-signals/index.md` |
+| 7 | Prose signals v1 (`adapt-rfp signals`): concreteness/anchor density percentiles vs exemplar corpus, slop lexicon | M4/M7 | `research/prose-signals/index.md` |
 | 8 | Fuzzy anchor fallback for T3 (rapidfuzz) | T3 | Recovers the remaining unmatched anchors. Raw outputs are saved, so it can run with `--revalidate`. |
 | 9 | Card prompt c4: stop over-matching wanted-asset need ids; split cards for very long docs | T2 | Known defects in DR-0011. |
 | 10 | Needs-ordered extraction: rank hold sections by `serves_needs` hits on live questions before spending | T3 | Haiku leans generous on `hold` (55/104). |

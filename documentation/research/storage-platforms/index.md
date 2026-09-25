@@ -46,7 +46,7 @@ A fact that shapes every choice: **the corpus is small.** The pilot will yield a
 
 ## Recommendation, phased
 
-**Phase 0: pilot (now to the 2026-10-13 deadline).** Use git and a local derived SQLite index (`gentext index rebuild`). Claude Code runs locally, and teammates can use Claude Code on the web against the same private GitHub repo. Nothing is hosted and no new vendor sees confidential text. Claude web chat only receives pasted or exported artifacts.
+**Phase 0: pilot (now to the 2026-10-13 deadline).** Use git and a local derived SQLite index (`adapt-rfp index rebuild`). Claude Code runs locally, and teammates can use Claude Code on the web against the same private GitHub repo. Nothing is hosted and no new vendor sees confidential text. Claude web chat only receives pasted or exported artifacts.
 
 **Phase 1: Claude web end to end (after the pilot).** Build one **remote MCP server** in Python with FastMCP, matching DR-0006. It serves read tools (`find_copy`, `get_chunk`, `get_requirements`, `check_draft`) from a repo checkout plus a SQLite index built at deploy time. Write tools (`propose_chunk`, `harvest_edit`) open a **branch/PR** on the repo instead of mutating state, which keeps every change reviewable. Host it on FastMCP Horizon (free personal tier) or on Fly/Render/Cloud Run, with OAuth so it works as a claude.ai custom connector. Redeploy on push to `main`.
 

@@ -33,7 +33,7 @@ sources:
 
 SynthID-Text uses tournament sampling to embed a signal in token choice without visibly changing quality. A keyed detector scores new text for the signal. Google's own docs note limits. It is weaker on factual responses, where there is less freedom in word choice, and confidence drops sharply when text is thoroughly rewritten or translated. Third-party robustness tests report detection falling substantially under moderate paraphrase *(figures vary by study; secondary sources only)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It is tempting as a way to answer "which sentences came from an AI?" after the fact. But our copy passes through human editing and length-fitting, which is exactly the regime where watermarks fade. Our AI text also comes mainly from Claude, not a SynthID-enabled model.
 

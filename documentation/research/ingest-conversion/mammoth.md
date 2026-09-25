@@ -33,7 +33,7 @@ sources:
 - **mammoth:** DOCX → clean HTML driven by a user style map. It ignores visual formatting on purpose. Comments are off by default and enabled by mapping `comment-reference`. Images are inlined as base64 or written out, and table formatting is dropped. The README says Markdown support is deprecated and recommends HTML followed by a separate converter.
 - **python-docx:** a reader/writer for the DOCX object model (paragraphs, runs, styles, tables). MIT. The last release was 2025-06-16, so maintenance is slow.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - A checked-in style map file would document exactly how each source style becomes structure. That kind of transparency is what the inspectability lens asks for.
 - MarkItDown uses mammoth internally, so its behaviour explains MarkItDown's output.
 

@@ -5,7 +5,7 @@
 - Deciders: Ivan Heitmann; Claude (drafting)
 
 ## Context
-`gentext-lib` is being designed collaboratively by humans and LLM agents across many sessions. Agents lose context between sessions, and human colleagues will join later. The README leaves the implementation plan "TBD in collaboration with llm agent and human colleagues".
+`adapt-rfp` is being designed collaboratively by humans and LLM agents across many sessions. Agents lose context between sessions, and human colleagues will join later. The README leaves the implementation plan "TBD in collaboration with llm agent and human colleagues".
 
 ## Decision
 Keep lightweight, numbered decision records in `documentation/decision-record/`. Use the template and process in that folder's `README.md`. Records start as *Proposed* and become *Accepted* only after a human agrees. Superseded records stay in place.

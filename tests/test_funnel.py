@@ -2,8 +2,8 @@ import json
 
 import pytest
 
-from gentext import card, profile
-from gentext.extract import redact
+from adapt_rfp import card, profile
+from adapt_rfp.extract import redact
 
 
 def test_markdown_sections_and_trail():
@@ -74,7 +74,7 @@ def test_needs_text_lists_questions():
 
 
 def test_slice_by_anchors_is_verbatim():
-    from gentext.candidates import slice_by_anchors
+    from adapt_rfp.candidates import slice_by_anchors
 
     src = "Intro text. The project planted 1,750 trees in Stockton neighborhoods over four years. Next para."
     got = slice_by_anchors(src, "The project planted 1,750", "over four years.")
@@ -84,14 +84,14 @@ def test_slice_by_anchors_is_verbatim():
 
 
 def test_extraction_schema_keeps_title_property():
-    from gentext.candidates import _schema
+    from adapt_rfp.candidates import _schema
 
     chunk = _schema()["$defs"]["ChunkProposal"]
     assert "title" in chunk["properties"] and "title" in chunk["required"]
 
 
 def test_anchors_ignore_markdown_markup():
-    from gentext.candidates import slice_by_anchors
+    from adapt_rfp.candidates import slice_by_anchors
 
     src = "- **Prescott Greening Project** (2021-2024, AB 617 funding): planted trees near the freeway.​"
     assert slice_by_anchors(src, "Prescott Greening Project (2021-2024, AB 617", "trees near the freeway.") is not None

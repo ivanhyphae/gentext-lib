@@ -32,7 +32,7 @@ sources:
 ## What it is
 A folder tree (`library/`, `solicitations/`, `library/glossary/`) under git. Chunks are `.md` with frontmatter, and facts, entities, and solicitations are `.yaml`. It's "Obsidian-style" in that the same folder opens as an Obsidian vault with wikilinks and a properties UI, but nothing depends on Obsidian.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 - **Provenance and lineage for free**: `git log -p` and `git blame` show who changed which sentence, and PRs are the review gate for "promoted into library".
 - **Progressive disclosure**: `library/index.md` → type index → chunk, which is how Claude navigates best (DR-0005).
 - **Portable**: any future store (SQLite, Supabase, a memory store) is a projection of the repo.
@@ -40,7 +40,7 @@ A folder tree (`library/`, `solicitations/`, `library/glossary/`) under git. Chu
 
 ## How it would fit
 - JSON Schema (or Pydantic) for frontmatter, validated by a pre-commit hook and CI.
-- `gentext index rebuild` projects the repo into [SQLite](sqlite-fts5-vec.md).
+- `adapt-rfp index rebuild` projects the repo into [SQLite](sqlite-fts5-vec.md).
 - Claude reaches it locally, through [Claude Code on the web](claude-code-web.md), or through our [MCP server](remote-mcp-hosting.md), whose writes become PRs.
 
 ## Strengths

@@ -44,13 +44,13 @@ The Hypothesis anchoring strategy, from their blog and libraries:
 
 **diff-match-patch** (originally Google, 2006) provides `diff_main` (Myers diff plus cleanups), `match_main` (Bitap fuzzy match near an expected location), and `patch_*`. Google's repo was archived on 5 Aug 2024. The PyPI package now tracks a maintained fork, Apache-2.0.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Chunks get edited, shortened, and round-tripped. Without re-anchoring, span sidecars rot after the first edit. With it, small edits (typo fixes, "the"→"a", punctuation) keep provenance attached automatically. Larger rewrites surface as orphans for a human.
 
 ## How it would fit
 
-`gentext prov check` (M2/M7) runs on commit and on harvest (M9):
+`adapt-rfp prov check` (M2/M7) runs on commit and on harvest (M9):
 - `match_main(text, exact, loc=start_hint)` gives a candidate. Score the candidate plus its prefix and suffix with a normalized edit ratio.
 - Tune `Match_Threshold` (0.0 = exact, 1.0 = anything) and `Match_Distance`. Expose them in config so decisions are inspectable.
 - At harvest, `diff_main(pushed, returned)` gives sentence-level change classes: unchanged, edited, new, deleted.

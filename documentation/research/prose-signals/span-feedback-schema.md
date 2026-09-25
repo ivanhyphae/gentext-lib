@@ -30,7 +30,7 @@ run: R-2026-09-25-hrq1-03          # run header holds draft_sha, tool versions, 
 detector:
   id: lex.contrast                 # dotted; family.kind
   kind: deterministic              # deterministic | statistical | model | llm
-  version: gentext-lex@0.1 / slop-score-regex@2026-09
+  version: adapt-rfp-lex@0.1 / slop-score-regex@2026-09
   model: null                      # e.g. claude-opus-5-5, Salesforce/WQRM-PRE@<rev>
 category: slop.contrast            # from the taxonomy below
 also: [humanizer:9, wikipedia:negative-parallelism]

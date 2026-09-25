@@ -20,13 +20,13 @@
    - Vale via the `vale` PyPI wrapper (verified: `uvx --from vale vale --version` → 3.22.0). Add it as a dependency when M7 needs it.
    - LanguageTool, if used, runs as a **podman** container, not a Java install.
 5. **Heavy dependencies go in dependency groups**, installed on demand (`uv sync --group nlp`, `--group models`). `nlp` holds spaCy + model wheel, textstat, rapidfuzz, datasketch. `models` holds torch (CUDA index configured in `pyproject.toml`), transformers, sentence-transformers. The base install stays small for Cloud Run (DR-0009).
-6. Package `gentext` under `src/`, CLI entry point `gentext`. Tests use `pytest` (`uv run pytest`). The DR-0002 QC defects are the first fixtures.
+6. Package `adapt-rfp` under `src/`, CLI entry point `adapt-rfp`. Tests use `pytest` (`uv run pytest`). The DR-0002 QC defects are the first fixtures.
 7. Global, personal CLIs stay with `uv tool install`, and the project never depends on them.
 
 ## Consequences
 - A fresh clone (laptop, Claude Code on the web, Cloud Run image) needs only `uv` → `uv sync`.
 - Disk: each group adds weight (torch + CUDA wheels run to several GB). That's acceptable locally, and the Cloud Run image excludes `models` unless needed.
-- Agents must run Python as `uv run python …` / `uv run gentext …`, never bare `python3`. That's recorded in AGENTS.md.
+- Agents must run Python as `uv run python …` / `uv run adapt-rfp …`, never bare `python3`. That's recorded in AGENTS.md.
 
 ## Alternatives considered
 - pacman `python-*` packages: system-wide, not locked, versions set by Arch, and break with Python bumps.
@@ -34,4 +34,4 @@
 - A venv on the system interpreter: breaks on Arch Python upgrades.
 
 ## Revisions
-- 2026-09-25: Rewritten after the maintainer asked how Python packaging should work on Arch. The original proposal just said "Python ≥3.12, uv". Skeleton created: `pyproject.toml`, `.python-version`, `uv.lock`, `src/gentext/`.
+- 2026-09-25: Rewritten after the maintainer asked how Python packaging should work on Arch. The original proposal just said "Python ≥3.12, uv". Skeleton created: `pyproject.toml`, `.python-version`, `uv.lock`, `src/adapt_rfp/`.

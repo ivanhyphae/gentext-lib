@@ -15,7 +15,7 @@ updated: 2026-09-25
 
 ## Known failure modes
 
-| Bias | Evidence | Mitigation in gentext |
+| Bias | Evidence | Mitigation in adapt-rfp |
 |---|---|---|
 | **Position** | Zheng et al. named position, verbosity, and self-enhancement bias while finding GPT-4 reached >80% agreement with humans ([2306.05685](https://arxiv.org/abs/2306.05685)). Wang et al. showed GPT-4 favours the first candidate and proposed *balanced position calibration* (score both orders) and *multiple evidence calibration* (evidence before rating) ([2305.17926](https://arxiv.org/abs/2305.17926)). | Pairwise only with both orders; ties when orders disagree ([pairwise-comparison](pairwise-comparison.md)) |
 | **Verbosity** | Judges favour longer responses ([2306.05685](https://arxiv.org/abs/2306.05685)). Verbosity and confidence cues shift both verdicts and explanations ([2605.23970](https://arxiv.org/abs/2605.23970)). | Word limits fixed by M5; compare at equal length; booster counts reported deterministically |

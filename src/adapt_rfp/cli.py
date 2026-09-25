@@ -7,7 +7,7 @@ from pathlib import Path
 def _inventory(args: argparse.Namespace) -> int:
     from pydantic import ValidationError
 
-    from gentext import inventory as inv_mod
+    from adapt_rfp import inventory as inv_mod
 
     try:
         inv = inv_mod.load()
@@ -52,7 +52,7 @@ def _inventory(args: argparse.Namespace) -> int:
 
 
 def _select(ids: list[str], status: list[str] | None) -> list:
-    from gentext import inventory as inv_mod
+    from adapt_rfp import inventory as inv_mod
 
     assets = [a for a in inv_mod.load().assets if a.local]
     if ids:
@@ -63,7 +63,7 @@ def _select(ids: list[str], status: list[str] | None) -> list:
 
 
 def _profile(args: argparse.Namespace) -> int:
-    from gentext import profile
+    from adapt_rfp import profile
 
     profs = profile.profile_assets(_select([], None))  # always across all, for duplicate detection
     print(f"profiled {len(profs)} assets -> {profile.PROFILE_DIR}")
@@ -71,7 +71,7 @@ def _profile(args: argparse.Namespace) -> int:
 
 
 def _card(args: argparse.Namespace) -> int:
-    from gentext import card
+    from adapt_rfp import card
 
     assets = _select(args.ids, None)
     if getattr(args, "model", None):
@@ -96,7 +96,7 @@ def _card(args: argparse.Namespace) -> int:
 
 
 def _extract(args: argparse.Namespace) -> int:
-    from gentext import candidates
+    from adapt_rfp import candidates
 
     if args.plan:
         todo, skipped = candidates.plan(args.ids or None)
@@ -118,7 +118,7 @@ def _extract(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="gentext")
+    parser = argparse.ArgumentParser(prog="adapt-rfp")
     parser.add_argument("--version", action="store_true")
     sub = parser.add_subparsers(dest="cmd")
 
@@ -165,7 +165,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.version:
         from importlib.metadata import version
 
-        print(version("gentext"))
+        print(version("adapt-rfp"))
         return 0
     if args.cmd == "inventory":
         return _inventory(args)

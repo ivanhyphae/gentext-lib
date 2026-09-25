@@ -48,7 +48,7 @@ The trend matters here: Anthropic (memory stores, Apr 2026 beta, immutable versi
 
 ## Recommended sequence
 
-1. **Pilot**: Path A only. Write a `SessionStart` script that runs `uv sync && gentext index rebuild`.
+1. **Pilot**: Path A only. Write a `SessionStart` script that runs `uv sync && adapt-rfp index rebuild`.
 2. **After the pilot**: a Path B server with read tools, then check tools, then PR-based write tools. Record it in a deployment DR (M10).
 3. **Production**: if the triggers in [index.md](index.md) fire, add the Supabase mirror behind the same MCP tool contract, so clients don't change.
 

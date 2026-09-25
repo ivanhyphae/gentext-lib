@@ -66,7 +66,7 @@ sources:
 - Thinking tokens are billed as output.
 - Changing effort or thinking settings invalidates cache breakpoints.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 A review pass is the same large prefix (Appendix F excerpt, checklist, facts, personas) with small changing tails (the draft). That is the ideal caching shape. Calibration (gold set × k runs × prompt variants) is exactly the non-urgent bulk work Batch is for.
 

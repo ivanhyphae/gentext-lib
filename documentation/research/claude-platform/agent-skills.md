@@ -27,7 +27,7 @@ sources:
 
 # Agent Skills
 
-> **TL;DR** A skill is a folder: `SKILL.md` (YAML `name` + `description`, then instructions) plus optional reference files and scripts, loaded only when relevant. It is the right home for gentext's *procedures*: how to draft, check and harvest. **Adopt**, but give it data through MCP, because skills on the web run in a sandbox that can't see our repo.
+> **TL;DR** A skill is a folder: `SKILL.md` (YAML `name` + `description`, then instructions) plus optional reference files and scripts, loaded only when relevant. It is the right home for adapt-rfp's *procedures*: how to draft, check and harvest. **Adopt**, but give it data through MCP, because skills on the web run in a sandbox that can't see our repo.
 
 ## What it is
 
@@ -37,7 +37,7 @@ sources:
 - **No sync.** Skills uploaded to one surface don't appear on the others.
 - **Sharing on claude.ai.** The platform overview says custom skills are per user and can't be centrally managed. Newer Help Center articles describe Team/Enterprise **org provisioning** (Organization settings → Plugins & skills, on by default for all users), publishing to an org library, and direct sharing with colleagues. *Treat the Help Center as current and confirm in our admin console.*
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The README asks for "anthropic format skills". The format also mirrors our wiki: a short top file, then deeper references, the same progressive disclosure DR-0005 uses for the library. The existing `humanizer` skill can be chained into `check-draft`.
 
@@ -46,7 +46,7 @@ The README asks for "anthropic format skills". The format also mirrors our wiki:
 - Skills: `find-copy`, `draft-answer`, `check-draft`, `model-solicitation`, `harvest-edits`, `ingest-source` (Claude Code only).
 - Each SKILL.md states the workflow, the truthfulness rules (no invented facts, `{>>TK …<<}`), which MCP tools or CLI verbs to call, and where to stop for human review.
 - `references/` holds the voice guide, a glossary summary and a funder-values crib. `scripts/` holds stdlib-only checks that also run in the claude.ai sandbox.
-- Source of truth is `plugins/gentext/skills/` in git, published to each surface from there.
+- Source of truth is `plugins/adapt-rfp/skills/` in git, published to each surface from there.
 
 ## Strengths
 

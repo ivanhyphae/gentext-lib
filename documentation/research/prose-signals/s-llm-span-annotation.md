@@ -48,7 +48,7 @@ sources:
 - **Shaib et al.**: zero-shot slop span extraction reached character-level precision of only 0.13–0.16, while **LAMP** 5-shot detection reached 0.46 precision (0.20 with the category required). Narrow, well-defined categories do much better than "find the slop".
 - **factgenie** (MIT) is a self-hosted UI for collecting span annotations from humans and LLMs. It is useful for building our gold set, though Anthropic support isn't documented *(unverified)*.
 
-## Recipe for gentext
+## Recipe for adapt-rfp
 
 1. **One pass per slice**: `slop.*`, `style.*`, `relevance/generic` (with M5 prompt and rubric), `fact.*` (with M3 facts; see [claim verification](../llm-evaluation/claim-verification.md)). Each pass gets its category definitions, "what not to flag" (humanizer's false-positive section, the M5 allowlist) and 2–3 examples drawn from LAMP or our gold set.
 2. **Context in, not just the paragraph**: question prompt, target place, and the deterministic and statistical findings already found, so the LLM doesn't duplicate them. It may cite them as evidence.

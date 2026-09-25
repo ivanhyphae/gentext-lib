@@ -35,7 +35,7 @@ updated: 2026-09-25
 
 `DocumentApp` has `Document.getTabs()`, `Tab.getChildTabs()`, `Tab.asDocumentTab().getBody()`, and `getActiveTab()`/`setActiveTab()` for bound scripts ([Apps Script tabs guide](https://developers.google.com/apps-script/guides/docs/tabs), updated 2026-09-03). A script can walk each tab's body, read `Paragraph.getHeading()`, and write per-tab Markdown or JSON to Drive, with no OAuth app to maintain. See [apps-script-tab-export.md](apps-script-tab-export.md).
 
-## Options for gentext M0
+## Options for adapt-rfp M0
 
 | Route | Tab ids | Heading styles | Comments | Effort | Inspectable |
 |---|---|---|---|---|---|

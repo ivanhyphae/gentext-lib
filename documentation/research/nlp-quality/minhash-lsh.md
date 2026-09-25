@@ -40,7 +40,7 @@ sources:
 - **SimHash** (Charikar) is a bitwise fingerprint whose Hamming distance tracks cosine over features. The `simhash` package (MIT) has had no commits since 2022.
 - **text-dedup** (Apache-2.0) is a toolkit of scripts for MinHash, SimHash, suffix-array exact substring, and Bloom filters, aimed at dataset-scale dedup. It is overkill for our corpus but good reference code.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 | Pilot situation | Signal |
 |---|---|

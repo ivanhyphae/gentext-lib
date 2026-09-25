@@ -60,8 +60,8 @@ Mostly build. No hosted service returns holistic span-level feedback. Grammarly'
 TAALES, TAACO, TAASSC, LFTK, and the ELLIPSE/PERSUADE corpora are **non-commercial**. The CoLA checkpoint states no license. WQRM is MIT. Pick implementations accordingly.
 
 ## How Claude gets this signal (proposed tool surface)
-- `gentext signals <draft> --against firm-exemplar` → a findings file (YAML/JSON), sorted by severity. It's exposed as a CLI now and as an MCP tool on Cloud Run later (DR-0009).
-- `gentext signals --explain <finding-id>` → the metric's norm, the neighbouring exemplar spans, and the suggestion constraints.
+- `adapt-rfp signals <draft> --against firm-exemplar` → a findings file (YAML/JSON), sorted by severity. It's exposed as a CLI now and as an MCP tool on Cloud Run later (DR-0009).
+- `adapt-rfp signals --explain <finding-id>` → the metric's norm, the neighbouring exemplar spans, and the suggestion constraints.
 - The revise loop: Claude addresses `major`+ findings, re-runs the signals, and marks each finding `fixed` / `rejected (reason)`. The findings file becomes part of the chunk's provenance.
 
 ## Pages

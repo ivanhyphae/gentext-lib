@@ -24,13 +24,13 @@ sources:
 
 # LLM wiki pattern (Karpathy)
 
-> **TL;DR** Raw sources stay immutable. An LLM maintains a wiki of interlinked Markdown pages from them, guided by a schema file, with an `index.md` catalog and an append-only `log.md`, and runs ingest, query and lint operations. This is almost exactly gentext's shape. Adopt the index/log/lint ideas, but keep the human ratification gate that the gist leaves light.
+> **TL;DR** Raw sources stay immutable. An LLM maintains a wiki of interlinked Markdown pages from them, guided by a schema file, with an `index.md` catalog and an append-only `log.md`, and runs ingest, query and lint operations. This is almost exactly adapt-rfp's shape. Adopt the index/log/lint ideas, but keep the human ratification gate that the gist leaves light.
 
 ## What it is
 Karpathy's gist (secondary sources date it April 2026) describes three layers: **raw sources** (immutable), **the wiki** (LLM-written Markdown pages: entities, concepts, syntheses) and **the schema** (a `CLAUDE.md`-style file of conventions). Two special files are **`index.md`**, a catalog of every page with one-line summaries, and **`log.md`**, an append-only record of ingests, queries and maintenance. The operations are **ingest** (read a source, write or update pages and cross-links), **query** (answer from the wiki and file useful answers back as pages) and **lint** (find contradictions, stale claims, orphans and missing links). The gist says the index "works surprisingly well" at about 100 sources and hundreds of pages without embeddings, and that local BM25/vector tools are optional add-ons ([gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), accessed 2026-09-25).
 
-## Why it matters for gentext
-| LLM wiki | gentext |
+## Why it matters for adapt-rfp
+| LLM wiki | adapt-rfp |
 |---|---|
 | `raw/` | `projects/` (local, confidential; DR-0004) |
 | wiki pages | `library/` chunks + registries |

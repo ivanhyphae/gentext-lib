@@ -16,13 +16,13 @@
 ## Decision
 1. Add **M11 Discovery & inventory**, upstream of M0. Module numbers are ids, not order.
 2. **Store:** plain YAML in git, like the library (DR-0005).
-   - `inventory/assets.yaml`: one record per asset. It's a list, human-diffable, and validated by pydantic (`src/gentext/inventory.py`).
+   - `inventory/assets.yaml`: one record per asset. It's a list, human-diffable, and validated by pydantic (`src/adapt_rfp/inventory.py`).
    - `inventory/sweeps.yaml`: a log of discovery runs (who, when, system, exact queries, counts). Every asset links to the sweep that found it, so each search can be reproduced and audited.
    - `inventory/index.md`: **generated** progressive-disclosure view (counts, then open work, then holdings, deferred, excluded, sweeps). A test fails if it's stale.
 3. **Lifecycle:** `wanted → discovered → include | defer | exclude → acquired → ingested → harvested`.
    - `wanted` covers things we know should exist but haven't located (cited reports, the Full Application workbook, pre-app feedback, community quotes). It requires a `hint`.
    - `exclude` records are kept so sweeps don't re-triage them.
-4. **Dedup key:** `(location.system, location.id)` is unique, and slugs are unique. `gentext inventory find <system> <id>` is the pre-write check.
+4. **Dedup key:** `(location.system, location.id)` is unique, and slugs are unique. `adapt-rfp inventory find <system> <id>` is the pre-write check.
 5. **Method:** the `skills/asset-discovery/SKILL.md` Agent Skill. It sets query patterns, metadata-first triage, priority rules (1 = live application, 2 = library value, 3 = nice to have, exclude), web sweeps, and close-out (validate → index → test → commit).
 6. **Acquisition paths:**
    - **connector-text:** Google Docs via `read_file_content` → `sources/<asset-id>/…md`.

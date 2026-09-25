@@ -38,11 +38,11 @@ sources:
 - **sqlite-vec** (Alex Garcia): a `vec0` virtual table for float/int8/bit vectors with KNN queries. Stable **0.1.9** (2026-03-31). **0.1.10** alphas (April 2026) add ANN indexes (rescore, DiskANN, experimental IVF). Still pre-1.0.
 - **vec1**: a newer *official* SQLite ANN extension (v0.7, IVFADC+OPQ). The SQLite team says "testing is insufficient." Treat it as a fallback to watch.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The corpus is small, so brute-force KNN (the stable sqlite-vec path) is exact and fast enough, with no ANN tuning. Metadata filters (type, place, owner, sensitivity), keyword search, and semantic search all live in one SQL file we can open with `sqlite3` or Datasette.
 
 ## How it would fit
-- `gentext index rebuild`: parse frontmatter → `chunks`, `variants`, `facts`, `entities`, `requirements` tables; body text → `chunks_fts`; embeddings → `chunks_vec`.
+- `adapt-rfp index rebuild`: parse frontmatter → `chunks`, `variants`, `facts`, `entities`, `requirements` tables; body text → `chunks_fts`; embeddings → `chunks_vec`.
 - Embeddings are cached by `sha256(text)+model` in a sidecar so rebuilds don't re-embed unchanged text (DR-0005 "expensive but reproducible").
 - Hybrid retrieval: take the top k from FTS5 and from vec0, then fuse with reciprocal-rank fusion in Python.
 - The same file is baked into the MCP server image at deploy ([remote-mcp-hosting.md](remote-mcp-hosting.md)).

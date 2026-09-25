@@ -47,10 +47,10 @@ sources:
 
 **Practitioner claims (weaker evidence).** Grant-writing blogs say program officers flag text that is "generic, overly uniform in tone", with circular outcome language and the funder's own wording paraphrased back ([OpenGrants](https://opengrants.io/ai-for-grant-writing-2026-playbook/), [Professional Grant Writers](https://www.professionalgrantwriter.org/ai-in-grant-writing-what-funders-know-and-how-to-keep-your-proposal-human), accessed 2026-09-25). A widely repeated "62% of reviewers penalized…" statistic could not be traced to a primary source *(unverified; do not cite)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - Our target funders (California LCI, CNRA) are not NIH, but federal pass-through money and agency leads may bring similar rules. The rule belongs in the solicitation model, not in our heads.
-- gentext's design is the best defense: text assembled from **Hyphae's own curated prose**, with provenance, human edits, and facts, is demonstrably not "substantially developed by AI". The provenance map is also the evidence behind any disclosure.
+- adapt-rfp's design is the best defense: text assembled from **Hyphae's own curated prose**, with provenance, human edits, and facts, is demonstrably not "substantially developed by AI". The provenance map is also the evidence behind any disclosure.
 - The uniformity finding is a quality risk even where AI is allowed. Reviewers reading dozens of similar applications reward specificity: named places, partners, numbers, and community voices.
 
 ## How it would fit

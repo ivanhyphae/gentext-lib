@@ -49,9 +49,9 @@ sources:
 - **Liang et al. 2023**: perplexity-based detectors misclassified non-native TOEFL essays at an average 61.3% false-positive rate, while being near-perfect on native college essays. Low lexical variety resembles "AI" text. A 2026 follow-up (arXiv 2608.26710) again frames style as a confound in academic writing.
 - Surveys (arXiv 2310.15264) discuss theoretical limits: as model and human distributions converge, detection power drops, and paraphrasing evades detectors.
 
-## Why it matters for gentext (and why hold)
+## Why it matters for adapt-rfp (and why hold)
 
-- gentext *intends* to produce drafts with LLM help. Detecting "AI-ness" is not a correctness property. Unsupported claims, hype, and generic filler are, and the deterministic checks already target those.
+- adapt-rfp *intends* to produce drafts with LLM help. Detecting "AI-ness" is not a correctness property. Unsupported claims, hype, and generic filler are, and the deterministic checks already target those.
 - Funders may run detectors. Chasing a detector score is not a sound goal, and there's no reliable way to measure it anyway.
 - Mixed voices (DR-0002 lesson 9) are better handled by **metadata** (`voice`, `owner`) set at ingest than inferred by stylometry. Short chunks (≤ 300 words) are also far below what stylometric attribution typically needs *(commonly cited as thousands of words; not re-verified)*.
 

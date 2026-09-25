@@ -35,13 +35,13 @@ PROV-DM is the conceptual model and PROV-O its OWL2 encoding. Both were publishe
 - Derivation subtypes: `wasRevisionOf`, `wasQuotedFrom`, `hadPrimarySource`.
 - A "qualified" pattern that attaches role, time, and plan to any relation (e.g., `qualifiedAttribution` + `hadRole`).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It covers our cases directly. A partner sentence `wasAttributedTo org:i-relab`. A shortened variant `wasDerivedFrom` (as `wasRevisionOf`) its parent. An LLM draft `wasGeneratedBy` an activity that `used` input chunks and `wasAssociatedWith ai:claude-…`, which `actedOnBehalfOf person:…`. Using PROV names keeps our fields self-explanatory and allows a later export to Turtle for the optional `graph-keeper` layer (DR-0003 M3).
 
 ## How it would fit
 
-YAML fields in [schema](schema.md) map one-to-one. A `gentext prov export --ttl` command could emit PROV-O for audit or graph queries. That output is derived, never canonical.
+YAML fields in [schema](schema.md) map one-to-one. A `adapt-rfp prov export --ttl` command could emit PROV-O for audit or graph queries. That output is derived, never canonical.
 
 ## Strengths
 - Mature, neutral, widely understood. "Agent acts on behalf of agent" models AI use cleanly.

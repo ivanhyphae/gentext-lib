@@ -44,7 +44,7 @@ APMP guidance, as summarized by Conniff (2023): a compliance matrix is "a checkl
 7. Terms: shall = must (mandatory); should = expected goal; will = statement of fact. Ask the funder when usage is unclear.
 8. Prep documents before automated shredding: strip headers and footers, and keep table titles with "SEE TABLE IN CUSTOMER DOCUMENT".
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 DR-0003 already names a compliance matrix as an M5 output. The practice adds rigor:
 

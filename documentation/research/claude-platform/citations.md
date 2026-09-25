@@ -34,7 +34,7 @@ sources:
 - **Incompatible with structured outputs.** Enabling both returns HTTP 400.
 - ZDR eligible. Available on Claude API, Claude Platform on AWS, Bedrock, Google Cloud and Foundry.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 AGENTS.md: "any factual claim in generated text must trace to a library chunk or fact with provenance". Citations make the model *emit* that trace in a machine-checkable form. There is no need to parse `[chunk:id]` tags out of prose.
 

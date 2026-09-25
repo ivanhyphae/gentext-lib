@@ -51,7 +51,7 @@ The authors interviewed experts in NLP, writing and philosophy, then had three p
 - The WQRM writing-quality reward model ([card](s-edit-based-rewards-lamp.md)) correlated weakly with slop labels (0.25 news, 0.15 QA).
 - What counts as slop depends on the domain. News annotators weighted coherence, tone, density and relevance. QA annotators weighted factuality and structure.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - It supplies the **top level of our category tree** in the [span-feedback schema](span-feedback-schema.md). "Density", "relevance" and "structure/templatedness" are exactly the maintainer's "generic" and "AI slop" complaints, split into parts Claude can act on.
 - It is a warning against prompting Claude with "is this slop? yes/no". Frontier models fail that task. Findings have to be scoped to one code, anchored to a quote and checked by a validator, which is the *witness* pattern from [llm-evaluation](../llm-evaluation/index.md).

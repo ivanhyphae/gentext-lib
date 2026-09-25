@@ -36,7 +36,7 @@ Columns: `#` · RFP section · RFP criterion · Points · Input needed · Input 
 
 From the README: text must match **whole words from the cited lines on a single page**, numbers must appear on the cited lines, every key must fit the schema, and **point totals must reconcile**. The checker rejects paraphrases, respellings, invented figures, wrong citations, and totals that don't add up, and tests show it refuses malformed matrices before rendering.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - It is the same "LLM proposes, deterministic code disposes" split as DR-0003, applied to M5 extraction.
 - It defends against the one failure an LLM-extracted requirements model must never have: a requirement or point value that isn't in the solicitation.

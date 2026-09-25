@@ -30,7 +30,7 @@ sources:
 
 # Plain language guidelines
 
-> **TL;DR** The Federal Plain Language Guidelines, written to implement the Plain Writing Act of 2010, are the most authoritative free style standard for writing to US public agencies. plainlanguage.gov has been retired. Its content now sits in an **archived, public-domain GitHub repo**, with a shorter guide on Digital.gov. **Adopt** it as the base of gentext's style rules, alongside the `humanizer` skill for AI-tells.
+> **TL;DR** The Federal Plain Language Guidelines, written to implement the Plain Writing Act of 2010, are the most authoritative free style standard for writing to US public agencies. plainlanguage.gov has been retired. Its content now sits in an **archived, public-domain GitHub repo**, with a shorter guide on Digital.gov. **Adopt** it as the base of adapt-rfp's style rules, alongside the `humanizer` skill for AI-tells.
 
 ## What it is
 
@@ -39,7 +39,7 @@ sources:
 - **Digital.gov principles** (current): write for your audience, use topic sentences, use active voice, organize information (summary first), use tables and lists where they help.
 - **Archive**: the `GSA/plainlanguage.gov` repo was archived read-only on 2025-12-29 and is public domain in the US (CC0 for contributions). We can vendor or cite rules from it.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - California state grants (the pilot) are not bound by the federal act. But reviewers at agencies and CBOs reward the same things: short sentences, concrete nouns, active verbs, and summary first.
 - It gives M7 style checks an **external, citable authority**, so they aren't just our taste. That helps when colleagues disagree with a flag.

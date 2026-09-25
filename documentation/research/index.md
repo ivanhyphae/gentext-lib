@@ -1,5 +1,5 @@
 ---
-title: gentext research — overview
+title: adapt-rfp research — overview
 slug: index
 level: 0
 parent: ../decision-record/README.md
@@ -18,7 +18,7 @@ status: draft
 updated: 2026-09-25
 ---
 
-# gentext research — overview
+# adapt-rfp research — overview
 
 > **TL;DR** Build it; buy nothing. Keep the canonical library as **plain Markdown/YAML in the private git repo**, with a **rebuildable SQLite index** (FTS5 + sqlite-vec). Convert sources with **pandoc**. Catch the pilot's defects with **deterministic checks first** (Vale, spaCy rules, acronym extraction, fuzzy names, MinHash). Then run an **adversarial LLM pass in which the judge acts as a witness**: every finding must quote the draft and cite a rubric line, and scores stay advisory. Record **authorship in chunk frontmatter** (PROV terms), with optional span sidecars for exceptions only. Deliver it as **one Python core → CLI → Skills + a FastMCP server**, shipped as a plugin. Pilot in local Claude Code. Claude web runs end to end once the MCP server is hosted. Supabase later, only as a derived mirror. Notion and third-party "memory" products: no.
 

@@ -49,7 +49,7 @@ A typology of factual errors grounded in frame semantics and discourse, used for
 - **Discourse**: coreference, discourse link
 - **Content verifiability**: out-of-article (not supported by the source), grammatical
 
-For gentext, "article" means the M3 fact registry and the library chunk the claim came from. FRANK's sub-types make [claim-verification](../llm-evaluation/claim-verification.md) findings more precise. "Wrong entity" (a partner name) needs a different fix from "wrong circumstance" (a date) or "out-of-source" (`{>>TK …<<}`).
+For adapt-rfp, "article" means the M3 fact registry and the library chunk the claim came from. FRANK's sub-types make [claim-verification](../llm-evaluation/claim-verification.md) findings more precise. "Wrong entity" (a partner name) needs a different fix from "wrong circumstance" (a date) or "out-of-source" (`{>>TK …<<}`).
 
 ## MQM (translation QA)
 

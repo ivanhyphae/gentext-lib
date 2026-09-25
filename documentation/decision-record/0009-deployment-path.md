@@ -10,7 +10,7 @@
 - Hyphae already uses **Google Cloud**. Cloud Run officially supports hosting remote MCP servers over Streamable HTTP (and SSE), not stdio, and names FastMCP as an option (https://docs.cloud.google.com/run/docs/host-mcp-servers, accessed 2026-09-25).
 
 ## Decision
-1. **MVP:** Claude Code clones the repo and runs the `gentext` CLI + skills directly. This covers the pilot (to 2026-10-13).
+1. **MVP:** Claude Code clones the repo and runs the `adapt-rfp` CLI + skills directly. This covers the pilot (to 2026-10-13).
 2. **Next:** a small Python **FastMCP** server in a container on **Google Cloud Run**, exposing read, search, and check tools over the same core library. The library index is baked into the image at build time or pulled from the repo on start. Write tools open GitHub PRs and never mutate canonical data directly.
 3. Supabase, other hosts, and agent-memory products are out of scope unless a later DR brings them back.
 

@@ -42,7 +42,7 @@ sources:
 
 # NLI claim support (SummaC, AlignScore, MiniCheck)
 
-> **TL;DR** **Trial.** Small fact-checking and NLI models score whether a *sentence* is supported by a *source text*. With gentext's provenance map (sentence → cited chunk/fact), this becomes a narrow, local check: "did adaptation drift from the source?". Start with **MiniCheck-Flan-T5-Large** (770M, MIT checkpoint). Keep numbers and names on deterministic checks, and treat model scores as warnings with evidence.
+> **TL;DR** **Trial.** Small fact-checking and NLI models score whether a *sentence* is supported by a *source text*. With adapt-rfp's provenance map (sentence → cited chunk/fact), this becomes a narrow, local check: "did adaptation drift from the source?". Start with **MiniCheck-Flan-T5-Large** (770M, MIT checkpoint). Keep numbers and names on deterministic checks, and treat model scores as warnings with evidence.
 
 ## What it is
 
@@ -55,7 +55,7 @@ sources:
 
 LLM-AggreFact is the shared benchmark and leaderboard for grounded fact-checking. It includes LLM judges (Claude among them), so it allows a cost/accuracy comparison against a Claude-based check.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 AGENTS.md: *"Any factual claim in generated text must trace to a library chunk or fact."* The provenance map proves a claim was *linked*. It does not prove the adapted sentence still *says what the source says*. M6 adaptation (shortening, re-voicing for Bay Point) is exactly where drift happens, for example "13–20% lower hsCRP" becoming "20% lower", or "planned" becoming "completed".
 

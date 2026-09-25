@@ -49,9 +49,9 @@ The pilot's UTCI defect ("Universal Thermal Climate Index" vs "Urban Thermal Com
 ## Other checks
 
 - Readability metrics and a per-document "Grade Level" score (v2.12).
-- **Watchwords**: user-defined term lists to flag, such as banned phrases, competitor names, or weak words. For gentext: boosters ("unprecedented", "cutting-edge"), AI-tells, and *other clients' place names* (leakage).
+- **Watchwords**: user-defined term lists to flag, such as banned phrases, competitor names, or weak words. For adapt-rfp: boosters ("unprecedented", "cutting-edge"), AI-tells, and *other clients' place names* (leakage).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It shows that a proposal-QA product is mostly a set of plain, explainable, deterministic checks, not AI. That supports DR-0003's "deterministic checks first" rule.
 

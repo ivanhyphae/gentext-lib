@@ -24,7 +24,7 @@ sources:
 
 # Claude Agent SDK and headless Claude Code
 
-> **TL;DR** The Agent SDK runs Claude Code's agent loop as a Python or TypeScript library, with built-in tools, hooks, subagents, MCP, permissions and sessions. It loads skills and plugins from `.claude/` or a local path. `claude -p --output-format json` gives the same loop from a shell. **Trial** for unattended gentext jobs (ingest, nightly QA, harvest PRs) that reuse the *same* skills and MCP server as interactive use.
+> **TL;DR** The Agent SDK runs Claude Code's agent loop as a Python or TypeScript library, with built-in tools, hooks, subagents, MCP, permissions and sessions. It loads skills and plugins from `.claude/` or a local path. `claude -p --output-format json` gives the same loop from a shell. **Trial** for unattended adapt-rfp jobs (ingest, nightly QA, harvest PRs) that reuse the *same* skills and MCP server as interactive use.
 
 ## What it is
 
@@ -33,13 +33,13 @@ sources:
 - **Auth:** API key. Anthropic doesn't allow third-party products to offer claude.ai login or rate limits through the SDK unless approved. For internal jobs we use an API key.
 - **Alternatives** from the same page: the Client SDK (write the loop yourself, or use the beta tool runner), and **Managed Agents**, a hosted harness where sessions run in an Anthropic-managed or self-hosted sandbox, configured through the API.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The P3 pipelines (ingest new sources, re-run QA across drafts, open harvest PRs) are agentic. They read files, run the CLI and judge output, and they should behave exactly like a colleague's Claude Code session. With the SDK, one plugin serves both interactive and batch use, so skills don't drift.
 
 ## How it would fit
 
-- `scripts/nightly_qa.py`: an SDK `query()` with `plugins=[{"type": "local", "path": "plugins/gentext"}]`, allowed tools restricted to Read/Bash(`gentext *`), a hook that blocks `projects/` reads, and output parsed to a report committed in a PR. *(Option names illustrative; check the Python reference.)*
+- `scripts/nightly_qa.py`: an SDK `query()` with `plugins=[{"type": "local", "path": "plugins/adapt-rfp"}]`, allowed tools restricted to Read/Bash(`adapt-rfp *`), a hook that blocks `projects/` reads, and output parsed to a report committed in a PR. *(Option names illustrative; check the Python reference.)*
 - CI: `claude -p "run check-draft on drafts/ehcrp/*.md" --output-format json` in GitHub Actions.
 - M10: Managed Agents is an option if we don't want to host a runner. *(assess later)*
 

@@ -53,7 +53,7 @@ A Java grammar, style, and spell checker with thousands of XML pattern rules per
 
 A local spaCy Matcher rule caught the first two ([spaCy rules](spacy-rule-matching.md)). So LanguageTool (free tier, without n-grams) is **not sufficient** for the DR-0002 grammar regression. Premium or n-gram behaviour is untested.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It catches the long tail of generic errors (agreement, commonly confused words, punctuation, doubled words) that we don't want to write rules for. Custom XML rules and a disabled-rules list can adapt it to our style.
 
@@ -61,7 +61,7 @@ It catches the long tail of generic errors (agreement, commonly confused words, 
 
 - M7 posts draft text to a **self-hosted** LanguageTool container. Pilot text should not go to the public API: DR-0004 treats sources as confidential, and the public API has rate limits.
 - Call the HTTP API directly with `httpx`. Avoid a hard dependency on `language_tool_python`, which is GPL-3.0-only. A GPL dependency is a licensing question for a private repo that might be distributed later. Calling a server over HTTP avoids linking.
-- Map `rule.id`, `offset`, `length`, `message`, and `replacements` into the gentext report as `L7.lt.<rule_id>`, severity warning.
+- Map `rule.id`, `offset`, `length`, `message`, and `replacements` into the adapt-rfp report as `L7.lt.<rule_id>`, severity warning.
 
 ## Strengths
 

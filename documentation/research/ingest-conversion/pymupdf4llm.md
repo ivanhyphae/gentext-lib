@@ -37,7 +37,7 @@ A MuPDF-based wrapper that emits Markdown, JSON or text. It now uses `pymupdf-la
 - **Marker** (datalab) gives higher-quality PDF→Markdown/JSON/chunks, with an optional `--use_llm` mode that supports Claude. Its code is Apache-2.0, but the **model weights are licensed only for research, personal use, or organizations under $5M revenue/funding** (README, accessed 2026-09-25). Hold, because of the weight licence and GPU appetite.
 
 ## Weaknesses / risks
-- AGPL network clause: if gentext is ever deployed as a hosted service built on this library, obligations follow.
+- AGPL network clause: if adapt-rfp is ever deployed as a hosted service built on this library, obligations follow.
 - Heuristic heading levels. OCR adds a Tesseract dependency and nondeterminism.
 
 ## Verdict rationale

@@ -39,7 +39,7 @@ sources:
 - **Removed:** SDK 3.0.0 (2026-06-02) dropped AI detection, Medical Comprehend and Context-Aware Text Splitting.
 - We found **no documented endpoint** that takes text plus a style guide and returns span-level violations *(absence not proven: enterprise docs may differ)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Writer shows where commercial "writing QA" has gone: its terms and style guide steer the model *before* drafting instead of flagging problems afterwards. That matches our M3 glossary plus M6 prompt-time constraints, and it supports keeping the **glossary and style rules as our own plain-text data** that feed both generation and a post-hoc linter (Vale).
 

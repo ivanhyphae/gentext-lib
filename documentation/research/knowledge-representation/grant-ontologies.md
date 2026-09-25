@@ -44,7 +44,7 @@ sources:
 - **VIVO**: an ontology of researchers, outputs and institutions, built on BFO, FOAF, Dublin Core and others. **CERIF** is the EU research-information standard, and **FRAPO** is its OWL 2 DL rendering for grants, funders, projects and partners ([FRAPO](https://sparontologies.github.io/frapo/current/frapo.html), accessed 2026-09-25). A VIVO issue notes that FRAPO lacks concepts such as principal investigator ([issue 749](https://github.com/openrif/vivo-isf-ontology/issues/749)). A newer, lighter alternative is **DINGO** (projects and grants linked data, 2020; not reviewed).
 - **360Giving**: the UK open grants data standard, authoritative as JSON Schema (`360-giving-schema.json`), with about 10 required fields and spreadsheet-friendly publishing ([360giving.org](https://www.360giving.org/about/data-standard/), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Using established names costs nothing and makes a future RDF export, or a JSON-LD rendering for a website, straightforward. Stable external ids (ROR, Wikidata) help deduplicate orgs across partners and funders. The heavy ontologies would force modeling that we don't need, e.g. BFO roles and temporal qualifiers.
 
 ## How it would fit

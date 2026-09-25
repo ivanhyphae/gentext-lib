@@ -36,13 +36,13 @@ Per the [docs](https://platform.claude.com/docs/en/build-with-claude/structured-
 - **Not supported**: recursive schemas, numeric constraints (`minimum`/`maximum`), string `minLength`/`maxLength`, and external `$ref`. `additionalProperties: false` is required on objects. `enum`, `anyOf`, and internal `$ref` are supported.
 - **Incompatible with Citations** in the same request: that returns a 400 ([citations docs](https://platform.claude.com/docs/en/build-with-claude/citations)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Inspectability needs findings that are *data*: diffable, validatable, renderable into Claude Docs comments, and comparable across runs. Free-text critique can't be validated or counted. A schema also enforces the reasoning order that reduces rationalisation: evidence fields come before verdict fields ([judge-reliability](judge-reliability.md)).
 
 ## How it would fit
 
-- One Pydantic model per role in `src/gentext/qa/llm/schemas.py` (planned): `PanelVerdict`, `SkepticFindings`, `Rebuttal`, `Adjudication`, `ClaimList`.
+- One Pydantic model per role in `src/adapt_rfp/qa/llm/schemas.py` (planned): `PanelVerdict`, `SkepticFindings`, `Rebuttal`, `Adjudication`, `ClaimList`.
 - Field order encodes the procedure: `items[] {rubric_ref(enum), quote{exact,prefix,suffix}|null, status(enum)}` → `band(enum)` → `points_low`, `points_high`.
 - `rubric_ref` is generated as an **enum from the M5 YAML** for that question, so the judge can't cite a rubric line that doesn't exist. This is enforced at decode time.
 - Post-validation in Python covers what the schema can't: quote occurs verbatim in the draft, points within the band range, string lengths.

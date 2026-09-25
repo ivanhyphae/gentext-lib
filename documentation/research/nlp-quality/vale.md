@@ -30,13 +30,13 @@ sources:
 
 # Vale
 
-> **TL;DR** **Adopt.** Vale is a fast, markup-aware prose linter written in Go. Its rules are YAML files, so gentext can **generate a "Hyphae" style from the glossary and entity registry** and version it in git. It is the most inspectable way to enforce canonical names, forbidden variants, and acronym definitions.
+> **TL;DR** **Adopt.** Vale is a fast, markup-aware prose linter written in Go. Its rules are YAML files, so adapt-rfp can **generate a "Hyphae" style from the glossary and entity registry** and version it in git. It is the most inspectable way to enforce canonical names, forbidden variants, and acronym definitions.
 
 ## What it is
 
 A single-binary CLI (MIT; repo `vale-cli/vale`, v3.22.0 released 2026-09-17, active) that lints Markdown, HTML, AsciiDoc, and more. It understands markup scopes, so it skips code and can target headings or body text. Rules `extend` one of these check types: `existence`, `substitution`, `occurrence`, `repetition`, `consistency`, `conditional`, `capitalization`, `metric`, `readability`, `spelling`, `sequence`, `script`. Community packages (Microsoft, Google, write-good, proselint, alex ports) install via `vale sync`.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - **Vocabularies.** `config/vocabularies/<name>/accept.txt` entries feed `Vale.Terms` as a substitution rule, which enforces exact spelling and casing. `reject.txt` entries feed `Vale.Avoid` as an existence rule and flag every occurrence. The docs say to keep canonical forms in accept and unwanted variants in reject. This maps one-to-one onto glossary `canonical` and `aliases_forbidden` fields: "Resources Conservation District" and "Hispanic Counsel" go in reject, their canonical forms in accept.
 - **`conditional`** handles "acronym used without definition". The documented example flags `\b([A-Z]{3,5})\b` unless a `Full Name (ACR)` pattern defines it, with an exceptions list.
@@ -47,7 +47,7 @@ A single-binary CLI (MIT; repo `vale-cli/vale`, v3.22.0 released 2026-09-17, act
 ## How it would fit
 
 - M3 exports `styles/Hyphae/*.yml` and `vocabularies/Hyphae/{accept,reject}.txt` from the glossary YAML. The generated files can be committed or rebuilt, per DR-0005.
-- M7 runs `vale --output=JSON draft.md` and maps each alert (`Check`, `Line`, `Span`, `Message`, `Severity`) into the gentext report.
+- M7 runs `vale --output=JSON draft.md` and maps each alert (`Check`, `Line`, `Span`, `Message`, `Severity`) into the adapt-rfp report.
 - M8: a skill can run Vale directly. Colleagues can also use the VS Code / Obsidian integrations *(integration availability unverified)*.
 - Target-specific rules (context leakage) are awkward in Vale because they depend on per-draft metadata. Keep those in spaCy ([spaCy rules](spacy-rule-matching.md)), or generate a per-target Vale config at run time.
 

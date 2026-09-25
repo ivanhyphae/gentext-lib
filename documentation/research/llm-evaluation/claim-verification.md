@@ -39,7 +39,7 @@ sources:
 - **Chain-of-Verification (CoVe)**: draft → plan verification questions → answer them *independently* of the draft → revise. This reduced hallucination on list, QA, and long-form tasks ([arXiv 2309.11495](https://arxiv.org/abs/2309.11495)).
 - **Ragas faithfulness** is the same ratio (supported claims ÷ all claims) applied to RAG context ([docs](https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/faithfulness/)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 AGENTS.md: "Never invent facts… Any factual claim in generated text must trace to a library chunk or fact with provenance." DR-0002 lists repeatable facts: census tracts 06013313203 and 06013314105, CHAT 3.55, "21–35 days over 100°F by the 2090s", Green Heart "13–20% lower hsCRP", and $4,217,818. A reused number that drifted ("20–35 days") or lost its source is exactly the defect this catches.
 

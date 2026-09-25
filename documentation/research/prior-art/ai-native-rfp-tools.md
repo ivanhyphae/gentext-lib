@@ -30,7 +30,7 @@ sources:
 
 # AI-native RFP tools
 
-> **TL;DR** A wave of AI-first RFP startups (Inventive AI is the most explicit; AutoRFP.ai and others are similar) sell three features gentext already plans: **sentence-level citations**, an explicit **"information unavailable"** flag instead of invention, and **conflict and staleness detection** across answers. **Assess** them as design validation, not as a purchase. Their claims are marketing and unaudited.
+> **TL;DR** A wave of AI-first RFP startups (Inventive AI is the most explicit; AutoRFP.ai and others are similar) sell three features adapt-rfp already plans: **sentence-level citations**, an explicit **"information unavailable"** flag instead of invention, and **conflict and staleness detection** across answers. **Assess** them as design validation, not as a purchase. Their claims are marketing and unaudited.
 
 ## What they are
 
@@ -46,11 +46,11 @@ SaaS products that read an RFP, retrieve from connected knowledge (a library and
 
 All of the above is vendor-stated *(unverified)*. Inventive's "most accurate / lowest hallucination" pages are self-published comparisons.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 These are market signals that the DR-0003 design is right:
 
-| Vendor feature | gentext equivalent |
+| Vendor feature | adapt-rfp equivalent |
 |---|---|
 | Sentence-level citations | M6 inline provenance map (sentence → chunk/fact ids); see [provenance](../provenance/index.md) |
 | "Information unavailable" | `{>>TK source: …<<}` placeholders |
@@ -58,7 +58,7 @@ These are market signals that the DR-0003 design is right:
 | Stale flags | M2 `next_review` + M3 fact validity windows |
 | Confidence score | M7 per-sentence support score (embedding similarity to cited source), shown and not hidden |
 
-## Where gentext should differ
+## Where adapt-rfp should differ
 
 - **Curated library over live sync.** Live sync gives fresh facts but loses length variants, lineage, and voice/owner metadata. Our facts get freshness from M3 validity windows instead.
 - **Inspectable citations.** Vendor citations point into a store we can't diff. Ours point to files in git.

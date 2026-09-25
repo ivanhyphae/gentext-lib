@@ -4,7 +4,7 @@
 
 ## One-paragraph state
 
-`gentext-lib` has a working **intake funnel**:
+`adapt-rfp` has a working **intake funnel**:
 1. discovery (M11)
 2. deterministic profiling (T1)
 3. Haiku triage cards (T2)
@@ -47,8 +47,8 @@ Total model spend so far is about **$2.30** (cards ≈ $1.00, extraction ≈ $0.
 
 1. **Environment setup script:** `scripts/cloud-setup.sh` (installs uv if missing, runs `uv sync`; poppler is optional because PDF extraction falls back to pypdf). The `build/` text cache is gitignored and rebuilds automatically.
 2. **No API key in cloud sessions** (DR-0011): the key lives in the local `.env` (gitignored). On Team plans, cloud-environment variables are readable by anyone using the environment, so don't put the key there. Use the **sub-agent backends** instead:
-   - Cards: `uv run gentext card prepare [ids]` → a Haiku sub-agent per file in `build/card-prompts/` returns card JSON → collect into `{asset_id: card}` → `uv run gentext card ingest results.json`.
-   - Extraction: `uv run gentext extract --prepare [ids]` → a Sonnet sub-agent per file in `build/extract-prompts/` writes its JSON to `build/extract-raw/<run>/<asset>__<sid>.json` → `uv run gentext extract --revalidate build/extract-raw/<run>`.
+   - Cards: `uv run adapt-rfp card prepare [ids]` → a Haiku sub-agent per file in `build/card-prompts/` returns card JSON → collect into `{asset_id: card}` → `uv run adapt-rfp card ingest results.json`.
+   - Extraction: `uv run adapt-rfp extract --prepare [ids]` → a Sonnet sub-agent per file in `build/extract-prompts/` writes its JSON to `build/extract-raw/<run>/<asset>__<sid>.json` → `uv run adapt-rfp extract --revalidate build/extract-raw/<run>`.
 3. **Google Drive:** discovery and acquisition use the claude.ai Google Drive connector if the session has it. Otherwise work from what is already in `sources/`.
 4. Commit on `main` at your own judgment (AGENTS.md); **push only when asked**.
 

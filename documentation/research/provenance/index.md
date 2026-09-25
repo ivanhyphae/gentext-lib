@@ -54,7 +54,7 @@ The user wants to know, for any string in a proposal: who wrote it (Hyphae staff
 ## Pages
 
 Level 2:
-- [Proposed provenance schema for gentext](schema.md)
+- [Proposed provenance schema for adapt-rfp](schema.md)
 - [Span anchoring across edits and round-trips](span-anchoring.md)
 
 Level 3 cards:

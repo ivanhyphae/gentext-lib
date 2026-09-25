@@ -44,7 +44,7 @@ A sequence of reviews named by color (Blue, Pink, Red, Green, Gold, White). Ship
 
 In practice, the compliance matrix ties comments to specific requirements at every stage.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The planned "adversarial LLM pass" in M7 is a red team. The practice suggests design rules that general LLM-judge advice often skips:
 

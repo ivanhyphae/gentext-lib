@@ -27,7 +27,7 @@ sources:
 
 # FastMCP (Python)
 
-> **TL;DR** FastMCP is a decorator-based Python framework for MCP servers and clients. It defaults to Streamable HTTP and has built-in OAuth, and it fits the uv/Python ≥3.12 stack (DR-0006). **Adopt** for the gentext MCP server. One app serves stdio in Claude Code and HTTP for claude.ai.
+> **TL;DR** FastMCP is a decorator-based Python framework for MCP servers and clients. It defaults to Streamable HTTP and has built-in OAuth, and it fits the uv/Python ≥3.12 stack (DR-0006). **Adopt** for the adapt-rfp MCP server. One app serves stdio in Claude Code and HTTP for claude.ai.
 
 ## What it is
 
@@ -35,17 +35,17 @@ sources:
 - FastMCP 1.0 was merged into the official MCP Python SDK in 2024 (`mcp.server.fastmcp`). The standalone package is the actively developed line (PyPI page).
 - Features cited by the project and secondary sources: `@mcp.tool`, `@mcp.resource("chunk://{id}")`, `@mcp.prompt`; Streamable HTTP as the default HTTP transport; server-side OAuth and token validation (from 3.0); server composition; OpenTelemetry. Version-specific details are *(unverified against the 4.x docs)*.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
-Tools can call `gentext` Python functions in-process. Type hints and Pydantic models become JSON schemas, which reuses our M2/M3/M5 models. The same module runs with `uv run gentext-mcp` over stdio (P1) and behind HTTPS (P2).
+Tools can call `adapt-rfp` Python functions in-process. Type hints and Pydantic models become JSON schemas, which reuses our M2/M3/M5 models. The same module runs with `uv run adapt-rfp-mcp` over stdio (P1) and behind HTTPS (P2).
 
 ## How it would fit
 
 ```python
 from fastmcp import FastMCP
-from gentext import library, qa
+from adapt_rfp import library, qa
 
-mcp = FastMCP("gentext")
+mcp = FastMCP("adapt-rfp")
 
 @mcp.tool(annotations={"readOnlyHint": True})
 def search_chunks(query: str, type: str | None = None, limit: int = 10) -> list[library.ChunkHit]:

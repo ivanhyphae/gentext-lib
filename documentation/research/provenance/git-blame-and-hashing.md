@@ -28,7 +28,7 @@ sources:
 - **git blame** annotates each line with the last commit that changed it. `-M` detects lines moved within a file. `-C` detects lines copied from other files in the same commit. `-C -C` adds the file-creating commit, and `-C -C -C` searches any commit. `--ignore-revs-file` skips reformatting commits. There is no word-level blame. `-w` only ignores whitespace.
 - **Sentence content-addressing**: split into sentences, normalize (case, whitespace, quotes), hash. Identical hashes in two places mean verbatim reuse. This is the same idea as git blobs, applied at a finer grain.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - Blame answers "who in the repo last touched this?", which is an audit trail that costs nothing.
 - Hashes answer "where else does this exact sentence appear?", including the Fresno boilerplate reused in a Bay Point doc (DR-0002 context leakage). They also let the harvest step (M9) recognize our own sentences coming back from Google Docs.

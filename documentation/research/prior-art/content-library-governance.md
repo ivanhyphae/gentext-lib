@@ -11,7 +11,7 @@ updated: 2026-09-25
 
 # Content library governance
 
-> **TL;DR** Every serious RFP content library has the same governance model: each answer has an SME **owner**, a **review cycle** matched to how fast its content goes stale, a **moderator** who approves edits, **freshness and usage** stats, and **archive rather than delete**. Vendors and reviewers agree that AI answer quality depends on this upkeep. gentext should adopt the model as frontmatter fields plus a health report, without the platforms.
+> **TL;DR** Every serious RFP content library has the same governance model: each answer has an SME **owner**, a **review cycle** matched to how fast its content goes stale, a **moderator** who approves edits, **freshness and usage** stats, and **archive rather than delete**. Vendors and reviewers agree that AI answer quality depends on this upkeep. adapt-rfp should adopt the model as frontmatter fields plus a health report, without the platforms.
 
 ## Why this matters
 
@@ -36,9 +36,9 @@ Two vendors publish cadences by content type:
 - **Responsive**: corporate facts every 90 days; product content every 6–12 months or on release; evergreen answers every 12–24 months. ([Responsive blog](https://www.responsive.io/blog/rfp-answer-library-content-audit), accessed 2026-09-25)
 - **Loopio**: legal/compliance annual; financials quarterly; product features bi-weekly; security bi-monthly. ([Loopio blog](https://loopio.com/blog/best-practices-to-maintaining-accurate-content/), accessed 2026-09-25)
 
-A mapping for gentext chunk types (a proposal, not vendor advice):
+A mapping for adapt-rfp chunk types (a proposal, not vendor advice):
 
-| gentext chunk / record | Suggested cadence | Trigger events |
+| adapt-rfp chunk / record | Suggested cadence | Trigger events |
 |---|---|---|
 | M3 facts with numbers (tract data, CHAT scores, budgets, staff counts) | 90 days, or at the fact's `valid_until` | New census or CalEnviroScreen release |
 | `org-profile`, `boilerplate` | 6 months | Staff or service change |
@@ -48,7 +48,7 @@ A mapping for gentext chunk types (a proposal, not vendor advice):
 
 ## The ROT audit
 
-Responsive's audit sorts content into **R**edundant, **O**utdated, **T**rivial. Each maps to a gentext check:
+Responsive's audit sorts content into **R**edundant, **O**utdated, **T**rivial. Each maps to a adapt-rfp check:
 
 - *Redundant*: near-duplicate detection (M1). The pilot's forked Ambrose files are the obvious case.
 - *Outdated*: "not used in the last year" plus expired facts (M3 validity windows).
@@ -62,7 +62,7 @@ Review aggregators and competitors repeat the same complaint about Loopio's "Mag
 
 Grant assistants ([Grantable](https://grantable.co/), [Instrumentl Apply](https://www.instrumentl.com/capability/apply), both accessed 2026-09-25) advertise a library that "never forgets" and draws on past proposals. None of the public material describes owners, review dates, or fact validity. Past proposals go in as undifferentiated context. That is DR-0003's rejected "RAG over raw documents" option, and it will carry stale facts and context leakage forward. See [grant-writing AI assistants](grant-writing-ai-assistants.md).
 
-## Recommendations for gentext
+## Recommendations for adapt-rfp
 
 1. **M2 frontmatter additions**: `owner` (a person, not only `hyphae|partner`), `moderator`, `review_every` (duration), `next_review` (derived), `archived` (bool or date). Keep `last_reviewed`.
 2. **Usage log** (M10, derived from compose runs): `chunk_id, variant_id, submission_id, date, outcome`. Freshness and "performance" come from this, as in Loopio's four health metrics (usage %, freshness, performance, automation %).

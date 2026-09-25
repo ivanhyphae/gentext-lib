@@ -1,4 +1,6 @@
-# README.md
+# adapt-rfp
+
+Adapt Hyphae's existing proposal writing to the standard a new solicitation sets: find and triage past material, extract reusable passages with provenance, model each RFP/NOFA's requirements, and check drafts against them.
 
 ## Intent
 

@@ -39,7 +39,7 @@ sources:
 - **Red-team module**: automated adversarial probes for jailbreaks and injection. These are aimed at app security, not prose quality.
 - **Ownership**: on 2026-03-09 OpenAI announced it would acquire Promptfoo. Both sides say it stays open source under its current license ([OpenAI](https://openai.com/index/openai-to-acquire-promptfoo/); [promptfoo blog](https://www.promptfoo.dev/blog/promptfoo-joining-openai/)).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 It is the fastest way to answer "which of these three judge prompts best separates the decoy from the real draft?" You write one YAML file, run `promptfoo eval`, and read a side-by-side matrix. It is also a plausible regression suite for our M8 skills.
 

@@ -38,7 +38,7 @@ sources:
 - **NIH hype studies** (Millar, Batalo, Budgell, JAMA Network Open 2022). They identified **139 hype adjective forms in 8 categories**: importance (crucial, key, vital), novelty (innovative, unique, *unprecedented*, groundbreaking), rigor (robust, rigorous), scale (comprehensive, vast), utility (actionable, scalable, sustainable), quality (renowned, skilled), attitude (remarkable, exciting), and problem (dire, alarming, unmet). In successful NIH abstracts, 130 of these rose by 7,690 words per million from 1985 to 2020. By 2020 about 97% of abstracts contained at least one hype term.
 - Grant-specific additions from our own copy: *cutting-edge, state-of-the-art, world-class, first-of-its-kind, revolutionary, transformative*. These are our assumptions, not from the cited studies.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Reviewers read many applications. Hype is so common in successful grants that it cannot simply be "bad", but *unsupported* boosters (a superlative with no number or citation nearby) weaken credibility. The check should therefore:
 

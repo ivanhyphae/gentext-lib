@@ -33,7 +33,7 @@ sources:
 
 # proselint (with write-good and alex)
 
-> **TL;DR** **Assess.** proselint is a maintained Python linter with 60+ curated usage checks (hedging, weasel words, clichés, jargon, corporate speak, typography). It is useful as a library of *ideas and word lists*. For gentext, run its checks through Vale's packaged ports, or borrow its lists into our lexicons, rather than adding a second linter engine. write-good and alex are Node tools with slowing maintenance. Use them only via Vale ports.
+> **TL;DR** **Assess.** proselint is a maintained Python linter with 60+ curated usage checks (hedging, weasel words, clichés, jargon, corporate speak, typography). It is useful as a library of *ideas and word lists*. For adapt-rfp, run its checks through Vale's packaged ports, or borrow its lists into our lexicons, rather than adding a second linter engine. write-good and alex are Node tools with slowing maintenance. Use them only via Vale ports.
 
 ## What it is
 
@@ -41,7 +41,7 @@ sources:
 - **write-good** (MIT, Node): flags passive voice, weasel words, "so" at sentence start, adverbs, clichés, and wordy phrases. Last push 2025-03.
 - **alex** (MIT, Node): flags insensitive or inconsiderate language. Last push 2024-11.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 - Funders discount inflated, vague prose. proselint's `hedging`, `weasel_words`, `corporate_speak`, and `cliches` overlap with what reviewers penalize.
 - Its lists are curated by editors, which gives better precision than ad-hoc word lists.

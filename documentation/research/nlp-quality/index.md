@@ -15,7 +15,7 @@ updated: 2026-09-25
 
 ## The question
 
-Which classical NLP and embedding techniques should gentext's M4 (Characterize) and M7 (QA) modules use to check composed drafts? The checks must run **without an LLM**, be reproducible in CI, and explain each finding (rule id, span, the glossary or registry entry it came from). They must also catch every DR-0002 defect as a regression test.
+Which classical NLP and embedding techniques should adapt-rfp's M4 (Characterize) and M7 (QA) modules use to check composed drafts? The checks must run **without an LLM**, be reproducible in CI, and explain each finding (rule id, span, the glossary or registry entry it came from). They must also catch every DR-0002 defect as a regression test.
 
 ## Landscape in one paragraph
 

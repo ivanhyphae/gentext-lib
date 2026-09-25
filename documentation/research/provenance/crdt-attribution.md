@@ -38,7 +38,7 @@ sources:
 - **Automerge**: every change carries an `ActorId`, so history can be walked to find who inserted each character. Actor ids identify sessions or devices, not people, so an app must map actor → person.
 - **Google Docs**: the UI shows suggestion authors and revision history. The Docs API can read suggestions (`suggestedInsertionIds`, `SuggestionsViewMode`). A Developer Preview adds writing and accepting suggestions. Exporting or copying plain text drops all attribution.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 These tools show that character-level authorship is *technically* straightforward when you own the editor. They also show that we don't. Our text passes through Claude Docs, then a clipboard, then Google Docs, then export. No CRDT metadata survives that path.
 

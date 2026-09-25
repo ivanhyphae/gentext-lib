@@ -26,7 +26,7 @@ sources:
 ## What it is
 Anthropic describes Agent Skills (post dated 2025-10-16) as folders with a `SKILL.md`. Level 1 is the YAML `name` and `description`, preloaded so Claude knows when a skill applies. Level 2 is the full `SKILL.md`, read when the skill is triggered. Level 3 and beyond are referenced files (e.g. `reference.md`) that Claude opens selectively, which makes the usable context "effectively unbounded". The post likens it to "a well-organized manual that starts with a table of contents, then specific chapters, and finally a detailed appendix". An update dated 2025-12-18 says Agent Skills were published as an open standard at agentskills.io, supported across Claude.ai, Claude Code, the Agent SDK and the Developer Platform ([anthropic.com](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 Claude is the main LLM, and skills are our planned M8 surface. If the library uses the same disclosure pattern as the skills that read it, Claude navigates it "natively": a short summary tells it whether to open a file, and a file tells it where the details live.
 
 ## How it would fit

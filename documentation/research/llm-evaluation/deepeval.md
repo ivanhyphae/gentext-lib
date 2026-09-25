@@ -36,7 +36,7 @@ sources:
 - Model-agnostic, including Anthropic ([integration](https://deepeval.com/integrations/models/anthropic)).
 - Apache-2.0. The optional Confident AI cloud handles dashboards.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The **DAG metric** is a close cousin of our checklist design. Each rubric item becomes a node with a narrow yes/no question, and the band is computed from the pattern of answers rather than asked for. That makes scoring more deterministic and explainable. We can implement the same idea directly: M5 checklist items → per-item statuses → a band computed by a rule in Python.
 

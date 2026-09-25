@@ -36,7 +36,7 @@ The W3C Web Annotation Data Model (Recommendation, 23 Feb 2017) defines selector
 
 <a id="brat-standoff"></a>**brat standoff** pairs a `.txt` file with a `.ann` file. Each line holds an ID, then a tab, then an annotation, e.g. `T1 Organization 0 4 Sony`, with an exclusive end offset. It also supports relations (`R`), attributes (`A`), normalizations to external ids (`N`), and notes (`#`). It is widely used in NLP corpora.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 Funder-facing prose must stay clean and paste-ready. Standoff lets us attach "I-ReLab wrote this" or "asserts fact X" without touching the text, and it survives any renderer.
 

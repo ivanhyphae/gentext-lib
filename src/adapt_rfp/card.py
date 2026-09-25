@@ -19,9 +19,9 @@ from typing import Literal
 import yaml
 from pydantic import BaseModel, ConfigDict
 
-from gentext import inventory as inv
-from gentext.extract import redact
-from gentext.profile import asset_text, load_profile
+from adapt_rfp import inventory as inv
+from adapt_rfp.extract import redact
+from adapt_rfp.profile import asset_text, load_profile
 
 CARD_DIR = Path("inventory/cards")
 PROMPT_DIR = Path("build/card-prompts")

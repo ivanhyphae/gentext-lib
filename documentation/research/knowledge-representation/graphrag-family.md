@@ -37,7 +37,7 @@ sources:
 - **LightRAG** (MIT, about 40k stars): a graph plus vector dual-level index, with query modes local/global/hybrid/naive/mix. Backends include NetworkX/JSON (default), Postgres, Neo4j, Milvus, Qdrant and others. It works with Claude models ([GitHub](https://github.com/HKUDS/LightRAG), accessed 2026-09-25).
 - **Graphiti** (Apache-2.0, Zep): a temporal knowledge graph for agent memory. It has a bi-temporal fact validity model, episode provenance, hybrid (embedding + BM25 + traversal) retrieval, and incremental updates. It runs on Neo4j, FalkorDB or Neptune (Kùzu is deprecated) and ships an MCP server. Anthropic is supported, and structured-output LLMs are recommended ([GitHub](https://github.com/getzep/graphiti), accessed 2026-09-25).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 The README's "use graphs to model semantics" invites these tools. Their payoff depends on corpus size and curation. At hundreds to low thousands of short, typed, human-reviewed chunks, where the entities are *already* registered:
 - the extraction LLM re-derives what the registries hold, with errors, at index cost;
 - community summaries target "what are the themes of this corpus" questions, which M6/M7 don't ask;

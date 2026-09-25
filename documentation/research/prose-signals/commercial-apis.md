@@ -47,7 +47,7 @@ Is "writing feedback" a domain we can rent, like Grammarly, so Claude gets real 
 
 ## How it plugs into the MCP server
 
-One adapter per vendor behind a `check_prose(text, checks=[…])` tool ([fastmcp](../claude-platform/fastmcp.md)). Each adapter normalises to the gentext finding shape: `{source, rule_id, category, start, end, quote, message, suggestions[], severity, confidence}`.
+One adapter per vendor behind a `check_prose(text, checks=[…])` tool ([fastmcp](../claude-platform/fastmcp.md)). Each adapter normalises to the adapt-rfp finding shape: `{source, rule_id, category, start, end, quote, message, suggestions[], severity, confidence}`.
 
 - Offsets: Sapling's edit `start`/`end` are **relative to the sentence**, so the document offset is `sentence_start + start`. LanguageTool uses `offset`/`length`. Pangram uses window `start_index`/`end_index`. GPTZero returns sentence text, which we re-anchor with a text-quote selector ([web-annotation-selectors](../provenance/web-annotation-selectors.md)).
 - Document-level scores (Grammarly, detector totals) become one finding with `start=end=null`.

@@ -11,7 +11,7 @@ updated: 2026-09-25
 
 # Claude Docs ↔ Google Docs workflow
 
-> **TL;DR** Draft and iterate in **Claude Docs**, one doc per application and one tab per question. Claude writes, comments and revises there through the Docs connector. Harvest reviewed text back into `library/` through a gentext tool that records lineage. A human pastes the final blocks into the tabbed **Google Doc**. Claude can read that Google Doc afterwards through the Drive connector for a final QA pass, but it can't edit it.
+> **TL;DR** Draft and iterate in **Claude Docs**, one doc per application and one tab per question. Claude writes, comments and revises there through the Docs connector. Harvest reviewed text back into `library/` through a adapt-rfp tool that records lineage. A human pastes the final blocks into the tabbed **Google Doc**. Claude can read that Google Doc afterwards through the Drive connector for a final QA pass, but it can't edit it.
 
 ## The loop
 
@@ -26,7 +26,7 @@ Claude Docs  ── one doc per application, one tab per question ──
 harvest  (skill: harvest-edits → propose_variant → git branch/PR)
    ▼
 Google Doc (tabbed, final)  ← human pastes blocks
-   │  (Drive connector: read_file_content → gentext check on the final text)
+   │  (Drive connector: read_file_content → adapt-rfp check on the final text)
    ▼
 submission
 ```
@@ -51,7 +51,7 @@ Sources: [Claude Docs help](https://support.claude.com/en/articles/16923645-get-
 
 **Provenance travels as comments, not inline markup.** Inline `[chunk:…]` tags would get pasted into the Google Doc by accident. Anchor a comment on each adapted sentence with its chunk/fact ids instead. Keep `{>>TK source: …<<}` placeholders inline, because they *should* block a paste. Comment limits: 1000 threads per doc and 100 comments per thread (Docs connector guide).
 
-**Harvest is Claude-mediated.** Our MCP server can't read Claude Docs. Only Claude can, through the Docs connector. The `harvest-edits` skill tells Claude to read the tab, diff it against the draft that `draft_context` produced, and call `propose_variant(chunk_id, text, lineage={edited_in: <doc link>, tab, date})`. The fallback is Export → Markdown, then `gentext harvest file.md`.
+**Harvest is Claude-mediated.** Our MCP server can't read Claude Docs. Only Claude can, through the Docs connector. The `harvest-edits` skill tells Claude to read the tab, diff it against the draft that `draft_context` produced, and call `propose_variant(chunk_id, text, lineage={edited_in: <doc link>, tab, date})`. The fallback is Export → Markdown, then `adapt-rfp harvest file.md`.
 
 **Git is the history.** Claude Docs keeps no versions, so snapshot a tab's text into the harvest PR at each milestone (review round, submission).
 

@@ -32,7 +32,7 @@ sources:
 ## What it is
 An in-process retrieval library on the Lance columnar format. It supports vector search (IVF-PQ/HNSW), native full-text search, hybrid search with rerankers, SQL filters, ACID with schema evolution, and automatic table versioning. There's also a commercial LanceDB Cloud/Enterprise. 2026 updates include Lance-native SQL via DuckDB and git-style branching/shallow clone for datasets (vendor blog; not verified in depth).
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 If M6 retrieval needs reranking, multiple embedding models per chunk, or multimodal data (site photos, heat maps), LanceDB does it embedded with no server. Its versioning partly echoes our lineage needs.
 
 ## How it would fit

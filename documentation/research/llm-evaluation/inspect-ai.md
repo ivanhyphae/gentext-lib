@@ -37,7 +37,7 @@ sources:
 - **License**: MIT ([GitHub](https://github.com/UKGovernmentBEIS/inspect_ai)). Maintained by UK AISI with Meridian Labs.
 - **House guidance**: AISI's evaluation standard asks users to restrict model-graded scoring to content matching against ground truth ([standard](https://ukgovernmentbeis.github.io/as-evaluation-standard/)). That supports our checklist design.
 
-## Why it matters for gentext
+## Why it matters for adapt-rfp
 
 The calibration loop in [judge-reliability](judge-reliability.md) runs roughly 20 gold answers × personas × k runs × prompt variants, and computes per-item agreement with the humans. Someone has to own datasets, repeats, logs, and comparisons across prompt versions. Inspect does that in Python (our language per DR-0006), keeps logs as files, and gives a free viewer for walking through transcripts. That is the inspectability we want.
 

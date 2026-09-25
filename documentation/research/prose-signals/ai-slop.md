@@ -11,7 +11,7 @@ updated: 2026-09-25
 
 # AI slop and LLM-text quality
 
-> **TL;DR** "Slop" is not one property. Research now splits it into **fixable span-level categories**: low density, irrelevance, templated structure, clichés, purple prose, unnecessary exposition, poor sentence structure, and lack of specificity. The field agrees on two things. Nobody, human or LLM, is reliable at a binary "this is slop" call. Experts *do* converge on the spans and on edits. So gentext should run a **three-layer slop pass**: curated lexicon/pattern detectors, statistical proxies plus an open reward model (WQRM), and a quote-validated Claude span annotator using the LAMP/Shaib taxonomy. All three emit one [span-feedback record](span-feedback-schema.md) that Claude revises from. AI-text *detectors* stay on hold: they answer "who wrote it", which provenance already records, not "is it good".
+> **TL;DR** "Slop" is not one property. Research now splits it into **fixable span-level categories**: low density, irrelevance, templated structure, clichés, purple prose, unnecessary exposition, poor sentence structure, and lack of specificity. The field agrees on two things. Nobody, human or LLM, is reliable at a binary "this is slop" call. Experts *do* converge on the spans and on edits. So adapt-rfp should run a **three-layer slop pass**: curated lexicon/pattern detectors, statistical proxies plus an open reward model (WQRM), and a quote-validated Claude span annotator using the LAMP/Shaib taxonomy. All three emit one [span-feedback record](span-feedback-schema.md) that Claude revises from. AI-text *detectors* stay on hold: they answer "who wrote it", which provenance already records, not "is it good".
 
 ## The question
 
