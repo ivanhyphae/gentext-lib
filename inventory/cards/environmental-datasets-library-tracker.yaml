@@ -1,0 +1,54 @@
+asset_id: environmental-datasets-library-tracker
+card:
+  summary: James's curated catalog of environmental datasets organized by geography (Stockton, Twin Cities, Philadelphia,
+    Dallas, Bay Point area) and project context, with structured metadata (theme, source, year, publisher, links, citations)
+    for ~1,500 data layers. Contains working sheets for multiple Hyphae projects and GIS analysis (QGIS layers, tree surveys,
+    regressions). The document is a reference tool mapping data sources to projects, not a proposal or deliverable.
+  doc_role: dataset
+  authorship: James (Hyphae)
+  disposition: reference
+  disposition_reason: This is a working catalog of data sources indexed by theme, geography, and project. It is not reusable
+    proposal prose and does not contain site descriptions, needs statements, or outcome data. However, it is a structured
+    index to environmental datasets (CHAT, VCP, tree canopy, heat, equity layers, etc.) that team members must consult to
+    find and cite data sources for applications. The inventory_note correctly identifies it as seed for M3 data-source records
+    and citations. Keep for lookup; do not extract reusable sections.
+  serves_needs:
+  - need_id: chat-bay-point
+    how: Likely contains California Heat Assessment Tool links and metadata if Bay Point is indexed; must check Twin Cities/PHL/Stockton
+      sheets and any Bay Point-specific layer listings.
+  - need_id: vcp-bay-point-tracts
+    how: Likely contains Vulnerable Communities Platform dataset pointers and metadata; must verify sheets for VCP sources
+      and tract-level data links.
+  sections: []
+  fact_candidates:
+  - THE LAYERS sheet contains 185 rows of environmental data layer records
+  - Stockton Analysis in AdaptOS sheet contains 52 dataset entries
+  - Twin Cities Selected Layers sheet contains 184 records
+  - MN Staging sheet contains 1,029 records
+  - Philadelphia (PHL) Selected Layers sheet contains 168 records
+  - Philadelphia Staging sheet contains 396 records
+  - WPF Datalayers sheet contains 65 records
+  - Dallas Story Map 2024 sheet contains 6 map chapters
+  - Tree Surveys sheet contains 90 geonode records across multiple locations
+  - QGIS Layers - Broadway sheet contains 185 layer metadata entries
+  - 'Standard metadata columns across all sheets: Theme, Data Layer Name, Description, Publisher, Website, Paper/Citation,
+    Data Year, Dataset Scale'
+  flags:
+  - 'Excerpt too thin to judge: nearly all sections are table metadata (column definitions, ranges) with no sample data visible
+    or readable'
+  - No Bay Point or Ambrose area data visible in section openings; must access actual spreadsheet to confirm coverage of vcp-bay-point-tracts
+    and chat-bay-point needed assets
+  - Multiple sheets (Copy of shortlist, fletch tools, Sheet3) appear empty or minimal; purpose unclear
+  - Document is a working tool in flux (last modified 2026-09-08); structure and completeness may differ from outline
+  - No direct evidence of CHAT, VCP, or Bay Point-specific layers in excerpt headings; internal content not accessible
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: b14c7dd4a7c32334dd190f5083f609d139fa746870b38b376860b7007d0318ff
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 10839
+    output: 684
+    cache_read: 0
+    cache_write: 0

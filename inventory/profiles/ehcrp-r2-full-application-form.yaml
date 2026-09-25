@@ -8,99 +8,130 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Extreme Heat and Community Resilience
+- sid: s1
+  path: Extreme Heat and Community Resilience
   level: 2
   words: 37
-- path: Extreme Heat and Community Resilience > Additional Users
+- sid: s2
+  path: Extreme Heat and Community Resilience > Additional Users
   level: 2
   words: 251
-- path: Extreme Heat and Community Resilience > Project Information
+- sid: s3
+  path: Extreme Heat and Community Resilience > Project Information
   level: 2
   words: 131
-- path: Extreme Heat and Community Resilience > Lead Applicant Information
+- sid: s4
+  path: Extreme Heat and Community Resilience > Lead Applicant Information
   level: 2
   words: 316
-- path: Extreme Heat and Community Resilience > Lead Applicant Financial Capacity Documents
+- sid: s5
+  path: Extreme Heat and Community Resilience > Lead Applicant Financial Capacity Documents
   level: 2
   words: 50
-- path: Extreme Heat and Community Resilience > [Only California Native American Tribe]
+- sid: s6
+  path: Extreme Heat and Community Resilience > [Only California Native American Tribe]
   level: 2
   words: 75
-- path: Extreme Heat and Community Resilience > Co-Applicant Information
+- sid: s7
+  path: Extreme Heat and Community Resilience > Co-Applicant Information
   level: 2
   words: 180
-- path: Extreme Heat and Community Resilience > For CBOs Applying as Lead Applicant
+- sid: s8
+  path: Extreme Heat and Community Resilience > For CBOs Applying as Lead Applicant
   level: 2
   words: 434
-- path: Extreme Heat and Community Resilience > For Local/Regional Public Entities Applying as Lead Applicant
+- sid: s9
+  path: Extreme Heat and Community Resilience > For Local/Regional Public Entities Applying as Lead Applicant
   level: 2
   words: 142
-- path: 1. Name of Tribe [Text box]
+- sid: s10
+  path: 1. Name of Tribe [Text box]
   level: 1
   words: 194
-- path: 1. Name of Tribe [Text box] > [If Tribe]
+- sid: s11
+  path: 1. Name of Tribe [Text box] > [If Tribe]
   level: 2
   words: 6
-- path: 1. Name of Tribe [Text box] > For Coalitions Applying as Lead Applicant
+- sid: s12
+  path: 1. Name of Tribe [Text box] > For Coalitions Applying as Lead Applicant
   level: 2
   words: 194
-- path: 1. Name of Tribe [Text box] > For Tribes Applying as Lead Applicant
+- sid: s13
+  path: 1. Name of Tribe [Text box] > For Tribes Applying as Lead Applicant
   level: 2
   words: 66
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the'
+- sid: s14
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the'
   level: 1
   words: 17
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Additional Co-Applicants'
+- sid: s15
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Additional Co-Applicants'
   level: 2
   words: 95
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Co-Applicant Letter(s) of Support'
+- sid: s16
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Co-Applicant Letter(s) of Support'
   level: 2
   words: 61
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Co-Applicant Financial Capacity Documents'
+- sid: s17
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Co-Applicant Financial Capacity Documents'
   level: 2
   words: 95
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Contributor Information'
+- sid: s18
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Contributor Information'
   level: 2
   words: 234
-- path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Supporter Information'
+- sid: s19
+  path: '1. MOU: Upload an MOU, operating agreement, or other document establishing the > Supporter Information'
   level: 2
   words: 108
-- path: 1. Do you have any Supporters who should be associated with this application?
+- sid: s20
+  path: 1. Do you have any Supporters who should be associated with this application?
   level: 1
   words: 112
-- path: 1. Do you have any Supporters who should be associated with this application? > Project Infrastructure Location
+- sid: s21
+  path: 1. Do you have any Supporters who should be associated with this application? > Project Infrastructure Location
   level: 2
   words: 64
-- path: 1. Do you have any Supporters who should be associated with this application? > Project Feasibility Requirement
+- sid: s22
+  path: 1. Do you have any Supporters who should be associated with this application? > Project Feasibility Requirement
   level: 2
   words: 122
-- path: 1. Do you have any Supporters who should be associated with this application? > Funding Priorities
+- sid: s23
+  path: 1. Do you have any Supporters who should be associated with this application? > Funding Priorities
   level: 2
   words: 355
-- path: '1. Do you have any Supporters who should be associated with this application? > ii. Incorporated Place #'
+- sid: s24
+  path: '1. Do you have any Supporters who should be associated with this application? > ii. Incorporated Place #'
   level: 2
   words: 213
-- path: '1. Do you have any Supporters who should be associated with this application? > a. Community #1:'
+- sid: s25
+  path: '1. Do you have any Supporters who should be associated with this application? > a. Community #1:'
   level: 2
   words: 77
-- path: 1. Do you have any Supporters who should be associated with this application? > Narrative Questions
+- sid: s26
+  path: 1. Do you have any Supporters who should be associated with this application? > Narrative Questions
   level: 2
   words: 18
-- path: 1. Do you have any Supporters who should be associated with this application? > Project Overview
+- sid: s27
+  path: 1. Do you have any Supporters who should be associated with this application? > Project Overview
   level: 2
   words: 113
-- path: 1. Do you have any Supporters who should be associated with this application? > Program Values
+- sid: s28
+  path: 1. Do you have any Supporters who should be associated with this application? > Program Values
   level: 2
   words: 310
-- path: 1. Do you have any Supporters who should be associated with this application? > Alternative Requirement for Applicants Without a Co-Applicant
+- sid: s29
+  path: 1. Do you have any Supporters who should be associated with this application? > Alternative Requirement for Applicants Without a Co-Applicant
   level: 2
   words: 396
-- path: 1. Do you have any Supporters who should be associated with this application? > Project Workbook (Workplan and Budget)
+- sid: s30
+  path: 1. Do you have any Supporters who should be associated with this application? > Project Workbook (Workplan and Budget)
   level: 2
   words: 333
-- path: 1. Do you have any Supporters who should be associated with this application? > AI Acknowledgement
+- sid: s31
+  path: 1. Do you have any Supporters who should be associated with this application? > AI Acknowledgement
   level: 2
   words: 340
 section_count: 31
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

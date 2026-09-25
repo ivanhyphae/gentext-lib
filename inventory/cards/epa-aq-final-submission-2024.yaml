@@ -1,0 +1,121 @@
+asset_id: epa-aq-final-submission-2024
+card:
+  summary: Submitted 2024 EPA air-quality grant (EPA-G2024-STAR-D1 AirSense) led by University of South Florida (Tejada-Martinez,
+    PI) with Hyphae as contracted partner. Proposes 4-year project (2025–2029) to enhance urban air quality monitoring, modeling,
+    and management by integrating low-cost sensor networks with regulatory data, CFD simulations, machine learning, and community
+    engagement across three California CBOs (Climate Resolve, Little Manila Rising, Environmental Indicators Project). Combines
+    Kalman filtering, artificial neural networks, and OpenFOAM CFD at meter-scale resolution to identify pollution hotspots
+    and support policy advocacy in environmental justice communities.
+  doc_role: submitted-proposal
+  authorship: Andres E. Tejada-Martinez (PI, USF), Amy Stuart (Co-PI, USF); Hyphae Design Lab (contracted partner); three
+    community-based organizations (Climate Resolve, Little Manila Rising, Environmental Indicators Project)
+  disposition: hold
+  disposition_reason: Submitted federal proposal with strong reusable capability text on air quality monitoring methods (sensor
+    integration, CFD modeling, machine learning, Kalman filtering), community engagement strategy, and documented outcomes
+    from prior West Oakland air quality work (WOCAP 2019). Methods and partnership approach directly applicable to future
+    proposals.
+  serves_needs:
+  - need_id: lib-methods
+    how: Detailed description of sensor data integration, Kalman filtering, CFD modeling with OpenFOAM, artificial neural
+      networks, and community-led air quality assessment methods across 4-year timeline
+  - need_id: lib-partners
+    how: 'Named partner track records: Climate Resolve, Little Manila Rising, Environmental Indicators Project; documented
+      prior success with West Oakland coalition forcing 2019 WOCAP regulatory concessions from CalTrans, DOT, Port of Oakland'
+  sections:
+  - sid: s2
+    path: part 2
+    type: need-statement
+    reuse_value: high
+    note: Environmental justice framing for air quality disparities; cites health impacts and regulatory gaps; establishes
+      case for integrated monitoring and CFD modeling
+  - sid: s3
+    path: part 3
+    type: capability
+    reuse_value: high
+    note: 'Expected outcomes: enhanced data integration, accurate pollution models, improved monitoring spatial/temporal resolution,
+      effective intervention identification'
+  - sid: s4
+    path: part 4
+    type: method
+    reuse_value: high
+    note: Validation approach for CFD models using low-cost sensor networks; Kalman filtering technique; addressing data quality
+      challenges in underserved communities
+  - sid: s5
+    path: part 5
+    type: network
+    reuse_value: medium
+    note: Hyphae's established relationships with CBOs and sensor network operators in Oakland, Los Angeles, Stockton; access
+      to multi-year air quality data across California
+  - sid: s6
+    path: part 6
+    type: method
+    reuse_value: high
+    note: Data processing via Kalman filtering and artificial neural networks (ANN) for unified state estimation; ANN models
+      for rapid air quality prediction at neighborhood scale
+  - sid: s9
+    path: part 9
+    type: method
+    reuse_value: high
+    note: Micro-scale CFD simulations at meter to sub-meter scale; urban heat island, wind patterns, pollutant dispersion;
+      role of trees in pollution reduction
+  - sid: s10
+    path: part 10
+    type: method
+    reuse_value: high
+    note: OpenFOAM setup; finite volume method; vehicle-induced turbulence (VIT) modeling; emission rate calculations; roadway
+      source zones
+  - sid: s12
+    path: part 12
+    type: method
+    reuse_value: medium
+    note: 'Mesh refinement details: 12 million cells, 8 m background, 1.0 m building surfaces, 0.25 m bridges; terrain cell
+      sizes 0.25–4 m; turbulent wall modeling'
+  - sid: s18
+    path: part 18
+    type: project-case
+    reuse_value: high
+    note: 'West Oakland prior work: Hyphae methods combined outreach with CFD/modeling; empirical foundation for CBO advocacy;
+      led to 2019 WOCAP regulatory concessions from CalTrans, DOT, Port of Oakland, refineries'
+  - sid: s19
+    path: part 19
+    type: project-case
+    reuse_value: high
+    note: 'West Oakland Community Air Action Plan (WOCAP) 2019 outcomes: CalTrans, DOT, Port of Oakland, refineries forced
+      to make substantial regulatory concessions on pollution risk mitigation'
+  fact_candidates:
+  - 's1: Project period 06/01/2025 – 05/31/2029 (4 years)'
+  - 's1: Lead PI Andres E. Tejada-Martinez (USF); Co-PI Amy Stuart (USF)'
+  - 's1: CFD modeling at 1 meter scale for air pollution maps'
+  - 's3: Expected outcomes include enhanced data integration, accurate pollution models, improved identification of pollution
+    sources'
+  - 's5: Hyphae has established working relationships with sensor networks in Oakland, Los Angeles, and Stockton'
+  - 's11: Simulation location: intersection of Inwood Rd and Harry Hines Blvd, Dallas, TX (32.78 N, 96.81 S)'
+  - 's12: Mesh refinement: approximately 12 million cells total; background cell 8 m; building surfaces 1.0 m; bridges 0.25
+    m; inner terrain 0.25 m, outer terrain 4 m'
+  - 's13: Dr. Tejada-Martinez has over 20 years of CFD research experience; will lead Tasks 1 and 3'
+  - 's13: Dr. Stuart has over 20 years of air quality research experience; will lead Task 2'
+  - 's19: West Oakland Community Air Action Plan (WOCAP) passed in 2019 requiring CalTrans, DOT, Port of Oakland, and refineries
+    regulatory concessions'
+  - 's20: 2-year timeline per CBO with community-led area-of-interest (AOI) and hotspot selection'
+  - 's26: Tejada-Martinez education: Ph.D. Mechanics 2003 (Rensselaer), M.S. Mathematics 1998 (NYU), M.S. Engineering Mechanics
+    1996 (Columbia), B.A./B.S. Applied Math/Civil Eng. 1995 (Columbia)'
+  flags:
+  - 'Near-duplicate: 83% overlap with airsense-epa-proposal-2024 (likely same grant submission in different stage)'
+  - Document excerpt coverage is thin (sections are 600-word blocks from 18K-word proposal); technical methods visible but
+    full community engagement plan and outcomes data not fully reviewed
+  - Three named CBOs (Climate Resolve, Little Manila Rising, Environmental Indicators Project) but individual partner org
+    profiles not extracted—see s20, s21 for timeline details
+  - Contact details redacted ([email], [phone])
+  - West Oakland work (s18–s21) shows prior Hyphae capability but no quantified metrics for WOCAP outcomes or CBO capacity
+    gains
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 69ec07e2d4f224cb5dca6c5c77af7e20465ddf1d56c5d65ede29ec83d2ed21f5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 9485
+    output: 1637
+    cache_read: 0
+    cache_write: 0

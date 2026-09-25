@@ -1,32 +1,33 @@
 asset_id: ehcrp-r1-resources-page
 card:
-  summary: 'LCI web page listing Round 1 EHCRP resources: final guidelines, NOFA, expenditure records, quarterly report template,
-    and eight YouTube workshop videos from Feb–Mar 2024 covering program overview, planning grants, implementation grants,
-    budget/workplan, and technical assistance.'
+  summary: 'LCI web page listing Round 1 EHCRP resources: links to final guidelines, NOFA, memos, expenditure record, reporting
+    templates, and YouTube recordings of 8 application workshops (Feb–Mar 2024). No substantive content provided; purely a
+    directory of external links.'
   doc_role: guidance
-  authorship: LCI (California Lands Commission)
+  authorship: LCI (California Climate Investments)
   disposition: reference
-  disposition_reason: Authoritative index to official EHCRP R1 guidance and training materials. Not prose to reuse, but essential
-    lookup resource for understanding program requirements and TA landscape.
+  disposition_reason: Authoritative index of Round 1 program materials and workshop recordings. Useful for locating foundational
+    documents and TA content, but the page itself contains no prose to reuse or facts to extract—only URLs and dates. Round
+    1 is closed; Round 2 is active. Keep for reference lookups.
   serves_needs: []
   sections: []
   fact_candidates:
-  - EHCRP Round 1 Final Guidelines dated 2024-04-08
-  - EHCRP Round 1 NOFA dated 2024-04-08
-  - Eight EHCRP R1 application workshops held Feb 8 – Mar 27, 2024
-  - Quarterly Report Template dated 2025-08-13
-  - GGRF Expenditure Record dated 2025-05-30
+  - 's1: 8 application workshops recorded Feb–Mar 2024'
+  - 's1: EHCRP R1 Final Guidelines published 2024-04-08'
+  - 's1: EHCRP R1 GGRF Expenditure Record published 2025-05-30'
+  - 's1: Quarterly Report Template published 2025-08-13'
   flags:
-  - Resource page only; no substantive content excerpts to assess. Metadata date 2026-09-25 is future-dated (likely a typo).
-    Links provided but not validated. Does not answer any active Round 2 application questions.
+  - Round 1 resource page; Round 2 (active solicitation) may have separate or updated materials
+  - excerpt is exhaustive (full page); no hidden content
+  - URLs not accessible in this context; confirm links still resolve before citing
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: aec2f0feee58980b9e7be0b1944d4ca25add6bf272193613ae9de4655fb86e73
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 3115
-    output: 305
+    input: 3194
+    output: 316
     cache_read: 0
     cache_write: 0

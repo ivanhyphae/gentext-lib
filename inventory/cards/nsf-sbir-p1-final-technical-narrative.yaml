@@ -1,0 +1,95 @@
+asset_id: nsf-sbir-p1-final-technical-narrative
+card:
+  summary: NSF SBIR Phase I final report on AdaptOS, an ecosystem design tool using deep learning to estimate leaf area density
+    (LAD) from RGB and LIDAR data, enabling optimized tree-planting recommendations. Describes data acquisition, deep learning
+    approaches (grid-based and pixelwise regression using conditional GANs), ground-truthing methods, backend infrastructure,
+    and transition to Phase II commercialization with partnerships in 10 U.S. cities.
+  doc_role: report
+  authorship: Hyphae Design Laboratory
+  disposition: hold
+  disposition_reason: Authoritative description of Hyphae's core capability (AdaptOS/ecosystem design tool) with technical
+    validation, outcomes, and customer discovery insights; strong candidate for lib-methods (modeling) and lib-firm-experience
+    chunks.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Completed NSF SBIR Phase I project with validated deep learning methods for tree canopy analysis and planting optimization;
+      demonstrates firm's technical capability and commercialization pathway.
+  - need_id: lib-methods
+    how: Detailed description of LAD estimation from LIDAR and RGB imagery using conditional GANs, plantable area mapping,
+      and backend geospatial infrastructure (PostGIS, Geoserver, AWS); transferable methods for heat/urban ecology projects.
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: Project overview, research results summary, and methodology framework for AdaptOS tool development.
+  - sid: s3
+    path: part 3
+    type: method
+    reuse_value: high
+    note: Technical description of LIDAR data processing, voxel-based LAD estimation, and sensor fusion approach with GNSS
+      and RGB photography.
+  - sid: s4
+    path: part 4
+    type: method
+    reuse_value: high
+    note: 'Deep learning approaches: grid-based semantic segmentation and pixelwise regression using PSPnet and conditional
+      GANs for LAD inference.'
+  - sid: s5
+    path: part 5
+    type: method
+    reuse_value: high
+    note: Pixelwise CGAN validation results (MAPE 31%, r² 0.82–0.86) demonstrating successful LAD prediction from RGB images.
+  - sid: s6
+    path: part 6
+    type: method
+    reuse_value: medium
+    note: Ground-truthing LAD data through physical tree sampling (wax dipping method) to calibrate LIDAR inference across
+      species.
+  - sid: s7
+    path: part 7
+    type: method
+    reuse_value: medium
+    note: Aerial LIDAR acquisition and LAI estimation using Beer's law; plantable area mapping from satellite NDVI and LIDAR
+      data.
+  - sid: s9
+    path: part 9
+    type: capability
+    reuse_value: high
+    note: 'Backend infrastructure description: PostgreSQL, PostGIS, Geoserver, AWS deployment for scalable geospatial API
+      serving.'
+  - sid: s11
+    path: part 11
+    type: project-case
+    reuse_value: medium
+    note: Phase II commercialization plan, user testing, deployment targets, and planned health-outcome integration; active
+      partnerships in 10 U.S. cities.
+  fact_candidates:
+  - 's7: Aerial LIDAR acquisition cost >$75,000 for ~65 km² coverage in Louisville, KY through Green Heart partnership.'
+  - 's5: Pixelwise CGAN model trained on 3,000 RGB-LIDAR pairs achieved average MAPE of 31% and r² of 0.82 on validation set
+    of 100 pairs.'
+  - 's5: Validation results show r² ranging 0.82–0.86 across test images, with middle and right columns achieving 0.86 and
+    higher.'
+  - 's1: Project number NSF SBIR Phase I 1938665.'
+  - 's11: Active partnerships established in 10 American cities plus one nation (Netherlands potential for full processing).'
+  - 's10: Three scanner transitions during development: Faro (stationary) → Zeb (16 laser mobile) → Ouster (64 laser mobile).'
+  - 's9: Backend uses PostgreSQL, PostGIS extension, Geoserver (Java-based), Debian virtual machine on AWS.'
+  - 's6: Margaret Mary School in Louisville used as test site showing gradient of tree health and foliage density.'
+  flags:
+  - Excerpt too thin to judge Phase I deliverables and contract milestones in detail.
+  - Document is technical narrative, not proposal prose; capability description is strong but not directly reusable as proposal
+    text.
+  - No explicit mention of harm reduction, community engagement, or belonging—not relevant to EHCRP Round 2 application questions.
+  - 'Inventory note matches evidence: authoritative AdaptOS description confirmed in sections s1, s5, s9, s11.'
+  - Cost data ($75k LIDAR) and partnership scale (10 cities) are asset-level facts useful for scoping and precedent.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 462c58b7d21df5a70df7a7f6e24fadb4f268bbc860080fec6cb53246ac10b945
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4931
+    output: 1148
+    cache_read: 0
+    cache_write: 0

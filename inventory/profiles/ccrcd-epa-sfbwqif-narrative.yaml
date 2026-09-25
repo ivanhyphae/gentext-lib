@@ -1,0 +1,53 @@
+asset_id: ccrcd-epa-sfbwqif-narrative
+source_path: sources/ccrcd-epa-sfbwqif-narrative/ccrcd-epa-sfbwqif-narrative.md
+source_sha256: 769871f89edf646e8630ad860f3d042a27dfcf02c3011e22c786884fdab6aa1d
+text_sha256: ff3f98f698ae822fddc3efadc7fc36c47f147d998e864f238184483b22182f70
+words: 5548
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 148
+section_count: 10
+profiled: '2026-09-25'
+profiler: p2

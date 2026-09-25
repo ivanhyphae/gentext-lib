@@ -1,0 +1,60 @@
+asset_id: stockton-ugvb-deck-2023
+card:
+  summary: Presentation deck on Stockton's AB 617 urban greening and vegetative barriers project (2023), showing budget breakdown
+    (~$1M total, 23% administrative), equipment costs (Bobcat rental vs. purchase decision), and implementation strategy with
+    Little Manila Rising. Edited Aug 2026, likely informing current proposals.
+  doc_role: presentation
+  authorship: Hyphae Design Lab and Little Manila Rising (James)
+  disposition: hold
+  disposition_reason: Contains citable project case outcomes, equipment cost data, budget rationale, and partnership/stewardship
+    model applicable to heat/green infrastructure proposals. Recently edited (Aug 2026) suggests active reuse.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Stockton AB 617 project with tree planting, equipment strategy, 10-year maintenance commitment, and community stewardship
+      program—outcome-bearing case study.
+  - need_id: lib-methods
+    how: Describes stewardship program development, O&M manual creation, and performance goal setup for long-term vegetation
+      maintenance.
+  - need_id: lib-partners
+    how: Documents Little Manila Rising partnership model, subcontractor engagement, and nonprofit capacity-building approach.
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: Budget structure, equipment procurement strategy (rental vs. purchase), cost justification ($200k Bobcat decision),
+      administrative cost framing (23%) for similar projects.
+  - sid: s2
+    path: part 2
+    type: project-case
+    reuse_value: medium
+    note: 'Implementation model: 10-year tree maintenance commitment, stewardship program development, City transition strategy,
+      performance goals, nonprofit/subcontractor roles.'
+  fact_candidates:
+  - 's1: Urban Greening total funding $998,158'
+  - 's1: Administrative costs 23% ($228,750)'
+  - 's1: Project costs including operations/construction/contingency $769,408'
+  - 's1: Bobcat rental $3,600/month for 6 months vs. purchase ~$200k'
+  - 's1: Dingo cost $39,900'
+  - 's1: Tree Spade cost $25,234'
+  - 's1: Water Trailer cost $11,158'
+  - 's1: Water Truck cost $50,000'
+  - 's2: LMR to plant and maintain trees for 10 years'
+  - 's2: Work with City to maintain trees after 10-year period'
+  - Presentation date April 11, 2023; edited August 24, 2026
+  flags:
+  - Section s2 excerpt incomplete/unclear ('leap of faith' context fragment suggests prior narrative not shown)
+  - Only 765 words total across 2 sections; thin content for full project case assessment
+  - Focus is Stockton AB 617; relevance to Bay Point EHCRP Round 2 applications not established in excerpts
+  - Equipment rental decision (Bobcat) is specific to tree planting, not clearly heat-infrastructure relevant
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: d8dcbb643c1b2251314c4004375d289126fa429441e57415c5bdd9f40e592fb3
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3056
+    output: 681
+    cache_read: 0
+    cache_write: 0

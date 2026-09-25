@@ -1,0 +1,70 @@
+asset_id: ttf-community-engagement-governance-plan
+card:
+  summary: Community engagement and governance plan from the Texas Trees Foundation's EPA Climate Change Grants (CCG) application
+    for the Green Spine for Health and Equity Project in Dallas. Details engagement methods (community meetings, participatory
+    mapping, charrettes, door-to-door outreach), barrier mitigation (translations, plain language, accessible locations),
+    partner roles (TTF lead, TAMU/C-HeaRT for community engagement and evaluation, Arlington Park Neighborhood Association
+    for resident communications), monthly strategy sessions, and contingency processes for partner replacement. Includes resident
+    researcher program and emphasis on co-design with community members.
+  doc_role: proposal-draft
+  authorship: Texas Trees Foundation (partner-authored for EPA application)
+  disposition: reference
+  disposition_reason: Strong template for engagement and governance structure applicable to EHCRP Partnership (pt-q2) and
+    Belonging (be-q2) questions, but document is from a different EPA grant in Dallas, not Bay Point context. Reusable as
+    methodological model and governance framework example, but not containing Bay Point-specific community voices, site facts,
+    or directly applicable partnership track record. Near-duplicate of epa-dallas-green-spine-app suggests limited unique
+    content.
+  serves_needs:
+  - need_id: be-q2
+    how: Describes engagement strategies including participatory design (charrettes), workshops, barrier removal (translations,
+      plain language, door-to-door outreach for unconnected residents), and how community input shapes design decisions via
+      co-design process
+  sections:
+  - sid: s2
+    path: Clear Methods for Engagement and Transparency
+    type: method
+    reuse_value: medium
+    note: 'Engagement methods: community meetings, participatory mapping, charrettes, co-design workshops; integration of
+      modeling with community vision and needs'
+  - sid: s5
+    path: Clear Methods for Engagement and Transparency > Mitigating Barriers
+    type: method
+    reuse_value: medium
+    note: 'Concrete barrier-removal tactics: door-to-door outreach, contact person, plain language, Spanish translations,
+      printed materials for unconnected residents, accessible meeting locations'
+  - sid: s9
+    path: Clear Methods for Engagement and Transparency > Project Partners, Roles, and Responsibilities > Lead Applicant
+    type: partner-role
+    reuse_value: medium
+    note: 'Lead applicant governance structure: monthly strategy sessions, partner performance reviews, public transparency,
+      grant management, compliance reporting framework'
+  fact_candidates:
+  - '[s1] Target community: Southwestern Medical District (SWMD) and Arlington Park, Dallas Texas'
+  - '[s1] Project addresses pollution, hazard risks, heat exposure, and mobility challenges as linked health and economic
+    burden drivers'
+  - '[s7] Green Spine project supported by City of Dallas, Dallas County, North Central Texas Council of Governments (NCTCOG),
+    TXDOT, TRE, and DART'
+  - '[s9] Lead applicant: Texas Trees Foundation (TTF)'
+  - '[s10] TAMU team lead: Dr. Chanam Lee; comprises TAMU, Texas Transportation Institute, Hyphae Design Lab, and Arlington
+    Park residents (Resident Researcher program)'
+  - '[s10] TAMU role includes community engagement, capacity building, and impact evaluations with co-design and co-implementation
+    focus'
+  - '[s11] Prior successful collaboration: Sleepy Hollow Park Revitalization project'
+  - '[s11] City liaison: Councilmember Jesse Moreno (represents Medical District and Arlington Park)'
+  flags:
+  - Near-duplicate of epa-dallas-green-spine-app (56% overlap); consider consolidating
+  - Document is Dallas/TTF-specific, not Bay Point context; reusable as methodological template only
+  - Sections s3, s4, s6, s8 are subsection headers with zero word counts; likely structural artifacts
+  - Thin evidence on actual partner outcomes or lessons from prior collaboration; mostly process description
+  - No citable data on harm metrics, community quotes, or measurable outcomes from engagement
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: f7d4afa88546ee7ad44f4cf5bb560516c139a26596ced23d331074919efcac3c
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4435
+    output: 889
+    cache_read: 0
+    cache_write: 0

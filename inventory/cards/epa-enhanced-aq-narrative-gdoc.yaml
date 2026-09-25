@@ -1,0 +1,101 @@
+asset_id: epa-enhanced-aq-narrative-gdoc
+card:
+  summary: 'EPA Enhanced Air Quality Monitoring application narrative for community-led air quality monitoring in Marin City,
+    CA. Lead applicant MCCRHJ (fiscal sponsor Play Marin) proposes a 24-month project combining CFD modeling, strategic sensor
+    deployment (PM2.5, black carbon, indoor air quality), community training, and participatory design to address air quality
+    data gaps in a CalEnviroscreen 99th percentile disadvantaged community. Partners include Bay Air Center and Hyphae Design
+    Lab. Budget: $499,828 EPA + $160K in-kind ($659,828 total). Deliverables include validated CFD model, monitoring plan,
+    trained community monitors, health trigger assessments, and sustainability/intervention design plan.'
+  doc_role: submitted-proposal
+  authorship: Marin City Climate Resilience and Health Justice (MCCRHJ); Play Marin (fiscal sponsor); partners Bay Air Center
+    and Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Completed EPA proposal with detailed, citable methodology for community-led air quality monitoring including
+    CFD modeling, sensor network design, community engagement, and outcome tracking. Reusable narrative chunks for capability
+    (air quality monitoring approach, CFD + low-cost sensor hybrid), method (community training, participatory charettes,
+    health trigger assessments), and partner role (Hyphae's modeling and facilitation scope). Demonstrates Hyphae's track
+    record on air quality interventions.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Hyphae-led air quality modeling and community engagement project with documented outcomes (CFD model, sensor network,
+      trained monitors, intervention design plan); demonstrates capability in near-road pollution and neighborhood-scale greening
+      interventions
+  - need_id: lib-methods
+    how: Details CFD modeling methodology (Envimet, Openfoam), low-cost sensor validation approach, community training curriculum,
+      participatory design charettes, health trigger assessment protocol, and sustainability/maintenance planning
+  sections:
+  - sid: s2
+    path: part 2
+    type: method
+    reuse_value: high
+    note: 'Sensor deployment strategy: gridded data integration, 4 Micro-Weather Stations ($12K), 20 low-cost sensors ($6K),
+      2 black carbon instruments ($36K); one-year monitoring period with validation methodology'
+  - sid: s3
+    path: part 3
+    type: method
+    reuse_value: high
+    note: 'Indoor air quality assessment protocol: VOC, PM2.5, hydrogen sulfide detection; 10 PurpleAir PA-I sensors ($3K),
+      handheld Aeroqual 500 Series monitor; community-led in-home health trigger assessment and education'
+  - sid: s5
+    path: part 5
+    type: capability
+    reuse_value: high
+    note: 'Hyphae''s role: digital twin modeling, CFD modeling for sensor placement, community training on air quality, participatory
+      design charettes, monitoring findings presentation; demonstrates air quality intervention expertise'
+  - sid: s6
+    path: part 6
+    type: partner-role
+    reuse_value: medium
+    note: 'MCCRHJ track record: Young Environmentalists program (SF Bay Restoration Authority funded), health survey partnership
+      with Marin City Health and Wellness Clinic, community drainage pond visioning with Audubon; demonstrates community organizing
+      and multi-benefit project capacity'
+  - sid: s7
+    path: part 7
+    type: project-case
+    reuse_value: medium
+    note: 'Project outputs: CFD model, monitoring plan with maps, community training (10-15 members), at least 200 community
+      members involved, 5 community meetings/charettes, health trigger assessment results, initial intervention recommendations'
+  - sid: s8
+    path: part 8
+    type: method
+    reuse_value: medium
+    note: 'Performance measures: quarterly EPA reports (8 total), final report within 120 days; CFD software validation (Envimet
+      peer-reviewed, Openfoam); specific deliverable dates and community engagement metrics'
+  - sid: s10
+    path: part 10
+    type: capability
+    reuse_value: high
+    note: Hyphae positioned as 'national leader in researching and implementing solutions to near road pollution'; active
+      in Louisville Kentucky neighborhood-scale greening clinical trial; grant history for modeling and physical interventions
+  fact_candidates:
+  - Marin City ranks 99th percentile for traffic exposure in CalEnviroscreen
+  - MCCRHJ is African-American-led organization in Marin County
+  - Project proposes 4 Micro-Weather Stations at $3,000 each ($12K total)
+  - Project proposes 20 low-cost sensors (PurpleAir or equivalent) at $300 each ($6K total)
+  - Project proposes 2 black carbon instruments (Aethlabs MA350) at $18K each ($36K total)
+  - Indoor air monitoring uses 10 PurpleAir PA-I sensors at $300 each ($3K total)
+  - 'EPA grant request: $499,828; total project budget: $659,828'
+  - 'Project duration: 24 months with 8 quarterly progress reports required'
+  - 'CFD modeling software: Envimet (peer-reviewed) and Openfoam'
+  - 'Target training: 10-15 community members, at least 200 community members involved'
+  - Project includes 5 community meetings and participatory design charettes
+  - Hyphae leading greening intervention of 'first and largest clinical trial' in Louisville, Kentucky
+  flags:
+  - Document is complete EPA application narrative with detailed scope, budget, timeline; authored 2022 but asset modified
+    2024-10-21 (possibly updated copy)
+  - Hyphae's Louisville clinical trial referenced but no specific year or outcomes stated; flagged as potential fact to verify
+  - Contact details redacted ([phone], [email])
+  - Inventory note correctly identifies this as Enhanced AQ Monitoring proposal; no contradiction with actual content
+  - Marin City project is not Bay Point (Ambrose applications); relevant to lib-methods and lib-firm-experience but not to
+    active EHCRP Round 2 solicitations
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 234a842e6d3be20c26175e0258eb66dd9d5ac0ba3b234996f4ddd2ed4b03b4e6
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4661
+    output: 1380
+    cache_read: 0
+    cache_write: 0

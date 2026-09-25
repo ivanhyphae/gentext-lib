@@ -1,0 +1,33 @@
+asset_id: west-oakland-ugg-proposal-2020
+card:
+  summary: 2020 CNRA Urban Greening Grant proposal draft for a West Oakland green infrastructure project. The document is
+    a proposal template response covering project summary, statutory criteria (tree-planting, energy reduction, VMT), stormwater
+    design, climate resilience, community engagement in disadvantaged/low-income tracts, and required exhibits (site plan,
+    photos, cost estimate). No specific project outcomes, site facts, or community voices are visible in the excerpts.
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab
+  disposition: reference
+  disposition_reason: This is a template-following proposal draft with no extractable prose, citable facts, or proven outcomes.
+    The excerpts show only prompt-response structure and statutory language, not substantive project description. Value is
+    as a procedural reference for UGG requirements, not as reusable proposal content. Near-duplicate of Richmond UGG proposal;
+    marginal incremental value.
+  serves_needs: []
+  sections: []
+  fact_candidates: []
+  flags:
+  - excerpt too thin to judge—no project specifics visible (site name, deliverables, outcomes, budget figures, or community
+    engagement details)
+  - near-duplicate of richmond-ugg-proposal-gdoc (55% overlap); check whether to keep both
+  - statutory language only; no substantive proposal prose to reuse
+  - proposal-draft status; unclear if this was ever submitted or if outcomes exist
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: eaa9a149514581061d7dc85014f28565cddd40cac00b865d91157c6fdbc3d6d8
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3412
+    output: 312
+    cache_read: 0
+    cache_write: 0

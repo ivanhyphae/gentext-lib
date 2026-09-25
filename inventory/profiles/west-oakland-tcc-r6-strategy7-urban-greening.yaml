@@ -1,0 +1,57 @@
+asset_id: west-oakland-tcc-r6-strategy7-urban-greening
+source_path: sources/west-oakland-tcc-r6-strategy7-urban-greening/west-oakland-tcc-r6-strategy7-urban-greening.md
+source_sha256: 1dee7239a7f1d0a0abdca40e3d1f434f8fc6bcb293121c3ae70f5165a4050a0a
+text_sha256: cb9e5ddcc3d616dbc263166636db1cfc96ddea9aabc476a192bceedae7f059c4
+words: 1721
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 10
+- sid: s2
+  path: Strategy 7 - Urban Greening and Green Infrastructure
+  level: 1
+  words: 0
+- sid: s3
+  path: Narrative Questions
+  level: 1
+  words: 0
+- sid: s4
+  path: Narrative Questions > Applicant Information
+  level: 3
+  words: 15
+- sid: s5
+  path: Narrative Questions > Applicant Information > Project Details
+  level: 3
+  words: 175
+- sid: s6
+  path: Narrative Questions > Applicant Information > Project Details > Project Eligibility and Summary
+  level: 4
+  words: 171
+- sid: s7
+  path: Narrative Questions > Applicant Information > Project Details > Management Capacity
+  level: 4
+  words: 310
+- sid: s8
+  path: Narrative Questions > Applicant Information > Project Details > Project Design
+  level: 4
+  words: 119
+- sid: s9
+  path: Narrative Questions > Applicant Information > Project Details > Project Feasibility
+  level: 4
+  words: 195
+- sid: s10
+  path: Narrative Questions > Applicant Information > Project Details > Project Impact
+  level: 4
+  words: 174
+- sid: s11
+  path: Narrative Questions > Applicant Information > Project Details > Additional Strategy-Specific Questions
+  level: 4
+  words: 513
+section_count: 11
+profiled: '2026-09-25'
+profiler: p2

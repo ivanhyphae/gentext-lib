@@ -1,0 +1,75 @@
+asset_id: central-valley-extreme-heat-deck
+card:
+  summary: 'Hyphae Design Lab presentation deck on Central Valley extreme heat. Covers firm vision (systems-thinking approach
+    to ecosystem health), relevant past work (Adapt Oakland, Common project with satellite/ground sensors in California Environmental
+    Justice Coalition communities, Dallas deployment via NSF/TTFM), heat disparities (13.8°F increase in DAC vs non-DAC tracts),
+    and capabilities: green capital fundraising ($30M+ mobilized), stewardship financing, remote sensing & microclimate monitoring
+    with custom hardware (wireless sensors, solar, black globe temp, air quality). Positioning for multi-million-dollar grant
+    shortlist.'
+  doc_role: presentation
+  authorship: Hyphae Design Lab
+  disposition: reference
+  disposition_reason: Authoritative high-level overview of Hyphae's heat-equity approach, sensor technology, and track record
+    (Adapt Oakland, Common, Dallas partnerships), but presentation deck format does not contain reusable proposal prose or
+    citable methodology detail. Useful reference for firm positioning and past-work claims; facts should be verified against
+    fuller project documentation before citation.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: claims $30M+ green capital mobilization and multi-city deployments (Oakland, Dallas, Central Valley); Common project
+      with CEJ Coalition; NSF/NIH funding history
+  - need_id: lib-methods
+    how: describes microclimate sensor hardware (black globe temp, wireless, solar), remote sensing + ground data integration,
+      and heat disparity quantification (13.8°F DAC/non-DAC delta in Central Valley)
+  sections:
+  - sid: s3
+    path: part 3
+    type: capability
+    reuse_value: high
+    note: 'Hyphae''s core capabilities: green capital fundraising methodology ($30M+ track record), stewardship financing,
+      monitoring via remote sensing and custom microclimate hardware. Specific sensor specs (black globe, wireless, solar,
+      air quality) and strategy narrative (''start small, quantify, tell story, write grants'').'
+  - sid: s2
+    path: part 2
+    type: evidence-data
+    reuse_value: medium
+    note: 'Common project heat-equity findings: 13.8°F temperature increase in DAC vs non-DAC census tracts, Central Valley;
+      farm crop data correlation with heat and Local Climate Zone; satellite + ground sensor monitoring via CEJC partnership;
+      NSF-funded technology origin (Dallas deployment 2024).'
+  - sid: s1
+    path: part 1
+    type: org-profile
+    reuse_value: medium
+    note: 'Hyphae mission statement, systems-thinking vision, and named partnerships: CEJC, Greenspine, Texas Trees Foundation,
+      NCTCOG, Depave LA, AdaptOS, WOEIP. Past work: Adapt Oakland, CARB S.T.E.P., Prescott Greening.'
+  fact_candidates:
+  - Hyphae has helped communities raise over $30 million for urban greening
+  - 13.8 degree temperature increase observed in DAC census tracts vs non-DAC tracts in Central Valley
+  - Common project technology first deployed in Dallas in partnership with Texas Trees Foundation and NCTCOG
+  - Common project funded by NSF and developed for Central Valley conditions
+  - Hyphae shortlisted for multi-million dollar grant (specific funder not named)
+  - 'Microclimate sensors measure: black globe temperature, air temperature & humidity, wind speed & direction, light'
+  - Sensors powered by solar panel and battery with wireless communication
+  - Hyphae past work includes Adapt Oakland, CARB Sustainable Transportation Equity Project, Prescott Greening
+  - LCZ (Local Climate Zone) data significantly correlates with temperature in the analysis
+  - Hyphae uses both remote sensing and ground-based sensor data for monitoring
+  flags:
+  - 'Excerpt quality thin: s1 lists partnerships/projects without detail; only s2–s3 substantive'
+  - Central Valley project name, timeline, and partner/funder not clearly identified in excerpts
+  - Multi-million-dollar grant claim unverified—no funder or decision date given
+  - 13.8°F finding lacks methodological detail (control variables mentioned but not specified); need full Common report for
+    citation
+  - Sensor hardware narrative lacks deployment count, accuracy specs, or monitoring duration claims
+  - No Bay Point / Ambrose project mention in this deck despite relevance to EHCRP applications
+  - 'Possible near-duplicate or related: verify relationship to ''ambrose-center-park-gsi-grant-applications'' or other Ambrose/ARPD
+    past work'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 7864cd2c70c8e68c8b13e4fc3bb47438ad9aee05a612e04c7b17227d354ae780
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3153
+    output: 1082
+    cache_read: 0
+    cache_write: 0

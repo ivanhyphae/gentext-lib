@@ -1,0 +1,67 @@
+asset_id: willow-pass-bus-stop-gi-concept
+card:
+  summary: Draft proposal for green infrastructure improvements at bus stops along Willow Pass Road in Bay Point, California.
+    Integrates stormwater management, heat mitigation, air quality improvement, and active transportation safety. Includes
+    green roofs, tree canopy, planted buffers, sensor monitoring, and pedestrian/bike safety features.
+  doc_role: proposal-draft
+  authorship: James (Hyphae)
+  disposition: hold
+  disposition_reason: Primary draft text for the UGG concept proposal and Bay Point context; contains reusable project description,
+    climate vulnerability framing, green infrastructure methods, and community benefits narrative suitable for grant applications.
+  serves_needs:
+  - need_id: overview
+    how: names infrastructure type (green infrastructure bus stops), key tasks (stormwater management, heat mitigation, air
+      quality, active transportation, sensor monitoring)
+  - need_id: lib-site-bay-point
+    how: specific Bay Point climate vulnerabilities, Willow Pass Road as primary thoroughfare, SB 535 disadvantaged community
+      designation, asthma rates, stormwater systems (Lawlor Creek)
+  - need_id: lib-methods
+    how: heat mitigation via green roofs and tree canopy, stormwater capture and filtration, air quality monitoring, thermal
+      comfort research (Twin Cities precedent), sensor deployment strategy
+  sections:
+  - sid: s1
+    path: part 1 / Project Description
+    type: project-case
+    reuse_value: high
+    note: Complete project description with community need, climate vulnerability context, and infrastructure approach; directly
+      reusable for grant narratives
+  - sid: s2
+    path: part 2 / Green Roofs and Tree Canopy for Heat Mitigation
+    type: method
+    reuse_value: high
+    note: 'Detailed heat mitigation methods with measurable benefit (Twin Cities precedent: 10-min wait perceived as 7 min);
+      applicable to other urban heat projects'
+  - sid: s3
+    path: part 3 / Stormwater Management and Monitoring
+    type: method
+    reuse_value: medium
+    note: Stormwater filtration, air quality and thermal monitoring approach; sensor deployment strategy for tracking project
+      effectiveness
+  fact_candidates:
+  - 's1: Willow Pass Road is a primary thoroughfare in Bay Point'
+  - 's1: Bay Point is designated as a disadvantaged community under SB 535'
+  - 's2: Twin Cities research found tree canopy at bus stops reduced perceived wait time from 10 minutes to 7 minutes'
+  - 's2: Green roofs reduce radiant heat and stormwater runoff at bus shelters'
+  - 's3: Project includes air quality, temperature, and radiant heat sensors at each stop'
+  - 's3: Planted buffers shield residents from traffic-related particulate exposure'
+  - 's3: Bus stop relocation past intersections reduces rider exposure to ultrafine particles'
+  - 's3: Stormwater improvements protect Lawlor Creek and the storm drain system'
+  flags:
+  - excerpt too thin to judge full partnership section (s1 mentions 'community need' but no named partners or prior collaboration
+    details)
+  - no specific dollar amounts, timeline, or measurable harm-reduction outcome metrics visible in excerpts
+  - does not name co-applicants or confirm lead org (inventory note suggests Bay Point transit authority or similar, but not
+    stated in excerpts)
+  - lacks community voices (quotes or stories from residents) required for hr-q1
+  - VCP or CHAT data integration not mentioned in visible excerpts despite Bay Point's role in active applications
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 28214ab14fb0faee23d55e3c69375344e32cc007c40c0f03872a2d5873ad6811
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3183
+    output: 777
+    cache_read: 0
+    cache_write: 0

@@ -1,132 +1,128 @@
 asset_id: ehcrp-r2-ambrose-center-docx
 card:
-  summary: Working document snapshot of the Ambrose Center Park EHCRP pre-application, containing solicitation guidelines
-    (Round 2 deadlines, eligibility, scoring), internal strategy notes (July–August 2026), partnership outreach tracking,
-    and a partially completed pre-application form for Early Infrastructure funding. Includes Hyphae firm experience and technical
-    capabilities boilerplate.
+  summary: Internal working document for Hyphae Design Lab's EHCRP Round 2 grant strategy, capturing program guidelines, partner
+    outreach notes, meeting transcripts, and draft pre-application forms for Ambrose Center Park and related Bay Point projects.
+    Extensive evidence of team coordination (Hyphae + I-ReLab), emerging strategic insights on harm reduction and belonging,
+    and partial pre-app submission artifacts. High noise-to-signal ratio due to meeting notes, templates, and administrative
+    churn.
   doc_role: working-doc
-  authorship: Hyphae Design Lab + I-ReLab team (kj, Brent Bucknum, Ivan Heitmann, Mei, Chris Lim, James Hansen)
+  authorship: Hyphae Design Lab + I-ReLab (kj, Brent Bucknum, Ivan Heitmann, Mei, Chris Lim, James Hansen)
   disposition: hold
-  disposition_reason: Contains live pre-application form sections, grant strategy notes, and reusable Hyphae firm experience
-    and technical capability prose. Serves as the primary working draft for the Ambrose Center Park EHCRP application and
-    captures decision-making context and partnership development work-in-progress.
+  disposition_reason: Contains draft pre-application text and evolving project framing for Ambrose Center Park EHCRP submission;
+    captures strategic thinking on partnership approach, harm reduction, and belonging applicable to future proposals; Hyphae
+    firm experience narrative (Prescott, West Oakland) and template outreach language are reusable. Near-duplicates exist
+    but this is the primary working snapshot. Noise is high (meeting transcripts, administrative lists, duplicate sections)
+    but core pre-app sections (s114–s121) and strategic framing (s30–s34, s49) justify retention for extraction.
   serves_needs:
   - need_id: overview
-    how: Pre-app form includes project title, location (125 Memorial Way, Bay Point), infrastructure type (nature-based cooling,
-      UTCI modeling, park greening), and demonstration scope; full narrative scope incomplete in excerpt.
+    how: s114 describes demonstration project (UTCI modeling, nature-based cooling) at Ambrose Center Park; lacks full deliverables
+      and contract-period task sequence; pre-app form structure is incomplete.
   - need_id: pt-q1
-    how: Notes identify Ambrose Recreation and Park District (ARPD) as lead; co-applicant requirement listed but not yet named;
-      prior partner relationships (RCD, SOS Richmond) discussed.
+    how: s45, s64, s73 name Ambrose Park Community Org, RCD, SOS Richmond as potential partners; lacks detail on unique expertise
+      or why single org could not succeed.
   - need_id: pt-q2
-    how: References existing Ambrose master plan and prior grant submissions; Prescott Greening Project cited with funding
-      history (TCC, MTC, Alameda Co., CalFire, Port of Oakland).
-  - need_id: be-q1
-    how: Pre-app mentions 'community center plaza, parking lot, ballfields, and community garden' as infrastructure elements;
-      community belonging framed as design goal but specific design details not yet articulated.
+    how: s64, s93 mention Ambrose has existing master plan and CEQA underway; no prior collaboration outcomes or lessons from
+      past joint projects shown.
+  - need_id: lcb-q1
+    how: s34 identifies relational infrastructure and stewardship as strategic themes; s104 (Prescott case) shows long-term
+      funding and phased approach but not yet applied to Ambrose.
   - need_id: ehcrp-r2-webinars-office-hours
-    how: Preamble lists office hours dates (July 9, 13), registration links, and references City of Tempe and Phoenix example
-      presentations (July 28, 30).
-  - need_id: lib-methods
-    how: Technical capabilities section highlights UTCI heat modeling, digital twin modeling, LiDAR processing, GPU-supported
-      street view analysis, and 'before/after' monitoring framework for park interventions.
-  - need_id: lib-partners
-    how: Firm experience includes Prescott Greening (West Oakland Environmental Indicators Project lead), mentions CEJC, Valley
-      Improvements Project, Little Manila Rising, LEAP as network partners.
+    how: s8, s18, s19 contain office hours dates (July 9, 13), webinar links (Tempe, Phoenix examples), and registration info
+      for Round 2 guidance sessions.
+  - need_id: moodle-application-template
+    how: s75 references template stored in Moodle; document does not contain the template itself, only a pointer to it.
+  - need_id: past-hyphae-proposals-overview
+    how: s104 (Fresno example) and partial Prescott narrative (West Oakland AB 617, TCC, air quality monitoring, tree planting);
+      more detail needed on outcomes and metrics.
   sections:
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round
-      2 Extreme Heat and Community Resilience Program application process are'
-    type: solicitation-text
-    reuse_value: high
-    note: 'Official EHCRP Round 2 deadlines: pre-app Window 1 closes July 21, Window 2 closes Aug 11, full app due Oct 13,
-      2026.'
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Program Funding and Purpose'
-    type: solicitation-text
-    reuse_value: high
-    note: $27.5M total; $7.5M for Early Infrastructure ($750K–$1.2M awards); $20M for Advanced Infrastructure ($3M–$4.5M awards).
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Grant Types and Available Funds'
-    type: solicitation-text
-    reuse_value: high
-    note: Early Infrastructure requires heat-related planning document + 30-month demo project; Advanced Infrastructure requires
-      48-month implementation + Future Implementation Playbook.
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Scoring and Selection Process'
-    type: solicitation-text
-    reuse_value: high
-    note: '90 points total: project narrative (55), Funding Priority Groups benefits (15), workplan/budget (20); interviews/site
-      visits add 10 points (max 100).'
-  - path: Project Concepts & Emerging Ideas > Emerging Strategy
-    type: notes
-    reuse_value: medium
-    note: 'Strategic insight: ''work begins with partners, not projects''—relationship-first approach prioritizes identifying
-      rooted community partners before designing project concepts.'
-  - path: Project Concepts & Emerging Ideas > Firm Experience > Hyphae Design Lab has extensive experience...
-    type: org-profile
-    reuse_value: high
-    note: 'Prescott Greening case study: $150K TCC seed + $300K MTC + $600K county match + $50K Port + $100K CalFire; air
-      quality + tree planting in West Oakland pollution hotspot (2021–2024).'
-  - path: Project Concepts & Emerging Ideas > Technical Capabilities
+  - sid: s31
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026 > Applicant''s role'
     type: capability
     reuse_value: high
-    note: 'Hyphae expertise: parcel-scale geospatial analysis, LiDAR processing, GPU computing for street view, UTCI heat
-      modeling + pedestrian behavior simulation.'
-  - path: Project Concepts & Emerging Ideas > Local Knowledge
-    type: network
+    note: Clear articulation of Hyphae's role in translating community relationships into fundable projects; positioning on
+      partnership formation, demonstration project development, belonging, storytelling, stewardship planning.
+  - sid: s34
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026 > Emerging Strategy'
+    type: method
     reuse_value: high
-    note: 'Hyphae network: CEJC, Valley Improvements Project, Little Manila Rising, LEAP; Deep Central Valley community coalition
-      relationships.'
-  - path: Project Concepts & Emerging Ideas > Pre-application interest form > 2a. Please describe your proposed demonstration
-      project
-    type: need-statement
+    note: 'Strategic principle: work begins with partners, not projects; relationship-first approach to grant development
+      and long-term stewardship. Directly applicable to future site-partner permutations.'
+  - sid: s49
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026 > Strategic Reflection'
+    type: method
+    reuse_value: high
+    note: Distinction between physical and relational infrastructure; stewardship and governance as success conditions for
+      climate infrastructure. Reusable framing for belonging and lasting benefit questions.
+  - sid: s104
+    path: Fresno EHCRP example > Past Proposals > Firm Experience
+    type: project-case
+    reuse_value: high
+    note: 'Prescott Greening Project case study (2021–2024): AB 617, TCC funding $150k + $300k MTC + $600k local match, air
+      quality monitoring, vegetated buffers, tree planting in West Oakland Prescott. Detailed funding streams and phased approach.'
+  - sid: s114
+    path: Pre-application
+    type: solicitation-text
     reuse_value: medium
-    note: 'Ambrose Center Park demo: UTCI modeling pre/post, nature-based cooling, park plaza/parking/ballfields/community
-      garden targets; measurable thermal stress reduction goal.'
-  - path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Decisions
-    type: notes
+    note: 'Draft pre-application narrative for Ambrose Center Park: UTCI modeling, nature-based cooling, park infrastructure
+      (plaza, parking, ballfields, garden). Incomplete but captures project concept and deliverable intent.'
+  - sid: s9
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > Program Funding and Purpose'
+    type: solicitation-text
     reuse_value: medium
-    note: 'Key decisions: Early Infrastructure tier confirmed; focus on Ambrose + bus stops by Aug 11; 25% min infrastructure
-      (not 60–70%); no site control letter required for pre-app.'
-  - path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Decisions
-    type: notes
+    note: 'EHCRP Round 2 funding summary: $27.5M, Early Infrastructure $7.5M ($750k–$1.2M awards), Advanced Infrastructure
+      $20M ($3M–$4.5M). Climate Bond + GGRF; key program framing.'
+  - sid: s11
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > Grant Types and Available Funds'
+    type: solicitation-text
     reuse_value: medium
-    note: Early Infrastructure target; pre-app does not require site control; county partner (LA County/Rebecca) would strengthen
-      pre-app letter; 15% indirect cost cap question unresolved.
+    note: 'Grant tier definitions: Early Infrastructure (planning doc + 30-month demo), Advanced Infrastructure (implementation
+      + 48-month, prior planning required).'
+  - sid: s7
+    path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > The key deadlines'
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Key dates: Pre-app Window 1 closes July 21, 2026, 2 PM; Window 2 closes Aug 11, 2026, 2 PM; Full app due Oct 13,
+      2026, 2 PM.'
   fact_candidates:
-  - 'EHCRP Round 2 pre-app Window 1 deadline: July 21, 2026, 2:00 PM PST'
-  - 'EHCRP Round 2 full application deadline: October 13, 2026, 2:00 PM PST'
-  - 'EHCRP Round 2 total funding: $27.5 million (Proposition 4 + Greenhouse Gas Reduction Fund)'
-  - 'Early Infrastructure awards: $750,000–$1.2 million; 30-month contract period'
-  - 'Advanced Infrastructure awards: $3–$4.5 million; 48-month contract period'
-  - Early Infrastructure requires minimum 25% infrastructure, max 60%
-  - 'Prescott Greening initial funding: $150,000 TCC grant; total match $600K Alameda Co. + $300K MTC + $50K Port Oakland
-    + $100K CalFire'
-  - EHCRP Round 1 distributed nearly $32 million across 46 projects (FY 2024–25)
-  - 'EHCRP scoring: 55 points project narrative + 15 points Funding Priority benefits + 20 points workplan/budget (90 total
-    pre-interview)'
-  - 'Office Hours scheduled: July 9 (3 PM), July 13 (9 AM), July 28 (City of Tempe example), July 30 (City of Phoenix example)'
-  - 'Ambrose Center Park address: 125 Memorial Way, Bay Point, CA'
-  - 'Project type selected in pre-app: Early Infrastructure'
+  - 's9: $27.5 million in competitive infrastructure grant funding for EHCRP Round 2'
+  - 's11: Early Infrastructure allocates $7.5 million for awards between $750,000 and $1.2 million'
+  - 's11: Advanced Infrastructure allocates $20 million for awards between $3 million and $4.5 million'
+  - 's11: Early Infrastructure projects must be completed within 30 months'
+  - 's11: Advanced Infrastructure projects must be completed within 48 months'
+  - 's7: Pre-Application Window 1 closes July 21, 2026, at 2:00 PM PST'
+  - 's7: Pre-Application Window 2 closes August 11, 2026, at 2:00 PM PST'
+  - 's7: Full Application deadline is October 13, 2026, at 2:00 PM PST'
+  - 's13: Applications scored out of 90 points (project narrative 55 points, Funding Priority Groups 15 points, workplan/budget
+    20 points); interviews/site visits add 10 points for total of 100'
+  - 's104: Prescott Greening Project funding totaled $150,000 (TCC) + $300,000 (MTC) + $600,000 (Alameda CTC match) + $50,000
+    (Port of Oakland) + $100,000 (CalFire)'
+  - 's104: Prescott Greening Project period 2021–2024'
+  - 's56: EHCRP Round 1 distributed nearly $32 million across 46 projects in FY 2024–25'
   flags:
-  - 'excerpt too thin to judge: pre-application form sections are template headers with minimal narrative filled in; full
-    harm reduction, partnership, and belonging responses not visible'
-  - near-duplicate of ehcrp-r2-ambrose-memorial-docx (96% overlap) and ehcrp-r2-working-doc (72% overlap)—consolidate before
-    library ingest
-  - 'internal/candid notes: contains unfiltered meeting transcripts, decision logs, and task assignments; context leakage
-    risk if reused outside team'
-  - contact data redacted but email addresses visible in preamble header and transcript references (e.g., [email], names kj,
-    BB, IH, Mei)
-  - 'decision not finalized: co-applicant not yet named; Ambrose Community Center vs. Memorial Park framing inconsistent across
-    sections; SOS Richmond vs. RCD vs. Baypoint Gardening Club roles unclear'
-  - 'possibly outdated: dated July 7 through August 4, 2026; strategy notes reflect evolving partnership discussions; final
-    pre-app submission status unknown'
-  - past-proposals section referenced as 'partial overview' but is empty; no historical Hyphae EHCRP applications visible
-    for comparison
+  - Internal working document with meeting transcripts, action items, and administrative notes; substantial noise (team member
+    contact info redacted, task checklists, duplicate navigation structures).
+  - Near-duplicate of ehcrp-r2-ambrose-center-gdoc (96%) and nearly identical to ehcrp-r2-ambrose-memorial versions (93–96%);
+    mark all as same asset family; triage one.
+  - Pre-application form sections (s114–s121) are incomplete; narrative for Ambrose Center Park is draft and likely revised
+    post-submission. Do not cite as final.
+  - s75 references Moodle application template but does not include it; template must be retrieved separately.
+  - Prescott case (s104) lacks specific measurable outcomes and final results; shows process and funding but not impact metrics.
+  - Partnership details (s45, s73) mention Ambrose Park Community Org, RCD, SOS Richmond, but no signed letters or confirmed
+    co-applicant status evident in excerpts.
+  - Strategic framing on harm reduction and belonging (s30–s34) is high-level and not yet connected to Bay Point-specific
+    community data or lived experience narratives.
+  - 'Context leakage risk: Team member names and email addresses redacted; reused passages may inadvertently carry internal
+    references if extracted.'
+  - Meeting notes dated July 22 and Aug 4, 2026 indicate this working doc is actively used for coordination; not yet finalized
+    for library.
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
-  backend: api-batch
-  text_sha256: 22084a536deee5006e9f151d4f1652f51ecac84fbfae70d051cc48bc15308a21
-  created: '2026-09-25T13:52:29'
+  prompt_version: c3
+  backend: api-sync
+  text_sha256: f858d15bd62214ee24e3f9e64b89afbb836c37ee77eac7d5992fae63aa762548
+  created: '2026-09-25T14:16:42'
   usage:
-    input: 16487
-    output: 2124
+    input: 17883
+    output: 2152
     cache_read: 0
     cache_write: 0

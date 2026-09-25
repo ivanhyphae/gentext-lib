@@ -1,0 +1,80 @@
+asset_id: richmond-ugg-proposal-submitted-2021
+card:
+  summary: 'Submitted CNRA Urban Greening Grant proposal (2021) for Richmond Parkway Treefence project—three pilot sites with
+    tree planting, safe streets, and youth employment in a disadvantaged, under-treed corridor near schools and transit. Lead:
+    Groundwork Richmond; subcontractor: Hyphae Design Lab. $900K requested + $750K match = $1.65M total. GHG sequestration
+    via i-Tree modeling (532 trees, 804.7 metric tons CO₂ over 40 years). Community-driven design rooted in 2019 resident
+    dialogues identifying air pollution and canopy gaps as top priorities.'
+  doc_role: submitted-proposal
+  authorship: Groundwork Richmond (lead); Hyphae Design Lab (subcontractor)
+  disposition: hold
+  disposition_reason: Closest prior-round precedent for Bay Point UGG concept (same funder, program, structure). Contains
+    reusable prose on community engagement, GHG quantification method, and environmental-justice framing; submitted proposal
+    with named outcomes and proven partnership model.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Hyphae subcontractor role on submitted UGG proposal; 12-year firm history, prior projects (Adapt Oakland, Greenheart
+      Louisville, Green for Good) demonstrating landscape design and community-based greening capacity.
+  - need_id: lib-methods
+    how: i-Tree GHG quantification methodology for tree-planting; community engagement approach (Green Team youth program,
+      Green Corps workforce); participatory design rooted in 2019 resident dialogues.
+  - need_id: lib-partners
+    how: Groundwork Richmond organizational profile—acts as connective tissue between neighborhoods and City; track record
+      of environmental-justice work, community trust-building, close partnership model; West Oakland Environmental Indicators
+      Project co-founder partnership example.
+  sections:
+  - sid: s8
+    path: part 8
+    type: need-statement
+    reuse_value: high
+    note: Community-identified priorities (air pollution, lack of trees, unsafe streets, youth opportunity) rooted in resident
+      input; addresses health equity and environmental justice framing.
+  - sid: s9
+    path: part 9
+    type: site-context
+    reuse_value: high
+    note: 'West Side Richmond neighborhoods: historical disinvestment, pollution burden, tree removal by rental operators,
+      cash-strapped city context, displacement crisis. Rich environmental-justice narrative.'
+  - sid: s10
+    path: part 10
+    type: partner-role
+    reuse_value: medium
+    note: Groundwork Richmond's role as connective tissue between neighborhoods and City; community-centered partnership philosophy
+      ('listen to needs first').
+  - sid: s13
+    path: part 13
+    type: org-profile
+    reuse_value: medium
+    note: 'Hyphae Design Lab: 12 years in existence, staff of ten; landscape design, planting management, large-scale project
+      experience; co-founded Urban Biofilter with WOEIP; named past projects.'
+  fact_candidates:
+  - 'Part 1: $900,000 CNRA Urban Greening Grant funds requested for Richmond Parkway Treefence project; $750,000 other sources;
+    $1,650,000 total budget.'
+  - 'Part 1: Project focus on three pilot sites on Richmond Parkway (primary corridor, western Richmond).'
+  - 'Part 5: 532 new trees to sequester 804.7 metric tons of carbon over 40-year period via i-Tree modeling.'
+  - 'Part 8: Community priorities identified through 2019 community-facilitated dialogues: air pollution rated highest, followed
+    by neighborhood poverty/homelessness and infrastructure.'
+  - 'Part 9: West Side Richmond neighborhoods experiencing high air-pollution exposure and under-tree condition; residents
+    identified both as significant health issues.'
+  - 'Part 13: Hyphae Design Lab in existence for 12 years; staff of ten.'
+  - 'Part 13: Hyphae co-founded Urban Biofilter partnership with West Oakland Environmental Indicators Project (WOEIP).'
+  - 'Part 4: Three site-specific greening approaches focusing on buffering pollution close to sensitive receptors (residential
+    areas, transit zones, schools).'
+  flags:
+  - Excerpt too thin to judge some partnership detail (s10 mentions 'attached documentation' not shown)
+  - Contact data redacted [email]/[phone]
+  - 'Near-duplicate: richmond-ugg-proposal-gdoc (55% overlap per metadata); confirm which version is canonical before extraction.'
+  - 2021 submission date; verify if lessons learned or post-grant evaluation available in library.
+  - GHG quantification uses i-Tree tool but methodology narrative in s5 appears incomplete/truncated in excerpt ('because
+    a majority...' sentence cuts off).
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 455d2edf38ea7e53eefd14c232809281c6221223506f62ffe90a9eec978cd439
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 5289
+    output: 1079
+    cache_read: 0
+    cache_write: 0

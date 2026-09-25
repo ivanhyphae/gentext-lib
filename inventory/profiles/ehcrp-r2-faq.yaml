@@ -8,78 +8,102 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: part 1
+- sid: s1
+  path: part 1
   level: 1
   words: 600
-- path: part 2
+- sid: s2
+  path: part 2
   level: 1
   words: 600
-- path: part 3
+- sid: s3
+  path: part 3
   level: 1
   words: 600
-- path: part 4
+- sid: s4
+  path: part 4
   level: 1
   words: 600
-- path: part 5
+- sid: s5
+  path: part 5
   level: 1
   words: 600
-- path: part 6
+- sid: s6
+  path: part 6
   level: 1
   words: 600
-- path: part 7
+- sid: s7
+  path: part 7
   level: 1
   words: 600
-- path: part 8
+- sid: s8
+  path: part 8
   level: 1
   words: 600
-- path: part 9
+- sid: s9
+  path: part 9
   level: 1
   words: 600
-- path: part 10
+- sid: s10
+  path: part 10
   level: 1
   words: 600
-- path: part 11
+- sid: s11
+  path: part 11
   level: 1
   words: 600
-- path: part 12
+- sid: s12
+  path: part 12
   level: 1
   words: 600
-- path: part 13
+- sid: s13
+  path: part 13
   level: 1
   words: 600
-- path: part 14
+- sid: s14
+  path: part 14
   level: 1
   words: 600
-- path: part 15
+- sid: s15
+  path: part 15
   level: 1
   words: 600
-- path: part 16
+- sid: s16
+  path: part 16
   level: 1
   words: 600
-- path: part 17
+- sid: s17
+  path: part 17
   level: 1
   words: 600
-- path: part 18
+- sid: s18
+  path: part 18
   level: 1
   words: 600
-- path: part 19
+- sid: s19
+  path: part 19
   level: 1
   words: 600
-- path: part 20
+- sid: s20
+  path: part 20
   level: 1
   words: 600
-- path: part 21
+- sid: s21
+  path: part 21
   level: 1
   words: 600
-- path: part 22
+- sid: s22
+  path: part 22
   level: 1
   words: 600
-- path: part 23
+- sid: s23
+  path: part 23
   level: 1
   words: 600
-- path: part 24
+- sid: s24
+  path: part 24
   level: 1
   words: 71
 section_count: 24
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

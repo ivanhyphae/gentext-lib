@@ -1,0 +1,36 @@
+asset_id: cccpw-gi-plan-bay-point-ambrose
+card:
+  summary: 2022 presentation by Hyphae (Brent Bucknam, principal) and Contra Costa County Watershed Program to Ambrose Recreation
+    and Park District Board, introducing a County GI Plan and conceptual planning for green infrastructure and urban greening
+    opportunities in Bay Point parks. Structure covers GI value proposition, constraints analysis, and RCD outreach role.
+  doc_role: presentation
+  authorship: Contra Costa County Watershed Program; Hyphae Design Laboratory
+  disposition: reference
+  disposition_reason: Contextual planning document from County partners; establishes prior planning foundation and readiness
+    narrative for LCI application, but presentation format with thin excerpts limits extractable prose. Value is as authoritative
+    reference on Bay Point GI planning history and county/RCD roles.
+  serves_needs:
+  - need_id: lcb-q1
+    how: demonstrates prior planning and county support infrastructure relevant to building local support and funding readiness
+  sections: []
+  fact_candidates:
+  - '[s1] Presentation date: 2022'
+  - '[s1] County GI Plan presented as foundation for Bay Point opportunities'
+  - '[s1] Partners: Contra Costa County Watershed Program, Contra Costa RCD, Geosyntec, City of San Francisco consulted'
+  - '[s1] Audience: Ambrose Recreation and Park District Board of Directors'
+  flags:
+  - excerpt too thin to judge content depth
+  - only 587 words total; single section suggests deck structure, not detailed write-up
+  - no specific site facts, outcomes, or metrics visible in opening
+  - 'authorship note: City of San Francisco listed but unclear if co-presenter or reference only'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 4110f602f44f078b1e0cc124d31bf928dcfea6ff282012fb023b1d75f60cfccc
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2812
+    output: 362
+    cache_read: 0
+    cache_write: 0

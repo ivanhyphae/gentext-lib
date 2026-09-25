@@ -1,0 +1,53 @@
+asset_id: bay-area-refinery-corridor-workplan
+card:
+  summary: 'Joint workplan for a three-year, community-driven air quality and wind study across the Bay Area refinery corridor
+    (Richmond–Carquinez–Delta), structured as an Opportunity Grant effort combining the Richmond Chevron Local Community Benefits
+    Fund and Benicia-area fund. Builds on CARB Cycle 5 Community Air Grant (G23-CAGP-0537) led by Rodeo Citizens Association.
+    Uses dense PM2.5 sensor networks, OpenFOAM CFD modeling, and community governance (Community Science Research Council)
+    to map pollution hotspots and exposure pathways in disadvantaged communities. Partners: RCA, CAMN, CCRCD, Hyphae Design
+    Laboratory. Key deliverables include monitoring network deployment, pollution hotspot identification, and regulatory/public
+    health interventions.'
+  doc_role: proposal-draft
+  authorship: Rodeo Citizens Association (RCA), with Hyphae Design Laboratory as partner
+  disposition: reference
+  disposition_reason: This is a proposal draft for a different geography (refinery corridor, not Bay Point) and different
+    focus (air quality monitoring and CFD, not urban heat/cooling infrastructure). While methods (community engagement, CFD
+    modeling, sensor deployment, iterative monitoring feedback) may offer tactical reference value for process design, the
+    document is not reusable proposal prose for EHCRP or a substitute for Bay Point–specific work. The inventory note claims
+    'air-quality methods' relevance, but Hyphae's EHCRP work targets heat, not air pollution. Keep as reference for community
+    science governance structure and adaptive monitoring–modeling loops, but flag near-duplicate status and geographic mismatch.
+  serves_needs: []
+  sections:
+  - sid: s2
+    path: part 2 — Modeling framework and iterative feedback loop
+    type: method
+    reuse_value: medium
+    note: OpenFOAM CFD, community sensor integration, iterative monitoring–modeling feedback loop; transferable process logic
+      for adaptive infrastructure design, though air-quality specific
+  fact_candidates:
+  - 's1: Three-year study across Richmond, Martinez, Pittsburg, Antioch, Crockett'
+  - 's1: Built on CARB Cycle 5 Community Air Grant G23-CAGP-0537'
+  - 's1: Coordinated effort under Richmond Chevron Local Community Benefits Fund and Benicia-area fund'
+  - 's2: Uses OpenFOAM CFD simulations for airflow, turbulence, pollutant transport'
+  - 's3: Target communities: Richmond, Rodeo, Crockett, Martinez, Benicia, Pittsburg, Antioch'
+  - 's3: Documented exposure to industrial emissions, elevated asthma, cardiovascular disease, diabetes, adverse birth outcomes'
+  - 's4: Dense PM2.5 sensor networks and CFD modeling with community-led governance'
+  - 's4: Led by Rodeo Citizens Association (RCA); partners CAMN, CCRCD, Hyphae Design Laboratory'
+  flags:
+  - near-duplicate of repair-grant-proposal-notes (98%)
+  - 'geographic mismatch: Bay Area refinery corridor, not Bay Point'
+  - 'focus mismatch: air quality / PM2.5, not urban heat (EHCRP scope)'
+  - excerpt too thin to judge full methodological fit; s5 is budget stub only
+  - 'context leakage risk: if reused text from refinery study appears in heat proposal, geographic specificity will be lost'
+  - no quantified outcomes or monitoring results available in excerpts
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 66311b76ce34db2aa43d09820c46e12293444c03af7bdeea34896a19ea2b4640
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3648
+    output: 783
+    cache_read: 0
+    cache_write: 0

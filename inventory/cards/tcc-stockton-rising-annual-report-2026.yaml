@@ -1,0 +1,44 @@
+asset_id: tcc-stockton-rising-annual-report-2026
+card:
+  summary: Stockton Rising (SGC TCC Project 2) annual progress report for reporting period 8.2.2025–6.30.2026, covering energy
+    efficiency and appliance installation activities, community engagement outcomes, resident testimonials, and implementation
+    challenges. Reports 71 residents receiving EE kits, 818 resident leads from 58 community events, home assessments for
+    plumbing work, and HVAC contractor coordination difficulties.
+  doc_role: report
+  authorship: City of Stockton (authorized by Steve Colangelo, Interim City Manager)
+  disposition: reference
+  disposition_reason: Recent, citable outcome facts for Stockton Rising project case (appliance installations, EE kit distribution,
+    community engagement metrics, contractor challenges). Authoritative progress documentation but not prose template material;
+    valuable for fact-checking and understanding prior project implementation.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: 'Documents citable outcomes from Stockton Rising TCC project: 71 residents received EE kits; 818 resident leads generated
+      from 58 community events; home assessments underway; appliance installation progress with identified barriers.'
+  sections: []
+  fact_candidates:
+  - 's2: 71 residents received energy efficiency kits'
+  - 's2: 58 community events participated in by Rising Sun'
+  - 's2: approximately 818 resident leads generated'
+  - 's2: two homes identified as needing panel upgrade before installation'
+  - 's1: Reporting period 8.2.2025 to 6.30.2026'
+  - 's1: Grant Number SGC23113'
+  - 's1: TCC Project Name: Stockton Rising Round 4'
+  - 's4: HVAC contractor partnership coordination challenges caused implementation delays'
+  - 's3: Refrigerator provided at no cost to participating resident (Jaime)'
+  - 's5: Limited State guidance on program eligibility criteria development'
+  flags:
+  - excerpt too thin to judge full content quality
+  - no Hyphae authorship or direct involvement evident
+  - no Bay Point or EHCRP Round 2 relevance
+  - useful reference for prior TCC implementation lessons but not asset for active LCI applications
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: a03d71599be4f8edb4bea6a1964b65535271f7c6b51a2efee0444faf761587f6
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3553
+    output: 478
+    cache_read: 0
+    cache_write: 0

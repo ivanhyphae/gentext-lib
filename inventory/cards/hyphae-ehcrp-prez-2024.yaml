@@ -1,0 +1,87 @@
+asset_id: hyphae-ehcrp-prez-2024
+card:
+  summary: Hyphae's 2024 EHCRP pitch deck showcasing the firm's heat-mitigation capability, microclimate monitoring methods
+    (LoRaWAN sensors, UTCI modeling), and community-led adaptation approach. Includes thermal comfort scenario modeling (15°F
+    UTCI gains from tree groves), PM2.5 dispersion research, and a three-year community engagement + sensor deployment timeline.
+    Demonstrates prior work in West Oakland and Prescott Greening. Text export of visual presentation; evidence thin for specific
+    outcomes or Bay Point application details.
+  doc_role: presentation
+  authorship: Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Contains reusable capability and method narrative (microclimate monitoring, UTCI modeling, community-led
+    adaptation framework, sensor deployment sequence) and evidence-based design rationale suitable for EHCRP proposal context.
+    Demonstrates firm's track record and technical approach.
+  serves_needs:
+  - need_id: lib-methods
+    how: Describes LoRaWAN microclimate sensor design, UTCI thermal comfort modeling workflow, and PM2.5 canopy-dispersal
+      research methodology
+  - need_id: lib-firm-experience
+    how: References West Oakland Environmental Indicators Project and Prescott Greening as prior work; demonstrates evidence-based
+      design and community-led adaptation capability
+  - need_id: ehcrp-r1-interview-and-feedback
+    how: Likely the pitch deck used in Round 1 engagement; provides context for understanding Hyphae's stated approach and
+      capability at that time
+  sections:
+  - sid: s1
+    path: part 1
+    type: capability
+    reuse_value: high
+    note: Hyphae's mission, systems-thinking approach, and microclimate sensor hardware/deployment schematic (LoRaWAN, solar,
+      black globe, UTCI). Core firm identity and method narrative.
+  - sid: s2
+    path: part 2
+    type: method
+    reuse_value: high
+    note: UTCI thermal comfort modeling scenarios and pathways analysis (15°F improvement from tree grove grids, sensitivity
+      to tree size and removal). Demonstrates optimization workflow and design benchmarking.
+  - sid: s3
+    path: part 3
+    type: capability
+    reuse_value: medium
+    note: Community-led, evidence-based approach; references West Oakland and Prescott projects. Frames tech platform and
+      green-view-index analysis. Contextualizes Hyphae's broader adaptation philosophy.
+  - sid: s4
+    path: part 4
+    type: evidence-data
+    reuse_value: medium
+    note: Peer-reviewed PM2.5 dispersal and deposition science (Morakinyo & Lam 2016); quantifies canopy effects (0.1–3% free-stream
+      vs. 97% canyon retention). Supports canopy-placement guidance.
+  - sid: s5
+    path: part 5
+    type: method
+    reuse_value: high
+    note: 'Three-year community-led adaptation timeline: coalition building, citizen science sensor training, adaptation planning,
+      sensor deployment, early warning dissemination. Operationalizes engagement and governance model.'
+  fact_candidates:
+  - 's1: Hyphae mission is to break down disciplinary silos and redefine relationship between nature, humans, and built environment'
+  - 's2: Zone 2 average daily high temperature 43.5 °C, Zone 3b 43.1 °C, Zone 4 44.3 °C (specific location not named in excerpt)'
+  - 's2: Tree grove grid provides 15-degree UTCI improvement for large percentage of path and surrounding areas'
+  - 's2: Removal of large trees shows much hotter thermal comfort conditions (UTCI difference -15 to +130 ℉)'
+  - 's2: New, smaller trees improve thermal comfort near planting sites'
+  - 's3: West Oakland Environmental Indicators Project is a prior Hyphae work'
+  - 's3: Prescott Greening is a prior project reference'
+  - 's4: Approximately 0.1–3% of PM2.5 dispersed to free stream layer; ~97% remains in canyon (Morakinyo & Lam 2016)'
+  - 's4: Pollutant removal via leaf deposition potentially counterbalances PM2.5 enhancement under some tree scenarios'
+  - 's5: Thermal comfort: very large trees irreplaceable mid-term for cooling effects'
+  - 's5: Unbroken hedgerows recommended for air quality strategy'
+  - 's5: Canopy trees further from road better than near-road to reduce traffic-source particulate concentration'
+  flags:
+  - text export from visual presentation; many section openings fragmentary or incomplete (likely slide transitions or chart
+    labels); excerpt evidence thin for specific EHCRP R2 Bay Point application details
+  - no contact details visible; no internal/candid notes flagged
+  - West Oakland and Prescott references not attributed with dates, funders, or measurable outcomes; weak evidence for reusable
+    project cases (need full deliverables/results)
+  - temperature zones and sensor locations not georeferenced to named sites; unclear if these are Bay Point, prior sites,
+    or hypothetical scenarios
+  - no mention of EHCRP Round 2, Ambrose, or Bay Point by name in excerpts; may be earlier deck or generic pitch
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 1a3e0785ff7a46b5935e4fd6839af2395c28ec9a09f90e03f3245b7eb3a8ce0b
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3805
+    output: 1212
+    cache_read: 0
+    cache_write: 0

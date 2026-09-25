@@ -1,0 +1,143 @@
+asset_id: ehcrp-r2-ambrose-memorial-gdoc
+card:
+  summary: Working document containing Hyphae + I-ReLab's EHCRP Round 2 strategic notes, partnership development materials,
+    and a completed pre-application form for Ambrose Memorial Park (Bay Point, lead ARPD). Includes program guidelines summary,
+    webinar takeaways, partner lists, internal meeting notes, and the filled pre-app form submitted to LCI by August 11 deadline.
+    Heavy internal process documentation alongside the actual submitted application artifact.
+  doc_role: submitted-proposal
+  authorship: Hyphae Design Lab + I-ReLab (kj, Brent Bucknum, Ivan Heitmann, James Hansen, Chris Lim, others)
+  disposition: hold
+  disposition_reason: 'This is the actual submitted pre-application to LCI EHCRP Round 2 for ambrose-memorial-park. Sections
+    s112–s119 comprise the formal application narrative and required fields; sections s3–s111 contain the firm''s strategic
+    framing, program research, partnership analysis, and internal planning that led to the submission. Both layers are reusable:
+    the application prose and design rationale (s112) serve as a citable case study; the strategic notes (s3, s32–s36, s51)
+    and firm-experience boilerplate (s106–s111) are library-ready capability and method text. The pre-app feedback from LCI
+    (once received) will be essential for full-application development and should be acquired separately.'
+  serves_needs:
+  - need_id: overview
+    how: s112 describes infrastructure type (greening + cooling), demonstrates UTCI modeling and site-specific design (thermal
+      comfort optimization, shade coverage, permeable surfacing, gathered spaces), situates within 30-month Early Infrastructure
+      tier
+  - need_id: hr-q1
+    how: s112 mentions community input integrated into design but excerpt too thin to verify specificity of exposure pathways,
+      named harms, or lived-experience data; flags deeper evidence gap
+  - need_id: be-q1
+    how: 's112 lists specific design elements: shade structures, picnic areas, permeable decomposed granite, tree/vegetation
+      placement optimized for heavily used spaces; community input promised but not detailed in excerpt'
+  - need_id: pt-q1
+    how: s114–s116 structure indicates lead (ARPD) and co-applicant roles required; pre-app form fields reserve space but
+      excerpts do not show named co-applicant credentials or unique expertise of each
+  - need_id: lib-site-bay-point
+    how: s112 anchors project to Ambrose Memorial Park, 125 Memorial Way, Bay Point, CA; provides UTCI modeling context and
+      site-specific thermal design rationale
+  - need_id: lib-methods
+    how: s106–s108 and s112 document heat vulnerability modeling (UTCI simulations, digital twin modeling, parcel-scale geospatial
+      analysis, LiDAR, street-view processing) and community engagement integration
+  sections:
+  - sid: s112
+    path: Pre-application
+    type: solicitation-text
+    reuse_value: high
+    note: Completed pre-app form for EHCRP Round 2 Early Infrastructure, submitted Aug 11, 2026. Includes project title, site
+      address (125 Memorial Way), demonstration project narrative, design strategy (UTCI modeling, shade, permeable surfaces),
+      and funding rationale. Citable as submitted application artifact and thermal-design case study.
+  - sid: s3
+    path: '2026 Hyphae + I-ReLab: EHCRP > Strategic notes and emerging opportunities'
+    type: notes
+    reuse_value: high
+    note: Internal strategic synthesis of EHCRP Round 2 program requirements, deadlines, and partnership approach. Frames
+      harm reduction, belonging, and lasting community benefits as core evaluation themes; articulates Hyphae's role in relational-infrastructure
+      support. Reusable for future EHCRP proposals and program training.
+  - sid: s32
+    path: Introduction > Excuse the photo... > The Opportunity
+    type: notes
+    reuse_value: high
+    note: 'Clarifies Hyphae''s positioning relative to EHCRP requirements: partnership, belonging, lasting community benefits,
+      implementation readiness. Emphasizes relational infrastructure and stewardship planning as differentiators. Citable
+      as firm philosophy for proposal framing.'
+  - sid: s33
+    path: Introduction > Excuse the photo... > Applicant's role
+    type: notes
+    reuse_value: high
+    note: 'Articulates Hyphae''s support function in EHCRP context: partnership formation, demonstration project development,
+      storytelling, stewardship planning, grant development. Emphasizes infrastructure as primary outcome with opportunity
+      for relational/narrative framing.'
+  - sid: s106
+    path: Fresno EHCRP example > Firm Experience
+    type: capability
+    reuse_value: high
+    note: 'Prescott Greening Project case (2021–2024, AB 617 + TCC funding): $150k + $300k + $600k + $50k + $100k integrated
+      funding; air quality monitoring + vegetated buffers + tree planting. Demonstrates phased implementation, data integration,
+      and multi-funder coordination. Reusable boilerplate for Hyphae capability statements.'
+  - sid: s108
+    path: Fresno EHCRP example > Technical Capabilities
+    type: capability
+    reuse_value: high
+    note: 'Documents Hyphae technical toolkit: land-cover classification, parcel-scale geospatial analysis (meter scale),
+      LiDAR processing, GPU cloud servers, street-view data, UTCI modeling, pedestrian-behavior simulation. Directly applicable
+      to heat-mitigation proposal framing.'
+  - sid: s51
+    path: Introduction > Excuse the photo... > Strategic Reflection
+    type: notes
+    reuse_value: medium
+    note: Conceptual distinction between physical and relational infrastructure; frames stewardship governance and community
+      participation as necessary for climate infrastructure sustainability. Strategic thinking applicable to future partnership
+      and belonging narratives.
+  - sid: s36
+    path: Introduction > Excuse the photo... > Emerging Strategy
+    type: notes
+    reuse_value: medium
+    note: '''Work begins with partners, not projects'' philosophy; relationship-first approach prioritizes existing partner
+      rootedness over project design primacy. Reusable framing for partnership development strategy.'
+  - sid: s91
+    path: Notes > July 22, 2026 - Partnership Workstream > Decisions
+    type: notes
+    reuse_value: medium
+    note: 'Early Infrastructure tier clarification: 25% minimum infrastructure demonstration + 75% planning/research/engagement/belonging.
+      Pre-app requires location address but not site control. County partnership adds credibility. Operational intelligence
+      for future applications.'
+  - sid: s106
+    path: Fresno EHCRP example > Firm Experience
+    type: project-case
+    reuse_value: high
+    note: 'Prescott Greening: documented outcomes ($1.2M+ integrated funding, phased tree planting, air quality monitoring
+      integration), partnership structure (WOEIP lead), and funding coordination across AB 617, TCC, MTC, Alameda CTC, Port,
+      CalFire. Citable precedent for multi-funder heat/greening projects.'
+  fact_candidates:
+  - 's10: EHCRP Round 2 total funding $27.5 million from Climate Bond (Prop 4) and GGRF'
+  - 's12: Early Infrastructure allocates $7.5 million; awards $750k–$1.2M; 30-month completion'
+  - 's12: Advanced Infrastructure allocates $20 million; awards $3M–$4.5M; 48-month completion'
+  - 's8: Pre-App Window 1 closes July 21, 2026, 2:00 PM PST; Window 2 closes August 11, 2026, 2:00 PM PST'
+  - 's8: Full Application deadline October 13, 2026, 2:00 PM PST'
+  - 's14: Applications scored out of 90 points (55 project narrative, 15 Funding Priority Groups, 20 workplan/budget); top
+    scorers interview/site visit +10 points = 100 total'
+  - 's106: Prescott Greening Project 2021–2024; $150k TCC + $300k MTC PCA + $600k Alameda CTC + $50k Port of Oakland + $100k
+    CalFire'
+  - 's112: Ambrose Memorial Park address 125 Memorial Way, Bay Point, CA'
+  - 's112: Project title ''From Heat Island to Cool Haven: Greening Ambrose Memorial Park, Bay Point'''
+  - 's112: Early Infrastructure tier; 30-month contract period implied'
+  - 's58: EHCRP Round 1 (FY 2024–25) distributed nearly $32 million across 46 projects'
+  flags:
+  - 'excerpt too thin to judge: s112 community-input and harm-reduction specificity not detailed; hr-q1 and hr-q2 readiness
+    unclear from pre-app form excerpt alone'
+  - 'excerpt too thin to judge: s114–s116 co-applicant name and credentials redacted or not yet filled in pre-app form'
+  - 'possible near-duplicate: metadata indicates 97% overlap with ehcrp-r2-ambrose-center-gdoc (Center Park variant); both
+    are live pre-apps, not drafts—confirm which is authoritative'
+  - 'missing dependency: full application narrative (due 2026-10-13) not visible in outline; this doc captures pre-app (submitted
+    ~2026-08-11) only'
+  - 'contact data redacted: team members identified by first name + email redacted; Lori (ARPD lead) and other partner contacts
+    not visible in excerpts'
+  - 'context from working document: s3–s51 and s80–s100 contain internal meeting notes, action items, and decision logs; redact
+    before external sharing or library deposit'
+  - ehcrp-r2-preapp-feedback (wanted asset) not yet acquired; essential for full-application development
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: c3ad74bd5318d48febc1e3b9f8dd24b4073e4507964ee7b2b7e1344279f7fc83
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 16685
+    output: 2288
+    cache_read: 0
+    cache_write: 0

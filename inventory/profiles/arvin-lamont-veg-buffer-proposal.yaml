@@ -1,0 +1,553 @@
+asset_id: arvin-lamont-veg-buffer-proposal
+source_path: sources/arvin-lamont-veg-buffer-proposal/arvin-lamont-veg-buffer-proposal.md
+source_sha256: 95cc56410eb86dc029c1d1f5a5ab8fdcf51ae1c5fef09ae5cfaf2cbecf4e29dc
+text_sha256: 5042d04932ef7e7830d456deb3686a9bdf745a596ad708139a4ea38c39a7f534
+words: 49063
+pii:
+  emails: 76
+  phones: 5
+near_duplicates:
+- asset_id: fresno-extreme-heat-analysis-doc
+  jaccard: 0.298
+  contained_in: 0.522
+- asset_id: eemp-2025-proposal
+  jaccard: 0.453
+  contained_in: 0.509
+sections:
+- sid: s1
+  path: START HERE
+  level: 1
+  words: 66
+- sid: s2
+  path: PROPOSAL (ONLY)
+  level: 1
+  words: 4493
+- sid: s3
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION
+  level: 3
+  words: 75
+- sid: s4
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 2 - CONTACT INFORMATION
+  level: 3
+  words: 0
+- sid: s5
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 2 - CONTACT INFORMATION > PRIMARY CONTACT INFORMATION
+  level: 4
+  words: 48
+- sid: s6
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 2 - CONTACT INFORMATION > SIGNING AUTHORITY INFORMATION (IF DIFFERENT FROM ABOVE)
+  level: 4
+  words: 49
+- sid: s7
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION
+  level: 3
+  words: 0
+- sid: s8
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 1. Project Summary
+  level: 4
+  words: 280
+- sid: s9
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 2. Location of Project
+  level: 4
+  words: 58
+- sid: s10
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 3. Is the applicant the property owner of the land on which the project will be implemented?
+  level: 4
+  words: 20
+- sid: s11
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 4. Describe Proposed Greenery
+  level: 4
+  words: 169
+- sid: s12
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 5. Area of Project Footprint to Be Created or Enhanced
+  level: 4
+  words: 2
+- sid: s13
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 6. Proposed Irrigation Systems
+  level: 4
+  words: 39
+- sid: s14
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 7. Project Limitations
+  level: 4
+  words: 108
+- sid: s15
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 8. Sensitive Receptors
+  level: 4
+  words: 34
+- sid: s16
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 9. Estimated Timeline for Project Implementation
+  level: 4
+  words: 40
+- sid: s17
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 10. Project Implementation
+  level: 4
+  words: 19
+- sid: s18
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 11. Project Costs
+  level: 4
+  words: 60
+- sid: s19
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 12. Funding Amount Requested
+  level: 4
+  words: 4
+- sid: s20
+  path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 13. Additional Funding Secured for this Project
+  level: 4
+  words: 33
+- sid: s21
+  path: Notes
+  level: 1
+  words: 0
+- sid: s22
+  path: Notes > English
+  level: 3
+  words: 48
+- sid: s23
+  path: Notes > English > Español
+  level: 3
+  words: 1115
+- sid: s24
+  path: Scraps
+  level: 1
+  words: 974
+- sid: s25
+  path: Stuff from other projects
+  level: 1
+  words: 1811
+- sid: s26
+  path: TEXT FROM OTHER PROJECTS
+  level: 1
+  words: 8
+- sid: s27
+  path: TEXT FROM OTHER PROJECTS > A. Transmittal Letter
+  level: 2
+  words: 0
+- sid: s28
+  path: TEXT FROM OTHER PROJECTS > B. Table of Contents
+  level: 2
+  words: 0
+- sid: s29
+  path: TEXT FROM OTHER PROJECTS > C. Overview
+  level: 2
+  words: 719
+- sid: s30
+  path: TEXT FROM OTHER PROJECTS > C. Overview > Disadvantaged Communities
+  level: 3
+  words: 11
+- sid: s31
+  path: TEXT FROM OTHER PROJECTS > C. Overview > From CARB SMMI PEG Application
+  level: 3
+  words: 1431
+- sid: s32
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants
+  level: 3
+  words: 0
+- sid: s33
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ-MPCA grant
+  level: 4
+  words: 124
+- sid: s34
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ Google Data Grant
+  level: 4
+  words: 279
+- sid: s35
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Boyle Heights Community Change
+  level: 4
+  words: 290
+- sid: s36
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Endless Frontier (submitted 8/24)
+  level: 4
+  words: 2122
+- sid: s37
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan
+  level: 2
+  words: 0
+- sid: s38
+  path: 'TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > Task 1: Collaboration and Community Engagement'
+  level: 3
+  words: 286
+- sid: s39
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~
+  level: 3
+  words: 59
+- sid: s40
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~ > ~~Working Group Member Ideas:~~
+  level: 4
+  words: 108
+- sid: s41
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~
+  level: 3
+  words: 71
+- sid: s42
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~ > ~~Outreach Channels~~
+  level: 4
+  words: 28
+- sid: s43
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Multilingual Engagement Strategy ~~
+  level: 3
+  words: 1495
+- sid: s44
+  path: TEXT FROM OTHER PROJECTS > From EHCRP
+  level: 2
+  words: 3731
+- sid: s45
+  path: 'TEXT FROM OTHER PROJECTS > From EHCRP > Task 2: Review Existing Plans, Guidelines, and Policies'
+  level: 3
+  words: 1599
+- sid: s46
+  path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis'
+  level: 2
+  words: 74
+- sid: s47
+  path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis > ~~VERSION 2~~'
+  level: 3
+  words: 998
+- sid: s48
+  path: TEXT FROM OTHER PROJECTS > ~~3. Technical Approach Summary~~
+  level: 2
+  words: 1434
+- sid: s49
+  path: 'TEXT FROM OTHER PROJECTS > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis'
+  level: 2
+  words: 66
+- sid: s50
+  path: 'TEXT FROM OTHER PROJECTS > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects'
+  level: 2
+  words: 528
+- sid: s51
+  path: TEXT FROM OTHER PROJECTS > From Green Latinos draft
+  level: 2
+  words: 1049
+- sid: s52
+  path: 'TEXT FROM OTHER PROJECTS > Task 6:  Develop Planning Level Costs for the Identified Shade Improvement Projects'
+  level: 2
+  words: 25
+- sid: s53
+  path: 'TEXT FROM OTHER PROJECTS > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles'
+  level: 2
+  words: 69
+- sid: s54
+  path: 'TEXT FROM OTHER PROJECTS > Task 8: Develop the Draft Plan and Publish the Draft for Public Review'
+  level: 2
+  words: 68
+- sid: s55
+  path: 'TEXT FROM OTHER PROJECTS > Task 9: Presentation and Policy Board Acceptance'
+  level: 2
+  words: 36
+- sid: s56
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 15
+- sid: s57
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 11
+- sid: s58
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr)
+  level: 4
+  words: 40
+- sid: s59
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Designer & Project Manager ($150/hr)
+  level: 4
+  words: 45
+- sid: s60
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Technical Design lead ($200/hr)
+  level: 4
+  words: 66
+- sid: s61
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Modeling specialist ($150/hr)
+  level: 4
+  words: 1789
+- sid: s62
+  path: TEXT FROM OTHER PROJECTS > F. Budget and Billing Format
+  level: 2
+  words: 0
+- sid: s63
+  path: TEXT FROM OTHER PROJECTS > G. Insurance Requirements
+  level: 2
+  words: 0
+- sid: s64
+  path: TEXT FROM OTHER PROJECTS > H. Disadvantaged Business Enterprise (DBE) Certification
+  level: 2
+  words: 0
+- sid: s65
+  path: TEXT FROM OTHER PROJECTS > I. Conflicts of Interest
+  level: 2
+  words: 0
+- sid: s66
+  path: TEXT FROM OTHER PROJECTS > J. Summary of Qualifications
+  level: 2
+  words: 0
+- sid: s67
+  path: TEXT FROM OTHER PROJECTS > K. Signing of Proposal/Authorization to Negotiate
+  level: 2
+  words: 0
+- sid: s68
+  path: TEXT FROM OTHER PROJECTS > L. Attachments
+  level: 2
+  words: 0
+- sid: s69
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal
+  level: 2
+  words: 0
+- sid: s70
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Vision
+  level: 3
+  words: 199
+- sid: s71
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Description
+  level: 3
+  words: 290
+- sid: s72
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Alignment (w/ California Extreme Heat Action Plan)
+  level: 3
+  words: 250
+- sid: s73
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Community Needs and Priorities
+  level: 3
+  words: 299
+- sid: s74
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > CommunityInformed Project Design
+  level: 3
+  words: 200
+- sid: s75
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Extreme Heat Conditions and Vulnerability
+  level: 3
+  words: 299
+- sid: s76
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > How are individuals in heat vulnerable communities represented and given power in the decisionmaking processes of the grant?
+  level: 3
+  words: 196
+- sid: s77
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Explain barriers to applying with a local and/or regional public entity
+  level: 3
+  words: 148
+- sid: s78
+  path: 'TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Engagement: How you will engage with local and regional public entities and/or'
+  level: 3
+  words: 0
+- sid: s79
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > tribes throughout the project?
+  level: 3
+  words: 183
+- sid: s80
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Partnership Development
+  level: 3
+  words: 90
+- sid: s81
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Describe how the proposed project will prioritize strategies and outcomes that provide climate change adaptation cobenefits, especially
+    for the benefit of vulnerable communities?
+  level: 3
+  words: 292
+- sid: s82
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Interview Process
+  level: 2
+  words: 2012
+- sid: s83
+  path: Proposal Coordination
+  level: 1
+  words: 0
+- sid: s84
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA'
+  level: 1
+  words: 245
+- sid: s85
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Oct 23, 2025 | Arvin/Lamont AB617 CSC Meetings July-December 2025'
+  level: 2
+  words: 576
+- sid: s86
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Oct 14, 2025 | AB 617 Arvin/Lamont: Air District & Hyphae Team Meeting'
+  level: 2
+  words: 449
+- sid: s87
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Oct 2, 2025 | MP-MM check in?'
+  level: 2
+  words: 869
+- sid: s88
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Sep 12, 2025 | Arvin/Lamont Vegetative Barriers Meeting w/Hyphae'
+  level: 2
+  words: 181
+- sid: s89
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting'
+  level: 2
+  words: 28
+- sid: s90
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations'
+  level: 4
+  words: 109
+- sid: s91
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations > II. Maintenance
+    Endowment and Long-Term Viability'
+  level: 4
+  words: 72
+- sid: s92
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations > III. Incongruities
+    in the Current RFP Structure'
+  level: 4
+  words: 121
+- sid: s93
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations > IV. Budget
+    Constraints and Feasibility of Two Sites'
+  level: 4
+  words: 89
+- sid: s94
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations > V. Next Steps
+    and Subcommittee Plan'
+  level: 4
+  words: 109
+- sid: s95
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 15, 2025 | Air District & Hyphae Team Meeting > I. Site Review and Target Locations > VI. Recommendation
+    for Future RFP Structure'
+  level: 4
+  words: 232
+- sid: s96
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 14, 2025 | Air District & Hyphae Team Meeting'
+  level: 2
+  words: 511
+- sid: s97
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 14, 2025 | Hyphae x Jason Adair check-in'
+  level: 2
+  words: 157
+- sid: s98
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 9, 2025 | MP x Jason Adair'
+  level: 2
+  words: 202
+- sid: s99
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 1, 2025 | City of Arvin prep'
+  level: 2
+  words: 971
+- sid: s100
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 1, 2025 | City of Arvin prep > IV. Data Tools and Reporting'
+  level: 3
+  words: 87
+- sid: s101
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > May 1, 2025 | City of Arvin prep > V. Next Steps'
+  level: 3
+  words: 193
+- sid: s102
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Apr 30, 2025 | Hyphae x Kern County'
+  level: 2
+  words: 1314
+- sid: s103
+  path: 'Arvin/Lamont Community Emissions Reduction Program: Vegetative Barriers, Arvin/Lamont, CA > Apr 30, 2025 | Caltrans District 6 x Hyphae'
+  level: 2
+  words: 957
+- sid: s104
+  path: \[image\]\[image\]
+  level: 1
+  words: 30
+- sid: s105
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT
+  level: 3
+  words: 16
+- sid: s106
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status
+  level: 4
+  words: 136
+- sid: s107
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status > Preparation Goals for Meetings
+  level: 4
+  words: 23
+- sid: s108
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status > Site Overview
+  level: 4
+  words: 110
+- sid: s109
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status > Data/Visuals to Have on Hand
+  level: 4
+  words: 63
+- sid: s110
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status > Outstanding Questions for Brent
+  level: 4
+  words: 251
+- sid: s111
+  path: \[image\]\[image\] > BRIEFING MEMO – ARVIN-LAMONT VEGETATIVE BUFFER PROJECT > Summary of Current Status > Wind Roses
+  level: 4
+  words: 29
+- sid: s112
+  path: Budget Justification for Air District (2/3/2025)
+  level: 1
+  words: 13
+- sid: s113
+  path: Budget Justification for Air District (2/3/2025) > 1. Tree Sourcing & Delivery ($143,370)
+  level: 3
+  words: 28
+- sid: s114
+  path: Budget Justification for Air District (2/3/2025) > 1. Tree Sourcing & Delivery ($143,370) > 2. Planting Installation ($141,750)
+  level: 3
+  words: 105
+- sid: s115
+  path: Budget Justification for Air District (2/3/2025) > 1. Tree Sourcing & Delivery ($143,370) > 3. Establishment Maintenance ($18,000 over 3 years)
+  level: 3
+  words: 67
+- sid: s116
+  path: Budget Justification for Air District (2/3/2025) > 1. Tree Sourcing & Delivery ($143,370) > 4. Long-Term Maintenance ($6,300 over 7 years)
+  level: 3
+  words: 65
+- sid: s117
+  path: Summary
+  level: 1
+  words: 115
+- sid: s118
+  path: Proposal Components
+  level: 1
+  words: 394
+- sid: s119
+  path: Scoring Criteria
+  level: 1
+  words: 148
+- sid: s120
+  path: Suggested Areas
+  level: 1
+  words: 1
+- sid: s121
+  path: \[image\]
+  level: 1
+  words: 0
+- sid: s122
+  path: Meetings
+  level: 1
+  words: 0
+- sid: s123
+  path: Meetings > Jan 6, 2025 | MP/MM/BB
+  level: 2
+  words: 498
+- sid: s124
+  path: Grant Checklist
+  level: 1
+  words: 884
+- sid: s125
+  path: Memento Tattoos
+  level: 1
+  words: 122
+- sid: s126
+  path: Memento Tattoos > Dec 20, 2024 | Hyphae x City of Arvin
+  level: 2
+  words: 1566
+- sid: s127
+  path: Memento Tattoos > Dec 20, 2024 | Hyphae x Caltrans
+  level: 2
+  words: 570
+- sid: s128
+  path: Memento Tattoos > Dec 20, 2024 | AB 617 debrief
+  level: 2
+  words: 12
+- sid: s129
+  path: Letters
+  level: 1
+  words: 1036
+- sid: s130
+  path: Fact Sheet
+  level: 1
+  words: 2
+- sid: s131
+  path: Rough notes
+  level: 1
+  words: 844
+- sid: s132
+  path: Air District Letter
+  level: 1
+  words: 953
+section_count: 132
+profiled: '2026-09-25'
+profiler: p2

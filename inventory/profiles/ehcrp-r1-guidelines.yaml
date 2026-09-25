@@ -8,996 +8,1326 @@ pii:
   phones: 1
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation and
+- sid: s1
+  path: Integrated Climate Adaptation and
   level: 2
   words: 2
-- path: Integrated Climate Adaptation and > Extreme Heat and Community
+- sid: s2
+  path: Integrated Climate Adaptation and > Extreme Heat and Community
   level: 2
   words: 15
-- path: Integrated Climate Adaptation and > Extreme Heat and Community Resilience Program
+- sid: s3
+  path: Integrated Climate Adaptation and > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s4
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s5
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 323
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s6
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s7
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Table of Contents
+- sid: s8
+  path: 29 January 2024 > Table of Contents
   level: 2
   words: 67
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s9
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s10
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > I. Program Overview
+- sid: s11
+  path: 29 January 2024 > I. Program Overview
   level: 2
   words: 177
-- path: '29 January 2024 > Grant Availability Types: Competitive'
+- sid: s12
+  path: '29 January 2024 > Grant Availability Types: Competitive'
   level: 2
   words: 1
-- path: '29 January 2024 > Match Funding Required: No'
+- sid: s13
+  path: '29 January 2024 > Match Funding Required: No'
   level: 2
   words: 21
-- path: 29 January 2024 > B. Background
+- sid: s14
+  path: 29 January 2024 > B. Background
   level: 2
   words: 76
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s15
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s16
+  path: 29 January 2024
   level: 1
   words: 410
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s17
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s18
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > What is Extreme Heat?
+- sid: s19
+  path: 29 January 2024 > What is Extreme Heat?
   level: 2
   words: 425
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s20
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s21
+  path: 29 January 2024
   level: 1
   words: 243
-- path: 29 January 2024 > What is Community Resilience?
+- sid: s22
+  path: 29 January 2024 > What is Community Resilience?
   level: 2
   words: 226
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s23
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s24
+  path: 29 January 2024
   level: 1
   words: 151
-- path: 29 January 2024 > Program Development and Community Engagement Process
+- sid: s25
+  path: 29 January 2024 > Program Development and Community Engagement Process
   level: 2
   words: 273
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s26
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s27
+  path: 29 January 2024
   level: 1
   words: 97
-- path: 29 January 2024 > C. Program Contact
+- sid: s28
+  path: 29 January 2024 > C. Program Contact
   level: 2
   words: 39
-- path: 29 January 2024 > D. Program Timeline
+- sid: s29
+  path: 29 January 2024 > D. Program Timeline
   level: 2
   words: 31
-- path: '2 October 2023: Draft Guidelines released for public comment'
+- sid: s30
+  path: '2 October 2023: Draft Guidelines released for public comment'
   level: 1
   words: 1
-- path: '29 January 2024: EHCRP Round 1 Final Guidelines, Notice of Funding Availability'
+- sid: s31
+  path: '29 January 2024: EHCRP Round 1 Final Guidelines, Notice of Funding Availability'
   level: 1
   words: 6
-- path: '29 January 2024 – 7 May 2024: Application Period and Application Workshops'
+- sid: s32
+  path: '29 January 2024 – 7 May 2024: Application Period and Application Workshops'
   level: 1
   words: 7
-- path: '29 January 2024 – 7 May 2024: Application Period and Application Workshops > Extreme Heat and Community Resilience Program'
+- sid: s33
+  path: '29 January 2024 – 7 May 2024: Application Period and Application Workshops > Extreme Heat and Community Resilience Program'
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s34
+  path: 29 January 2024
   level: 1
   words: 24
-- path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and'
+- sid: s35
+  path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and'
   level: 1
   words: 14
-- path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > Fall 2024: Expected Start Date'
+- sid: s36
+  path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > Fall 2024: Expected Start Date'
   level: 2
   words: 5
-- path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > II. Program Vision and Values'
+- sid: s37
+  path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > II. Program Vision and Values'
   level: 2
   words: 320
-- path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > Extreme Heat and Community Resilience Program'
+- sid: s38
+  path: '7 May 2024, 5p.m. PST: Due Date for Submitting Pre-Application Interest Form and > Extreme Heat and Community Resilience Program'
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s39
+  path: 29 January 2024
   level: 1
   words: 42
-- path: 29 January 2024 > B. Values
+- sid: s40
+  path: 29 January 2024 > B. Values
   level: 2
   words: 353
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s41
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s42
+  path: 29 January 2024
   level: 1
   words: 368
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s43
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s44
+  path: 29 January 2024
   level: 1
   words: 367
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s45
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s46
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > III. Applicant Eligibility, Partnership, and Funding
+- sid: s47
+  path: 29 January 2024 > III. Applicant Eligibility, Partnership, and Funding
   level: 2
   words: 26
-- path: 29 January 2024 > Metropolitan Planning Organizations (MPOs)
+- sid: s48
+  path: 29 January 2024 > Metropolitan Planning Organizations (MPOs)
   level: 2
   words: 1
-- path: 29 January 2024 > Joint Powers Authorities (JPAs)
+- sid: s49
+  path: 29 January 2024 > Joint Powers Authorities (JPAs)
   level: 2
   words: 7
-- path: 29 January 2024 > Councils of Governments (COGs)
+- sid: s50
+  path: 29 January 2024 > Councils of Governments (COGs)
   level: 2
   words: 1
-- path: 29 January 2024 > Congestion Management Agencies
+- sid: s51
+  path: 29 January 2024 > Congestion Management Agencies
   level: 2
   words: 1
-- path: 29 January 2024 > Groundwater Sustainability Agencies
+- sid: s52
+  path: 29 January 2024 > Groundwater Sustainability Agencies
   level: 2
   words: 1
-- path: 29 January 2024 > School Districts
+- sid: s53
+  path: 29 January 2024 > School Districts
   level: 2
   words: 13
-- path: 29 January 2024 > Local or Regional Public Authorities
+- sid: s54
+  path: 29 January 2024 > Local or Regional Public Authorities
   level: 2
   words: 1
-- path: 29 January 2024 > Local or Regional Public Agencies
+- sid: s55
+  path: 29 January 2024 > Local or Regional Public Agencies
   level: 2
   words: 90
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s56
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s57
+  path: 29 January 2024
   level: 1
   words: 383
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s58
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s59
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Ineligible Applicants:'
+- sid: s60
+  path: '29 January 2024 > Ineligible Applicants:'
   level: 2
   words: 88
-- path: 29 January 2024 > B. Co-Applicant Requirements & Partnership Guidance
+- sid: s61
+  path: 29 January 2024 > B. Co-Applicant Requirements & Partnership Guidance
   level: 2
   words: 235
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s62
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s63
+  path: 29 January 2024
   level: 1
   words: 228
-- path: 29 January 2024 > Co-Applicant Requirements
+- sid: s64
+  path: 29 January 2024 > Co-Applicant Requirements
   level: 2
   words: 139
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s65
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s66
+  path: 29 January 2024
   level: 1
   words: 393
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s67
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s68
+  path: 29 January 2024
   level: 1
   words: 13
-- path: 29 January 2024 > Partnership Guidance
+- sid: s69
+  path: 29 January 2024 > Partnership Guidance
   level: 2
   words: 126
-- path: 29 January 2024 > Tribal Partners
+- sid: s70
+  path: 29 January 2024 > Tribal Partners
   level: 2
   words: 66
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s71
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s72
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > C. Priority Communities
+- sid: s73
+  path: 29 January 2024 > C. Priority Communities
   level: 2
   words: 415
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s74
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s75
+  path: 29 January 2024
   level: 1
   words: 8
-- path: 29 January 2024 > Regional Diversity
+- sid: s76
+  path: 29 January 2024 > Regional Diversity
   level: 2
   words: 54
-- path: 29 January 2024 > D. Funding Targets
+- sid: s77
+  path: 29 January 2024 > D. Funding Targets
   level: 2
   words: 72
-- path: 29 January 2024 > California Native American Tribes
+- sid: s78
+  path: 29 January 2024 > California Native American Tribes
   level: 2
   words: 70
-- path: 29 January 2024 > Disadvantaged Communities (DAC)
+- sid: s79
+  path: 29 January 2024 > Disadvantaged Communities (DAC)
   level: 2
   words: 131
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s80
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s81
+  path: 29 January 2024
   level: 1
   words: 266
-- path: 29 January 2024 > IV. Planning Grants
+- sid: s82
+  path: 29 January 2024 > IV. Planning Grants
   level: 2
   words: 85
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s83
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s84
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > B. Small Planning Grants
+- sid: s85
+  path: 29 January 2024 > B. Small Planning Grants
   level: 2
   words: 52
-- path: '29 January 2024 > Funding Amount and Timeline:'
+- sid: s86
+  path: '29 January 2024 > Funding Amount and Timeline:'
   level: 2
   words: 27
-- path: 29 January 2024 > Eligibility and Partnership
+- sid: s87
+  path: 29 January 2024 > Eligibility and Partnership
   level: 2
   words: 21
-- path: 29 January 2024 > Examples of Eligible and Ineligible Planning Activities
+- sid: s88
+  path: 29 January 2024 > Examples of Eligible and Ineligible Planning Activities
   level: 2
   words: 152
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s89
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s90
+  path: 29 January 2024
   level: 1
   words: 84
-- path: 29 January 2024 > Pre-Planning Activities
+- sid: s91
+  path: 29 January 2024 > Pre-Planning Activities
   level: 2
   words: 196
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s92
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s93
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Project Development and Small-Scale Planning
+- sid: s94
+  path: 29 January 2024 > Project Development and Small-Scale Planning
   level: 2
   words: 198
-- path: 29 January 2024 > C. Large Planning Grants
+- sid: s95
+  path: 29 January 2024 > C. Large Planning Grants
   level: 2
   words: 58
-- path: '29 January 2024 > Funding Amount and Timeline:'
+- sid: s96
+  path: '29 January 2024 > Funding Amount and Timeline:'
   level: 2
   words: 34
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s97
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s98
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Eligibility and Partnership
+- sid: s99
+  path: 29 January 2024 > Eligibility and Partnership
   level: 2
   words: 202
-- path: 29 January 2024 > Examples of Eligible and Ineligible Planning Activities
+- sid: s100
+  path: 29 January 2024 > Examples of Eligible and Ineligible Planning Activities
   level: 2
   words: 135
-- path: 29 January 2024 > Integrated Climate Adaptation
+- sid: s101
+  path: 29 January 2024 > Integrated Climate Adaptation
   level: 2
   words: 3
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s102
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s103
+  path: 29 January 2024
   level: 1
   words: 255
-- path: 29 January 2024 > V. Implementation Grants
+- sid: s104
+  path: 29 January 2024 > V. Implementation Grants
   level: 2
   words: 73
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s105
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s106
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > B. Small Implementation Grants
+- sid: s107
+  path: 29 January 2024 > B. Small Implementation Grants
   level: 2
   words: 29
-- path: '29 January 2024 > Funding Amount and Timeline:'
+- sid: s108
+  path: '29 January 2024 > Funding Amount and Timeline:'
   level: 2
   words: 27
-- path: 29 January 2024 > Eligibility and Partnership
+- sid: s109
+  path: 29 January 2024 > Eligibility and Partnership
   level: 2
   words: 67
-- path: 29 January 2024 > C. Large Implementation Grants
+- sid: s110
+  path: 29 January 2024 > C. Large Implementation Grants
   level: 2
   words: 27
-- path: '29 January 2024 > Funding Amount and Timeline:'
+- sid: s111
+  path: '29 January 2024 > Funding Amount and Timeline:'
   level: 2
   words: 57
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s112
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s113
+  path: 29 January 2024
   level: 1
   words: 228
-- path: 29 January 2024 > D. Implementation Grant Activities
+- sid: s114
+  path: 29 January 2024 > D. Implementation Grant Activities
   level: 2
   words: 98
-- path: '29 January 2024 > Track A: Build Public Awareness and Notification'
+- sid: s115
+  path: '29 January 2024 > Track A: Build Public Awareness and Notification'
   level: 2
   words: 67
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s116
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s117
+  path: 29 January 2024
   level: 1
   words: 143
-- path: '29 January 2024 > Track B: Strengthen Community Services and Response'
+- sid: s118
+  path: '29 January 2024 > Track B: Strengthen Community Services and Response'
   level: 2
   words: 109
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s119
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s120
+  path: 29 January 2024
   level: 1
   words: 161
-- path: '29 January 2024 > Track C: Increase Resilience of our Built Environment'
+- sid: s121
+  path: '29 January 2024 > Track C: Increase Resilience of our Built Environment'
   level: 2
   words: 113
-- path: 29 January 2024 > Integrated Climate Adaptation
+- sid: s122
+  path: 29 January 2024 > Integrated Climate Adaptation
   level: 2
   words: 3
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s123
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s124
+  path: 29 January 2024
   level: 1
   words: 251
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s125
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s126
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Track D: Utilize Nature-based Solutions'
+- sid: s127
+  path: '29 January 2024 > Track D: Utilize Nature-based Solutions'
   level: 2
   words: 264
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s128
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s129
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > VI. Application Details
+- sid: s130
+  path: 29 January 2024 > VI. Application Details
   level: 2
   words: 167
-- path: '29 January 2024 > Phase 1: Pre-Application Interest Form'
+- sid: s131
+  path: '29 January 2024 > Phase 1: Pre-Application Interest Form'
   level: 2
   words: 167
-- path: '29 January 2024 > Phase 2: Full Application Form'
+- sid: s132
+  path: '29 January 2024 > Phase 2: Full Application Form'
   level: 2
   words: 36
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s133
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s134
+  path: 29 January 2024
   level: 1
   words: 68
-- path: 29 January 2024 > Applicant Summary
+- sid: s135
+  path: 29 January 2024 > Applicant Summary
   level: 2
   words: 1
-- path: 29 January 2024 > Work Plan
+- sid: s136
+  path: 29 January 2024 > Work Plan
   level: 2
   words: 2
-- path: 29 January 2024 > If Applicable, Required Documentation
+- sid: s137
+  path: 29 January 2024 > If Applicable, Required Documentation
   level: 2
   words: 154
-- path: 29 January 2024 > Integrated Climate Adaptation
+- sid: s138
+  path: 29 January 2024 > Integrated Climate Adaptation
   level: 2
   words: 3
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s139
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 6
-- path: 29 January 2024
+- sid: s140
+  path: 29 January 2024
   level: 1
   words: 49
-- path: 29 January 2024 > Application Review
+- sid: s141
+  path: 29 January 2024 > Application Review
   level: 2
   words: 142
-- path: 29 January 2024 > B. Application Support and Workshops
+- sid: s142
+  path: 29 January 2024 > B. Application Support and Workshops
   level: 2
   words: 13
-- path: 29 January 2024 > Technical Assistance (TA)
+- sid: s143
+  path: 29 January 2024 > Technical Assistance (TA)
   level: 2
   words: 115
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s144
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s145
+  path: 29 January 2024
   level: 1
   words: 83
-- path: 29 January 2024 > Application Workshops
+- sid: s146
+  path: 29 January 2024 > Application Workshops
   level: 2
   words: 58
-- path: 29 January 2024 > C. Questions
+- sid: s147
+  path: 29 January 2024 > C. Questions
   level: 2
   words: 160
-- path: 29 January 2024 > VII. Application Narrative
+- sid: s148
+  path: 29 January 2024 > VII. Application Narrative
   level: 2
   words: 20
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s149
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s150
+  path: 29 January 2024
   level: 1
   words: 10
-- path: 29 January 2024 > Project Vision and Description
+- sid: s151
+  path: 29 January 2024 > Project Vision and Description
   level: 2
   words: 132
-- path: 29 January 2024 > Communities Served
+- sid: s152
+  path: 29 January 2024 > Communities Served
   level: 2
   words: 152
-- path: 29 January 2024 > Partnership and Community Engagement
+- sid: s153
+  path: 29 January 2024 > Partnership and Community Engagement
   level: 2
   words: 17
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s154
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s155
+  path: 29 January 2024
   level: 1
   words: 135
-- path: '29 January 2024 > Narrative Questions:'
+- sid: s156
+  path: '29 January 2024 > Narrative Questions:'
   level: 2
   words: 207
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s157
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s158
+  path: 29 January 2024
   level: 1
   words: 7
-- path: '29 January 2024 > Narrative Questions:'
+- sid: s159
+  path: '29 January 2024 > Narrative Questions:'
   level: 2
   words: 149
-- path: 29 January 2024 > Option 3- Alternative (Large Planning/Large Implementation Applicants)
+- sid: s160
+  path: 29 January 2024 > Option 3- Alternative (Large Planning/Large Implementation Applicants)
   level: 2
   words: 28
-- path: '29 January 2024 > Narrative Questions:'
+- sid: s161
+  path: '29 January 2024 > Narrative Questions:'
   level: 2
   words: 111
-- path: 29 January 2024 > Integrated Climate Adaptation
+- sid: s162
+  path: 29 January 2024 > Integrated Climate Adaptation
   level: 2
   words: 3
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s163
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s164
+  path: 29 January 2024
   level: 1
   words: 367
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s165
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s166
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Budget Justification and Workplan
+- sid: s167
+  path: 29 January 2024 > Budget Justification and Workplan
   level: 2
   words: 157
-- path: '29 January 2024 > Small Planning/Implementation Grant Applicants Only: Capacity'
+- sid: s168
+  path: '29 January 2024 > Small Planning/Implementation Grant Applicants Only: Capacity'
   level: 2
   words: 47
-- path: '29 January 2024 > Large Planning/Implementation Grant Applicants Only: Interview'
+- sid: s169
+  path: '29 January 2024 > Large Planning/Implementation Grant Applicants Only: Interview'
   level: 2
   words: 148
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s170
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 7
-- path: 29 January 2024
+- sid: s171
+  path: 29 January 2024
   level: 1
   words: 59
-- path: 29 January 2024 > VIII. Unawarded Applications
+- sid: s172
+  path: 29 January 2024 > VIII. Unawarded Applications
   level: 2
   words: 72
-- path: 29 January 2024 > IX. Awarded Applications
+- sid: s173
+  path: 29 January 2024 > IX. Awarded Applications
   level: 2
   words: 255
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s174
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s175
+  path: 29 January 2024
   level: 1
   words: 73
-- path: 29 January 2024 > B. Reporting and Support Activities
+- sid: s176
+  path: 29 January 2024 > B. Reporting and Support Activities
   level: 2
   words: 174
-- path: 29 January 2024 > Case Study
+- sid: s177
+  path: 29 January 2024 > Case Study
   level: 2
   words: 41
-- path: 29 January 2024 > Reporting Templates and Forms
+- sid: s178
+  path: 29 January 2024 > Reporting Templates and Forms
   level: 2
   words: 50
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s179
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s180
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > X. Grant Administration
+- sid: s181
+  path: 29 January 2024 > X. Grant Administration
   level: 2
   words: 74
-- path: 29 January 2024 > A. Eligible and Ineligible Costs
+- sid: s182
+  path: 29 January 2024 > A. Eligible and Ineligible Costs
   level: 2
   words: 46
-- path: 29 January 2024 > Eligible Costs (Planning and Implementation Projects)
+- sid: s183
+  path: 29 January 2024 > Eligible Costs (Planning and Implementation Projects)
   level: 2
   words: 230
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s184
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 7
-- path: 29 January 2024
+- sid: s185
+  path: 29 January 2024
   level: 1
   words: 264
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s186
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s187
+  path: 29 January 2024
   level: 1
   words: 164
-- path: '29 January 2024 > Eligible Costs: Implementation Projects'
+- sid: s188
+  path: '29 January 2024 > Eligible Costs: Implementation Projects'
   level: 2
   words: 58
-- path: 29 January 2024 > Ineligible Costs
+- sid: s189
+  path: 29 January 2024 > Ineligible Costs
   level: 2
   words: 58
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s190
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s191
+  path: 29 January 2024
   level: 1
   words: 107
-- path: 29 January 2024 > B. Advanced Pay
+- sid: s192
+  path: 29 January 2024 > B. Advanced Pay
   level: 2
   words: 181
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s193
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s194
+  path: 29 January 2024
   level: 1
   words: 459
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s195
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s196
+  path: 29 January 2024
   level: 1
   words: 62
-- path: 29 January 2024 > C. Match Funding and Cost Sharing
+- sid: s197
+  path: 29 January 2024 > C. Match Funding and Cost Sharing
   level: 2
   words: 99
-- path: 29 January 2024 > D. Partnership Agreement
+- sid: s198
+  path: 29 January 2024 > D. Partnership Agreement
   level: 2
   words: 139
-- path: 29 January 2024 > E. Site Control
+- sid: s199
+  path: 29 January 2024 > E. Site Control
   level: 2
   words: 75
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s200
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s201
+  path: 29 January 2024
   level: 1
   words: 248
-- path: 29 January 2024 > F. Responsibilities and Grant Agreement
+- sid: s202
+  path: 29 January 2024 > F. Responsibilities and Grant Agreement
   level: 2
   words: 267
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s203
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s204
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > G. Errors
+- sid: s205
+  path: 29 January 2024 > G. Errors
   level: 2
   words: 67
-- path: 29 January 2024 > H. Disbursement and Accounting Funds
+- sid: s206
+  path: 29 January 2024 > H. Disbursement and Accounting Funds
   level: 2
   words: 167
-- path: 29 January 2024 > I. Modification or Withdrawal of Proposal
+- sid: s207
+  path: 29 January 2024 > I. Modification or Withdrawal of Proposal
   level: 2
   words: 72
-- path: 29 January 2024 > J. Immaterial Defect
+- sid: s208
+  path: 29 January 2024 > J. Immaterial Defect
   level: 2
   words: 39
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s209
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s210
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > K. No Agreement Until Signed or Approved
+- sid: s211
+  path: 29 January 2024 > K. No Agreement Until Signed or Approved
   level: 2
   words: 48
-- path: '29 January 2024 > L. Confidential Information:'
+- sid: s212
+  path: '29 January 2024 > L. Confidential Information:'
   level: 2
   words: 98
-- path: 29 January 2024 > XI. Appendix
+- sid: s213
+  path: 29 January 2024 > XI. Appendix
   level: 2
   words: 77
-- path: 29 January 2024 > Project Vision and Description
+- sid: s214
+  path: 29 January 2024 > Project Vision and Description
   level: 2
   words: 90
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s215
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s216
+  path: 29 January 2024
   level: 1
   words: 108
-- path: 29 January 2024 > Project Description
+- sid: s217
+  path: 29 January 2024 > Project Description
   level: 2
   words: 158
-- path: 29 January 2024 > Project Alignment
+- sid: s218
+  path: 29 January 2024 > Project Alignment
   level: 2
   words: 136
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s219
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s220
+  path: 29 January 2024
   level: 1
   words: 108
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s221
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s222
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Communities Served
+- sid: s223
+  path: 29 January 2024 > Communities Served
   level: 2
   words: 58
-- path: 29 January 2024 > Community Needs and Priorities
+- sid: s224
+  path: 29 January 2024 > Community Needs and Priorities
   level: 2
   words: 245
-- path: 29 January 2024 > Community Informed Project Design
+- sid: s225
+  path: 29 January 2024 > Community Informed Project Design
   level: 2
   words: 30
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s226
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s227
+  path: 29 January 2024
   level: 1
   words: 214
-- path: 29 January 2024 > Extreme Heat Conditions and Vulnerability
+- sid: s228
+  path: 29 January 2024 > Extreme Heat Conditions and Vulnerability
   level: 2
   words: 240
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s229
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s230
+  path: 29 January 2024
   level: 1
   words: 12
-- path: 29 January 2024 > Partnership and Community Engagement
+- sid: s231
+  path: 29 January 2024 > Partnership and Community Engagement
   level: 2
   words: 202
-- path: 29 January 2024 > Option 1- Co-Applicant and Partnership Description
+- sid: s232
+  path: 29 January 2024 > Option 1- Co-Applicant and Partnership Description
   level: 2
   words: 120
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s233
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s234
+  path: 29 January 2024
   level: 1
   words: 38
-- path: 29 January 2024 > Partnership Structure
+- sid: s235
+  path: 29 January 2024 > Partnership Structure
   level: 2
   words: 145
-- path: 29 January 2024 > Letters of Support
+- sid: s236
+  path: 29 January 2024 > Letters of Support
   level: 2
   words: 162
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s237
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s238
+  path: 29 January 2024
   level: 1
   words: 286
-- path: 29 January 2024 > Partnership Development Budget
+- sid: s239
+  path: 29 January 2024 > Partnership Development Budget
   level: 2
   words: 101
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s240
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s241
+  path: 29 January 2024
   level: 1
   words: 165
-- path: 29 January 2024 > Community Engagement
+- sid: s242
+  path: 29 January 2024 > Community Engagement
   level: 2
   words: 157
-- path: 29 January 2024 > Integrated Climate Adaptation
+- sid: s243
+  path: 29 January 2024 > Integrated Climate Adaptation
   level: 2
   words: 3
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s244
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s245
+  path: 29 January 2024
   level: 1
   words: 89
-- path: 29 January 2024 > Partnership Development
+- sid: s246
+  path: 29 January 2024 > Partnership Development
   level: 2
   words: 116
-- path: 29 January 2024 > Community Based Organization or Coalition Lead Applicant
+- sid: s247
+  path: 29 January 2024 > Community Based Organization or Coalition Lead Applicant
   level: 2
   words: 147
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s248
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s249
+  path: 29 January 2024
   level: 1
   words: 285
-- path: 29 January 2024 > Partnership Development
+- sid: s250
+  path: 29 January 2024 > Partnership Development
   level: 2
   words: 80
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s251
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s252
+  path: 29 January 2024
   level: 1
   words: 230
-- path: 29 January 2024 > Work Plan and Budget Justification
+- sid: s253
+  path: 29 January 2024 > Work Plan and Budget Justification
   level: 2
   words: 69
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s254
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s255
+  path: 29 January 2024
   level: 1
   words: 103
-- path: 29 January 2024 > Budget and Budget Justification
+- sid: s256
+  path: 29 January 2024 > Budget and Budget Justification
   level: 2
   words: 166
-- path: '29 January 2024 > Small Planning/Implementation Applicants Only: Capacity Building'
+- sid: s257
+  path: '29 January 2024 > Small Planning/Implementation Applicants Only: Capacity Building'
   level: 2
   words: 91
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s258
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s259
+  path: 29 January 2024
   level: 1
   words: 32
-- path: '29 January 2024 > Large Planning/Implementation Applicants Only: Interview or Site Visit'
+- sid: s260
+  path: '29 January 2024 > Large Planning/Implementation Applicants Only: Interview or Site Visit'
   level: 2
   words: 341
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s261
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s262
+  path: 29 January 2024
   level: 1
   words: 20
-- path: 29 January 2024 > Readiness and Capacity
+- sid: s263
+  path: 29 January 2024 > Readiness and Capacity
   level: 2
   words: 203
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s264
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s265
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Appendix B: Application Workbook'
+- sid: s266
+  path: '29 January 2024 > Appendix B: Application Workbook'
   level: 2
   words: 314
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s267
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 23
-- path: 29 January 2024
+- sid: s268
+  path: 29 January 2024
   level: 1
   words: 156
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s269
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s270
+  path: 29 January 2024
   level: 1
   words: 69
-- path: '29 January 2024 > Tip #2: Integrate EHCRP Values and Vision'
+- sid: s271
+  path: '29 January 2024 > Tip #2: Integrate EHCRP Values and Vision'
   level: 2
   words: 18
-- path: '29 January 2024 > Tip #3: Adopt an Equitable Project Framework'
+- sid: s272
+  path: '29 January 2024 > Tip #3: Adopt an Equitable Project Framework'
   level: 2
   words: 206
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s273
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s274
+  path: 29 January 2024
   level: 1
   words: 77
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s275
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s276
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Appendix D: Climate Adaptation and Resilience Resources'
+- sid: s277
+  path: '29 January 2024 > Appendix D: Climate Adaptation and Resilience Resources'
   level: 2
   words: 213
-- path: 29 January 2024 > Cal Adapt
+- sid: s278
+  path: 29 January 2024 > Cal Adapt
   level: 2
   words: 66
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s279
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s280
+  path: 29 January 2024
   level: 1
   words: 341
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s281
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 5
-- path: 29 January 2024
+- sid: s282
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Climate Change and Health Vulnerability Indicators
+- sid: s283
+  path: 29 January 2024 > Climate Change and Health Vulnerability Indicators
   level: 2
   words: 295
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s284
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s285
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Appendix E: California Climate Adaptation Strategy Regions'
+- sid: s286
+  path: '29 January 2024 > Appendix E: California Climate Adaptation Strategy Regions'
   level: 2
   words: 77
-- path: 29 January 2024 > Central Coast
+- sid: s287
+  path: 29 January 2024 > Central Coast
   level: 2
   words: 14
-- path: 29 January 2024 > Monterey County
+- sid: s288
+  path: 29 January 2024 > Monterey County
   level: 2
   words: 17
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s289
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s290
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Santa Cruz County
+- sid: s291
+  path: 29 January 2024 > Santa Cruz County
   level: 2
   words: 1
-- path: 29 January 2024 > Inland Deserts
+- sid: s292
+  path: 29 January 2024 > Inland Deserts
   level: 2
   words: 13
-- path: 29 January 2024 > Imperial County
+- sid: s293
+  path: 29 January 2024 > Imperial County
   level: 2
   words: 7
-- path: 29 January 2024 > Los Angeles
+- sid: s294
+  path: 29 January 2024 > Los Angeles
   level: 2
   words: 15
-- path: 29 January 2024 > Los Angeles County
+- sid: s295
+  path: 29 January 2024 > Los Angeles County
   level: 2
   words: 11
-- path: 29 January 2024 > North Coast
+- sid: s296
+  path: 29 January 2024 > North Coast
   level: 2
   words: 16
-- path: 29 January 2024 > Del Norte County
+- sid: s297
+  path: 29 January 2024 > Del Norte County
   level: 2
   words: 10
-- path: 29 January 2024 > Sacramento Valley
+- sid: s298
+  path: 29 January 2024 > Sacramento Valley
   level: 2
   words: 9
-- path: 29 January 2024 > Butte County
+- sid: s299
+  path: 29 January 2024 > Butte County
   level: 2
   words: 7
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s300
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 14
-- path: 29 January 2024
+- sid: s301
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Colusa County
+- sid: s302
+  path: 29 January 2024 > Colusa County
   level: 2
   words: 20
-- path: 29 January 2024 > San Diego
+- sid: s303
+  path: 29 January 2024 > San Diego
   level: 2
   words: 11
-- path: 29 January 2024 > San Diego County
+- sid: s304
+  path: 29 January 2024 > San Diego County
   level: 2
   words: 0
-- path: 29 January 2024 > San Francisco Bay Area
+- sid: s305
+  path: 29 January 2024 > San Francisco Bay Area
   level: 2
   words: 18
-- path: 29 January 2024 > Alameda County
+- sid: s306
+  path: 29 January 2024 > Alameda County
   level: 2
   words: 25
-- path: 29 January 2024 > San Joaquin Valley
+- sid: s307
+  path: 29 January 2024 > San Joaquin Valley
   level: 2
   words: 14
-- path: 29 January 2024 > King's County
+- sid: s308
+  path: 29 January 2024 > King's County
   level: 2
   words: 12
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s309
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 9
-- path: 29 January 2024
+- sid: s310
+  path: 29 January 2024
   level: 1
   words: 0
-- path: 29 January 2024 > Stanislaus County
+- sid: s311
+  path: 29 January 2024 > Stanislaus County
   level: 2
   words: 12
-- path: 29 January 2024 > Sierra Nevada
+- sid: s312
+  path: 29 January 2024 > Sierra Nevada
   level: 2
   words: 28
-- path: 29 January 2024 > Alpine County
+- sid: s313
+  path: 29 January 2024 > Alpine County
   level: 2
   words: 46
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s314
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s315
+  path: 29 January 2024
   level: 1
   words: 0
-- path: '29 January 2024 > Appendix F: Glossary and Acronyms'
+- sid: s316
+  path: '29 January 2024 > Appendix F: Glossary and Acronyms'
   level: 2
   words: 392
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s317
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s318
+  path: 29 January 2024
   level: 1
   words: 427
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s319
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s320
+  path: 29 January 2024
   level: 1
   words: 406
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s321
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s322
+  path: 29 January 2024
   level: 1
   words: 433
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s323
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s324
+  path: 29 January 2024
   level: 1
   words: 471
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s325
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s326
+  path: 29 January 2024
   level: 1
   words: 446
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s327
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s328
+  path: 29 January 2024
   level: 1
   words: 408
-- path: 29 January 2024 > Extreme Heat and Community Resilience Program
+- sid: s329
+  path: 29 January 2024 > Extreme Heat and Community Resilience Program
   level: 2
   words: 4
-- path: 29 January 2024
+- sid: s330
+  path: 29 January 2024
   level: 1
   words: 133
 section_count: 330
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

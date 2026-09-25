@@ -1,0 +1,56 @@
+asset_id: stockton-progress-report-apr2026
+card:
+  summary: 'April 2026 progress report on two Valley Air District–funded projects in Stockton (Urban Greening and Vegetated
+    Buffer), implemented by Hyphae in partnership with Little Manila Rising. Covers work August 2025–April 2026: GIS/mapping
+    platform setup, data collection (tree inventory, air quality, heat, satellite imagery), site prioritization methodology,
+    community engagement planning, Caltrans coordination for buffer sites, permitting pathway evaluation, and project management.
+    Most major deliverables (prioritization map, engagement plan, monitoring plan, O&M manual, design specs) remain in progress
+    as of April; report recommends internal verification with LMR before Valley Air District submission.'
+  doc_role: report
+  authorship: Hyphae, in partnership with Little Manila Rising; AI-drafted (noted in title as 'Claude')
+  disposition: reference
+  disposition_reason: Contains recent Stockton project outcomes and process documentation valuable for context and precedent,
+    but is self-described as draft/working notes and explicitly flagged for verification before submission. AI authorship
+    and reliance on internal meeting notes (not primary records) require fact-checking before any citation. No extractable
+    reusable prose; suitable as lookup reference only.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 's2: Project period August 2025 – April 2026'
+  - 's3: Two projects funded by Valley Air District, implemented with Little Manila Rising in Stockton, CA'
+  - 's5: Felt GIS/mapping platform stood up as shared workspace; tree inventory ~40–50 trees to date from LMR PlanetGeo database'
+  - 's5: Data layers aggregated: property/parcel, roads, Caltrans truck/traffic counts, CO2 dispersion, Ecostress satellite
+    heat-map, NDVI/Leaf Area Index model in progress, 3D LiDAR digital twin in progress'
+  - 's6: Site visit January 14, 2026 with LMR urban forestry team to tour candidate planting areas'
+  - 's6: Prioritization map targeted for delivery May 2026 (in progress as of April)'
+  - 's8: Community Steering Committee presentation March/April 2026; LMR''s existing Stacked Engagement Method and MyFreeTree
+    program reviewed as foundation'
+  - 's10: Two dedicated Caltrans District 10 coordination meetings December 9–10, 2025; potential sites tied to I-5 viaduct
+    and on-ramp redesign'
+  - 's10: Three named Vegetated Buffer sites (Hazelton Elementary School, I-5 northbound W. Eighth St. exit, MLK Blvd./Golden
+    Gate Ave ROW) not yet confirmed as of April 2026'
+  - 's14: MOUs finalized with LMR for both project scopes; recurring monthly Hyphae/LMR project meetings established August
+    2025 onward'
+  - 's16: Original project timeline dated back to 2023 and identified as behind schedule as of report date'
+  - 's19: Invoicing and billing recommendations: split by deliverable/topic within shared meetings, keep project outputs physically
+    separate, implement shared time-tracking log'
+  flags:
+  - AI authorship explicit ('Claude'); verify all facts against primary records before citing per inventory note
+  - self-described as working draft/internal notes, not final submission-ready
+  - 'multiple deliverables explicitly marked ''in progress'' or ''not yet finalized'': prioritization map (May 2026 target),
+    engagement/stewardship plan, monitoring plan, O&M manual, tree palette, project boundary definition, three named Vegetated
+    Buffer sites, design coordination with Caltrans'
+  - report author recommends internal verification with LMR team before Valley Air District submission
+  - excerpt too thin to judge reusability of process/methodology details; full sections on prioritization, engagement, monitoring
+    needed to assess library value
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 83263d9c035f28f02ea386274e5df19b0c156a9ac2396bfaa21519ff9837e748
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 5192
+    output: 862
+    cache_read: 0
+    cache_write: 0

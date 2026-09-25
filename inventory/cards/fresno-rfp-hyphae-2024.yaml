@@ -1,114 +1,145 @@
 asset_id: fresno-rfp-hyphae-2024
 card:
-  summary: Submitted heat-resilience proposal to Fresno Council of Governments for extreme heat vulnerability analysis and
-    planning across Fresno County. Proposes integrated methodology combining high-resolution thermal modeling (1m MRT data,
-    digital twins, UTCI), community engagement via Working Group and pop-up events, pedestrian/bike traffic analysis, and
-    delivery of heat map, five project profiles, and draft implementation plan. Partners include Urban Diversity Design (community
-    engagement), Tree Fresno (forestry/greening), and Binational of Central California (CBOs). Budget ~$400k over ~18 months.
+  summary: 'Submitted proposal to Fresno Council of Governments for a Fresno County Extreme Heat Analysis project. Hyphae
+    leads with partners Urban Diversity Design, Tree Fresno, and Binational of Central California. Scope: heat vulnerability
+    mapping at 1m MRT resolution using LiDAR and digital twins; pedestrian/bike traffic analysis; identification of five priority
+    project areas with conceptual designs; community engagement via working group, listening sessions, and pop-up events;
+    deliverables include draft heat map, project profiles, and comprehensive plan. Contract period ~18 months; budget ~$435k.
+    Emphasizes data-driven vulnerability analysis combined with hyperlocal community input and culturally responsive engagement.
+    Hyphae contributes technical modeling (UTCI, digital twins, tree growth algorithms), project coordination; BOCC provides
+    community outreach infrastructure; UDD leads data synthesis; Tree Fresno contributes urban forestry expertise and field
+    implementation support.'
   doc_role: submitted-proposal
-  authorship: Hyphae Design Lab with URBAN Diversity Design, Tree Fresno, Binational of Central California
+  authorship: Hyphae Design Lab (lead); BOCC, Urban Diversity Design, Tree Fresno, Binational of Central California (partners)
   disposition: hold
-  disposition_reason: Submitted proposal with citable methodology, partner profiles, and boilerplate text on heat modeling
-    and community engagement applicable to Bay Point work. Contains capability and method sections valuable for reuse. Flagged
-    as source of 'Fresno County' context-leakage risk in existing library boilerplate.
+  disposition_reason: 'This is a submitted proposal demonstrating Hyphae''s applied methodology for heat vulnerability assessment,
+    community engagement, and design-ready recommendations in a climate-justice context. Contains reusable: (1) firm-experience
+    case study with named outcomes and partner ecosystem; (2) detailed methods for heat modeling (MRT, UTCI, digital twins,
+    LCZ, pedestrian behavior integration); (3) community engagement templates (working group convening, pop-up events, multilingual
+    outreach, listening sessions); (4) site analysis approach integrating environmental and social vulnerability. However,
+    inventory note flags leakage risk: Bay Point application may be contaminated by Fresno County references copied from this
+    template. Careful extraction needed.'
   serves_needs:
   - need_id: lib-firm-experience
-    how: Completed Fresno County heat analysis project demonstrates Hyphae's capability in UTCI modeling, community-driven
-      hotspot prioritization, and multi-partner coordination at county scale.
+    how: 'Complete case study: Hyphae led heat-analysis proposal for Fresno COG; deliverables (heat map, five project profiles,
+      plan) with partners; established methodology; demonstrated integration of technical (LiDAR, digital twins, UTCI) and
+      community-driven approach.'
   - need_id: lib-methods
-    how: Detailed methodology section describes high-resolution thermal modeling (LiDAR MRT, digital twins), Local Climate
-      Zones analysis, pedestrian behavior simulation, and pedestrian/bike traffic analysis workflow applicable to heat infrastructure
-      design.
+    how: 'Detailed description of heat vulnerability modeling pipeline: LiDAR-derived 1m MRT; digital twin simulations (shade,
+      solar, reradiation); UTCI integration; pedestrian behavior modeling; local climate zones; census/public health/environmental
+      data synthesis; tree canopy analysis with proprietary growth algorithms.'
   - need_id: lib-partners
-    how: Partner profiles (Tree Fresno 30+ years urban forestry; URBAN Diversity Design bilingual community engagement; Binational
-      as CBO intermediary) and prior project examples (Richmond Parkway, West Oakland greening) demonstrate track records
-      and expertise models.
+    how: 'Partner profiles: BOCC (community engagement, event-based outreach, CBOs network); Urban Diversity Design (Sheila
+      Hakimipour, agency coordination, culturally responsive engagement); Tree Fresno (30+ years urban forestry, central valley
+      leader); Binational of Central California (disaster prep, health equity).'
   sections:
-  - path: part 2
+  - sid: s2
+    path: part 2 — Heat Inequity & Exposure
     type: need-statement
     reuse_value: high
-    note: 'Specific Fresno County heat-equity problem: MRT disparity (122.7°F low-income vs 115.7°F wealthy areas); agricultural
-      worker exposure; shade inequity in South Fresno. Community-specific vulnerability baseline applicable to template structure.'
-  - path: part 6 - part 7
+    note: 'Specific MRT data for Fresno County: 122.7°F (low-income neighborhoods) vs. 115.7°F (wealthier areas); identifies
+      agricultural workers as vulnerable population; shade inequity as core problem.'
+  - sid: s6
+    path: part 6 — Data Collection & Synthesis
     type: method
     reuse_value: high
-    note: 'Heat vulnerability analysis methodology: data gathering workflow, UTCI modeling with digital twins (sun/shade/reradiation),
-      integration of hyperlocal community knowledge, three-dimensional built environment simulation for intervention design
-      and prioritization.'
-  - path: part 8 - part 9
+    note: Approach to compiling existing environmental and transportation data from multiple sources; leverages partner contacts
+      for efficiency; mentions acceleration success in Los Angeles and Oakland projects.
+  - sid: s7
+    path: part 7 — Methodology for Extreme Heat Vulnerability Analysis
+    type: method
+    reuse_value: high
+    note: 'High-resolution modeling pipeline: satellite data (temporal resolution), local climate zones (30m), integration
+      with community knowledge; digital twins for 3D built-environment simulation; dual technical/community emphasis.'
+  - sid: s8
+    path: part 8 — Medium-Resolution Data
     type: method
     reuse_value: medium
-    note: 'Technical data sources and resolution tradeoffs: satellite thermal data (weekly/monthly temporal resolution, limitations
-      noted), Local Climate Zones at 30m, census and social vulnerability integration for neighborhood-scale prioritization.'
-  - path: part 10 - part 11
+    note: Satellite thermal imagery limitations and uses (weekly/monthly temporal resolution, air temperature estimation feedstock);
+      local climate zones (LCZ) at 30m, 17 categories of building/vegetation topology.
+  - sid: s9
+    path: part 9 — Pedestrian & Bike Analysis + Vulnerability Integration
+    type: method
+    reuse_value: high
+    note: Approach to model pedestrian/bike routes through community input on where people live/work/play; social vulnerability
+      data combined with environmental mapping for prioritization; census-based access equity.
+  - sid: s10
+    path: part 10 — Project-Scale Outcomes
     type: method
     reuse_value: medium
-    note: Project-scale modeling outcomes (hotspot/hot-route/cool-spot identification, built environment heat effects, intervention
-      benefits prediction) and pedestrian/bike traffic analysis methodology development approach.
-  - path: part 13 - part 14
+    note: 'Output specifications from 1m MRT + digital twin: hotspots/cool spots/hot routes/cool routes; built environment
+      effects on heat stress; shade/wind patterns; intervention design simulation.'
+  - sid: s13
+    path: part 13 — Green Streetview Index & Tree Analysis
     type: method
-    reuse_value: medium
-    note: 'Tree canopy project selection and cost-benefit rationale: Green Streetview Index, proprietary tree species database,
-      drought-tolerance/native criteria, integration with existing infrastructure projects, community-ready site prioritization.'
-  - path: part 16 - part 18
+    reuse_value: high
+    note: Use of Green Streetview Index for 5 focus areas; proprietary Hyphae tree species database with drought-tolerance,
+      site suitability, and cost-benefit algorithms; native species selection approach.
+  - sid: s16
+    path: part 16 — Project Staffing (Ivan)
+    type: org-profile
+    reuse_value: high
+    note: 'Ivan (Hyphae lead) role: project coordination, liaison with Fresno COG, environmental simulations, technical analysis
+      across vulnerability assessment, transportation, tree canopy, costing; demonstrates Hyphae''s integration model.'
+  - sid: s18
+    path: part 18 — Partner Profiles (Tree Fresno)
     type: partner-role
     reuse_value: high
-    note: 'Partner roles and CVs: Ivan Hyphae (overall coordination, environmental simulation, technical precision); Mei Visco
-      (project management, environmental justice); Sheila Hakimipour/UDD (community engagement, bilingual outreach, event-based
-      participation); Mona Cummings/Tree Fresno (30+ years urban forestry, tree stewardship, regional expertise).'
-  - path: part 20 - part 21
-    type: capability
+    note: Tree Fresno (30+ years urban forestry); Mona Cummings CEO; expertise in climate-resilient greening, environmental
+      education, stewardship; partnerships with city governments; regional leader Central Valley.
+  - sid: s20
+    path: part 20 — Hyphae Project Examples (Richmond, Oakland)
+    type: project-case
     reuse_value: high
-    note: 'Hyphae project portfolio: West Oakland Prescott pollution-mitigation greening (vegetated buffer); Richmond Parkway
-      Urban Greening (tree planting, bike lanes, pollution fence strategy); AdaptOS framework (measurement, simulation, implementation,
-      assessment cycle; sensor placement optimization; intervention impact modeling).'
-  - path: part 22
-    type: capability
+    note: 'Richmond Parkway Urban Greening (2019-2022, CA Urban Greening Grant): tree planting, bike lane redesign, pedestrian
+      access; ''Treefence'' vegetative barrier strategy; West Oakland Prescott (phased vegetated buffer on Frontage Road);
+      demonstrates scalable pollution-mitigation + greening model.'
+  - sid: s21
+    path: part 21 — AdaptOS Framework
+    type: method
+    reuse_value: high
+    note: Iterative measurement-simulation-implementation-assessment cycle; modeling for sensor placement optimization and
+      intervention simulation (tree planting, rerouting); addresses challenge of predicting intervention benefit-to-cost ratio.
+  - sid: s34
+    path: part 34 — Partner & Community Context (Tree Fresno statement)
+    type: site-context
     reuse_value: medium
-    note: 'Hyphae technical expertise summary: UTCI heat modeling, pedestrian behavior simulation integration, established
-      Central Valley CBO network (CEJC, Valley Improvements Project, Little Manila Rising, LEAP) for stakeholder engagement
-      advantage.'
+    note: 'Fresno County towns: Huron, Cantua Creek, Kettleman City identified as climate-adaptation resource-poor; emphasis
+      on trusted messengers, bilingual outreach (Radio Bilingüe), pop-up events; reflects community engagement strategy.'
   fact_candidates:
-  - 'part 2: Low-income South Fresno neighborhoods experience Mean Radiant Temperature (MRT) levels as high as 122.7°F, compared
-    to 115.7°F in wealthier areas (from LiDAR high-resolution geospatial data).'
-  - 'part 3: Partners: Hyphae, Urban Diversity Design (Sheila Hakimipour), Tree Fresno, Binational of Central California (BOCC).'
-  - 'part 4: Working Group will select 20–30 initial hotspot areas at six months (Q2); community feedback narrows to five
-    cities by Q4.'
-  - 'part 15: Draft plan published for 30-day public review period.'
-  - 'part 18: Tree Fresno has over 30 years of experience in urban forestry, environmental education, and community stewardship
-    across Fresno County and Central Valley.'
-  - 'part 20: West Oakland Prescott project employed phased vegetated buffer pilot along Frontage Road for pollution mitigation.'
-  - 'part 20: Richmond Parkway Urban Greening (2019–2022) funded by California Urban Greening Grant Program; included tree
-    planting, bike lane redesign, pedestrian access improvements.'
-  - 'part 21: AdaptOS framework integrates hyperlocal data collection, modeling, design; cycles through measurement, simulation,
-    implementation, assessment.'
-  - 'part 23: Total project budget approximately $217,342 Hyphae personnel, plus partners and indirect costs.'
-  - 'part 25: Ivan presented ''Adapt Oakland: An Ecosystem Health Economy'' at Health in all Policies Conference, Washington,
-    D.C. (year appears to be 2013 based on section ordering).'
-  - 'part 28: Eric has 15 years at Hyphae; experience includes green roofs, living walls, ecological public toilets.'
-  - 'part 34: Fresno County communities including Huron, Cantua Creek, Kettleman City face unique challenges accessing climate
-    adaptation resources.'
+  - 's2: Low-income Fresno County neighborhoods experience MRT 122.7°F vs. 115.7°F in wealthier areas.'
+  - 's16: Ivan has 15 years at Hyphae; oversees all project activities as primary Fresno COG liaison.'
+  - 's18: Tree Fresno has 30+ years experience in urban forestry across Fresno County and Central Valley.'
+  - 's20: Richmond Parkway Urban Greening Project: 2019–2022, California Urban Greening Grant Program funded.'
+  - 's23: Total project budget ~$435,000 (personnel subtotal $217,342 Hyphae + $46,110 UDD + subcontracted partners).'
+  - 's23: Hyphae personnel subtotal $151,442 (27.7% of total); 1,534 total hours planned across staff.'
+  - 's24: Contract deliverables: 5 project fact sheets (Q4), draft plan, 30-day public review period.'
+  - 's3: Working Group partners include Urban Diversity Design (Sheila Hakimipour) and Tree Fresno.'
+  - 's4: Proposal timeline: 6 months (Q2) select 20–30 hotspot areas; Q4 narrow to 5 cities; remaining period detailed design.'
+  - 's5: BOCC coalition includes 5–7 community-based organizations on voluntary or subcontractor basis.'
   flags:
-  - 'context-leakage risk: proposal repeatedly references ''Fresno County'' and specific Fresno tracts/communities—ensure
-    boilerplate extracted is purged of place names before reuse in Bay Point applications.'
-  - 'excerpt coverage thin on some sections: part 12 and part 15 (deliverables, plan synthesis) truncated; full document review
-    needed for detailed boilerplate extraction.'
-  - contains staff CVs with biographical/personal details (part 29–34) that should be generalized to role descriptions, not
-    copied verbatim.
-  - 'near-duplicate exists: metadata notes 56% overlap with ''fresno-extreme-heat-analysis-doc''—verify which is authoritative
-    version before library ingestion.'
-  - 'metadata inventory note about ''boilerplate leakage'' confirmed: firm-experience text in this proposal explicitly names
-    Fresno projects and will contaminate future proposals if copied without sanitization.'
-  - 'possible organizational evolution: author names (Ivan, Mei, Eric) and partner list reflect 2024 state; verify if current
-    before using as present-day firm capability baseline.'
+  - 'Inventory note warns: ''Fresno County'' boilerplate text may contaminate Bay Point application—flag sections s2, s34
+    and verify that Bay Point excerpts do not copy Fresno examples uncritically.'
+  - 's25–s27, s29–s32: Résumé/CV sections for individual team members (Ivan, Mei Visco, Eric, Merissa MacDonald, etc.) may
+    contain outdated or personal details; limited reuse value beyond credentialing.'
+  - 's19: Insurance requirements section (Comprehensive General Liability $2M, Professional Liability $1M, Workers'' Comp)
+    is boilerplate compliance text; context-specific to Fresno RFP.'
+  - 's35–s36: Title VI civil rights and language-access compliance sections are standard federal grant language, not Hyphae-specific;
+    limited reuse.'
+  - 'Section s23–s24: Detailed budget tables with task breakdowns and hourly rates; rates and allocations are Fresno-specific;
+    verify before reuse in other proposals.'
+  - Excerpt evidence thin for some sections (s1 is transmittal letter only; s11 notes methodology development 'will be further
+    developed after Task 2').
+  - No explicit performance metrics or outcomes reported from prior Fresno work; case presented as proposal, not delivery
+    proof. Outcomes will be available post-implementation.
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
-  backend: api-batch
+  prompt_version: c3
+  backend: api-sync
   text_sha256: 34a6b853a937b5bff95b6462e51055b07d35a65e95e9c25444e4b202eedcc6ee
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:14:09'
   usage:
-    input: 9696
-    output: 1748
+    input: 9915
+    output: 2297
     cache_read: 0
     cache_write: 0

@@ -1,0 +1,68 @@
+asset_id: prescott-greening-proposal-2021
+card:
+  summary: 2021 proposal for the Prescott greening project in West Oakland, led by Urban Biofilter (WOEIP + Hyphae), funded
+    by MTC and ACTC with co-funding from Port of Oakland and CalFire. Project applies vegetation-based pollution mitigation
+    strategies (green walls, vegetated buffers) to reduce air exposure in West Oakland's highest pollution hotspot, part of
+    the WOCAP (AB617) implementation. Total project estimated at ~$30 million with $300k MTC authorization and $600k+ match
+    secured.
+  doc_role: submitted-proposal
+  authorship: Urban Biofilter (West Oakland Environmental Indicators Project & Hyphae Design Laboratory)
+  disposition: hold
+  disposition_reason: Citable project case with named outcomes (funding secured, infrastructure type, partner collaboration,
+    health co-benefits framing) and research-supported methods (pollution-reducing vegetation, WOCAP context). Reusable for
+    capability and methods library.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: 'Hyphae project case: Prescott greening, MTC-funded, demonstrates pollution-reduction and engagement within WOCAP
+      framework; citable outcomes and multi-partner model (WOEIP + Hyphae).'
+  - need_id: lib-methods
+    how: Documents vegetation-based pollution mitigation strategy (green walls, vegetated buffers) with research citation
+      (Alexeeff et al. 2018) and co-benefits integration (stormwater, health, place-making).
+  sections:
+  - sid: s1
+    path: part 1 / Project Overview
+    type: project-case
+    reuse_value: high
+    note: Prescott greening project vision, air-quality context (AB617, WOCAP), neighborhood selection rationale, partner
+      roles (WOEIP, Hyphae, BAAQMD).
+  - sid: s2
+    path: part 2 / Neighborhood Wide Vision
+    type: site-context
+    reuse_value: high
+    note: Prescott as highest pollution hotspot in West Oakland; green infrastructure strategies (buffers, green walls); documented
+      co-benefits (health, stormwater, place-making) with research-supported claims.
+  - sid: s3
+    path: part 3 / Funding
+    type: evidence-data
+    reuse_value: medium
+    note: 'Funding sources named: $300k MTC, $600k ACTC match, $50k Port of Oakland, $100k CalFire; total project ~$30 million;
+      illustrates multi-funder coordination model.'
+  fact_candidates:
+  - 'part 1: Prescott is West Oakland''s most heavily impacted neighborhood by air pollution'
+  - 'part 1: Project is part of WOCAP, an AB617 collaboration with 89 strategies to reduce air pollution'
+  - 'part 2: Prescott is the highest pollution hotspot within West Oakland'
+  - 'part 3: $300,000 authorized through MTC Priority Conservation Areas'
+  - 'part 3: $600,000 match from ACTC (2:1 ratio)'
+  - 'part 3: $50,000 expected from Port of Oakland'
+  - 'part 3: $100,000 expected from CalFire'
+  - 'part 3: Total project estimated at roughly $30 million'
+  - 'part 1: Partners are West Oakland Environmental Indicators Project (WOEIP) and Hyphae Design Laboratory operating as
+    Urban Biofilter'
+  - 'part 2: Project involves almost a decade of prior greening research and planning'
+  flags:
+  - 'excerpt thin for detailed methods: vegetation species, air-quality measurement protocols, and workforce-development specifics
+    not visible in provided sections'
+  - budget note states 'More detailed budget expected summer 2022' — document may be preliminary
+  - modified date 2024-03-01 but proposal dated 2021; unclear if this is a final submitted version or updated draft
+  - no community voices or engagement process detail visible in excerpts
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: efd7aa65d44250229eccc66ab983ef272fc6901048665e45098b94dd682e30d5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3337
+    output: 891
+    cache_read: 0
+    cache_write: 0

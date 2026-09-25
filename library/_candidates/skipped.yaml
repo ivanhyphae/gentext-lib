@@ -1,0 +1,48 @@
+- asset: ehcrp-r2-ambrose-center-docx
+  sid: s9
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-center-docx
+  sid: s11
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-center-docx
+  sid: s7
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s9
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s11
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s12
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s13
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s30
+  why: type notes
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s31
+  why: type notes
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s34
+  why: type notes
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s57
+  why: type solicitation-text
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s64
+  why: type notes
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s88
+  why: type notes
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s104
+  why: duplicate of ehcrp-r2-ambrose-center-docx/s104
+- asset: ehcrp-r2-ambrose-memorial-docx
+  sid: s118
+  why: type solicitation-text
+- asset: fresno-extreme-heat-analysis-doc
+  sid: s88
+  why: duplicate of ehcrp-r2-ambrose-center-docx/s104

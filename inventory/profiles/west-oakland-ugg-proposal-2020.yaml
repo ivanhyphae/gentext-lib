@@ -1,0 +1,32 @@
+asset_id: west-oakland-ugg-proposal-2020
+source_path: sources/west-oakland-ugg-proposal-2020/west-oakland-ugg-proposal-2020.md
+source_sha256: 2a6342f48b025b0160aae72a3986a8522cf071a1ee3f7ba4de57106b39bacdbe
+text_sha256: eaa9a149514581061d7dc85014f28565cddd40cac00b865d91157c6fdbc3d6d8
+words: 2036
+pii:
+  emails: 0
+  phones: 0
+near_duplicates:
+- asset_id: richmond-ugg-proposal-gdoc
+  jaccard: 0.17
+  contained_in: 0.558
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 236
+section_count: 4
+profiled: '2026-09-25'
+profiler: p2

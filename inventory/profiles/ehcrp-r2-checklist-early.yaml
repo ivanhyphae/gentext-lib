@@ -11,12 +11,14 @@ near_duplicates:
   jaccard: 0.695
   contained_in: 0.805
 sections:
-- path: part 1
+- sid: s1
+  path: part 1
   level: 1
   words: 600
-- path: part 2
+- sid: s2
+  path: part 2
   level: 1
   words: 477
 section_count: 2
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

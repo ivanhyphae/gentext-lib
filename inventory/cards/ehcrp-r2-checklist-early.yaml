@@ -1,48 +1,38 @@
 asset_id: ehcrp-r2-checklist-early
 card:
-  summary: Compliance checklist for LCI EHCRP Round 2 Early Infrastructure Grant applications, listing required documents
-    and deliverables (project location, feasibility, team roles, financial statements, nonprofit certifications, funding priority
-    justifications). Organized by responsible party and cross-referenced to program guidelines sections.
+  summary: Compliance checklist for LCI EHCRP Round 2 Early Infrastructure Grant applications, listing required documents,
+    responsible parties, and corresponding program guideline sections. Two-sheet spreadsheet format tracking deliverables
+    from project description through financial and organizational documentation.
   doc_role: solicitation
-  authorship: LCI (Late-Stage Infrastructure / Early Infrastructure grant program)
+  authorship: LCI (California Energy Commission)
   disposition: reference
-  disposition_reason: Authoritative checklist needed to track compliance requirements; not prose to reuse but essential lookup
-    document for Bay Point applications.
+  disposition_reason: Authoritative checklist for application compliance; needed to track what must be submitted but not source
+    material for proposal prose. Useful reference to ensure completeness but not reusable content.
   serves_needs:
-  - need_id: overview
-    how: 'Names required deliverable: geographic area description and project feasibility documentation.'
-  - need_id: pt-q1
-    how: Identifies lead and co-applicant as required parties; implies documentation of team roles and expertise.
-  sections:
-  - path: part 1
-    type: solicitation-text
-    reuse_value: high
-    note: 'Core compliance matrix: geographic description, feasibility, location, CBO office location requirements for Early
-      Infrastructure.'
-  - path: part 2
-    type: solicitation-text
-    reuse_value: medium
-    note: Financial and governance requirements (audits, Form 990, 501(c)(3), SDAC/DAC justification) cross-referenced to
-      program guidelines.
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: Checklist references Program Guidelines sections; webinars and office hours would clarify ambiguous checklist items
+  sections: []
   fact_candidates:
-  - Early Infrastructure applicants may not have specific sites identified yet but must describe intended area to best of
-    their ability (part 1)
-  - CBO office must be within 100 miles of project site (part 1)
-  - Lead applicant and co-applicants must provide audit findings from last five years, if applicable (part 2)
-  - Nonprofit organizations must submit most recent IRS Form 990 (part 2)
-  - Nonprofit organizations must submit IRS 501(c)(3) Tax Determination Letter (part 2)
+  - 'Part 1: Applicants must describe geographic area; Early Infrastructure applicants may not have specific sites identified
+    yet'
+  - 'Part 2: Lead applicant or co-applicant(s) must provide financial statements from last two years including balance sheets,
+    income statements, statements of cash flows'
+  - 'Part 2: Nonprofit organizations must submit most recent IRS Form 990'
+  - 'Part 2: Nonprofit organizations must submit IRS 501(c)(3) Tax Determination Letter'
+  - 'Part 2: Audit findings required if applicable in last five years'
   flags:
-  - Near-duplicate of ehcrp-r2-checklist-advanced (80% overlap); consider consolidation.
-  - Excerpts do not include full checklist items; detailed compliance requirements may be incomplete in evidence presented.
-  - Document is xlsx (spreadsheet); outline may not capture all columns/structure.
+  - Excerpt too thin to judge detail—spreadsheet format, cell content incomplete
+  - Near-duplicate of ehcrp-r2-checklist-advanced (80% overlap); Advanced checklist may be more relevant if Hyphae plans eventual
+    Advanced tier application
+  - No prose to extract; reference only for compliance tracking
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 886943f92274f63de23a41e235f9202d0260057eed58451c06c604297825e960
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 2939
-    output: 491
+    input: 3022
+    output: 370
     cache_read: 0
     cache_write: 0

@@ -1,0 +1,101 @@
+asset_id: sacramento-plg-submittal-2026
+source_path: sources/sacramento-plg-submittal-2026/sacramento-plg-submittal-2026.md
+source_sha256: 5385aa0a49c64a9b2d07630f1fce56c54617589048977028fa1902da847e8e26
+text_sha256: 61349c2fc951f84c59a7d4d204920e661ae111f938372aee33e775230cf4ae3b
+words: 1378
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Sacramento Parking Lot Greening & Depaving Planning
+  level: 1
+  words: 0
+- sid: s2
+  path: Sacramento Parking Lot Greening & Depaving Planning > 1. Introductory Letter
+  level: 2
+  words: 290
+- sid: s3
+  path: Sacramento Parking Lot Greening & Depaving Planning > 2. Office Location at which Work will be Performed
+  level: 2
+  words: 45
+- sid: s4
+  path: Sacramento Parking Lot Greening & Depaving Planning > 3. Qualifications and Experience of Project Manager and Team
+  level: 2
+  words: 62
+- sid: s5
+  path: Sacramento Parking Lot Greening & Depaving Planning > 3. Qualifications and Experience of Project Manager and Team > Key Personnel
+  level: 3
+  words: 121
+- sid: s6
+  path: Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan
+  level: 2
+  words: 119
+- sid: s7
+  path: Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan > The adaptOS Platform
+  level: 3
+  words: 58
+- sid: s8
+  path: 'Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan > Task 1: Geospatial Pavement Analysis & Hotspot Mapping'
+  level: 3
+  words: 41
+- sid: s9
+  path: 'Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan > Task 2: Development of Technical Manuals'
+  level: 3
+  words: 46
+- sid: s10
+  path: 'Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan > Task 3: Pilot Project Implementation Support'
+  level: 3
+  words: 32
+- sid: s11
+  path: 'Sacramento Parking Lot Greening & Depaving Planning > 4. Project Approach and Work Plan > Task 4: Community Engagement & Education'
+  level: 3
+  words: 28
+- sid: s12
+  path: Sacramento Parking Lot Greening & Depaving Planning > 5. Project Schedule
+  level: 2
+  words: 74
+- sid: s13
+  path: Sacramento Parking Lot Greening & Depaving Planning > 6. Supportive Information
+  level: 2
+  words: 38
+- sid: s14
+  path: Sacramento Parking Lot Greening & Depaving Planning > 7. References
+  level: 2
+  words: 37
+- sid: s15
+  path: Sacramento Parking Lot Greening & Depaving Planning > 8. SAM.gov Registration
+  level: 2
+  words: 35
+- sid: s16
+  path: Sacramento Parking Lot Greening & Depaving Planning > 9. Litigation Statement
+  level: 2
+  words: 27
+- sid: s17
+  path: Sacramento Parking Lot Greening & Depaving Planning > 10. Conflict of Interest Statement
+  level: 2
+  words: 33
+- sid: s18
+  path: Sacramento Parking Lot Greening & Depaving Planning > 11. Insurance Coverage
+  level: 2
+  words: 35
+- sid: s19
+  path: Sacramento Parking Lot Greening & Depaving Planning > 12. Work Hours and Cost Estimate
+  level: 2
+  words: 0
+- sid: s20
+  path: Sacramento Parking Lot Greening & Depaving Planning > 12. Work Hours and Cost Estimate > Labor Breakdown
+  level: 3
+  words: 93
+- sid: s21
+  path: Sacramento Parking Lot Greening & Depaving Planning > 12. Work Hours and Cost Estimate > Direct Costs & Summary
+  level: 3
+  words: 30
+- sid: s22
+  path: Sacramento Parking Lot Greening & Depaving Planning > References
+  level: 2
+  words: 12
+section_count: 22
+profiled: '2026-09-25'
+profiler: p2

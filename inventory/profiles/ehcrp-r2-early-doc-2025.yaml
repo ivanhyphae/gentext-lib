@@ -1,0 +1,322 @@
+asset_id: ehcrp-r2-early-doc-2025
+source_path: sources/ehcrp-r2-early-doc-2025/ehcrp-r2-early-doc-2025.md
+source_sha256: a925d4e6ee3183c373660586164bcae1bbe7c9085c42dfa665acca37d8a1665f
+text_sha256: 8222e91395c95d65beced6d2646a47243372a50a62b405e48221abc4e24d1b73
+words: 7681
+pii:
+  emails: 14
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Meetings
+  level: 1
+  words: 0
+- sid: s2
+  path: Meetings > EHCRP Round 2 Meetings
+  level: 2
+  words: 0
+- sid: s3
+  path: Meetings > Oct 29, 2025 | Partnership and Storytelling Review Planning
+  level: 2
+  words: 1001
+- sid: s4
+  path: Meetings > Sep 23, 2025 | BB-MP EHCRP pre-game
+  level: 2
+  words: 870
+- sid: s5
+  path: 'Meetings > Jul 15, 2025 | Extreme Heat and Community Resilience Program Input Session: Statewide (1)'
+  level: 2
+  words: 223
+- sid: s6
+  path: 'Meetings > Aug 12, 2025 | Extreme Heat and Community Resilience Program Input Session: Statewide'
+  level: 2
+  words: 113
+- sid: s7
+  path: Potential Partners
+  level: 1
+  words: 42
+- sid: s8
+  path: Potential Partners > BB comments from early Oct
+  level: 2
+  words: 0
+- sid: s9
+  path: Potential Partners > EHRCP Heat Grants....
+  level: 2
+  words: 39
+- sid: s10
+  path: EHCRP Plan
+  level: 1
+  words: 555
+- sid: s11
+  path: EHCRP Plan > EHCRP Planning Grant Teams Framework
+  level: 2
+  words: 0
+- sid: s12
+  path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 1: LA County Depaving/Olympics'
+  level: 3
+  words: 83
+- sid: s13
+  path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 2: Central Valley Farmworker Protection'
+  level: 3
+  words: 81
+- sid: s14
+  path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 3: Regional Typology Development'
+  level: 3
+  words: 75
+- sid: s15
+  path: EHCRP Plan > Strategic Meeting Allocation
+  level: 2
+  words: 73
+- sid: s16
+  path: Emails
+  level: 1
+  words: 1719
+- sid: s17
+  path: Concepts
+  level: 1
+  words: 230
+- sid: s18
+  path: Previous EHCRP material
+  level: 1
+  words: 251
+- sid: s19
+  path: Partnership Questionnaire
+  level: 1
+  words: 17
+- sid: s20
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~
+  level: 2
+  words: 0
+- sid: s21
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s22
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 1. Organization Name~~
+  level: 4
+  words: 0
+- sid: s23
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s24
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 2. Organization Address~~
+  level: 4
+  words: 2
+- sid: s25
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s26
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 3. Organization Address~~
+  level: 4
+  words: 1
+- sid: s27
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s28
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 4. Organization Address~~
+  level: 4
+  words: 2
+- sid: s29
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s30
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 5. Preferred Point of Contact~~
+  level: 4
+  words: 1
+- sid: s31
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s32
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 6. Preferred Point of Contact~~
+  level: 4
+  words: 1
+- sid: s33
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s34
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 7. Preferred Point of Contact~~
+  level: 4
+  words: 1
+- sid: s35
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~
+  level: 3
+  words: 0
+- sid: s36
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > ~~Question Title~~ > ~~\ 8. Preferred Point of Contact~~
+  level: 4
+  words: 1
+- sid: s37
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s38
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 9. Please describe your organization's geographic service areas (i.e. neighborhood, town/city, county, unincorporated
+    area, region, etc.)
+  level: 4
+  words: 48
+- sid: s39
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s40
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 10. Please provide an overview of your organization’s mission.
+  level: 4
+  words: 46
+- sid: s41
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s42
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 11. Please provide an overview of your organization's programs and initiatives.
+  level: 4
+  words: 98
+- sid: s43
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s44
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 12. Please briefly describe you organization's operational structure (size, staffing, and any significant partnerships
+    or collaborative relationships that support your work).
+  level: 4
+  words: 73
+- sid: s45
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s46
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 13. Please describe the demographics and socioenconomic characteristics of the populations or communities your
+    organization serves.
+  level: 4
+  words: 55
+- sid: s47
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s48
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 14. Please describe the specific challenges or issues experienced by the communities served by your organization,
+    and/or any other relevant information.
+  level: 4
+  words: 140
+- sid: s49
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s50
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 15. Organization Type
+  level: 4
+  words: 38
+- sid: s51
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s52
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > 16\. Please list any online or public-facing sites, social media pages, etc., that might help illustrate your
+    organization’s mission, service area, and/or programs and initiatives.
+  level: 4
+  words: 84
+- sid: s53
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s54
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 17. Have you identified a potential EHCRP project?
+  level: 4
+  words: 2
+- sid: s55
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s56
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > 18\. If you answered "Yes" to Question 17, please briefly describe your project.
+  level: 4
+  words: 0
+- sid: s57
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s58
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > 19\. If you answered "No" to Question 17, please describe potential project areas of focus.
+  level: 4
+  words: 139
+- sid: s59
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title
+  level: 3
+  words: 0
+- sid: s60
+  path: Partnership Questionnaire > ~~Applicant and Project Information~~ > Question Title > \ 20. Which of the EHCRP Round 2 Project Types best describes your project or the type of project you’re interested
+    in advancing?
+  level: 4
+  words: 100
+- sid: s61
+  path: Partnership Questionnaire > Applicant Team Roles
+  level: 2
+  words: 287
+- sid: s62
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s63
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 21. Is your organization interested in participating in a proposal as Lead Applicant, Co-Applicant, Contributor, or Not Sure?
+  level: 4
+  words: 6
+- sid: s64
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s65
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 22. Please identify your organization’s areas of expertise, skills/competencies, and any other experience that might contribute
+    to an EHCRP project. (Select all that apply)
+  level: 4
+  words: 83
+- sid: s66
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s67
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 23. Please describe in your own words what your organization’s areas of expertise, skills, competencies, experiences, and/or
+    past or ongoing work that are relevant to EHCRP program goals and project types.
+  level: 4
+  words: 172
+- sid: s68
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s69
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 24. If you have identified or begun formulating a project, what kinds of skills or expertise are you looking for in a partner
+    organization? (Select all that apply)
+  level: 4
+  words: 83
+- sid: s70
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s71
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 25. Please describe in your own words what kinds of skills or expertise are you looking for in a partner organization.
+  level: 4
+  words: 104
+- sid: s72
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s73
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > 26\. Please share any other information you would like potential partners to know about your organization and/or potential project.
+  level: 4
+  words: 118
+- sid: s74
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title
+  level: 3
+  words: 0
+- sid: s75
+  path: Partnership Questionnaire > Applicant Team Roles > Question Title > \ 27. Do you consent to sharing this information on our website so that other interested applicants can connect?
+  level: 4
+  words: 3
+section_count: 75
+profiled: '2026-09-25'
+profiler: p2

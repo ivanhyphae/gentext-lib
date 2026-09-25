@@ -1,0 +1,380 @@
+asset_id: eemp-2025-proposal
+source_path: sources/eemp-2025-proposal/eemp-2025-proposal.md
+source_sha256: 6c89f688b250ad54da810097ffb024e0d89034267d3e44d6196342c64d11250f
+text_sha256: 4d128038767fada8bcd32a98d2025de63227450a369f469a6077255cd43e3ce6
+words: 30692
+pii:
+  emails: 16
+  phones: 1
+near_duplicates:
+- asset_id: arvin-lamont-veg-buffer-proposal
+  jaccard: 0.453
+  contained_in: 0.804
+- asset_id: fresno-extreme-heat-analysis-doc
+  jaccard: 0.359
+  contained_in: 0.797
+sections:
+- sid: s1
+  path: START HERE
+  level: 1
+  words: 66
+- sid: s2
+  path: Proposal Coordination
+  level: 1
+  words: 246
+- sid: s3
+  path: Docs
+  level: 1
+  words: 31
+- sid: s4
+  path: 'SUBMITTAL CHECKLIST: STEP 1 – PROJECT PROPOSAL'
+  level: 1
+  words: 161
+- sid: s5
+  path: Scoring Criteria
+  level: 1
+  words: 1
+- sid: s6
+  path: Scoring Criteria > Jun 3, 2025 | Hyphae x Courtney
+  level: 2
+  words: 123
+- sid: s7
+  path: Scoring Criteria > May 22, 2025 | Courtney ACRCD x Hyphae
+  level: 2
+  words: 334
+- sid: s8
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in
+  level: 2
+  words: 9
+- sid: s9
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points
+  level: 3
+  words: 0
+- sid: s10
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > A. Caltrans Coordination & RTF Eligibility
+  level: 4
+  words: 71
+- sid: s11
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > B. CEQA Documentation & Requirements
+  level: 4
+  words: 76
+- sid: s12
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > C. Maintenance Requirements and Constraints
+  level: 4
+  words: 69
+- sid: s13
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > D. Budget and Cost Cap Breakdown
+  level: 4
+  words: 52
+- sid: s14
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > E. Design Strategy and Constraints
+  level: 4
+  words: 58
+- sid: s15
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > F. Timeline and Deliverables
+  level: 4
+  words: 63
+- sid: s16
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > I. Summary of Key Discussion Points > G. Role Clarification and Next Steps
+  level: 4
+  words: 73
+- sid: s17
+  path: 'Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 🔧 MAINTENANCE: Summary of Key Points and Open Questions'
+  level: 3
+  words: 0
+- sid: s18
+  path: 'Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 🔧 MAINTENANCE: Summary of Key Points and Open Questions > ❌ Long-Term Maintenance Not Allowed (Confirmed from Webinar)'
+  level: 4
+  words: 65
+- sid: s19
+  path: 'Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 🔧 MAINTENANCE: Summary of Key Points and Open Questions > ✅ Establishment Maintenance May Be Permissible (But Requires Strategy)'
+  level: 4
+  words: 112
+- sid: s20
+  path: 'Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 🔧 MAINTENANCE: Summary of Key Points and Open Questions > 🛠️ Strategy to Transition to Caltrans for Long-Term'
+  level: 4
+  words: 112
+- sid: s21
+  path: 'Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 🔧 MAINTENANCE: Summary of Key Points and Open Questions > 🧾 Letter Requirements & Maintenance Duration by Budget Tier'
+  level: 4
+  words: 307
+- sid: s22
+  path: Scoring Criteria > May 8, 2025 | ACRCD - Hyphae check in > 5/8/25 ACRCD check in
+  level: 3
+  words: 913
+- sid: s23
+  path: Scoring Criteria > MP - MV May 7, 2025
+  level: 2
+  words: 148
+- sid: s24
+  path: Scoring Criteria > Apr 30, 2025 | Partnership and Storytelling Review Planning
+  level: 2
+  words: 107
+- sid: s25
+  path: PROPOSAL (ONLY)
+  level: 1
+  words: 1205
+- sid: s26
+  path: Budget
+  level: 1
+  words: 112
+- sid: s27
+  path: Stuff from other projects
+  level: 1
+  words: 1848
+- sid: s28
+  path: TEXT FROM OTHER PROJECTS
+  level: 1
+  words: 8
+- sid: s29
+  path: TEXT FROM OTHER PROJECTS > A. Transmittal Letter
+  level: 2
+  words: 0
+- sid: s30
+  path: TEXT FROM OTHER PROJECTS > B. Table of Contents
+  level: 2
+  words: 0
+- sid: s31
+  path: TEXT FROM OTHER PROJECTS > C. Overview
+  level: 2
+  words: 719
+- sid: s32
+  path: TEXT FROM OTHER PROJECTS > C. Overview > Disadvantaged Communities
+  level: 3
+  words: 11
+- sid: s33
+  path: TEXT FROM OTHER PROJECTS > C. Overview > From CARB SMMI PEG Application
+  level: 3
+  words: 1431
+- sid: s34
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants
+  level: 3
+  words: 0
+- sid: s35
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ-MPCA grant
+  level: 4
+  words: 124
+- sid: s36
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ Google Data Grant
+  level: 4
+  words: 279
+- sid: s37
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Boyle Heights Community Change
+  level: 4
+  words: 290
+- sid: s38
+  path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Endless Frontier (submitted 8/24)
+  level: 4
+  words: 2122
+- sid: s39
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan
+  level: 2
+  words: 0
+- sid: s40
+  path: 'TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > Task 1: Collaboration and Community Engagement'
+  level: 3
+  words: 286
+- sid: s41
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~
+  level: 3
+  words: 59
+- sid: s42
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~ > ~~Working Group Member Ideas:~~
+  level: 4
+  words: 108
+- sid: s43
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~
+  level: 3
+  words: 71
+- sid: s44
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~ > ~~Outreach Channels~~
+  level: 4
+  words: 28
+- sid: s45
+  path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Multilingual Engagement Strategy ~~
+  level: 3
+  words: 1495
+- sid: s46
+  path: TEXT FROM OTHER PROJECTS > From EHCRP
+  level: 2
+  words: 3731
+- sid: s47
+  path: 'TEXT FROM OTHER PROJECTS > From EHCRP > Task 2: Review Existing Plans, Guidelines, and Policies'
+  level: 3
+  words: 1599
+- sid: s48
+  path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis'
+  level: 2
+  words: 74
+- sid: s49
+  path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis > ~~VERSION 2~~'
+  level: 3
+  words: 998
+- sid: s50
+  path: TEXT FROM OTHER PROJECTS > ~~3. Technical Approach Summary~~
+  level: 2
+  words: 1434
+- sid: s51
+  path: 'TEXT FROM OTHER PROJECTS > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis'
+  level: 2
+  words: 66
+- sid: s52
+  path: 'TEXT FROM OTHER PROJECTS > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects'
+  level: 2
+  words: 528
+- sid: s53
+  path: TEXT FROM OTHER PROJECTS > From Green Latinos draft
+  level: 2
+  words: 1049
+- sid: s54
+  path: 'TEXT FROM OTHER PROJECTS > Task 6:  Develop Planning Level Costs for the Identified Shade Improvement Projects'
+  level: 2
+  words: 25
+- sid: s55
+  path: 'TEXT FROM OTHER PROJECTS > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles'
+  level: 2
+  words: 69
+- sid: s56
+  path: 'TEXT FROM OTHER PROJECTS > Task 8: Develop the Draft Plan and Publish the Draft for Public Review'
+  level: 2
+  words: 68
+- sid: s57
+  path: 'TEXT FROM OTHER PROJECTS > Task 9: Presentation and Policy Board Acceptance'
+  level: 2
+  words: 36
+- sid: s58
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 15
+- sid: s59
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 11
+- sid: s60
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr)
+  level: 4
+  words: 40
+- sid: s61
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Designer & Project Manager ($150/hr)
+  level: 4
+  words: 45
+- sid: s62
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Technical Design lead ($200/hr)
+  level: 4
+  words: 66
+- sid: s63
+  path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Modeling specialist ($150/hr)
+  level: 4
+  words: 1789
+- sid: s64
+  path: TEXT FROM OTHER PROJECTS > F. Budget and Billing Format
+  level: 2
+  words: 0
+- sid: s65
+  path: TEXT FROM OTHER PROJECTS > G. Insurance Requirements
+  level: 2
+  words: 0
+- sid: s66
+  path: TEXT FROM OTHER PROJECTS > H. Disadvantaged Business Enterprise (DBE) Certification
+  level: 2
+  words: 0
+- sid: s67
+  path: TEXT FROM OTHER PROJECTS > I. Conflicts of Interest
+  level: 2
+  words: 0
+- sid: s68
+  path: TEXT FROM OTHER PROJECTS > J. Summary of Qualifications
+  level: 2
+  words: 0
+- sid: s69
+  path: TEXT FROM OTHER PROJECTS > K. Signing of Proposal/Authorization to Negotiate
+  level: 2
+  words: 0
+- sid: s70
+  path: TEXT FROM OTHER PROJECTS > L. Attachments
+  level: 2
+  words: 0
+- sid: s71
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal
+  level: 2
+  words: 0
+- sid: s72
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Vision
+  level: 3
+  words: 199
+- sid: s73
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Description
+  level: 3
+  words: 290
+- sid: s74
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Alignment (w/ California Extreme Heat Action Plan)
+  level: 3
+  words: 250
+- sid: s75
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Community Needs and Priorities
+  level: 3
+  words: 299
+- sid: s76
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > CommunityInformed Project Design
+  level: 3
+  words: 200
+- sid: s77
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Extreme Heat Conditions and Vulnerability
+  level: 3
+  words: 299
+- sid: s78
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > How are individuals in heat vulnerable communities represented and given power in the decisionmaking processes of the grant?
+  level: 3
+  words: 196
+- sid: s79
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Explain barriers to applying with a local and/or regional public entity
+  level: 3
+  words: 148
+- sid: s80
+  path: 'TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Engagement: How you will engage with local and regional public entities and/or'
+  level: 3
+  words: 0
+- sid: s81
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > tribes throughout the project?
+  level: 3
+  words: 183
+- sid: s82
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Partnership Development
+  level: 3
+  words: 90
+- sid: s83
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Describe how the proposed project will prioritize strategies and outcomes that provide climate change adaptation cobenefits, especially
+    for the benefit of vulnerable communities?
+  level: 3
+  words: 292
+- sid: s84
+  path: TEXT FROM OTHER PROJECTS > Material from EHCRP Interview Process
+  level: 2
+  words: 2012
+- sid: s85
+  path: Notes
+  level: 1
+  words: 0
+- sid: s86
+  path: Scraps
+  level: 1
+  words: 0
+- sid: s87
+  path: Letters
+  level: 1
+  words: 0
+- sid: s88
+  path: Letters > APPENDIX D – LETTER FROM THE LEAD AGENCY RESPONSIBLE FOR CONSTRUCTION OF RELATED TRANSPORTATION FACILITY (RTF)
+  level: 3
+  words: 240
+- sid: s89
+  path: Rough notes
+  level: 1
+  words: 0
+- sid: s90
+  path: CEQA
+  level: 1
+  words: 373
+section_count: 90
+profiled: '2026-09-25'
+profiler: p2

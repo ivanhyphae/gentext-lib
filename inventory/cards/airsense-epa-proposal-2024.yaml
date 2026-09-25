@@ -1,0 +1,120 @@
+asset_id: airsense-epa-proposal-2024
+card:
+  summary: EPA-funded air quality monitoring and CFD modeling project (2024–2029) led by University of South Florida with
+    Hyphae as contracted partner. Combines low-cost sensor networks, Kalman filtering, machine learning (ANN/LSTM), and computational
+    fluid dynamics to map urban air pollution at meter scale. Community engagement with three CBOs (Climate Resolve, Little
+    Manila Rising, West Oakland Environmental Indicators Project) to validate models and drive policy advocacy. Deliverables
+    include integrated air quality database, validated CFD models, ML prediction tools, and policy recommendations. Strong
+    methodological focus on data fusion and uncertainty quantification.
+  doc_role: submitted-proposal
+  authorship: University of South Florida (PI Andres E. Tejada-Martinez, Co-PI Amy Stuart); Hyphae Design Lab as contracted
+    partner
+  disposition: hold
+  disposition_reason: 'Submitted EPA proposal with reusable method chunks: Kalman filtering for sensor data fusion, CFD modeling
+    workflow, machine learning (ANN/LSTM) for air quality prediction, community engagement timeline and roles, data management
+    protocols. Directly applicable to EHCRP Harm Reduction metrics (hr-q2), monitoring methods (lib-methods), and partner
+    engagement models. Section 19–20 contain citable West Oakland outcomes and CBO partnership track record relevant to lib-partners
+    and past Hyphae project documentation.'
+  serves_needs:
+  - need_id: lib-methods
+    how: Details Kalman filtering, CFD simulation (OpenFOAM), ANN/LSTM modeling, sensor data integration workflow applicable
+      to urban heat/air quality monitoring; timeline and community engagement protocol reusable.
+  - need_id: lib-partners
+    how: Sections 19–20 document Hyphae partnership with Climate Resolve, Little Manila Rising, and West Oakland Environmental
+      Indicators Project (WOEIP); includes WOCAP 2019 outcome and CBO track record in policy advocacy.
+  - need_id: lib-firm-experience
+    how: Proposal demonstrates Hyphae track record in community-led environmental modeling, sensor networks, air district
+      collaboration (BAAQMD, SCAQMD), and policy campaign outcomes (West Oakland 2019); citable deliverables and timeline.
+  sections:
+  - sid: s2
+    path: part 2
+    type: need-statement
+    reuse_value: high
+    note: 'Environmental justice framing: low-income urban communities lack air quality monitoring; health disparities and
+      regulatory inequity. Justifies integration of sensors + CFD modeling.'
+  - sid: s3
+    path: part 3
+    type: method
+    reuse_value: high
+    note: 'Expected outcomes framework: Enhanced Data Integration, Accurate Pollution Models, Community-Responsive Tools,
+      Community Empowerment. Structured deliverables applicable to EHCRP harm-reduction outcomes.'
+  - sid: s5
+    path: part 5
+    type: capability
+    reuse_value: high
+    note: Hyphae working relationships with CBOs in Oakland, Los Angeles, Stockton; established sensor networks and multi-year
+      data access. Demonstrates institutional capacity for community partnerships.
+  - sid: s6
+    path: part 6
+    type: method
+    reuse_value: high
+    note: 'Data fusion workflow: Kalman filtering combines low-cost sensors + regulatory data; ANN models for rapid prediction.
+      Directly applicable to Harm Reduction monitoring (hr-q2).'
+  - sid: s10
+    path: part 10
+    type: method
+    reuse_value: medium
+    note: 'CFD simulation workflow: OpenFOAM solver, mesh refinement strategy, traffic emission zones, vegetation modeling.
+      Technical documentation of urban-scale air quality modeling.'
+  - sid: s13
+    path: part 13
+    type: capability
+    reuse_value: medium
+    note: 'Project management: Dr. Tejada-Martinez (20+ yrs CFD), Dr. Stuart (20+ yrs air quality), graduate students, Hyphae
+      coordination. Demonstrates research team structure and expertise depth.'
+  - sid: s19
+    path: part 19
+    type: project-case
+    reuse_value: high
+    note: 'West Oakland case: air district collaborators (BAAQMD), CBO pressure campaign outcomes, 2019 West Oakland Community
+      Air Action Plan (WOCAP) regulatory concessions from CalTrans/DOT/Port. Citable past Hyphae success.'
+  - sid: s20
+    path: part 20
+    type: method
+    reuse_value: high
+    note: 'Four-year community engagement timeline: CBOs lead AOI selection and hotspot mapping (Months 1–12), policy advocacy
+      meetings with transportation officials (Months 13–24). Reusable engagement protocol and milestone structure.'
+  - sid: s21
+    path: part 21
+    type: partner-role
+    reuse_value: high
+    note: 'CBO partner roles: Climate Resolve, Little Manila Rising, WOEIP; WOEIP described as ''resident-led, community-based
+      environmental justice organization'' with prior success persuading decision makers. Partner track record.'
+  fact_candidates:
+  - 's1: Project period 06/01/2025 – 05/31/2029 (four years).'
+  - 's1: Lead PI Andres E. Tejada-Martinez (USF), Co-PI Amy Stuart (USF); Hyphae contracted partner.'
+  - 's2: Project aims to create high-resolution (1 meter scale) maps of air pollution using CFD and sensor integration.'
+  - 's5: Hyphae has established relationships with sensor networks in Oakland, Los Angeles, and Stockton, California.'
+  - 's6: Data integration uses Kalman filtering and covariance-based uncertainty structures.'
+  - 's8: ANN/LSTM models to predict air quality at pollution hotspot locations.'
+  - 's10: CFD simulations use OpenFOAM (open-source finite volume solver); mesh refinement includes 1.0 m building surface
+    cells, 0.25 m bridge cells.'
+  - 's12: Dallas (Inwood Rd / Harry Hines Blvd) case study: ~12 million mesh cells; background mesh 8 m, refinement cylinder
+    20 m height.'
+  - 's13: Dr. Tejada-Martinez has 20+ years CFD research experience; Dr. Stuart has 20+ years air quality research experience.'
+  - 's19: West Oakland Community Air Action Plan (WOCAP) passed 2019; secured regulatory concessions from CalTrans, Department
+    of Transportation, Port of Oakland, and refineries.'
+  - 's20: Two-year timeline per CBO; Data validation/integration (Months 1–12); Policy meetings and awareness dissemination
+    (Months 13–24).'
+  - 's21: WOEIP described as ''resident-led, community-based environmental justice organization'' with prior success in persuading
+    decision makers.'
+  flags:
+  - 'excerpt too thin to judge: ~600 words per section; full technical details of data management, model validation, and QA
+    procedures not visible in openings.'
+  - 'near-duplicate alert: metadata notes epa-aq-final-submission-2024 is 100% duplicate; consolidate holdings.'
+  - Hyphae role is contracted partner to USF (not applicant organization); clarify authority and IP ownership for method reuse.
+  - West Oakland section (s19–20) is strongest for lib-partners and lib-firm-experience; remainder is technical reference
+    material.
+  - Contact redaction confirms metadata compliance (email/phone removed).
+  - Document dates 2024 (modified Nov 2024); project start 2025; current and pending.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 783624060a747c09baa8d96f2095e62a076fd2e65d5d8ce6e1071dd08949a710
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 7995
+    output: 1705
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,30 @@
+asset_id: ecc-gi-contra-costa-deck
+source_path: sources/ecc-gi-contra-costa-deck/ecc-gi-contra-costa-deck.md
+source_sha256: 1c66e2a7ce02d6dc89185238a82ab960349e88f412ff1cafe97ce38f32746000
+text_sha256: 117d5c03dd4f0e209598172ea0b7c58a52a8fb61230dc16df8021a9b1f661ec5
+words: 1267
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: 'Opportunities for Urban Greening and Green Infrastructure in Bay PointTo: Contra Costa County Transportation Planning and Engineering'
+  level: 1
+  words: 108
+- sid: s2
+  path: CA PROP 1 WATER BOND
+  level: 1
+  words: 452
+- sid: s3
+  path: 'Ambrose Recreation & Park DistrictSITE EVALUATIONTONIGHT’S FOCUS: BAY POINT SITE PRIORITIZATION: PROJECT TYPESARPD PRIORITY LOCATIONS - STORMWATER AND HYPHAE STUDIES'
+  level: 1
+  words: 622
+- sid: s4
+  path: 'MaintenancePROJECT IMPLEMENTATION: LOGISTICSProvide long-term maintenance for conservation projects throughout Contra Costa CountyVolunteer program in SF Bay including Contra Costa to help with
+    planting and maintenance of GI projectsVolunteer program hosting clean-up days on N Richmond greenway, free dumpster days'
+  level: 1
+  words: 0
+section_count: 4
+profiled: '2026-09-25'
+profiler: p2

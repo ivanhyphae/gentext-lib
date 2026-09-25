@@ -1,0 +1,83 @@
+asset_id: ecc-gi-contra-costa-deck
+card:
+  summary: Presentation deck on green-infrastructure opportunities in East Contra Costa County, focused on Bay Point. Covers
+    County GI Plan foundation, Prop 1 Water Bond framing, and site prioritization for Ambrose Center Park and Ambrose Memorial
+    Park. Identifies flooding, drainage, and shade deficits; proposes bioretention, swales, tree planting. Includes community
+    input from workshops and surveys. Authored by Hyphae and Contra Costa RCD.
+  doc_role: presentation
+  authorship: Hyphae Design Laboratory (James Hansen, Brent Bucknum); Contra Costa RCD (Chris Lim)
+  disposition: hold
+  disposition_reason: Contains reusable site-context facts, GI framing, and community engagement evidence for Bay Point/Ambrose
+    parks; directly supports EHCRP overview and belonging questions. Establishes infrastructure type, need statements, and
+    prior partnership with RCD and community.
+  serves_needs:
+  - need_id: overview
+    how: Names infrastructure type (GI/urban greening); identifies Ambrose Center Park and Ambrose Memorial Park as priority
+      sites; shows prior county/RCD planning foundation.
+  - need_id: hr-q1
+    how: Documents specific harms in Bay Point (flooding in parking lot and ball fields, lack of tree canopy/shade, incomplete
+      drainage) tied to water and heat exposure.
+  - need_id: be-q1
+    how: Describes design elements (bioretention, shade vegetated buffer, swales, tree planting, community garden, community
+      center) rooted in ARPD facilities and Bay Point context.
+  - need_id: be-q2
+    how: 'Shows community engagement pathway: RCD listening sessions, community survey, community calls, and community input
+      workshop held by RCD prior to project prioritization.'
+  - need_id: lcb-q1
+    how: References County GI Plan (Board-approved August 8, 2019) as planning foundation; cites Prop 1 Water Bond as funding
+      stream; mentions volunteer stewardship program for long-term maintenance.
+  - need_id: lib-site-bay-point
+    how: 'Specific site facts: Ambrose Center Park existing resources (building, community garden, community center, ball
+      fields, basketball courts, Delta de Anza Trail); flooding, drainage, and canopy deficits.'
+  - need_id: lib-partners
+    how: Documents Contra Costa RCD role (Water Resources Assessment, TAG leadership, engagement) and ARPD as site steward
+      with community facility assets.
+  sections:
+  - sid: s1
+    path: Opportunities for Urban Greening and Green Infrastructure in Bay Point
+    type: site-context
+    reuse_value: high
+    note: Project framing, County GI Plan foundation, Prop 1 context, Bay Point prioritization rationale.
+  - sid: s2
+    path: CA PROP 1 WATER BOND
+    type: need-statement
+    reuse_value: high
+    note: Water-related needs in Bay Point (tap water infrastructure, stormwater, landscape); County GI Plan approval date
+      (Aug 8, 2019); DAC and TAG background.
+  - sid: s3
+    path: Ambrose Recreation & Park District
+    type: site-context
+    reuse_value: high
+    note: Ambrose Center Park and Ambrose Memorial Park site observations, existing resources, and potential GI opportunities;
+      community input methods (workshop, survey, calls).
+  fact_candidates:
+  - 's1: Presentation by James Hansen and Brent Bucknum (Hyphae) and Chris Lim (RCD)'
+  - 's1: County Green Infrastructure Plan identified as foundation for GI opportunities in Bay Point'
+  - 's2: County GI Plan approved by Board of Supervisors August 8, 2019'
+  - 's2: Water needs identified: tap water infrastructure, old pipes, streets/trails/landscaping, trash and stormwater infrastructure'
+  - 's2: Prop 1 Water Bond cited as funding mechanism for GI projects'
+  - 's3: Ambrose Center Park existing resources: ARPD building, community garden, community center, ball fields, basketball
+    courts, Delta de Anza Trail'
+  - 's3: Ambrose Center Park site observations: 5 inlets, limited tree canopy/shade, parking lot flooding, incomplete drainage
+    ditch, ball field flooding'
+  - 's3: GI opportunities proposed: bioretention, vegetated buffer, swales, parking connection to Delta de Anza Trail'
+  - 's3: Community engagement methods: RCD community input workshop, community calls, community survey'
+  - 's4: Volunteer program for planting and maintenance of GI projects; clean-up days on N Richmond greenway'
+  flags:
+  - Excerpt s4 is minimal (0 words) and does not convey maintenance content in detail; thin evidence on stewardship framework.
+  - Presentation format; not a detailed written proposal—facts are outline-level, not fully documented.
+  - 'Near-duplicate risk: inventory note suggests this is ''maintained'' by James; check against other bay-point or ambrose-focused
+    decks in library.'
+  - Community voices (quotes/stories) from Bay Point residents about heat or water are not shown in these excerpts; flagged
+    as evidence gap for hr-q1 and be-q1 support.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 117d5c03dd4f0e209598172ea0b7c58a52a8fb61230dc16df8021a9b1f661ec5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3550
+    output: 1185
+    cache_read: 0
+    cache_write: 0

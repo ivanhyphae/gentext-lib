@@ -1,87 +1,156 @@
 asset_id: ehcrp-r2-applicant-prep-guide
 card:
-  summary: EHCRP Round 2 applicant preparation guide covering eligibility, timeline, project types, partnership requirements,
-    and application checklists. Published 2025-11-13. Covers Early and Advanced Transformative Infrastructure categories,
-    harm reduction and belonging budget minimums, and step-by-step guidance for applicants.
+  summary: 'EHCRP Round 2 Applicant Preparation Guide: official LCI guidance on eligibility, project types, application timeline,
+    partnership requirements, and pre-application checklist. Covers two infrastructure tiers (Early $600k–$1M with ≥25% demo;
+    Advanced $2.5M–$4M with 70–85% infrastructure), mandatory co-applicant pairings, budget allocations (15–10% partnerships,
+    5% belonging minimum), and four program values (Harm Reduction, Collaborative Partnerships, Transformational Projects,
+    Lasting Community Benefits). Pre-Application Interest Form due 4–6 weeks after NOFA release (early 2026); awardees announced
+    Fall 2026. TA prioritized for disadvantaged/underserved regions. Document lists required application materials and provides
+    checklists for project scoping, partnership building, and applicant team setup.'
   doc_role: guidance
-  authorship: LCI (Lead and Collaborate Institute) / EHCRP Program
+  authorship: LCI (Landscape Collective Initiative / California state program)
   disposition: reference
-  disposition_reason: Authoritative program guidance defining Round 2 requirements, timelines, and eligibility criteria. Essential
-    for understanding application framework but not prose to reuse in proposals.
+  disposition_reason: Authoritative program rules and eligibility requirements needed to evaluate and develop Bay Point applications.
+    Not prose to reuse, but essential reference for checking compliance and understanding tier budgets, co-applicant rules,
+    and timeline.
   serves_needs:
   - need_id: overview
-    how: Defines two project types (Early/Advanced Transformative Infrastructure) with award amounts and budget allocation
-      requirements by category
-  - need_id: hr-q1
-    how: 'Program value definition: ''reduce heat-related illness and/or death'' but no specific methodologies or data integration
-      approaches shown'
+    how: Guide names both project types (Early and Advanced Transformative Infrastructure) with deliverable tiers and budget
+      requirements; Early requires ≥25% infrastructure demo, Advanced requires 70–85% infrastructure. Does not detail Bay
+      Point's specific tasks or contract period—excerpt too thin.
   - need_id: pt-q1
-    how: Specifies required Lead/Co-Applicant pairings and states partnerships must center 'heat vulnerable voices' but provides
-      no examples of successful prior collaborations
+    how: Specifies required Lead/Co-Applicant pairings by entity type and notes partnerships must bring 'complementary strengths
+      and proven community engagement experience' but does not name Bay Point partners or their specific expertise.
+  - need_id: pt-q2
+    how: States partnerships should show 'proven community engagement experience' and mentions identifying organizations doing
+      heat or resilience work, but provides no prior project examples or lessons from collaboration.
   - need_id: be-q1
-    how: Names 'belonging' as program value requiring design elements but provides no concrete examples of eligible belonging
-      activities
+    how: Program Value 3 (Transformational Projects) and budget allocations mention belonging component (minimum 5%), but
+      guide does not describe design elements or community identity rooting.
+  - need_id: be-q2
+    how: Partnership checklist mentions 'community engagement' and guide references 'Supporters' and 'Contributors,' but does
+      not detail participatory design, trauma-informed strategies, or barrier removal.
   - need_id: lcb-q1
-    how: Mentions 'lasting' solutions and 'transformational' projects as core value but lacks detail on how planning documents
-      drive future infrastructure or funding pathways
+    how: Program Value 4 mentioned in title ('Lasting Community Benefits') but full text not shown in excerpt; guide does
+      not address planning document leverage, funding pipelines, or revenue streams.
   sections:
-  - path: Extreme Heat and Community Resilience Program > EHCRP Round 2 Overview
+  - sid: s2
+    path: Extreme Heat and Community Resilience Program > Round 2 Applicant Preparation Guide
     type: solicitation-text
     reuse_value: high
-    note: $22.5M funding; GGRF and Prop 4 sources; community services + physical improvements focus
-  - path: Extreme Heat and Community Resilience Program > Anticipated Timeline & Milestones
+    note: Overview of guide purpose and scope; states program rules are subject to change and directs to website for updates.
+  - sid: s3
+    path: Extreme Heat and Community Resilience Program > EHCRP Round 2 Overview
     type: solicitation-text
     reuse_value: high
-    note: NOFA release early 2026; pre-app due 4-6 weeks after; awardees announced Fall 2026
-  - path: Extreme Heat and Community Resilience Program > What Kinds of Projects are Eligible for Awards?
+    note: $22.5M for transformative infrastructure planning; combines community services and physical improvements; funded
+      by GGRF and Prop 4 Climate Bond.
+  - sid: s4
+    path: Extreme Heat and Community Resilience Program > Anticipated Timeline & Milestones
     type: solicitation-text
     reuse_value: high
-    note: 'Two types: Early ($600K-$1M, min 25% demo infrastructure) vs Advanced ($2.5-4M, 70-85% infrastructure); budget
-      minimums for partnerships (15%/10%) and belonging (5%)'
-  - path: Extreme Heat and Community Resilience Program > Connecting Proposed Projects to Program Values
+    note: NOFA and Pre-Application Interest Form early 2026; awardees announced Fall 2026; full application released to pre-app
+      submitters.
+  - sid: s9
+    path: Extreme Heat and Community Resilience Program > Technical Assistance for Applicants
     type: solicitation-text
     reuse_value: high
-    note: Harm Reduction, Collaborative Partnerships (Co-Applicants required except Tribes), Transformational Projects defined
-      as program values
-  - path: Extreme Heat and Community Resilience Program > Who Can Apply?
+    note: TA available; prioritized for disadvantaged communities, Tribes, unfunded regions, and orgs without consultant/grant
+      writer; factors include org capacity and project transformative potential.
+  - sid: s10
+    path: Extreme Heat and Community Resilience Program > Who Can Apply?
+    type: solicitation-text
+    reuse_value: high
+    note: 'Eligible lead applicants: public entities, Tribes/Tribal entities, CBOs (501c3, NGO), public academic institutions.
+      Lists specific entity types.'
+  - sid: s11
+    path: Extreme Heat and Community Resilience Program > Applicant Team Roles
+    type: solicitation-text
+    reuse_value: high
+    note: Defines Lead Applicant, Co-Applicant (required), Contributor, Supporter roles; Co-Applicant work plan and budget
+      must be detailed.
+  - sid: s12
+    path: Extreme Heat and Community Resilience Program > What Kinds of Projects are Eligible for Awards?
+    type: solicitation-text
+    reuse_value: high
+    note: 'Two project types: Early Transformative Infrastructure ($600k–$1M, ≥25% demo infrastructure) and Advanced ($2.5M–$4M,
+      70–85% infrastructure). Budget requirements for partnerships (15% Early, 10% Advanced min) and belonging (5% min both).'
+  - sid: s21
+    path: Extreme Heat and Community Resilience Program > Connecting Proposed Projects to Program Values
+    type: solicitation-text
+    reuse_value: high
+    note: 'Four program values: Harm Reduction (reduce heat-related illness/death), Collaborative Partnerships (co-applicants
+      required except Tribes, center heat-vulnerable voices), Transformational Projects (lasting change beyond one-time),
+      and Lasting Community Benefits (inferred from context).'
+  - sid: s24
+    path: Extreme Heat and Community Resilience Program > 1. Identify and Scope Your Project > Project Identification and
+      Scoping Checklist
+    type: template
+    reuse_value: medium
+    note: 'Checklist for project scoping: review program requirements, heat/hazard plans, prior engagement, site feasibility,
+      infrastructure stages, timeline, maintenance, budget.'
+  - sid: s26
+    path: Extreme Heat and Community Resilience Program > 2. Begin Building Partnerships > Partnership Requirements
+    type: solicitation-text
+    reuse_value: high
+    note: Required pairings of Lead and Co-Applicant types to ensure local expertise, community experience, authority, and
+      operational capacity. Tribes exempt from Co-Applicant requirement.
+  - sid: s34
+    path: Extreme Heat and Community Resilience Program > 2. Begin Building Partnerships > CA Native American Tribe or Tribal
+      Entity
     type: solicitation-text
     reuse_value: medium
-    note: 'Eligible applicant types: public entities, CBOs, public academic institutions, Tribes; relevant for team structure
-      planning'
-  - path: Extreme Heat and Community Resilience Program > Applicant Team Roles
-    type: solicitation-text
+    note: Guidance on partnership timing and structure; notes strong partnerships bring 'complementary strengths and proven
+      community engagement experience' and lists example partner types (climate collaboratives, social workers, AFN organizations,
+      youth groups).
+  - sid: s35
+    path: Extreme Heat and Community Resilience Program > 2. Begin Building Partnerships > Partnership Building Checklist
+    type: template
     reuse_value: medium
-    note: Defines Lead, Co-Applicant, Contributor, Supporter roles and funding flow; Co-Applicants required for all except
-      Tribes
+    note: 'Checklist for partnership: identify co-applicant by entity type, find local heat/resilience orgs, engage co-applicant
+      early, gather documentation, identify supporters/contributors, request letters of support.'
+  - sid: s36
+    path: Extreme Heat and Community Resilience Program > 3. Gather Documents Required for Round 2 Application
+    type: solicitation-text
+    reuse_value: high
+    note: 'Lists required application documents by applicant type: co-applicant letters of support, financial statements,
+      tax exemption cert, organizational documentation. Due at full application, not pre-app.'
+  - sid: s16
+    path: Extreme Heat and Community Resilience Program > Budget Requirement for Partnerships and Belonging
+    type: solicitation-text
+    reuse_value: high
+    note: 'Budget allocation tiers: Early Transformative min 15% partnerships, 5% belonging; Advanced min 10% partnerships,
+      5% belonging.'
   fact_candidates:
-  - $22.5 million in Round 2 funding from Greenhouse Gas Reduction Fund and California Climate Bond (Prop 4)
-  - NOFA and Pre-Application Interest Form expected early 2026
-  - Pre-Application due 4-6 weeks after NOFA release
-  - Awardees announced Fall 2026
-  - 'Early Transformative Infrastructure: $600,000–$1,000,000 awards; minimum 25% toward infrastructure demo project'
-  - 'Advanced Transformative Infrastructure: $2.5M–$4.0M awards; 70–85% toward infrastructure'
-  - Early Infrastructure projects minimum 15% budget to partnerships; minimum 5% to belonging
-  - Advanced Infrastructure projects minimum 10% budget to partnerships; minimum 5% to belonging
-  - Co-Applicants required for all applicants except California Native American Tribes or Tribal Entities
-  - Technical Assistance prioritized for disadvantaged communities, Tribes, regions not funded in Round 1, and those without
-    consultant access
-  - 'Eligible Lead Applicant types: local/regional public entities, CBOs, public academic institutions, CA Tribes/Tribal entities'
-  - 'Required Co-Applicant pairing: Local/Regional Public Entity lead requires CBO co-applicant; CBO lead requires Local/Regional
-    Public Entity co-applicant'
+  - EHCRP Round 2 awards $22.5 million total (s3)
+  - Funding from Greenhouse Gas Reduction Fund and California Climate Bond / Prop 4 (s3)
+  - NOFA and Pre-Application Interest Form released early 2026 (s4)
+  - Full application due 4–6 weeks after NOFA release (s8)
+  - Awardees announced Fall 2026 (s4, s8)
+  - 'Early Transformative Infrastructure: $600,000–$1,000,000 with minimum 25% towards infrastructure demonstration (s17)'
+  - 'Advanced Transformative Infrastructure: $2.5M–$4.0M with 70–85% towards infrastructure (s19)'
+  - Early projects require minimum 15% partnership budget and 5% belonging budget (s18)
+  - Advanced projects require minimum 10% partnership budget and 5% belonging budget (s20)
+  - Co-Applicants required for all Round 2 applicants except California Native American Tribes or Tribal Entities (s25)
+  - TA prioritized for applicants in regions not funded in Round 1 and those without access to consultant or grant writer
+    (s9)
   flags:
-  - 'Excerpt too thin to judge: no specific harm reduction metrics, data integration approaches, or partner case studies visible'
-  - Guidance document does not contain reusable proposal language or site-specific evidence
-  - 'Contact email redacted: [email]'
-  - Timeline and requirements noted as subject to change; directs applicants to EHCRP website for updates
-  - No prior Round 1 outcomes or feedback visible in this guide
+  - Excerpt too thin to judge harm-reduction details (needs hr-q1, hr-q2 pathway language)
+  - Belonging program value mentioned but design-element and engagement-strategy details not visible in excerpt
+  - Lasting Community Benefits (lcb-q1) referenced in program values section title but full text not shown
+  - Contact email redacted; cannot verify current program contact
+  - Guide states 'Round 2 program requirements in this guide are subject to change' and directs to website for up-to-date
+    info—check EHCRP website before finalizing application strategy
+  - 'Near-duplicate likely: this is official preparation guidance; compare against any webinar slides or office-hours materials
+    (ehcrp-r2-webinars-office-hours) for overlaps'
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: fa153ca7ba5f2300e8ae9d314dd1f59a60f0fd9854b3c5c21875ca0e96978fe3
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 5533
-    output: 1234
+    input: 5752
+    output: 2413
     cache_read: 0
     cache_write: 0

@@ -1,0 +1,97 @@
+asset_id: arvin-lamont-veg-buffer-proposal
+card:
+  summary: Hyphae's submitted proposal for San Joaquin Valley Air Pollution Control District's Vegetative Barriers grant (Arvin/Lamont,
+    Kern County, AB 617 area). The proposal includes the RFP application form, project summary, budget justification, site
+    coordination notes, and working materials. The document is primarily the formal proposal submission plus extensive internal
+    working notes, meeting minutes, and draft sections from related projects (Fresno extreme heat, EHCRP, other veg barrier
+    RFPs). Reusable proposal sections on vegetative barrier qualifications, community engagement, and budget are present but
+    mixed with administrative notes and near-duplicate content from Shafter and Stockton proposals.
+  doc_role: submitted-proposal
+  authorship: Hyphae Design Laboratory (Brent Bucknum, Merissa MacDonald, Maxwell Pingeon, Juan Penaloza Gutierrez)
+  disposition: hold
+  disposition_reason: Submitted proposal for a completed RFP with reusable prose on vegetative barrier design methodology,
+    partner coordination, and community engagement approach. Contains citable capability text and project outcomes useful
+    for future proposals, though significant portions are scaffolding notes and near-duplicates.
+  serves_needs:
+  - need_id: lib-methods
+    how: Vegetative barrier site analysis, design simulation, and performance monitoring approach; tree cost estimation ($1300–$1800
+      per tree incl. labor, irrigation); establishment and long-term maintenance protocols (3-month warranty, 7-year O&M).
+  - need_id: lib-firm-experience
+    how: Demonstrates Hyphae's partnership model with community orgs (SJV Air, City of Arvin, Kern County, Caltrans); collaborative
+      approach to site selection and cost optimization; experience managing competing agency requirements and community priorities.
+  sections:
+  - sid: s8
+    path: PROPOSAL (ONLY) > SECTION 1 - APPLICANT INFORMATION > SECTION 3 - PROJECT INFORMATION > 1. Project Summary
+    type: project-case
+    reuse_value: high
+    note: 280-word summary of vegetative barrier approach, partnership with EPA guideline authors, and methodology for site
+      analysis and design optimization.
+  - sid: s2
+    path: PROPOSAL (ONLY)
+    type: project-case
+    reuse_value: high
+    note: Full RFP proposal narrative with project methodology, budget, and implementation plan; demonstrates Hyphae's vegetative
+      barrier qualifications and community-engaged design process.
+  - sid: s51
+    path: TEXT FROM OTHER PROJECTS > From Green Latinos draft
+    type: capability
+    reuse_value: medium
+    note: Narrative on urban forestry and green infrastructure through environmental justice lens; contrasts Hyphae's approach
+      (strategic high-impact projects) with conventional tree-well filling model.
+  - sid: s61
+    path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Modeling specialist ($150/hr)
+    type: org-profile
+    reuse_value: medium
+    note: 'Team bios: Merissa MacDonald (ISA-certified arborist, urban forestry specialist), Juan Penaloza Gutierrez (CFD
+      expert), Mei Visco (ecological designer), Brent Bucknum (founder); demonstrates depth of in-house expertise.'
+  - sid: s36
+    path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Endless Frontier (submitted 8/24)
+    type: capability
+    reuse_value: medium
+    note: 100-word company description and long-term vision statement; explains adaptOS platform integration of environmental
+      analytics, design automation, and project management for green infrastructure.
+  fact_candidates:
+  - 's84: Arvin/Lamont RFP max funding $500,000 for 10-year grant (3 years implementation, 7 years maintenance), deadline
+    01/09/2025 4PM PT, award notification ~04/09/2025, grant start ~March 2025.'
+  - 's123: Tree cost estimate $100k+ for maintenance over establishment period; delivery and labor factored into per-unit
+    costs.'
+  - 's87: Planting design spacings calculated for mature size to prevent overcrowding and tree death; smaller/younger trees
+    proposed as cost-efficiency alternative.'
+  - 's8: Hyphae collaborated with Rich Baldauf and Max Zhang, authors of EPA vegetative barrier guidelines referenced in RFP.'
+  - 's29: Fresno County experienced 100+ days over 100°F in 2023; 55% of census tracts above 75th percentile on CalEnviroScreen
+    4.0.'
+  - 's75: Fresno downtown temperature projected to hit 106.6°F 43 times per year if emissions continue at current rates (Thorne
+    et al., 2018); heat events predicted to last up to two weeks.'
+  - 's31: Brent Bucknum sits on West Oakland AB 617 steering committee; Hyphae instrumental in founding West Oakland as one
+    of first AB 617 communities (WOEIP).'
+  - 's102: Northchester median tree project failed due to irrigation electrical system breakdown; Rec District unable to afford
+    repairs, trees died, County must remove at own expense.'
+  - 's114: Planting installation labor estimated at specific rates per tree; 3-year establishment maintenance included.'
+  - 's118: Urban Greening RFP requires 25% limit for non-construction costs, 10% contingency; must include CNRA Benefits Calculator,
+    i-Tree, WUCOLS IV, DWR Water Budget outputs.'
+  flags:
+  - Large document with significant internal scaffolding (meeting notes s85–s132 are primarily administrative notes, not proposal
+    prose)
+  - 'Near-duplicates flagged in metadata: Shafter Veg Buff RFP proposal (52%), Stockton Veg Buff (50%), eemp-2025-proposal
+    (50%); s24, s25 explicitly labeled ''Scraps'' and ''Stuff from other projects'', indicating copy-paste assembly.'
+  - Contact data redacted but embedded in meeting notes (email/phone patterns visible in attendee lists s85–s127, s129).
+  - 'Excerpt too thin to judge effectiveness: s1 ''START HERE'' section shows only 66 words, insufficient to assess proposal
+    framing quality.'
+  - Internal candid notes s86–s87 document community resistance ('lukewarm', 'highly critical') and funder preference disputes;
+    reputational context.
+  - 'Document organization suggests working draft: ''Notes'' section s21–s23 in Spanish unexplained; ''Memento Tattoos'' label
+    (s125–s127) appears to be internal placeholder.'
+  - 'Contradiction flag: Inventory note claims ''recent vegetative-barrier qualifications''; proposal''s qualifications rely
+    heavily on team members'' past roles (Merissa at Bartram''s Garden Philadelphia, JPL/UC Merced partnerships) rather than
+    Hyphae''s completed veg barrier projects. No prior Hyphae-led vegetative barrier implementations cited.'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 5042d04932ef7e7830d456deb3686a9bdf745a596ad708139a4ea38c39a7f534
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 19227
+    output: 1591
+    cache_read: 0
+    cache_write: 0

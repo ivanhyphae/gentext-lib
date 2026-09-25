@@ -1,0 +1,129 @@
+asset_id: ambrose-center-park-ceqa-project-description
+source_path: sources/ambrose-center-park-ceqa-project-description/ambrose-center-park-ceqa-project-description.md
+source_sha256: b0b16be34a58e13e4554c670bda87c37a064934a85778d8ea3bcd46ceff644d2
+text_sha256: 5bbed24533c7040380bcb99241689946850bf11369298fa1e3c68cd4d8f2ffae
+words: 2870
+pii:
+  emails: 1
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 30
+- sid: s2
+  path: 1. Introduction and Purpose
+  level: 1
+  words: 118
+- sid: s3
+  path: 2. Project Information
+  level: 1
+  words: 0
+- sid: s4
+  path: 2. Project Information > 2.1 Project Title
+  level: 2
+  words: 7
+- sid: s5
+  path: 2. Project Information > 2.2 Lead Agency Name and Address
+  level: 2
+  words: 22
+- sid: s6
+  path: 2. Project Information > 2.3 Contact Person and Phone Number
+  level: 2
+  words: 10
+- sid: s7
+  path: 2. Project Information > 2.4 Project Location
+  level: 2
+  words: 128
+- sid: s8
+  path: 2. Project Information > 2.5 Surrounding Land Uses
+  level: 2
+  words: 155
+- sid: s9
+  path: 3. Project Background
+  level: 1
+  words: 233
+- sid: s10
+  path: 4. Project Objectives
+  level: 1
+  words: 160
+- sid: s11
+  path: 5. Project Description
+  level: 1
+  words: 60
+- sid: s12
+  path: 5. Project Description > 5.1 Project Overview
+  level: 2
+  words: 365
+- sid: s13
+  path: 5. Project Description > 5.2
+  level: 2
+  words: 0
+- sid: s14
+  path: 5. Project Description > Area A – Entry
+  level: 2
+  words: 76
+- sid: s15
+  path: 5. Project Description > 5.3 Area B – Water/Path at West Site Margin
+  level: 2
+  words: 80
+- sid: s16
+  path: 5. Project Description > 5.4 Area C – Building Vicinity
+  level: 2
+  words: 52
+- sid: s17
+  path: 5. Project Description > 5.5 Area D – Parking Lot
+  level: 2
+  words: 133
+- sid: s18
+  path: 5. Project Description > 5.6 Area E – Playgrounds and Shed
+  level: 2
+  words: 63
+- sid: s19
+  path: 5. Project Description > 5.7 Area F – Baseball Field and Adjacent Areas
+  level: 2
+  words: 194
+- sid: s20
+  path: 5. Project Description > 5.10 Area J – Western Site Spur
+  level: 2
+  words: 26
+- sid: s21
+  path: 6. Detailed Description by Scope Work
+  level: 1
+  words: 0
+- sid: s22
+  path: 6. Detailed Description by Scope Work > 6.1 Proposed Grading and Stormwater Improvements
+  level: 2
+  words: 259
+- sid: s23
+  path: 6. Detailed Description by Scope Work > 6.2 Proposed Circulation Improvements
+  level: 2
+  words: 196
+- sid: s24
+  path: 6. Detailed Description by Scope Work > 6.3 Proposed Site Furnishing Improvements
+  level: 2
+  words: 70
+- sid: s25
+  path: 6. Detailed Description by Scope Work > 6.4 Proposed Planting  & Irrigation Improvements
+  level: 2
+  words: 114
+- sid: s26
+  path: 7. Construction and Operational Characteristics
+  level: 1
+  words: 0
+- sid: s27
+  path: 7. Construction and Operational Characteristics > 6.1 Construction Characteristics
+  level: 2
+  words: 78
+- sid: s28
+  path: 7. Construction and Operational Characteristics > 6.2 Operational Characteristics
+  level: 2
+  words: 78
+- sid: s29
+  path: 8. Site Exhibits
+  level: 1
+  words: 3
+section_count: 29
+profiled: '2026-09-25'
+profiler: p2

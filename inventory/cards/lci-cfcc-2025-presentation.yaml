@@ -1,37 +1,34 @@
 asset_id: lci-cfcc-2025-presentation
 card:
-  summary: LCI program presentation to the California Financing Coordinating Committee (October 2025) covering Round 1 outcomes
-    and Round 2 funding priorities. Documents 32M awarded in R1 across 45 grants in 23 counties; R2 allocates 22.5M. Emphasizes
-    harm reduction, collaborative partnerships, and eligible applicants (CBOs, public entities, academic institutions, tribes).
-    Excerpt cuts off mid-text at program values section.
+  summary: 'LCI program presentation to California Financing Coordinating Committee (Oct 2025) covering Round 1 outcomes (32M,
+    45 grants across 23 counties) and Round 2 funding parameters (22.5M from GGRF and Prop 4). States program values: harm
+    reduction, collaborative partnerships, and eligible applicants (CBOs, public entities, academic institutions, tribes).
+    Excerpt too thin to assess specifics of reviewer priorities or changed guidance between rounds.'
   doc_role: guidance
-  authorship: California LCI program (Catherine Foster, Policy Lead)
+  authorship: California LCI Program (Catherine Foster, Policy Lead)
   disposition: reference
-  disposition_reason: Authoritative program guidance on EHCRP Round 2 priorities, eligible applicants, and funding allocation.
-    Not proposal prose to reuse, but essential context for understanding reviewer expectations and program direction.
-  serves_needs:
-  - need_id: ehcrp-r2-webinars-office-hours
-    how: LCI program's own account of R2 framework and values; partial match (presentation, not webinar/office hours)
+  disposition_reason: Official program documentation useful for understanding EHCRP Round 2 context and funding structure,
+    but excerpt does not contain substantive guidance, application criteria, or reviewer priorities; full document needed
+    to extract actionable information.
+  serves_needs: []
   sections: []
   fact_candidates:
-  - 32 million awarded in EHCRP Round 1
-  - 45 grants funded in Round 1 across 23 counties
-  - 22.5 million allocated for Round 2 funding
-  - Round 2 funded from Greenhouse Gas Reduction Fund and Proposition 4
-  - 'Eligible applicants: CBOs, local/regional public entities, public academic institutions, California Native American tribes'
-  - Program values emphasize harm reduction and collaborative partnerships
+  - 32 million awarded in Round 1 across 45 grants in 23 counties
+  - 22.5 million allocated for Round 2 from Greenhouse Gas Reduction Fund and Proposition 4
+  - 'Eligible applicants: CBOs, local and regional public entities, public academic institutions, California Native American
+    tribes'
   flags:
-  - excerpt too thin to judge—cuts off mid-section at program values; unable to assess full content or any Hyphae-specific
-    guidance
-  - no sections with extractable reuse_value identified from partial text
+  - 'excerpt too thin to judge: only opening slides visible, no substantive reviewer guidance or Round 1-to-Round 2 changes
+    detailed'
+  - inventory_note claims 'reviewer priorities' but opening excerpt shows only funding amounts and eligibility criteria
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 479a458e9dbfeefca14b20bca7ee4b918c57dc1230d70eaa01b021c2309ef134
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 2731
-    output: 393
+    input: 2810
+    output: 329
     cache_read: 0
     cache_write: 0

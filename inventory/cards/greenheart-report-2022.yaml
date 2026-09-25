@@ -1,0 +1,64 @@
+asset_id: greenheart-report-2022
+card:
+  summary: Technical report on urban forestry analytics for Green Heart Louisville project (2022). Documents methods and results
+    of tree species classification and biometric measurement using remote sensing (12-inch resolution imagery, lidar) and
+    field data. Presents machine-learning models trained on geolocated tree measurements (species, DBH, height, canopy cover,
+    leaf area, biomass) and validation statistics for species group prediction accuracy across Acer, Fraxinus, Broadleaf,
+    Needleleaf, Picea, and Quercus classes.
+  doc_role: report
+  authorship: NV5 (Davey Resource Group, Inc.)
+  disposition: hold
+  disposition_reason: Citable project case with documented outcomes and reusable methods for urban forestry monitoring and
+    tree biometric analytics. Demonstrates Hyphae's capability in remote-sensing-based tree inventory and species classification,
+    applicable to heat-reduction site assessment and green infrastructure planning.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Green Heart Louisville project case with validated tree species classification and biometric measurement outcomes
+      (94.74% detection rate for Acer, 86.76% for broadleaf species).
+  - need_id: lib-methods
+    how: 'Remote-sensing method for urban forestry monitoring: 12-inch resolution imagery + lidar + field validation; spectral
+      indices (NDVI, ZABUD); machine-learning tree segmentation and species classification pipeline.'
+  sections:
+  - sid: s1
+    path: part 1 — Introduction, Source Data, Methods
+    type: method
+    reuse_value: high
+    note: 'Complete methodological description: data sources (imagery resolution, lidar, field protocols), tree segmentation,
+      species classification, and biometric extraction; directly reusable for similar monitoring projects.'
+  - sid: s2
+    path: part 2 — Field Data Composition and Reference Dataset
+    type: evidence-data
+    reuse_value: medium
+    note: 'Field data schema and validation dataset: geolocated tree stem locations, species, DBH, height, canopy cover, condition,
+      leaf area, LAI, biomass statistics by species group. Supports method documentation and baseline comparison.'
+  - sid: s4
+    path: part 4 — Results and Validation Statistics
+    type: evidence-data
+    reuse_value: high
+    note: Accuracy statistics (sensitivity, specificity, F1 scores, balanced accuracy) for each species class. Quantified
+      outcomes document model performance and credibility for proposal claims.
+  fact_candidates:
+  - 's1: Report date March 28, 2022'
+  - 's1: Greenheart site analyzed with 12-inch resolution imagery, lidar, and field data'
+  - 's2: Field dataset included 81 Acer trees, 24 Fraxinus trees, 213 Other Broadleaf trees'
+  - 's2: Acer mean LAI 4.35 (SD 1.45); Fraxinus mean LAI 3.64 (SD 0.77)'
+  - 's2: Acer mean leaf biomass 65.18 kg (SD 46.37); Fraxinus mean 99.50 kg (SD 59.75)'
+  - 's4: Acer species detection rate 94.74% sensitivity, 96.85% specificity, 81.82% PPV'
+  - 's4: Fraxinus detection rate 71.43% sensitivity, 99.28% specificity, 83.33% PPV'
+  - 's4: Broadleaf species detection rate 86.76% sensitivity; Quercus 74.66% sensitivity'
+  flags:
+  - excerpt thin for full document sense; outline alone shows technical structure but opening sections provide method and
+    data composition sufficient for asset evaluation
+  - prepared for Davey Resource Group (DRG) by NV5; Hyphae's role not stated in excerpts — verify firm involvement before
+    claiming as project case
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 908950e490135c4a80b1e3608d537bbd56eee0f7e0d9b8103292613b32697eb5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3736
+    output: 881
+    cache_read: 0
+    cache_write: 0

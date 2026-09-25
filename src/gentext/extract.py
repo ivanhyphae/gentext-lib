@@ -30,10 +30,27 @@ def _from_pdf(path: Path) -> str:
     return out.stdout
 
 
+_TITLE_DIV = re.compile(r'^::: \{custom-style="(Title|Subtitle)"\}\n(.*?)\n:::$', re.M | re.S)
+_SPAN = re.compile(r"\[([^\[\]]*)\]\{[^}]*\}")
+_ESC = re.compile(r"\\([\[\]@_*#`$<>|~^.'\"-])")
+
+
 def _from_docx(path: Path) -> str:
+    """pandoc with styles: Google Docs tab titles arrive as Title-styled paragraphs → top-level headings."""
     import pypandoc
 
-    return pypandoc.convert_file(str(path), "gfm", format="docx", extra_args=["--wrap=none"])
+    md = pypandoc.convert_file(str(path), "markdown-smart", format="docx+styles", extra_args=["--wrap=none"])
+    md = re.sub(r"^(#{1,5}) ", r"#\1 ", md, flags=re.M)  # demote real headings one level under tab titles
+
+    def title(m: re.Match) -> str:
+        text = re.sub(r"[*_]+", "", m.group(2)).strip()
+        return f"# {text}" if m.group(1) == "Title" else text
+
+    md = _TITLE_DIV.sub(title, md)
+    md = re.sub(r"^:::.*$", "", md, flags=re.M)
+    for _ in range(3):  # nested spans
+        md = _SPAN.sub(r"\1", md)
+    return _ESC.sub(r"\1", md)
 
 
 def _from_xlsx(path: Path, max_rows: int = 400) -> str:

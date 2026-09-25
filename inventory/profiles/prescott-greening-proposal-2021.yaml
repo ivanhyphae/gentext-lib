@@ -1,0 +1,25 @@
+asset_id: prescott-greening-proposal-2021
+source_path: sources/prescott-greening-proposal-2021/prescott-greening-proposal-2021.md
+source_sha256: d8dcbc2cb1c87afc9880593270b331c7995d2dbc7f0989f30a4c193332850a1e
+text_sha256: efd7aa65d44250229eccc66ab983ef272fc6901048665e45098b94dd682e30d5
+words: 1386
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 186
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

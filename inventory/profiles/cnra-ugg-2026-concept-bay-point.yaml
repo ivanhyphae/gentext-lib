@@ -1,25 +1,29 @@
 asset_id: cnra-ugg-2026-concept-bay-point
 source_path: projects/EHCRP Round 2/2026 URBAN GREENING GRANT PROGRAM CONCEPT PROPOSAL.docx
 source_sha256: 6847c2448951a594d5eb28f62782f98753a61671921788d843bd9cd6c393cb1c
-text_sha256: a76113e5d928f21c0915da6ba5938c93f32e71bf0412734ad2b2c2aa71847e54
+text_sha256: d6e4c4e1769c88a02b77952438d51d4d3a940d79e266a285b22324b929da329d
 words: 2182
 pii:
   emails: 2
   phones: 2
 near_duplicates: []
 sections:
-- path: part 1
+- sid: s1
+  path: part 1
   level: 1
   words: 600
-- path: part 2
+- sid: s2
+  path: part 2
   level: 1
   words: 600
-- path: part 3
+- sid: s3
+  path: part 3
   level: 1
   words: 600
-- path: part 4
+- sid: s4
+  path: part 4
   level: 1
   words: 382
 section_count: 4
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

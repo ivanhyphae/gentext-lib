@@ -1,0 +1,89 @@
+asset_id: shafter-veg-barriers-program-plan
+source_path: sources/shafter-veg-barriers-program-plan/shafter-veg-barriers-program-plan.md
+source_sha256: f7b0fe5f98060f141967ddea5c1a6135a45b9adf7d18499af050521679e9f30d
+text_sha256: cfc23da8ffb9764ce706b9a145d41b32f47bfc104396f1b8f7a4d36cf120f674
+words: 11078
+pii:
+  emails: 6
+  phones: 3
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 600
+- sid: s11
+  path: part 11
+  level: 1
+  words: 600
+- sid: s12
+  path: part 12
+  level: 1
+  words: 600
+- sid: s13
+  path: part 13
+  level: 1
+  words: 600
+- sid: s14
+  path: part 14
+  level: 1
+  words: 600
+- sid: s15
+  path: part 15
+  level: 1
+  words: 600
+- sid: s16
+  path: part 16
+  level: 1
+  words: 600
+- sid: s17
+  path: part 17
+  level: 1
+  words: 600
+- sid: s18
+  path: part 18
+  level: 1
+  words: 600
+- sid: s19
+  path: part 19
+  level: 1
+  words: 278
+section_count: 19
+profiled: '2026-09-25'
+profiler: p2

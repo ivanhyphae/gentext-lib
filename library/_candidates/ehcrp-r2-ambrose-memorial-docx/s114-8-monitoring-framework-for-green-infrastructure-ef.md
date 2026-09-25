@@ -1,0 +1,51 @@
+---
+id: cand-ehcrp-r2-ambrose-memorial-docx-s114-8
+status: candidate
+title: Monitoring Framework for Green Infrastructure Effectiveness
+type: method
+summary: Robust pre- and post-planting monitoring program documenting baseline conditions and measuring thermal comfort, shade
+  coverage, air quality, and stormwater improvements; data shared with stakeholders for adaptive management.
+words: 1116
+places:
+- Ambrose Memorial Park
+- Willow Creek
+- Highway 4
+orgs:
+- ARPD
+- CCRCD
+projects: []
+facts:
+- claim: Baseline monitoring includes surface temperatures, tree canopy coverage, air quality, and stormwater runoff along
+    Willow Creek tributary
+  quote: Baseline conditions will be documented prior to construction, including surface temperatures, tree canopy coverage,
+    air quality, and stormwater runoff along the Willow Creek tributary that intersects the park
+- claim: Post-planting monitoring measures changes in thermal comfort, shade coverage, and air quality buffering
+  quote: Post-planting monitoring will measure changes in thermal comfort, shade coverage, and air quality buffering from
+    Highway 4 to quantify the project's impact on reducing extreme heat exposure for park users
+- claim: Monitoring data integrated with digital twin modeling platform for ongoing evaluation
+  quote: Monitoring data will be integrated with the project's digital twin modeling platform to enable ongoing evaluation
+    of cooling benefits and long-term climate resilience
+flags:
+- '1 fact(s) dropped: quote not verbatim'
+quality_notes: Comprehensive monitoring design with clear pre/post metrics and adaptive management intent; digital twin integration
+  adds technical rigor; reusable for similar infrastructure projects.
+provenance:
+  origin: extracted
+  source:
+    asset: ehcrp-r2-ambrose-memorial-docx
+    sha256: 11eeef3981319e0f8cf683aaeb37950d2dbcab1131ca5de1b82440b8e3587e38
+    section: s114
+    path: Pre-application
+  authors:
+  - kind: unknown
+    id: ARPD/Hyphae
+    role: wrote
+    verified: false
+  extracted_by:
+    model: claude-haiku-4-5
+    prompt: x1
+    date: '2026-09-25'
+  verbatim: true
+---
+
+A robust monitoring program will be established to track and evaluate the project's effectiveness in reducing heat exposure and improving environmental conditions at Ambrose Memorial Park over time. Baseline conditions will be documented prior to construction, including surface temperatures, tree canopy coverage, air quality, and stormwater runoff along the Willow Creek tributary that intersects the park. Post-planting monitoring will measure changes in thermal comfort, shade coverage, and air quality buffering from Highway 4 to quantify the project's impact on reducing extreme heat exposure for park users. Monitoring data will be integrated with the project's digital twin modeling platform to enable ongoing evaluation of cooling benefits and long-term climate resilience, and will be shared with ARPD, CCRCD, and community stakeholders to support adaptive management and inform future greening investments in the Bay Point community. Community Engagement Community engagement will be a central and ongoing component of the project, ensuring that the design, implementation, and stewardship of greening improvements directly reflect the needs and priorities of Bay Point residents. ARPD, in partnership with CCRCD and local community-based organizations, will establish a project working group and execute a comprehensive public outreach plan. Engagement activities will include pop-up listening sessions, community events, and surveys conducted in English and Spanish to ensure accessibility for Bay Point's linguistically diverse population, including the high proportion of Spanish-speaking households with limited English proficiency identified in the 2015 Contra Costa Health Services vulnerability report. Community mapping will identify priority gathering spots, pedestrian routes, and areas of greatest heat exposure within and adjacent to the park, directly informing the placement of shade trees, green spaces, and cooling infrastructure. Feedback gathered during community engagement will be integrated into the project design and used to ensure that proposed interventions reflect community-identified needs, including safe outdoor recreation spaces for young children, cooling refuge for elderly residents, and accessible green space for low-income families who lack air conditioning at home. Trusted community institutions including local schools, churches, and clinics will serve as outreach partners, consistent with engagement strategies identified as effective in the Monument Corridor case study documented in the 2015 Contra Costa Health Services report. Design The project design will translate heat vulnerability modeling results and community input into a comprehensive site plan for Ambrose Memorial Park that maximizes cooling benefits, ecological function, and community usability. The design will integrate expanded tree canopy, drought-tolerant native plantings, shaded gathering spaces, and green stormwater infrastructure to address the overlapping challenges of extreme heat, urban heat island effect, Highway 4 air pollution, and flooding along the Willow Creek tributary. Planting locations will be optimized using 1-meter UTCI simulations and digital twin modeling to strategically position trees and vegetation where they will provide maximum shade, thermal comfort, and air quality buffering for park users, pedestrians, and cyclists traveling to and from the adjacent BART station and regional trail. The design will also incorporate recently donated land from Contra Costa County adjacent to the park, creating a tree buffer along Highway 4 that will reduce PM 2.5 exposure and provide additional cooling benefits for park users, BART commuters, and Delta de Anza Regional Trail users. Green stormwater infrastructure along the Willow Creek tributary will restore riparian habitat, enhance native vegetation, reduce flood risk during major rain events, and improve flood management for the upper Willow Creek watershed. Species selection will prioritize California native, drought-tolerant, climate-ready trees and plants suited to the site's conditions and projected future climate, with no single species exceeding 10% of the overall plant palette in accordance with Urban Greening Grant Program guidelines. Planting and Stewardship Implementation of the project's greening improvements will be led by ARPD, in partnership with the Bay Point Garden Club, the Caribbean South America Hispanic Counsel, and the Contra Costa Resources Conservation District's Ecostewards Program, providing a powerful model for community-based stewardship that extends the project's benefits well beyond physical infrastructure. The Ecostewards program along with Garden Club and the S. America Hispanic Counsel will deploy trained crews to install trees, native plantings, and green stormwater infrastructure at Ambrose Memorial Park, creating local jobs and workforce training opportunities for Bay Point residents while simultaneously delivering environmental education programming for the community. Tree planting will be sequenced and supported through up to three years of plant establishment activities, including irrigation, mulching, and maintenance, to ensure high survival rates and the early establishment of meaningful shade canopy. By directly reducing surface temperatures, expanding tree canopy, and creating shaded gathering spaces in a park that serves as the primary outdoor recreation resource for a community with limited access to air conditioning, the project will provide critical cooling refuge for Bay Point's most vulnerable residents , including young children, elderly residents, low-income families, and linguistically isolated households , during extreme heat events that are projected to intensify significantly in the coming decades. ARPD will oversee long-term stewardship and maintenance of all improvements in partnership with the CBOs, ensuring that the cooling, ecological, air quality, and community health benefits of the project are sustained for generations and that Ambrose Memorial Park remains a resilient, healthy, and welcoming green space for the Bay Point community as the climate continues to change. SHORTENED VERSION Cool Bay Point: Ambrose Memorial Park Heat Mitigation and Urban Greening Project – Project Description Ambrose Memorial Park is the primary recreational facility for Bay Point, a disadvantaged community under SB 535 where the park's location adjacent to Highway 4 contributes to significant urban heat island conditions, elevated PM 2.5 exposure, and limited tree canopy. The Cool Bay Point project will implement a comprehensive, data-driven, and community-informed approach to deliver nature-based cooling solutions for one of Contra Costa County's most heat-vulnerable communities through advanced modeling, environmental monitoring, community engagement, site design, planting, and long-term stewardship. Modeling Multi-scale heat vulnerability modeling will form the analytical foundation of the project. The approach will integrate low-resolution countywide thermal comfort analysis, medium-resolution satellite-derived surface temperature mapping, and hyper-local 1-meter resolution Urban Thermal Comfort Index (UTCI) modeling using 3D digital twin simulations of the park and adjacent Highway 4 corridor. Pre- and post-planting simulations will quantify the anticipated cooling benefits of proposed interventions, directly informing planting design and demonstrating how the project will measurably reduce harm from extreme heat for park users and the surrounding community. Monitoring A robust monitoring program will document baseline conditions prior to construction, including surface temperatures, tree canopy coverage, air quality, and stormwater runoff along the Willow Creek tributary. Post-planting monitoring will measure changes in thermal comfort, shade coverage, and air quality buffering from Highway 4 to evaluate the project's effectiveness in reducing extreme heat exposure. Monitoring data will be shared with ARPD, CCRCD, and community stakeholders to support adaptive management and inform future greening investments in Bay Point.

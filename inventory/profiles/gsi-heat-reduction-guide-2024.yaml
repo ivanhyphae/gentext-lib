@@ -1,0 +1,125 @@
+asset_id: gsi-heat-reduction-guide-2024
+source_path: sources/gsi-heat-reduction-guide-2024/gsi-heat-reduction-guide-2024.md
+source_sha256: 694c8b1134abe7f2a21c1da936fa02d5c05683a16175b045920ee97de8ccabd9
+text_sha256: 8d7080f90c20af7b95e69f9c62b169f7d950966ce2d75c0922f49633b7defc63
+words: 16320
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 600
+- sid: s11
+  path: part 11
+  level: 1
+  words: 600
+- sid: s12
+  path: part 12
+  level: 1
+  words: 600
+- sid: s13
+  path: part 13
+  level: 1
+  words: 600
+- sid: s14
+  path: part 14
+  level: 1
+  words: 600
+- sid: s15
+  path: part 15
+  level: 1
+  words: 600
+- sid: s16
+  path: part 16
+  level: 1
+  words: 600
+- sid: s17
+  path: part 17
+  level: 1
+  words: 600
+- sid: s18
+  path: part 18
+  level: 1
+  words: 600
+- sid: s19
+  path: part 19
+  level: 1
+  words: 600
+- sid: s20
+  path: part 20
+  level: 1
+  words: 600
+- sid: s21
+  path: part 21
+  level: 1
+  words: 600
+- sid: s22
+  path: part 22
+  level: 1
+  words: 600
+- sid: s23
+  path: part 23
+  level: 1
+  words: 600
+- sid: s24
+  path: part 24
+  level: 1
+  words: 600
+- sid: s25
+  path: part 25
+  level: 1
+  words: 600
+- sid: s26
+  path: part 26
+  level: 1
+  words: 600
+- sid: s27
+  path: part 27
+  level: 1
+  words: 600
+- sid: s28
+  path: part 28
+  level: 1
+  words: 120
+section_count: 28
+profiled: '2026-09-25'
+profiler: p2

@@ -1,0 +1,29 @@
+asset_id: greenheart-report-2022
+source_path: sources/greenheart-report-2022/greenheart-report-2022.md
+source_sha256: 7a694558c9a4c8e0e4e8f3833bfe37da95d3304616c2e041f12453b97092b2f9
+text_sha256: 908950e490135c4a80b1e3608d537bbd56eee0f7e0d9b8103292613b32697eb5
+words: 2145
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 345
+section_count: 4
+profiled: '2026-09-25'
+profiler: p2

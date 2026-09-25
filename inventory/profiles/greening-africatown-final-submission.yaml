@@ -1,0 +1,45 @@
+asset_id: greening-africatown-final-submission
+source_path: sources/greening-africatown-final-submission/greening-africatown-final-submission.md
+source_sha256: 80d3a4736f54f09081aad4d5179ab1e446a329b50e14eb70ba974d6b6f2a3079
+text_sha256: 58b69b6aea38e3391f82eff5f30cee33f30bfe1f524ece941c742468601b5897
+words: 16092
+pii:
+  emails: 16
+  phones: 2
+near_duplicates: []
+sections:
+- sid: s1
+  path: Tab 1
+  level: 1
+  words: 7565
+- sid: s2
+  path: Tab 1 > Environmental Impact & Data-Driven Decision Making
+  level: 4
+  words: 48
+- sid: s3
+  path: Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development
+  level: 4
+  words: 42
+- sid: s4
+  path: Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development > Scalability & Future Investment
+  level: 4
+  words: 369
+- sid: s5
+  path: Copy of Tab 1
+  level: 1
+  words: 7565
+- sid: s6
+  path: Copy of Tab 1 > Environmental Impact & Data-Driven Decision Making
+  level: 4
+  words: 48
+- sid: s7
+  path: Copy of Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development
+  level: 4
+  words: 42
+- sid: s8
+  path: Copy of Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development > Scalability & Future Investment
+  level: 4
+  words: 369
+section_count: 8
+profiled: '2026-09-25'
+profiler: p2

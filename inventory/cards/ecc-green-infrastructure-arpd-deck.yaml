@@ -1,0 +1,71 @@
+asset_id: ecc-green-infrastructure-arpd-deck
+card:
+  summary: October 2024 presentation by Contra Costa RCD and County Watershed Program staff to Ambrose Recreation and Park
+    District on green infrastructure enhancements at three Bay Point parks (Ambrose Center Park, Ambrose Memorial Park, Anuta
+    Park). Covers site analysis using environmental justice metrics, concept designs with specific GI features and dimensions,
+    and funding pathways (IRWM, EPA, Caltrans).
+  doc_role: presentation
+  authorship: Contra Costa RCD (Chris Lim); Contra Costa County Watershed Program (John Steere)
+  disposition: hold
+  disposition_reason: Documents Hyphae–ARPD partnership track record and prior design work on Ambrose Center Park; site-specific
+    GI concept details and dimensions are directly reusable for EHCRP R2 application; establishes baseline design context
+    and community engagement history.
+  serves_needs:
+  - need_id: lib-partners
+    how: Demonstrates ARPD track record and prior collaboration with RCD/County on green infrastructure concept design and
+      community engagement
+  - need_id: lib-site-bay-point
+    how: Site analysis, environmental justice context (Enviroscreen, ART, DAC status), site observations, drainage areas,
+      and GI feature specifications for Ambrose Center Park and Ambrose Memorial Park
+  - need_id: be-q1
+    how: 'Identifies specific design elements: bioretention (13,260 sf planting area), native plants, shade buffer, swales,
+      community garden access, tree planting (37 trees), trail connections to Delta de Anza and Willow Pass Rd, parking lot
+      greening (48,630 sf concrete removed)'
+  sections:
+  - sid: s1
+    path: Ambrose Community Center Green Infrastructure Enhancements — Site Analysis & Prioritization
+    type: site-context
+    reuse_value: high
+    note: Environmental justice baseline (Enviroscreen, ART, DAC criteria); community input workshop and priority location
+      selection; broad impact vision
+  - sid: s2
+    path: Ambrose Recreation & Park District — Site Evaluation and Concept Design
+    type: project-case
+    reuse_value: high
+    note: 'Detailed Ambrose Center Park GI opportunities: 13,260 sf bioretention, 37 trees, 48,630 sf concrete removed, swales,
+      parking design, trail connections; site observations (flooding, drainage gaps); also Anuta Park and Ambrose Memorial
+      Park concepts'
+  - sid: s4
+    path: Additional Funding Opportunities
+    type: capability
+    reuse_value: medium
+    note: EPA, Caltrans, and other grant programs applicable to GI projects near SR-4 in Bay Point; funding strategy context
+  fact_candidates:
+  - 's1: Ambrose Center Park identified as ARPD priority location via community input workshop'
+  - 's1: Unemployment rate >2% higher than statewide average (2016 baseline)'
+  - 's1: DACs defined as <85% mean household income with population ≤20K'
+  - 's2: Ambrose Center Park GI: 13,260 sf planting area/bioretention with native plants'
+  - 's2: Ambrose Center Park: 107 parking spaces, 4 ADA, 37 trees, 48,630 sf concrete removed'
+  - 's2: Ambrose Center Park: 2,164 linear feet of curb'
+  - 's2: Ambrose Center Park drainage: 5 inlets; flooding issues in parking lot; incomplete drainage ditch'
+  - 's2: Ambrose Center Park connection to Delta de Anza trail and Willow Pass Rd'
+  - 's3: Next steps: schematic design for bidding, county template development, design/build contracts'
+  - 's4: EPA grants: biannual round announced late May–early June; supports wetland restoration, water quality, greening development'
+  - 's4: Caltrans Alternative Compliance: ongoing funding for GI design/implementation near SR-4 in Bay Point'
+  flags:
+  - Presentation deck; excerpt content thin on quantified community harm or specific UHII/heat data—heat impacts not explicitly
+    addressed despite environmental justice focus
+  - Funding section (s4) lists generic grant programs with minimal detail on deadlines or alignment with EHCRP R2 timeline
+  - No community voices or quotes present; site observations are technical, not narrative
+  - Earlier 2022 version mentioned in title but not included; document is from 10/24/24 and may supersede older iteration
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 4efbee384aa549590545d29392a955c674587ccb6a8e95acba7cb22242542447
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3640
+    output: 1010
+    cache_read: 0
+    cache_write: 0

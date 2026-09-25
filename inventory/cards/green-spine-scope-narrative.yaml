@@ -1,0 +1,66 @@
+asset_id: green-spine-scope-narrative
+card:
+  summary: Hyphae scope narrative for Green Spine health-impact modeling project in Dallas (South West Medical District).
+    Proposes thermal comfort, air quality, and health-outcome monitoring to support landscape design of Harry Hines corridor
+    and park replacement; includes baseline modeling, benchmarking simulations, before-after studies, and academic outputs.
+    Dated May 2023, pre-contract.
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab (Daniel Fleischer, Ivan Heitmann, Brent Bucknum)
+  disposition: hold
+  disposition_reason: Contains Hyphae method descriptions (UTCI modeling, air quality simulation, two-stage environmental
+    modeling approach, health-impact research integration), partner capability narrative, and project case study structure
+    applicable to Bay Point proposals.
+  serves_needs:
+  - need_id: lib-methods
+    how: Describes two-stage environmental modeling process (5m and higher resolution), thermal comfort/air quality/health
+      metrics, and integration of modeling into design iteration—directly reusable for EHCRP harm-reduction pathway and belonging
+      design validation.
+  - need_id: lib-firm-experience
+    how: 'Demonstrates Hyphae track record: NIH/FHWA/NSF funded work on near-road green infrastructure design and health-outcome
+      monitoring; leadership of environmental health modeling teams.'
+  sections:
+  - sid: s6
+    path: part 6 — Environmental modeling approach
+    type: method
+    reuse_value: high
+    note: Two-stage modeling process (5m corridor-scale, high-res intervention zones); covers thermal comfort, air quality
+      (PM, NOx, O3), BVOC impacts, wind; health-based design integration.
+  - sid: s7
+    path: part 7 — Hyphae firm profile and funding history
+    type: org-profile
+    reuse_value: medium
+    note: Mission statement, team leadership, NIH/FHWA/NSF funding history, near-road green infrastructure expertise; supports
+      partnership credibility.
+  - sid: s5
+    path: part 5 — Health-based environmental modeling rationale
+    type: method
+    reuse_value: medium
+    note: Argues for modeling as integral design process; validates approaches while refining landscape interventions for
+      optimal outcomes; blur between design and research teams.
+  fact_candidates:
+  - 's1: Green Spine project in South West Medical District (SWMD), Dallas, Texas'
+  - 's1: Harry Hines corridor between Market Center and Mockingbird to be re-landscaped'
+  - 's1: Cloverleaf interchange between Inwood and Harry Hines to be replaced with park'
+  - 's1: Texas Trees Foundation leading intervention'
+  - 's1: Hyphae engaged for modeling and before-after health-impact studies'
+  - 's6: Proposed 5-meter resolution models at full two-mile corridor scale'
+  - 's6: Two-stage environmental modeling includes temperature, humidity, human comfort, wind, PM, NOx, O3, BVOCs'
+  - 's7: Hyphae funding from NIH, FHWA, NSF programs'
+  - 's7: Hyphae team includes Daniel Fleischer, Ivan Heitmann, Brent Bucknum'
+  flags:
+  - Document is draft scope narrative, not final contract; excerpts show task list and conceptual framing but thin on executed
+    methods or outcomes.
+  - No quantitative results or metrics from modeling shown in excerpts.
+  - Written 2023; predates Bay Point project; transferable methods but not Bay Point-specific.
+  - Excerpt coverage thin for judging full value of methodology sections; access to linked 'Final version' document recommended.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 74b3596d45a60ea4e122879eeb7a8097e430ea3a9bbd500c6b6f80820c800800
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3871
+    output: 814
+    cache_read: 0
+    cache_write: 0

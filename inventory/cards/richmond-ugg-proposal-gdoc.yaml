@@ -1,0 +1,99 @@
+asset_id: richmond-ugg-proposal-gdoc
+card:
+  summary: Richmond Urban Greening Grant proposal by Groundwork Richmond and Hyphae Design Lab. Three treefence sites (Carlson
+    Blvd, 42nd St, San Pablo Ave terminus) buffer pedestrian/cycling routes and residential areas from air pollution and traffic
+    in environmental justice neighborhoods (Atchison Village, Iron Triangle, North Richmond). Includes community engagement,
+    job training (6 Green Corps, 30 youth), air quality monitoring via CARB funding, and design/construction management. Draft
+    stage with incomplete appendices (planting plans, photos referenced but not fully embedded).
+  doc_role: proposal-draft
+  authorship: Groundwork Richmond (lead); Hyphae Design Lab (design/project management subcontractor)
+  disposition: hold
+  disposition_reason: Contains reusable proposal prose answering standard environmental justice grant questions (community
+    need, demographic context, partnership roles, workforce/community benefits, site specifics). Harvesting opportunity for
+    UGG-style responses and Hyphae case narrative. Near-duplicate of submitted 2021 version noted; this draft may have revisions
+    worth extracting.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Hyphae Design Lab credited as design and project management subcontractor on an environmental justice greening project
+      with air quality monitoring outcomes (PM2.5 tracking, job training, community engagement in three Richmond sites).
+  - need_id: lib-methods
+    how: References CARB-funded air quality monitoring (PM2.5 baseline and post-treefence data collection) and community engagement
+      model anchored to resident relationships, formal neighborhood councils, annual community scoping sessions, and adopt-a-tree/adopt-a-spot
+      programs.
+  - need_id: lib-site-bay-point
+    how: No Bay Point content; Richmond case only. Not relevant to Bay Point applications.
+  sections:
+  - sid: s1
+    path: part 1 | Project Background & Treefence Definition
+    type: project-case
+    reuse_value: high
+    note: Defines treefence concept, project background in environmental justice context (Richmond), and three specific sites.
+      Strong language on community environmental health rationale; reusable for similar air-quality/buffer planting pitches.
+  - sid: s2
+    path: part 2 | Project Deliverables & Partnership Roles
+    type: project-case
+    reuse_value: high
+    note: Names deliverables (planting at three sites), roles (Groundwork Richmond engagement/construction, Hyphae design/PM,
+      local job training), and funding strategy (AB617 CARB/BAAQMD). Clear partnership breakdown.
+  - sid: s3
+    path: part 3 | Outcomes & Metrics
+    type: project-case
+    reuse_value: high
+    note: 'Four measurable outcomes: pedestrian/bike safety, air quality (PM2.5 tracking), green jobs (6 Green Corps, 30 youth),
+      community engagement. CARB monitoring commitment is concrete.'
+  - sid: s4
+    path: part 4 | Applicant Capacity & Community Anchoring
+    type: org-profile
+    reuse_value: high
+    note: Groundwork Richmond history, EPA/NPS cooperative agreement, staff as DAC residents, 10-year neighborhood presence,
+      community events (2020 Climate Smart Neighborhoods Education Day). Reusable partner capacity narrative.
+  - sid: s5
+    path: part 5 | Community Demographics & Historical Context
+    type: site-context
+    reuse_value: high
+    note: Detailed historical redlining narrative, disinvestment rooted in racist housing policies (WWII era), specific neighborhoods
+      (West side, Iron Triangle, Atchison Village). Strong context for EJ framing.
+  - sid: s7
+    path: part 7 | Environmental Burden & Community Engagement History
+    type: need-statement
+    reuse_value: high
+    note: CalEnviroScreen percentiles (90–95 and 85–90), pollution burden (62–77 percentile), six years of urban forestry
+      advisory and Climate Safe Neighborhoods work, North Richmond Shoreline festival. Concrete need evidence.
+  - sid: s9
+    path: part 9 | Hyphae Description & Greenway Vision
+    type: partner-role
+    reuse_value: medium
+    note: Brief Hyphae org profile (interdisciplinary design/innovation, Oakland-based, human/environmental health focus).
+      Connection to Richmond Greenway connectivity, transit access, brownfield/blight reduction framing.
+  fact_candidates:
+  - '[s1] Three treefence sites: Carlson Blvd, 42nd St, San Pablo Ave terminus'
+  - '[s3] Outcomes: 6 Green Corps members, 30 youth Green Team participants'
+  - '[s3] GWR funded by California Air Resources Board to monitor air quality across Richmond disadvantaged neighborhoods'
+  - '[s4] Groundwork Richmond created by cooperative agreement between City of Richmond, US EPA, US National Park Service'
+  - '[s4] CSN Community Education Day held January 2020 at Cobiz center in Iron Triangle'
+  - '[s5] Three census tracts: two at 90–95 CalEnviroScreen percentile, one at 85–90 percentile'
+  - '[s5] Combined pollution burden: 62–77 percentile'
+  - '[s7] Six years of urban forestry advisory committee, Climate Safe Neighborhoods, North Richmond Shoreline festival engagement'
+  - '[s6] Additional $798,000 in California Air Resources Board funding for air quality benefits demonstration'
+  - '[s8] City of Richmond providing in-kind irrigation equipment upgrades, repairs, and mulch'
+  - '[s8] Groundwork already collaborating on 500 tree plantings in Atchison Village'
+  - '[s9] Richmond Greenway connects impacted communities to public transportation and employment opportunities'
+  flags:
+  - near-duplicate of submitted version (richmond-ugg-proposal-submitted-2021, 73% match); extract revisions if any
+  - 'draft stage: appendices incomplete (s10 refs Google Drive links for planting plans, photos, cost detail; not fully embedded)'
+  - UGG-specific answers (not LCI EHCRP); limited direct relevance to Bay Point harm-reduction and lasting-community-benefits
+    questions
+  - 'excerpt too thin to judge: Hyphae role limited to brief mention in s9; no detail on Hyphae methods or prior outcomes'
+  - inventory note claims 'connector-text acquirable (PDF needs manual download)' but doc is Google Doc; confirm if final
+    PDF submission exists
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 3e346e1706568f01f9eff28398e81194f2a949e075300f0eec24b05ef221a2c6
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4871
+    output: 1556
+    cache_read: 0
+    cache_write: 0

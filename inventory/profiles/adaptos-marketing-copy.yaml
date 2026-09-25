@@ -1,0 +1,209 @@
+asset_id: adaptos-marketing-copy
+source_path: sources/adaptos-marketing-copy/adaptos-marketing-copy.md
+source_sha256: 65738a0e1672c2be5be2614b8d037cd363f59e594d792d4dac658199cdcfd7f6
+text_sha256: 0a2620974574c3661963e374c0696046a0ed89fbe9f4eab6a6a638174931deaa
+words: 20541
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 206
+- sid: s2
+  path: General Hyphae material
+  level: 1
+  words: 520
+- sid: s3
+  path: Community Engagement Material
+  level: 1
+  words: 126
+- sid: s4
+  path: Community Engagement Material > Partnership Approach Statement - CBOS
+  level: 3
+  words: 107
+- sid: s5
+  path: Website content
+  level: 1
+  words: 0
+- sid: s6
+  path: Website content > AdaptOS general page
+  level: 2
+  words: 0
+- sid: s7
+  path: Website content > AdaptOS general page > 9/26/24 MP Revision
+  level: 3
+  words: 2102
+- sid: s8
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24)
+  level: 3
+  words: 0
+- sid: s9
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Problem-Solution
+  level: 4
+  words: 240
+- sid: s10
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Analysis
+  level: 4
+  words: 259
+- sid: s11
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Design
+  level: 4
+  words: 402
+- sid: s12
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Implementation
+  level: 4
+  words: 423
+- sid: s13
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Monitoring
+  level: 4
+  words: 347
+- sid: s14
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Evaluation
+  level: 4
+  words: 522
+- sid: s15
+  path: Website content > AdaptOS general page > Adapt Cycle (Drafted MP (9/25/24) > Choose Your Site
+  level: 4
+  words: 1650
+- sid: s16
+  path: Previous text
+  level: 1
+  words: 0
+- sid: s17
+  path: Previous text > AdaptOS Postcard
+  level: 2
+  words: 10
+- sid: s18
+  path: Previous text > From MM, July 2024
+  level: 2
+  words: 553
+- sid: s19
+  path: Previous grant/proposal content
+  level: 1
+  words: 0
+- sid: s20
+  path: Previous grant/proposal content > From CMEJ-MPCA grant
+  level: 2
+  words: 124
+- sid: s21
+  path: Previous grant/proposal content > From CMEJ Google Data Grant
+  level: 2
+  words: 279
+- sid: s22
+  path: Previous grant/proposal content > From Boyle Heights Community Change
+  level: 2
+  words: 290
+- sid: s23
+  path: Previous grant/proposal content > From Endless Frontier (submitted 8/24)
+  level: 2
+  words: 2122
+- sid: s24
+  path: Vision of Business Model
+  level: 1
+  words: 1021
+- sid: s25
+  path: Elevator Pitches
+  level: 1
+  words: 246
+- sid: s26
+  path: Elevator Pitches > Targeted sector-specific pitches
+  level: 2
+  words: 0
+- sid: s27
+  path: Elevator Pitches > Targeted sector-specific pitches > 1. Community-Based Organizations (CBOs)
+  level: 3
+  words: 28
+- sid: s28
+  path: Elevator Pitches > Targeted sector-specific pitches > 2. Government Agencies
+  level: 3
+  words: 30
+- sid: s29
+  path: Elevator Pitches > Targeted sector-specific pitches > 3. Academic and Research Institutions
+  level: 3
+  words: 26
+- sid: s30
+  path: Elevator Pitches > Targeted sector-specific pitches > 4. Private Sector Partners (e.g., Urban Developers, Philanthropists)
+  level: 3
+  words: 25
+- sid: s31
+  path: Elevator Pitches > Targeted sector-specific pitches > 5. Funders and Venture Philanthropists
+  level: 3
+  words: 48
+- sid: s32
+  path: Mission Statement for Hyphae Design Laboratory
+  level: 1
+  words: 386
+- sid: s33
+  path: Mission Statement for Hyphae Design Laboratory > Material I wrote for Bentway
+  level: 2
+  words: 487
+- sid: s34
+  path: Mission Statement for Hyphae Design Laboratory > Compare with those of our competitors
+  level: 2
+  words: 75
+- sid: s35
+  path: Buzz words
+  level: 1
+  words: 122
+- sid: s36
+  path: AdaptOS as an Essential Platform in Climate Adaptation
+  level: 1
+  words: 721
+- sid: s37
+  path: Summary of Interview with Mark Nevitt on Climate Adaptation
+  level: 1
+  words: 5
+- sid: s38
+  path: Summary of Interview with Mark Nevitt on Climate Adaptation > Episode Description
+  level: 2
+  words: 774
+- sid: s39
+  path: 'Detailed Summary of "Destroy, Rebuild, Repeat: How to Break the Climate Disaster Cycle"'
+  level: 1
+  words: 469
+- sid: s40
+  path: 'Detailed Summary of "Destroy, Rebuild, Repeat: How to Break the Climate Disaster Cycle" > Detailed Summary of Part IV: Suspend – Halting Governmental Services'
+  level: 2
+  words: 535
+- sid: s41
+  path: Utilizing AdaptOS to Implement Climate Adaptation Strategies
+  level: 1
+  words: 631
+- sid: s42
+  path: Potential Benefits of Approaching Mark Nevitt
+  level: 1
+  words: 434
+- sid: s43
+  path: Draft of a letter to Mark Nevitt pitching AdaptOS
+  level: 1
+  words: 463
+- sid: s44
+  path: Pitch to Arnold Ventures
+  level: 1
+  words: 573
+- sid: s45
+  path: Potential Competitors to adaptOS (or possibly collaborators)
+  level: 1
+  words: 905
+- sid: s46
+  path: COMMERCIAL APPLICATIONS of adaptOS
+  level: 1
+  words: 448
+- sid: s47
+  path: List of Potential Clients
+  level: 1
+  words: 390
+- sid: s48
+  path: Other uses
+  level: 1
+  words: 646
+- sid: s49
+  path: Steps to Use AdaptOS for Detecting Vector-Borne Diseases
+  level: 1
+  words: 515
+section_count: 49
+profiled: '2026-09-25'
+profiler: p2

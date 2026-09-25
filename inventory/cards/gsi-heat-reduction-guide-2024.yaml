@@ -1,0 +1,181 @@
+asset_id: gsi-heat-reduction-guide-2024
+card:
+  summary: A comprehensive 2024 guide by The Nature Conservancy on quantifying and monetizing heat-reduction benefits of green
+    stormwater infrastructure (GSI). Covers UHI mechanisms, cooling benefits (building energy, health, air quality, water
+    quality), design strategies for heat reduction, quantification methodologies using EPA tools (i-Tree, BenMAP-CE, eGRID),
+    monetization of health benefits (mortality/morbidity), and federal/state funding streams. Includes case studies and partnerships.
+  doc_role: guidance
+  authorship: The Nature Conservancy (J. Peper, J. Sheridan, C. DeSalvo, L. Ulrich, 2024)
+  disposition: reference
+  disposition_reason: Authoritative synthesis of peer-reviewed studies and EPA methodologies for GSI heat benefits; provides
+    citable evidence and tools for EHCRP harm-reduction questions but is not proposal prose to reuse directly. Strong reference
+    for intervention logic, quantification methods, and funding landscape.
+  serves_needs:
+  - need_id: hr-q1
+    how: Documents specific pathways from UHI to health harms (heat-related mortality, morbidity, ER visits, hospitalizations);
+      cites data on disproportionate exposure in low-income communities of color; provides epidemiological foundation for
+      community-specific harm statements.
+  - need_id: hr-q2
+    how: 'Establishes causal pathway: GSI/trees reduce temperatures → lower building energy demand and reduced heat stress
+      → measurable reductions in heat-related ambulance calls (40–50%), mortality (30.5–57%), and ER visits; provides quantification
+      frameworks and EPA tool references for outcome metrics.'
+  sections:
+  - sid: s2
+    path: part 2 (Introduction to guide structure and key questions)
+    type: boilerplate
+    reuse_value: medium
+    note: Frames core question framework (UHI definition, community vulnerability, GSI design for heat reduction) useful for
+      proposal narrative scaffolding.
+  - sid: s3
+    path: 'part 3 (Urban Heat Island: definition, causes, mechanisms)'
+    type: need-statement
+    reuse_value: high
+    note: Clear, evidence-based definition of UHI and mechanisms (impervious surfaces, lack of vegetation, urban geometry,
+      waste heat); directly citable for harm-reduction background.
+  - sid: s4
+    path: part 4 (Building energy consumption reductions from GSI)
+    type: evidence-data
+    reuse_value: high
+    note: 'Quantified relationship: 1°C temp increase = 0.5–8.5% increase in electricity demand; GSI cooling benefits directly
+      reduce building energy; supports energy savings co-benefit claims.'
+  - sid: s5
+    path: part 5 (Temperature reduction benchmarks from literature)
+    type: evidence-data
+    reuse_value: high
+    note: 'Synthesized field/modeling results: 10% vegetation increase = 0.07–0.28°C decrease; tree groves = 9°F decrease;
+      green roofs = 0.75–1.96°C; trees in urban areas = 1°C median reduction; peer-reviewed and directly citable.'
+  - sid: s6
+    path: part 6 (Ozone and air quality impacts)
+    type: evidence-data
+    reuse_value: medium
+    note: Links UHI mitigation to ozone reduction; documents EPA studies and LA case (1.8°F rise = 5% smog increase); supports
+      multi-benefit narrative but Bay Point-specific relevance unclear without local data.
+  - sid: s7
+    path: part 7 (Heat-related morbidity and health equity)
+    type: need-statement
+    reuse_value: high
+    note: Documents 9,200 heat-related hospitalizations/year; identifies disparities in communities of color and low-income
+      neighborhoods (older buildings, less tree cover, less AC); directly supports equity framing for hr-q1.
+  - sid: s8
+    path: 'part 8 (Heat-related mortality: studies and modeling results)'
+    type: evidence-data
+    reuse_value: high
+    note: 'Santamouris 2020: vegetation/albedo improvements reduce mortality 30.5%; Stone et al. 2014: increased trees/vegetation
+      reduce heat-related ambulance calls 40–50%; provides quantified mortality/morbidity reduction outcomes.'
+  - sid: s10
+    path: 'part 10 (Site characterization: temperature data and socioeconomic mapping)'
+    type: method
+    reuse_value: high
+    note: Describes methodology for identifying vulnerable populations and areas of greatest GSI benefit using temperature
+      data + Census socioeconomic data at neighborhood/Census tract scale; directly relevant for Bay Point site assessment.
+  - sid: s11
+    path: 'part 11 (Philadelphia case: surface temperature and impervious cover analysis)'
+    type: project-case
+    reuse_value: medium
+    note: Example of mapping surface temperatures by Census block group using Landsat + NLCD data; overlays with socioeconomic
+      variables; illustrates assessment approach but city-specific, not directly reusable for Bay Point.
+  - sid: s13
+    path: 'part 13 (Design elements: trees, green roofs, permeable pavements for cooling)'
+    type: method
+    reuse_value: high
+    note: 'Research on practice-specific design performance: dense tree canopy, orientation, species selection, green roof
+      depth, permeable pavement; directly informs design strategies for heat reduction in proposals.'
+  - sid: s14
+    path: 'part 14 (Tree placement and building energy savings: design specifics)'
+    type: method
+    reuse_value: high
+    note: Details on tree siting (east-west streets > north-south; deciduous > coniferous for seasonal benefits; proximity
+      to buildings for shade); quantifies energy savings by placement; directly applicable to streetscape design.
+  - sid: s15
+    path: 'part 15 (Quantification: building energy savings methodology using i-Tree)'
+    type: method
+    reuse_value: high
+    note: Describes i-Tree tool suite and peer-reviewed USFS data for monetizing tree ecosystem services; foundational for
+      quantifying GSI benefits in Bay Point context.
+  - sid: s16
+    path: 'part 16 (Energy-related emissions reductions: EPA tools)'
+    type: method
+    reuse_value: medium
+    note: Links reduced cooling energy to GHG/pollutant emissions (SO2, NOx, PM2.5); describes EPA eGRID database for emission
+      rates; supports secondary environmental benefit quantification.
+  - sid: s17
+    path: 'part 17 (Heat-related mortality modeling: methods and assumptions)'
+    type: method
+    reuse_value: medium
+    note: Outlines epidemiological approaches for estimating heat-related deaths; documents assumptions (historical data,
+      baseline mortalities, extreme heat definitions); technical but not Bay Point-specific.
+  - sid: s18
+    path: 'part 18 (Health impact monetization: BenMAP-CE tool and per-ton values)'
+    type: evidence-data
+    reuse_value: high
+    note: 'EPA BenMAP-CE values for avoided mortality/morbidity: $10,600–$249,000 per ton pollutant reduction (varies by pollutant);
+      2018 US$ baseline; enables health benefit monetization in proposals.'
+  - sid: s19
+    path: 'part 19 (Urban cooling benefits: estimation framework for 60 US cities)'
+    type: method
+    reuse_value: medium
+    note: Describes EPA CIRA data and block-level tool for estimating baseline heat mortalities; not Bay Point-specific but
+      provides national modeling framework reference.
+  - sid: s20
+    path: part 20 (Regional temperature reduction estimates and health value tables)
+    type: evidence-data
+    reuse_value: medium
+    note: Sample regional estimates (DC, Atlanta, Philadelphia, etc.) for temperature reduction and health values per case
+      (hospitalization $18k–$49k, ER visit $474–$566); illustrative but not California-specific.
+  - sid: s21
+    path: 'part 21 (Federal funding: BRIC, FEMA revolving loans, community science programs)'
+    type: solicitation-text
+    reuse_value: medium
+    note: Lists FEMA BRIC ($2.3B, pre-disaster mitigation, disadvantaged communities), FEMA revolving funds, and community
+      mapping programs; relevant for identifying co-funding but generic across US.
+  - sid: s22
+    path: 'part 22 (State and nonprofit grant programs: Chesapeake Bay Trust, Arizona Forestry, others)'
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Examples: Chesapeake Bay Trust Urban Trees (low-income areas, historically redlined), Arizona Community Challenge
+      Grants; illustrative funding models but not California-focused.'
+  - sid: s23
+    path: 'part 23 (Project finance and partnerships: municipal bonds, utility revenue bonds)'
+    type: boilerplate
+    reuse_value: medium
+    note: Describes financing mechanisms (revenue bonds, utility partnerships) for GSI capital projects; Philadelphia green
+      streets example ($30M via PENNVEST); relevant for funding strategy narrative.
+  - sid: s24
+    path: 'part 24 (Partnerships for heat reduction: cross-sector collaboration models)'
+    type: partner-role
+    reuse_value: medium
+    note: Documents partnership opportunities across public health, transportation, parks, buildings, water agencies; frames
+      heat reduction as lever for broadening stakeholder buy-in; useful for partnership narrative.
+  fact_candidates:
+  - 's5: 10% increase in vegetation = 0.07–0.28°C decrease in average temperature (CCSR 2006)'
+  - 's5: 10% increase in vegetation = 0.09–0.4°C decrease in maximum temperature (CCSR 2006)'
+  - 's5: Tree groves decrease air temperatures by 9°F (U.S. EPA)'
+  - 's5: Median temperature decrease by trees in urban areas = 1°C (Balany 2020)'
+  - 's5: Green roofs reduce temperature by 0.75–1.96°C (Anderson and Gough 2021)'
+  - 's4: For every 1°C increase in temperature, a single building''s peak electricity load increases by up to 4.6%'
+  - 's6: For every 1.8°F the temperature in Los Angeles rises above 71.6°F, smog increases by 5%'
+  - 's7: Heat-related exposure causes 9,200 hospitalizations per year (U.S. EPA data cited, no year specified)'
+  - 's8: Vegetation and albedo enhancement reduces heat-related mortality by 30.5% (Santamouris 2020)'
+  - 's8: Vegetation and albedo enhancements offset 40–99% of projected heat-related mortality increases, averaging 57% (Stone
+    et al. 2014, Atlanta/Philadelphia/Phoenix)'
+  - 's8: Increased trees and vegetation result in 40–50% reduction in heat-related ambulance calls (Stone et al. 2014)'
+  - 's20: Hospital admission value for heat-related illness: $18,195–$49,128 (2018 US$); ER visit: $474–$566 (EPA 2018)'
+  flags:
+  - Guidance document, not Hyphae-authored; does not contain Bay Point–specific data or case studies
+  - Temperature reduction values are from diverse geographies (Philadelphia, Tacoma, China, etc.); applicability to Bay Point
+    requires local CHAT/VCP validation
+  - No California-specific funding examples or design guidance for Bay Point climate/site conditions
+  - Health monetization uses national EPA values; local Bay Point mortality/morbidity baselines and demographics not provided
+  - Excerpt coverage is thin for finance and partnership sections (s23–s24); full detail on municipal bonding and revenue
+    mechanisms not visible in openings
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8d7080f90c20af7b95e69f9c62b169f7d950966ce2d75c0922f49633b7defc63
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 10485
+    output: 2695
+    cache_read: 0
+    cache_write: 0

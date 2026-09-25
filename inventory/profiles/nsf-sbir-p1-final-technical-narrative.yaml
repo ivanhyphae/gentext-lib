@@ -1,0 +1,61 @@
+asset_id: nsf-sbir-p1-final-technical-narrative
+source_path: sources/nsf-sbir-p1-final-technical-narrative/nsf-sbir-p1-final-technical-narrative.md
+source_sha256: 550ce57406cbc455bd663d108638cd447bd08347a751c2cdcca81907a74bcad4
+text_sha256: 462c58b7d21df5a70df7a7f6e24fadb4f268bbc860080fec6cb53246ac10b945
+words: 6741
+pii:
+  emails: 1
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 600
+- sid: s11
+  path: part 11
+  level: 1
+  words: 600
+- sid: s12
+  path: part 12
+  level: 1
+  words: 141
+section_count: 12
+profiled: '2026-09-25'
+profiler: p2

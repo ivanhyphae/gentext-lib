@@ -1,48 +1,56 @@
 asset_id: ehcrp-r2-planning-playbook-guide
 card:
-  summary: LCI EHCRP Round 2 guidance on required Early Infrastructure Planning Documents (Heat Action Plans or Infrastructure
-    Master Plans) and Advanced Infrastructure Future Implementation Playbooks. Explains the role of these documents in long-term
-    heat resilience planning, the relationship between demonstration projects and planning, and application requirements.
+  summary: LCI EHCRP Round 2 guidance on required planning documents for Early Infrastructure projects. Explains that Early
+    Infrastructure grants must produce either an Extreme Heat Action Plan or Infrastructure Master Plan alongside a demonstration
+    project. The planning document should identify the problem (how/where extreme heat causes harm), develop a long-term strategy
+    (10+ years) informed by data and community input, and test that strategy through infrastructure demonstration. The document
+    then serves as a foundation for future implementation efforts.
   doc_role: guidance
-  authorship: LCI (Low Carbon Cities)
+  authorship: LCI (Extreme Heat and Community Resilience Program)
   disposition: reference
-  disposition_reason: Authoritative solicitation guidance on deliverable expectations; needed to answer lcb-q1 (lasting community
-    benefits pathway through planning document) and shape Full Application scope.
+  disposition_reason: Authoritative guidance on application requirements and planning-document expectations for EHCRP Round
+    2 Early Infrastructure track. Not prose to reuse, but essential reference for understanding what the planning document
+    must contain and how it connects to the lcb-q1 answer.
   serves_needs:
   - need_id: lcb-q1
-    how: 'Defines what Planning Document must accomplish: establish foundation for needed interventions, provide 10+ year
-      practical pathway, show how infrastructure demonstration tests and informs long-term strategy.'
+    how: Directly explains that the planning document must provide 'a long-term practical pathway for how you will implement
+      these interventions' and drive future infrastructure efforts; identifies two acceptable document types (Extreme Heat
+      Action Plan or Infrastructure Master Plan)
   sections:
-  - path: What You Need To Know
+  - sid: s8
+    path: Finalized Planning DOCUMENT
     type: solicitation-text
     reuse_value: high
-    note: Core definition of Planning Document requirements and role in long-term heat resilience planning; directly answers
-      application expectations.
-  - path: Finalized Planning DOCUMENT
+    note: 'Core explanation of Early Infrastructure planning-document requirements: document must evaluate what needs to be
+      done, testing informs revisions, and document turns lessons learned into support for future efforts. Directly addresses
+      lcb-q1 structure.'
+  - sid: s9
+    path: Intervention IDENTIFIED IN PREVIOUS WORK
     type: solicitation-text
-    reuse_value: high
-    note: Details document form options (Heat Action Plan or Infrastructure Master Plan), timeline scope (10+ years), and
-      relationship between demonstration project and planning.
+    reuse_value: medium
+    note: Application development steps and reference to example documents. Useful for scope/budget framing of planning-document
+      work.
   fact_candidates:
-  - Round 2 will fund Early and Advanced Infrastructure projects.
-  - Early Infrastructure requires a Planning Document; Advanced Infrastructure requires a Future Implementation Playbook.
-  - Planning Document must take form of either an Extreme Heat Action Plan or an Infrastructure Master Plan.
-  - 10+ year timeline for long-term strategy.
-  - Infrastructure demonstration serves as test of long-term strategy.
-  - 'Three example documents referenced: Example 1 (Infrastructure Master Plan), Example 2 (Heat Action Plan), Example 3 (Heat
-    Action Plan).'
+  - '[s2] Early Infrastructure Planning Document must establish foundation for needed interventions and provide long-term
+    practical pathway for implementation'
+  - '[s7] Early Infrastructure Planning Document should define how and where extreme heat is causing harm in the area'
+  - '[s7] Planning document should be a Heat Action Plan or Infrastructure Master Plan providing guidance over the next 10+
+    years'
+  - '[s8] Planning Document and infrastructure demonstration are two elements that inform each other'
+  - '[s8] Infrastructure demonstration serves as testing of long-term strategy'
   flags:
-  - Excerpt lacks specific guidance on metrics, community engagement, or harm-reduction integration—may require review of
-    full text or examples.
-  - No contact information or LCI staff office-hours details provided; separate source needed for technical assistance.
+  - 'Excerpt too thin to judge: section examples referenced but not shown; actual example documents (Example 1, 2, 3) not
+    provided in excerpt'
+  - No specific metrics, timelines, or deliverable descriptions beyond 'planning document type'
+  - Inventory note mentions 'feeds LCB answer' — confirms relevance to lcb-q1 need
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 2f7142001971e778fa18af8005fc3ab37cd28c303d5f1f1da5cd2ffb8db779a9
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 3203
-    output: 460
+    input: 3314
+    output: 596
     cache_read: 0
     cache_write: 0

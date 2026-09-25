@@ -1,0 +1,121 @@
+asset_id: resilient-philadelphia-grant-2025
+card:
+  summary: Draft proposal for Philadelphia's Resilient Philadelphia Citywide Resilience Plan Update (RFP deadline 4/27/2025,
+    $250k, 24 months). Hyphae partnering with Clean Air Council on community engagement and climate resilience planning. Document
+    is a working compilation mixing proposal drafts, meeting notes, budget justification, and reused material from prior projects
+    (Arlington Park/Dallas SWMD, Boyle Heights EPA grant, Harry Hines evidence-based design methodology). Includes narrative
+    on community co-design, evidence-based design approach, sensor deployment, tree planting strategies, complete streets
+    analysis, and monitoring methodology. Supporting materials reference prior Hyphae projects in Dallas, Los Angeles, Richmond,
+    Stockton, and Oakland.
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab (with Clean Air Council partner); primary authors appear to be Brent Bucknum, Ivan Heitmann,
+    Merissa MacDonald, Daniel Fleischer, Maxwell Pingeon
+  disposition: ignore
+  disposition_reason: This is a working draft of a Philadelphia-specific proposal (not a submitted application or completed
+    project). While it contains reusable prose on Hyphae's evidence-based design methodology, sensor deployment, and engagement
+    approaches, the document is heavily scaffolded from recycled material (72% near-duplicate with NSF S&CC TAMU, Arlington
+    Park, and CalEPA proposals per metadata). The Philadelphia application is not relevant to active Hyphae needs (LCI EHCRP
+    Round 2 Bay Point applications). Extract specific methodology language into lib-methods instead of holding the whole draft.
+  serves_needs: []
+  sections:
+  - sid: s30
+    path: Narrative project description > Community Co-Design Approach
+    type: method
+    reuse_value: medium
+    note: Overview of Hyphae's EJ approach integrating data, science, and community empowerment; reusable framing for harm-reduction
+      and belonging questions
+  - sid: s31
+    path: Narrative project description > Evidence-Based Design Approach
+    type: method
+    reuse_value: medium
+    note: 'Comprehensive description of EBD process: understanding problem via research/monitoring/modeling, engaging community,
+      iterative design; applicable to EHCRP methodology'
+  - sid: s66
+    path: BH-EPA-Grant EDITED > Approach > Evidence-based Design
+    type: method
+    reuse_value: medium
+    note: Hyperlocal mapping, measurement tools (NSF/NIH funding mentioned), adaptOS platform for simulation/design/implementation;
+      five-stage process (measurement, simulation, implementation, assessment, refinement)
+  - sid: s68
+    path: 'BH-EPA-Grant EDITED > Approach > The Approach: Measurement & Modeling'
+    type: method
+    reuse_value: medium
+    note: Adaptive measurement, design, modeling workflow; data collection (heat, air quality, greenness, demographics); LIDAR
+      and Street View 360 for digital twin; pre/during/after physical surveys
+  - sid: s81
+    path: Green Spine Design Coordination Hyphae Scope and Schedule > Introduction
+    type: project-case
+    reuse_value: medium
+    note: Texas Trees Foundation Green Spine corridor intervention in SWMD Dallas; evidence-based design, health endpoints,
+      thermal comfort as primary measure; living laboratory framework
+  - sid: s94
+    path: Harry Hines Evidence-based design methodology report > Executive summary > Introduction
+    type: method
+    reuse_value: high
+    note: Complete evidence-based design methodology framework; use of literature, environmental simulations, monitoring;
+      platform for generalizing learnings across communities
+  - sid: s96
+    path: Harry Hines Evidence-based design methodology report > Monitoring and pre-post study
+    type: method
+    reuse_value: high
+    note: 'Specific findings: peak mean radiant temperature reductions of 24°C under large mature trees vs. sun; avg summer
+      afternoon 8°C cooler in tree shade; small trees 3.5°C cooler; methodology for pre-post thermal comfort evaluation'
+  - sid: s100
+    path: Harry Hines Evidence-based design methodology report > Brief Literature review > Vegetated Air Barriers for Roadside
+      Pollution Mitigation
+    type: method
+    reuse_value: medium
+    note: 'Design rubrics for roadside vegetated barriers: high surface area vegetation, no gaps, species guidance (Thuja,
+      Abies, Pinus, Taxus, Juniperus, grasses/shrubs); referenced design standards'
+  - sid: s105
+    path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Hardware
+    type: method
+    reuse_value: medium
+    note: LORAWAN network architecture for sensor deployment; hub on Parkland Hospital rooftop; Dragino LSN50-V2 modules;
+      cloud infrastructure (MQTT protocol); temperature and wind sensor types
+  - sid: s106
+    path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Placement
+    type: method
+    reuse_value: medium
+    note: 'Sensor placement strategy: 23 sun-exposed, 15 in large tree shade, 7 in small tree shade; captures thermal benefit
+      variation; supports cost-benefit assessment of tree sizing'
+  fact_candidates:
+  - 's2: RFP deadline 4/27/2025 9PM ET'
+  - 's2: $250,000 total funding + negotiated costs potential'
+  - 's2: 24-month grant length'
+  - 's6: $600k WPF grant for broader Philadelphia resilience effort (RFP is $250k subcontract component)'
+  - 's19: Hyphae has experience in Dallas, Louisville Kentucky, Boyle Heights Los Angeles, Richmond CA, Stockton CA, Oakland
+    CA'
+  - 's28: Arlington Park neighborhood total population 1,358; 35.5% Hispanic/Latino, 31.2% Non-Hispanic White, 32.4% Non-Hispanic
+    Black/African American'
+  - 's81: Harry Hines corridor between Market Center and Mockingbird; cloverleaf interchange between Inwood and Harry Hines
+    to be replaced with park'
+  - 's96: Peak mean radiant temperature reductions of 24 degrees between shade of large tree and sun-exposed areas'
+  - 's96: Average summer afternoon globe temperatures 8 degrees lower in shade of large trees than in sun'
+  - 's96: Small trees show 3.5 degrees cooler on average (smaller effect, smaller area)'
+  - 's106: 23 temperature sensors in sun-exposed areas; 15 in direct shade of large mature trees; 7 in direct shade of small/immature
+    trees'
+  - 's113: DepaveLA report identifies over 174,000 acres of depaveable surface across Los Angeles County'
+  flags:
+  - 'near-duplicate: 72% overlap with NSF S&CC TAMU, Arlington Park EPA CCG, and CalEPA EJ Action Grant 2025 proposals; core
+    narrative blocks recycled across projects'
+  - 'excerpt too thin to judge: sections s8 (Proposal Only) mostly placeholders and task stubs; s14-s15 headers with no content'
+  - 'context leakage risk: Philadelphia-specific application; Arlington Park/Dallas content (s23-s87) is prior project reference
+    material, not new Hyphae work'
+  - 'internal notes: s5 (Apr 14 workstream planning meeting) and s6 (Apr 9 dev opportunities) contain candid team discussion
+    and coordination notes; contact data redacted'
+  - 'possibly outdated: modified 4/21/2025 but RFP deadline was 4/27/2025 (5 days); document state unclear—may be post-deadline
+    draft'
+  - 'no relevance to LCI EHCRP Round 2: this is a Philadelphia municipal resilience plan RFP, not related to Bay Point/Ambrose
+    applications or EHCRP priorities (harm reduction, partnership track record, community voices, lasting benefit)'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8e0afda11d57f840af92f08ea2ceee70ba30861ae368268b1d2196153b5f627d
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 14923
+    output: 1775
+    cache_read: 0
+    cache_write: 0

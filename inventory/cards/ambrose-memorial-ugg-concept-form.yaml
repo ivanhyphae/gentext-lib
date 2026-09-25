@@ -1,0 +1,57 @@
+asset_id: ambrose-memorial-ugg-concept-form
+card:
+  summary: CNRA Urban Greening Grant 2026 concept proposal for Ambrose Memorial Park green infrastructure improvements led
+    by Ambrose Recreation and Park District. $5M request for heat refuge, air quality, and equitable recreation access in
+    heat-vulnerable Bay Point. Cites Contra Costa County health and climate vulnerability data and projections.
+  doc_role: proposal-draft
+  authorship: James (Hyphae); Ambrose Recreation and Park District
+  disposition: hold
+  disposition_reason: Shared project description and benefits language across EHCRP and UGG applications; contains site-specific
+    vulnerability data, community need justification, and applicant contact/organizational information for library reference.
+    Provides baseline project framing to check for inconsistencies.
+  serves_needs:
+  - need_id: lib-site-bay-point
+    how: Cites 2015 Contra Costa Health Services Climate Change Vulnerability report (Bay Point high heat vulnerability, poverty,
+      linguistic isolation, asthma, treeless); Scripps/Cal-Adapt climate projections (21–35 days over 100°F by 2090s); Highway
+      4 proximity contributing to heat island and PM2.5 exposure.
+  - need_id: lib-partners
+    how: Names Ambrose Recreation and Park District as lead applicant; provides organizational address (3105 Willow Pass Rd,
+      Bay Point CA 94565) and primary contact (Lori Chalifoux, General Manager).
+  sections:
+  - sid: s2
+    path: part 2
+    type: need-statement
+    reuse_value: high
+    note: Vulnerability data and climate projections for Bay Point; specific indicators (poverty, children <5, linguistic
+      isolation, asthma, treeless); cites authoritative sources (2015 Contra Costa Health Services report, Scripps/Cal-Adapt).
+  - sid: s3
+    path: part 3
+    type: site-context
+    reuse_value: medium
+    note: Park location, adjacency to Highway 4, heat island and air quality context; description of community disadvantage
+      and compounding vulnerabilities.
+  fact_candidates:
+  - 2015 Contra Costa Health Services report identifies Bay Point as high overall vulnerability to extreme heat (pg 32)
+  - Bay Point projected 21–35 days over 100°F annually by 2090s (Scripps Institute/Cal-Adapt, pg 13)
+  - 'Grant amount requested: $5,000,000'
+  - 'Total project cost: $5,000,000'
+  - 'Project location: 125 Memorial Way, Bay Point, CA'
+  - 'Contra Costa Senate District: 9'
+  - Park adjacent to Highway 4 contributing to urban heat island, PM2.5 exposure, and limited tree canopy
+  - 'ARPD primary contact: Lori Chalifoux, title General Manager, phone (925)458-1601 ext 102'
+  flags:
+  - 'Excerpt too thin to judge: s1 incomplete (contact form with many ''Enter text here'' placeholders); secondary contact,
+    latitude/longitude, other funding sources not filled in.'
+  - Shared language with EHCRP application per inventory note; compare against EHCRP documents for consistency and avoid duplication.
+  - Contact data present (name, phone, redacted email).
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 640b93eabc0b2a2da16ea8fdfaaa9657fcb0f5b810432b6d1e5ec5510629a3d0
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3344
+    output: 734
+    cache_read: 0
+    cache_write: 0

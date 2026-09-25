@@ -1,0 +1,32 @@
+asset_id: ehcrp-r1-awards-news-2024
+card:
+  summary: November 2024 news announcement of $9.4M awarded by California's Governor's Office of Land Use and Climate Innovation
+    (LCI) to 32 communities under the Extreme Heat and Community Resilience Program (EHCRP) Round 1. Links to award list PDF
+    and program website.
+  doc_role: report
+  authorship: Governor's Office of Land Use and Climate Innovation (LCI)
+  disposition: reference
+  disposition_reason: Authoritative source confirming R1 awards and linking to awardee list; not proposal prose to reuse,
+    but useful for context and to locate the detailed award list.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - $9.4M awarded by LCI EHCRP in 2024-11
+  - 32 California communities received funding
+  - 'Announcement date: November 4, 2024'
+  - 'Award list: https://lci.ca.gov/wp-content/uploads/20241104-Small_Grant_Awardees_EHCRP_R1.pdf'
+  flags:
+  - 'excerpt too thin to judge: only 106 words, mostly headline and links; no project details or named grantees visible in
+    excerpt'
+  - links provided but actual awardee names and amounts not shown in this excerpt
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 3b8030444be91eea9e5d06f1ea0760b6b5a56f32bfc11ce977ab990c7102d97b
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2874
+    output: 291
+    cache_read: 0
+    cache_write: 0

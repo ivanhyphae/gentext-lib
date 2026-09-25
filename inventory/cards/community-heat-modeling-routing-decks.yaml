@@ -1,0 +1,59 @@
+asset_id: community-heat-modeling-routing-decks
+card:
+  summary: 2024 presentation deck on Hyphae's heat and air quality modeling, monitoring, and cool-routing capability. Covers
+    thermal comfort and radiant temperature modeling at microclimate scale, wind flow simulation, air pollution interception
+    by trees (10–50% range), and a prototype vegetated air barrier project in Louisville, KY (2022). Includes technical validation
+    metrics (R² 0.93 to −2.4, RMSE 3.5–10.6) and computer vision methods for streetscape analysis. Positioned as evidence-based
+    adaptation framework for community-scale interventions.
+  doc_role: presentation
+  authorship: Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Contains reusable capability text (modeling methods, monitoring approaches, cool-routing concept) and
+    citable outcomes (Louisville air barrier project, model validation metrics) suitable for harm-reduction and method sections
+    of EHCRP proposals.
+  serves_needs:
+  - need_id: lib-methods
+    how: Describes heat/UTCI thermal comfort modeling, wind flow simulation, air pollution monitoring and interception by
+      vegetation; cool-routing concept applicable to harm-reduction pathways.
+  - need_id: hr-q2
+    how: Cool-routing and vegetated barriers as infrastructure-to-harm-reduction pathway; quantified air pollution interception
+      rates (10–50%) and thermal comfort modeling provide outcome-tracking foundation.
+  sections:
+  - sid: s1
+    path: part 1
+    type: capability
+    reuse_value: high
+    note: Heat and air pollution modeling methods (thermal comfort, radiant temperature, wind flow, pollution interception);
+      evidence-based microclimate adaptation framework with validation metrics (R² 0.93 to −2.4, RMSE 3.5–10.6); applicable
+      to site-specific harm-reduction design.
+  - sid: s2
+    path: part 2
+    type: method
+    reuse_value: medium
+    note: Monitoring outcomes from Louisville vegetated air barrier project (2022, 2-mile freeway stretch, ongoing UFO monitoring);
+      computer vision methods (PSPnet semantic segmentation) for streetscape analysis; demonstrates technical capacity and
+      real-world monitoring feasibility.
+  fact_candidates:
+  - 's1: Thermal comfort modeling R² values ranged from 0.93 to −2.4 with RMSE 3.5–10.6'
+  - 's1: Wind vectors show velocity increase through building openings and canopy reduction effects'
+  - 's2: Air pollution interception by trees: modeling predicts 10–40%, monitoring data shows 15–50%'
+  - 's2: Engineered vegetated air barrier planted along 2-mile stretch of I-264 freeway through Louisville, KY, in 2022'
+  - 's2: Air barrier project subject to ongoing UFP (ultrafine particle) monitoring before and after installation'
+  - 's2: PSPnet algorithm used for open-vocabulary semantic segmentation of streetview images'
+  flags:
+  - Excerpt too thin to judge full scope of cool-routing service definition or community engagement elements.
+  - No Bay Point site-specific data or outcomes shown; capability framing only.
+  - Presentation slides; limited context on how methods translate to EHCRP harm-reduction questions (hr-q1 and hr-q2 require
+    specific community harms and measurable outcome pathways).
+  - Louisville project monitoring status and results not detailed in excerpts.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 312a5067e11e3afcd532b74511c94ca10ea6b8f4f0603322b81390e3dd5fe1b7
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3134
+    output: 760
+    cache_read: 0
+    cache_write: 0

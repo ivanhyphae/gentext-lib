@@ -1,0 +1,111 @@
+asset_id: nsf-sbir-p2-project-description
+card:
+  summary: NSF SBIR Phase II project description for AdaptOS software tool. Describes R&D to advance automated analysis of
+    vegetation (leaf area density from street-view and aerial imagery using machine learning), design optimization (tree planting
+    plans, habitat networks, CFD-based heat/pollution mitigation), and backend infrastructure. Phase I prototype created methods
+    for low-cost site analytics and design guidance; Phase II will expand algorithm generalizability, integrate CFD fluid
+    solver for microclimate modeling, and deploy across multiple US cities (Richmond CA, Stockton CA, Pittsburgh CA, Dallas
+    TX, Oakland CA, Louisville KY). Funded by NSF; award letter referenced in metadata.
+  doc_role: submitted-proposal
+  authorship: Hyphae Design Lab (Daniel Fleischer, Brent Bucknum, and team)
+  disposition: hold
+  disposition_reason: This is a funded, awarded Phase II technical narrative describing Hyphae's core simulation and design-optimization
+    capability (AdaptOS). Contains citable outcomes from Phase I, detailed methods for vegetation analysis (LAD/LAI from street-view
+    and aerial imagery via CGAN), CFD-based microclimate modeling (UTCI, wind, pollution dispersion), and algorithmic design
+    synthesis (tree planting, setback rules, habitat networks). Directly supports capability sections of future proposals,
+    particularly for green infrastructure analysis and design optimization. Pairs with Phase I final technical narrative (mentioned
+    in inventory note).
+  serves_needs:
+  - need_id: lib-methods
+    how: Detailed description of CGAN-based leaf area density/index estimation from street-view and aerial imagery; CFD-based
+      UTCI and wind modeling; plant placement algorithms with parametric constraints and habitat-network analysis; microbiome
+      and biodiversity optimization approaches.
+  - need_id: lib-firm-experience
+    how: Describes Phase I R&D outcomes (prototype tool, CGAN performance metrics, database/UI architecture) and Phase II
+      scope. Establishes Hyphae's technical expertise in machine learning for vegetation analysis and computational fluid
+      dynamics for microclimate design optimization.
+  sections:
+  - sid: s1
+    path: part 1 — Results of Phase I Project
+    type: capability
+    reuse_value: high
+    note: 'Phase I objectives and outputs: prototype software for site analytics and design guidance using low-cost inputs
+      (street-view imagery); leaf area density estimation from 4-band imagery; automated intervention design synthesis. Establishes
+      foundational capability.'
+  - sid: s2
+    path: part 2 — Phase I Continuation & Initial Design Synthesis
+    type: capability
+    reuse_value: high
+    note: CGAN performance data (pixel-to-pixel correlation, r-squared values shown in Figure 1); automated plantable-area
+      estimation and tree-planting optimization using neural networks on aerial LIDAR. Technical results demonstrating method
+      viability.
+  - sid: s3
+    path: part 3 — Database & UI; Partnership Implementations
+    type: capability
+    reuse_value: medium
+    note: Backend database for geospatial data types; front-end UI for analysis and design delivery. Reference to Green Heart
+      Project implementation with community partners (dates, funding source mentioned as National Institutes—text cut off).
+  - sid: s8
+    path: part 8 — Biodiversity & Health Optimization
+    type: method
+    reuse_value: medium
+    note: Rationale for leaf-area metrics in relation to immune health, airborne microbiome, and cardiovascular/stroke mortality
+      outcomes. Cites published evidence (Haahtela, Stone, Robinson, Giacinto et al.) linking vegetation structure to health.
+  - sid: s10
+    path: part 10 — CFD Modeling for Heat & Pollution Mitigation
+    type: method
+    reuse_value: high
+    note: OpenFOAM CFD simulation for wind, heat (UTCI), and pollution dispersion around trees and buildings. Figure 6 shows
+      wind speed reduction and UTCI computation; demonstrates integrated microclimate-design optimization.
+  - sid: s14
+    path: part 14 — Staffing & Revenue
+    type: org-profile
+    reuse_value: medium
+    note: 'Company revenue history (5-year table: 2016–2020 SBIR total $175k/50k; contract R&D and consulting breakdowns).
+      Key staff: Daniel Fleischer (Chief Science Officer since 2015), Brent Bucknum (since 2008); roles described.'
+  fact_candidates:
+  - 'Part 1: Phase I objective was to create prototype software tool taking widely available geographic information as input
+    and outputting site analytics and design guidance for green infrastructure.'
+  - 'Part 2: CGAN algorithm estimates 1m LAI from 18cm 4-band imagery; Figure 1 shows improved performance since Phase I completion
+    with pixel-to-pixel correlation and r-squared values reported.'
+  - 'Part 3: Green Heart Project implemented roadside greening interventions; as of July 2021, partners were engaged with
+    funding from National Institutes (text cut).'
+  - 'Part 4: Phase II will gather street-view LIDAR and RGB imagery from multiple US cities: Richmond CA, Stockton CA, Pittsburgh
+    CA, Dallas TX, additional Oakland CA, and Louisville KY.'
+  - 'Part 5: Leaf categorization includes Coast Live Oak; coefficients used to calculate LAD from LIDAR-derived RDI for CGAN
+    training.'
+  - 'Part 6: Laxman et al. (2021) developed multiscale gradient pix2pix implementation halving memory requirements for higher-resolution
+    CGAN images.'
+  - 'Part 8: Tree species diversity correlated with reduced risk of cardiovascular and stroke mortality (Giacinto et al. 2021);
+    leaf area correlates with biodiversity (Peng et al. 2017).'
+  - 'Part 10: OpenFOAM CFD simulation integrates wind, vegetation, and structures to prioritize tree-planting sites for heat-island
+    mitigation; pollution deposition included in simulations.'
+  - 'Part 11: Aerial LIDAR buildings will be meshed using geometric method inspired by Bauchet & Lafarge (2019); vegetation
+    voxelized into LAD voxels and meshed with convex hull algorithm.'
+  - 'Part 12: Phase II scanning equipment upgraded with faster IMU and 128-beam LIDAR starting end of May 2022; scans planned
+    for 4 areas (west: Oakland, Stockton, Sacramento, Fresno, Los Angeles, Portland OR; east: TBD by text limit).'
+  - 'Part 13: Key milestone: training data developed for 50 square km from 16 different cities by April (year implied as 2023);
+    CGAN deliverable requires 90% accuracy for feature identification and setback delineation by May.'
+  - 'Part 14: Company 5-year revenue (2016–2020): SBIR Total $175k (2020) and $50k; Contract R&D $33.3k–$340.5k; Consulting
+    $791.8k–$653.6k; Phase II budget $250k contract R&D, $600k consulting (implied).'
+  flags:
+  - Inventory note references award letter and Phase I final technical narrative as complementary documents; Phase I narrative
+    not yet triaged.
+  - 'Excerpt coverage thin for section content: each section shows ~200–250 words of 600-word text; some details cut off (e.g.,
+    ''as of July 2021 our partners... National Institutes'' text truncates).'
+  - Section 4 mentions Pittsburgh, CA—likely error (Pittsburgh, PA or misidentified); user should verify city list.
+  - Figure captions and detailed algorithm parameters present but not fully transcribed in excerpts; original document should
+    be consulted for complete technical specifications.
+  - Document authored 2025-07-17 but describes Phase II work with task schedule and milestones dated 2022–2023, suggesting
+    this is a historical archive of executed project (not a prospective proposal).
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 753459df334ef753badf46ae49beb0666fd6214ca04116f190338d8fe38e4af0
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 5288
+    output: 1857
+    cache_read: 0
+    cache_write: 0

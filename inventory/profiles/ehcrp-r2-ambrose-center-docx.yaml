@@ -1,383 +1,545 @@
 asset_id: ehcrp-r2-ambrose-center-docx
 source_path: projects/EHCRP Round 2/Ambrose Center Park EHCRP.docx
 source_sha256: 54de98cb2d0d679a947571924ae1c69250840fe76d8c69fc488772bb23544c34
-text_sha256: 22084a536deee5006e9f151d4f1652f51ecac84fbfae70d051cc48bc15308a21
-words: 16426
+text_sha256: f858d15bd62214ee24e3f9e64b89afbb836c37ee77eac7d5992fae63aa762548
+words: 16321
 pii:
   emails: 12
   phones: 0
 near_duplicates:
 - asset_id: ehcrp-r2-ambrose-memorial-docx
-  jaccard: 0.939
-  contained_in: 0.969
+  jaccard: 0.937
+  contained_in: 0.968
+- asset_id: ehcrp-r2-ambrose-center-gdoc
+  jaccard: 0.917
+  contained_in: 0.96
+- asset_id: ehcrp-r2-ambrose-memorial-gdoc
+  jaccard: 0.865
+  contained_in: 0.931
 - asset_id: ehcrp-r2-working-doc
-  jaccard: 0.672
-  contained_in: 0.724
+  jaccard: 0.733
+  contained_in: 0.77
 sections:
-- path: (preamble)
+- sid: s1
+  path: (preamble)
   level: 0
-  words: 466
-- path: Introduction
-  level: 1
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and'
-  level: 3
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program'
-  level: 3
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program > Notice of Funding Availability Extreme Heat-Program-Round 2 pdf'
-  level: 4
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are'
-  level: 3
-  words: 160
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Office
-    Hours'
-  level: 4
-  words: 124
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Program
-    Funding and Purpose'
-  level: 4
-  words: 55
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Applicant
-    Eligibility and Co-Applicant Requirements'
-  level: 4
-  words: 44
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Grant Types
-    and Available Funds'
-  level: 4
-  words: 59
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Grant Types
-    and Available Funds > <u>Application Process and Deadlines</u>'
-  level: 5
-  words: 59
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Scoring
-    and Selection Process'
-  level: 4
-  words: 55
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Appeals
-    Frameworks'
-  level: 4
-  words: 37
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Appeals
-    Frameworks > Support Resources and Inquiries'
-  level: 5
-  words: 41
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Legal and
-    Administrative Terms'
-  level: 4
-  words: 41
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Pre-application interest form'
-  level: 3
   words: 3
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Extreme Heat and Community Resilience Program Round 2 Events Calendar'
-  level: 3
-  words: 129
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Additional example webinars'
-  level: 3
-  words: 145
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > ROUND 2 Partnership Survey Responses'
-  level: 3
-  words: 2
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)'
-  level: 3
+- sid: s2
+  path: '2026 Hyphae + I-ReLab: EHCRP'
+  level: 1
+  words: 454
+- sid: s3
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction'
+  level: 2
   words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Overview'
+- sid: s4
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and'
   level: 4
-  words: 53
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Program Priorities'
+  words: 0
+- sid: s5
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program'
   level: 4
+  words: 0
+- sid: s6
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program > Notice of Funding Availability Extreme Heat-Program-Round
+    2 pdf'
+  level: 5
+  words: 0
+- sid: s7
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are'
+  level: 4
+  words: 160
+- sid: s8
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Office Hours'
+  level: 5
+  words: 89
+- sid: s9
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Program Funding and Purpose'
+  level: 5
+  words: 55
+- sid: s10
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Applicant Eligibility and Co-Applicant Requirements'
+  level: 5
   words: 44
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Application Process'
-  level: 4
+- sid: s11
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Grant Types and Available Funds'
+  level: 5
+  words: 59
+- sid: s12
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Grant Types and Available Funds > Application Process and Deadlines'
+  level: 6
+  words: 59
+- sid: s13
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Scoring and Selection Process'
+  level: 5
+  words: 55
+- sid: s14
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Appeals Frameworks'
+  level: 5
   words: 37
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Important Deadlines'
+- sid: s15
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Appeals Frameworks > Support Resources and Inquiries'
+  level: 6
+  words: 41
+- sid: s16
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application
+    process are > Legal and Administrative Terms'
+  level: 5
+  words: 41
+- sid: s17
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Pre-application interest form'
   level: 4
-  words: 40
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Helpful Resources'
+  words: 3
+- sid: s18
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Extreme Heat and Community Resilience Program Round 2 Events Calendar'
   level: 4
-  words: 11
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Why This Matters'
+  words: 92
+- sid: s19
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Additional example webinars'
   level: 4
-  words: 26
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial notes: Example Webinar Takeaways'
-  level: 3
+  words: 145
+- sid: s20
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > ROUND 2 Partnership Survey Responses'
+  level: 4
+  words: 2
+- sid: s21
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)'
+  level: 4
   words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > <img src="media/image5.png" style="width:6.84482in;height:3.64757in" />'
-  level: 3
-  words: 100
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The Opportunity'
-  level: 3
-  words: 71
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Applicant’s role'
-  level: 3
-  words: 197
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Area of Focus'
-  level: 3
+- sid: s22
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Overview'
+  level: 5
   words: 53
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Area of Focus > I see an opportunity to further explore how these concepts intersect with'
-  level: 4
-  words: 45
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Strategy'
-  level: 3
-  words: 94
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities'
-  level: 3
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Grant Documentation'
-  level: 4
-  words: 27
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Track important dates and upcoming milestones.'
-  level: 4
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Track important dates and upcoming milestones. > Partner Development'
+- sid: s23
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Program Priorities'
   level: 5
-  words: 42
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach'
-  level: 3
-  words: 16
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach > Potential supporting materials include'
-  level: 4
-  words: 31
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach > Research Priorities'
-  level: 4
+  words: 44
+- sid: s24
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Application Process'
+  level: 5
+  words: 37
+- sid: s25
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Important Deadlines'
+  level: 5
   words: 40
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development'
-  level: 3
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include'
-  level: 4
-  words: 0
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include > Educational Institutions'
-  level: 5
-  words: 8
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include > Community Organizations'
-  level: 5
-  words: 127
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include > Tribal & Indigenous Partnerships'
-  level: 5
-  words: 13
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include > Agencies'
+- sid: s26
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Helpful Resources'
   level: 5
   words: 11
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting include > Agriculture'
+- sid: s27
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)
+    > Why This Matters'
   level: 5
-  words: 30
-- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Strategic Reflection'
-  level: 3
-  words: 202
-- path: Project Concepts & Emerging Ideas
-  level: 1
-  words: 42
-- path: Project Concepts & Emerging Ideas > Physical Infrastructure
-  level: 2
-  words: 18
-- path: Project Concepts & Emerging Ideas > Data, Modeling & Monitoring
-  level: 2
-  words: 17
-- path: Project Concepts & Emerging Ideas > Reference Materials
-  level: 2
-  words: 7
-- path: Project Concepts & Emerging Ideas > Notes
-  level: 2
+  words: 26
+- sid: s28
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial notes: Example Webinar Takeaways'
+  level: 4
+  words: 0
+- sid: s29
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > !{width="6.844821741032371in" height="3.6475699912510935in"}'
+  level: 4
+  words: 94
+- sid: s30
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The Opportunity'
+  level: 4
+  words: 71
+- sid: s31
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Applicant’s role'
+  level: 4
+  words: 197
+- sid: s32
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Area of Focus'
+  level: 4
+  words: 53
+- sid: s33
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Area of Focus > I see an opportunity to further explore how these concepts
+    intersect with'
+  level: 5
+  words: 45
+- sid: s34
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Emerging Strategy'
+  level: 4
+  words: 94
+- sid: s35
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities'
+  level: 4
+  words: 0
+- sid: s36
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Grant Documentation'
+  level: 5
   words: 27
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference)
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > <u>20250529-EHRGPRound-1-AwardsList.pdf</u>
-  level: 4
-  words: 163
-- path: 'Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > <u>20250529-EHRGPRound-1-AwardsList.pdf</u> > Project Categories: The scope of work is divided into four distinct
-    grant tracks'
+- sid: s37
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Track important dates and upcoming milestones.'
   level: 5
-  words: 72
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Implementation Grants
-  level: 4
-  words: 36
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Implementation Grants
-  level: 4
-  words: 31
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Planning Grants
-  level: 4
-  words: 40
-- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Planning Grants
-  level: 4
-  words: 34
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants
-  level: 2
-  words: 4
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Summary
-  level: 3
-  words: 58
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Action Items
-  level: 3
-  words: 225
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points
-  level: 3
   words: 0
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > EHCRP requirements and eligibility
-  level: 4
-  words: 49
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Urban greening grant update and bus stop project
-  level: 4
-  words: 70
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Partner eligibility and CBO discussion
-  level: 4
-  words: 59
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Submission logistics and responsibilities
-  level: 4
-  words: 55
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Potential Ambrose Park proposals
-  level: 4
+- sid: s38
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Immediate Priorities > Track important dates and upcoming milestones. > Partner Development'
+  level: 6
   words: 42
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Resilience hub constraints and adaptation options
+- sid: s39
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach'
   level: 4
-  words: 50
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Co‑applicant implications and Baypoint CBO capacity
+  words: 16
+- sid: s40
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach > Potential supporting materials include'
+  level: 5
+  words: 31
+- sid: s41
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Outreach > Research Priorities'
+  level: 5
+  words: 40
+- sid: s42
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development'
   level: 4
-  words: 56
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Potential partner , Baypoint Gardening Club
+  words: 0
+- sid: s43
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include'
+  level: 5
+  words: 0
+- sid: s44
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include > Educational Institutions'
+  level: 6
+  words: 8
+- sid: s45
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include > Community Organizations'
+  level: 6
+  words: 127
+- sid: s46
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include > Tribal & Indigenous Partnerships'
+  level: 6
+  words: 13
+- sid: s47
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include > Agencies'
+  level: 6
+  words: 11
+- sid: s48
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial Partner Development > Potential partners discussed during today’s meeting
+    include > Agriculture'
+  level: 6
+  words: 30
+- sid: s49
+  path: '2026 Hyphae + I-ReLab: EHCRP > Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Strategic Reflection'
   level: 4
-  words: 48
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Assigning outreach and application support roles
+  words: 184
+- sid: s50
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas'
+  level: 2
+  words: 42
+- sid: s51
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Physical Infrastructure'
+  level: 3
+  words: 18
+- sid: s52
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Data, Modeling & Monitoring'
+  level: 3
+  words: 17
+- sid: s53
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Reference Materials'
+  level: 3
+  words: 7
+- sid: s54
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes'
+  level: 3
+  words: 27
+- sid: s55
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference)'
+  level: 4
+  words: 0
+- sid: s56
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > 20250529-EHRGPRound-1-AwardsList.pdf'
+  level: 5
+  words: 163
+- sid: s57
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > 20250529-EHRGPRound-1-AwardsList.pdf > Project Categories: The scope of work
+    is divided into four distinct grant tracks'
+  level: 6
+  words: 72
+- sid: s58
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Implementation Grants'
+  level: 5
+  words: 36
+- sid: s59
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Implementation Grants'
+  level: 5
+  words: 31
+- sid: s60
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Planning Grants'
+  level: 5
+  words: 40
+- sid: s61
+  path: '2026 Hyphae + I-ReLab: EHCRP > Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Planning Grants'
+  level: 5
+  words: 33
+- sid: s62
+  path: Notes
+  level: 1
+  words: 0
+- sid: s63
+  path: Notes > Extreme Heat and Greening Grants
+  level: 3
+  words: 4
+- sid: s64
+  path: Notes > Extreme Heat and Greening Grants > Summary
   level: 4
   words: 58
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Application details and project options (Ambrose vs Memorial Park)
+- sid: s65
+  path: Notes > Extreme Heat and Greening Grants > Summary > Action Items
   level: 4
-  words: 64
-- path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points > Decision to prioritize Memorial Park and next steps
-  level: 4
-  words: 59
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Decisions
-  level: 3
-  words: 334
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Action Items
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Action Items > Grant Information & Funnel
-  level: 4
-  words: 69
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Action Items > kj's Outreach Assignments
-  level: 4
-  words: 146
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Action Items > Brent's Action Items
-  level: 4
-  words: 121
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Action Items > Admin & Collaboration
-  level: 4
-  words: 30
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Blockers & Dependencies
-  level: 3
-  words: 96
-- path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Mei’s Notes
-  level: 3
-  words: 854
-- path: Project Concepts & Emerging Ideas > 2026-07-22 \| <u>Extreme Heat Exploratory Meeting</u>
-  level: 2
-  words: 526
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Decisions
-  level: 3
-  words: 311
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items > Partner Outreach & Spreadsheet Analysis
-  level: 4
-  words: 235
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items > Letter of Interest Template
-  level: 4
-  words: 105
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items > Project Candidates
-  level: 4
-  words: 219
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items > Brent-Scheduled Meetings
-  level: 4
-  words: 77
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Action Items > Admin & Documentation
-  level: 4
-  words: 59
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Blockers & Dependencies
-  level: 3
-  words: 127
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Open Questions
-  level: 3
-  words: 105
-- path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Mei notes
-  level: 3
-  words: 2052
-- path: Project Concepts & Emerging Ideas > <u>Past Proposals</u> - partial overview of past Hyphae proposals
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > Example Outreach email from Fresno County EHCRP
-  level: 2
-  words: 137
-- path: Project Concepts & Emerging Ideas > Firm Experience
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > Firm Experience > <span class="mark">Hyphae Design Lab has extensive experience delivering innovative, data-driven solutions that address urban resilience, environmental
-    justice, and pollution mitigation. By integrating technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable design strategies tailored to their
-    specific needs.</span>
-  level: 3
-  words: 1140
-- path: Project Concepts & Emerging Ideas > Technical Capabilities
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > Technical Capabilities > <span class="mark">Hyphae combines cutting-edge computing resources and innovative methodologies to achieve high-resolution data analysis
-    and design:</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Technical Capabilities > <span class="mark">Expertise in land cover classification and parcel-scale geospatial analysis, creating novel datasets at the meter
-    scale for entire counties.</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Technical Capabilities > <span class="mark">Advanced computational modeling, including LiDAR and geospatial data processing supported by NSF-funded workflows.</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Technical Capabilities > <span class="mark">Cloud and in-house GPU servers for processing street view data and developing detailed urban design interventions.</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Technical Capabilities > <span class="mark">Heat vulnerability modeling using Universal Thermal Climate Index (UTCI) metrics and integration with pedestrian behavior
-    simulations to inform design strategies.</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Local Knowledge
-  level: 2
-  words: 0
-- path: Project Concepts & Emerging Ideas > Local Knowledge > <span class="mark">Hyphae has strong connections with local environmental justice coalitions and community-based organizations (CBOs), including
-    the Central Valley-based California Environmental Justice Coalition (CEJC), Valley Improvements Project, Little Manila Rising, and Mayor Rey Leon’s Latino Equity Advocacy and Policy Institute (LEAP).
-    This established network gives Hyphae a significant advantage in understanding regional needs and engaging stakeholders effectively. Current and ongoing collaborations across California provide a head
-    start in developing the dispersed network of engaged community groups essential for the project’s success.</span>
-  level: 3
-  words: 0
-- path: Project Concepts & Emerging Ideas > Local Knowledge > <span class="mark">Hyphae’s deep technical expertise, combined with a track record of integrating data with community-driven approaches, positions
-    the firm as a leader in delivering impactful and equitable solutions for Fresno County.</span>
-  level: 3
-  words: 3328
-- path: Lead Applicant Information
-  level: 1
-  words: 234
-- path: Project Information
-  level: 1
-  words: 261
-- path: Project Information > Co-Applicant Requirement
-  level: 2
-  words: 124
-- path: 'Funding Priorities Points: Preliminary Assessment'
-  level: 1
-  words: 556
-- path: Technical Assistance
-  level: 1
   words: 225
-- path: Before You Submit
-  level: 1
+- sid: s66
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points
+  level: 4
+  words: 0
+- sid: s67
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > EHCRP requirements and eligibility
+  level: 5
+  words: 49
+- sid: s68
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Urban greening grant update and bus stop project
+  level: 5
+  words: 70
+- sid: s69
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Partner eligibility and CBO discussion
+  level: 5
+  words: 59
+- sid: s70
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Submission logistics and responsibilities
+  level: 5
   words: 55
-section_count: 115
+- sid: s71
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Potential Ambrose Park proposals
+  level: 5
+  words: 42
+- sid: s72
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Resilience hub constraints and adaptation options
+  level: 5
+  words: 50
+- sid: s73
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Co‑applicant implications and Baypoint CBO capacity
+  level: 5
+  words: 56
+- sid: s74
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Potential partner , Baypoint Gardening Club
+  level: 5
+  words: 48
+- sid: s75
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Assigning outreach and application support roles
+  level: 5
+  words: 58
+- sid: s76
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Application details and project options (Ambrose vs Memorial Park)
+  level: 5
+  words: 64
+- sid: s77
+  path: Notes > Extreme Heat and Greening Grants > Summary > Key Discussion Points > Decision to prioritize Memorial Park and next steps
+  level: 5
+  words: 59
+- sid: s78
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH
+  level: 3
+  words: 0
+- sid: s79
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Decisions
+  level: 4
+  words: 334
+- sid: s80
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Action Items
+  level: 4
+  words: 0
+- sid: s81
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Action Items > Grant Information & Funnel
+  level: 5
+  words: 69
+- sid: s82
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Action Items > kj's Outreach Assignments
+  level: 5
+  words: 146
+- sid: s83
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Action Items > Brent's Action Items
+  level: 5
+  words: 121
+- sid: s84
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Action Items > Admin & Collaboration
+  level: 5
+  words: 30
+- sid: s85
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Blockers & Dependencies
+  level: 4
+  words: 96
+- sid: s86
+  path: Notes > Extreme Heat and Greening Grants > August 4, 2026 - check in KJ BB MV IH > Mei’s Notes
+  level: 4
+  words: 854
+- sid: s87
+  path: Notes > Extreme Heat and Greening Grants > 2026-07-22 | Extreme Heat Exploratory Meeting
+  level: 3
+  words: 525
+- sid: s88
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream
+  level: 3
+  words: 0
+- sid: s89
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Decisions
+  level: 4
+  words: 311
+- sid: s90
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items
+  level: 4
+  words: 0
+- sid: s91
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items > Partner Outreach & Spreadsheet Analysis
+  level: 5
+  words: 235
+- sid: s92
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items > Letter of Interest Template
+  level: 5
+  words: 105
+- sid: s93
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items > Project Candidates
+  level: 5
+  words: 219
+- sid: s94
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items > Brent-Scheduled Meetings
+  level: 5
+  words: 77
+- sid: s95
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Action Items > Admin & Documentation
+  level: 5
+  words: 59
+- sid: s96
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Blockers & Dependencies
+  level: 4
+  words: 127
+- sid: s97
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Open Questions
+  level: 4
+  words: 105
+- sid: s98
+  path: Notes > Extreme Heat and Greening Grants > July 22, 2026 - Partnership Workstream > Mei notes
+  level: 4
+  words: 1948
+- sid: s99
+  path: Template Letter
+  level: 1
+  words: 99
+- sid: s100
+  path: Fresno EHCRP example
+  level: 1
+  words: 0
+- sid: s101
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals
+  level: 3
+  words: 0
+- sid: s102
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Example Outreach email from Fresno County EHCRP
+  level: 3
+  words: 137
+- sid: s103
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Firm Experience
+  level: 3
+  words: 0
+- sid: s104
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Firm Experience > Hyphae Design Lab has extensive experience delivering innovative, data-driven solutions that
+    address urban resilience, environmental justice, and pollution mitigation. By integrating technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable
+    design strategies tailored to their specific needs.
+  level: 4
+  words: 1140
+- sid: s105
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities
+  level: 3
+  words: 0
+- sid: s106
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities > Hyphae combines cutting-edge computing resources and innovative methodologies to achieve
+    high-resolution data analysis and design
+  level: 4
+  words: 0
+- sid: s107
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities > Expertise in land cover classification and parcel-scale geospatial analysis, creating
+    novel datasets at the meter scale for entire counties.
+  level: 4
+  words: 0
+- sid: s108
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities > Advanced computational modeling, including LiDAR and geospatial data processing supported
+    by NSF-funded workflows.
+  level: 4
+  words: 0
+- sid: s109
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities > Cloud and in-house GPU servers for processing street view data and developing detailed
+    urban design interventions.
+  level: 4
+  words: 0
+- sid: s110
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Technical Capabilities > Heat vulnerability modeling using Universal Thermal Climate Index (UTCI) metrics and
+    integration with pedestrian behavior simulations to inform design strategies.
+  level: 4
+  words: 0
+- sid: s111
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Local Knowledge
+  level: 3
+  words: 0
+- sid: s112
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Local Knowledge > Hyphae has strong connections with local environmental justice coalitions and community-based
+    organizations (CBOs), including the Central Valley-based California Environmental Justice Coalition (CEJC), Valley Improvements Project, Little Manila Rising, and Mayor Rey Leon’s Latino Equity Advocacy
+    and Policy Institute (LEAP). This established network gives Hyphae a significant advantage in understanding regional needs and engaging stakeholders effectively. Current and ongoing collaborations across
+    California provide a head start in developing the dispersed network of engaged community groups essential for the project’s success.
+  level: 4
+  words: 0
+- sid: s113
+  path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals > Local Knowledge > Hyphae’s deep technical expertise, combined with a track record of integrating data with community-driven
+    approaches, positions the firm as a leader in delivering impactful and equitable solutions for Fresno County.
+  level: 4
+  words: 0
+- sid: s114
+  path: Pre-application
+  level: 1
+  words: 3307
+- sid: s115
+  path: Pre-Application Form
+  level: 1
+  words: 18
+- sid: s116
+  path: Pre-Application Form > Lead Applicant Information
+  level: 2
+  words: 234
+- sid: s117
+  path: Pre-Application Form > Project Information
+  level: 2
+  words: 261
+- sid: s118
+  path: Pre-Application Form > Project Information > Co-Applicant Requirement
+  level: 3
+  words: 124
+- sid: s119
+  path: 'Pre-Application Form > Funding Priorities Points: Preliminary Assessment'
+  level: 2
+  words: 556
+- sid: s120
+  path: Pre-Application Form > Technical Assistance
+  level: 2
+  words: 225
+- sid: s121
+  path: Pre-Application Form > Before You Submit
+  level: 2
+  words: 55
+section_count: 121
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

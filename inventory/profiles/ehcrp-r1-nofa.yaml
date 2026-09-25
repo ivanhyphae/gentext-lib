@@ -8,72 +8,94 @@ pii:
   phones: 1
 near_duplicates: []
 sections:
-- path: 'Updated: 5 April 2024'
+- sid: s1
+  path: 'Updated: 5 April 2024'
   level: 2
   words: 0
-- path: 'Updated: 5 April 2024 > Notice of Funding Availability'
+- sid: s2
+  path: 'Updated: 5 April 2024 > Notice of Funding Availability'
   level: 2
   words: 11
-- path: 'Updated: 5 April 2024 > All Potential Applicants'
+- sid: s3
+  path: 'Updated: 5 April 2024 > All Potential Applicants'
   level: 2
   words: 0
-- path: 'From:'
+- sid: s4
+  path: 'From:'
   level: 1
   words: 0
-- path: 'From: > EHCRP Staff, Governor’s Office of Planning and Research'
+- sid: s5
+  path: 'From: > EHCRP Staff, Governor’s Office of Planning and Research'
   level: 2
   words: 0
-- path: 'Subject:'
+- sid: s6
+  path: 'Subject:'
   level: 1
   words: 104
-- path: Program Summary
+- sid: s7
+  path: Program Summary
   level: 1
   words: 117
-- path: Program Summary > Applicant Eligibility
+- sid: s8
+  path: Program Summary > Applicant Eligibility
   level: 2
   words: 75
-- path: Program Summary > Grant Types
+- sid: s9
+  path: Program Summary > Grant Types
   level: 2
   words: 158
-- path: Program Summary > Implementation Grants
+- sid: s10
+  path: Program Summary > Implementation Grants
   level: 2
   words: 100
-- path: Program Summary > Partnership Requirements
+- sid: s11
+  path: Program Summary > Partnership Requirements
   level: 2
   words: 168
-- path: Program Summary > Application Process
+- sid: s12
+  path: Program Summary > Application Process
   level: 2
   words: 243
-- path: Program Summary > Narrative Questions
+- sid: s13
+  path: Program Summary > Narrative Questions
   level: 2
   words: 161
-- path: Program Summary > Application Scoring
+- sid: s14
+  path: Program Summary > Application Scoring
   level: 2
   words: 125
-- path: Program Summary > Basis of Appeals
+- sid: s15
+  path: Program Summary > Basis of Appeals
   level: 2
   words: 115
-- path: Program Summary > Appeal Process and Deadlines
+- sid: s16
+  path: Program Summary > Appeal Process and Deadlines
   level: 2
   words: 161
-- path: Program Summary > Appeal Decision
+- sid: s17
+  path: Program Summary > Appeal Decision
   level: 2
   words: 41
-- path: Program Summary > Grant Application Support
+- sid: s18
+  path: Program Summary > Grant Application Support
   level: 2
   words: 312
-- path: Other Terms And Conditions
+- sid: s19
+  path: Other Terms And Conditions
   level: 1
   words: 71
-- path: Other Terms And Conditions > Disclosure Application of Information
+- sid: s20
+  path: Other Terms And Conditions > Disclosure Application of Information
   level: 2
   words: 96
-- path: Other Terms And Conditions > Right to Modify or Suspend
+- sid: s21
+  path: Other Terms And Conditions > Right to Modify or Suspend
   level: 2
   words: 88
-- path: Resources And Questions
+- sid: s22
+  path: Resources And Questions
   level: 1
   words: 34
 section_count: 22
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

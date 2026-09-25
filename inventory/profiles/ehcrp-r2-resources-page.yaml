@@ -8,9 +8,10 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: part 1
+- sid: s1
+  path: part 1
   level: 1
   words: 138
 section_count: 1
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

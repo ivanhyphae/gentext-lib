@@ -1,0 +1,189 @@
+asset_id: prescott-final-report-2026
+card:
+  summary: Final report on the Prescott greening project in West Oakland, documenting design, modeling, and implementation
+    of vegetated buffer plantings to reduce air pollution exposure. Includes CFD modeling methodology, plant selection, site
+    logistics, stewardship planning, and three phased planting areas (IPA/Frontage Road, Caltrans ROW, road diet). Strong
+    technical and community engagement evidence; citable outcomes and methods.
+  doc_role: report
+  authorship: Hyphae Design Lab (mei@hyphae.net)
+  disposition: hold
+  disposition_reason: Contains reusable technical methods (CFD modeling, vegetated buffer design, plant selection criteria,
+    stewardship cost models), citable project outcomes, and site-specific West Oakland/Prescott context suitable for proposal
+    library. Highest-value Prescott source per inventory note.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Prescott case demonstrates Hyphae's pollution modeling and greening design outcomes with measured results and community
+      partnership; outcomes citable for proposal credibility
+  - need_id: lib-methods
+    how: Detailed CFD modeling methodology, vegetated buffer design principles (LAD, plant selection, barrier continuity),
+      LiDAR digital twin process, AERMOD integration, stewardship cost modeling ($300–600/tree/year), maintenance frameworks
+  - need_id: lib-site-bay-point
+    how: West Oakland/Prescott site context (pollution 150–300% above ambient, I-880 freeway as primary source, Frontage Road
+      geometry), community tensions, stakeholder coordination, jurisdictional constraints transferable to Bay Point
+  - need_id: lib-partners
+    how: Documents OPRF, WOEIP, BAAQMD, Caltrans, City of Oakland coordination; partnership challenges and solutions applicable
+      to multi-jurisdictional projects
+  sections:
+  - sid: s20
+    path: Background > West Oakland and AB 617
+    type: site-context
+    reuse_value: high
+    note: Establishes AB 617 context, West Oakland pollution baseline (3x Bay Area average, 150–300% above neighborhood average
+      in Prescott), CAP implementation framework—essential for grant narrative credibility
+  - sid: s23
+    path: Background > Using Vegetated Buffers for Air Quality > Scientific Rationale
+    type: method
+    reuse_value: high
+    note: Cites Emerald Ash Borer study (AJPM 2013) linking tree loss to respiratory/cardiovascular mortality; foundational
+      health rationale for vegetated buffer strategy
+  - sid: s24
+    path: Background > Using Vegetated Buffers for Air Quality > Design Principles for Effective Buffers
+    type: method
+    reuse_value: high
+    note: EPA-derived buffer design criteria (continuity, 13 ft height, ground-level branching, density, downwind placement);
+      directly reusable design guidance
+  - sid: s25
+    path: Background > Using Vegetated Buffers for Air Quality > Plant Selection Criteria
+    type: method
+    reuse_value: high
+    note: LAD (leaf area density) metric, evergreen species rationale, thick-leaf preference for pollution interception—core
+      plant selection methodology
+  - sid: s28
+    path: Computational Fluid Dynamics Modeling > Scientific Rationale
+    type: method
+    reuse_value: medium
+    note: Explains CFD modeling purpose and limitations; generic rationale for using predictive modeling in design decisions
+  - sid: s29
+    path: Computational Fluid Dynamics Modeling > Digital Twin Development
+    type: method
+    reuse_value: high
+    note: LiDAR methodology (aerial + ground-based scanning, multi-perspective approach, complexity reduction); reusable geospatial
+      methods for future sites
+  - sid: s30
+    path: Computational Fluid Dynamics Modeling > Pollution Source Characterization
+    type: method
+    reuse_value: high
+    note: BAAQMD AERMOD integration, emission inventory validation, block-scale vs. regional resolution trade-offs—methodological
+      framework for pollution source inputs
+  - sid: s33
+    path: Computational Fluid Dynamics Modeling > Results
+    type: method
+    reuse_value: medium
+    note: Simulation comparison methodology (baseline vs. buffer scenarios); IPA buffer showed noticeable effect, best-performing
+      scenarios ranked
+  - sid: s42
+    path: Designs > Plant List > Plant Choice Guidelines > Planting/Design Priorities
+    type: capability
+    reuse_value: high
+    note: Design priorities (thick buffer, ground-level branching, evergreen, overlapping canopy, biodiversity, maintenance
+      ease); translatable design checklist
+  - sid: s48
+    path: Designs > Plant List > Final Plant List
+    type: capability
+    reuse_value: high
+    note: Specific species selections (Japanese Blueberry, Columnar Fern Pine, Pacific Wax Myrtle, Toyon, Atlas Cedar, Indian
+      Laurel, Cedrus deodara) with nursery availability checks and local expert vetting (OPRF feedback); directly reusable
+      planting palette
+  - sid: s73
+    path: Project Logistics > Political Context > Political Context and Community Tensions
+    type: site-context
+    reuse_value: medium
+    note: Documents community priority shift from Frontage Rd truck traffic to freeway-based pollution strategy; models of
+      adaptive engagement when data contradicts community narrative
+  - sid: s76
+    path: Project Logistics > Description of Site Selection Process for the Immediately Plantable Area
+    type: project-case
+    reuse_value: medium
+    note: Zone elimination logic (jurisdictional constraints, budget, permitting complexity); candid site feasibility lessons
+  - sid: s148
+    path: Stewardship Considerations > How much does it cost to care for one tree for a year?
+    type: evidence-data
+    reuse_value: high
+    note: Establishes stewardship cost baseline ($500/tree/year low-end, $560 SF example, vs. $20–60 literature averages);
+      citable for maintenance budgeting
+  - sid: s149
+    path: Stewardship Considerations > How much does it cost to care for multiple trees on a site for a year?
+    type: evidence-data
+    reuse_value: medium
+    note: Site-scale economies of scale ($300–450/tree with batching); references Hayward >$200/tree baseline
+  - sid: s150
+    path: Stewardship Considerations > How much does it cost to care for a neighborhood or larger area of trees for a year?
+    type: evidence-data
+    reuse_value: medium
+    note: Citywide scale averages ($250–600/tree); SF 10s of millions annually; references Roman et al. 2015, 2018 on underfunding
+      consequences
+  - sid: s152
+    path: Stewardship Considerations > References
+    type: evidence-data
+    reuse_value: medium
+    note: Roman et al. (2015, 2018) on urban forest monitoring and maintenance cost-benefit tradeoffs; Hayward and SF municipal
+      cost studies
+  - sid: s164
+    path: 'Funding Framework (Escrow/Endowment Managed by OPRF) > CARB-Aligned Landscape Maintenance Trust Plan > Phase 1:
+      CARB Grant Compliance Review'
+    type: method
+    reuse_value: high
+    note: CARB durability requirements for stewardship (O&M alignment, grant compliance checklist); directly applicable to
+      EHCRP applications
+  - sid: s165
+    path: 'Funding Framework (Escrow/Endowment Managed by OPRF) > CARB-Aligned Landscape Maintenance Trust Plan > Phase 2:
+      Maintenance Trust Structure & Purpose'
+    type: method
+    reuse_value: high
+    note: Trust agreement structure, eligible activities, trustee qualifications, fund rules for long-term green infrastructure
+      maintenance
+  - sid: s166
+    path: 'Funding Framework (Escrow/Endowment Managed by OPRF) > CARB-Aligned Landscape Maintenance Trust Plan > Phase 3:
+      Maintenance Cost Modeling & Capitalization'
+    type: method
+    reuse_value: high
+    note: Cost modeling framework (annual/seasonal, establishment needs, inflation, contingency, differentiation of installation
+      vs. stewardship); defensible budgeting template
+  - sid: s177
+    path: For Grants > Prescott Greening > Project Background > Context
+    type: site-context
+    reuse_value: medium
+    note: AB 617 West Oakland baseline (3x BA average, Prescott 150–300% above ambient); reusable context for similar EJ grants
+  - sid: s178
+    path: For Grants > Prescott Greening > Project Background > Project Scope & Phases
+    type: project-case
+    reuse_value: high
+    note: Three-phase scope (IPA/Frontage, Caltrans, road diet) with rationale; source reduction vs. exposure reduction strategy
+      framing
+  fact_candidates:
+  - West Oakland pollution 3x higher than Bay Area average (s20)
+  - Prescott neighborhood particulate matter 150–300% higher than West Oakland average (s20)
+  - West Oakland identified as first-year AB 617 priority in 2018 (s20)
+  - Emerald Ash Borer lost >100 million trees since 2002 detection in US (s23)
+  - Tree loss study (15 states) showed increased respiratory and cardiovascular deaths in counties with greater ash tree mortality
+    (s23)
+  - Effective vegetated buffer height ≥13 feet per EPA research (s24)
+  - LiDAR methodology combines aerial (roof topography) and ground-based scanning (facades, tree canopy) (s29)
+  - 'Tree maintenance cost low end: $500/tree/year during establishment (s148)'
+  - 'San Francisco urban forest estimate: ~$560/tree/year with pruning, inspections, emergency response (s148)'
+  - Hayward cost estimates exceed $200/tree/year before removals and overhead (s148)
+  - Site-scale maintenance $300–450/tree/year with economies of scale (s149)
+  - Citywide maintenance averages $250–600/tree/year depending on service level (s150)
+  flags:
+  - excerpt s33 (CFD Results) notes '[image]' placeholders—actual simulation visuals and maps not accessible; quantitative
+    improvement claims present but magnitude unspecified
+  - s73 flags data source ambiguity ('from field measurements or modeling?') on Frontage Rd vs. I-880 pollution split; internally
+    noted uncertainty in key model finding
+  - s74 contains internal meeting notes (12/10/25 call) with colloquial tone; useful but not publication-ready
+  - stewardship sections (s145–s173) are detailed but propose novel trust structures not yet implemented; outcome data not
+    available
+  - plant list (s48) includes nursery links and reviewer names ([email] redacted); no final planting completion dates or establishment
+    survival rates documented in excerpts
+  - no measured cooling outcomes (UTCI, LST) documented in provided sections; report focuses on design/modeling rather than
+    post-implementation validation
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 7e904b0c315fb47c0260785a423f2b827f4b7297cc2e73d77838e02d72d45612
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 14934
+    output: 2522
+    cache_read: 0
+    cache_write: 0

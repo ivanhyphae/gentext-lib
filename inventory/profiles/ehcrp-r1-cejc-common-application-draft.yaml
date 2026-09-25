@@ -1,0 +1,194 @@
+asset_id: ehcrp-r1-cejc-common-application-draft
+source_path: sources/ehcrp-r1-cejc-common-application-draft/ehcrp-r1-cejc-common-application-draft.md
+source_sha256: c635b582391d8a785392affb12a2a25561529b8320b505ca5f919659a73c6681
+text_sha256: 647fff22d5ae3b5d445cdc2fd1271e360fa7a0be1bc47f67679964029720ad38
+words: 20842
+pii:
+  emails: 18
+  phones: 3
+near_duplicates: []
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 192
+- sid: s2
+  path: EHCRP - Full Application Form (2024/25)
+  level: 1
+  words: 11
+- sid: s3
+  path: EHCRP - Full Application Form (2024/25) > Welcome to the Integrated Climate Adaptation and Resilience Program (ICARP) Extreme Heat and Community Resilience Program (EHCRP) Full Application Form.
+  level: 2
+  words: 39
+- sid: s4
+  path: EHCRP - Full Application Form (2024/25) > Welcome to the Integrated Climate Adaptation and Resilience Program (ICARP) Extreme Heat and Community Resilience Program (EHCRP) Full Application Form.
+    > Program Background
+  level: 3
+  words: 325
+- sid: s5
+  path: Application Label and Collaboration
+  level: 1
+  words: 137
+- sid: s6
+  path: Project Overview
+  level: 1
+  words: 146
+- sid: s7
+  path: Lead and Partners Summary
+  level: 1
+  words: 0
+- sid: s8
+  path: Lead and Partners Summary > Lead Applicant
+  level: 2
+  words: 75
+- sid: s9
+  path: Lead and Partners Summary > Lead Applicant > Co-Applicant(s)
+  level: 3
+  words: 173
+- sid: s10
+  path: Lead and Partners Summary > Contributors
+  level: 2
+  words: 210
+- sid: s11
+  path: Lead and Partners Summary > Supporter
+  level: 2
+  words: 281
+- sid: s12
+  path: 'Large Grant Applicants Only: Financial Capacity Requirements'
+  level: 1
+  words: 324
+- sid: s13
+  path: Application Narrative
+  level: 1
+  words: 17
+- sid: s14
+  path: Application Narrative > Project Vision and Description
+  level: 2
+  words: 886
+- sid: s15
+  path: Communities Served
+  level: 1
+  words: 547
+- sid: s16
+  path: Communities Served > California Native American Tribe Funding Target
+  level: 3
+  words: 39
+- sid: s17
+  path: Communities Served > California Native American Tribe Funding Target > Disadvantaged Communities (DAC) Funding Target
+  level: 3
+  words: 260
+- sid: s18
+  path: Communities Served > California Native American Tribe Funding Target > Instructions for Multiple Counties
+  level: 3
+  words: 2556
+- sid: s19
+  path: Partnership and Community Engagement
+  level: 1
+  words: 471
+- sid: s20
+  path: Partnership and Community Engagement > Option 3B- Alternative (CBO and Coalition Large Grant Applicants only)
+  level: 3
+  words: 1384
+- sid: s21
+  path: Projects with Multiple Benefits
+  level: 1
+  words: 505
+- sid: s22
+  path: Interview or Site Visit
+  level: 1
+  words: 0
+- sid: s23
+  path: Interview or Site Visit > Large Grant Applicants OnlyDel
+  level: 3
+  words: 202
+- sid: s24
+  path: Budget Justification and Work Plan
+  level: 1
+  words: 4
+- sid: s25
+  path: Budget Justification and Work Plan > Download the project workbook here
+  level: 2
+  words: 71
+- sid: s26
+  path: Budget Justification and Work Plan > Download the project workbook here > Work Plan
+  level: 3
+  words: 3
+- sid: s27
+  path: Budget Justification and Work Plan > Download the project workbook here > Work Plan - Included in the workbook above
+  level: 3
+  words: 49
+- sid: s28
+  path: Budget Justification and Work Plan > Download the project workbook here > Budget and Budget Justification
+  level: 3
+  words: 3
+- sid: s29
+  path: Budget Justification and Work Plan > Download the project workbook here > Budget - Included in the workbook above
+  level: 3
+  words: 256
+- sid: s30
+  path: Additional Letters of Support (Optional)
+  level: 1
+  words: 104
+- sid: s31
+  path: California Environmental Justice Coalition (CEJC) Extreme Heat Grant Proposal
+  level: 1
+  words: 8901
+- sid: s32
+  path: Grant Program
+  level: 1
+  words: 454
+- sid: s33
+  path: Grant Program > Guidelines
+  level: 2
+  words: 129
+- sid: s34
+  path: Grant Program > Resources
+  level: 2
+  words: 0
+- sid: s35
+  path: Grant Program > Resources > Maps
+  level: 3
+  words: 33
+- sid: s36
+  path: Projects/Technologies/Strategies
+  level: 1
+  words: 104
+- sid: s37
+  path: Possible Partner Organizations
+  level: 1
+  words: 3
+- sid: s38
+  path: Possible Partner Organizations > Tribes
+  level: 2
+  words: 34
+- sid: s39
+  path: Possible Partner Organizations > Tribes > Sierra Miwok
+  level: 3
+  words: 36
+- sid: s40
+  path: Possible Partner Organizations > Tribes > Santa Rosa Rancheria (Tachi Yukot)
+  level: 3
+  words: 13
+- sid: s41
+  path: Possible Partner Organizations > Tribes > Tule River Tribe (Yukot, Paiute and others)
+  level: 3
+  words: 12
+- sid: s42
+  path: Possible Partner Organizations > Tribes > Tataviam (Los Angeles)
+  level: 3
+  words: 9
+- sid: s43
+  path: Possible Partner Organizations > Tribes > San Gabriel Tongva (Los Angeles)
+  level: 3
+  words: 48
+- sid: s44
+  path: Ag Communities
+  level: 1
+  words: 136
+- sid: s45
+  path: BB unsorted links
+  level: 1
+  words: 1433
+section_count: 45
+profiled: '2026-09-25'
+profiler: p2

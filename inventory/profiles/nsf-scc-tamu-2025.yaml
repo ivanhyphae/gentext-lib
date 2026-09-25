@@ -1,0 +1,711 @@
+asset_id: nsf-scc-tamu-2025
+source_path: sources/nsf-scc-tamu-2025/nsf-scc-tamu-2025.md
+source_sha256: 3d1977e711d37bcfd32600220b835f5a70c4f300a9cf3a1fdbc06530f41f129c
+text_sha256: bd9ac2f825c96e7ae700473f97009440b31a1d8a79c548baa8423cb93163bc91
+words: 46078
+pii:
+  emails: 29
+  phones: 0
+near_duplicates:
+- asset_id: resilient-philadelphia-grant-2025
+  jaccard: 0.419
+  contained_in: 0.497
+- asset_id: arlington-park-ttf-epa-ccg-2024
+  jaccard: 0.46
+  contained_in: 0.496
+- asset_id: calepa-ej-action-grant-2025
+  jaccard: 0.476
+  contained_in: 0.496
+sections:
+- sid: s1
+  path: START HERE
+  level: 1
+  words: 66
+- sid: s2
+  path: Pre-Proposal Only
+  level: 1
+  words: 2040
+- sid: s3
+  path: Pre-proposal guidelines
+  level: 1
+  words: 0
+- sid: s4
+  path: Pre-proposal guidelines > V. Proposal Preparation And Submission Instructions
+  level: 3
+  words: 0
+- sid: s5
+  path: Pre-proposal guidelines > V. Proposal Preparation And Submission Instructions > A. Proposal Preparation Instructions
+  level: 4
+  words: 1173
+- sid: s6
+  path: Proposal Guidelines
+  level: 1
+  words: 1419
+- sid: s7
+  path: Proposal Guidelines > a. Cover Sheet
+  level: 3
+  words: 961
+- sid: s8
+  path: Proposal Guidelines > a. Cover Sheet > b. Project Summary
+  level: 3
+  words: 151
+- sid: s9
+  path: Proposal Guidelines > a. Cover Sheet > c. Table of Contents
+  level: 3
+  words: 16
+- sid: s10
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support)
+  level: 3
+  words: 0
+- sid: s11
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (i) Content
+  level: 4
+  words: 485
+- sid: s12
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (ii) Page Limitations and Inclusion of Uniform Resource Locators (URLs) within the Project
+    Description
+  level: 4
+  words: 132
+- sid: s13
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (iii) Results from Prior NSF Support
+  level: 4
+  words: 355
+- sid: s14
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (iv) Unfunded Collaborations
+  level: 4
+  words: 73
+- sid: s15
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (v) Group Proposals
+  level: 4
+  words: 72
+- sid: s16
+  path: Proposal Guidelines > a. Cover Sheet > d. Project Description (including Results from Prior NSF Support) > (vi) Proposals for Renewed Support
+  level: 4
+  words: 10
+- sid: s17
+  path: Proposal Guidelines > a. Cover Sheet > e. References Cited
+  level: 3
+  words: 178
+- sid: s18
+  path: Proposal Only
+  level: 1
+  words: 203
+- sid: s19
+  path: Project Summary
+  level: 1
+  words: 0
+- sid: s20
+  path: Proposal + references
+  level: 1
+  words: 0
+- sid: s21
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions'
+  level: 1
+  words: 0
+- sid: s22
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction'
+  level: 3
+  words: 2855
+- sid: s23
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Novelty and Granularity of Research'
+  level: 4
+  words: 44
+- sid: s24
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Community Engagement'
+  level: 3
+  words: 0
+- sid: s25
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Community Engagement > Stakeholder Participation'
+  level: 4
+  words: 24
+- sid: s26
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Community Engagement > Pilot Intervention'
+  level: 4
+  words: 585
+- sid: s27
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Evaluation Plan'
+  level: 3
+  words: 44
+- sid: s28
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Scalability and Replicability'
+  level: 3
+  words: 107
+- sid: s29
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Management Plan'
+  level: 3
+  words: 275
+- sid: s30
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Best Practices for a Strong Management Plan'
+  level: 3
+  words: 148
+- sid: s31
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Results from prior NSF support'
+  level: 3
+  words: 0
+- sid: s32
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Results from prior NSF support > Dessler'
+  level: 6
+  words: 420
+- sid: s33
+  path: 'SCC-IRG: Closing the Heat Gap: Precision Heat Modeling for Community-Driven Cooling Interventions > Introduction > Results from prior NSF support > Dessler > Hyphae'
+  level: 6
+  words: 163
+- sid: s34
+  path: Stuff from other projects
+  level: 1
+  words: 0
+- sid: s35
+  path: PREVIOUS MATERIAL
+  level: 1
+  words: 207
+- sid: s36
+  path: PREVIOUS MATERIAL > Dallas SWMD
+  level: 2
+  words: 33
+- sid: s37
+  path: PREVIOUS MATERIAL > Boyle Heights
+  level: 2
+  words: 30
+- sid: s38
+  path: PREVIOUS MATERIAL > Ambrose ParkSubmission\ California Environmental Justice Coalition - California Microclimate Observatory (CAMO).pdf
+  level: 2
+  words: 54
+- sid: s39
+  path: PREVIOUS MATERIAL > ONLY PUT TEXT HERE THAT IS DRAFTED FOR SUBMISSION
+  level: 2
+  words: 0
+- sid: s40
+  path: Overview
+  level: 1
+  words: 0
+- sid: s41
+  path: Overview > Scope of work description
+  level: 2
+  words: 184
+- sid: s42
+  path: Overview > Budget
+  level: 2
+  words: 6
+- sid: s43
+  path: Overview > Budget Justification
+  level: 2
+  words: 83
+- sid: s44
+  path: Overview > Budget Justification > Evidence Base Design
+  level: 3
+  words: 780
+- sid: s45
+  path: Overview > Budget Justification > Sensor Deployment
+  level: 3
+  words: 961
+- sid: s46
+  path: Narrative project description
+  level: 1
+  words: 70
+- sid: s47
+  path: Narrative project description > Project need
+  level: 2
+  words: 0
+- sid: s48
+  path: Narrative project description > Project need > Safety and Resilience Challenges in Arlington Park
+  level: 3
+  words: 410
+- sid: s49
+  path: Narrative project description > Project need > Maps for the Arlington Park neighborhood
+  level: 3
+  words: 0
+- sid: s50
+  path: Narrative project description > Project need > Maps for the Arlington Park neighborhood > Land use and POI visitation
+  level: 5
+  words: 0
+- sid: s51
+  path: Narrative project description > Project need > \[image\]
+  level: 3
+  words: 0
+- sid: s52
+  path: Narrative project description > Project need > \[image\] > Property value (Dollars per square-feet)
+  level: 5
+  words: 1
+- sid: s53
+  path: Narrative project description > Project need > Socio-Demographics characteristics of Arlington Park neighborhood
+  level: 3
+  words: 1038
+- sid: s54
+  path: Narrative project description > Project need > Demographics charts
+  level: 3
+  words: 8
+- sid: s55
+  path: Narrative project description > Community Co-Design Approach
+  level: 2
+  words: 517
+- sid: s56
+  path: Narrative project description > Evidence-Based Design Approach
+  level: 2
+  words: 341
+- sid: s57
+  path: Narrative project description > Evidence-Based Design Approach > Key Elements of Hyphae's EBD Approach
+  level: 3
+  words: 121
+- sid: s58
+  path: Narrative project description > Evidence-Based Design Approach > Benefits of Hyphae's EBD Approach
+  level: 3
+  words: 134
+- sid: s59
+  path: Narrative project description > Evidence-Based Design Approach > Examples of Hyphae's EBD Approach in Action
+  level: 3
+  words: 179
+- sid: s60
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators
+  level: 3
+  words: 26
+- sid: s61
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 1 Monitoring
+  level: 4
+  words: 55
+- sid: s62
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 2 Monitoring
+  level: 4
+  words: 163
+- sid: s63
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 3 Monitoring
+  level: 4
+  words: 23
+- sid: s64
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Data Collection Methods
+  level: 4
+  words: 94
+- sid: s65
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Data Analysis and Modeling
+  level: 4
+  words: 121
+- sid: s66
+  path: Narrative project description > Evidence-Based Design Approach > Modeling
+  level: 3
+  words: 73
+- sid: s67
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Data Collection: The Foundation of the Model'
+  level: 4
+  words: 184
+- sid: s68
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts'
+  level: 4
+  words: 22
+- sid: s69
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 1\. Developing a Range of Models'
+  level: 5
+  words: 131
+- sid: s70
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 2\. Calibrating and Validating the Models'
+  level: 5
+  words: 55
+- sid: s71
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 3\. Testing Different Scenarios'
+  level: 5
+  words: 125
+- sid: s72
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes
+  level: 4
+  words: 11
+- sid: s73
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 1\. Evidence-Based Decision-Making
+  level: 5
+  words: 33
+- sid: s74
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 2\. Optimization of Interventions
+  level: 5
+  words: 46
+- sid: s75
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 3\. Cost-Effectiveness
+  level: 5
+  words: 30
+- sid: s76
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 4\. Community Engagement
+  level: 5
+  words: 216
+- sid: s77
+  path: Narrative project description > Active Multimodal Connectivity Planning
+  level: 2
+  words: 474
+- sid: s78
+  path: Narrative project description > Showcase greening projects
+  level: 2
+  words: 59
+- sid: s79
+  path: Narrative project description > Showcase greening projects > Key Strategies Inspired by the Boyle Heights Project
+  level: 3
+  words: 194
+- sid: s80
+  path: Narrative project description > Showcase greening projects > Addressing Unique Challenges and Community Needs
+  level: 3
+  words: 157
+- sid: s81
+  path: Narrative project description > Showcase greening projects > Measuring and Evaluating Impact
+  level: 3
+  words: 90
+- sid: s82
+  path: Narrative project description > Showcase greening projects > Integrating with the Green Spine Project
+  level: 3
+  words: 56
+- sid: s83
+  path: Extracted from meetings
+  level: 1
+  words: 411
+- sid: s84
+  path: Extracted from meetings > Hyphae Materials
+  level: 2
+  words: 157
+- sid: s85
+  path: AirSense grant
+  level: 1
+  words: 1241
+- sid: s86
+  path: BH-EPA-Grant EDITED
+  level: 1
+  words: 0
+- sid: s87
+  path: BH-EPA-Grant EDITED > Approach
+  level: 2
+  words: 189
+- sid: s88
+  path: BH-EPA-Grant EDITED > Approach > Project Focus
+  level: 3
+  words: 120
+- sid: s89
+  path: BH-EPA-Grant EDITED > Approach > The Need and the Challenge
+  level: 3
+  words: 130
+- sid: s90
+  path: BH-EPA-Grant EDITED > Approach > Community-driven Design
+  level: 3
+  words: 238
+- sid: s91
+  path: BH-EPA-Grant EDITED > Approach > Evidence-based Design
+  level: 3
+  words: 290
+- sid: s92
+  path: BH-EPA-Grant EDITED > Approach > The Science Team
+  level: 3
+  words: 379
+- sid: s93
+  path: 'BH-EPA-Grant EDITED > Approach > The Approach: Measurement & Modeling'
+  level: 3
+  words: 424
+- sid: s94
+  path: BH-EPA-Grant EDITED > Strategies
+  level: 2
+  words: 190
+- sid: s95
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 1: ROW Tree Planting'
+  level: 3
+  words: 0
+- sid: s96
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 2: Private Tree Planting'
+  level: 3
+  words: 119
+- sid: s97
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 3: Vegetated Buffers'
+  level: 3
+  words: 353
+- sid: s98
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 11: Complete Streets in Industrial Community'
+  level: 3
+  words: 0
+- sid: s99
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 11: Complete Streets in Industrial Community > Traffic Analysis and Technical Assistance'
+  level: 4
+  words: 424
+- sid: s100
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 12: Showcase Greening Projects'
+  level: 3
+  words: 246
+- sid: s101
+  path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education
+  level: 3
+  words: 753
+- sid: s102
+  path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education > Sensor Deployment Plan
+  level: 4
+  words: 591
+- sid: s103
+  path: BH-EPA-Grant EDITED > Scope Table
+  level: 2
+  words: 8
+- sid: s104
+  path: BH-EPA-Grant EDITED > MAPS
+  level: 2
+  words: 41
+- sid: s105
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule
+  level: 1
+  words: 5
+- sid: s106
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Introduction
+  level: 2
+  words: 219
+- sid: s107
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Background
+  level: 2
+  words: 140
+- sid: s108
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Phasing
+  level: 2
+  words: 216
+- sid: s109
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination
+  level: 2
+  words: 117
+- sid: s110
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Baseline Model
+  level: 3
+  words: 141
+- sid: s111
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Benchmarking goals and studies
+  level: 3
+  words: 127
+- sid: s112
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Design evaluation
+  level: 3
+  words: 194
+- sid: s113
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Design optimization
+  level: 3
+  words: 98
+- sid: s114
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Impact Estimation of Final 30% Design Development Plans
+  level: 3
+  words: 43
+- sid: s115
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Research
+  level: 3
+  words: 157
+- sid: s116
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Future Phases Post 30% Engagement \[NOT IN PRESENT BUDGET\]
+  level: 2
+  words: 182
+- sid: s117
+  path: Harry Hines Evidence-based design methodology report
+  level: 1
+  words: 0
+- sid: s118
+  path: Harry Hines Evidence-based design methodology report > Executive summary
+  level: 2
+  words: 0
+- sid: s119
+  path: Harry Hines Evidence-based design methodology report > Executive summary > Introduction
+  level: 3
+  words: 1090
+- sid: s120
+  path: Harry Hines Evidence-based design methodology report > Design Process, Collaboration and Iteration
+  level: 2
+  words: 192
+- sid: s121
+  path: Harry Hines Evidence-based design methodology report > Monitoring and pre-post study
+  level: 2
+  words: 231
+- sid: s122
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review
+  level: 2
+  words: 0
+- sid: s123
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution
+  level: 3
+  words: 0
+- sid: s124
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Urban Vegetation for Air Quality Improvement
+  level: 4
+  words: 112
+- sid: s125
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Vegetated Air Barriers for Roadside Pollution Mitigation
+  level: 4
+  words: 370
+- sid: s126
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Urban Trees for Ambient Pollution Mitigation
+  level: 4
+  words: 130
+- sid: s127
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for Heat Mitigation
+  level: 3
+  words: 135
+- sid: s128
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for Biodiversity
+  level: 3
+  words: 671
+- sid: s129
+  path: Harry Hines Evidence-based design methodology report > Monitoring
+  level: 2
+  words: 0
+- sid: s130
+  path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Hardware
+  level: 3
+  words: 307
+- sid: s131
+  path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Placement
+  level: 3
+  words: 252
+- sid: s132
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology
+  level: 2
+  words: 151
+- sid: s133
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > The cross-sectional hypotheses are
+  level: 3
+  words: 261
+- sid: s134
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > The longitudinal hypotheses are
+  level: 3
+  words: 210
+- sid: s135
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Quantitative methods
+  level: 3
+  words: 1516
+- sid: s136
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Qualitative studies
+  level: 3
+  words: 88
+- sid: s137
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > IRB approval
+  level: 3
+  words: 122
+- sid: s138
+  path: Proposal coordination
+  level: 1
+  words: 445
+- sid: s139
+  path: Proposal coordination > Mar 19, 2025 | BB-MP-Stephanie (HARC)
+  level: 2
+  words: 1322
+- sid: s140
+  path: Proposal coordination > Mar 13, 2025 | \[moveable\] IH-MP NSF budget
+  level: 2
+  words: 232
+- sid: s141
+  path: Proposal coordination > Mar 14, 2025 | BB-MP-DF NSF TAMU budget and scope discussion
+  level: 2
+  words: 503
+- sid: s142
+  path: Proposal coordination > Mar 14, 2025 | MP-ED NSF Budget convo
+  level: 2
+  words: 157
+- sid: s143
+  path: Proposal coordination > Mar 12, 2025 | \[moveable\] Quick check-in about TAMU and WPF budgets
+  level: 2
+  words: 253
+- sid: s144
+  path: Proposal coordination > Mar 7, 2025 | NSF SCC proposal meeting
+  level: 2
+  words: 840
+- sid: s145
+  path: Proposal coordination > Email Follow-Up (2/11/2025)
+  level: 2
+  words: 0
+- sid: s146
+  path: Proposal coordination > Email Follow-Up (2/11/2025) > AD @ TAMU to Team
+  level: 3
+  words: 156
+- sid: s147
+  path: Proposal coordination > Email Follow-Up (2/11/2025) > MP @ Hyphae to Team Response
+  level: 3
+  words: 336
+- sid: s148
+  path: 'Proposal coordination > Feb 11, 2025 | Andrew Dessler (TAMU) x Hyphae re: NSF'
+  level: 2
+  words: 10
+- sid: s149
+  path: 'Proposal coordination > Feb 11, 2025 | Andrew Dessler (TAMU) x Hyphae re: NSF > Summary of meeting'
+  level: 3
+  words: 325
+- sid: s150
+  path: 'Proposal coordination > Feb 11, 2025 | Andrew Dessler (TAMU) x Hyphae re: NSF > Notes from meeting'
+  level: 3
+  words: 362
+- sid: s151
+  path: Proposal coordination > NSF S\&CC Webinar Takeways
+  level: 2
+  words: 0
+- sid: s152
+  path: Proposal coordination > Tues Feb 11, 2025
+  level: 2
+  words: 240
+- sid: s153
+  path: Proposal coordination > Jan 24, 2025 | Hyphae x TAMU NSF Extreme Heat
+  level: 2
+  words: 531
+- sid: s154
+  path: Proposal coordination > Jan 24, 2025 | Hyphae x TAMU NSF Extreme Heat > DF-MP Post-meeting discussion
+  level: 3
+  words: 110
+- sid: s155
+  path: Proposal coordination > Jan 24, 2025 | Hyphae x TAMU NSF Extreme Heat > DF-MP Post-meeting discussion > Follow up email (sent 2/4/25)
+  level: 4
+  words: 242
+- sid: s156
+  path: Proposal coordination > NSF Office Hours (1/22/25)
+  level: 2
+  words: 397
+- sid: s157
+  path: Proposal coordination > NSF Smart and Connected Communities (S\&CC) webinar (1/24/25)
+  level: 2
+  words: 722
+- sid: s158
+  path: 1-page Concept-vision (Laura Burnham)
+  level: 1
+  words: 0
+- sid: s159
+  path: Letters
+  level: 1
+  words: 544
+- sid: s160
+  path: Scraps
+  level: 1
+  words: 0
+- sid: s161
+  path: 'SCC-IRG Preliminary Proposal: Closing the Heat Gap: Precision Modeling & Community-Driven Cooling Interventions'
+  level: 1
+  words: 20
+- sid: s162
+  path: Project Summary
+  level: 1
+  words: 0
+- sid: s163
+  path: Project Summary > Overview
+  level: 2
+  words: 197
+- sid: s164
+  path: Project Summary > Intellectual Merit
+  level: 2
+  words: 173
+- sid: s165
+  path: Project Summary > Broader Impacts
+  level: 2
+  words: 105
+- sid: s166
+  path: Project Description
+  level: 1
+  words: 0
+- sid: s167
+  path: Project Description > Vision and Goals
+  level: 2
+  words: 180
+- sid: s168
+  path: Project Description > Integrative Research Approach
+  level: 2
+  words: 581
+- sid: s169
+  path: Project Description > Broader Impacts
+  level: 2
+  words: 212
+- sid: s170
+  path: Project Personnel and Partner Institutions
+  level: 1
+  words: 1060
+- sid: s171
+  path: Cover Letter + Abstract
+  level: 1
+  words: 462
+- sid: s172
+  path: Rough notes
+  level: 1
+  words: 1130
+section_count: 172
+profiled: '2026-09-25'
+profiler: p2

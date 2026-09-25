@@ -1,0 +1,69 @@
+asset_id: greening-africatown-final-submission
+card:
+  summary: Submitted 2025 proposal (William Penn Foundation) by African Cultural Alliance of North America (ACANA) for urban
+    greening in Southwest Philadelphia (Africatown). Frames cooling and green infrastructure around cultural identity and
+    economic development; includes environmental monitoring, community workforce training, and scalability strategy across
+    four commercial corridors. Total budget ~$294k; submitted 1/31/2025.
+  doc_role: submitted-proposal
+  authorship: African Cultural Alliance of North America (ACANA)
+  disposition: hold
+  disposition_reason: Strong reusable proposal prose on heat/cooling framing, community stewardship model, workforce training,
+    and monitoring strategy. Submitted outcome-oriented project with measurable deliverables (sensor data, trained community
+    members, phased greening). Direct applicability to Hyphae EHCRP harm-reduction and belonging questions.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: 'ACANA''s submitted proposal shows Hyphae''s prior work on urban cooling + cultural-identity framing; citable outcomes:
+      2 trained community members, sensor monitoring, multi-phase corridor strategy.'
+  - need_id: lib-methods
+    how: Describes environmental sensor deployment for heat monitoring, community stewardship model for long-term maintenance,
+      and phased implementation strategy replicable across projects.
+  sections:
+  - sid: s4
+    path: Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development > Scalability
+      & Future Investment
+    type: project-case
+    reuse_value: high
+    note: 'Outcomes: 2 trained environmental monitors; sensor deployment for ongoing heat tracking; phased corridor greening
+      strategy; final report as replicable model. Budget detail ($80k personnel, $183.2k consultants, $30.8k capital).'
+  - sid: s3
+    path: Tab 1 > Environmental Impact & Data-Driven Decision Making > Community Stewardship & Workforce Development
+    type: method
+    reuse_value: high
+    note: Community stewardship model; workforce development approach (environmental monitoring, urban forestry, green infrastructure
+      maintenance training); long-term advocacy structure.
+  - sid: s2
+    path: Tab 1 > Environmental Impact & Data-Driven Decision Making
+    type: method
+    reuse_value: medium
+    note: 'Sensor-based monitoring rationale: quantifiable heat evidence tied to tree cover; ongoing data collection design
+      for tracking long-term impacts.'
+  fact_candidates:
+  - 's4: Total budget ~$294,800 ($80k personnel + $183.2k consultants + $30.8k capital + $7.5k travel)'
+  - 's4: WPF request $294.8k (full budget match)'
+  - 's4: Project framed as first phase of multi-corridor strategy (all four commercial corridors planned)'
+  - 's3: 2 community members trained in environmental monitoring, urban forestry, green infrastructure maintenance'
+  - 's2: Sensor data to provide quantifiable evidence of urban heat changes due to tree cover'
+  - 's2: Installed sensors to remain in place for ongoing monitoring'
+  - 's4: Final report intended as model for future greening projects and funding applications'
+  - 's1: ACANA EIN 23-3062024; location 5530 Chester Avenue, Philadelphia PA 19143'
+  - 's1: ACANA mission includes refugee/immigrant families + economic development workforce focus'
+  flags:
+  - Document contains duplicate sections (s1–s4 repeated as s5–s8 verbatim); no new content in 'Copy of Tab 1' version.
+  - Excerpts do not show belonging/cultural identity details promised in title and inventory note; only environmental and
+    workforce framing visible.
+  - 'Thin excerpt coverage: full proposal text not shown; cannot verify heat-harm pathway, community quotes, partnership structure,
+    or specific design elements mentioned in title.'
+  - Africatown location (Mobile AL) stated in title but does not appear in provided excerpts (Philadelphia address shown for
+    ACANA org).
+  - Contact data redacted.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 58b69b6aea38e3391f82eff5f30cee33f30bfe1f524ece941c742468601b5897
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4057
+    output: 900
+    cache_read: 0
+    cache_write: 0

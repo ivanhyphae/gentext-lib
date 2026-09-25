@@ -1,60 +1,38 @@
 asset_id: ehcrp-r2-resources-page
 card:
-  summary: Hub page listing all official EHCRP Round 2 application resources, including NOFA, guidelines, full application
-    form, checklists, TA guides (Belonging, Harm Reduction, Lasting Community Benefits, Partnership), calendar, FAQ, and supplementary
-    materials. Direct links to all key documents and webinar recordings.
+  summary: Hub page listing all LCI EHCRP Round 2 application resources, including NOFA, final guidelines, full application
+    form, TA guides for all four evaluation pillars, checklists, calendar, and FAQ. Single section of links with minimal narrative.
   doc_role: guidance
-  authorship: LCI (California Strategic Growth Council / Local Climate Investments program)
+  authorship: LCI (California Climate Investments)
   disposition: reference
-  disposition_reason: Authoritative index of solicitation materials and official guidance. Not prose to reuse, but essential
-    lookup resource for application deadlines, document locations, and evolving FAQs. Recommend weekly sweep through deadline.
+  disposition_reason: Authoritative index to application requirements and TA guidance; not prose to reuse, but essential to
+    consult when building answers to evaluation questions and checking deadlines.
   serves_needs:
   - need_id: ehcrp-r2-webinars-office-hours
-    how: Links to statewide input session video (2025-08-12) and calendar of events document; FAQ and TA guides are linked
-      but content not visible in excerpt.
-  - need_id: overview
-    how: Links to Full Application Form and Early/Advanced Infrastructure Checklists that define deliverables and structure;
-      not the content itself.
-  - need_id: hr-q1
-    how: TA Guide Harm Reduction linked; content not visible in excerpt.
-  - need_id: hr-q2
-    how: TA Guide Harm Reduction linked; content not visible in excerpt.
-  - need_id: pt-q1
-    how: TA Guide Partnership (official ICARP version) linked; content not visible in excerpt.
-  - need_id: pt-q2
-    how: TA Guide Partnership linked; content not visible in excerpt.
-  - need_id: be-q1
-    how: TA Guide Belonging linked; content not visible in excerpt.
-  - need_id: be-q2
-    how: TA Guide Belonging linked; content not visible in excerpt.
-  - need_id: lcb-q1
-    how: TA Guide Lasting Community Benefits linked; content not visible in excerpt.
-  sections:
-  - path: part 1
-    type: solicitation-text
-    reuse_value: high
-    note: 'Index of all official EHCRP Round 2 materials: NOFA, Final Guidelines, application forms, checklists, TA guides,
-      calendar, FAQ. Direct links required for daily reference.'
+    how: links to calendar and may contain office hours details; full check requires opening calendar doc
+  sections: []
   fact_candidates:
-  - Full application due 2026-10-13 (from needs list, confirmed by context)
-  - NOFA published 2026-09-25 (metadata date suggests this version current)
-  - Statewide input session held 2025-08-12
-  - 'Four TA guides published: Belonging, Harm Reduction, Lasting Community Benefits, Partnership'
-  - Early Infrastructure and Advanced Infrastructure grant tracks have separate checklists
+  - Full application due 2026-10-13 per NEEDS LIST (not stated in excerpt)
+  - TA Guide Belonging available at lci.ca.gov
+  - TA Guide Harm Reduction available at lci.ca.gov
+  - TA Guide Lasting Community Benefits available at lci.ca.gov
+  - TA Guide Partnership available at lci.ca.gov
+  - Early Infrastructure Grant Application Checklist linked
+  - Advanced Infrastructure Grant Application Checklist linked
+  - Planning and Playbook Application Guide available
+  - Statewide Input Session held 2025-08-12
   flags:
-  - Excerpt contains only link list and titles; no substantive content visible. Full value depends on linked documents being
-    current and accessible.
-  - Calendar and FAQ documents linked but not readable in excerpt; recommend direct access to those URLs for timing and common
-    questions.
-  - '''Other resources'' section truncated (''…''); unknown what additional guidance exists below.'
+  - excerpt is link list only; no narrative or substantive content to judge
+  - calendar and FAQ are linked but not opened; cannot verify office hours or webinars from this view
+  - near-complete resource map but content of TA guides and checklists not visible in excerpt
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 959c7883701ed16b4bb74d6fdc67ced67b9ac94d7f50ae310a37a353c3625df9
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 3375
-    output: 699
+    input: 3454
+    output: 363
     cache_read: 0
     cache_write: 0

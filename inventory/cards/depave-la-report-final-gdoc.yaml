@@ -1,0 +1,224 @@
+asset_id: depave-la-report-final-gdoc
+card:
+  summary: Comprehensive county-scale assessment of pavement distribution, needs (heat, flood, canopy), and depaving strategies
+    for Los Angeles County. Collaborative report by Accelerate Resilience LA and Hyphae Design Laboratory (January 2026).
+    Includes needs assessment, pavement analysis, necessity heuristics, design strategies with costs, and policy recommendations.
+    67,387 words across 402 sections in editable Google Doc form.
+  doc_role: report
+  authorship: Accelerate Resilience L.A. and Hyphae Design Laboratory
+  disposition: hold
+  disposition_reason: Submitted project deliverable with citable methodology, data, and design/policy outcomes. Contains reusable
+    prose on heat/stormwater/equity needs, pavement classification methods, depaving strategies, and cost analysis. High value
+    for proposal writing on urban heat, green infrastructure, and community resilience. Directly applicable to Bay Point projects
+    and LCI applications.
+  serves_needs:
+  - need_id: lib-methods
+    how: UTCI/heat burden analysis, pavement necessity heuristics, design strategy templates, cost estimation, monitoring
+      frameworks
+  - need_id: lib-firm-experience
+    how: Completed county-scale assessment with multiple public/private/school land-use categories; measurable outcomes in
+      methodology and design toolkits
+  - need_id: ehcrp-r2-preapp-feedback
+    how: Not directly feedback, but provides evidence-based framework for harm reduction (heat/flood overlap analysis in vulnerable
+      communities) applicable to Bay Point applications
+  sections:
+  - sid: s9
+    path: Executive Summary
+    type: capability
+    reuse_value: high
+    note: 301 words summarizing findings; applicable framing for proposal scope & scale
+  - sid: s12
+    path: Executive Summary > Summary of Key Findings & Recommendations > Scale of Opportunity
+    type: evidence-data
+    reuse_value: high
+    note: Quantified pavement opportunity (42% non-core); usable for similar county/regional assessments
+  - sid: s23
+    path: 'Chapter 1: Introduction > Overview'
+    type: capability
+    reuse_value: high
+    note: 302 words on pavement context, prior initiatives, community approach; foundational framing
+  - sid: s28
+    path: 'Chapter 1: Introduction > Report Structure, Key Concepts, and Definitions'
+    type: boilerplate
+    reuse_value: high
+    note: 703 words defining pavement, parcel, CSA, land use; canonical definitions for reuse
+  - sid: s30
+    path: 'Chapter 2: Needs Assessment > 2.1 Introduction'
+    type: need-statement
+    reuse_value: high
+    note: 363 words on heat/flood/canopy needs framework; generic structure applicable to other regions
+  - sid: s37
+    path: 'Chapter 2: Needs Assessment > 2.3 Heat'
+    type: need-statement
+    reuse_value: high
+    note: 705 words on extreme heat epidemiology, UHI, health costs ($100B annually, $500B by 2050); citable facts
+  - sid: s43
+    path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.1 Stormwater Capture and Groundwater Recharge'
+    type: evidence-data
+    reuse_value: high
+    note: 322 words on stormwater benefits of depaving; technical content for proposals
+  - sid: s44
+    path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.2 Flooding'
+    type: need-statement
+    reuse_value: high
+    note: 579 words on flood risk (874K at risk, $108B damage potential, 12 disasters since 1975); citable evidence
+  - sid: s66
+    path: 'Chapter 3: Pavement Distribution Analysis > 3.1 Introduction'
+    type: method
+    reuse_value: high
+    note: 487 words on spatial inventory methodology, land use & governance lenses; foundational method prose
+  - sid: s71
+    path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.1
+      Residential Parcel Pavement'
+    type: evidence-data
+    reuse_value: high
+    note: '536 words with specific findings: 80% of residential pavement in single-family (58,936 acres); 28% parking requirement
+      heuristic'
+  - sid: s73
+    path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.3
+      Government Parcels Pavement'
+    type: evidence-data
+    reuse_value: medium
+    note: 651 words on government land pavement; includes 16,359 parcels with 17,023 acres unspecified
+  - sid: s79
+    path: 'Chapter 3: Pavement Distribution Analysis > 3.5 Watershed Analysis'
+    type: method
+    reuse_value: high
+    note: 480 words on watershed-scale pavement assessment; applicable framework for regional projects
+  - sid: s88
+    path: 'Chapter 4: Pavement Necessity Analysis > 4.1 Introduction'
+    type: method
+    reuse_value: high
+    note: 1063 words on heuristic approach to core vs. non-core pavement; conceptual foundation reusable
+  - sid: s91
+    path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity > Introduction to Findings
+      > Pavement Necessity Analysis'
+    type: method
+    reuse_value: high
+    note: 495 words detailing parking/sidewalk estimation; specific heuristic rules (28% residential, 23% commercial, 16%
+      industrial parking)
+  - sid: s99
+    path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.2 Design Standards & Guidelines > Green Infrastructure Design
+      Standards'
+    type: capability
+    reuse_value: medium
+    note: 186 words on GI design standards; context but not proprietary content
+  - sid: s108
+    path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Model Depaved Block'
+    type: capability
+    reuse_value: high
+    note: 235 words describing before/after depaving interventions; reusable design narrative
+  - sid: s116
+    path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot
+      Strategies > Conversion from Standard to Compact Parking'
+    type: capability
+    reuse_value: high
+    note: 206 words on compact parking conversion strategies; design approach prose
+  - sid: s120
+    path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot
+      Strategies > Figure 5.4: As the angle of parking gets smaller, the aisle width can shrink with the triangles between
+      spaces reaching maximum area at 45 degrees.'
+    type: capability
+    reuse_value: high
+    note: 382 words on angled parking geometry and space optimization; technical design content
+  - sid: s141
+    path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.1 Approach'
+    type: method
+    reuse_value: high
+    note: 225 words on cost methodology and contractor collaboration; reusable approach
+  - sid: s145
+    path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.1 Costs of Pavement Removal
+      Alone'
+    type: evidence-data
+    reuse_value: high
+    note: 164 words with cost estimates; specific dollar amounts for depaving construction
+  - sid: s146
+    path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.2 Costs of Pavement Removal
+      with Planting Strategies'
+    type: evidence-data
+    reuse_value: high
+    note: 190 words combining removal + landscape costs; comprehensive cost analysis
+  - sid: s157
+    path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.1 Introduction to Depaving Targets'
+    type: capability
+    reuse_value: medium
+    note: 69 words introducing target-setting framework; context for depaving ambition
+  - sid: s161
+    path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.2 Depaving Targets > 5.5.2.1 Potential Target Setting Framework'
+    type: capability
+    reuse_value: high
+    note: 409 words on target methodologies; frameworks adaptable to other jurisdictions
+  - sid: s166
+    path: 'Chapter 6: Recommendations > Recommendation 1: Implement Depaving Projects in Hotspot Locations and on Vacant Parcels'
+    type: capability
+    reuse_value: high
+    note: 238 words on hotspot prioritization and vacant parcel opportunities; strategic narrative
+  - sid: s168
+    path: 'Chapter 6: Recommendations > Recommendation 3: Use An Implementation Framework'
+    type: capability
+    reuse_value: high
+    note: 473 words detailing 442% non-required pavement, Vision Zero integration, watershed opportunities; policy prose
+  - sid: s169
+    path: 'Chapter 6: Recommendations > Recommendation 4: Explore Incentive-Based Approaches for Depaving on Private Property'
+    type: capability
+    reuse_value: high
+    note: 411 words on residential/commercial pavement burdens and incentive rationale; applicable framework
+  - sid: s174
+    path: 'Chapter 7: Methodology > 7.1 Pavement Classifications > 7.1.2 Pavement Classification'
+    type: method
+    reuse_value: high
+    note: 166 words on pavement classification from imagery; technical methodology
+  - sid: s177
+    path: 'Chapter 7: Methodology > 7.2 Aggregation methods > 7.2.1 Raster Aggregation Methods'
+    type: method
+    reuse_value: medium
+    note: 1661 words on raster-to-polygon aggregation; detailed technical methods
+  - sid: s180
+    path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.1 Parking Requirements Method'
+    type: method
+    reuse_value: high
+    note: 376 words documenting parking requirement heuristics; reproducible methodology
+  - sid: s182
+    path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.2 Sidewalks Requirements Method'
+    type: method
+    reuse_value: high
+    note: 603 words on tile2net sidewalk estimation; detailed technical approach
+  fact_candidates:
+  - 's37: Extreme heat is number-one weather-related cause of death in U.S., kills more people than hurricanes, floods, tornadoes
+    combined most years'
+  - 's37: Heat-health events cost estimated $100 billion annually in direct medical expenses; experts predict $500 billion
+    per year by 2050'
+  - 's44: Up to 874,000 people in L.A. County at risk of greater than 30cm (12 inch) 100-year floods'
+  - 's44: Potential $108 billion in property damage from floods in L.A. County'
+  - 's44: Los Angeles County hit with 12 federally declared flood disasters since 1975'
+  - 's71: 80% of residential pavement in single-family parcels, accounting for 58,936 acres of total pavement county-wide'
+  - 's71: Residential multifamily pavement amounts to additional 15,749 acres'
+  - 's93: In 25% fully overlapping high-needs areas, 452 acres of potentially non-core pavement remain after accounting for
+    roads, parking, sidewalks'
+  - 's93: 8,509 acres non-core pavement in areas with 3 overlapping needs; 42,149 acres with 2 overlapping needs'
+  - 's74: 168,967 vacant parcels contain over 14,000 acres of potentially unused pavement county-wide'
+  - 's74: 7,034 acres on 23,729 vacant parcels located in populated hotspots (top quartile heat/flood or bottom quartile canopy)'
+  - 's168: An estimated 42% of existing pavement in L.A. County is not required for roadways, sidewalks, or parking'
+  flags:
+  - excerpt thin for s3, s4, s6 (image placeholders; skip these)
+  - 'internal process notes: document contains extensive scraps, meeting notes, old chapter drafts (sections s191-s402); final
+    report ends at s164'
+  - 'near-duplicate risk: multiple versions of Ch. 6 recommendations in scraps (s215-s336); final version in s166-s170 preferred'
+  - data licensing discussion ongoing with ARLA (s395-s402); IP clarified but note potential future data-sharing restrictions
+  - Google Doc editable form allows connector-text harvest without OCR per inventory note
+  - 'possibly outdated: meetings through December 2025; February 2026 modification date; check if media training/web viewer
+    deployments completed'
+  - 'contact data redacted: [email]/[phone] in meeting attendee lists (s395-s402)'
+  - 'context risk for reuse: document heavily LA County-specific; methods/frameworks generalizable but numbers/references
+    not'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 76209be915fa829cff04150d4896eec2733b2146a9d58ded48182b108ddd35e7
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 30505
+    output: 3165
+    cache_read: 0
+    cache_write: 0

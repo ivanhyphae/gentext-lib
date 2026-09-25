@@ -1,0 +1,98 @@
+asset_id: ambrose-center-park-ceqa-project-description
+card:
+  summary: Formal CEQA environmental review document for Ambrose Center Park Green Infrastructure Enhancement Project in Bay
+    Point, Contra Costa County. Describes a grant-funded stormwater and site improvement project including bioretention basins,
+    swales, parking lot reconfiguration, ADA accessibility upgrades, bicycle/pedestrian connections, and native plantings.
+    Project scope spans nine park areas plus one adjacent county/EBMUD parcel. Lead agency is Contra Costa Resource Conservation
+    District; project sponsor is Ambrose Recreation and Park District (ARPD). Document is in draft form as of August 2026,
+    prepared for CEQA negative/mitigated negative declaration pathway.
+  doc_role: report
+  authorship: James (Hyphae); Contra Costa Resource Conservation District
+  disposition: hold
+  disposition_reason: Authoritative, current site-context document with specific infrastructure design, location data, objectives,
+    and construction scope. Essential reference for the Ambrose Center Park application (ambrose-center-park). Contains factual
+    project description and design details needed for proposal narrative (overview, site context, project readiness evidence).
+  serves_needs:
+  - need_id: overview
+    how: Names infrastructure type (green stormwater infrastructure with bioretention, swales, circulation, accessibility);
+      describes key deliverables (stormwater retention/treatment, circulation, site furnishings, planting) and core tasks
+      (grading, bioretention/bioswale installation, parking reconfiguration, planting, trail connection) within project scope
+  - need_id: lib-site-bay-point
+    how: 'Comprehensive site facts: location (3105 Willow Pass Road, Bay Point, unincorporated Contra Costa County); bounded
+      by Alves Lane, residential neighborhoods, Willow Pass Road, Delta de Anza Regional Trail; existing conditions (ballfields,
+      playgrounds, parking, community facility, undersized drainage ditch, intermittent flooding); drainage into Willow Creek
+      tributary to Suisun Bay; park serves disadvantaged community under SB 535; ranked high priority in Contra Costa County
+      Stormwater Resource Plan'
+  - need_id: ambrose-center-park-gsi-grant-applications
+    how: Confirms project is grant-funded from CA Department of Water Resources IRWM program; identifies stormwater improvements
+      as voluntary, not regulatory; specifies 60–80,000 cubic feet on-site retention target
+  sections:
+  - sid: s9
+    path: 3. Project Background
+    type: site-context
+    reuse_value: high
+    note: Disadvantaged community (SB 535); watershed/drainage context; stormwater resource plan prioritization; specific
+      unmet needs (drainage, accessibility, facility maintenance)
+  - sid: s10
+    path: 4. Project Objectives
+    type: site-context
+    reuse_value: high
+    note: Five numbered project objectives covering stormwater, flooding, accessibility, multimodal connectivity, and facility
+      upgrades; directly support proposal narrative
+  - sid: s12
+    path: 5.1 Project Overview
+    type: project-case
+    reuse_value: high
+    note: Grant-funded voluntary stormwater project; 60–80,000 CF on-site retention; integrated green infrastructure, circulation,
+      planting, and site amenities for Bay Point community
+  - sid: s22
+    path: 6.1 Proposed Grading and Stormwater Improvements
+    type: project-case
+    reuse_value: medium
+    note: Technical detail on interconnected retention basins, bioretention cells, bioswales, low-flow channels; existing
+      60-inch storm drain supplementation; slope specifications (3:1 bioswale); citable design rationale
+  - sid: s23
+    path: 6.2 Proposed Circulation Improvements
+    type: project-case
+    reuse_value: medium
+    note: Parking lot reconfiguration (88 spaces, 45°/60° angled, 14–24 ft aisles); ADA accessible spaces (5 total, 1 van);
+      raised crosswalks; fire truck access; shared bicycle route; permeable paving; specific design standards referenced
+  fact_candidates:
+  - '3. Project Background: Ambrose Center Park serves Bay Point, a disadvantaged community under SB 535'
+  - '3. Project Background: Project site ranked among highest priorities in Contra Costa County Stormwater Resource Plan preliminary
+    prioritization analysis (CCRCD 2023)'
+  - '2.4 Project Location: Park located at 3105 Willow Pass Road, unincorporated community of Bay Point, Contra Costa County,
+    California'
+  - '2.4 Project Location: Park bounded by Alves Lane and residential neighborhoods to west/east; Willow Pass Road to north;
+    Delta de Anza Regional Trail to south'
+  - '5.1 Project Overview: Project is grant-funded from CA Department of Water Resources Integrated Regional Water Management
+    (IRWM) program'
+  - '5.1 Project Overview: Project planning to provide on-site retention of 60–80,000 cubic feet of water'
+  - '6.2 Proposed Circulation Improvements: Parking lot reconfigured to accommodate 88 spaces using 45° and 60° angled parking'
+  - '6.2 Proposed Circulation Improvements: Five ADA-accessible spaces (including one van-accessible space) provided near
+    building entries'
+  - '5.3 Area B: Bicycle route in Area G is 586 feet long and 8 feet wide'
+  - '6.1 Proposed Grading and Stormwater Improvements: Bioswale side slopes maintained at 3:1 where feasible'
+  - '2.4 Project Location: Offsite parcel owned by Contra Costa County and East Bay Municipal Utility District (EBMUD) included
+    in project area'
+  - '5.2 Area A – Entry: Includes bicycle parking, wayfinding signage, and permeable pavers'
+  flags:
+  - Document is marked [DRAFT] as of August 2026; confirm final version status before citation
+  - Section 6.1 contains editorial placeholder text ('Start with the existing problems we are trying to solve from your SW
+    report')—indicates incomplete draft state
+  - Section 6.3 (Site Furnishing) notes uncertainty about grant coverage for some improvements (scope subject to future funding)
+  - 'Lead agency designation uncertain (note in s5: ''*Can it be rcd or is it county*'')—verify with LCI or ARPD'
+  - Section 7.2 notes operational/maintenance responsibilities for ARPD, Contra Costa County, and EBMUD are not yet clarified;
+    coordination agreement required
+  - 'Excerpt too thin to judge: Section 8 (Site Exhibits) image content not visible'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 5bbed24533c7040380bcb99241689946850bf11369298fa1e3c68cd4d8f2ffae
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 6276
+    output: 1489
+    cache_read: 0
+    cache_write: 0

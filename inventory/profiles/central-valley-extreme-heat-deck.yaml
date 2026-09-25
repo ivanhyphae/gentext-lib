@@ -1,0 +1,25 @@
+asset_id: central-valley-extreme-heat-deck
+source_path: sources/central-valley-extreme-heat-deck/central-valley-extreme-heat-deck.md
+source_sha256: eb202d82d4b2ec7440328e255951d4b6325dec2b710ac4143444f17089bef92b
+text_sha256: 7864cd2c70c8e68c8b13e4fc3bb47438ad9aee05a612e04c7b17227d354ae780
+words: 1788
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 588
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

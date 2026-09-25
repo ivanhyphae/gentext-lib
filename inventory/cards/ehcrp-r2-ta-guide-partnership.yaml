@@ -1,49 +1,41 @@
 asset_id: ehcrp-r2-ta-guide-partnership
 card:
-  summary: TA guide for EHCRP Round 2 applicants on Partnership as a program value. Explains the distinction between lead
-    applicants, co-applicants, contributors, and supporters; their roles, responsibilities, and funding flows. Includes a
-    requirements table and prompts for applicants to consider when developing partnerships.
+  summary: EHCRP Round 2 technical guidance on Partnership as a program value. Defines partnership structure (Lead Applicant,
+    Co-Applicant, Contributors, Supporters); outlines roles, responsibilities, and application requirements for each tier;
+    provides prompts for applicants to strengthen partnership design.
   doc_role: guidance
-  authorship: LCI (Governor's Office of Land Use and Climate Innovation)
+  authorship: LCI / ICARP program
   disposition: reference
-  disposition_reason: Authoritative guidance document defining partnership requirements and structure for EHCRP Round 2 applications.
-    Not prose to reuse, but essential reference for understanding and answering pt-q1 and pt-q2 questions.
+  disposition_reason: Authoritative program guidance needed to answer pt-q1 and pt-q2 questions; not prose to reuse but essential
+    to consult when drafting partnership sections. Defines required elements and evaluation framing.
   serves_needs:
   - need_id: pt-q1
-    how: 'Defines what strong partnerships must show: complementary expertise, shared decision-making, clear narrative of
-      each partner''s contribution and relevant strengths.'
+    how: Defines partnership roles and required documentation; guidance on demonstrating unique expertise of each partner
+      and why single org cannot succeed
   - need_id: pt-q2
-    how: Establishes partnership agreement requirements and post-award responsibilities; clarifies that workplan and budget
-      must outline activities, deliverables, and costs per partner.
-  sections:
-  - path: 'What You Need To Know: > Understanding Partnership as a Program Value'
-    type: solicitation-text
-    reuse_value: medium
-    note: Core definition of Partnership value emphasizing community knowledge + implementation capacity balance; directly
-      addresses pt-q1 and pt-q2 expectations.
-  - path: 'What You Need To Know: > Elements of Project Partnership'
-    type: solicitation-text
-    reuse_value: medium
-    note: Requirements table distinguishing lead applicant, co-applicant, contributor, and supporter roles, responsibilities,
-      funding eligibility, and documentation needs.
+    how: Prompts (visible in excerpts) encourage documenting prior projects, milestones, and lessons; defines what 'proven
+      capacity' means in this program context
+  sections: []
   fact_candidates:
-  - Lead applicants must enter into grant agreement with the State to receive funds and subgrant to project partners.
-  - Co-applicants receive funds through the Lead Applicant and must have workplan tasks and budget items.
-  - Contributors provide support but do not receive grant funds and do not require detailed tasks or budget justification.
-  - Supporters provide letters of support but do not receive funds or require workplan tasks or budget items.
-  - Tribes are not required to have a Co-Applicant per program guidelines.
+  - Round 2 funds Early and Advanced Infrastructure projects
+  - Partnership value emphasizes complementary partnerships and shared decision-making
+  - Lead Applicant receives grant funds as grantee; Co-Applicant receives funds through Lead Applicant
+  - Lead Applicant must have workplan tasks and budget items; Contributors must have workplan tasks but not budget items
+  - Supporters must provide letter of support but do not require workplan tasks or budget items
+  - Co-Applicant must provide detailed tasks, letter of support, and costs to Lead Applicant
+  - Lead Applicant serves as point of contact with Governor's Office of Land Use and Climate Innovation (LCI)
   flags:
-  - 'Excerpt too thin to judge: final section on ''Prompts to consider'' is cut off mid-sentence, limiting visibility of full
-    guidance scope.'
-  - Document appears to be EHCRP Round 2 specific; verify applicability to Hyphae's Bay Point proposals.
+  - Excerpt ends mid-sentence at s8; full 'Prompts to consider' section not shown—thin evidence on guidance depth for pt-q1/pt-q2
+  - No site-specific or Hyphae-relevant examples in visible excerpts
+  - Does not contain community voices or Bay Point context
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: c5854d5756ea7cc977da339fcc1802ea19fe0393c44be0b5d5f11bae6486eb2e
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 3282
-    output: 554
+    input: 3389
+    output: 457
     cache_read: 0
     cache_write: 0

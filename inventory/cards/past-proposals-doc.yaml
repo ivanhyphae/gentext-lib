@@ -1,0 +1,224 @@
+asset_id: past-proposals-doc
+card:
+  summary: A 18,539-word working document maintained by Hyphae staff that compiles past grant proposals and firm experience.
+    Contains links to full proposals (Rodeo CARB5, Arlington Park EPA, CMEJ-MPCA, CalEPA EJ), firm descriptions from prior
+    applications, project case summaries (Prescott Greening, Green Heart clinical trial, NSF SBIR adaptOS development), and
+    detailed technical sections on monitoring, modeling, and community engagement strategies. Acts as an index and quick-reference
+    to Hyphae's prior work rather than new primary content.
+  doc_role: working-doc
+  authorship: Hyphae Design Lab team (mei@hyphae.net editor)
+  disposition: hold
+  disposition_reason: This is the connector text that the inventory note identifies as 'the fastest route to primary sources
+    for every project case.' It contains reusable firm-experience prose, method descriptions (CFD modeling, sensor deployment,
+    participatory design), and documented outcomes (Prescott Greening funding summary, Green Heart clinical trial details,
+    adaptOS capabilities) that can be extracted into library chunks for lib-firm-experience, lib-methods, and lib-glossary.
+    While not a submitted proposal itself, it is a curated reference that saves research time and bridges to primary sources.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Summaries of Prescott Greening (phased implementation, funding sources), Green Heart Project (8,000+ trees, cardiovascular
+      health outcomes), NSF SBIR adaptOS (sensor placement optimization, measurement-simulation-implementation-assessment
+      cycle), and Rodeo CARB5 (community engagement + CFD + drone monitoring). Outcomes and timelines are documented.
+  - need_id: lib-methods
+    how: Detailed descriptions of CFD modeling approach (URANS, k-epsilon turbulence, OpenFOAM), drone-mounted sensor deployment
+      (anemometers, particulate sensors, RTK GPS, 3D grid flight plans), LoRaWAN fixed-sensor networks, thermal comfort sensors,
+      air pollution mobile carts, participatory mapping, and community science research councils. Protocol and role descriptions
+      included.
+  - need_id: lib-glossary
+    how: References to adaptOS platform functions, community air monitoring framework alignment with CARB Blueprint, evidence-based
+      design process (five-stage iterative cycle), and environmental justice terminology used across proposals.
+  sections:
+  - sid: s4
+    path: Hyphae Description > From CMEJ-MPCA Grant
+    type: org-profile
+    reuse_value: high
+    note: 'Canonical firm description: ''national leader in evidence-based design,'' NSF and NIH funding, adaptOS platform
+      capabilities (aerial/satellite/ground-level data synthesis, hyperlocal mapping, adaptive design for heat/flood/air).
+      Reusable in new proposals.'
+  - sid: s5
+    path: Hyphae Description > From CMEJ Google Data Grant
+    type: org-profile
+    reuse_value: high
+    note: Alternative firm framing emphasizing partnership model with CBOs, NSF adaptOS development, Louisville clinical trial
+      (cardiovascular health effects of greening), de-paving work with Climate Resolve and JPL. NBC News and LA Times references
+      cited.
+  - sid: s7
+    path: Hyphae Description > From Boyle Heights > Community-driven Design
+    type: org-profile
+    reuse_value: high
+    note: 15-year partnership narrative with West Oakland (AB 617 context), WOEIP collaboration, Urban Biofilter project outcomes.
+      Situates firm in policy/legislative framework. 2008 CARB health risk assessment and 2015 Alameda County Public Health
+      data on pollution disparities cited.
+  - sid: s8
+    path: Hyphae Description > From Boyle Heights > Evidence-based Design
+    type: method
+    reuse_value: high
+    note: 'Description of adaptOS iterative process: measurement → simulation → implementation → assessment → refinement.
+      Specific interventions listed (urban greening, truck rerouting, software for heat events). Reusable method statement.'
+  - sid: s10
+    path: Hyphae Description > From Endless Frontier Proposal
+    type: org-profile
+    reuse_value: high
+    note: '100-word firm description: engineering at intersection of research and design, adaptOS integrating analytics/design/project
+      management, machine learning for air/water/soil/flood/heat outcomes. Concise, adaptable for future RFPs.'
+  - sid: s12
+    path: Firm Experience > Prescott Greening
+    type: project-case
+    reuse_value: high
+    note: '2021–2024 West Oakland project. Funding breakdown: $150k TCC grant, $300k MTC PCA, $600k matched ACTC, $50k Port
+      of Oakland, $100k CalFire. Lead: WOEIP. Activities: air monitoring, vegetated buffers, tree planting. Phased implementation
+      in highest-pollution hotspot. Outcome: integration of monitoring + buffers + planting. Citable for multi-funder coordination.'
+  - sid: s18
+    path: Firm Experience > NSF SBIR
+    type: project-case
+    reuse_value: high
+    note: 2020–Present adaptOS development. NSF SBIR Phase I and II funding. Platform bridges CBOs and municipal partners
+      on heat/pollution/flood. Iterative cycle (measurement, simulation, implementation, assessment). Sensor placement optimization
+      and impact modeling. Core technology for Hyphae's evidence-based approach.
+  - sid: s19
+    path: Firm Experience > Greenheart
+    type: project-case
+    reuse_value: high
+    note: '2018–Present. Lead: University of Louisville, The Nature Conservancy, Hyphae. NIH and TNC funding. First clinical
+      trial of urban greening effects on air quality and cardiovascular health. Planted 8,000+ mature trees in Louisville''s
+      low-canopy, high-exposure neighborhoods. Citable outcome linking infrastructure to health.'
+  - sid: s24
+    path: Rodeo
+    type: project-case
+    reuse_value: high
+    note: 'Rodeo CARB5 project (Aug 2025–Dec 2027, 28-month community engagement + monitoring). Lead: Refinery Corridor Air
+      Coalition (RCAC). Community engagement begins Day 1; simultaneous outreach + analysis. Sensor placement driven by community
+      + modeling. Tasks: community engagement, CFD modeling, monitoring, research council formation.'
+  - sid: s25
+    path: 'Rodeo > 2.1: Phased Community Engagement and PurpleAir Deployment in Contra Costa'
+    type: method
+    reuse_value: medium
+    note: 'Phased community engagement plan: 8 meetings across Contra Costa, introduce project, gather input on hotspots,
+      recruit landlords for PurpleAir placement, monthly reporting. Milestones by month. Reusable structure for community-driven
+      monitoring.'
+  - sid: s29
+    path: 'Rodeo > 2.9–2.11: Form a Community Science Research Council'
+    type: method
+    reuse_value: medium
+    note: Formation of Research Council (local advocates, citizen scientists) to guide monitoring, consolidate historical
+      data, align with Air District priorities. Quarterly meetings. Co-design process with Air District. Reusable governance
+      model for community science.
+  - sid: s31
+    path: Arlington Park - EPA Grant
+    type: project-case
+    reuse_value: high
+    note: 'Arlington Park community-based design approach: active transportation connectivity (walking/biking/transit), community
+      greening (shade, stormwater, plant selection), tree planting on 3–4 community parcels, stormwater/flood mitigation.
+      Co-design with community, geospatial mapping.'
+  - sid: s32
+    path: Arlington Park - EPA Grant > Community Co-Design Approach
+    type: method
+    reuse_value: high
+    note: 'Environmental justice approach statement: ''empower communities to advocate for themselves using data, science,
+      and evidence.'' Over a decade of support to grassroots orgs. Hyperlocal mapping, monitoring, design. Evidence-driven
+      interventions. Reusable EJ methodology narrative.'
+  - sid: s35
+    path: Rodeo > Type of Monitoring Proposed
+    type: method
+    reuse_value: high
+    note: 'Hybrid monitoring approach for refinery corridor: drone platform (3D sonic anemometers, RTK GPS, IMU, Plantower
+      PMS-6003 sensors) to measure vertical wind vectors and pollutant concentration; fixed PurpleAir sensors (40 locations)
+      for spatial analysis; co-location with government reference monitors. Detailed specifications reusable.'
+  - sid: s42
+    path: Rodeo > Monitoring Subtasks > UAV Sensors Deployment
+    type: method
+    reuse_value: high
+    note: 'Drone protocol: anemometer + GPS + IMU + particulate sensor assembly; portable power supply + sensor fusion recorder.
+      4 campaigns (seasonal) × 4 days each. 3D grid flights morning/afternoon/evening (~1,000 measurement points per campaign).
+      FAA certified pilot Charles Grant. Reusable drone-monitoring specification.'
+  - sid: s43
+    path: Rodeo > Monitoring Subtasks > Locating Fixed Sensors Deployment
+    type: method
+    reuse_value: high
+    note: 'LoRaWAN network approach: low-power, long-range protocol; single gateway on hilltop/tall building; enables sensor
+      placement without WiFi/power. Maximizes impact of sensor locations from simulation + community feedback. Detailed technical
+      rationale. Reusable for distributed monitoring.'
+  - sid: s48
+    path: Rodeo > Roles and Responsibilities
+    type: method
+    reuse_value: medium
+    note: 'Clear role definitions: CCRCD/RCA/CAMN coordinate outreach + secure permissions; Hyphae Chief Scientist develops
+      sensor distribution + drone flight plans + data analytics; Hyphae Software Engineer handles LoRaWAN + cloud data + front-end;
+      Charles Grant pilots drone. Reusable team structure.'
+  - sid: s50
+    path: Arlington Park - EPA Grant > Sensor Deployment
+    type: method
+    reuse_value: high
+    note: Sensor network described as 'central to evidence-based design methodology' for before/after evaluation. Expansion
+      of existing microclimate sensor network into full corridor + neighborhood. Cost basis tied to real deployment expenses.
+      Detailed budget narrative reusable.
+  - sid: s58
+    path: Rodeo
+    type: method
+    reuse_value: high
+    note: 'CFD modeling approach: computational fluid dynamics proven for pollutant dispersion in urban flows. Meso-scale
+      (UHI, regional wind, broad regions) + micro-scale (individual buildings, streets, trees) simulations. Relies on domain
+      model, meteorological data, traffic/emission data. Cites Blocken, Tominaga, San Jose, and others.'
+  - sid: s60
+    path: Rodeo > Approach > Wind Modeling
+    type: method
+    reuse_value: high
+    note: OpenFOAM CFD solver; URANS with k-epsilon turbulence model. Conservation of fluid mass, momentum, pollutant mass.
+      Flexible for custom environmental sub-models (atmospheric, traffic, pollution). Detailed equations and references (Launder
+      & Spalding 1974; Versteeg & Malalasekera 2007).
+  - sid: s61
+    path: Rodeo > Approach > Pollution Modeling
+    type: method
+    reuse_value: high
+    note: 'Multi-scale pollution framework: regional (distant sources, wildfires) + local (traffic, refineries, ports). Complex
+      terrain simulations capture regional background + large local sources; microscale resolves fine-scale dispersion. Detailed
+      modeling rationale reusable.'
+  - sid: s73
+    path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes > 4. Community
+      Engagement'
+    type: method
+    reuse_value: medium
+    note: 'Modeling as communication tool: community meetings/workshops for input; participatory mapping; visual engagement
+      of stakeholders. Transparency fosters involvement. Reusable as engagement strategy integrating technical + community
+      elements.'
+  fact_candidates:
+  - 's12: Prescott Greening received $150,000 Transformative Climate Communities grant (2021–2024).'
+  - 's12: Prescott Greening additional funding: $300k MTC PCA, $600k ACTC match, $50k Port of Oakland, $100k CalFire.'
+  - 's19: Green Heart Project planted over 8,000 mature evergreen trees and shrubs in Louisville, Kentucky.'
+  - 's19: Green Heart Project is described as ''the first clinical trial to study the effects of urban greening on air quality
+    and its direct impact on cardiovascular and systemic health.'''
+  - 's4: Hyphae received funding from National Science Foundation and National Institutes of Health.'
+  - 's5: adaptOS platform developed with NSF funding in 2020.'
+  - 's7: 2008 CARB health risk assessment found West Oakland residents exposed to diesel-sourced air pollution three times
+    higher than Bay Area background levels.'
+  - 's7: 2015 Alameda County Public Health report affirmed West and East Oakland residents had higher rates of stroke, congestive
+    heart failure, and asthma-related ER visits.'
+  - 's24: Rodeo CARB5 project: 28-month community engagement plan, August 15, 2025 to December 20, 2027.'
+  - 's25: Rodeo engagement plan includes 8 community meetings across Contra Costa County with regular reporting to community.'
+  - 's42: Rodeo drone campaign: 4 seasonal campaigns, 4 days each, morning/afternoon/evening flights, approximately 1,000
+    measurement points per campaign.'
+  flags:
+  - 'Excerpt evidence thin: section openings rarely exceed 120 words; detailed proposal text exists only as Google Doc links
+    (not fetched).'
+  - Inventory note claims this matches the empty 'Past Proposals' section in working doc—confirmation needed; may indicate
+    this is the content to populate that section.
+  - Document is index/reference rather than complete proposal prose; primary sources (Rodeo narrative, Arlington Park EPA
+    grant, CMEJ-MPCA) are linked but not included in excerpts.
+  - Contact data redacted but links to Google Docs/Sheets with potential email/permissions visible in URLs.
+  - Project timelines (Prescott 2021–2024, Green Heart 2018–Present, NSF SBIR 2020–Present) may be dated; verify currency
+    against recent activity.
+  - Rodeo project dated Aug 2025–Dec 2027 is future-dated; assess if this is a draft/planning document or if dates are placeholder/hypothetical.
+  - No explicit Bay Point or Ambrose context found; document focuses on West Oakland, Rodeo, Arlington Park, Louisville. May
+    not directly address EHCRP Round 2 sites.
+  - Boyle Heights section (s7–s9) mentions 'What is the funding source for…' as incomplete text, suggesting this may be a
+    work-in-progress compilation.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 9e1b6edbb999f32a548ff3f9b3a607c3b9420a5ceca73acc6c9cbb359faea6ce
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 13365
+    output: 3455
+    cache_read: 0
+    cache_write: 0

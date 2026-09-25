@@ -1,0 +1,28 @@
+asset_id: oakland-step-urban-greening-decks-2024
+source_path: sources/oakland-step-urban-greening-decks-2024/oakland-step-urban-greening-decks-2024.md
+source_sha256: fcc2a5afe1ebf6cfc069369ed1cdff80aed4e8e95dbd9e42a089b3debe63682a
+text_sha256: 099202da57d962193dd9a3d0a9e3ee72955da50524dbfc061f386c6f43aebc37
+words: 1731
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Task 2.3Identify and design pilot greening interventions
+  level: 1
+  words: 839
+- sid: s2
+  path: Possible Showcase OptionsWork in non-typical ROW’s (city streets, caltrans) where it may be easier to permit more trees/vegetated buffers.
+  level: 1
+  words: 281
+- sid: s3
+  path: Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape
+    Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXX# Streetscape Greening ExampleXXCaltrans PlantingFrontage Road DietImmediately Plantable7th StreetCaltrans PlantingFrontage
+    Road DietImmediately Plantable7th StreetCaltrans + Immediately PlantableB) Caltrans + Frontage Road Diet & 7th# Comparing Scenarios Using Modelswind directionCaltrans + Immediately PlantableBluer areas
+    are where the pollution is better than existing
+  level: 1
+  words: 515
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

@@ -1,101 +1,115 @@
 asset_id: ehcrp-r2-working-doc
 card:
-  summary: I-ReLab and Hyphae's internal strategy doc for exploratory EHCRP Round 2 applications. Contains solicitation excerpts,
-    partner outreach notes, meeting transcripts, and draft template language. Emphasizes relationship-first approach, early
-    infrastructure tier, and lists of potential partners (Ambrose Center Park / Memorial Park, bus stops, LA-based orgs).
-    Marked as 90% duplicate of two ARPD pre-application docs.
+  summary: Working document for Hyphae + I-ReLab's exploratory EHCRP Round 2 track. Contains strategic notes from webinar
+    takeaways, partner development ideas, decision logs from team meetings (July 22, Aug 4, Aug 5), pre-application checklists,
+    template letters, and firm experience language. Focus is on early-stage planning and partnership formation, not yet a
+    submitted application. Metadata notes this is separate from the ARPD pre-applications but informs strategy. Heavy presence
+    of meeting transcripts, action items, and internal notes.
   doc_role: working-doc
-  authorship: I-ReLab (Dr. kj) with Hyphae team (Brent Bucknum, Ivan Heitmann, Mei, James Hansen, Chris Lim)
-  disposition: ignore
-  disposition_reason: Near-duplicate of ehcrp-r2-ambrose-memorial-docx and ehcrp-r2-ambrose-center-docx (90% overlap noted
-    in metadata). Primarily internal strategy notes, meeting transcripts, and working outreach lists—not prose to extract.
-    EHCRP guidelines sections can be referenced in solicitation docs if needed. Partner outreach and relationship-building
-    context is valuable for understanding the exploratory track but does not contain reusable proposal text, site facts, or
-    outcome data beyond what appears in the ARPD pre-apps.
+  authorship: I-ReLab (Dr. kj) with Hyphae team (Brent Bucknum, Ivan Heitmann, Chris Lim, James Hansen, Mei)
+  disposition: reference
+  disposition_reason: Contains authoritative EHCRP program guidelines, webinar summaries, decision records, and reusable strategy
+    framing, but not submitted proposal prose or project outcomes. Useful as a reference for understanding the exploratory
+    I-ReLab track and program requirements, but the document is a draft working collection of notes and templates, not a final
+    deliverable. The metadata's claim of I-ReLab-authored prose is present but thin; most valuable sections are program excerpts
+    and meeting notes rather than original Hyphae/I-ReLab capability statements.
   serves_needs:
   - need_id: ehcrp-r2-webinars-office-hours
-    how: Document embeds office hours schedule, registration links (July 9, 13), webinar dates (July 28 Tempe, July 30 Phoenix),
-      Q&A submission channel, and summary takeaways from webinars attended by kj (20-60% infrastructure requirement, emphasis
-      on Harm Reduction and Belonging).
-  - need_id: ehcrp-r1-interview-and-feedback
-    how: References 'Round 1 Report' section with FY2024-25 awards list and project categories (Large/Small Implementation,
-      Large/Small Planning); provides context for Round 2 strategy but does not contain interview materials or specific LCI
-      feedback.
+    how: Sections s19–s20 summarize July webinar schedule and City of Tempe/Phoenix project examples; s31–s36 contain Dr.
+      kj's webinar notes and emerging strategy takeaways.
+  - need_id: lib-methods
+    how: Section s51 discusses relational infrastructure, stewardship, and community engagement frameworks; s32–s36 frame
+      partnership formation and storytelling as methodological approaches.
   sections:
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round
-      2 Extreme Heat and Community Resilience Program application process are'
+  - sid: s10
+    path: Introduction > Program Funding and Purpose
     type: solicitation-text
     reuse_value: high
-    note: 'Complete deadline schedule: Pre-App Window 1 (July 21), Window 2 (Aug 11), Full App (Oct 13); appeals windows.
-      Core reference material for all EHCRP applications.'
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Program Funding and Purpose'
+    note: $27.5M Round 2 EHCRP funding amount, sources (Climate Bond Prop 4, GGRF), and program purpose statement.
+  - sid: s12
+    path: Introduction > Grant Types and Available Funds
     type: solicitation-text
     reuse_value: high
-    note: $27.5M total; Prop 4 and GGRF funding; purpose statement; heat mitigation and vulnerable population protection.
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Grant Types and Available Funds'
+    note: Early Infrastructure ($7.5M, $750k–$1.2M awards, 30-month delivery) and Advanced Infrastructure ($20M, $3–4.5M awards,
+      48-month delivery) tier definitions and deliverable requirements.
+  - sid: s8
+    path: Introduction > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process
+      are
     type: solicitation-text
     reuse_value: high
-    note: Early Infrastructure ($7.5M, $750K–$1.2M per award, 30-month demo) and Advanced Infrastructure ($20M, $3–4.5M per
-      award, 48-month implementation). Tier definitions critical for application strategy.
-  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Scoring and Selection Process'
-    type: solicitation-text
-    reuse_value: high
-    note: 90 points base (55 narrative, 15 Funding Priority Groups, 20 workplan/budget); top scorers advance to 10-point interview/site
-      visit for 100-point total.
-  - path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to
-      catch it before they moved to the next slide. > Applicant's role
-    type: notes
-    reuse_value: medium
-    note: 'I-ReLab''s strategic positioning: support partnership formation, demonstration projects, belonging, storytelling,
-      stewardship, framing—not lead the community. Reusable framing for Hyphae''s role in eligible-applicant partnerships.'
-  - path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to
-      catch it before they moved to the next slide. > Emerging Strategy
-    type: notes
-    reuse_value: medium
-    note: '''Work begins with partners, not projects''—relationship-first approach, align with community priorities before
-      project design. Strategic principle for proposal framing.'
-  - path: Fresno EHCRP example > Firm Experience
-    type: capability
-    reuse_value: high
-    note: 'Hyphae firm experience summary: Prescott Greening (AB 617, TCC, $150K–$1.05M total), data-driven + community engagement
-      model. Citable project case with funding sources and outcomes.'
-  - path: Fresno EHCRP example > Technical Capabilities
+    note: 'Key dates: Pre-App Window 1 (June 16–July 21, 2026 with TA); Window 2 (July 1–Aug 11, 2026 no TA); Full App due
+      Oct 13, 2026; appeal windows.'
+  - sid: s32
+    path: Introduction > The Opportunity
     type: capability
     reuse_value: medium
-    note: 'Hyphae technical expertise: land cover classification, LiDAR/geospatial, GPU computing, UTCI heat modeling, street
-      view analysis. Reusable capability statement.'
+    note: I-ReLab/Hyphae positioning on partnership, belonging, and lasting community benefits as core program pillars; role
+      clarity for private consulting firms through partnerships.
+  - sid: s33
+    path: Introduction > Applicant's role
+    type: capability
+    reuse_value: medium
+    note: Articulates Hyphae's supporting role in partnership formation, demonstration project development, storytelling,
+      stewardship planning, and grant development alongside eligible lead applicants.
+  - sid: s51
+    path: Introduction > Strategic Reflection
+    type: method
+    reuse_value: medium
+    note: Conceptual framing of relational infrastructure vs. physical infrastructure; integration of cultural intelligence
+      and stewardship planning with heat resilience projects.
+  - sid: s106
+    path: Fresno EHCRP example > Firm Experience
+    type: project-case
+    reuse_value: high
+    note: Prescott Greening Project case (2021–2024, $150k TCC + $950k other funding) with air quality, vegetation, tree planting,
+      phased implementation narrative and metrics language.
+  - sid: s108
+    path: Fresno EHCRP example > Technical Capabilities
+    type: capability
+    reuse_value: medium
+    note: 'Hyphae technical expertise summary: land cover classification, LiDAR/geospatial processing, GPU computing, UTCI
+      heat modeling, pedestrian behavior simulation.'
   fact_candidates:
-  - 'Introduction > The key deadlines: Pre-App Window 1 closes July 21, 2026, 2:00 PM PST'
-  - 'Introduction > The key deadlines: Pre-App Window 2 closes August 11, 2026, 2:00 PM PST'
-  - 'Introduction > The key deadlines: Full Application Form deadline October 13, 2026, 2:00 PM PST'
-  - 'Introduction > Program Funding and Purpose: $27.5 million in competitive infrastructure grant funding for Round 2'
-  - 'Introduction > Grant Types and Available Funds: Early Infrastructure allocates $7.5 million, awards $750,000–$1.2 million,
-    30-month contract period'
-  - 'Introduction > Grant Types and Available Funds: Advanced Infrastructure allocates $20 million, awards $3–4.5 million,
-    48-month contract period'
-  - 'Fresno EHCRP example > Firm Experience: Prescott Greening (2021–2024) received $150,000 from Transformative Climate Communities
-    grant'
-  - 'Fresno EHCRP example > Firm Experience: Prescott Greening received $300,000 from Metropolitan Transportation Commission
-    Priority Conservation Areas'
-  - 'Fresno EHCRP example > Firm Experience: Prescott Greening received $600,000 from Alameda County Transportation Commission'
-  - 'Fresno EHCRP example > Firm Experience: Prescott Greening received $50,000 from Port of Oakland'
-  - 'Fresno EHCRP example > Firm Experience: Prescott Greening received $100,000 from CalFire'
-  - 'Notes > 2024/2025 Round 1 Report: Round 1 distributed nearly $32 million across 46 projects'
+  - 's10: $27.5 million total Round 2 EHCRP funding from Climate Bond (Prop 4) and Greenhouse Gas Reduction Fund.'
+  - 's12: Early Infrastructure grants $750,000–$1.2 million with 30-month delivery; Advanced Infrastructure grants $3–4.5
+    million with 48-month delivery.'
+  - 's8: Pre-Application Interest Form Window 1 deadline July 21, 2026, 2:00 PM PST (with TA); Window 2 deadline August 11,
+    2026, 2:00 PM PST (no TA).'
+  - 's8: Full Application deadline October 13, 2026, 2:00 PM PST.'
+  - 's14: Applications scored out of 90 points (55 project narrative, 15 Funding Priority Groups, 20 workplan/budget) plus
+    10 interview/site visit points for total of 100.'
+  - 's106: Prescott Greening Project $150,000 Transformative Climate Communities grant plus $300k MTC Priority Conservation
+    Areas, $600k ACTC, $50k Port of Oakland, $100k CalFire (total $1.1M).'
+  - 's31: Webinar guidance 20–60% (or 70%) of grant should be infrastructure-focused; remainder for community participation,
+    social research, cultural site intelligence.'
+  - 's91: Early Infrastructure tier requires 25% minimum infrastructure demonstration (not 60–70%), leaving 75% for planning,
+    research, engagement, and belonging.'
+  - 's112: Pre-application requires lead applicant info, entity type, project location address, dollar amount, proposed demonstration/infrastructure
+    description, co-applicant info, Funding Priority Group selection.'
+  - 's66: Urban Greening grant invite ~$4.2M for ~10 bus stops with ~1 month deadline; Ambrose Memorial Park prioritized over
+    Ambrose Center given constraints.'
   flags:
-  - near-duplicate of ehcrp-r2-ambrose-memorial-docx and ehcrp-r2-ambrose-center-docx (90% overlap); prioritize those docs
-    instead
-  - contains internal meeting transcripts and partner development notes; not a polished proposal or reference doc
-  - excerpt too thin to judge partnership-specific outcomes or community voice integration from Ambrose/Bay Point context
-  - contact data present (email/phone redacted) in meeting attendee lists and outreach templates
-  - excerpt does not include full transcript or detailed notes from office hours attended; only summary takeaways visible
+  - 'Near-duplicate: metadata lists 99% match with ehcrp-r2-ambrose-memorial-gdoc and ehcrp-r2-ambrose-center-gdoc; 94% match
+    with ehcrp-r2-ambrose-memorial-docx. Verify consolidation before holding.'
+  - Contact data redacted ([email]/[phone] noted); no integrity risk in remaining text.
+  - Internal meeting transcripts with candid discussion of team capacity, bandwidth constraints, and speculative outreach
+    feasibility; not sensitive but reflects work-in-progress thinking.
+  - Excerpt thin on I-ReLab original methodology or case work; Fresno section (s106–s108) is Hyphae firm experience, not I-ReLab
+    contribution.
+  - Strategy framework (s32–s36, s51) claims partnership-first approach but is conceptual framing, not yet evidenced in submitted
+    work or outcomes.
+  - Metadata claim 'I-ReLab-authored prose' is partially supported; Dr. kj's strategic notes (s31–s36) and meeting facilitation
+    visible, but bulk is program guidelines and team admin notes.
+  - 'Document status: exploratory, Aug 7, 2026 modification date; pre-application Window 2 deadline Aug 11. Urgency context
+    captured in decision logs but no outcomes recorded.'
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 55072af883a93042f94d0ef52517f2872e0426a7fb14c0de75da07bc0f83bcdd
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 16100
-    output: 1736
+    input: 16675
+    output: 1785
     cache_read: 0
     cache_write: 0

@@ -1,0 +1,21 @@
+asset_id: groundwork-cnra-budget-press-release
+source_path: sources/groundwork-cnra-budget-press-release/groundwork-cnra-budget-press-release.md
+source_sha256: 9231998a09d6ab810defb2214f8d162ac447c7ced448d81b5e2d34156e97f5c7
+text_sha256: 8b31838cec5dc2f5e50f42f7951ee56a1beada920192f6d9b18e730cd5165407
+words: 977
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 377
+section_count: 2
+profiled: '2026-09-25'
+profiler: p2

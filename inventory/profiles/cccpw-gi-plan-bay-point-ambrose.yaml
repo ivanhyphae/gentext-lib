@@ -1,0 +1,17 @@
+asset_id: cccpw-gi-plan-bay-point-ambrose
+source_path: sources/cccpw-gi-plan-bay-point-ambrose/cccpw-gi-plan-bay-point-ambrose.md
+source_sha256: b4b35ee837adecf7cb2c4559cfa8d6adee0f8db28ded5053dda94607e452c4cf
+text_sha256: 4110f602f44f078b1e0cc124d31bf928dcfea6ff282012fb023b1d75f60cfccc
+words: 587
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 587
+section_count: 1
+profiled: '2026-09-25'
+profiler: p2

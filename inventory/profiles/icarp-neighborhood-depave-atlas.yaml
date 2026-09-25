@@ -1,0 +1,17 @@
+asset_id: icarp-neighborhood-depave-atlas
+source_path: sources/icarp-neighborhood-depave-atlas/icarp-neighborhood-depave-atlas.md
+source_sha256: dfa6e023af8d4a77c13e52fb1c951a02f4467fe93edde5ce24cc0efd58bda5c9
+text_sha256: 4e7b9bf7e9abe3dfe271f85fe97b2b3ba01e691d4d988329f9fdb3b00816c196
+words: 363
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 363
+section_count: 1
+profiled: '2026-09-25'
+profiler: p2

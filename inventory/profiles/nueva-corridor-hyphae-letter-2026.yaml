@@ -1,0 +1,45 @@
+asset_id: nueva-corridor-hyphae-letter-2026
+source_path: sources/nueva-corridor-hyphae-letter-2026/nueva-corridor-hyphae-letter-2026.md
+source_sha256: fd626493791a116356c26e384ba148bbddef978e801c2af8a1258c60e9236f03
+text_sha256: 121edc203215a01c2371c73a55292c10000657e17f1f63ea5db8ad0afd4d8d45
+words: 6450
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Initial Outline
+  level: 1
+  words: 892
+- sid: s2
+  path: Reorganization
+  level: 1
+  words: 1610
+- sid: s3
+  path: Reorganization > ATTACHED doc and presentation
+  level: 2
+  words: 14
+- sid: s4
+  path: Reorganization > Firm Experience
+  level: 2
+  words: 116
+- sid: s5
+  path: Reorganization > Firm Experience > ~~Hyphae Design Lab has extensive experience delivering innovative, data-driven solutions that address urban resilience, environmental justice, heat and pollution
+    mitigation. By integrating technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable design strategies tailored to their specific needs. Hyphae
+    has worked extensively with various Universities on air quality and heat mitigation projects including the Greenheart Project and the University of Louisville (KY), Marin City (CA) project with Dr.
+    Ivey, UC Berkeley and Tina Chow, UC Merced and Asa Bradman, UCSF and Neeta Thakur, and new NIH Cancer grant with Texas A\&M. This experience will allow us to effectively collaborate with UT San Antonio
+    staff, researchers and students. ~~
+  level: 3
+  words: 1867
+- sid: s6
+  path: Tab 3
+  level: 1
+  words: 0
+- sid: s7
+  path: Tab 3 > Firm Experience
+  level: 2
+  words: 1818
+section_count: 7
+profiled: '2026-09-25'
+profiler: p2

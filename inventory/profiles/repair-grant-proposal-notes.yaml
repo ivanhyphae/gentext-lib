@@ -1,0 +1,682 @@
+asset_id: repair-grant-proposal-notes
+source_path: sources/repair-grant-proposal-notes/repair-grant-proposal-notes.md
+source_sha256: 6e9bab97ad3d44dc573751bca6c833e96b8ccaa8a0713ba0cf8e17d41bfa5992
+text_sha256: 6c87796e0ef2be3433312ce386ed905945022a28456798a86df1f0de82276a1c
+words: 35971
+pii:
+  emails: 42
+  phones: 2
+near_duplicates: []
+sections:
+- sid: s1
+  path: Grant details and Links
+  level: 1
+  words: 0
+- sid: s2
+  path: BAAQMD REPAIR Grant
+  level: 1
+  words: 108
+- sid: s3
+  path: Links
+  level: 1
+  words: 16
+- sid: s4
+  path: Application Documents
+  level: 1
+  words: 936
+- sid: s5
+  path: Meeting Notes
+  level: 1
+  words: 0
+- sid: s6
+  path: Meeting Notes > May 19th Fletch and Charles
+  level: 2
+  words: 0
+- sid: s7
+  path: 'Meeting Notes > 1: Aldehydes a priority and VOC. Passive samplers (or DNPH tubes if necessary) can be set up in ring around refineries with wind sensors for campaigns. Also emergency/smell response
+    teams to deploy them where plumes are detected (with mobile tVOC) or people report smells in realtime. We could also rent MiraPico (for formaldehyde(check if it can do higher aldehydes too?)) or Hapsite.'
+  level: 2
+  words: 153
+- sid: s8
+  path: Meeting Notes > May 18, 2026 | Bay REPAIR Grant (HOLD)
+  level: 2
+  words: 43
+- sid: s9
+  path: Meeting Notes > May 8, 2026 | Bay REPAIR Grant (HOLD)
+  level: 2
+  words: 151
+- sid: s10
+  path: Meeting Notes > Apr 24, 2026 | Bay REPAIR Grant (HOLD)
+  level: 2
+  words: 128
+- sid: s11
+  path: Meeting Notes > Apr 10, 2026 | Bay REPAIR Grant (HOLD)
+  level: 2
+  words: 633
+- sid: s12
+  path: Bay REPAIR 2026 — Partner Outcomes
+  level: 1
+  words: 0
+- sid: s13
+  path: Bay REPAIR 2026 Coordination Outcomes
+  level: 1
+  words: 17
+- sid: s14
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions
+  level: 3
+  words: 294
+- sid: s15
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What
+  level: 3
+  words: 0
+- sid: s16
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What > Annie Beaman (OCE)
+  level: 4
+  words: 62
+- sid: s17
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What > Charles Davidson
+  level: 4
+  words: 201
+- sid: s18
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What > Daniel Fleischer (Fletch)
+  level: 4
+  words: 61
+- sid: s19
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What > Juan Penaloza Gutierrez
+  level: 4
+  words: 37
+- sid: s20
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Critical Path Tasks — Who Does What > Brent Bucknum
+  level: 4
+  words: 38
+- sid: s21
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > Open Items Requiring Decisions
+  level: 3
+  words: 135
+- sid: s22
+  path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions > What's Not Happening (Deferred or Out of Scope)
+  level: 3
+  words: 70
+- sid: s23
+  path: Meeting Outcomes May 22, 2026
+  level: 1
+  words: 0
+- sid: s24
+  path: Bay REPAIR meeting Outcomes May 22, 2026
+  level: 1
+  words: 9
+- sid: s25
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget
+  level: 2
+  words: 19
+- sid: s26
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Topical Outline
+  level: 3
+  words: 122
+- sid: s27
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Decisions
+  level: 3
+  words: 829
+- sid: s28
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Action Items
+  level: 3
+  words: 0
+- sid: s29
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Action Items > Monitoring Budget & Equipment
+  level: 4
+  words: 133
+- sid: s30
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Action Items > Citizen Air Monitoring / Co-Applicants
+  level: 4
+  words: 186
+- sid: s31
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Action Items > Budget & Narrative
+  level: 4
+  words: 160
+- sid: s32
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Action Items > Richmond / CBE
+  level: 4
+  words: 64
+- sid: s33
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Open Questions
+  level: 3
+  words: 120
+- sid: s34
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Dependencies
+  level: 3
+  words: 60
+- sid: s35
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Key Dates
+  level: 3
+  words: 27
+- sid: s36
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Equipment Specs Reference
+  level: 3
+  words: 148
+- sid: s37
+  path: Bay REPAIR meeting Outcomes May 22, 2026 > Source
+  level: 2
+  words: 31
+- sid: s38
+  path: 2026-05-28 Meeting outcomes
+  level: 1
+  words: 0
+- sid: s39
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR
+  level: 1
+  words: 96
+- sid: s40
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Decisions
+  level: 2
+  words: 700
+- sid: s41
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items
+  level: 2
+  words: 0
+- sid: s42
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items > Budget and Financial Review
+  level: 3
+  words: 98
+- sid: s43
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items > Modeling Scope and Technical
+  level: 3
+  words: 227
+- sid: s44
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items > Narrative and Grant Structure
+  level: 3
+  words: 236
+- sid: s45
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items > Drone and Training
+  level: 3
+  words: 53
+- sid: s46
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Action Items > Monitoring and Sensors
+  level: 3
+  words: 21
+- sid: s47
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Blockers & Dependencies
+  level: 2
+  words: 130
+- sid: s48
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Open Questions
+  level: 2
+  words: 177
+- sid: s49
+  path: Multi-Scale Modeling and Budgeting — Bay REPAIR > Source
+  level: 2
+  words: 15
+- sid: s50
+  path: Narrative Draft — Technical Content by Topic
+  level: 1
+  words: 24
+- sid: s51
+  path: Narrative Draft — Technical Content by Topic > 1. Multi-Scale Modeling Framework
+  level: 2
+  words: 306
+- sid: s52
+  path: Narrative Draft — Technical Content by Topic > 2. Emissions Inventory and Source Characterization
+  level: 2
+  words: 265
+- sid: s53
+  path: Narrative Draft — Technical Content by Topic > 3. Monitoring Strategy and the Community Response Gap
+  level: 2
+  words: 265
+- sid: s54
+  path: Narrative Draft — Technical Content by Topic > 4. Digital Twin and Community Interventions
+  level: 2
+  words: 249
+- sid: s55
+  path: Narrative Draft — Technical Content by Topic > 5. Pollution Transport Modeling
+  level: 2
+  words: 239
+- sid: s56
+  path: Narrative Draft — Technical Content by Topic > 6. Computational Requirements and Forecasting
+  level: 2
+  words: 195
+- sid: s57
+  path: Narrative Draft — Technical Content by Topic > 7. Monitoring Instrumentation
+  level: 2
+  words: 251
+- sid: s58
+  path: Narrative Draft — Technical Content by Topic > 8. Drone Capability
+  level: 2
+  words: 84
+- sid: s59
+  path: Narrative Draft — Technical Content by Topic > 9. Handoff from Existing Grants
+  level: 2
+  words: 148
+- sid: s60
+  path: Tasks
+  level: 1
+  words: 0
+- sid: s61
+  path: Tasks
+  level: 1
+  words: 0
+- sid: s62
+  path: Tasks > Partners & Roles
+  level: 2
+  words: 103
+- sid: s63
+  path: Tasks > Task Assignments
+  level: 2
+  words: 545
+- sid: s64
+  path: Tasks > Notes & Open Items
+  level: 2
+  words: 19
+- sid: s65
+  path: Proposal Outline
+  level: 1
+  words: 15
+- sid: s66
+  path: Workplan Narrative Charles RCA
+  level: 1
+  words: 2858
+- sid: s67
+  path: EEFR (Env. response)
+  level: 1
+  words: 692
+- sid: s68
+  path: '[ARCHIVE] Low Cost Monitoring Plan'
+  level: 1
+  words: 0
+- sid: s69
+  path: \[ARCHIVE\] Low Cost Monitoring Plan (copied over from People’s Air)
+  level: 1
+  words: 1339
+- sid: s70
+  path: TARTA - metal detector
+  level: 1
+  words: 2
+- sid: s71
+  path: New Sensors Allow Communities to Analyze Hazardous Air Pollutants
+  level: 1
+  words: 186
+- sid: s72
+  path: New Sensors Allow Communities to Analyze Hazardous Air Pollutants > Advancing technology for accessible air quality data
+  level: 3
+  words: 506
+- sid: s73
+  path: Transcript extracts
+  level: 1
+  words: 9
+- sid: s74
+  path: Transcript extracts > Draft Proposal Copy — Framing by Topic
+  level: 2
+  words: 165
+- sid: s75
+  path: Lightly rephrased transcript extracts
+  level: 1
+  words: 0
+- sid: s76
+  path: Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project
+  level: 3
+  words: 343
+- sid: s77
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Innovation: The Modeling and Platform Are the Core'
+  level: 3
+  words: 142
+- sid: s78
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Monitoring: In Service of the Models'
+  level: 3
+  words: 350
+- sid: s79
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Modeling: Multi-Scale, Partnered, Honest About the Hard Problem'
+  level: 3
+  words: 293
+- sid: s80
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Platform: Prototype, Not a Full Program'
+  level: 3
+  words: 146
+- sid: s81
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Rapid Response: Just the Scoping Phase'
+  level: 3
+  words: 168
+- sid: s82
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Readiness: We''re Already Doing This'
+  level: 3
+  words: 87
+- sid: s83
+  path: Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Positioning with the Air District
+  level: 3
+  words: 405
+- sid: s84
+  path: Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Why Emergency Response Is the Easier Sell
+  level: 3
+  words: 285
+- sid: s85
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Passive Samplers: We''ve Done This Before'
+  level: 3
+  words: 260
+- sid: s86
+  path: 'Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project > Budget: Tight and Refined Beats Asking for the Max'
+  level: 3
+  words: 180
+- sid: s87
+  path: Draft Proposal Copy by Narrative Section
+  level: 1
+  words: 50
+- sid: s88
+  path: 'Draft Proposal Copy by Narrative Section > Q1 — Project Summary: Innovation and Differentiation (draft addition)'
+  level: 2
+  words: 320
+- sid: s89
+  path: 'Draft Proposal Copy by Narrative Section > Q2 — Strategy Alignment: Multi-Pollutant Gradient and Regulatory Partnership (draft addition)'
+  level: 2
+  words: 198
+- sid: s90
+  path: Draft Proposal Copy by Narrative Section > Q10 — Ecosystem Alignment (full draft — question is currently blank)
+  level: 2
+  words: 635
+- sid: s91
+  path: Draft Proposal Copy by Narrative Section > Q11/Q12 — Capacity and Readiness (draft)
+  level: 2
+  words: 265
+- sid: s92
+  path: Draft Proposal Copy by Narrative Section > Q17 — Barriers and Risk Mitigation (draft)
+  level: 2
+  words: 373
+- sid: s93
+  path: Monitoring Plan
+  level: 1
+  words: 2789
+- sid: s94
+  path: Modeling Plan
+  level: 1
+  words: 0
+- sid: s95
+  path: Modeling Plan > CFD Modeling Overview
+  level: 3
+  words: 76
+- sid: s96
+  path: Modeling Plan > CFD Modeling Overview > Multi-scale Modeling
+  level: 4
+  words: 356
+- sid: s97
+  path: Modeling Plan > CFD Modeling Overview > Multi-scale Modeling > Pollution Modeling and Sources
+  level: 4
+  words: 446
+- sid: s98
+  path: Modeling Plan > CFD Modeling Overview > Study Area
+  level: 3
+  words: 317
+- sid: s99
+  path: Modeling Plan > CFD Modeling Overview > Study Area > Modeling Approach
+  level: 4
+  words: 493
+- sid: s100
+  path: Modeling Plan > CFD Modeling Overview > Study Area > Simulation Domains and Modeling Cascade
+  level: 4
+  words: 357
+- sid: s101
+  path: Modeling Plan > CFD Modeling Overview > Study Area > Preliminary Wind Data Analysis
+  level: 4
+  words: 285
+- sid: s102
+  path: Modeling Plan > CFD Modeling Overview > Study Area > Prior Modeling Efforts
+  level: 4
+  words: 378
+- sid: s103
+  path: Modeling Plan > CFD Modeling Overview > Proposed Modeling Framework
+  level: 3
+  words: 1164
+- sid: s104
+  path: Modeling Plan > CFD Modeling Overview > Proposed Modeling Framework > Quantitative Assessment
+  level: 4
+  words: 248
+- sid: s105
+  path: Modeling Plan > CFD Modeling Overview > Preliminary Modeling
+  level: 3
+  words: 600
+- sid: s106
+  path: Budget and Equipment
+  level: 1
+  words: 583
+- sid: s107
+  path: Budget and Equipment > ARCHIVED BUDGETS
+  level: 2
+  words: 230
+- sid: s108
+  path: Outreach Docs
+  level: 1
+  words: 0
+- sid: s109
+  path: Outreach Docs
+  level: 1
+  words: 445
+- sid: s110
+  path: TAC Email Drafts
+  level: 1
+  words: 8
+- sid: s111
+  path: TAC Email Drafts > Potential TAC Members (email links)
+  level: 2
+  words: 751
+- sid: s112
+  path: Research
+  level: 1
+  words: 0
+- sid: s113
+  path: \[image\]
+  level: 1
+  words: 0
+- sid: s114
+  path: Carquinez Strait Air Coalition
+  level: 1
+  words: 0
+- sid: s115
+  path: Links
+  level: 1
+  words: 18
+- sid: s116
+  path: Preliminary Gameplan
+  level: 1
+  words: 605
+- sid: s117
+  path: Monitoring Equipment
+  level: 1
+  words: 9
+- sid: s118
+  path: Monitoring Equipment
+  level: 1
+  words: 0
+- sid: s119
+  path: Monitoring Equipment > Research
+  level: 2
+  words: 68
+- sid: s120
+  path: Overview
+  level: 1
+  words: 10
+- sid: s121
+  path: Overview > Drones
+  level: 2
+  words: 6
+- sid: s122
+  path: Alternatives to DJI
+  level: 1
+  words: 72
+- sid: s123
+  path: Air
+  level: 1
+  words: 0
+- sid: s124
+  path: Air > Drone AQ Sensors
+  level: 2
+  words: 402
+- sid: s125
+  path: Air > Metals in Air
+  level: 2
+  words: 1
+- sid: s126
+  path: Air > Low Cost Sensors
+  level: 2
+  words: 0
+- sid: s127
+  path: Soil
+  level: 1
+  words: 0
+- sid: s128
+  path: Soil > XRF
+  level: 3
+  words: 36
+- sid: s129
+  path: Soil > XRF > Lead Soil test strips
+  level: 3
+  words: 4
+- sid: s130
+  path: Soil > XRF > Lead in Urine
+  level: 3
+  words: 9
+- sid: s131
+  path: Soil > XRF > Lead in Blood
+  level: 3
+  words: 53
+- sid: s132
+  path: Soil > XRF > Papers
+  level: 3
+  words: 145
+- sid: s133
+  path: Heat/ Sun Exposure
+  level: 1
+  words: 0
+- sid: s134
+  path: Heat/ Sun Exposure > Heat
+  level: 3
+  words: 11
+- sid: s135
+  path: Heat/ Sun Exposure > Heat > UV Exposure
+  level: 3
+  words: 0
+- sid: s136
+  path: Heat/ Sun Exposure > Heat > UV Exposure > General Research
+  level: 4
+  words: 1
+- sid: s137
+  path: Heat/ Sun Exposure > Heat > UV Exposure > General Research
+  level: 4
+  words: 78
+- sid: s138
+  path: Heat/ Sun Exposure > Heat > UV Exposure > Spectral Cameras
+  level: 4
+  words: 88
+- sid: s139
+  path: Heat/ Sun Exposure > Heat > UV Exposure > 360 Cameras
+  level: 4
+  words: 2
+- sid: s140
+  path: Heat/ Sun Exposure > Heat > UV Exposure > Fixed Sensors
+  level: 4
+  words: 255
+- sid: s141
+  path: Heat/ Sun Exposure > Heat > UV Exposure > Wearable/Mobile Technology
+  level: 4
+  words: 59
+- sid: s142
+  path: Heat/ Sun Exposure > Heat > UV Exposure > Radiometer
+  level: 4
+  words: 106
+- sid: s143
+  path: Heat/ Sun Exposure > Heat > UV Exposure > Boards
+  level: 4
+  words: 55
+- sid: s144
+  path: Heat/ Sun Exposure > Heat > EO Measurement
+  level: 3
+  words: 113
+- sid: s145
+  path: Heat/ Sun Exposure > Heat > UV measurement
+  level: 3
+  words: 65
+- sid: s146
+  path: Heat/ Sun Exposure > Heat > UV measurement > Standards
+  level: 4
+  words: 46
+- sid: s147
+  path: Heat/ Sun Exposure > Heat > UV Health
+  level: 3
+  words: 0
+- sid: s148
+  path: Heat/ Sun Exposure > Heat > UV Health > UV Index
+  level: 4
+  words: 20
+- sid: s149
+  path: Heat/ Sun Exposure > Heat > UV Health > Uv cáncer
+  level: 4
+  words: 173
+- sid: s150
+  path: Heat/ Sun Exposure > Heat > Visual Exposure
+  level: 3
+  words: 0
+- sid: s151
+  path: Heat/ Sun Exposure > Heat > Visual Exposure > Color and relation to Perception of heat
+  level: 4
+  words: 668
+- sid: s152
+  path: Heat/ Sun Exposure > Heat > VR and physical activity
+  level: 3
+  words: 252
+- sid: s153
+  path: Website
+  level: 1
+  words: 70
+- sid: s154
+  path: Website > Roadmap
+  level: 2
+  words: 28
+- sid: s155
+  path: Website > Links
+  level: 2
+  words: 360
+- sid: s156
+  path: Living Walls
+  level: 1
+  words: 340
+- sid: s157
+  path: General unsorted links
+  level: 1
+  words: 123
+- sid: s158
+  path: Existing Air Monitoring Apps
+  level: 1
+  words: 12
+- sid: s159
+  path: Past Grant Proposals
+  level: 1
+  words: 0
+- sid: s160
+  path: CARB5 Rodeo
+  level: 1
+  words: 0
+- sid: s161
+  path: CARB5 Rodeo
+  level: 1
+  words: 5
+- sid: s162
+  path: 'CARB5 Rodeo > Project Title: Carquinez Strait Air Coalition'
+  level: 2
+  words: 0
+- sid: s163
+  path: 'CARB5 Rodeo > Applicant & Partners: Rodeo Citizens Association, Contra Costa Resource Conservation District, Hyphae Design Laboratory'
+  level: 2
+  words: 0
+- sid: s164
+  path: CARB5 Rodeo > Project Summary
+  level: 2
+  words: 370
+- sid: s165
+  path: EPA AirSense
+  level: 1
+  words: 0
+- sid: s166
+  path: Bay RepAir Outreach Request Letter
+  level: 1
+  words: 1146
+- sid: s167
+  path: Tab 25
+  level: 1
+  words: 0
+section_count: 167
+profiled: '2026-09-25'
+profiler: p2

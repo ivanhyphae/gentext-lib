@@ -1,0 +1,49 @@
+asset_id: repair-benicia-project-narrative-2026
+source_path: sources/repair-benicia-project-narrative-2026/repair-benicia-project-narrative-2026.md
+source_sha256: f67582467f1c3b51a6b06dc2602908fc9a218d9399bec03eb758f49c27cda237
+text_sha256: 6432e73245656f2da71484d104adc68dbed1a5e3957365b4347921ec0529dd76
+words: 5313
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 513
+section_count: 9
+profiled: '2026-09-25'
+profiler: p2

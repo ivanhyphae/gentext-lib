@@ -1,0 +1,86 @@
+asset_id: ebd-approaches-deck
+card:
+  summary: 'Presentation deck on Hyphae Design Lab''s evidence-based design framework: modeling, measurement, and design capabilities.
+    Covers ADAPT-OS (remote sensing, intervention design, EBD rubrics, digital twins, sensor monitoring); case studies from
+    Dallas Medical District (Harry Hines Blvd, 27-sensor LoRaWAN network, UTCI/thermal comfort modeling) and West Oakland
+    (OpenFOAM CFD vs. ENVI-met comparison, air quality, tree scenario analysis); software comparison (ENVI-met, OpenFOAM,
+    UMEP); and iterative design optimization. 3,419 words across 5 sections (agenda, Dallas case, modeling methods, Groundwork
+    USA notes, scenario analysis).'
+  doc_role: presentation
+  authorship: Hyphae Design Lab (Daniel Fleischer, Ivan Heitmann, Juan Penaloza Gutierrez, Brent Bucknum)
+  disposition: hold
+  disposition_reason: Current firm capability and method narrative with citable modeling/measurement approach (ADAPT-OS framework,
+    sensor network deployment, CFD workflow, UTCI analysis). Reusable as capability prose and technical method reference for
+    heat/air-quality modeling in proposals. Contains real project outcomes (Dallas, Oakland, Prescott) with measurable thermal
+    comfort results.
+  serves_needs:
+  - need_id: lib-methods
+    how: ADAPT-OS framework (Model-Modify-Measure cycle); LoRaWAN sensor deployment protocol (27 sensors, Harry Hines); OpenFOAM
+      CFD workflow for microclimate modeling; UTCI-based thermal comfort evaluation; scenario-comparison methodology for design
+      iteration
+  - need_id: lib-firm-experience
+    how: 'Dallas Medical District case: 4,000 trees, 1.75-mile spine, Harry Hines corridor sensor network (May 2023); thermal
+      comfort improvements quantified (15°F UTCI difference in mature grove scenario); West Oakland digital twin and black
+      carbon measurements'
+  sections:
+  - sid: s1
+    path: Evidence-based design approaches / ADAPT Framework
+    type: capability
+    reuse_value: high
+    note: 'Core firm capability narrative: Model-Modify-Measure cycle; digital twin + sensor validation approach; CFD + remote
+      sensing integration for EBD optimization'
+  - sid: s2
+    path: Imagine a Green, Inclusive, Safe, Accessible, and Healthy District / Measure & Monitoring (Dallas case)
+    type: project-case
+    reuse_value: high
+    note: 'Dallas Medical District: 4,000 trees, 27-sensor LoRaWAN network, UTCI monitoring protocol; sensor spec (black globe,
+      UTCI inputs); radio hub coverage (Parkland Hospital); measurable outcomes setup'
+  - sid: s3
+    path: Modeling Radiant Temperature @ Microclimate Scale / OpenFOAM-based simulation & tools comparison
+    type: method
+    reuse_value: high
+    note: Technical comparison of ENVI-met vs. OpenFOAM vs. UMEP (accuracy, mesh, validation, licensing, learning curve);
+      West Oakland digital twin methodology; CFD workflow for complex geometries and turbulence modeling
+  - sid: s5
+    path: More sample analyses / Comparing 4 planting scenarios during early design exploration
+    type: project-case
+    reuse_value: medium
+    note: 'Parkland Hospital design scenario testing: 4 tree configurations (EC, KH, H, G); UTCI thermal comfort outcomes
+      (−15°F to +13°F range); tree size criticality finding; measurable design trade-offs'
+  fact_candidates:
+  - 's2: 27 sensors placed along Harry Hines corridor as of May 1st 2023'
+  - 's2: Harry Hines sensor span from Butler Street to Medical District Drive'
+  - 's2: One radio hub installed on highest roof of Parkland Hospital'
+  - 's2: LoRaWAN sensor kit includes solar panel, battery, wind/temperature/humidity/radiant/light sensors for UTCI calculation'
+  - 's1: hyphae staff: Daniel Fleischer (research lead), Ivan Heitmann (sensor network engineer), Juan Penaloza Gutierrez
+    (modeling), Brent Bucknum (CFD specialist)'
+  - 's5: Dallas Medical District proposal: 4,000 new trees, 1.75-mile spine (Butler Street to Inwood Road)'
+  - 's5: Mature grove on grid scenario achieved 15°F UTCI improvement over existing conditions'
+  - 's5: Removing large, mature trees from median reduced thermal comfort primarily in roadway'
+  - 's5: Small trees provide thermal benefit only in small area immediately around planting sites'
+  - 's3: OpenFOAM uses structured/unstructured meshes; ENVI-met uses simplified block-based geometry; UMEP uses raster-based
+    inputs'
+  - 's3: OpenFOAM extensively validated in peer-reviewed academic literature; ENVI-met validated for urban microclimate and
+    thermal comfort'
+  - 's3: West Oakland case includes EDF/Aclima black carbon measurements and Caltrans frontage road diet analysis'
+  flags:
+  - 'Deck format: visuals and layout not fully captured in text export; some technical diagrams (digital twin, thermal maps,
+    wind vectors) cannot be evaluated from text alone'
+  - s4 contains editor/internal comments (Brent's feedback on slide ordering and content emphasis—not final prose)
+  - Groundwork USA section [s4] is incomplete notes, not polished narrative
+  - Dallas case (s2, s5) is strong; West Oakland case (s3) shows CFD capability but excerpt focuses on software comparison
+    rather than project outcomes
+  - excerpt thin on West Oakland completion date, deliverables, or monitoring results—appears to be exploratory/in-progress
+  - No evidence of harm-reduction framing or environmental justice narrative in excerpts despite inventory note's 'EJ mission'
+    claim
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: aa254e14dea930df1ed6b2df40308b0826ac4d76ed3803ed0358fbea19a18e36
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4682
+    output: 1398
+    cache_read: 0
+    cache_write: 0

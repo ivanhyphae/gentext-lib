@@ -1,0 +1,546 @@
+asset_id: prescott-modeling-simulations-report
+source_path: sources/prescott-modeling-simulations-report/prescott-modeling-simulations-report.md
+source_sha256: 1c3b45cab130c12ed78d5485c017de9401c4f31ae1f4df29cd2d22ab24578136
+text_sha256: ba1baf65b5766fe30c451b70a7f541c5ba853316e86722290958f94ccedeaec5
+words: 14059
+pii:
+  emails: 21
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Prescott Modeling and Simulations Report
+  level: 1
+  words: 0
+- sid: s2
+  path: Prescott
+  level: 1
+  words: 0
+- sid: s3
+  path: Prescott > Modeling & Simulations Report
+  level: 2
+  words: 8
+- sid: s4
+  path: Overview
+  level: 1
+  words: 71
+- sid: s5
+  path: Overview > Proposed Deadlines
+  level: 2
+  words: 62
+- sid: s6
+  path: Overview > Tasks
+  level: 2
+  words: 0
+- sid: s7
+  path: Overview > Tasks > Topics
+  level: 3
+  words: 7
+- sid: s8
+  path: \[image\]\[image\]
+  level: 1
+  words: 0
+- sid: s9
+  path: \[image\]\[image\] > List of Tasks
+  level: 3
+  words: 5
+- sid: s10
+  path: Simulation Methodology
+  level: 1
+  words: 0
+- sid: s11
+  path: Simulation Methodology > Precedents
+  level: 2
+  words: 0
+- sid: s12
+  path: Simulation Methodology > Precedents > Links
+  level: 3
+  words: 0
+- sid: s13
+  path: Simulation Methodology > Precedents > Links > Slides
+  level: 4
+  words: 1
+- sid: s14
+  path: Simulation Methodology > Precedents > Links > Other reports
+  level: 4
+  words: 21
+- sid: s15
+  path: Simulation Methodology > Precedents > Links > Supporting tables
+  level: 4
+  words: 7
+- sid: s16
+  path: Simulation Methodology > Precedents > Links > Maps and diagrams
+  level: 4
+  words: 23
+- sid: s17
+  path: Simulation Methodology > Precedents > Publications
+  level: 3
+  words: 2
+- sid: s18
+  path: Simulation Methodology > Precedents > Projects
+  level: 3
+  words: 14
+- sid: s19
+  path: Simulation Methodology > Subject
+  level: 2
+  words: 0
+- sid: s20
+  path: Simulation Methodology > Subject > Essential subject matter
+  level: 5
+  words: 0
+- sid: s21
+  path: Simulation Methodology > Subject > Essential subject matter > Table of Simulations
+  level: 6
+  words: 357
+- sid: s22
+  path: Simulation Methodology > Subject > Essential subject matter > Table of Simulations > Additional subjects for consideration
+  level: 5
+  words: 1
+- sid: s23
+  path: Simulation Methodology > Rationale
+  level: 2
+  words: 0
+- sid: s24
+  path: Simulation Methodology > Rationale > Core objectives
+  level: 5
+  words: 1
+- sid: s25
+  path: Simulation Methodology > Rationale > Core objectives > Mitigating factors
+  level: 5
+  words: 1
+- sid: s26
+  path: Simulation Methodology > Protocol
+  level: 2
+  words: 0
+- sid: s27
+  path: Simulation Methodology > Protocol > Tools
+  level: 3
+  words: 2
+- sid: s28
+  path: Simulation Methodology > Protocol > Tools > Limitations
+  level: 4
+  words: 0
+- sid: s29
+  path: Simulation Methodology > Protocol > Tools > Limitations > Steady-state simulation
+  level: 5
+  words: 33
+- sid: s30
+  path: Simulation Methodology > Protocol > Domain generation
+  level: 3
+  words: 0
+- sid: s31
+  path: Simulation Methodology > Protocol > Domain generation > Building volumes
+  level: 4
+  words: 81
+- sid: s32
+  path: Simulation Methodology > Protocol > Domain generation > Terrain
+  level: 4
+  words: 242
+- sid: s33
+  path: Simulation Methodology > Protocol > Domain generation > Vegetation and Canopy
+  level: 4
+  words: 378
+- sid: s34
+  path: Simulation Methodology > Protocol > Domain generation > Coordinate System
+  level: 4
+  words: 72
+- sid: s35
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT)
+  level: 3
+  words: 0
+- sid: s36
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Introduction
+  level: 4
+  words: 140
+- sid: s37
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Comparison of familiar approaches
+  level: 4
+  words: 281
+- sid: s38
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Coordination with AQMD
+  level: 4
+  words: 916
+- sid: s39
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure
+  level: 4
+  words: 0
+- sid: s40
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > Summary and Open Questions
+  level: 5
+  words: 294
+- sid: s41
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > Summary and Open Questions > Selection of
+    traffic data sources
+  level: 6
+  words: 41
+- sid: s42
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+  level: 5
+  words: 0
+- sid: s43
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+    > Vehicle Classification
+  level: 6
+  words: 146
+- sid: s44
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+    > Zone Activity Analysis
+  level: 6
+  words: 449
+- sid: s45
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+    > Roadway Attributes
+  level: 6
+  words: 71
+- sid: s46
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+    > Origin-Desination Analysis
+  level: 6
+  words: 144
+- sid: s47
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 1\. Obtain Traffic Data from StreetLight
+    > Include Different StreetLight Scenarios for other maps (not simulation inputs)
+  level: 6
+  words: 31
+- sid: s48
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+  level: 5
+  words: 33
+- sid: s49
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+    > Access the EMFAC Inventory
+  level: 6
+  words: 65
+- sid: s50
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+    > Define the Scope of the Analysis
+  level: 6
+  words: 103
+- sid: s51
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+    > Select Matching Vehicle Categories
+  level: 6
+  words: 345
+- sid: s52
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+    > Apply EMFAC Emission Factors
+  level: 6
+  words: 85
+- sid: s53
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 2\. Calculate Emission Rates Using EMFAC
+    > Weighting Emission Factors
+  level: 6
+  words: 40
+- sid: s54
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 3\. Convert Traffic Data into VIT and Emission
+    Inputs for CFD
+  level: 5
+  words: 142
+- sid: s55
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 4\. Set Up Roadway Emission Zones in the
+    CFD Model
+  level: 5
+  words: 64
+- sid: s56
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > Traffic Parameter Preparation Procedure > 5\. Scenario Analysis and Sensitivity Studies
+  level: 5
+  words: 64
+- sid: s57
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > StreetLight Traffic Data Overview
+  level: 4
+  words: 307
+- sid: s58
+  path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) > EMFAC Emissions Model Overview
+  level: 4
+  words: 333
+- sid: s59
+  path: Simulation Methodology > Protocol > Field procedure
+  level: 3
+  words: 1
+- sid: s60
+  path: Simulation Methodology > Protocol > Data
+  level: 3
+  words: 0
+- sid: s61
+  path: Simulation Methodology > Protocol > Data > Data types and schema
+  level: 5
+  words: 1
+- sid: s62
+  path: Simulation Methodology > Protocol > Data > Data types and schema > Data limitations
+  level: 5
+  words: 1
+- sid: s63
+  path: Simulation Methodology > Analysis
+  level: 2
+  words: 0
+- sid: s64
+  path: Simulation Methodology > Analysis > Preparation
+  level: 5
+  words: 1
+- sid: s65
+  path: Simulation Methodology > Analysis > Preparation > Calculations
+  level: 5
+  words: 1
+- sid: s66
+  path: Simulation Methodology > Recommendations
+  level: 2
+  words: 0
+- sid: s67
+  path: Simulation Methodology > Summary
+  level: 2
+  words: 1
+- sid: s68
+  path: Simulation Methodology > Summary > References
+  level: 3
+  words: 35
+- sid: s69
+  path: Hand-outs (short reports)
+  level: 1
+  words: 0
+- sid: s70
+  path: Hand-outs (short reports)
+  level: 1
+  words: 7
+- sid: s71
+  path: Pollutant sources
+  level: 1
+  words: 0
+- sid: s72
+  path: \[image\]Pollutant sources
+  level: 1
+  words: 3
+- sid: s73
+  path: \[image\]Pollutant sources > Where does the particulate matter in the air in our community come from?
+  level: 2
+  words: 41
+- sid: s74
+  path: Urban Built Environment Simulations
+  level: 1
+  words: 0
+- sid: s75
+  path: Urban Built Environment Simulations
+  level: 1
+  words: 551
+- sid: s76
+  path: Log
+  level: 1
+  words: 0
+- sid: s77
+  path: Log
+  level: 1
+  words: 0
+- sid: s78
+  path: Log > January
+  level: 2
+  words: 0
+- sid: s79
+  path: Log > 2025-01-30 | DF IH JPG modeling modules
+  level: 2
+  words: 96
+- sid: s80
+  path: Log > December
+  level: 2
+  words: 0
+- sid: s81
+  path: Log > December > 2024-12-10 IH MV check in
+  level: 3
+  words: 338
+- sid: s82
+  path: Log > December > 2024-12-05 Presentation of Results to WOEIP
+  level: 3
+  words: 493
+- sid: s83
+  path: Log > December > 2024-12-03 Internal Presentation of Results
+  level: 3
+  words: 1990
+- sid: s84
+  path: Log > November
+  level: 2
+  words: 0
+- sid: s85
+  path: Log > November > 2024-11-27 MV IH check in
+  level: 3
+  words: 347
+- sid: s86
+  path: Log > 2024-11-19 | IH:JG check-in
+  level: 2
+  words: 142
+- sid: s87
+  path: Log > 2024-11-19 | IH:JG check-in > 2024-11-08 | Prescott status update
+  level: 3
+  words: 105
+- sid: s88
+  path: Log > 2024-11-19 | IH:JG check-in > 2024-11-06 | IH/MV 1:1
+  level: 3
+  words: 186
+- sid: s89
+  path: Log > October
+  level: 2
+  words: 0
+- sid: s90
+  path: Log > October > 2024-10-11 | Streetlight data observations
+  level: 3
+  words: 215
+- sid: s91
+  path: Log > October > 2024-10-07 | IH/MV 1:1
+  level: 3
+  words: 356
+- sid: s92
+  path: Log > October > 2024-10-04 | chart brainstorming sharing session
+  level: 3
+  words: 337
+- sid: s93
+  path: Log > October > 2024-10-04 | chart brainstorming sharing session > 2024-10-01
+  level: 5
+  words: 0
+- sid: s94
+  path: Log > October > 2024-10-04 | chart brainstorming sharing session > 2024-10-01 > Problems with mesh and lots of buildings close together
+  level: 6
+  words: 41
+- sid: s95
+  path: Log > October > 2024-10-04 | chart brainstorming sharing session > 2024-10-01 > Problems with mesh and lots of buildings close together > Charts
+  level: 6
+  words: 16
+- sid: s96
+  path: Log > September
+  level: 2
+  words: 0
+- sid: s97
+  path: Log > September > 2024-09-25
+  level: 3
+  words: 835
+- sid: s98
+  path: Log > September > 2024-09-20 MV BB check in
+  level: 3
+  words: 100
+- sid: s99
+  path: Log > September > 2024-09-20 meeting with Brent, Juan, Ivan
+  level: 3
+  words: 71
+- sid: s100
+  path: Log > September > 2024-09-20 meeting with Brent, Juan, Ivan > Actions
+  level: 6
+  words: 40
+- sid: s101
+  path: Log > September > 2024-09-18
+  level: 3
+  words: 282
+- sid: s102
+  path: Log > September > 2024-09-18 > Allocations / budget
+  level: 6
+  words: 0
+- sid: s103
+  path: Log > September > 2024-09-18 > Allocations / budget > Actions
+  level: 6
+  words: 28
+- sid: s104
+  path: Log > September > Beginning of september → 9.11.24
+  level: 3
+  words: 425
+- sid: s105
+  path: Log > September > Beginning of september → 9.11.24 > Actions
+  level: 6
+  words: 94
+- sid: s106
+  path: Log > August
+  level: 2
+  words: 15
+- sid: s107
+  path: Log > August > Simulation Plan
+  level: 5
+  words: 99
+- sid: s108
+  path: Log > August > Simulation Plan > Truck inventories
+  level: 5
+  words: 109
+- sid: s109
+  path: Log > July
+  level: 2
+  words: 11
+- sid: s110
+  path: Log > June
+  level: 2
+  words: 12
+- sid: s111
+  path: Log > May
+  level: 2
+  words: 21
+- sid: s112
+  path: Log > April
+  level: 2
+  words: 36
+- sid: s113
+  path: Log > March
+  level: 2
+  words: 154
+- sid: s114
+  path: Log > February
+  level: 2
+  words: 81
+- sid: s115
+  path: Log > January
+  level: 2
+  words: 82
+- sid: s116
+  path: '[Doc Template]'
+  level: 1
+  words: 0
+- sid: s117
+  path: How to use this template
+  level: 1
+  words: 0
+- sid: s118
+  path: Title
+  level: 1
+  words: 0
+- sid: s119
+  path: Title > Subtitle
+  level: 2
+  words: 0
+- sid: s120
+  path: Heading 1
+  level: 1
+  words: 0
+- sid: s121
+  path: Heading 1 > Heading 2
+  level: 2
+  words: 0
+- sid: s122
+  path: Heading 1 > Heading 2 > Heading 3
+  level: 3
+  words: 0
+- sid: s123
+  path: Heading 1 > Heading 2 > Heading 3 > Heading 4
+  level: 4
+  words: 0
+- sid: s124
+  path: Heading 1 > Heading 2 > Heading 3 > Heading 4 > Heading 5
+  level: 5
+  words: 0
+- sid: s125
+  path: Heading 1 > Heading 2 > Heading 3 > Heading 4 > Heading 5 > Heading 6
+  level: 6
+  words: 0
+- sid: s126
+  path: Heading 1 > Heading 2 > Section Heading
+  level: 3
+  words: 0
+- sid: s127
+  path: Heading 1 > Heading 2 > Section Heading > Topic description 1
+  level: 4
+  words: 42
+- sid: s128
+  path: Heading 1 > Heading 2 > Section Heading > Topic description 2
+  level: 4
+  words: 73
+- sid: s129
+  path: Heading 1 > Heading 2 > Section Heading > Topic description 2 > Sub-topic 1
+  level: 5
+  words: 88
+- sid: s130
+  path: Heading 1 > Heading 2 > Tables
+  level: 3
+  words: 70
+section_count: 130
+profiled: '2026-09-25'
+profiler: p2

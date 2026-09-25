@@ -1,93 +1,119 @@
 asset_id: ehcrp-r2-calendar
 source_path: sources/ehcrp-r2-calendar/EHCRP_R2_Calendar_of_Events.docx
 source_sha256: 9e79d1ad0c0805dc3fe5188a19e604a41e9ced21b09b01e081b133ad1e183e36
-text_sha256: 702a1d4b1d34f9db4f89e0c5edc2ff7fc6422d74282bbfb90b00d02bd4ecb7f2
-words: 2047
+text_sha256: 92b8f7c16dae08643dd3b7bba2e4c1d0cf505197de52748a80110335a728b1ec
+words: 1882
 pii:
   emails: 0
   phones: 0
 near_duplicates: []
 sections:
-- path: (preamble)
+- sid: s1
+  path: (preamble)
   level: 0
-  words: 284
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-  level: 3
+  words: 287
+- sid: s2
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation
+  level: 4
   words: 61
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u>
-  level: 3
+- sid: s3
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation
+  level: 4
   words: 67
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Tuesday,
-    June 23rd (9 - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Austin Special Presentation</u>
-  level: 3
+- sid: s4
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation
+  level: 4
   words: 56
-- path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Thursday,
-    June 25th (10AM - 11 AM PST) - Round 2 Guidelines: Everything You Need to Know (Session 1) <u>Extreme Heat Round 2 Kickoff Webinar</u>'
-  level: 3
-  words: 50
-- path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Tuesday,
-    June 30th (2 - 3 PM) - Round 2 Guidelines: Everything You Need to Know (Session 2)'
-  level: 3
+- sid: s5
+  path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Thursday, June 25th (10AM - 11 AM
+    PST) - Round 2 Guidelines: Everything You Need to Know (Session 1) Extreme Heat Round 2 Kickoff Webinar'
+  level: 4
+  words: 49
+- sid: s6
+  path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Tuesday, June 30th (2 - 3 PM) -
+    Round 2 Guidelines: Everything You Need to Know (Session 2)'
+  level: 4
   words: 8
-- path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > - <u>EHCRP
-    Round 2 Guidelines: Everything You Need To Know</u>'
-  level: 3
+- sid: s7
+  path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > - EHCRP Round 2 Guidelines: Everything
+    You Need To Know'
+  level: 4
   words: 42
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Wednesday,
-    July 1st (10 - 11 AM) - Round 2 Office Hours
-  level: 3
+- sid: s8
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Wednesday, July 1st (10 - 11 AM)
+    - Round 2 Office Hours
+  level: 4
   words: 0
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > - <u>Round
-    2 Office Hours Registration</u>
-  level: 3
+- sid: s9
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > - Round 2 Office Hours Registration
+  level: 4
   words: 20
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Tuesday,
-    July 7th (10 - 11 AM) - Round 2 Office Hours
-  level: 3
+- sid: s10
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Tuesday, July 7th (10 - 11 AM) -
+    Round 2 Office Hours
+  level: 4
   words: 0
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > - <u>Round
-    2 Office Hours Registration</u>
-  level: 3
+- sid: s11
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > - Round 2 Office Hours Registration
+  level: 4
   words: 20
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Thursday,
-    July 9th (3 - 4 PM) - Round 2 Office Hours
-  level: 3
+- sid: s12
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Thursday, July 9th (3 - 4 PM) -
+    Round 2 Office Hours
+  level: 4
   words: 0
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > - <u>Round
-    2 Office Hours Registration</u>
-  level: 3
+- sid: s13
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > - Round 2 Office Hours Registration
+  level: 4
   words: 20
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Monday,
-    July 13th (9 - 10 AM) - Round 2 Office Hours
-  level: 3
+- sid: s14
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Monday, July 13th (9 - 10 AM) -
+    Round 2 Office Hours
+  level: 4
   words: 0
-- path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > - <u>Round
-    2 Office Hours Registration</u>
-  level: 3
+- sid: s15
+  path: Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > - Round 2 Office Hours Registration
+  level: 4
   words: 20
-- path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Tuesday,
-    July 28th (9 - 10 AM) - City of Tempe, Arizona Presentation (Round 2 Project Examples) <u>Extreme Heat Special Presentation: City of Tempe Registration Link</u>'
-  level: 3
+- sid: s16
+  path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Tuesday, July 28th (9 - 10 AM) -
+    City of Tempe, Arizona Presentation (Round 2 Project Examples) Extreme Heat Special Presentation: City of Tempe Registration Link'
+  level: 4
   words: 36
-- path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - City of Tucson Special Presentation</u>
-    > Monday, June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - <u>EHCRP - Salt Lake City Special Presentation</u> > Thursday,
-    July 30th (1 - 2 PM) - City of Phoenix, Arizona Presentation (Round 2 Project Examples) <u>Extreme Heat Special Presentation: City of Phoenix Registration Link</u>'
-  level: 3
-  words: 1074
+- sid: s17
+  path: 'Wednesday, June 17th (1 - 2 PM PST) - City of Tucson, Arizona Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Tucson Special Presentation > Monday,
+    June 22nd (1 - 2 PM PST) - Salt Lake City, Utah Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - Salt Lake City Special Presentation > Tuesday, June 23rd (9
+    - 10 AM PST) - City of Austin, Texas Presentation and Introductory Presentation on Round 2 (Round 2 Project Examples) - EHCRP - City of Austin Special Presentation > Thursday, July 30th (1 - 2 PM) -
+    City of Phoenix, Arizona Presentation (Round 2 Project Examples) Extreme Heat Special Presentation: City of Phoenix Registration Link'
+  level: 4
+  words: 907
 section_count: 17
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

@@ -1,133 +1,154 @@
 asset_id: fresno-extreme-heat-analysis-doc
 card:
-  summary: This is a 63,841-word submitted proposal for the Fresno County Extreme Heat Analysis Planning Grant from Fresno
-    COG. The proposal is a collaborative effort led by Hyphae Design Lab with partners Urban Diversity Design, Binational
-    of California, and Tree Fresno. It outlines a comprehensive nine-task plan to assess extreme heat vulnerability across
-    Fresno County, engage communities, develop tree-canopy and shade projects, and deliver a prioritized implementation plan
-    with five detailed project profiles in the most vulnerable areas. The document includes technical approaches using high-resolution
-    UTCI modeling, community engagement strategies, and cost estimates for shade interventions. The proposal demonstrates
-    Hyphae's capability in data-driven climate adaptation work integrated with robust community partnerships.
-  doc_role: submitted-proposal
-  authorship: Hyphae Design Lab (lead); Urban Diversity Design (UDD/Sheila Hakimipour); Binational of California (BOCC/Ricardo
-    Castorena, Rico Peralta); Tree Fresno (Mona Cummings)
+  summary: 'Fresno County Extreme Heat Analysis proposal working doc (63,841 words, 236 sections). Submitted/near-final version
+    of a Fresno COG planning grant for extreme heat vulnerability assessment, community engagement, pedestrian/bike analysis,
+    tree canopy projects, and five pilot project profiles. Lead: Hyphae Design Lab; partners: Urban Diversity Design, Binational
+    of Central California, Tree Fresno. Contains full proposal text (transmittal, overview, detailed work plan for 9 tasks,
+    management approach, budget, qualifications, attachments), coordination notes, meeting minutes, partner development, and
+    scrap/template material. Estimated 64 days over 100°F in 2024 Fresno County; projections show extreme heat days rising
+    from 5 to 66 annually by century''s end. Deliverables include heat vulnerability maps, community profiles, project identification,
+    and final plan with board acceptance.'
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab (lead), with sections by Urban Diversity Design (Sheila Hakimipour), Binational of Central
+    California (Ricardo Castorena, Rico Peralta), Tree Fresno (Mona Cummings); working doc by Maxwell Pingeon, Ivan Heitmann,
+    Brent Bucknum, Daniel Fleischer.
   disposition: hold
-  disposition_reason: Submitted proposal with detailed methodology, partner roles, and community engagement strategies directly
-    applicable to EHCRP and future extreme heat projects. Contains reusable prose on heat vulnerability assessment, high-resolution
-    modeling, community engagement frameworks, and tree-canopy project development. Demonstrates Hyphae's firm experience
-    and technical capabilities in heat-resilience planning.
+  disposition_reason: Submitted or near-final proposal with reusable Hyphae firm experience section, detailed heat vulnerability
+    methodology (UTCI modeling, GIS-based assessment, hyperlocal resolution), community engagement strategy, and partnership
+    models; also contains citable facts about Fresno climate, vulnerable populations, and project outcomes. Suitable for extracting
+    firm capability statements, methodology descriptions, and site context for Bay Point EHCRP applications.
   serves_needs:
   - need_id: lib-firm-experience
-    how: Prescott Greening Project case study (2021–2024, AB 617 & TCC funding, $1.15M total) with outcomes in air quality,
-      vegetation, phased implementation
+    how: Section s88 documents Hyphae's Prescott Greening project (AB 617, TCC funding, $150k–$1.05M total) with air quality/tree
+      integration outcomes; methodological rigor applicable to heat mitigation proposals.
   - need_id: lib-methods
-    how: Detailed 1–10m resolution UTCI/thermal comfort modeling using LIDAR, LCZ classification, synthetic population mapping;
-      pedestrian/bike traffic analysis; community engagement via 20 popup listening sessions & working group formation
+    how: 'Sections s20–s26 detail Hyphae''s high-resolution heat vulnerability methodology: LCZ classification, Popgrid population
+      mapping, 1–10 meter UTCI/shade modeling from LIDAR, census disaggregation, and vulnerable receptor mapping—directly
+      transferable to Bay Point site analysis.'
   - need_id: lib-partners
-    how: 'Partner profiles: Tree Fresno (30+ yrs urban forestry, $1M Valley Air District award 2023), BOCC (decade Central
-      Valley reach, Toys for Tots 4k/yr, embedded outreach model), UDD (Complete Streets, Vision Zero, hazard risk studies)'
-  - need_id: lib-site-bay-point
-    how: Limited direct Bay Point data; however, modeling methodology and vulnerability assessment framework (census disaggregation,
-      sensitive receptor mapping, worker exposure) transferable to Bay Point context
+    how: 'Sections s77–s79 profile partner orgs with track records: BOCC (decade+ Central Valley engagement, farmworker networks);
+      Tree Fresno (30+ years urban forestry, Valley Air District $1M award Spring 2023); UDD (Complete Streets, Vision Zero
+      planning).'
   sections:
-  - path: C. OVERVIEW
+  - sid: s7
+    path: C. OVERVIEW
     type: need-statement
     reuse_value: high
-    note: Fresno County 64 days >100°F in 2024, Oct 3 peak 105°F (highest October on record); 5.3–8.7°F warming projected
-      by end century; 66 extreme heat days/yr under high emissions; 55% of census tracts >75th percentile CalEnviroScreen
-      4.0
-  - path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Formation of the Extreme Heat
-      Working Group'
+    note: 64 days >100°F in 2024; 5.3–8.7°F avg max temp increase projected; extreme heat days 5→66 annually by century end;
+      55% Fresno County tracts above 75th percentile CalEnviroScreen 4.0; specific climate and vulnerability data for Central
+      Valley context.
+  - sid: s10
+    path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach'
     type: method
     reuse_value: high
-    note: 3-month stakeholder recruitment via partner networks, ensuring disadvantaged community representation; includes
-      city/county/health/transit/CBO membership; culturally effective engagement model
-  - path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Community Engagement Events
+    note: Formation of Extreme Heat Working Group using partner networks to recruit disadvantaged community reps, agency staff,
+      health orgs, active transport groups, CBOs—structured engagement template for similar planning projects.
+  - sid: s12
+    path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Community Engagement Events
       Execution'
     type: method
     reuse_value: high
-    note: 20 popup listening sessions in named rural/farmworker communities (Reedley, Parlier, etc.); CERT ambassador recruitment;
-      20 BOCC-featured events; multilingual materials; Toys for Tots/health fair integration
-  - path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability
-      Analysis > Hyper-local high resolution environmental modeling.'
+    note: 20 community popup listening sessions across 24 named small towns (Reedley, Parlier, etc.); recruitment of multicultural
+      resilience ambassadors; featured BOCC events (20)—concrete engagement roadmap for farmworker and rural communities.
+  - sid: s20
+    path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach'
     type: method
     reuse_value: high
-    note: 1–10m meter-scale UTCI & shade modeling; 3D digital twins from USGS LIDAR (2019–2023); novel proprietary pipeline
-      for air temp, humidity, radiant temperature; allows detection of 20–30°F variation within 20–30 ft blocks
-  - path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability
-      > Census Disaggregation'
+    note: Integrated assessment combining low-res (EcoStress, CalAdapt), medium-res (LCZ, Popgrid, RTI synthetic populations),
+      and high-res (1-10m UTCI/shade from LIDAR) modeling; fills resolution gap for community-level action.
+  - sid: s26
+    path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability
+      Analysis > Hyper-local high resolution environmental modeling'
+    type: method
+    reuse_value: high
+    note: Detailed 1-meter mean radiant temperature modeling using USGS 3D LIDAR (2019–2023), 3D digital twins of trees/buildings/terrain,
+      UTCI simulation including air temp/humidity/radiant temp—Hyphae's novel software pipeline producing meter-scale datasets.
+  - sid: s30
+    path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability
+      > Sensitive Receptor & Worker Exposure Locations'
     type: method
     reuse_value: medium
-    note: Disaggregates census data with PopGrid (building-level population via Microsoft layers) and RTI synthetic populations
-      (demographic precision); avoids generic census-tract analysis
-  - path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach
+    note: Methodology for mapping sensitive receptors (schools, elderly care, health facilities) and worker exposure (transit
+      stops, agricultural areas) at census tract and parcel scales.
+  - sid: s39
+    path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach
       to Pedestrian and Bike Analysis > Data for Analysis'
     type: method
     reuse_value: medium
-    note: Pedestrian/bike volume data collection via counters, mobile app surveys, intercept surveys; integrates with heat
-      vulnerability hotspots; informs active transportation planning under heat stress
-  - path: 'D. Detailed Work Plan > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects > Approach'
+    note: 'Data sources for pedestrian/bike analysis: Strava Metro, Census Transportation Planning Package, LEHD jobs data,
+      bike counters, community input—applicable to any active transportation + heat nexus project.'
+  - sid: s47
+    path: 'D. Detailed Work Plan > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects > Approach'
     type: method
     reuse_value: medium
-    note: Tree Fresno leads native/drought-tolerant species selection for vulnerable corridors; leverages 30+ yrs local forestry
-      expertise and established community relationships
-  - path: E. Management Approach > Overview of Management Approach > Partnership Structure > Binational of California
+    note: Tree Fresno's 35+ years local experience + Hyphae technical analysis to develop community-informed list of native,
+      drought-tolerant tree/veg projects for vulnerable corridors—partnership model for greening RFPs.
+  - sid: s78
+    path: E. Management Approach > Overview of Management Approach > Partnership Structure > Binational of California
     type: partner-role
     reuse_value: high
-    note: 'BOCC: 10+ yrs experience Fresno/Kern/Tulare, targets Latinos/Indigenous farmworkers/non-English speakers; primary
-      community liaison; trusted messenger model; embeds outreach in high-attendance cultural events (Toys for Tots, tax prep,
-      health fairs)'
-  - path: E. Management Approach > Overview of Management Approach > Partnership Structure > Tree Fresno
+    note: 'BOCC: Ricardo Castorena (Pres/CEO), Rico Peralta (Sr. Dir. Impact & Partnerships); 10+ years Central Valley outreach,
+      Latinos/Indigenous farmworkers/non-English speakers; Toys for Tots (4,000 annually), tax prep, disaster prep; trusted
+      messenger model.'
+  - sid: s79
+    path: E. Management Approach > Overview of Management Approach > Partnership Structure > Tree Fresno
     type: partner-role
     reuse_value: high
-    note: Mona Cummings CEO; 30+ yrs urban forestry; regional leader in climate-resilient greening; $1M Valley Air District
-      award Spring 2023; large-scale tree planting & partnership track record
-  - path: E. Management Approach > Overview of Management Approach > Partnership Structure > Urban Diversity Design
-    type: partner-role
-    reuse_value: medium
-    note: 'Sheila Hakimipour: Complete Streets, Corridor Revitalization, engagement plans; currently on Fresno COG hazard
-      risk study (ARUP), Vision Zero launch; synthesizes plans/policies/guidelines for heat adaptation'
-  - path: J. Summary of Qualifications > Firm Experience > Hyphae Design Lab has extensive experience delivering innovative,
-      data-driven solutions that address urban resilience, environmental justice, and pollution mitigation. By integrating
-      technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable design
-      strategies tailored to their specific needs.
+    note: 'Tree Fresno: Mona Cummings (CEO); 30+ years urban forestry/environmental ed; large-scale tree planting, air quality;
+      Valley Air District $1M award (Spring 2023) for climate-resilient greening; partnership with agencies and community
+      groups.'
+  - sid: s88
+    path: J. Summary of Qualifications > Firm Experience
     type: project-case
     reuse_value: high
-    note: 'Prescott Greening (2021–2024, $1.15M total: $150k TCC, $300k MTC PCA, $600k ACTC, $50k Port Oakland, $100k CalFire);
-      West Oakland CAP (AB 617); integrates air monitoring, vegetated buffers, tree planting; phased implementation model'
+    note: 'Prescott Greening Project (2021–2024, West Oakland): AB 617 + TCC funding; $150k initial + $300k MTC PCA + $600k
+      ACTC match + $50k Port Oakland + $100k CalFire = $1.05M; air quality monitoring, vegetated buffers, tree planting targeting
+      highest pollution hotspot (West Oakland).'
+  - sid: s90
+    path: J. Summary of Qualifications > Technical Capabilities
+    type: capability
+    reuse_value: medium
+    note: 'Hyphae''s cutting-edge computing and novel methodologies: high-resolution data analysis and design; positioned
+      as technical leader in environmental analytics.'
   fact_candidates:
-  - 'C. OVERVIEW: Fresno County recorded 64 days exceeding 100°F in 2024'
-  - 'C. OVERVIEW: October 3, 2024 Fresno recorded 105°F (highest October temperature in Fresno''s history)'
-  - 'C. OVERVIEW: Annual average max temps projected to rise 5.3–8.7°F by end of century'
-  - 'C. OVERVIEW: Extreme heat days (>94.3°F) expected to increase from 5/yr historical average to 66/yr under high emissions'
-  - 'C. OVERVIEW: Over 55% of Fresno County census tracts rank above 75th percentile on CalEnviroScreen 4.0'
-  - 'D. Task 1: 20 popup listening sessions planned across named rural/farmworker communities'
-  - 'D. Task 1: 20 BOCC-featured events throughout grant period'
-  - 'D. Task 3: High-resolution UTCI modeling at 1–10 meter resolution from USGS LIDAR 2019–2023'
-  - 'E. Partnership Structure > Tree Fresno: $1 million awarded by Valley Air District Spring 2023'
-  - 'E. Partnership Structure > BOCC: Toys for Tots serves 4,000 people annually'
-  - 'J. Firm Experience: Prescott Greening $1.15M total funding (2021–2024)'
-  - 'J. Firm Experience: Prescott received $150k Transformative Climate Communities grant, $300k MTC PCA, $600k ACTC match'
+  - 's7: Fresno County recorded 105°F on October 3, 2024—highest October temperature in Fresno''s history.'
+  - 's7: 64 days in 2024 exceeded 100°F in Fresno County.'
+  - 's7: Climate projections indicate annual average maximum temperatures rising by 5.3°F to 8.7°F by end of century.'
+  - 's7: Extreme heat days (>94.3°F) expected to increase from historical average of 5 per year to as many as 66 under high
+    emissions scenarios.'
+  - 's7: Over 55% of Fresno County census tracts rank above 75th percentile on CalEnviroScreen 4.0.'
+  - 's11: 20 community popup listening sessions planned across 24 named towns in Fresno County and surrounding areas.'
+  - 's78: BOCC hosts Toys for Tots serving over 4,000 people annually in Central Valley.'
+  - 's79: Tree Fresno awarded $1 million by Valley Air District in Spring 2023 for climate-resilient urban greening.'
+  - 's88: Prescott Greening Project received $150,000 initial Transformative Climate Communities grant from California Strategic
+    Growth Council (2021–2024).'
+  - 's88: Prescott Greening has $300,000 from MTC Priority Conservation Areas + $600,000 ACTC match + $50,000 Port of Oakland
+    + $100,000 CalFire.'
   flags:
-  - working-doc with heavy strikethrough sections and edit notes; 'scraps' and coordination sections contain candid planning
-    notes and budget concerns
-  - internal contact data redacted but email addresses still visible in some meeting notes sections
-  - 'near-duplicate phrasing across multiple ''blurb'' sections (Blurb #1, #2, #3, #4 on BOCC role)'
-  - document organized as Google Doc with inline comments and revision history; includes unvetted partner meeting notes and
-    strategy discussions not final
-  - '''Stuff from other projects'' section contains references to Dallas, Boyle Heights, Ambrose Park projects with incomplete
-    excerpts and links to external docs—context leakage risk if reused'
-  - excerpt evidence on methods is strong (UTCI modeling, engagement strategies, partner roles) but Fresno-specific data (heat
-    days, temps, CalEnviroScreen) should be verified against latest official sources
-  - proposal submitted but still contains multiple '[moveable]' and draft task descriptions suggesting final version may differ
-    from this working doc
+  - 'excerpt thin: much content in ''Scraps'' section (s103–s123) marked as draft/strikethrough; final proposal text in s1–s102
+    but many sections reference attached visuals, resumes, budget tables not included in excerpts.'
+  - 'administrative content dominates: ~130 of 236 sections are meeting notes, coordination, action items, proposals for other
+    projects (Dallas, Boyle Heights, EHCRP, etc.); these have little reuse value for Bay Point EHCRP but show Hyphae''s planning
+    process.'
+  - partner CVs and contact data redacted; some meeting transcripts included (s183) but identifiable names visible in attendee
+    lists and proposal text (Brent Bucknum, Maxwell Pingeon, Ivan Heitmann, Sheila Hakimipour, Mona Cummings, Ricardo Castorena,
+    Rico Peralta).
+  - 'near-duplicate risk: Sections s124–s180 labeled ''TEXT FROM OTHER PROJECTS'' contain proposal material, partner profiles,
+    and methodology from Dallas SWMD, Boyle Heights, Ambrose Park, EHCRP proposals, and other Hyphae/partner work; some blurbs
+    (s190–s193) are near-identical variants of BOCC partner descriptions.'
+  - 'not LCI EHCRP Round 2: This is a Fresno COG RFP for extreme heat planning (due ~11/26/24, not LCI timeline); however,
+    methodology, partner experience, and community engagement strategies are transferable to Bay Point EHCRP applications
+    (ambrose-center-park, ambrose-memorial-park).'
+  - 'document status uncertain: metadata shows ''working-doc'' and ''modified 2025-11-17'' (future date; likely typo for 2024-11-17);
+    proposal sections appear final but coordination notes extend to Dec 11, 2024, suggesting ongoing revisions.'
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
-  backend: api-batch
+  prompt_version: c3
+  backend: api-sync
   text_sha256: 842c5ef026c9b3335f72503186a28fbfb60fcaabba86dd25bcc367b8903e8694
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:14:09'
   usage:
-    input: 21915
-    output: 2291
+    input: 22934
+    output: 2672
     cache_read: 0
     cache_write: 0

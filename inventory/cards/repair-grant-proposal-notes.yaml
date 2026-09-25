@@ -1,0 +1,190 @@
+asset_id: repair-grant-proposal-notes
+card:
+  summary: Working document for BAAQMD REPAIR Grant proposal (2026 deadline May 29). Multi-year monitoring, modeling, and
+    rapid-response project for Bay Area refinery corridor air quality. Includes application instructions, meeting notes (Apr–May
+    2026), scope decisions, draft narrative sections, detailed monitoring and CFD modeling plans, equipment research, budget
+    guidelines, partner outreach materials, and archived CARB Cycle 5 baseline project. Heavy internal coordination notes
+    with role assignments; thin on finalized text but rich in technical planning and decision rationale.
+  doc_role: working-doc
+  authorship: Hyphae Design Lab, Rodeo Citizens Association (RCA), Our Children's Earth Foundation (OCE); primary visible
+    authors Charles Davidson, Daniel Fleischer, Ivan Heitmann, Annie Beaman
+  disposition: hold
+  disposition_reason: Contains reusable proposal narrative drafts (Q1 project summary, strategy alignment, ecosystem alignment,
+    capacity/readiness, risk mitigation), technical methods (multi-scale CFD modeling framework, monitoring instrumentation
+    specs, emissions inventory approach), partner coordination structure, and detailed scope/decision documentation for ongoing
+    REPAIR grant work. Internal notes and meeting transcripts are candid but provide crucial rationale and context for methods
+    and partnership model. Monitoring and modeling sections constitute citable technical approaches.
+  serves_needs: []
+  sections:
+  - sid: s51
+    path: Narrative Draft — Technical Content by Topic > 1. Multi-Scale Modeling Framework
+    type: method
+    reuse_value: high
+    note: Complete nested WRF/CFD downscaling methodology using HRRR mesoscale inputs, terrain-driven WRF intermediate scale,
+      and sub-100m CFD. Directly applicable to future proposals requiring atmospheric modeling.
+  - sid: s52
+    path: Narrative Draft — Technical Content by Topic > 2. Emissions Inventory and Source Characterization
+    type: method
+    reuse_value: high
+    note: Approach to synthesizing regulatory emissions data, accounting for multi-source landscape (refineries + freeway
+      traffic asymmetry). Reusable framing for future environmental justice proposals.
+  - sid: s53
+    path: Narrative Draft — Technical Content by Topic > 3. Monitoring Strategy and the Community Response Gap
+    type: need-statement
+    reuse_value: high
+    note: Documents regulatory response gap (>80% of odor complaints receive <20% substantive field response) and positions
+      mobile monitoring as complement to agency role. Strong need justification for future monitoring proposals.
+  - sid: s66
+    path: Workplan Narrative Charles RCA
+    type: boilerplate
+    reuse_value: medium
+    note: Three-year corridor-wide air quality initiative narrative. Covers multi-scale modeling, community science governance,
+      health mitigation, and emergency response framing. Long-form working draft.
+  - sid: s76
+    path: Lightly rephrased transcript extracts > Why This Is Not Another PurpleAir Project
+    type: boilerplate
+    reuse_value: medium
+    note: 'Differentiators argument: multi-pollutant gradient (PM, UFP, VOC, black carbon, ozone, NOx, methane), modeling
+      as core innovation, passive samplers, regulatory partnership framing. Useful for distinguishing Hyphae''s approach from
+      commodity sensor networks.'
+  - sid: s88
+    path: 'Draft Proposal Copy by Narrative Section > Q1 — Project Summary: Innovation and Differentiation (draft addition)'
+    type: boilerplate
+    reuse_value: medium
+    note: 320-word draft opening addressing why this is not another PurpleAir deployment; connects to prior investment cycles
+      and distinguishes scope. Reusable for corridor or refinery-adjacent projects.
+  - sid: s89
+    path: 'Draft Proposal Copy by Narrative Section > Q2 — Strategy Alignment: Multi-Pollutant Gradient and Regulatory Partnership
+      (draft addition)'
+    type: boilerplate
+    reuse_value: medium
+    note: 198-word strategy framing emphasizing multi-pollutant approach and air district partnership positioning. Narrative
+      template for methodology-focused solicitations.
+  - sid: s90
+    path: Draft Proposal Copy by Narrative Section > Q10 — Ecosystem Alignment (full draft — question is currently blank)
+    type: boilerplate
+    reuse_value: medium
+    note: Documents continuation of CARB Cycle 5 baseline (Rodeo/Crockett/Vallejo work), parallel timing, and transition from
+      RCA to OCE. Reusable continuation/expansion narrative frame.
+  - sid: s91
+    path: Draft Proposal Copy by Narrative Section > Q11/Q12 — Capacity and Readiness (draft)
+    type: org-profile
+    reuse_value: medium
+    note: OCE track record (20+ years multi-partner environmental grants), Hyphae technical credentials (atmospheric modeling,
+      active grants in West Oakland/Marin City/Rodeo). Citable org capacity statement.
+  - sid: s92
+    path: Draft Proposal Copy by Narrative Section > Q17 — Barriers and Risk Mitigation (draft)
+    type: method
+    reuse_value: medium
+    note: Addresses multi-scale coupling challenge (mesoscale to CFD downscaling), proposes WRF variants + dedicated CFD budget
+      (~$100k). Technical problem statement and mitigation strategy for future modeling proposals.
+  - sid: s96
+    path: Modeling Plan > CFD Modeling Overview > Multi-scale Modeling
+    type: method
+    reuse_value: high
+    note: 'Detailed multi-scale CFD methodology: WRF at 1 km mesoscale, 25 m surface resolution, MPAS alternative, microscale
+      CFD. Academic citations and turbulence closure options (k-ε, realizable k-ε, k-ω SST). Citable technical approach.'
+  - sid: s97
+    path: Modeling Plan > CFD Modeling Overview > Multi-scale Modeling > Pollution Modeling and Sources
+    type: method
+    reuse_value: high
+    note: 'Pollution source representation across scales: ground-level (traffic) vs elevated (refinery stacks), atmospheric
+      stability dependence, scale-appropriate parameterization. Refinery-specific methodology.'
+  - sid: s98
+    path: Modeling Plan > CFD Modeling Overview > Study Area
+    type: site-context
+    reuse_value: medium
+    note: 'Carquinez Strait corridor geography: Richmond, Rodeo, Crockett, Vallejo, Martinez, Benicia. Terrain description,
+      shoreline complexity, valley topography. Site context for corridor proposals.'
+  - sid: s99
+    path: Modeling Plan > CFD Modeling Overview > Study Area > Modeling Approach
+    type: method
+    reuse_value: high
+    note: 'Two-phase workflow: wind modeling first (sensor placement validation), then pollution. Computational domain, mesh,
+      WRF/MPAS inputs. Methodological sequence document.'
+  - sid: s100
+    path: Modeling Plan > CFD Modeling Overview > Study Area > Simulation Domains and Modeling Cascade
+    type: method
+    reuse_value: high
+    note: Three-tier nested cascade (mesoscale → complex terrain → microscale), steady-state representative days per season,
+      seasonal flow regimes. Practical CFD protocol for complex terrain.
+  - sid: s101
+    path: Modeling Plan > CFD Modeling Overview > Study Area > Preliminary Wind Data Analysis
+    type: method
+    reuse_value: high
+    note: Synoptic network wind observations, mesoscale model validation, seasonal wind roses, diurnal analysis. Methods for
+      representative period selection and boundary condition inputs.
+  - sid: s102
+    path: Modeling Plan > CFD Modeling Overview > Study Area > Prior Modeling Efforts
+    type: evidence-data
+    reuse_value: medium
+    note: 'BAAQMD Path to Clean Air (2024): PM2.5 6.0 µg/m³ regional background, 1.1 µg/m³ local sources, Chevron 61% of local
+      PM2.5. CMAQ/CALPUFF/AERMOD precedent. Citable baseline emissions data.'
+  - sid: s103
+    path: Modeling Plan > CFD Modeling Overview > Proposed Modeling Framework
+    type: method
+    reuse_value: high
+    note: OpenFOAM CFD solver with custom atmospheric sub-models, URANS with k-ε turbulence, one-way WRF coupling. Detailed
+      technical specification for implementation.
+  - sid: s93
+    path: Monitoring Plan
+    type: method
+    reuse_value: high
+    note: Stationary and mobile monitoring strategy. Stationary nodes (upwind/downwind paired sites), mobile response platform
+      (odor/plume activation). Community-based emergency response system scoping.
+  - sid: s27
+    path: Bay REPAIR meeting Outcomes May 22, 2026 > Meeting Summary — Bay REPAIR Benicia Monitoring Budget > Decisions
+    type: method
+    reuse_value: medium
+    note: 'Equipment decisions: VOC + aldehydes + UFP focus. Multi-RAE handheld (PPB-level), SKC pumps + DNPH tubes, one filter
+      unit (metals/black carbon). Passive sampler approach justified. Equipment selection rationale.'
+  - sid: s14
+    path: Bay REPAIR 2026 Coordination Outcomes > Scope Decisions
+    type: admin
+    reuse_value: medium
+    note: 'Scope crystallization: monitoring + modeling + prototype (not full program launch). App as prototype, not production
+      system. Deferred rapid-responder volunteer coordination. Realistic framing document.'
+  fact_candidates:
+  - 's102: BAAQMD Path to Clean Air (2024) estimated 6.0 µg/m³ regional PM2.5 background in corridor'
+  - 's102: Chevron accounts for approximately 61% of local PM2.5 emissions in study area'
+  - 's102: BAAQMD used CMAQ regional, CALPUFF at 100-m resolution, and AERMOD at 50-m receptor grid in prior corridor assessment'
+  - 's53: Fewer than 20% of thousands of refinery odor/air quality complaints filed with air district receive substantive
+    field response'
+  - 's53: Research during Hyphae community air monitoring app development identified response gap across refinery corridor'
+  - 's164: CARB Cycle 5 grant award $499,529 to Rodeo Citizens Association (RCA) for wind modeling and monitoring baseline'
+  - 's90: CARB Cycle 5 work established Carquinez Strait Air Coalition (CSAC) in Rodeo, Crockett, Vallejo; ends December 2027'
+  - 's51: Modeling uses HRRR (High-Resolution Rapid Refresh) NOAA mesoscale foundation; WRF for 25+ km complex-terrain domain'
+  - 's96: WRF typically runs at 1 km or coarser mesoscale; 25 m vertical resolution near surface; microscale CFD for detail'
+  - 's27: Multi-RAE handheld equipment specified for 6-socket configuration measuring TVOCs, formaldehyde, H2S, mercaptans
+    at PPB level'
+  - 's29: Monitoring budget line item for SKC pumps with DNPH tubes and one filter unit for simultaneous metals and black
+    carbon collection'
+  - 's40: Indirect-cost grant cap 15% of total project cost (dispute flagged: may conflict with per-hour overhead inclusion)'
+  flags:
+  - 'excerpt too thin to judge: many section openings are 0 words or list links only; full narrative and budgets are in external
+    Google Docs not shown here'
+  - internal meeting notes and candid discussion of grant strategy (air district positioning, regulatory gaps); not for external
+    attribution
+  - contact data redacted in attendee lists but still identifies key partners (Hyphae, RCA, OCE, academic advisors)
+  - 'near-duplicate risk: CARB Cycle 5 baseline project (s164) and Bay REPAIR expansion proposal overlap methodologically;
+    track as separate but linked assets'
+  - 'excerpt contradicts inventory_note: doc is much heavier on technical planning and methods than on ''long/short variants
+    of narrative answers''—most drafts are topic-focused not question-form'
+  - 'possible decision inconsistency flagged in s40: indirect-cost interpretation (15% of total project vs. per-hour overhead)
+    unresolved; directed to working session with finance team'
+  - archived budgets section (s107) suggests multiple iterations; current budget in external Excel workbook not shown
+  - scope decision (s14) explicitly defers rapid-responder volunteer program and full platform launch to post-grant period;
+    sets realistic expectations but may affect community buy-in narrative
+  - transcripts and quoted speaker names visible (Charles, Daniel, Ivan, Brent, Annie); internal candor about air district
+    strategy and regulatory asymmetry (freeway vs. refinery controls, s52)
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 6c87796e0ef2be3433312ce386ed905945022a28456798a86df1f0de82276a1c
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 18515
+    output: 2915
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,68 @@
+asset_id: ttf-community-engagement-governance-plan
+source_path: sources/ttf-community-engagement-governance-plan/ttf-community-engagement-governance-plan.md
+source_sha256: c22352ce4e00b25f5104a9ffa7473905a340e8e07673bc92d8060e172e7acce1
+text_sha256: f7d4afa88546ee7ad44f4cf5bb560516c139a26596ced23d331074919efcac3c
+words: 5341
+pii:
+  emails: 0
+  phones: 0
+near_duplicates:
+- asset_id: epa-dallas-green-spine-app
+  jaccard: 0.11
+  contained_in: 0.562
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 3335
+- sid: s2
+  path: Clear Methods for Engagement and Transparency
+  level: 2
+  words: 515
+- sid: s3
+  path: Clear Methods for Engagement and Transparency > C-HeaRT experts will support TAMU staff in structuring and implementing the community engagement tasks, as well as on capacity building and training
+    tasks as technical assistants. They will contribute experience in community engagement as well as documentation of outcomes.
+  level: 2
+  words: 0
+- sid: s4
+  path: Clear Methods for Engagement and Transparency > C-HeaRT/TAMU designers will assist in co-design process with community members through a series of charrettes culminating in conceptual drawings of
+    proposed designs. They will generate plans, sections, and perspectives as appropriate to communicate the primary outcomes of the design sessions. A master plan level illustrative drawing will be made
+    public to show the connectivity and place-based interventions proposed for both limited tactical interventions and longer-term civic scale upgrades for neighborhood resilience.
+  level: 2
+  words: 0
+- sid: s5
+  path: Clear Methods for Engagement and Transparency > Mitigating Barriers
+  level: 2
+  words: 144
+- sid: s6
+  path: Clear Methods for Engagement and Transparency > To reach residents without internet access, the project team will provide printed materials, door-to-door outreach, and in-person workshops at accessible
+    locations within the neighborhood.
+  level: 2
+  words: 0
+- sid: s7
+  path: Clear Methods for Engagement and Transparency > Government Involvement
+  level: 2
+  words: 218
+- sid: s8
+  path: Clear Methods for Engagement and Transparency > Project Partners, Roles, and Responsibilities
+  level: 2
+  words: 0
+- sid: s9
+  path: Clear Methods for Engagement and Transparency > Project Partners, Roles, and Responsibilities > Lead Applicant
+  level: 4
+  words: 139
+- sid: s10
+  path: Clear Methods for Engagement and Transparency > Project Partners, Roles, and Responsibilities > Lead Applicant > Statutory Partner Organization
+  level: 4
+  words: 149
+- sid: s11
+  path: Clear Methods for Engagement and Transparency > Project Partners, Roles, and Responsibilities > Lead Applicant > Collaborative Entities
+  level: 4
+  words: 272
+- sid: s12
+  path: Clear Methods for Engagement and Transparency > Processes for Replacing Collaborating Entity
+  level: 2
+  words: 397
+section_count: 12
+profiled: '2026-09-25'
+profiler: p2

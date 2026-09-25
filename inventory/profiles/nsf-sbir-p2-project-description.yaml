@@ -1,0 +1,69 @@
+asset_id: nsf-sbir-p2-project-description
+source_path: sources/nsf-sbir-p2-project-description/nsf-sbir-p2-project-description.md
+source_sha256: dccda0d88ef81f233caec431dcb7bd84de2a37a19dbc5c4c144587b3ede6248f
+text_sha256: 753459df334ef753badf46ae49beb0666fd6214ca04116f190338d8fe38e4af0
+words: 8194
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 600
+- sid: s11
+  path: part 11
+  level: 1
+  words: 600
+- sid: s12
+  path: part 12
+  level: 1
+  words: 600
+- sid: s13
+  path: part 13
+  level: 1
+  words: 600
+- sid: s14
+  path: part 14
+  level: 1
+  words: 394
+section_count: 14
+profiled: '2026-09-25'
+profiler: p2

@@ -1,0 +1,99 @@
+asset_id: ccrcd-epa-sfbwqif-narrative
+card:
+  summary: CCRCD-authored EPA SFBWQIF proposal narrative for Ambrose Center Park Phase 2 green infrastructure project (2024–2028).
+    Describes stormwater quality monitoring, flood mitigation, workforce development, and community benefits in Bay Point,
+    a DAC in Contra Costa County. Demonstrates CCRCD's track record managing grants and partnering with local agencies.
+  doc_role: submitted-proposal
+  authorship: Contra Costa County Resource Conservation District (CCRCD)
+  disposition: hold
+  disposition_reason: Vetted partner narrative with Ambrose Center Park project details, CCRCD capacity and track record,
+    Bay Point site context, and DAC/environmental justice framing directly usable in partnership and site-context sections
+    of EHCRP applications.
+  serves_needs:
+  - need_id: pt-q1
+    how: Names CCRCD as lead; describes partnership with Ambrose Recreation and Parks District, Bay Point Garden Club, Bay
+      Point All N One, other local CBOs; shows institutional capacity and community knowledge balance.
+  - need_id: pt-q2
+    how: Cites prior successful grants (BIMID levee restoration, SCC wildfire regional plan); demonstrates project management
+      and transparent communication with partners and funders.
+  - need_id: lib-partners
+    how: Full CCRCD capability and track record section; demonstrates environmental justice, workforce development, and green
+      infrastructure expertise.
+  - need_id: lib-site-bay-point
+    how: Detailed site geography, drainage challenges, hazards (power plant, highways, waste sites), infrastructure gaps,
+      DAC status, coordinates, and community needs assessment references.
+  sections:
+  - sid: s1
+    path: 'Project: Ambrose Center Park Green Infrastructure Enhancements Phase 2 — Abstract'
+    type: project-case
+    reuse_value: high
+    note: Project scope, timeline, measurable outcomes, and community context (economically disadvantaged, pollution exposure,
+      environmental justice framing).
+  - sid: s2
+    path: Site conditions and drainage challenges
+    type: site-context
+    reuse_value: high
+    note: Bay Point topography, lack of modern drainage infrastructure, localized flooding, LID/GI recommendations; cites
+      Balance Hydrologics Assessment.
+  - sid: s4
+    path: Green infrastructure design and community access
+    type: project-case
+    reuse_value: medium
+    note: Trail extension, permeable pavers, tree plantings for shade, litter capture; community-identified needs (parks,
+      trails, shade).
+  - sid: s6
+    path: Operations and Maintenance Manual and workforce development model
+    type: method
+    reuse_value: high
+    note: Stewardship job training, monitoring protocol, sustainability and replicability; partnerships with ARPD, EPA, County,
+      CBOs.
+  - sid: s7
+    path: Stormwater capture and flood/sea-level-rise benefits
+    type: evidence-data
+    reuse_value: medium
+    note: 'Quantified basin metrics: 0.3 sq mi, 24.4% impervious, 2YR peak 11.5 cfs, 49,650 cf capture (5% of 24hr event);
+      resilience outcomes.'
+  - sid: s8
+    path: CCRCD track record and project management
+    type: org-profile
+    reuse_value: high
+    note: Prior grants (BIMID, SCC), partner collaborations, staff capacity, financial and administrative management demonstrated.
+  - sid: s9
+    path: Underserved/overburdened community status
+    type: site-context
+    reuse_value: medium
+    note: EPA SFBWQIF underserved community designation, DAC status per DWR, coordinates and address (3105 Willow Pass Road,
+      Bay Point 94565).
+  fact_candidates:
+  - 'Project timeline: July 2024–June 2028 (s1)'
+  - 'Ambrose Center Park location: 3105 Willow Pass Road, Bay Point, CA 94565; coordinates 38.02959483938509, -121.93270514732879
+    (s9)'
+  - 'Project site drainage basin: 0.3 sq mi, 24.4% impervious cover, 2-year peak flow 11.5 cfs (s7)'
+  - 'Stormwater capture volume: 49,650 cubic feet (5% of 24-hour event) at project site (s7)'
+  - Bay Point is EPA SFBWQIF underserved community and DWR DAC (s9)
+  - 'CCRCD prior grant: Bethel Island Municipal Improvement District (BIMID) levee restoration with CA Delta fish habitat
+    focus (s8)'
+  - 'CCRCD prior grant: State Coastal Conservancy (SCC) block grant for Regional Priority Plan wildfire planning in Contra
+    Costa and Alameda Counties (s8)'
+  - 'Green infrastructure elements: rain gardens, bioretention swales, pervious pavement, trash capture (s2)'
+  - 'Community benefits: trail extension with permeable pavers connecting Willow Pass Road to Delta DeAnza Trail, tree plantings
+    for heat shade (s4)'
+  - 'Workforce development partners: Bay Point Garden Club, Bay Point All N One (s3)'
+  flags:
+  - Excerpt too thin to judge full partnership structure and LCI-readiness
+  - No EHCRP-specific language or tie to Round 2 harm reduction or lasting community benefits questions; applicability depends
+    on proposal framing
+  - Balance Hydrologics (2017) Assessment is primary site-condition source; consider retrieving full report (s2, s5)
+  - Near-duplicate risk with other Bay Point/ARPD application docs; cross-check with ambrose-center-park and ambrose-memorial-park
+    working drafts
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: ff3f98f698ae822fddc3efadc7fc36c47f147d998e864f238184483b22182f70
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4689
+    output: 1303
+    cache_read: 0
+    cache_write: 0

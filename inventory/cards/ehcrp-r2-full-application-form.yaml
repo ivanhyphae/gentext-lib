@@ -1,131 +1,48 @@
 asset_id: ehcrp-r2-full-application-form
 card:
-  summary: Official EHCRP Round 2 full application form for Early and Advanced Infrastructure projects, detailing all Submittable
-    questions, team structure requirements, financial documentation, funding priority eligibility, and narrative scoring criteria.
-    Includes workplan/budget workbook structure and AI use guidance.
+  summary: Official EHCRP Round 2 full application form with complete question wording, submission mechanics, team structure
+    requirements, funding priority rules, and workplan/budget workbook structure. Covers Early and Advanced Infrastructure
+    tracks; specifies deliverables, timelines, financial documentation, and narrative scoring criteria. Includes AI usage
+    guidance.
   doc_role: solicitation
-  authorship: LCI (Local Climate Investments program)
+  authorship: California Climate Investments / LCI (inferred from context)
   disposition: reference
-  disposition_reason: Authoritative specification of application requirements, question wording, and scoring framework; not
-    prose to reuse but essential reference for understanding what reviewers will ask and how Hyphae proposals will be evaluated.
+  disposition_reason: Authoritative source document defining exact application requirements, question limits, and workplan
+    structure. Essential to reference when drafting answers and checking compliance, but not prose to extract or reuse. No
+    citable facts or project outcomes present.
   serves_needs:
-  - need_id: overview
-    how: defines Project Overview question (300 words, 7 points) requiring infrastructure type, both deliverables (Planning
-      Document + Demonstration for Early; Infrastructure Project + Playbook for Advanced), and key tasks in sequence within
-      contract period
-  - need_id: hr-q1
-    how: Harm Reduction Q1 asks heat-vulnerable community, exposure pathways, resulting harms, drawing on community knowledge,
-      lived experience, and data (12 points, 250 words)
-  - need_id: hr-q2
-    how: Harm Reduction Q2 implicit in program description; full question text not shown in excerpts but framework emphasizes
-      harm reduction as core program value
-  - need_id: pt-q1
-    how: Partnership questions reference team structure requirements (Lead, Co-Applicants, Contributors, Supporters) and scoring
-      on partnership but specific Q1 text not fully visible in excerpts
-  - need_id: pt-q2
-    how: Partnership Q2 references prior projects and lessons but exact question wording not shown; workplan/budget section
-      emphasizes demonstrating 'knows how to translate vision into reality'
-  - need_id: be-q1
-    how: Belonging section mentioned as 12-point program value; specific question on design elements not fully visible in
-      excerpts provided
-  - need_id: be-q2
-    how: Belonging section listed but Q2 text on engagement strategies not shown in excerpt; workbook emphasis on practical
-      implementation suggests design process will be assessed
-  - need_id: lcb-q1
-    how: Lasting Community Benefits not explicitly named in visible excerpts; Future Implementation Playbook required for
-      Advanced projects may address planning document legacy
-  sections:
-  - path: Extreme Heat and Community Resilience > Project Information
-    type: solicitation-text
-    reuse_value: high
-    note: Grant type selection, title guidance (10 words, clarity + creativity), total funding request; directly shapes Hyphae
-      proposal framing
-  - path: Extreme Heat and Community Resilience > Lead Applicant Information
-    type: solicitation-text
-    reuse_value: high
-    note: Lead applicant responsibilities, financial capacity documentation requirements (Form 990, IRS letter, audit findings);
-      critical compliance checklist
-  - path: Extreme Heat and Community Resilience > For CBOs Applying as Lead Applicant
-    type: solicitation-text
-    reuse_value: high
-    note: 'CBO Lead requirement: staffed operational office within 100 miles of site; ARPD eligibility depends on this rule'
-  - path: Extreme Heat and Community Resilience > For Local/Regional Public Entities Applying as Lead Applicant
-    type: solicitation-text
-    reuse_value: high
-    note: Public entity Lead must have CBO or Tribe Co-Applicant; ARPD (if Lead) requires CBO co-applicant with office within
-      100 miles
-  - path: Extreme Heat and Community Resilience > Project Infrastructure Location
-    type: solicitation-text
-    reuse_value: medium
-    note: 'Early Infrastructure: describe geographic area or potential neighborhoods/Census tracts; Advanced: addresses required;
-      Bay Point projects must specify sites here'
-  - path: Extreme Heat and Community Resilience > Project Feasibility Requirement
-    type: solicitation-text
-    reuse_value: medium
-    note: 'Advanced Infrastructure only: cost estimates, preliminary design/engineering, site control documentation post-award;
-      describes 48-month feasibility expectation'
-  - path: Extreme Heat and Community Resilience > Funding Priorities
-    type: solicitation-text
-    reuse_value: high
-    note: '2024 Climate Bond requirement: ≥40% funding to DACs, ≥10% to SDACs; Tribes = Vulnerable Populations; Bay Point
-      tracts must be mapped to DAC/SDAC status'
-  - path: Extreme Heat and Community Resilience > Program Values
-    type: solicitation-text
-    reuse_value: high
-    note: 'Harm Reduction (12 points): community exposure pathways, harms, community knowledge + lived experience + data;
-      core program value definition'
-  - path: Extreme Heat and Community Resilience > Project Overview
-    type: solicitation-text
-    reuse_value: high
-    note: 'Question 1 (7 points, 300 words): infrastructure named, required deliverables for tier, key tasks in sequence,
-      contract period compliance—directly matches overview need'
-  - path: Extreme Heat and Community Resilience > Alternative Requirement for Applicants Without a Co-Applicant
-    type: solicitation-text
-    reuse_value: medium
-    note: Tribal + CBO Early Infrastructure without co-applicant answer internal capacity questions (staff roles, org readiness);
-      may apply if Bay Point structure changes
-  - path: Extreme Heat and Community Resilience > Project Workbook (Workplan and Budget)
-    type: solicitation-text
-    reuse_value: high
-    note: 'Workbook structure: main tasks, deliverables, timelines, partner responsibility, grant admin; must translate narrative
-      into practical roadmap with costs'
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: This form references but does not contain webinar materials, office hour Q&A, or workshop slides; users will need
+      separate guidance materials.
+  sections: []
   fact_candidates:
-  - 'EHCRP Round 2 has two tiers: Early Infrastructure (30-month contract) and Advanced Infrastructure (48-month contract)'
-  - 'Early Infrastructure requires two deliverables: Planning Document and Demonstration Project'
-  - 'Advanced Infrastructure requires two deliverables: Infrastructure Project and 15 Future Implementation Playbook'
-  - Project Overview question has 300-word limit and awards up to 7 points
-  - Harm Reduction question(s) collectively award 12 points
-  - 'Belonging section awards 12 points (Appendix F: Scoring Criteria for detailed scoring)'
-  - 2024 Climate Bond requires ≥40% of funding to DACs and ≥10% to SDACs
-  - CBO Lead Applicant must have staffed operational office within 100 miles of project site
-  - Public entity Lead Applicant must have CBO or California Native American Tribe as Co-Applicant
-  - CBOs applying for Early Infrastructure may not have a Co-Applicant (alternative internal capacity questions apply)
-  - Lead Applicant must submit financial statements from last 2 years, Form 990, IRS 501(c)(3) determination letter, and audit
-    findings (if any) from last 5 years
-  - Supporters (optional) may include up to five entities per application; must submit letters describing why infrastructure
-    protects community and why lead+partners are well-positioned
+  - '[s3] Total funding amount requested must match cell C12 of Applicant Summary tab in workbook.'
+  - '[s4] Lead Applicant must respond to award notification within 60 days or LCI may rescind award.'
+  - '[s8] Lead Applicant CBO must have staffed operational office within 100 miles of project site.'
+  - '[s9] Local/Regional Public Entity Lead Applicant must have a CBO or Tribe as Co-Applicant.'
+  - '[s10] Public Higher Academic Institution Lead Applicant must have two Co-Applicants: (1) a CBO and (2) a Local/Regional
+    Public Entity or Tribe.'
+  - '[s12] Coalition Lead Applicant must have two Co-Applicants: (1) a CBO and (2) a Local/Regional Public Entity or Tribe.'
+  - '[s20] Each application may include up to five Supporters.'
+  - '[s23] At least 40% of EHCRP Round 2 funding must benefit Disadvantaged Communities (DACs); minimum 10% to Severely Disadvantaged
+    Communities (SDACs).'
+  - '[s27] Early Infrastructure projects have 30-month contract period; Advanced Infrastructure projects have 48-month period.'
+  - '[s27] Early Infrastructure requires Planning Document and Demonstration Project as deliverables.'
+  - '[s27] Advanced Infrastructure requires completed Infrastructure Project and 15-item Future Implementation Playbook.'
+  - '[s28] Harm Reduction section awards up to 12 points.'
   flags:
-  - 'excerpt too thin to judge: full Harm Reduction Q2, Partnership Q1/Q2, Belonging Q1/Q2, Lasting Community Benefits questions
-    not shown—only framing section visible'
-  - 'excerpt too thin to judge: scoring rubric details referenced but not shown (Appendix F promised in guidelines, not in
-    this form doc)'
-  - 'excerpt too thin to judge: workbook/budget template structure described but actual form fields and constraints not visible'
-  - 'critical for Bay Point applications: CBO Lead (if ARPD is not Lead) must have office within 100 miles; Public Lead (if
-    ARPD is Lead) requires CBO co-applicant meeting same proximity rule—verify ARPD structural choice against this requirement'
-  - 'excerpt does not show: narrative question text for Partnership, Belonging, Lasting Community Benefits, or alternative
-    internal capacity questions—only headers and point values'
-  - 'excerpt does not show: complete financial documentation upload requirements for Co-Applicants and Contributors'
-  - AI acknowledgement section (6.10) discourages AI-generated content but does not provide enforcement or detection method
-  - excerpt confirms 2024 Climate Bond DAC/SDAC mapping required; Bay Point Census tracts 06013313203 and 06013314105 status
-    must be verified against official 2024 Climate Bond Disadvantaged Communities Map
+  - 'excerpt too thin to judge: AI Acknowledgement section (s31) contains policy language but no extractable guidance'
+  - Contains contact data redaction note but no actual contact details visible in excerpts
+  - This is form template/platform instructions, not content; limited factual candidates available
+  - Question wording subject to final variation on Submittable platform per s1 note
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: b532a5b6dfd040dec6b46829cc350c433993d30231827d46bcac7ea9788c1a44
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 7739
-    output: 1863
+    input: 7938
+    output: 639
     cache_read: 0
     cache_write: 0

@@ -1,0 +1,29 @@
+asset_id: ecc-green-infrastructure-arpd-deck
+source_path: sources/ecc-green-infrastructure-arpd-deck/ecc-green-infrastructure-arpd-deck.md
+source_sha256: 0e3ec2055bda5c3610d3c1204b360958b20368b98c8cae138ad7cc428c8b1a81
+text_sha256: 4efbee384aa549590545d29392a955c674587ccb6a8e95acba7cb22242542447
+words: 842
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: 'Ambrose Community Center Green Infrastructure EnhancementsTo: Ambrose Recreation and Park District'
+  level: 1
+  words: 258
+- sid: s2
+  path: 'Ambrose Recreation & Park DistrictSITE EVALUATION and CONCEPT DESIGNAMBROSE CENTER PARK: COUNTY STUDYAMBROSE CENTER PARK: IRWM REVISED DESIGNAMBROSE CENTER PARK: BENEFITS OF GI AND URBAN GREENINGBioretention'
+  level: 1
+  words: 241
+- sid: s3
+  path: Bay Area IRWM Grant Funding and Immediate Next Steps
+  level: 1
+  words: 32
+- sid: s4
+  path: Additional Funding Opportunities
+  level: 1
+  words: 258
+section_count: 4
+profiled: '2026-09-25'
+profiler: p2

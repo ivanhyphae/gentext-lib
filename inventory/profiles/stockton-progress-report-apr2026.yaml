@@ -1,0 +1,89 @@
+asset_id: stockton-progress-report-apr2026
+source_path: sources/stockton-progress-report-apr2026/stockton-progress-report-apr2026.md
+source_sha256: 9c16ebc082a4c4f9cc05f7b0aacd0cf165ab0c33cc5c199f4c6126ee2d6feaf9
+text_sha256: 83263d9c035f28f02ea386274e5df19b0c156a9ac2396bfaa21519ff9837e748
+words: 2155
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Tab 1
+  level: 1
+  words: 0
+- sid: s2
+  path: Stockton Urban Greening & Vegetated Buffer Projects
+  level: 1
+  words: 24
+- sid: s3
+  path: Overview
+  level: 1
+  words: 131
+- sid: s4
+  path: Urban Greening Project
+  level: 1
+  words: 0
+- sid: s5
+  path: Urban Greening Project > Data Collection & Aggregation
+  level: 2
+  words: 147
+- sid: s6
+  path: Urban Greening Project > Site Prioritization
+  level: 2
+  words: 95
+- sid: s7
+  path: Urban Greening Project > Planting Palette, Plans & Boundary Definition
+  level: 2
+  words: 44
+- sid: s8
+  path: Urban Greening Project > Community Engagement & Stewardship
+  level: 2
+  words: 88
+- sid: s9
+  path: Vegetated Buffer Project
+  level: 1
+  words: 0
+- sid: s10
+  path: Vegetated Buffer Project > Site Identification
+  level: 2
+  words: 127
+- sid: s11
+  path: Vegetated Buffer Project > Permitting & Code Coordination
+  level: 2
+  words: 53
+- sid: s12
+  path: Vegetated Buffer Project > Caltrans Design Collaboration
+  level: 2
+  words: 63
+- sid: s13
+  path: Vegetated Buffer Project > Stakeholder Engagement, Monitoring & O\&M Plans
+  level: 2
+  words: 48
+- sid: s14
+  path: Shared / Cross-Project Work
+  level: 1
+  words: 160
+- sid: s15
+  path: Notes on This Summary
+  level: 1
+  words: 100
+- sid: s16
+  path: PM & Implementation Planning
+  level: 1
+  words: 411
+- sid: s17
+  path: Sorting Tasks
+  level: 1
+  words: 0
+- sid: s18
+  path: Sorting Tasks > Task-by-task breakdown
+  level: 3
+  words: 297
+- sid: s19
+  path: Sorting Tasks > Task-by-task breakdown > Billing recommendations
+  level: 3
+  words: 283
+section_count: 19
+profiled: '2026-09-25'
+profiler: p2

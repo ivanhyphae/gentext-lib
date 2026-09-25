@@ -1,55 +1,43 @@
 asset_id: upcoming-grants-sheet
 card:
-  summary: 'Internal tracking spreadsheet of grant opportunities pipeline, partner organizations, and application statuses.
-    Contains three sheets: (1) Upcoming opportunities with solicitation codes, due dates, partner coordination notes, and
-    links to proposal drafts; (2) Active Potential Partners database with 59 organizations, contact details, geographic service
-    areas, and mission statements; (3) Archive of EHCRP-interested organizations. Data current as of 2026-09-15. Modified
-    dates show active use.'
-  doc_role: working-doc
-  authorship: Hyphae Design Lab (internal team)
+  summary: 'A tracking spreadsheet of upcoming grant solicitations maintained by Hyphae, with three sheets: (1) Upcoming opportunities—a
+    pipeline of 12 named funding programs with status, due dates, next steps, and links to solicitations and proposal documents;
+    (2) Active Potential Partners—a roster of 59 partner organizations with contact details, geographic service areas, and
+    mission statements; (3) Archive of EHCRP interested orgs—a historical list of 62 organizations previously engaged for
+    Early Housing and Community Resilience Programs. The sheet tracks grant codes, applicant eligibility, hyphae role, and
+    proposal folder locations. Modified 2026-09-15.'
+  doc_role: dataset
+  authorship: Hyphae (internal team; contact person KJ noted)
   disposition: reference
-  disposition_reason: Working pipeline tracker needed for coordination and partner relationship management. Solicitation links,
-    due dates, and status flags are authoritative references. Partner organization database supports outreach and capability
-    assessment. Not prose to reuse, but essential for operational context and opportunity tracking.
-  serves_needs:
-  - need_id: ehcrp-r2-webinars-office-hours
-    how: Does not contain webinar materials; tracks opportunities but not TA resources
-  - need_id: moodle-application-template
-    how: References Moodle template in comments but does not contain the template itself
-  sections:
-  - path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Upcoming opportunities'
-    type: admin
-    reuse_value: medium
-    note: Live tracking of grant codes, solicitation links, due dates, status, next steps, partner coordination notes, and
-      proposal folder locations; directly supports LCI EHCRP Round 2 and other active applications
-  - path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Active Potential Partners'
-    type: partner-role
-    reuse_value: medium
-    note: Database of 59 partner organizations with addresses, counties, regions, contact persons, email, phone, service areas,
-      missions, and programs; critical for partnership outreach and capability matching across Bay Area and beyond
+  disposition_reason: This is a working pipeline tracker, not a reusable prose or outcomes library. It contains solicitation
+    metadata, links, and partnership contact data that must be kept up to date and consulted during proposal planning, but
+    the rows themselves are not extractable as proposal text. The partner roster and solicitation links are reference materials
+    for future M5 models and grant strategy, not substantive content to hold.
+  serves_needs: []
+  sections: []
   fact_candidates:
-  - 'ARPAH opportunity due 9/14/2026 (Status: Missed)'
-  - CRC (Community Resilience Centers Round 2 IMPLEMENTATION) due 9/25/2026
-  - TCC (Transformative Climate Communities Round 6 PLANNING) due 9/30/2026
-  - NCPN (Plant Protection Act Section 7721) due 10/19/2026
-  - Active Potential Partners list contains 59 organizations across multiple California counties
-  - Partner list includes California State University East Bay, Resilient Bayview, The Provenance Solution, City of San José
-    Energy Department, and others
-  - Archive of EHCRP interested orgs preserved with 62 rows of historical outreach data
+  - '[s6] ARPA-H-SOL-24-105 due 9/14/2026 23:59:00—Missed deadline'
+  - '[s6] Community Resilience Centers Round 2 IMPLEMENTATION Grant due 9/25/2026 23:59:00—Status: Partnering'
+  - '[s6] Transformative Climate Communities Round 6 PLANNING Grant due 9/30/2026 23:59:00—Status: Go'
+  - '[s6] Plant Protection Act Section 7721 Fiscal Year 2027 National Competitiveness Program due 10/19/2026 20:59:00—Status:
+    Considering'
+  - '[s10–s11] Partner organization roster includes 59 named entities: California State University, East Bay; Resilient Bayview;
+    The Provenance Solution; City of San José – Energy Department; and others across Alameda, San Francisco, Solano, and Santa
+    Clara counties'
+  - '[s14–s15] Archive sheet lists 62 EHCRP-interested organizations with contact persons, addresses, and service areas'
   flags:
-  - Contact data present (redacted in excerpts per protocol); full file contains [email] and [phone] fields
-  - Excerpt too thin to judge completeness of opportunity descriptions or partner profiles — only table structure and sample
-    rows visible, not full content
-  - Internal working document with active coordination notes; treat as operational reference not public-facing asset
-  - ARPAH opportunity marked 'Missed' — status outdated or superseded
+  - Dataset structure; no reusable prose
+  - Partner contact details redacted to [email]/[phone]
+  - Spreadsheet extracts show table metadata and sample rows; full content not visible in excerpts
+  - No outcomes or evidence claims present—reference only
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: a29abe82422e28149b67b4f0640be211994645130fa640c53352f7c6c3d02715
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 4435
-    output: 687
+    input: 4574
+    output: 587
     cache_read: 0
     cache_write: 0

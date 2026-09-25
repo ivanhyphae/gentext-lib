@@ -1,0 +1,43 @@
+asset_id: oakland-step-urban-greening-decks-2024
+card:
+  summary: 2024 progress presentation for Oakland STEP Task 2.3 (urban greening pilots). Shows three completed streetscape
+    design scenarios with air-quality modeling outputs comparing greening interventions (tree planting, berms, grass buffers)
+    on Caltrans right-of-way and city streets. Includes before/after pollution field visualizations and identifies possible
+    showcase locations (Prescott Street, 7th Street, parks/schools). Deliverables include design concepts, monitoring plans,
+    and planning guidance. No community outcomes or final implementation data visible in excerpts.
+  doc_role: presentation
+  authorship: Hyphae Design Lab (STEP Oakland team)
+  disposition: reference
+  disposition_reason: Showcases Hyphae's air-quality modeling capability and urban greening method applied to a completed
+    project, but is a progress deck with preliminary designs and modeling scenarios, not reusable prose or finalized outcomes.
+    Useful as reference for methodology demonstration and case study context, not as proposal text or citable deliverable
+    results.
+  serves_needs:
+  - need_id: lib-methods
+    how: demonstrates UTCI/pollution modeling workflow for greening interventions; shows before/after air quality assessment
+      approach
+  sections: []
+  fact_candidates:
+  - '[s1] Task 2.3 deliverables include design projects, planting oversight, air-quality monitoring, and planning guideline
+    one-pager'
+  - '[s2] Showcase options: Prescott Street (sidewalk improvements phase 2), 7th Street (30% concept design), parks/schools,
+    Caltrans ROW'
+  - '[s3] Modeling compared three scenarios: Caltrans planting, frontage road diet, immediately plantable areas'
+  - '[s3] Berm with 1m grass buffer shows substantial upward air movement impact vs. bare earth baseline'
+  - '[s1] Goal includes increasing access to destinations for West Oakland residents and mode shift away from personal vehicles'
+  flags:
+  - 'excerpt too thin to judge: outline text heavily truncated and repeated; section s3 is unreadable (model diagrams dominate);
+    no dates, budget, or outcome metrics visible'
+  - no community engagement or voices documented in visible excerpts
+  - modeling appears exploratory (scenarios, TBD selections); unclear what was actually implemented or monitored post-2024
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 099202da57d962193dd9a3d0a9e3ee72955da50524dbfc061f386c6f43aebc37
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3518
+    output: 510
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,482 @@
+asset_id: resilient-philadelphia-grant-2025
+source_path: sources/resilient-philadelphia-grant-2025/resilient-philadelphia-grant-2025.md
+source_sha256: 608c4a63f5e83ebceb72233dab40aa9ddfdb16be136048b73b1409359f0882dd
+text_sha256: 8e0afda11d57f840af92f08ea2ceee70ba30861ae368268b1d2196153b5f627d
+words: 29811
+pii:
+  emails: 16
+  phones: 0
+near_duplicates:
+- asset_id: nsf-scc-tamu-2025
+  jaccard: 0.419
+  contained_in: 0.726
+- asset_id: arlington-park-ttf-epa-ccg-2024
+  jaccard: 0.651
+  contained_in: 0.724
+- asset_id: calepa-ej-action-grant-2025
+  jaccard: 0.682
+  contained_in: 0.724
+sections:
+- sid: s1
+  path: START HERE
+  level: 1
+  words: 66
+- sid: s2
+  path: Proposal coordination
+  level: 1
+  words: 203
+- sid: s3
+  path: 'Proposal coordination > Draft Proposal for Resilient Philadelphia: Citywide Resilience Plan Update'
+  level: 2
+  words: 434
+- sid: s4
+  path: Proposal coordination > 2 page Letter
+  level: 2
+  words: 719
+- sid: s5
+  path: Proposal coordination > Apr 14, 2025 | Partnerships & storytelling workstreams genesis
+  level: 2
+  words: 876
+- sid: s6
+  path: Proposal coordination > Apr 9, 2025 | Upcoming Dev opportunities
+  level: 2
+  words: 603
+- sid: s7
+  path: Proposal Guidelines
+  level: 1
+  words: 0
+- sid: s8
+  path: Proposal Only
+  level: 1
+  words: 2888
+- sid: s9
+  path: Stuff from other projects
+  level: 1
+  words: 0
+- sid: s10
+  path: PREVIOUS MATERIAL
+  level: 1
+  words: 215
+- sid: s11
+  path: PREVIOUS MATERIAL > Dallas SWMD
+  level: 2
+  words: 33
+- sid: s12
+  path: PREVIOUS MATERIAL > Boyle Heights
+  level: 2
+  words: 30
+- sid: s13
+  path: PREVIOUS MATERIAL > Ambrose ParkSubmission\ California Environmental Justice Coalition - California Microclimate Observatory (CAMO).pdf
+  level: 2
+  words: 54
+- sid: s14
+  path: PREVIOUS MATERIAL > ONLY PUT TEXT HERE THAT IS DRAFTED FOR SUBMISSION
+  level: 2
+  words: 0
+- sid: s15
+  path: Overview
+  level: 1
+  words: 0
+- sid: s16
+  path: Overview > Scope of work description
+  level: 2
+  words: 184
+- sid: s17
+  path: Overview > Budget
+  level: 2
+  words: 6
+- sid: s18
+  path: Overview > Budget Justification
+  level: 2
+  words: 83
+- sid: s19
+  path: Overview > Budget Justification > Evidence Base Design
+  level: 3
+  words: 780
+- sid: s20
+  path: Overview > Budget Justification > Sensor Deployment
+  level: 3
+  words: 961
+- sid: s21
+  path: Narrative project description
+  level: 1
+  words: 70
+- sid: s22
+  path: Narrative project description > Project need
+  level: 2
+  words: 0
+- sid: s23
+  path: Narrative project description > Project need > Safety and Resilience Challenges in Arlington Park
+  level: 3
+  words: 410
+- sid: s24
+  path: Narrative project description > Project need > Maps for the Arlington Park neighborhood
+  level: 3
+  words: 0
+- sid: s25
+  path: Narrative project description > Project need > Maps for the Arlington Park neighborhood > Land use and POI visitation
+  level: 5
+  words: 0
+- sid: s26
+  path: Narrative project description > Project need > \[image\]
+  level: 3
+  words: 0
+- sid: s27
+  path: Narrative project description > Project need > \[image\] > Property value (Dollars per square-feet)
+  level: 5
+  words: 1
+- sid: s28
+  path: Narrative project description > Project need > Socio-Demographics characteristics of Arlington Park neighborhood
+  level: 3
+  words: 1038
+- sid: s29
+  path: Narrative project description > Project need > Demographics charts
+  level: 3
+  words: 8
+- sid: s30
+  path: Narrative project description > Community Co-Design Approach
+  level: 2
+  words: 517
+- sid: s31
+  path: Narrative project description > Evidence-Based Design Approach
+  level: 2
+  words: 341
+- sid: s32
+  path: Narrative project description > Evidence-Based Design Approach > Key Elements of Hyphae's EBD Approach
+  level: 3
+  words: 121
+- sid: s33
+  path: Narrative project description > Evidence-Based Design Approach > Benefits of Hyphae's EBD Approach
+  level: 3
+  words: 134
+- sid: s34
+  path: Narrative project description > Evidence-Based Design Approach > Examples of Hyphae's EBD Approach in Action
+  level: 3
+  words: 179
+- sid: s35
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators
+  level: 3
+  words: 26
+- sid: s36
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 1 Monitoring
+  level: 4
+  words: 55
+- sid: s37
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 2 Monitoring
+  level: 4
+  words: 163
+- sid: s38
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Phase 3 Monitoring
+  level: 4
+  words: 23
+- sid: s39
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Data Collection Methods
+  level: 4
+  words: 94
+- sid: s40
+  path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Data Analysis and Modeling
+  level: 4
+  words: 121
+- sid: s41
+  path: Narrative project description > Evidence-Based Design Approach > Modeling
+  level: 3
+  words: 73
+- sid: s42
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Data Collection: The Foundation of the Model'
+  level: 4
+  words: 184
+- sid: s43
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts'
+  level: 4
+  words: 22
+- sid: s44
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 1\. Developing a Range of Models'
+  level: 5
+  words: 131
+- sid: s45
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 2\. Calibrating and Validating the Models'
+  level: 5
+  words: 55
+- sid: s46
+  path: 'Narrative project description > Evidence-Based Design Approach > Modeling > Modeling: Simulating Interventions and Predicting Impacts > 3\. Testing Different Scenarios'
+  level: 5
+  words: 125
+- sid: s47
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes
+  level: 4
+  words: 11
+- sid: s48
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 1\. Evidence-Based Decision-Making
+  level: 5
+  words: 33
+- sid: s49
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 2\. Optimization of Interventions
+  level: 5
+  words: 46
+- sid: s50
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 3\. Cost-Effectiveness
+  level: 5
+  words: 30
+- sid: s51
+  path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 4\. Community Engagement
+  level: 5
+  words: 216
+- sid: s52
+  path: Narrative project description > Active Multimodal Connectivity Planning
+  level: 2
+  words: 474
+- sid: s53
+  path: Narrative project description > Showcase greening projects
+  level: 2
+  words: 59
+- sid: s54
+  path: Narrative project description > Showcase greening projects > Key Strategies Inspired by the Boyle Heights Project
+  level: 3
+  words: 194
+- sid: s55
+  path: Narrative project description > Showcase greening projects > Addressing Unique Challenges and Community Needs
+  level: 3
+  words: 157
+- sid: s56
+  path: Narrative project description > Showcase greening projects > Measuring and Evaluating Impact
+  level: 3
+  words: 90
+- sid: s57
+  path: Narrative project description > Showcase greening projects > Integrating with the Green Spine Project
+  level: 3
+  words: 56
+- sid: s58
+  path: Extracted from meetings
+  level: 1
+  words: 411
+- sid: s59
+  path: Extracted from meetings > Hyphae Materials
+  level: 2
+  words: 157
+- sid: s60
+  path: AirSense grant
+  level: 1
+  words: 1241
+- sid: s61
+  path: BH-EPA-Grant EDITED
+  level: 1
+  words: 0
+- sid: s62
+  path: BH-EPA-Grant EDITED > Approach
+  level: 2
+  words: 189
+- sid: s63
+  path: BH-EPA-Grant EDITED > Approach > Project Focus
+  level: 3
+  words: 120
+- sid: s64
+  path: BH-EPA-Grant EDITED > Approach > The Need and the Challenge
+  level: 3
+  words: 130
+- sid: s65
+  path: BH-EPA-Grant EDITED > Approach > Community-driven Design
+  level: 3
+  words: 238
+- sid: s66
+  path: BH-EPA-Grant EDITED > Approach > Evidence-based Design
+  level: 3
+  words: 290
+- sid: s67
+  path: BH-EPA-Grant EDITED > Approach > The Science Team
+  level: 3
+  words: 379
+- sid: s68
+  path: 'BH-EPA-Grant EDITED > Approach > The Approach: Measurement & Modeling'
+  level: 3
+  words: 424
+- sid: s69
+  path: BH-EPA-Grant EDITED > Strategies
+  level: 2
+  words: 190
+- sid: s70
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 1: ROW Tree Planting'
+  level: 3
+  words: 0
+- sid: s71
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 2: Private Tree Planting'
+  level: 3
+  words: 119
+- sid: s72
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 3: Vegetated Buffers'
+  level: 3
+  words: 353
+- sid: s73
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 11: Complete Streets in Industrial Community'
+  level: 3
+  words: 0
+- sid: s74
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 11: Complete Streets in Industrial Community > Traffic Analysis and Technical Assistance'
+  level: 4
+  words: 424
+- sid: s75
+  path: 'BH-EPA-Grant EDITED > Strategies > Strategy 12: Showcase Greening Projects'
+  level: 3
+  words: 246
+- sid: s76
+  path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education
+  level: 3
+  words: 753
+- sid: s77
+  path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education > Sensor Deployment Plan
+  level: 4
+  words: 591
+- sid: s78
+  path: BH-EPA-Grant EDITED > Scope Table
+  level: 2
+  words: 8
+- sid: s79
+  path: BH-EPA-Grant EDITED > MAPS
+  level: 2
+  words: 41
+- sid: s80
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule
+  level: 1
+  words: 5
+- sid: s81
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Introduction
+  level: 2
+  words: 219
+- sid: s82
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Background
+  level: 2
+  words: 140
+- sid: s83
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Phasing
+  level: 2
+  words: 216
+- sid: s84
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination
+  level: 2
+  words: 117
+- sid: s85
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Baseline Model
+  level: 3
+  words: 141
+- sid: s86
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Benchmarking goals and studies
+  level: 3
+  words: 127
+- sid: s87
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Design evaluation
+  level: 3
+  words: 194
+- sid: s88
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Design optimization
+  level: 3
+  words: 98
+- sid: s89
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Impact Estimation of Final 30% Design Development Plans
+  level: 3
+  words: 43
+- sid: s90
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Design coordination > Research
+  level: 3
+  words: 157
+- sid: s91
+  path: Green\Spine\Design\Coordination\Hyphae\Scope\and\Schedule > Future Phases Post 30% Engagement \[NOT IN PRESENT BUDGET\]
+  level: 2
+  words: 182
+- sid: s92
+  path: Harry Hines Evidence-based design methodology report
+  level: 1
+  words: 0
+- sid: s93
+  path: Harry Hines Evidence-based design methodology report > Executive summary
+  level: 2
+  words: 0
+- sid: s94
+  path: Harry Hines Evidence-based design methodology report > Executive summary > Introduction
+  level: 3
+  words: 1090
+- sid: s95
+  path: Harry Hines Evidence-based design methodology report > Design Process, Collaboration and Iteration
+  level: 2
+  words: 192
+- sid: s96
+  path: Harry Hines Evidence-based design methodology report > Monitoring and pre-post study
+  level: 2
+  words: 231
+- sid: s97
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review
+  level: 2
+  words: 0
+- sid: s98
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution
+  level: 3
+  words: 0
+- sid: s99
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Urban Vegetation for Air Quality Improvement
+  level: 4
+  words: 112
+- sid: s100
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Vegetated Air Barriers for Roadside Pollution Mitigation
+  level: 4
+  words: 370
+- sid: s101
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution > Urban Trees for Ambient Pollution Mitigation
+  level: 4
+  words: 130
+- sid: s102
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for Heat Mitigation
+  level: 3
+  words: 135
+- sid: s103
+  path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for Biodiversity
+  level: 3
+  words: 671
+- sid: s104
+  path: Harry Hines Evidence-based design methodology report > Monitoring
+  level: 2
+  words: 0
+- sid: s105
+  path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Hardware
+  level: 3
+  words: 307
+- sid: s106
+  path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Placement
+  level: 3
+  words: 252
+- sid: s107
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology
+  level: 2
+  words: 151
+- sid: s108
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > The cross-sectional hypotheses are
+  level: 3
+  words: 261
+- sid: s109
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > The longitudinal hypotheses are
+  level: 3
+  words: 210
+- sid: s110
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Quantitative methods
+  level: 3
+  words: 1516
+- sid: s111
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Qualitative studies
+  level: 3
+  words: 88
+- sid: s112
+  path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > IRB approval
+  level: 3
+  words: 122
+- sid: s113
+  path: 1-page Concept-vision (Laura Burnham)
+  level: 1
+  words: 566
+- sid: s114
+  path: Letters
+  level: 1
+  words: 1526
+- sid: s115
+  path: Relevant links
+  level: 1
+  words: 4
+section_count: 115
+profiled: '2026-09-25'
+profiler: p2

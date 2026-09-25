@@ -1,0 +1,17 @@
+asset_id: ehcrp-r1-awards-news-2024
+source_path: sources/ehcrp-r1-awards-news-2024/links.md
+source_sha256: 53521e2980915938257bd252c7590a4b98989c196aa14ad45cf6b9ec7ee7a778
+text_sha256: 3b8030444be91eea9e5d06f1ea0760b6b5a56f32bfc11ce977ab990c7102d97b
+words: 106
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 106
+section_count: 1
+profiled: '2026-09-25'
+profiler: p2

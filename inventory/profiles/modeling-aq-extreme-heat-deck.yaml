@@ -1,0 +1,28 @@
+asset_id: modeling-aq-extreme-heat-deck
+source_path: sources/modeling-aq-extreme-heat-deck/modeling-aq-extreme-heat-deck.md
+source_sha256: e7336e0f0ff5c83fc7316d9fe03feeb57ae6eda53dd54a26657cf8aa910038dc
+text_sha256: f1d2d9a2d3df11c0e9604135e029cf9ff6528aa97b78e3762c27188bdaa79c87
+words: 1457
+pii:
+  emails: 0
+  phones: 0
+near_duplicates:
+- asset_id: hyphae-extreme-heat-deck-2024
+  jaccard: 0.307
+  contained_in: 0.545
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 257
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

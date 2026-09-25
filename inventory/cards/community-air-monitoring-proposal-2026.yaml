@@ -1,0 +1,91 @@
+asset_id: community-air-monitoring-proposal-2026
+card:
+  summary: Meeting notes from 2026-04-10 on a community-driven air quality monitoring proposal combining narrative scope (Charles)
+    with a rapid-response technical system (Brent). The team proposes expanding PM2.5 sensor deployment across Richmond, Benicia,
+    Martinez, and Pittsburgh; adding speciated pollutants (formaldehyde, VOCs) from renewable diesel facilities; and deploying
+    a three-tier sampling approach (low-cost sensors, research-grade instruments, lab analysis). Discussion covered grant
+    strategy (separate per-jurisdiction applications with coalition letters), partnerships (academic advisors, Air District
+    technical assistance, community engagement), biomonitoring feasibility, budgeting ($500K–$5M range), and next steps (outreach
+    summary, weekly meetings, partner recruitment).
+  doc_role: working-doc
+  authorship: Hyphae team (Juan Penaloza Gutierrez, Brent Bucknum, Charles Davidson, Annie Beaman, Ivan Heitmann) + external
+    advisors
+  disposition: hold
+  disposition_reason: Early-stage proposal planning for air-quality monitoring grant with detailed technical scope, method
+    design, and partnership strategy; contains reusable capability and method elements for community-science monitoring and
+    rapid-response deployment frameworks; planning insights applicable to future environmental justice proposals.
+  serves_needs: []
+  sections:
+  - sid: s2
+    path: 2026-04-10 - Community Air Monitoring Proposal > ✨ Summary
+    type: notes
+    reuse_value: high
+    note: Consolidated summary of three-year community-driven air-quality monitoring plan combining PM2.5 deployment, speciated
+      pollutants (aldehydes, VOCs), and rapid-response system; geographic scope (Rodeo, Richmond, Benicia, Martinez, Pittsburgh);
+      technical approach with low-cost and research-grade instrumentation.
+  - sid: s8
+    path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Speciated Pollutants and Indoor/Outdoor Sampling
+    type: method
+    reuse_value: high
+    note: Rationale for measuring reactive VOCs and aldehydes from renewable diesel facilities; proposed Miro laser spectrometer
+      use for targeted assessments; linkage between monitoring and indoor harm-reduction measures.
+  - sid: s9
+    path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Rapid Response System Design and Sensor Tiers
+    type: method
+    reuse_value: high
+    note: Three-tier sampling hierarchy (low-cost sensors, research-grade instruments Miro Pico/UFP/black carbon, bag sampling);
+      wind-sensor integration for source attribution; mobile GCMS capability for acute response.
+  - sid: s11
+    path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Grant Strategy and Partners
+    type: capability
+    reuse_value: medium
+    note: Multi-jurisdictional grant strategy requiring separate but linked applications; emphasis on coalition strength,
+      letters of support, academic advisors, and Air District technical assistance for proposal credibility.
+  - sid: s13
+    path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Partnership with Heidi and Outreach Roles
+    type: partner-role
+    reuse_value: medium
+    note: 'Community partnership model: proposal team handles grant administration and technical work; partners engaged in
+      outreach and sensor placement without administrative burden; dual-track approach (chronic monitoring + acute incident
+      response).'
+  - sid: s18
+    path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Budgeting and Rapid-Response Model
+    type: method
+    reuse_value: medium
+    note: Equipment-heavy budgeting approach for deployable rigs and mobile GCMS; trained, paid on-call community-response
+      roster for hours-level incident deployment; order-of-magnitude funding targets for $500K–$5M opportunity category.
+  fact_candidates:
+  - 's2: Three-year community-driven monitoring expansion planned across Richmond, Benicia, Martinez, Pittsburgh.'
+  - 's2: Technical approach emphasizes PM2.5 low-cost sensor deployment plus research-grade instruments.'
+  - 's8: Formaldehyde and aldehydes identified as priority reactive gaseous contaminants from renewable diesel refineries.'
+  - 's9: Three-tier system includes low-cost sensors, research-grade instruments (Miro Pico, UFP, black carbon), and bag sampling
+    for lab analysis.'
+  - 's10: Wind data and drone cylinder sampling planned to replicate air-district methods and estimate refinery emissions.'
+  - 's11: Grant funding likely requires separate but conceptually linked applications per jurisdiction with coalition letters
+    of support.'
+  - 's11: Team will seek technical assistance from Air District and engage academic and retired EPA advisors.'
+  - 's14: Annie pursuing parallel People''s Air Grant for household interventions (native plants, air filters, workshops)
+    spanning Rodeo to Martinez.'
+  - 's18: Budget positioned for $500K–$5M opportunity category; deployable rapid-response team with on-call pay proposed.'
+  - 's25: Weekly Friday meetings scheduled through submission date with Wednesday agenda distribution.'
+  flags:
+  - meeting-note format; full transcript (s27) present but exceeds 120-word section-opening limit
+  - contact data redacted ([email]/[phone]) per policy
+  - near-duplicates with later drafts possible; asset_id dated 2026-04-10 matches meeting date
+  - excerpt too thin to judge full proposal narrative (Charles's original document not included)
+  - geographic scope (Richmond–Antioch) unresolved per key questions; Antioch inclusion status unclear
+  - biomonitoring scope deferred (feasibility and funding not finalized)
+  - proposal is still in planning/coordination phase; no submitted application text yet to extract
+  - no Bay Point or Ambrose site mention; not directly relevant to LCI EHCRP active solicitation but may inform environmental-justice
+    capacity
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 36c0d04776af6a7020bab0eb1ab6468ce4257592952eb211e913591f0d865def
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 8810
+    output: 1354
+    cache_read: 0
+    cache_write: 0

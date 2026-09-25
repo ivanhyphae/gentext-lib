@@ -1,0 +1,337 @@
+asset_id: past-proposals-doc
+source_path: sources/past-proposals-doc/past-proposals-doc.md
+source_sha256: f6c1f5bef4eea030d3d6b581140930800f0843b5fec667f4a9f2996c52f34a5a
+text_sha256: 9e1b6edbb999f32a548ff3f9b3a607c3b9420a5ceca73acc6c9cbb359faea6ce
+words: 18539
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Overview of past proposals
+  level: 1
+  words: 521
+- sid: s2
+  path: Qualifications
+  level: 1
+  words: 37
+- sid: s3
+  path: Hyphae Description
+  level: 1
+  words: 0
+- sid: s4
+  path: Hyphae Description > From CMEJ-MPCA Grant
+  level: 2
+  words: 124
+- sid: s5
+  path: Hyphae Description > From CMEJ Google Data Grant
+  level: 2
+  words: 138
+- sid: s6
+  path: Hyphae Description > From Boyal Heights
+  level: 2
+  words: 1
+- sid: s7
+  path: Hyphae Description > From Boyal Heights > Community-driven Design
+  level: 3
+  words: 199
+- sid: s8
+  path: Hyphae Description > From Boyal Heights > Evidence-based Design
+  level: 3
+  words: 290
+- sid: s9
+  path: Hyphae Description > From Boyal Heights > The Science Team
+  level: 3
+  words: 188
+- sid: s10
+  path: Hyphae Description > From Endless Frontier Proposal
+  level: 2
+  words: 2115
+- sid: s11
+  path: Firm Experience
+  level: 1
+  words: 47
+- sid: s12
+  path: Firm Experience > Prescott Greening
+  level: 3
+  words: 135
+- sid: s13
+  path: Firm Experience > Prescott Greening > Richmond
+  level: 3
+  words: 112
+- sid: s14
+  path: Firm Experience > Prescott Greening > Stockton
+  level: 3
+  words: 119
+- sid: s15
+  path: Firm Experience > Prescott Greening > Depave LA
+  level: 3
+  words: 98
+- sid: s16
+  path: Firm Experience > Prescott Greening > STEP
+  level: 3
+  words: 103
+- sid: s17
+  path: Firm Experience > Prescott Greening > Dallas
+  level: 3
+  words: 82
+- sid: s18
+  path: Firm Experience > Prescott Greening > NSF SBIR
+  level: 3
+  words: 270
+- sid: s19
+  path: Firm Experience > Prescott Greening > Greenheart
+  level: 3
+  words: 303
+- sid: s20
+  path: Letters of support
+  level: 1
+  words: 121
+- sid: s21
+  path: Community Engagement
+  level: 1
+  words: 77
+- sid: s22
+  path: Neighborship RFP - Bio-remediation services
+  level: 1
+  words: 462
+- sid: s23
+  path: Neighborship RFP – Community Engagement Services
+  level: 1
+  words: 1480
+- sid: s24
+  path: Rodeo
+  level: 1
+  words: 653
+- sid: s25
+  path: 'Rodeo > 2.1: Phased Community Engagement and PurpleAir Deployment in Contra Costa'
+  level: 2
+  words: 186
+- sid: s26
+  path: 'Rodeo > 2.2: Phased Community Engagement and PurpleAir Deployment in Vallejo'
+  level: 2
+  words: 29
+- sid: s27
+  path: 'Rodeo > 2.3: Research Council Development and Alignment with Air District (AD) Technical Goals'
+  level: 2
+  words: 36
+- sid: s28
+  path: 'Rodeo > 2.4 - 2.8: Technical Project Specifications and Equipment Procurement'
+  level: 2
+  words: 222
+- sid: s29
+  path: 'Rodeo > 2.9 - 2.11: Form a Community Science Research Council'
+  level: 2
+  words: 248
+- sid: s30
+  path: 'Rodeo > 2.12: Develop Video Content for Community Outreach'
+  level: 2
+  words: 37
+- sid: s31
+  path: Arlington Park - EPA Grant
+  level: 1
+  words: 231
+- sid: s32
+  path: Arlington Park - EPA Grant > Community Co-Design Approach
+  level: 2
+  words: 517
+- sid: s33
+  path: Monitoring
+  level: 1
+  words: 95
+- sid: s34
+  path: Rodeo
+  level: 1
+  words: 824
+- sid: s35
+  path: Rodeo > Type of Monitoring Proposed
+  level: 2
+  words: 361
+- sid: s36
+  path: Rodeo > Initial Monitoring Locations
+  level: 2
+  words: 108
+- sid: s37
+  path: Rodeo > Parameters and Type of Data to be Collected
+  level: 2
+  words: 127
+- sid: s38
+  path: Rodeo > Data Collection Personnel
+  level: 2
+  words: 57
+- sid: s39
+  path: Rodeo > Monitoring Duration
+  level: 2
+  words: 112
+- sid: s40
+  path: Rodeo > Feedback with sensors
+  level: 2
+  words: 229
+- sid: s41
+  path: Rodeo > Monitoring Subtasks
+  level: 2
+  words: 0
+- sid: s42
+  path: Rodeo > Monitoring Subtasks > UAV Sensors Deployment
+  level: 3
+  words: 191
+- sid: s43
+  path: Rodeo > Monitoring Subtasks > Locating Fixed Sensors Deployment
+  level: 3
+  words: 311
+- sid: s44
+  path: Rodeo > Monitoring Subtasks > Expected Needs and Benefits
+  level: 3
+  words: 132
+- sid: s45
+  path: Rodeo > Monitoring Subtasks > Previous, ongoing, and proposed air monitoring and gaps that this community air monitoring will address
+  level: 3
+  words: 490
+- sid: s46
+  path: Rodeo > Objectives that will address the stated community-specific purpose for air monitoring
+  level: 2
+  words: 126
+- sid: s47
+  path: Rodeo > Supporting measurements
+  level: 2
+  words: 64
+- sid: s48
+  path: Rodeo > Roles and Responsibilities
+  level: 2
+  words: 173
+- sid: s49
+  path: Arlington Park - EPA Grant
+  level: 1
+  words: 266
+- sid: s50
+  path: Arlington Park - EPA Grant > Sensor Deployment
+  level: 2
+  words: 961
+- sid: s51
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators
+  level: 2
+  words: 26
+- sid: s52
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators > Phase 1 Monitoring
+  level: 4
+  words: 55
+- sid: s53
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators > Phase 1 Monitoring > Phase 2 Monitoring
+  level: 4
+  words: 163
+- sid: s54
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators > Phase 1 Monitoring > Phase 3 Monitoring
+  level: 4
+  words: 23
+- sid: s55
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators > Phase 1 Monitoring > Data Collection Methods
+  level: 4
+  words: 94
+- sid: s56
+  path: Arlington Park - EPA Grant > Measurement of environmental indicators > Phase 1 Monitoring > Data Analysis and Modeling
+  level: 4
+  words: 121
+- sid: s57
+  path: Modeling
+  level: 1
+  words: 54
+- sid: s58
+  path: Rodeo
+  level: 1
+  words: 210
+- sid: s59
+  path: Rodeo > Approach
+  level: 2
+  words: 393
+- sid: s60
+  path: Rodeo > Approach > Wind Modeling
+  level: 3
+  words: 513
+- sid: s61
+  path: Rodeo > Approach > Pollution Modeling
+  level: 3
+  words: 680
+- sid: s62
+  path: Arlington Park - EPA Grant
+  level: 1
+  words: 4
+- sid: s63
+  path: Arlington Park - EPA Grant > Modeling
+  level: 2
+  words: 73
+- sid: s64
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model'
+  level: 4
+  words: 184
+- sid: s65
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Modeling: Simulating Interventions and Predicting Impacts'
+  level: 4
+  words: 22
+- sid: s66
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Modeling: Simulating Interventions and Predicting Impacts > 1\. Developing a Range of Models'
+  level: 5
+  words: 131
+- sid: s67
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Modeling: Simulating Interventions and Predicting Impacts > 2\. Calibrating and Validating the Models'
+  level: 5
+  words: 55
+- sid: s68
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Modeling: Simulating Interventions and Predicting Impacts > 3\. Testing Different Scenarios'
+  level: 5
+  words: 125
+- sid: s69
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes'
+  level: 4
+  words: 11
+- sid: s70
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes > 1\. Evidence-Based Decision-Making'
+  level: 5
+  words: 33
+- sid: s71
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes > 2\. Optimization of Interventions'
+  level: 5
+  words: 46
+- sid: s72
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes > 3\. Cost-Effectiveness'
+  level: 5
+  words: 30
+- sid: s73
+  path: 'Arlington Park - EPA Grant > Modeling > Data Collection: The Foundation of the Model > Outcomes > 4\. Community Engagement'
+  level: 5
+  words: 216
+- sid: s74
+  path: Greening
+  level: 1
+  words: 36
+- sid: s75
+  path: Arlington Park - EPA Grant
+  level: 1
+  words: 4
+- sid: s76
+  path: Arlington Park - EPA Grant > Active Multimodal Connectivity Planning
+  level: 2
+  words: 474
+- sid: s77
+  path: Arlington Park - EPA Grant > Showcase greening projects
+  level: 2
+  words: 59
+- sid: s78
+  path: Arlington Park - EPA Grant > Showcase greening projects > Key Strategies Inspired by the Boyle Heights Project
+  level: 3
+  words: 194
+- sid: s79
+  path: Arlington Park - EPA Grant > Showcase greening projects > Addressing Unique Challenges and Community Needs
+  level: 3
+  words: 157
+- sid: s80
+  path: Arlington Park - EPA Grant > Showcase greening projects > Measuring and Evaluating Impact
+  level: 3
+  words: 90
+- sid: s81
+  path: Arlington Park - EPA Grant > Showcase greening projects > Integrating with the Green Spine Project
+  level: 3
+  words: 56
+section_count: 81
+profiled: '2026-09-25'
+profiler: p2

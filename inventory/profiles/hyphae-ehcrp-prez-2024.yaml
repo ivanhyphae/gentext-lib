@@ -1,0 +1,33 @@
+asset_id: hyphae-ehcrp-prez-2024
+source_path: sources/hyphae-ehcrp-prez-2024/hyphae-ehcrp-prez-2024.md
+source_sha256: 69c67f3f1a16d2fb21c4481ef01fb89c13c3b19bcc70fa1a52685af99e91628a
+text_sha256: 1a3e0785ff7a46b5935e4fd6839af2395c28ec9a09f90e03f3245b7eb3a8ce0b
+words: 2657
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 257
+section_count: 5
+profiled: '2026-09-25'
+profiler: p2

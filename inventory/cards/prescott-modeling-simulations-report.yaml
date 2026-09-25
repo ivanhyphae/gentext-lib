@@ -1,0 +1,150 @@
+asset_id: prescott-modeling-simulations-report
+card:
+  summary: Technical report documenting computational fluid dynamics (CFD) modeling and air quality simulations for the Prescott
+    project in West Oakland, evaluating traffic scenario impacts on pollution exposure. Includes detailed methodology for
+    domain generation, emissions calibration using StreetLight and EMFAC data, vehicle-induced turbulence (VIT) modeling,
+    and results presentation. Contains extensive protocol documentation, meeting logs spanning January–December 2024, and
+    internal team discussions on simulation refinement and community communication strategy.
+  doc_role: report
+  authorship: Hyphae Design Lab (Ivan Heitmann, Juan Penaloza Gutierrez, Mei Visco, Brent Bucknum)
+  disposition: hold
+  disposition_reason: Contains reusable method documentation for CFD/air quality modeling (domain generation, emissions calibration,
+    traffic data integration) and quantitative outcomes (simulation scenarios, emission factors, VIT protocols) applicable
+    to other urban air quality and heat assessment projects. Methodology sections and protocol details are extractable library
+    chunks for lib-methods.
+  serves_needs:
+  - need_id: lib-methods
+    how: 'Detailed CFD and air quality modeling protocols: domain generation (buildings, terrain, vegetation voxelization),
+      StreetLight traffic data integration, EMFAC emission factors, vehicle-induced turbulence calibration, temporal emission
+      profiles, scenario analysis framework.'
+  sections:
+  - sid: s21
+    path: Simulation Methodology > Subject > Essential subject matter > Table of Simulations
+    type: method
+    reuse_value: high
+    note: Explicit matrix of six simulation scenarios (No Veg, Existing Vegetation, CalTrans+Plantable, CalTrans+Road Diet,
+      Road Diet Only, Soundwall Only) with parameters; template for comparative design scenario modeling.
+  - sid: s31
+    path: Simulation Methodology > Protocol > Domain generation > Building volumes
+    type: method
+    reuse_value: medium
+    note: Reproducible procedure for converting OpenStreetMap outlines to CFD-ready building meshes via LiDAR segmentation,
+      gap-merging, and height averaging; transferable to other urban domains.
+  - sid: s32
+    path: Simulation Methodology > Protocol > Domain generation > Terrain
+    type: method
+    reuse_value: medium
+    note: CloudCompare-based DEM decimation using geometric linearity property for adaptive point density at terrain edges;
+      reusable data processing workflow.
+  - sid: s33
+    path: Simulation Methodology > Protocol > Domain generation > Vegetation and Canopy
+    type: method
+    reuse_value: high
+    note: Multi-tiered vegetation representation (on-site surveys, voxelized category models, LiDAR point cloud leaf-area
+      density); applicable to UTCI and microclimate simulations.
+  - sid: s34
+    path: Simulation Methodology > Protocol > Domain generation > Coordinate System
+    type: method
+    reuse_value: medium
+    note: UTM 10N (EPSG:26910) offset and rotation protocol (560,000m, 4,184,000m, –32°); replicable geospatial framework.
+  - sid: s36
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Introduction
+    type: method
+    reuse_value: high
+    note: Framework integrating StreetLight traffic data, EMFAC emission factors, VIT estimation from vehicle speed/size/count;
+      core method for air quality scenario modeling.
+  - sid: s37
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Comparison of familiar approaches
+    type: method
+    reuse_value: medium
+    note: Comparative table (AERMOD/BAAQMD, ENVI-met, Dallas OpenFOAM, Proposed Method) documenting vehicle types, quantity
+      sources, diurnal profiling; justifies method choice.
+  - sid: s43
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Traffic Parameter Preparation Procedure > 1. Obtain Traffic Data from StreetLight > Vehicle Classification
+    type: method
+    reuse_value: medium
+    note: FHWA vehicle category mapping (LD, MD, HD) and StreetLight's machine-learning truck volume metrics; basis for emissions
+      differentiation.
+  - sid: s44
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Traffic Parameter Preparation Procedure > 1. Obtain Traffic Data from StreetLight > Zone Activity Analysis
+    type: method
+    reuse_value: high
+    note: Procedure for extracting road-segment traffic counts, moving speeds, and temporal variations (hourly, weekday/weekend)
+      from StreetLight; directly applicable to other regional studies.
+  - sid: s50
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Traffic Parameter Preparation Procedure > 2. Calculate Emission Rates Using EMFAC > Define the Scope of the Analysis
+    type: method
+    reuse_value: high
+    note: 'Step-by-step EMFAC configuration for regional emissions modeling: county selection, vehicle category, fuel type,
+      speed, analysis year, season; reusable protocol.'
+  - sid: s51
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Traffic Parameter Preparation Procedure > 2. Calculate Emission Rates Using EMFAC > Select Matching Vehicle Categories
+    type: method
+    reuse_value: medium
+    note: Alignment of StreetLight and EMFAC vehicle classes (Non-Trucks, Truck 1 [GVWR 8.5–14k lbs], Truck 2 [>14k lbs])
+      with pollutants NOx, PM2.5, CO2; ensures consistency in emissions factors.
+  - sid: s54
+    path: Simulation Methodology > Protocol > Methods for Calibrating Emission Rates & Vehicle-Induced Turbulence (VIT) >
+      Traffic Parameter Preparation Procedure > 3. Convert Traffic Data into VIT and Emission Inputs for CFD
+    type: method
+    reuse_value: high
+    note: 'Integration procedure: VIT estimation from speed, vehicle size, count; emission source terms (g/s) from traffic
+      counts and EMFAC; temporal emission profiles for diurnal variation.'
+  - sid: s75
+    path: Urban Built Environment Simulations
+    type: method
+    reuse_value: medium
+    note: Literature-grounded rationale for meso- and micro-scale CFD in urban contexts; contextualizes use of meter-to-submeter
+      resolution for building, street, and vegetation flow interactions.
+  fact_candidates:
+  - 's4: Port of Oakland evaluating revision to freight truck traffic patterns in West Oakland, focus area Frontage Rd.'
+  - 's4: 2024-Q4 efforts quantify impacts of different traffic scenarios on exposure levels for West Oakland residents.'
+  - 's21: Six 2024a simulation scenarios: No Veg, Existing Vegetation, CalTrans+Plantable, CalTrans+Road Diet, Road Diet Only,
+    Soundwall Only.'
+  - 's31: Building mesh generation uses OpenStreetMap outlines clipped by LiDAR segmentation; gaps <3m merged; 0.5 m near-building
+    mesh refinement zone.'
+  - 's32: DEM point decimation uses CloudCompare linearity property (0–1 scale, log-transformed) with 2 m radius for adaptive
+    edge detection.'
+  - 's33: Vegetation representation includes on-site surveys (specific locations, spread, height), 3–5 category voxel models,
+    and LiDAR leaf-area-density grids.'
+  - 's34: Domain coordinate system: UTM 10N (EPSG:26910), offset 560,000 m E / 4,184,000 m N, rotation –32° counterclockwise,
+    NAVD88 vertical datum (0.3048 multiplier from feet).'
+  - 's36: VIT and emissions calibrated from StreetLight traffic (counts, speed, vehicle class) and EMFAC emission factors
+    (running exhaust, brake, tire wear, road dust).'
+  - 's43: StreetLight vehicle classes: Light-duty (FHWA 1–3), Medium-duty (4–6), Heavy-duty (7–13); based on machine-learning
+    prediction models.'
+  - 's44: StreetLight Zone Activity outputs: vehicle volumes (all, MD, HD), moving speeds, temporal profiles (hourly, weekday/weekend);
+    LD calculated as residual.'
+  - 's50: EMFAC 2021 configured for Alameda County, California; models years to 2050; supports selection by vehicle type,
+    fuel, speed, season, analysis year.'
+  - 's82: 2024-12-05 WOEIP presentation attended by community and team; main themes: health improvements, traffic levels,
+    model validation.'
+  flags:
+  - 'excerpt too thin to judge: sections s5–s9, s10–s30 contain only outline headers or image references; content depth unclear.'
+  - 'internal/candid notes: meeting logs (s79–s115) contain email addresses [redacted], team resource allocation, budget discussions,
+    and informal decision-making.'
+  - 'possibly outdated: methodology coordination with BAAQMD (s38) references ''Owning our Air'' emissions factors pending
+    revision; current status of AQMD updates not confirmed in excerpts.'
+  - 'context leakage risk: internal team discussions (s82–s83, s91) reveal stakeholder concerns about messaging (e.g., community
+    risk of ''just say remove all trucks''), suitable for internal reference only.'
+  - 'incomplete work flagged in logs: s52 notes ''NEED TO UPDATE. Includes running exhaust factor. Missing brake and tire
+    wear PM emission factors. Add missing vehicle categories.'''
+  - 'near-duplicate or reference: s68 Summary > References (35 words) mentions academic publications but content not visible
+    in excerpt; s75 cites Pantusheca et al. 2022, Lucas et al. 2016, Blocken et al. 2016 for CFD methodological grounding.'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: ba1baf65b5766fe30c451b70a7f541c5ba853316e86722290958f94ccedeaec5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 15205
+    output: 2370
+    cache_read: 0
+    cache_write: 0

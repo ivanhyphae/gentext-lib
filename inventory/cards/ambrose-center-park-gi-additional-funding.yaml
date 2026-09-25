@@ -1,0 +1,57 @@
+asset_id: ambrose-center-park-gi-additional-funding
+card:
+  summary: 'Grant narrative for Phase 2 funding of Ambrose Center Park green infrastructure project. Describes stormwater
+    structure additions, monitoring program expansion, and community engagement via volunteer workdays. 1,122 words across
+    two sections on project description and implementation. Owner: james@hyphae.net, modified 2024-11-14.'
+  doc_role: submitted-proposal
+  authorship: Hyphae (James); executed by CCRCD
+  disposition: hold
+  disposition_reason: Contains site description, ARPD partnership track record with prior project outcomes, and community
+    engagement strategy directly relevant to EHCRP R2 applications at same site (Ambrose Center Park). Successful prior phase
+    demonstrates partner capacity.
+  serves_needs:
+  - need_id: pt-q2
+    how: 'Documents CCRCD partnership track record: prior Phase 1 completion, volunteer workday strategy, community outreach
+      model.'
+  - need_id: lib-site-bay-point
+    how: Site-specific details on Ambrose Center Park green infrastructure interventions, stormwater goals, and community
+      context.
+  - need_id: ambrose-center-park-gsi-grant-applications
+    how: This is a successful GSI grant application narrative for Ambrose Center Park; demonstrates funded capacity and outcomes.
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: 'Phase 2 project description: stormwater structures, pollution removal, flood protection goals, monitoring program
+      design. Demonstrates completed Phase 1 and scaling strategy.'
+  - sid: s2
+    path: part 2
+    type: partner-role
+    reuse_value: medium
+    note: CCRCD implementation team, volunteer community workdays, community reconnection strategy, environmental stewardship
+      framing. Shows partner role and engagement approach.
+  fact_candidates:
+  - Phase 1 initial grant submittal completed; Phase 2 adds stormwater structures
+  - Phase 2 includes comprehensive monitoring program for water quality and pollutant reduction metrics
+  - CCRCD plans volunteer community workdays throughout project period
+  - Service-learning workdays aimed at community understanding of watershed need and value
+  - Ambrose Community Center identified as local anchor institution
+  - Project addresses stormwater pollution removal and flood protection goals
+  - Community engagement strategy includes native plant planting and watershed reconnection
+  flags:
+  - Excerpt too thin to judge (s2 cut mid-sentence, ~120-word limit)
+  - 'Near-duplicate flagged: 73% overlap with ccrcd-epa-sfbwqif-narrative; verify which is source or if both are needed'
+  - No explicit harm-reduction framing or community voice quotes visible in excerpts
+  - No mention of timing, budget, or specific deliverables beyond 'Phase 2' scope
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: ea04360592b6bf47df2ff2522cdd6cfe8974bfd3325ad96af000595ad561bca8
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2987
+    output: 625
+    cache_read: 0
+    cache_write: 0

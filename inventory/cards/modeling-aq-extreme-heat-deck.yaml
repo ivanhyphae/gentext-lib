@@ -1,0 +1,61 @@
+asset_id: modeling-aq-extreme-heat-deck
+card:
+  summary: 'Presentation deck on modeling methods for air quality and extreme heat in urban environments. Demonstrates UTCI
+    thermal comfort modeling at microclimate scale; shows applications in West Oakland (Prescott) and Dallas (Love Field).
+    Three sections: community-led revitalization framework with baseline air quality modeling; satellite thermal imaging of
+    urban heat islands; validation of microclimate simulations with scenario comparisons (tree removal, grove planting). Total
+    1,457 words; near-duplicate of hyphae-extreme-heat-deck-2024 (54%).'
+  doc_role: presentation
+  authorship: Hyphae (internal methodology presentation)
+  disposition: hold
+  disposition_reason: Contains reusable method text on UTCI modeling, thermal comfort quantification, and scenario validation
+    at microclimate scale; glossary entry for UTCI expansion needed; can extract canonical method language and visual explanation
+    for lib-methods. Thin excerpt evidence, but metadata and structure confirm methodological depth.
+  serves_needs:
+  - need_id: lib-methods
+    how: UTCI thermal comfort modeling workflow, satellite + ground-based monitoring, scenario-based design validation documented
+      with case examples (West Oakland, Dallas)
+  sections:
+  - sid: s3
+    path: part 3
+    type: method
+    reuse_value: high
+    note: UTCI thermal comfort quantification across scenarios; microclimate-scale validation process; measurable outcomes
+      (e.g., 15° grid grove improvement); human-centered thermal comfort interpretation
+  - sid: s2
+    path: part 2
+    type: method
+    reuse_value: medium
+    note: Satellite thermal imaging method (Landsat 8 LST, 50–100m resolution, multi-day pass); urban heat island mapping
+      by zone; monitoring and analysis workflow
+  - sid: s1
+    path: part 1
+    type: method
+    reuse_value: medium
+    note: 'ADAPT framework cycle: model baseline, design interventions, build, monitor; air quality baseline modeling at 7th
+      St. underpass (Prescott); optimization before infrastructure spend'
+  fact_candidates:
+  - 's1: 7th St. underpass in West Oakland (Prescott neighborhood) modeled for air quality baseline'
+  - 's2: Warm season daily high temperatures Dallas zones range 43.1–45.5 °C (Landsat 8 LST, July 17, 2020, ~11 AM)'
+  - 's2: Love Field Airport identified in Dallas urban heat island study'
+  - 's2: Satellite resolution 50–100 m with multi-day pass frequency'
+  - 's3: Grid grove scenario shows 15 °F thermal comfort improvement across large percentage of path and surrounding areas'
+  - 's3: Mature tree removal in median reduces thermal comfort significantly in roadway'
+  - 's3: Small tree planting near sites shows slight thermal comfort improvement'
+  - 's3: UTCI scale in presentation is °F (Fahrenheit)'
+  flags:
+  - excerpt too thin to judge section-level detail and reuse readiness; full deck needed for complete method extraction
+  - near-duplicate of hyphae-extreme-heat-deck-2024 (54%); consolidation may be needed
+  - UTCI glossary entry missing expansion/definition in excerpt; confirm canonical form
+  - unclear whether Dallas Love Field case is Hyphae project or external reference; attribution needed for reuse
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: f1d2d9a2d3df11c0e9604135e029cf9ff6528aa97b78e3762c27188bdaa79c87
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3366
+    output: 741
+    cache_read: 0
+    cache_write: 0

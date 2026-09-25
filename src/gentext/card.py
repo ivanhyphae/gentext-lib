@@ -27,7 +27,7 @@ CARD_DIR = Path("inventory/cards")
 PROMPT_DIR = Path("build/card-prompts")
 RUN_LOG = Path("inventory/card-runs.yaml")
 MODEL = "claude-haiku-4-5"
-PROMPT_VERSION = "c2"
+PROMPT_VERSION = "c3"
 HEAD_WORDS = 120
 MAX_HEAD_WORDS_TOTAL = 5000
 MAX_TOKENS = 4000
@@ -52,6 +52,7 @@ class NeedHit(_M):
 
 
 class SectionCard(_M):
+    sid: str
     path: str
     type: SectionType
     reuse_value: Reuse
@@ -80,7 +81,8 @@ def _schema() -> dict:
             if node.get("type") == "object":
                 node["additionalProperties"] = False
                 node["required"] = list(node.get("properties", {}))
-            node.pop("title", None)
+            if isinstance(node.get("title"), str):  # drop schema annotations, never a property named "title"
+                node.pop("title")
             for v in node.values():
                 fix(v)
         elif isinstance(node, list):
@@ -135,7 +137,9 @@ Section types: project-case, capability, network, site-context, need-statement, 
 template, boilerplate, solicitation-text, evidence-data, admin, notes, other.
 
 Rules:
-- List in `sections` only sections with reuse_value high or medium (use the exact path strings given). Omit the rest.
+- List in `sections` only sections with reuse_value high or medium. Identify each by its section id (`sid`, e.g. "s12",
+  shown in square brackets before the path) and copy its path. Omit the rest.
+- Match wanted-asset need ids only when this document IS or directly CONTAINS that asset, not when it is merely related.
 - `serves_needs` uses need_id values from the needs list below; include only real matches, with a one-line why.
 - `fact_candidates`: at most 12 short, specific, checkable claims visible in the excerpts (numbers, dates, dollar
   amounts, named outcomes), each prefixed with its section path. Copy facts; never infer or invent them.
@@ -169,7 +173,7 @@ def build_user_message(asset: inv.Asset) -> tuple[str, str]:
             budget -= min(HEAD_WORDS, sections[i].words)
     out = ["DOCUMENT METADATA", json.dumps(meta, ensure_ascii=False, indent=1), "", "OUTLINE AND SECTION OPENINGS"]
     for i, s in enumerate(sections):
-        out.append(f"\n## {s.path}  [{s.words} words]")
+        out.append(f"\n## [s{i + 1}] {s.path}  [{s.words} words]")
         if i in with_head:
             out.append(redact(s.head(HEAD_WORDS)) + (" …" if s.words > HEAD_WORDS else ""))
     msg = "\n".join(out)

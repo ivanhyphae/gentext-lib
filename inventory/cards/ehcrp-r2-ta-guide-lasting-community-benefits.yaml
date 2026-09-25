@@ -1,87 +1,74 @@
 asset_id: ehcrp-r2-ta-guide-lasting-community-benefits
 card:
-  summary: 'LCI EHCRP Round 2 technical assistance guide on Lasting Community Benefits (LCB), one of four program values.
-    Explains that competitive projects must extend beyond individual infrastructure, building momentum for additional investment
-    through planning documents (Early Infrastructure) or Implementation Playbooks (Advanced Infrastructure). Covers five strategy
-    types: Policy Change, Thoughtful Planning, New Programs, Effective Infrastructure, and evaluation frameworks. Includes
-    sample metrics across heat impact, belonging, implementation, and systemic change categories.'
+  summary: LCI EHCRP Round 2 technical-assistance guide on Lasting Community Benefits as a program value. Explains the requirement
+    for Early Infrastructure projects to produce a heat-related Planning Document; defines four types of lasting-benefit strategies
+    (policy change, thoughtful planning, new programs, effective infrastructure); provides sample metrics across heat impact,
+    belonging, implementation, and systemic change categories. 1,380 words across 14 sections.
   doc_role: guidance
   authorship: LCI (Extreme Heat and Community Resilience Program)
   disposition: reference
-  disposition_reason: Authoritative TA guide defining LCB program requirements and evaluation criteria; essential reference
-    for framing lcb-q1 but not prose to reuse. Applicants must understand planning document expectations and metric frameworks.
+  disposition_reason: Authoritative TA guidance defining lcb-q1 requirements and evaluation framework. Not reusable as proposal
+    prose, but essential to check against when drafting Lasting Community Benefits sections. Clarifies that a Planning Document
+    is a central deliverable, not an afterthought, and provides metric examples to guide design.
   serves_needs:
   - need_id: lcb-q1
-    how: Defines LCB as program value; requires Planning Document (Early) or Implementation Playbook (Advanced); lists five
-      strategy categories and sample metrics for tracking outcomes; guides how infrastructure planning drives future investment
-      and community support.
+    how: 'Directly addresses LCB Q1 (350 words): defines lasting community benefits as program value; requires a Planning
+      Document for Early Infrastructure projects; lists four strategies (policy, planning, programs, infrastructure) with
+      examples; specifies metrics framework for tracking outcomes over time.'
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: This is TA guide material; complements webinars and office-hours Q&A by providing written reference on LCB expectations.
   sections:
-  - path: 'What You Need To Know: > Understanding Lasting Community Benefits as a Program Value'
+  - sid: s3
+    path: 'What You Need To Know: > Understanding Lasting Community Benefits as a Program Value'
     type: need-statement
-    reuse_value: high
-    note: Core definition of LCB value; explains planning document requirement and leverage strategy for scaling infrastructure.
-  - path: 'What You Need To Know: > Types of Lasting Community Benefits'
+    reuse_value: medium
+    note: Defines LCB as program value; explains planning document requirement; connects to long-term resilience and community-driven
+      momentum. Useful for framing LCB section of application.
+  - sid: s4
+    path: 'What You Need To Know: > Types of Lasting Community Benefits'
     type: method
     reuse_value: high
-    note: Five strategy types (Policy Change, Thoughtful Planning, New Programs, Effective Infrastructure, Systemic Change)
-      with examples; directly applicable to project design.
-  - path: 'What You Need To Know: > Effective Infrastructure'
+    note: 'Framework of four strategy types with examples: policy change, thoughtful planning, new programs, effective infrastructure.
+      Directly scaffolds lcb-q1 answer structure.'
+  - sid: s8
+    path: 'What You Need To Know: > Effective Infrastructure'
     type: method
     reuse_value: medium
-    note: Infrastructure examples (cooling, sensors, shade) with scaling/replication framing; discussion prompts on governance
-      and community stewardship.
-  - path: 'What You Need To Know: > Evaluating Lasting Community Benefits'
+    note: Examples of scalable/replicable cooling infrastructure and monitoring systems; includes prompts on governance, community
+      stewardship, long-term care—useful for Bay Point planning.
+  - sid: s9
+    path: 'What You Need To Know: > Evaluating Lasting Community Benefits'
     type: method
     reuse_value: high
-    note: 'Three-step framework: envision outcomes, translate to measurable indicators, plan tracking (who/how/when); aligns
-      with lcb-q1 requirement for metrics.'
-  - path: 'What You Need To Know: > Heat Impact and Mitigation'
-    type: evidence-data
-    reuse_value: medium
-    note: 'Sample metrics: canopy cover %, surface temp reduction °F, shade hours, heat-stress reduction; checkable outcome
-      indicators.'
-  - path: 'What You Need To Know: > Belonging and Community Benefits'
-    type: evidence-data
-    reuse_value: medium
-    note: 'Sample metrics: population reached, exposure reduction, satisfaction, engagement counts, program attendance; community-facing
-      outcomes.'
-  - path: 'What You Need To Know: > Implementation and Performance'
-    type: evidence-data
-    reuse_value: medium
-    note: 'Sample metrics: tree survival rates (1 and 3 years), infrastructure counts (sq. ft. pavement, structures built);
-      maintenance and durability.'
-  - path: 'What You Need To Know: > Systemic Change'
-    type: evidence-data
-    reuse_value: medium
-    note: 'Sample metrics: policies created/updated, partnerships, datasets, department integration, staffing capacity; long-term
-      institutional change.'
+    note: 'Three-step framework for metrics development: envision outcomes, translate to indicators, track by whom/when. Directly
+      supports lcb-q1 outcome-measurement requirement.'
   fact_candidates:
-  - EHCRP Round 2 funds Early and Advanced Infrastructure projects to mitigate extreme heat impacts.
-  - Planning Document required for Early Infrastructure projects; Future Implementation Playbook required for Advanced Infrastructure
-    projects.
-  - 'LCB strategy categories: Policy Change, Thoughtful Planning, New Programs, Effective Infrastructure, and Systemic Change.'
-  - 'Sample heat impact metrics: % canopy cover increase, estimated °F surface temperature reduction, hours of usable shade
-    per day.'
-  - 'Sample belonging metrics track: total population reached, reduced exposure for outdoor workers/seniors, community satisfaction,
-    engagement counts, program attendance.'
-  - Tree survival rate tracked at 1 and 3 years as implementation metric.
-  - 'Sample systemic change metrics include: policies created/updated, partnerships established, local datasets created, departments
-    integrating heat into planning.'
-  - 'LCB framework requires three steps: envision long-term outcomes, translate outcomes into measurable indicators, create
-    plan for metric tracking (who, how, when).'
+  - Planning Document is a required central part of Early Infrastructure projects, not an afterthought (s3)
+  - 'Four strategy categories for lasting community benefits: policy change, thoughtful planning, new programs, effective
+    infrastructure (s4)'
+  - 'Sample heat-impact metrics: % increase in canopy cover, °F reduction in surface temps, hours of usable shade added per
+    day (s11)'
+  - 'Sample belonging metrics: total population reached, reduced exposure for impacted groups, community satisfaction, people
+    engaged in planning (s12)'
+  - 'Sample implementation metrics: trees planted, cool roofs installed, tree survival rate at 1 and 3 years, sq. ft. of reflective
+    pavement (s13)'
+  - 'Sample systemic-change metrics: policies created/updated, partnerships established, datasets created, departments integrating
+    heat into planning (s14)'
+  - LCB strategy examples include policy (cool-roof codes, zoning, heat-emergency ordinances), planning (parks/transportation
+    master plans, community adaptation plans), programs (cooling centers, weatherization, heat-alert networks) (s5–s7)
   flags:
-  - Excerpt too thin to judge depth of guidance on Planning Document structure, funding stream examples, or revenue model
-    development.
-  - No specific examples tied to Bay Point or Ambrose projects.
-  - Does not include sample Planning Document or template language.
+  - Excerpt coverage is thin for s8 (only opening ~437 words of section visible; prompt list cut off—full prompts not shown)
+  - Sections s10 and later are headers + tables/lists; content may extend beyond the ~120-word limit shown
+  - This is TA guidance, not a live application or planning document; use to understand requirements, not to extract applicant
+    language
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: b7adbff1ad82fbed89add6958ff3ed08539542a54e607305cc7272f02cfef9f0
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 3791
-    output: 1003
+    input: 3922
+    output: 998
     cache_read: 0
     cache_write: 0

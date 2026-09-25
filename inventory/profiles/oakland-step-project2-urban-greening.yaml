@@ -1,0 +1,25 @@
+asset_id: oakland-step-project2-urban-greening
+source_path: sources/oakland-step-project2-urban-greening/oakland-step-project2-urban-greening.md
+source_sha256: a50243cd76328af53d0ae91ce504ff46da0d18cb3d8d455e01a9843a082c6b5e
+text_sha256: e4b2a80a18ddb0b386d9b85204b1f068ce6ad8186632e0bb5309a45553c8eeab
+words: 1438
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 238
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

@@ -1,0 +1,25 @@
+asset_id: ambrose-memorial-ugg-concept-form
+source_path: sources/ambrose-memorial-ugg-concept-form/ambrose-memorial-ugg-concept-form.md
+source_sha256: a218ea6eb2353f78d61f9d8455c55118aafdeb35c9e053330abd751e10418f60
+text_sha256: 640b93eabc0b2a2da16ea8fdfaaa9657fcb0f5b810432b6d1e5ec5510629a3d0
+words: 1730
+pii:
+  emails: 2
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 530
+section_count: 3
+profiled: '2026-09-25'
+profiler: p2

@@ -1,0 +1,274 @@
+- run: msgbatch_01SxCnQ9uRH4DTxzi14zoma4
+  date: '2026-09-25'
+  model: claude-haiku-4-5
+  prompt_version: x1
+  sections: 43
+  candidates: 0
+  anchor_problems: []
+  errors:
+    cnra-ugg-2026-concept-bay-point__s2: "invalid: 7 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ...aming; ready to adapt.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...door waiting contexts.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...ble to other contexts.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...eric enough for reuse.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'partner-role',\
+      \ ...ocus; adaptable model.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.5.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...generic and adaptable.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.6.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...letion for full reuse.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s40: "invalid: 3 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ... with minor adaptation'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'org-profile',\
+      \ '...n for full reusability'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'org-profile', '... cuts off mid-sentence'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s6: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ...s are Dallas-specific.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s6: "invalid: 4 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...rable across contexts.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...r other jurisdictions.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...e/heat analysis scope.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...city may date quickly.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-center-docx__s104: "invalid: 7 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...hodology transferable.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ... community engagement.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'project-case', ...plementation outcomes.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ... improvement capacity.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ...de California context.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.5.title\n  Field required [type=missing, input_value={'type': 'capability', 's...cross multiple cities.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.6.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...pacts highly reusable.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s10: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...te/partner adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s7: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ...d urban neighborhoods.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s90: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'capability', 's... or outcomes for reuse'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s34: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ... adaptation proposals.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-center-docx__s34: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...to demonstrate impact.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s15: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'org-profile', '...ar EPA/grant contexts.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s9: "invalid: 4 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...s may need adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'capability',\
+      \ 's...atabase scope updates.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'need-statement'...ts incomplete section.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...r validation approach.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-center-docx__s49: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...tations (stewardship).'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s47: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required\
+      \ [type=missing, input_value={'type': 'method', 'summa...d to heat/canopy work.'}, input_type=dict]\n    For further\
+      \ information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type':\
+      \ 'capability', 's... tree/canopy projects.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s10: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...ded in Dallas context.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s78: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...with minor adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s16: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'org-profile', '...c to Fresno COG scope.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'partner-role',\
+      \ ... without continuation.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-memorial-docx__s114: "invalid: 8 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...opulations identified.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'capability',\
+      \ 's...verification approach.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...takeholder engagement.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...-ready for adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'need-statement'...heat\
+      \ resilience needs.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.5.title\n  Field required [type=missing, input_value={'type': 'partner-role', ... green infrastructure.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.6.title\n  Field required [type=missing,\
+      \ input_value={'type': 'site-context', ...rastructure templates.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.7.title\n  Field required [type=missing, input_value={'type': 'org-profile',\
+      \ '...gency partner profile.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-memorial-docx__s99: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'template', 'sum...date, and sender name.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    cnra-ugg-2026-concept-bay-point__s4: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'need-statement'...th site-specific data.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-center-docx__s31: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'capability', 's...nto fundable projects.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s11: "invalid: 4 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'need-statement'...le engagement approach'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...te-specific adaptation'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...ngagement requirements'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'org-profile', '...ti-agency coordination'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s79: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...th minimal adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s26: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...larification on reuse.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s30: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required\
+      \ [type=missing, input_value={'type': 'method', 'summa...fic data substitution.'}, input_type=dict]\n    For further\
+      \ information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type':\
+      \ 'need-statement'... data specifics added.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s10: "invalid: 4 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...-specific data inputs.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...r policy applications.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'boilerplate', '... platform adjustments.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'boilerplate', '...r other jurisdictions.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s5: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...n to similar contexts.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s12: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...-stakeholder projects.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'need-statement'...ronmental\
+      \ co-benefits.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s16: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'org-profile', '...ure team descriptions.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s21: "invalid: 3 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa... deployment locations.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ...me evidence for reuse.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'capability', 's...ntext to anchor reuse.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s7: "invalid: 5 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...at vulnerability work.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...cale thermal analysis.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'method', 'summa...tualization for reuse.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...gy for proposal reuse.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...thodologically honest.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    ehcrp-r2-ambrose-memorial-docx__s117: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...at-reduction approach.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s2: "invalid: 6 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'need-statement'...eat equity narratives.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa... analysis methodology.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'need-statement'...s in spatial contexts.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...ate justice proposals.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'capability',\
+      \ 's... heat/canopy projects.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.5.title\n  Field required [type=missing, input_value={'type': 'method', 'summa... engagement timelines.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s12: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required\
+      \ [type=missing, input_value={'type': 'method', 'summa... (event facilitation).'}, input_type=dict]\n    For further\
+      \ information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type':\
+      \ 'partner-role', ...les in other contexts.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s20: "invalid: 6 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ... strategy (Treefence).'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ...community partnership.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'capability', 's...l on data integration.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'project-case', ...ecific funding amount.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ...text for Fresno reuse.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.5.title\n  Field required [type=missing, input_value={'type': 'capability', 's...d deployment outcomes.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s18: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...at/greening proposals.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s20: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa... non-heat applications'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s42: "invalid: 5 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'need-statement'...nor contextualization.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'project-case',\
+      \ ...y collaboration model.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'org-profile', '...r partnership framing.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...ce community projects.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...le across EJ contexts.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s39: "invalid: 1 validation error for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...r which project areas.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s8: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...resolution documented.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...ific parameter tuning.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-extreme-heat-analysis-doc__s7: "invalid: 5 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'need-statement'...e-specific adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...ilar heat assessments.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n\
+      chunks.2.title\n  Field required [type=missing, input_value={'type': 'capability', 's...trengthen reuse value.'}, input_type=dict]\n\
+      \    For further information visit https://errors.pydantic.dev/2.13/v/missing\nchunks.3.title\n  Field required [type=missing,\
+      \ input_value={'type': 'partner-role', ...r template adaptation.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.4.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...r similar EJ projects.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    fresno-rfp-hyphae-2024__s13: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa... tree canopy projects.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'method',\
+      \ 'summa...ology is transferable.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+    epa-dallas-green-spine-app__s18: "invalid: 2 validation errors for Extraction\nchunks.0.title\n  Field required [type=missing,\
+      \ input_value={'type': 'method', 'summa...frastructure projects.'}, input_type=dict]\n    For further information visit\
+      \ https://errors.pydantic.dev/2.13/v/missing\nchunks.1.title\n  Field required [type=missing, input_value={'type': 'capability',\
+      \ 's...entence so incomplete.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+  skipped: 17
+  input_tokens: 0
+  output_tokens: 0
+  est_cost_usd: 0.0
+- run: msgbatch_01Ba7Qh9sxHahAxCP8KC15Rf
+  date: '2026-09-25'
+  model: claude-haiku-4-5
+  prompt_version: x1
+  sections: 44
+  candidates: 103
+  anchor_problems:
+  - 's16#1 anchors not found: Hyphae Team Roles and Responsibilities for Fresno COG Extreme Heat Analysis'
+  - 's90#1 anchors not found: Hyphae Technical Capabilities in Geospatial Analysis and Heat Modeling'
+  - 's7#1 anchors not found: Arlington Park Safety and Resilience Challenges'
+  - 's42#1 anchors not found: Community feedback on safety, walking, and transit access in Arlington Park'
+  - 's104#1 anchors not found: Hyphae firm boilerplate on urban resilience and community engagement'
+  - 's104#2 anchors not found: Prescott Greening Project case study'
+  - 's104#4 anchors not found: LA Depave Plan: Countywide green infrastructure strategy'
+  - 's104#5 anchors not found: Oakland STEP Project: Parcel-level heat prioritization'
+  - 's104#6 anchors not found: Southwestern Medical District Streetscape: Dallas thermal and air quality assessment'
+  - 's34#1 anchors not found: Partner-First Strategy for Community Project Development'
+  - 's114#2 anchors not found: Heat Vulnerability Modeling Framework for Urban Greening'
+  - 's4#1 anchors not found: Bay Point Transit Stops: Need Statement & Project Rationale'
+  - 's15#2 anchors not found: Texas A&M University as Statutory Partner'
+  - 's9#1 anchors not found: Heat Vulnerability Assessment Through Environmental and Social Data Integration'
+  - 's10#5 anchors not found: Social Vulnerability Context for Heat Exposure'
+  - 's34#2 anchors not found: Community Engagement Strategy for Heat Adaptation Planning'
+  - 's34#3 anchors not found: Tree Fresno Central Valley Greening Implementation Record'
+  - 's40#3 anchors not found: Texas A&M University Partnership and C-HEaRT Center'
+  - 's20#1 anchors not found: Heat Vulnerability Assessment Methodology'
+  - 's2#4 anchors not found: Hyphae Fresno Heat Analysis Project Team Composition'
+  - 's39#1 anchors not found: Data Sources for Pedestrian and Bicyclist Traffic Analysis'
+  - 's20#1 anchors not found: Richmond Parkway Urban Greening Project'
+  errors: {}
+  skipped: 16
+  input_tokens: 96783
+  output_tokens: 41064
+  est_cost_usd: 0.1511

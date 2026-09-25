@@ -1,0 +1,147 @@
+asset_id: ehcrp-r2-early-doc-2025
+card:
+  summary: 'Early EHCRP Round 2 strategy document (July–Dec 2025) capturing Hyphae''s positioning for two potential proposals:
+    LA County depaving/Olympics project and Central Valley farmworker protection. Contains meeting notes, partner research,
+    project concepts, and a completed partnership questionnaire. Focuses on program requirements (infrastructure, harm reduction,
+    partnership structure) and budgets ~$200k to Hyphae per grant. No Bay Point effort present; predates that work.'
+  doc_role: working-doc
+  authorship: Hyphae Design Lab (Maxwell Pingeon, Brent Bucknum, others)
+  disposition: hold
+  disposition_reason: Contains reusable EHCRP R2 strategy language, program intelligence (harm reduction as 'DNA,' partnership
+    structure requirements, infrastructure definitions), and completed organizational boilerplate (mission, service areas,
+    expertise descriptions). Useful as reference for future EHCRP applications and as a record of Hyphae's R2 positioning.
+  serves_needs:
+  - need_id: lib-methods
+    how: 'Describes heat mitigation approaches: microclimate modeling, sensor deployment, depaving, shade infrastructure,
+      nature-based design for both urban and rural contexts.'
+  - need_id: lib-firm-experience
+    how: Includes Hyphae's organizational profile, areas of expertise, and examples of active projects in Stockton, Boyle
+      Heights, Philadelphia, Minneapolis.
+  sections:
+  - sid: s10
+    path: EHCRP Plan
+    type: notes
+    reuse_value: high
+    note: Grant structure and timeline (2 applications, $200k to Hyphae per grant, 3% BD, March 15 deadline). Includes TA
+      guide link and resource references.
+  - sid: s3
+    path: Meetings > Oct 29, 2025 | Partnership and Storytelling Review Planning
+    type: notes
+    reuse_value: medium
+    note: 'Strategy discussion: Olympics connection, depaving + sensor deployment, potential CBO and government partners for
+      LA and Central Valley.'
+  - sid: s4
+    path: Meetings > Sep 23, 2025 | BB-MP EHCRP pre-game
+    type: notes
+    reuse_value: medium
+    note: Program officer meeting prep; pivot from app-focused to infrastructure-focused approach; sensor deployment, modeling,
+      nature-based design retained.
+  - sid: s5
+    path: 'Meetings > Jul 15, 2025 | Extreme Heat and Community Resilience Program Input Session: Statewide (1)'
+    type: notes
+    reuse_value: medium
+    note: 'Program requirements: planning + implementation hybrid tracks, qualitative harm descriptions over prescriptive
+      scores, partnership structure (CBO + govt), harm reduction scoring criterion.'
+  - sid: s12
+    path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 1: LA County Depaving/Olympics'
+    type: project-case
+    reuse_value: medium
+    note: Olympics-leveraged depaving typology project concept with JPL partnership, sensor networks, media strategy. 25%
+      pilot at 2–3 Olympic corridor sites.
+  - sid: s13
+    path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 2: Central Valley Farmworker Protection'
+    type: project-case
+    reuse_value: medium
+    note: Mobile and permanent cooling infrastructure, farmworker heat + pesticide exposure focus, Arvin/Kern County partner,
+      VIP + LEAP CBOs. 25% pilot.
+  - sid: s14
+    path: 'EHCRP Plan > EHCRP Planning Grant Teams Framework > Team 3: Regional Typology Development'
+    type: project-case
+    reuse_value: medium
+    note: 'Central Valley cooling typologies: RV park retrofits, street greening. Tree Fresno, City of Stockton, Little Manila
+      Rising partners.'
+  - sid: s38
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 9: Geographic service areas'
+    type: org-profile
+    reuse_value: high
+    note: 'Hyphae''s service areas: Bay Area, LA County, Central Valley, Dallas, Philadelphia, Minneapolis.'
+  - sid: s40
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 10: Mission'
+    type: org-profile
+    reuse_value: high
+    note: 'Hyphae''s mission statement: advance climate resilience and environmental justice through data-driven design, modeling,
+      and nature-based solutions.'
+  - sid: s42
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 11: Programs and initiatives'
+    type: capability
+    reuse_value: high
+    note: 'Core initiatives: depaving, heat mitigation, vegetated buffers, green infrastructure, stormwater, sensor deployment,
+      thermal comfort monitoring, microclimate modeling.'
+  - sid: s44
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 12: Operational structure'
+    type: org-profile
+    reuse_value: medium
+    note: Small interdisciplinary team; partner-centered model; collaborations with agencies, CBOs, technical partners.
+  - sid: s46
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 13: Demographics served'
+    type: org-profile
+    reuse_value: medium
+    note: Low-income communities, communities of color, disproportionate heat/pollution exposure, historic redlining, frontline
+      neighborhoods.
+  - sid: s48
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 14: Challenges experienced'
+    type: capability
+    reuse_value: medium
+    note: 'Examples of active work: Stockton vegetated barrier, Boyle Heights depaving, Southwest Philadelphia and Minneapolis
+      projects.'
+  - sid: s58
+    path: 'Partnership Questionnaire > Applicant and Project Information > Question 19: Project areas of focus'
+    type: notes
+    reuse_value: medium
+    note: 'Two EHCRP pathways: LA County depaving (using ARLA microclimate dataset), Central Valley farmworker protection
+      and mobile home park greening.'
+  - sid: s67
+    path: 'Partnership Questionnaire > Applicant Team Roles > Question 23: Expertise relevant to EHCRP'
+    type: capability
+    reuse_value: high
+    note: High-resolution heat risk mapping, thermal comfort modeling, environmental sensors, depaving, shade infrastructure,
+      vegetated buffers, nature-based solutions, full project lifecycle.
+  - sid: s71
+    path: 'Partnership Questionnaire > Applicant Team Roles > Question 25: Partner expertise sought'
+    type: notes
+    reuse_value: medium
+    note: Seeking partners with deep community roots, outreach capacity, trusted relationships, culturally grounded processes,
+      lived knowledge.
+  fact_candidates:
+  - 's10: Grant structure targets ~$200k to Hyphae per application from ~$600k total grants'
+  - 's10: Develop partners November–December–January; finish content February; submit March 15'
+  - 's10: Business development budget 3% of Hyphae total (~$6k per grant, $12k total)'
+  - 's5: Planning and implementation tracks are hybrid; planning includes ''demonstration project'''
+  - 's6: Infrastructure classified as ''green, grey, or hybrid''; tree planting counts as infrastructure (NBS)'
+  - 's6: Harm reduction is the ''DNA'' of the program'
+  - 's3: Olympics proposal can connect to LA-based extreme heat depaving proposals'
+  - 's12: Team 1 budget target ~$200k to Hyphae from ~$600k total'
+  - 's13: Team 2 partners: City of Arvin or Kern County (govt), VIP + LEAP (CBO)'
+  - 's14: Team 3 partners: Tree Fresno + City of Stockton, Little Manila Rising'
+  - 's48: Active projects in Stockton (vegetated barrier), Boyle Heights (depaving), Philadelphia, Minneapolis'
+  flags:
+  - Contains contact data (email/phone redacted)
+  - Partnership questionnaire is a form submission draft, not final application language
+  - Excerpt from s18 mentions prior EHCRP interview and scoring; post-mortem notes app-focused round as unsuccessful; no details
+    provided
+  - Three proposed project concepts (LA Olympics, Central Valley farmworker, Regional typology) are exploratory; no site control
+    or formal commitments evident
+  - No Bay Point projects mentioned; document predates that effort
+  - Thin evidence on harm reduction language specifics; meeting notes capture high-level program requirements but few worked
+    examples
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8222e91395c95d65beced6d2646a47243372a50a62b405e48221abc4e24d1b73
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 10631
+    output: 1908
+    cache_read: 0
+    cache_write: 0

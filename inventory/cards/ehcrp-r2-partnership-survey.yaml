@@ -1,57 +1,76 @@
 asset_id: ehcrp-r2-partnership-survey
 card:
-  summary: Official EHCRP Round 2 partnership survey responses (50k+ words across 84 sections) listing 40+ organizations across
-    California seeking or offering collaboration on extreme heat resilience projects. Each entry includes org profile, mission,
-    service areas, expertise, and project ideas. Entries span academic institutions (CSU East Bay), city/county agencies (San
-    José, Fresno Parks), CBOs (Glide, Tree Davis, Valley Voices), tribes (Berry Creek Rancheria), legal aid (CRLA), labor
-    (UDW), and environmental nonprofits (Our City Forest, Build It Green). Many entries identify potential co-applicants or
-    partners for EHCRP proposals.
+  summary: Program-published registry of 84 California organizations responding to EHCRP Round 2 partner-seeking survey. Each
+    entry includes org name, mission, service populations, geographic focus, identified projects, expertise areas, and partnership
+    needs. Contains contact info (redacted), org type, and self-assessed skills. Entries span San Francisco Bay Area, Central
+    Valley, Sacramento Valley, and San Joaquin Valley. Notable entries include Hyphae Design Lab (listed as contributor),
+    Our City Forest (urban forestry), San José (EHCRP R1 awardee seeking expansion), Tree Davis, United Domestic Workers,
+    and tribal/CBO partners.
   doc_role: dataset
-  authorship: LCI program (California Energy Commission)
+  authorship: LCI / EHCRP Program
   disposition: reference
-  disposition_reason: Authoritative partner registry published by EHCRP program; not reusable proposal prose, but essential
-    for identifying and vetting potential co-applicants, understanding partner capacity/expertise, and cross-referencing project
-    ideas. Excerpts are structured survey data (org name, contact, mission, geography, skills, project ideas), not narrative
-    or methodological content. Value is look-up and verification only.
+  disposition_reason: Authoritative registry for partner identification and outreach. Contains no reusable prose, but is essential
+    reference for understanding available partner ecosystem, checking entity eligibility, and validating contact information
+    for Bay Point applications (ARPD, Ambrose projects) and future LCI solicitations. Hyphae entry confirms internal self-description
+    for consistency check.
   serves_needs:
   - need_id: lib-partners
-    how: 40+ org profiles with missions, service areas, expertise areas, project experience, and contact info; enables vetting
-      of potential co-applicants
-  - need_id: ehcrp-r2-webinars-office-hours
-    how: context for understanding partner landscape and collaboration options discussed in program convenings
-  sections: []
+    how: Complete registry of potential co-applicants and partner organizations with stated expertise, service areas, and
+      prior EHCRP experience; enables partner vetting and capacity assessment
+  sections:
+  - sid: s20
+    path: Hyphae Design Lab entry
+    type: org-profile
+    reuse_value: medium
+    note: Self-description of Hyphae's mission, geographic scope (Bay Area, LA County, Central Valley, Dallas, Philadelphia,
+      Minneapolis), expertise (climate modeling, green infrastructure, data-driven design, heat-risk zones, farmworker protection),
+      and EHCRP role (Contributor, Early Transformative). Confirms firm positioning and prior work products (LA County heat-risk
+      dataset).
+  - sid: s12
+    path: Our City Forest (OCF) entry
+    type: org-profile
+    reuse_value: medium
+    note: 30+ years urban forestry, 70,000 trees planted, AmeriCorps Climate Corps program (20–30 annually), ISA-certified
+      arborists, deep equity commitments. Relevant for tree stewardship and co-planting partnerships in San José / Santa Clara
+      County.
+  - sid: s16
+    path: Our City Forest (OCF) continued
+    type: org-profile
+    reuse_value: medium
+    note: 'Technical depth: concrete removal, soil remediation, ANSI A-300 compliance, multi-year stewardship. Community partnerships
+      in East San José, Alviso, Central San José. Workforce development and stewardship model.'
+  - sid: s11
+    path: City of San José entry
+    type: org-profile
+    reuse_value: medium
+    note: EHCRP Round 1 awardee seeking expansion funding for cooling centers at city facilities. Identifies DACs in San José
+      under SB 535. Demonstrates LCI track record and ongoing commitment.
   fact_candidates:
-  - part 20 — Hyphae Design Lab, 456 8th St, Oakland, CA 94607, Max Pingeon Director of Development
-  - 'part 12 — Our City Forest: 70,000 trees and 20,000 shrubs planted with ~150,000 volunteers and 500+ AmeriCorps members'
-  - 'part 14 — Our City Forest: 85% staffing increase, 40% salary/benefit increase to $1,577,930; field operations expanded
-    6 to 15 staff (150% increase); AmeriCorps cohort 20 current vs 24 prior year'
-  - 'part 13 — Our City Forest: 30+ years of urban forestry work in Silicon Valley, ISA-certified arborists, 20–30 AmeriCorps
-    members trained annually'
-  - 'part 11 — San José: multiple census tracts designated as Disadvantaged Communities under SB 535; seek to build on EHCRP
-    Round 1 Award'
-  - 'part 27 — Fresno Parks (PARCS): ~200 employees, reports to Fresno City Manager, oversees Measure P sales tax funds'
-  - 'part 27 — Fresno: 5th largest city in CA, 540,000 population, 20% poverty rate (vs 12% statewide)'
-  - 'part 31 — Folsom Cordova Community Partnerships: Rancho Cordova ChillZone and HeatBeat Resilience Initiative mentioned
-    as community-powered heat resilience effort'
-  - 'part 32 — Berry Creek Rancheria: Federally Recognized Tribe, located Oroville, Butte County, focus on land restoration,
-    health, TEK, energy'
-  - 'part 34 — Tree planting goal: 15-gallon shade trees in schools, parks, community shared spaces in LIC/DAC priority areas'
+  - 'Hyphae Design Lab: active projects in Bay Area, Los Angeles County, Central Valley, Dallas, Philadelphia, Minneapolis'
+  - 'Our City Forest: 70,000 trees and 20,000 shrubs planted over 30+ years'
+  - 'Our City Forest: AmeriCorps Climate Corps cohort 20–30 members annually'
+  - 'Our City Forest: 150,000 volunteers and 500+ AmeriCorps service members across organization history'
+  - 'Our City Forest: staffing expanded 150% in field operations (6 to 15 staff) with $1.58M salary/benefits budget'
+  - 'Our City Forest: decline from 24 to 20 full-time AmeriCorps members in recent cohort'
+  - 'San José: 540,000 population, 5th largest California city'
+  - 'San José: 20% poverty rate vs. 12% statewide (67% above state average)'
+  - 'San José: multiple census tracts designated DAC under SB 535'
+  - 'Hyphae: LA County heat-risk dataset produced with Accelerate Resilience L.A. and County Chief Sustainability Office'
   flags:
-  - Excerpt too thin to judge content depth or quality — sections 43–84 (42 sections, ~25k words) appear empty or truncated
-    in provided outline
-  - Contact data redacted ([email], [phone])
-  - High-value reference for partner vetting but not content to extract as reusable proposal text
-  - Possible overlap with past EHCRP survey data — unclear if this is Round 2 refresh or newly published
-  - Near-complete dataset suggests this is a master registry; confirm version date (modified 2026-09-01) and whether LCI has
-    published curated subset for Bay Point applicants
+  - 'Excerpt coverage very thin: sections s2–s84 are outline headers only with no text; only sections s1–s21 contain substantive
+    content; unable to fully assess 63 of 84 organizations'
+  - Contact data redacted as [email]/[phone] throughout
+  - Hyphae entry self-reported (internal source); validate independently against portfolio and past proposals if needed
+  - San José EHCRP R1 awardee entry suggests existing competitive relationship; clarify before Ambrose applications
+  - Registry is snapshot at 2026-09-01; org capacity, contacts, and project status may have shifted since publication
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 0dad591710f3239e5433faa68020ccaf8f3e5463814fb62cc9a189f4b46287e8
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 11079
-    output: 913
+    input: 11490
+    output: 1057
     cache_read: 0
     cache_write: 0

@@ -8,54 +8,70 @@ pii:
   phones: 16
 near_duplicates: []
 sections:
-- path: (preamble)
+- sid: s1
+  path: (preamble)
   level: 0
   words: 3
-- path: Table Context
+- sid: s2
+  path: Table Context
   level: 2
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants'
+- sid: s3
+  path: 'Table Context > File Name: Upcoming Grants'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Upcoming opportunities'
+- sid: s4
+  path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Upcoming opportunities'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:O13'
+- sid: s5
+  path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:O13'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+- sid: s6
+  path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
   level: 3
   words: 287
-- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+- sid: s7
+  path: 'Table Context > File Name: Upcoming Grants > Table Columns'
   level: 3
   words: 287
-- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Active Potential Partners'
+- sid: s8
+  path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Active Potential Partners'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:AT59'
+- sid: s9
+  path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:AT59'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+- sid: s10
+  path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
   level: 3
   words: 1078
-- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+- sid: s11
+  path: 'Table Context > File Name: Upcoming Grants > Table Columns'
   level: 3
   words: 1100
-- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Archive of EHCRP interested orgs'
+- sid: s12
+  path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Archive of EHCRP interested orgs'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:Z62'
+- sid: s13
+  path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:Z62'
   level: 3
   words: 0
-- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+- sid: s14
+  path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
   level: 3
   words: 877
-- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+- sid: s15
+  path: 'Table Context > File Name: Upcoming Grants > Table Columns'
   level: 3
   words: 860
-- path: 'Table Context > File Name: Upcoming Grants > Comment Anchors'
+- sid: s16
+  path: 'Table Context > File Name: Upcoming Grants > Comment Anchors'
   level: 3
   words: 24
 section_count: 16
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

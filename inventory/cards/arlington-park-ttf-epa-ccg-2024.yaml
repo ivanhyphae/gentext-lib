@@ -1,0 +1,221 @@
+asset_id: arlington-park-ttf-epa-ccg-2024
+card:
+  summary: Hyphae's section of a Texas Trees Foundation / Texas A&M EPA Community Change grant application (Arlington Park,
+    Dallas, 2024). Proposes evidence-based design combining sensor monitoring, microclimate modeling, and community co-design
+    to address heat exposure and pedestrian safety in an EJ neighborhood adjacent to industrial corridors. Includes detailed
+    methodology for baseline monitoring, design iteration, and pre/post impact evaluation using thermal comfort and air quality
+    metrics. Contains extensive reusable prose on Hyphae's collaborative design process, sensor deployment, and community
+    engagement strategies.
+  doc_role: submitted-proposal
+  authorship: Hyphae Design Laboratory (Brent Bucknum, Ivan Heitmann, others); Texas Trees Foundation; Texas A&M University
+  disposition: hold
+  disposition_reason: Strong analogue for EHCRP harm-reduction and lasting-community-benefits sections. Reusable prose on
+    evidence-based design methodology, community co-design, sensor monitoring, and pre/post evaluation. Demonstrates Hyphae's
+    track record on heat/urban greening projects in EJ communities. Citable outcomes and methods applicable to Bay Point proposals.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Submitted EPA proposal demonstrating Hyphae's collaborative heat-mitigation and greening design process in Dallas
+      EJ community; includes team roles and prior projects cited (Boyle Heights, Louisville, Oakland, Stockton, Richmond).
+  - need_id: lib-methods
+    how: Detailed methodology for microclimate sensor deployment (LORAWAN network, 30+ nodes), thermal comfort monitoring
+      (MRT, globe temperature), pre/post study design, and modeling workflow (UTCI-adjacent thermal comfort metrics); air
+      quality buffer design and monitoring.
+  - need_id: lib-glossary
+    how: Defines evidence-based design (EBD), adaptive design cycle (measure–simulate–design–implement–assess–refine), thermal
+      comfort endpoints, LORAWAN sensor architecture, and complete streets in industrial corridors.
+  sections:
+  - sid: s5
+    path: Overview > Scope of work description
+    type: project-case
+    reuse_value: high
+    note: 184-word summary of Arlington Park project structure, roles (community engagement, sensor deployment, design iteration),
+      and three-phase timeline (Year 1 engagement/baseline, Year 2 implementation, Year 3 assessment).
+  - sid: s8
+    path: Overview > Budget Justification > Evidence Base Design
+    type: capability
+    reuse_value: high
+    note: 780 words on Hyphae's role as interface between community co-design and rigorous scientific analysis. Cites Hyphae
+      team expertise (Brent Bucknum principal, Ivan Heitmann project manager/GIS, Merissa MacDonald arborist); prior projects
+      in Dallas, Louisville, Boyle Heights, Los Angeles, Richmond, Stockton, Oakland.
+  - sid: s9
+    path: Overview > Budget Justification > Sensor Deployment
+    type: method
+    reuse_value: high
+    note: 961 words detailing sensor network design, LORAWAN architecture, roles (Daniel Fleischer, Ivan Velev, Jaqueline
+      Kelly), cost basis for microclimate sensor expansion, and rationale for before/after effectiveness evaluation.
+  - sid: s12
+    path: Narrative project description > Project need > Safety and Resilience Challenges in Arlington Park
+    type: need-statement
+    reuse_value: medium
+    note: '410 words on pedestrian infrastructure gaps, lack of sidewalk connectivity, community safety concerns, isolation
+      from parks and services. Specific: no safe route from Arlington Park to planned medical district green park ''just a
+      few blocks away.'''
+  - sid: s19
+    path: Narrative project description > Community Co-Design Approach
+    type: method
+    reuse_value: high
+    note: '517 words on Hyphae''s 15-year EJ methodology: community empowerment via data/science/evidence, partnership with
+      activists/researchers/agencies, hyperlocal mapping and monitoring, and evidence-driven hyperlocal design interventions.'
+  - sid: s20
+    path: Narrative project description > Evidence-Based Design Approach
+    type: method
+    reuse_value: high
+    note: '341 words on Hyphae''s EBD process: understanding the problem (lit review, data collection, spatial modeling),
+      engaging community (workshops, mapping, storytelling), and iterative design cycles linked to measurement.'
+  - sid: s40
+    path: Narrative project description > Evidence-Based Design Approach > Modeling > Outcomes > 4. Community Engagement
+    type: method
+    reuse_value: medium
+    note: 216 words on using modeling to communicate impacts visually to community, foster transparency, and ensure interventions
+      align with community vision. Describes community meetings, participatory mapping, and co-design workshops.
+  - sid: s41
+    path: Narrative project description > Active Multimodal Connectivity Planning
+    type: site-context
+    reuse_value: medium
+    note: 474 words on Arlington Park's lack of safe walking/biking within neighborhood and to medical district; preliminary
+      connectivity study conducted; community ambassadors and surveys to refine plans.
+  - sid: s56
+    path: BH-EPA-Grant EDITED > Approach
+    type: need-statement
+    reuse_value: medium
+    note: 194 words framing Arlington Park industrial corridor exposure, pollution burdens, climate change, and absence of
+      green spaces. Positions project as community-driven buffer zone combining gray/green infrastructure.
+  - sid: s59
+    path: BH-EPA-Grant EDITED > Approach > Community-driven Design
+    type: method
+    reuse_value: high
+    note: 238 words on Hyphae's 15-year track record coordinating activists, academics, air districts, cities, and federal
+      agencies for EJ advocacy. Emphasizes data/tools and legislative frameworks (AB 617).
+  - sid: s60
+    path: BH-EPA-Grant EDITED > Approach > Evidence-based Design
+    type: method
+    reuse_value: high
+    note: 290 words on hyperlocal mapping and measurement (NSF/NIH funding), adaptOS platform for simulation/design/implementation,
+      five-stage measurement–simulation–implementation–assessment–refinement cycle.
+  - sid: s62
+    path: 'BH-EPA-Grant EDITED > Approach > The Approach: Measurement & Modeling'
+    type: method
+    reuse_value: high
+    note: '424 words on adaptive measurement/design/modeling workflow: heat/air quality/greenness/demographics data collection,
+      model validation, sensor-driven optimization, and pre/post intervention assessment using LiDAR and Google Street View
+      360.'
+  - sid: s66
+    path: 'BH-EPA-Grant EDITED > Strategies > Strategy 3: Vegetated Buffers'
+    type: method
+    reuse_value: medium
+    note: 353 words on near-road vegetated buffer design for air filtration, agency coordination, and 2-year detailed design/permitting/stewardship
+      planning to optimize pollution removal.
+  - sid: s68
+    path: 'BH-EPA-Grant EDITED > Strategies > Strategy 11: Complete Streets in Industrial Community > Traffic Analysis and
+      Technical Assistance'
+    type: method
+    reuse_value: medium
+    note: 424 words on adapting Complete Streets methodology to industrial corridors (not residential/commercial). Addresses
+      truck management, air quality, pedestrian safety in context of Olympic Boulevard and Soto Boulevard interfaces.
+  - sid: s70
+    path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education
+    type: method
+    reuse_value: high
+    note: 753 words on hyperlocal air quality data collection via fixed and mobile sensors to identify pollution hotspots
+      (freeway vs. point source vs. truck depots), inform intervention placement.
+  - sid: s71
+    path: BH-EPA-Grant EDITED > Strategies > Strategy 13 – Community Air Quality Monitoring, Training, and Education > Sensor
+      Deployment Plan
+    type: method
+    reuse_value: high
+    note: 591 words detailing sensor deployment milestones, community consultation, initial zone selection from Aclima mobile
+      monitoring, upwind/downwind coverage, industrial site and highway proximity, and participant recruitment.
+  - sid: s75
+    path: Green Spine Design Coordination Hyphae Scope and Schedule > Introduction
+    type: site-context
+    reuse_value: medium
+    note: 219 words on Green Spine corridor intervention in Southwest Medical District, Harry Hines Boulevard re-landscaping,
+      cloverleaf park replacement, evidence-based design, and living laboratory for sustainable design.
+  - sid: s88
+    path: Harry Hines Evidence-based design methodology report > Executive summary > Introduction
+    type: method
+    reuse_value: high
+    note: '1090-word methodological narrative on EBD process for Harry Hines redevelopment: literature review, environmental
+      simulation, monitoring campaigns to maximize benefits and minimize harms. Describes integration into generalizable platform
+      and before/after/cross-sectional study design.'
+  - sid: s90
+    path: Harry Hines Evidence-based design methodology report > Monitoring and pre-post study
+    type: evidence-data
+    reuse_value: high
+    note: '231 words reporting monitoring findings: mature trees reduce peak MRT by 24°C vs. sun; average summer afternoon
+      globe temps 8°C lower in tree shade than sun; small trees 3.5°C cooler. Bus shelters show higher air temps than exposed
+      areas.'
+  - sid: s94
+    path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution >
+      Vegetated Air Barriers for Roadside Pollution Mitigation
+    type: evidence-data
+    reuse_value: medium
+    note: '370 words on vegetated air barrier design for pollution mitigation: dense plantings of tall conifers (Thuja, Abies,
+      Pinus, Taxus, Juniperus), high surface area for particulate deposition, no gaps to prevent polluted air pass-through.'
+  - sid: s99
+    path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Hardware
+    type: method
+    reuse_value: high
+    note: '307 words on LORAWAN sensor network architecture: rooftop hub at Parkland Hospital, line-of-sight radio to corridor
+      (Market Center to Mockingbird), MQTT protocol, cloud storage, Dragino LSN50-V2 modules with temperature and wind sensors.'
+  - sid: s100
+    path: Harry Hines Evidence-based design methodology report > Monitoring > Sensor Placement
+    type: method
+    reuse_value: high
+    note: '252 words on sensor placement strategy: 23 sun-exposed temperature sensors, 15 in large mature tree shade, 7 in
+      small/recently-planted tree shade; wind sensors on open features; goal to capture variety of thermal conditions and
+      tree size benefits.'
+  - sid: s102
+    path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > The cross-sectional
+      hypotheses are
+    type: method
+    reuse_value: medium
+    note: '261 words on testable cross-sectional hypotheses: landscape features affect thermal comfort (shade vs. wind), air
+      pollution (tree placement traps or reduces emissions), and radiant temps by surface type (grass < cement < asphalt).'
+  - sid: s104
+    path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Quantitative
+      methods
+    type: method
+    reuse_value: high
+    note: 1516-word methodological detail on addressing hypotheses via ongoing ~30-temperature-sensor monitoring, cross-sectional
+      and longitudinal pre/post comparisons, and planned Phase 2 with additional air-pollution monitoring.
+  fact_candidates:
+  - 's8: Hyphae has prior projects in Dallas, Louisville Kentucky, Boyle Heights Los Angeles, Richmond CA, Stockton CA, and
+    Oakland CA'
+  - 's9: Sensor deployment costs based on real costs from first round of sensors in the corridor'
+  - 's12: Arlington Park lacks safe pedestrian connectivity to planned green park in nearby medical district ''just a few
+    blocks away'''
+  - 's17: Arlington Park neighborhood total population 1,358 (35.5% Hispanic/Latino, 31.2% Non-Hispanic White, 32.4% Non-Hispanic
+    Black/African American)'
+  - 's47: Project phasing: Year 1 community engagement and baseline assessments, Year 2 interventions by Texas Trees Foundation,
+    Year 3 assessment'
+  - 's75: Harry Hines corridor between Market Center and Mockingbird to be re-landscaped; cloverleaf interchange between Inwood
+    and Harry Hines to be replaced with park'
+  - 's90: Mature trees reduce peak mean radiant temperature by 24 degrees vs. sun-exposed areas'
+  - 's90: Average summer afternoon globe temperatures 8 degrees lower in large tree shade than sun-exposed areas'
+  - 's90: Small trees reduce globe temps by 3.5 degrees cooler on average in sun'
+  - 's99: LORAWAN hub installed on 18th floor rooftop of Parkland Memorial Hospital'
+  - 's100: 23 temperature sensors placed in sun-exposed areas; 15 in mature tree shade; 7 in small/recently-planted tree shade'
+  - 's120: Project targets Southwest Medical District and Arlington Park, with interventions including tree plantings, rain
+    gardens, native plant/pollinator gardens, trails and bike lanes'
+  flags:
+  - near-duplicate of calepa-ej-action-grant-2025 (88%), nsf-scc-tamu-2025 (86%), resilient-philadelphia-grant-2025 (86%);
+    extensive reuse across multiple applications
+  - document is working/draft hybrid with meeting notes, previous material sections, and metadata (asset tracking, contact
+    data redacted)
+  - excerpt too thin on specific Arlington Park community voices/quotes (s19, s59 describe approach but no actual resident
+    testimony visible in openings)
+  - Dallas project geography and partners (Texas Trees Foundation, Texas A&M, Arlington Park Neighborhood Association) not
+    directly applicable to Bay Point (Ambrose), but methods and EBD framework are transferable
+  - contact details redacted to [email] in meeting notes (s114, s116, s118)
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 936a5dc1c4b732ddf0405cd1434baeb5a0e876c1cf0d450d8de210c11877b095
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 14711
+    output: 3230
+    cache_read: 0
+    cache_write: 0

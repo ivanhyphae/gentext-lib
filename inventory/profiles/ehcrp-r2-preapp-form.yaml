@@ -11,81 +11,110 @@ near_duplicates:
   jaccard: 0.073
   contained_in: 0.527
 - asset_id: ehcrp-r2-ambrose-memorial-docx
-  jaccard: 0.058
-  contained_in: 0.511
+  jaccard: 0.059
+  contained_in: 0.516
 - asset_id: ehcrp-r2-ambrose-center-docx
-  jaccard: 0.058
-  contained_in: 0.511
+  jaccard: 0.059
+  contained_in: 0.516
+- asset_id: ehcrp-r2-ambrose-memorial-gdoc
+  jaccard: 0.059
+  contained_in: 0.516
+- asset_id: ehcrp-r2-ambrose-center-gdoc
+  jaccard: 0.059
+  contained_in: 0.516
 sections:
-- path: (preamble)
+- sid: s1
+  path: (preamble)
   level: 0
   words: 333
-- path: LCI - Public
+- sid: s2
+  path: LCI - Public
   level: 2
   words: 341
-- path: LCI - Public > LCI - Public
+- sid: s3
+  path: LCI - Public > LCI - Public
   level: 2
   words: 371
-- path: LCI - Public > LCI - Public
+- sid: s4
+  path: LCI - Public > LCI - Public
   level: 2
   words: 329
-- path: 1. Funding Priority Group Selection
+- sid: s5
+  path: 1. Funding Priority Group Selection
   level: 1
   words: 0
-- path: 1. Funding Priority Group Selection > LCI - Public
+- sid: s6
+  path: 1. Funding Priority Group Selection > LCI - Public
   level: 2
   words: 73
-- path: 1. Funding Priority Group Selection > 1a. California Native American Tribe
+- sid: s7
+  path: 1. Funding Priority Group Selection > 1a. California Native American Tribe
   level: 2
   words: 42
-- path: 1. Funding Priority Group Selection > 1b. Severely Disadvantaged or Disadvantaged Community
+- sid: s8
+  path: 1. Funding Priority Group Selection > 1b. Severely Disadvantaged or Disadvantaged Community
   level: 2
   words: 49
-- path: 1. Funding Priority Group Selection > LCI - Public
+- sid: s9
+  path: 1. Funding Priority Group Selection > LCI - Public
   level: 2
   words: 1
-- path: 1. Funding Priority Group Selection > Community 1
+- sid: s10
+  path: 1. Funding Priority Group Selection > Community 1
   level: 2
   words: 12
-- path: 1. Funding Priority Group Selection > Community 2
+- sid: s11
+  path: 1. Funding Priority Group Selection > Community 2
   level: 2
   words: 12
-- path: 1. Funding Priority Group Selection > Community 3
+- sid: s12
+  path: 1. Funding Priority Group Selection > Community 3
   level: 2
   words: 12
-- path: 1. Funding Priority Group Selection > Community 4
+- sid: s13
+  path: 1. Funding Priority Group Selection > Community 4
   level: 2
   words: 12
-- path: 1. Funding Priority Group Selection > Community 5
+- sid: s14
+  path: 1. Funding Priority Group Selection > Community 5
   level: 2
   words: 11
-- path: 1. Funding Priority Group Selection > 1c. Vulnerable Population
+- sid: s15
+  path: 1. Funding Priority Group Selection > 1c. Vulnerable Population
   level: 2
   words: 44
-- path: 1. Funding Priority Group Selection > Community 1
+- sid: s16
+  path: 1. Funding Priority Group Selection > Community 1
   level: 2
   words: 20
-- path: 1. Funding Priority Group Selection > Community 2
+- sid: s17
+  path: 1. Funding Priority Group Selection > Community 2
   level: 2
   words: 20
-- path: 1. Funding Priority Group Selection > Community 3
+- sid: s18
+  path: 1. Funding Priority Group Selection > Community 3
   level: 2
   words: 20
-- path: 1. Funding Priority Group Selection > Community 4
+- sid: s19
+  path: 1. Funding Priority Group Selection > Community 4
   level: 2
   words: 20
-- path: 1. Funding Priority Group Selection > Community 5
+- sid: s20
+  path: 1. Funding Priority Group Selection > Community 5
   level: 2
   words: 19
-- path: 1. Funding Priority Group Selection > Technical Assistance
+- sid: s21
+  path: 1. Funding Priority Group Selection > Technical Assistance
   level: 2
   words: 55
-- path: 1. Funding Priority Group Selection > LCI - Public
+- sid: s22
+  path: 1. Funding Priority Group Selection > LCI - Public
   level: 2
   words: 230
-- path: 1. Funding Priority Group Selection > LCI - Public
+- sid: s23
+  path: 1. Funding Priority Group Selection > LCI - Public
   level: 2
   words: 0
 section_count: 23
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

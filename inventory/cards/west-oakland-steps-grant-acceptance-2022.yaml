@@ -1,0 +1,81 @@
+asset_id: west-oakland-steps-grant-acceptance-2022
+card:
+  summary: Public agenda report from Oakland Department of Transportation (May 2022) documenting acceptance of $7,665,371.99
+    Sustainable Transportation Equity Project (STEP) grant for West Oakland. Names co-leads (DOT + West Oakland Environmental
+    Indicators Project), partner organizations (Urban Biofilter, West Oakland Green Initiative, The Crucible), fiscal agent
+    (Oakland Parks and Recreation Foundation), steering committee structure, and project rationale tied to air pollution and
+    health equity in a disadvantaged community.
+  doc_role: report
+  authorship: Oakland Department of Transportation (Ryan Russo, Director)
+  disposition: hold
+  disposition_reason: Citable project case with specific award amount, named partners, roles, and outcomes framework. Reusable
+    as evidence of Hyphae firm experience (West Oakland STEPS is a past project case) and partner capability documentation.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: West Oakland STEPS project case with $7.67M grant award, partner structure, and community engagement framework—citable
+      outcome for Hyphae boilerplate
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: 'Grant award facts: $7,665,371.99 STEP grant from California Air Resources Board; purpose (transportation equity
+      in disadvantaged communities); co-leadership model'
+  - sid: s2
+    path: part 2
+    type: project-case
+    reuse_value: high
+    note: 'Co-lead structure and rationale: DOT + West Oakland Environmental Indicators Project chosen for EJ advocacy history
+      and community trust'
+  - sid: s3
+    path: part 3
+    type: partner-role
+    reuse_value: high
+    note: 'Partner roles named: West Oakland Environmental Indicators Project, Urban Biofilter, West Oakland Green Initiative
+      (pedestrian/greening); The Crucible (bicycle hub); Oakland Parks and Recreation Foundation (fiscal agent)'
+  - sid: s4
+    path: part 4
+    type: partner-role
+    reuse_value: medium
+    note: 'Justification for non-competitive selection: West Oakland EIP''s past work (Community Action Plan, Grand Avenue
+      Mobility Plan), trust/credibility, Oakland Parks Foundation''s TCC grant experience'
+  - sid: s5
+    path: part 5
+    type: method
+    reuse_value: medium
+    note: 'Steering committee structure and engagement process: diversity reflection, community input incorporation cycle,
+      co-chair model for inclusive decision-making'
+  - sid: s6
+    path: part 6
+    type: site-context
+    reuse_value: medium
+    note: 'West Oakland context: air pollution and poor health outcomes unacceptably high; trucks as major diesel particulate
+      and toxic air contaminant source; disproportionate burden on communities of color and low-income residents'
+  fact_candidates:
+  - 's1: Grant amount $7,665,371.99 from California Air Resources Board (STEP program)'
+  - 's1: Date: May 27, 2022 (City Council recommendation)'
+  - 's2: STEP grant purpose: increase transportation equity in disadvantaged and low-income communities throughout California'
+  - 's2: West Oakland Environmental Indicators Project chosen as co-lead for longstanding EJ advocacy and deep community connections'
+  - 's3: Partner organizations: West Oakland Environmental Indicators Project, Urban Biofilter, West Oakland Green Initiative,
+    The Crucible'
+  - 's3: The Crucible responsible for bicycle resource hub development and implementation'
+  - 's4: West Oakland EIP assisted with West Oakland Community Action Plan and Grand Avenue Mobility Plan'
+  - 's4: Oakland Parks and Recreation Foundation working on TCC grant implementation in East Oakland'
+  - 's6: West Oakland has unacceptably high air pollution and poor health outcomes'
+  - 's6: Trucks are major source of diesel particulate matter and toxic air contaminants in West Oakland'
+  flags:
+  - excerpt thin on specific project deliverables and timelines—lists partners and grant acceptance but not detailed scope
+    or milestones
+  - no contact data for partners included
+  - CEQA analysis sections (s7) not relevant to proposal library
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 3894252b1ea05d973fd730aa80202b450d62e6f6d7ba40d6ef3b238261324b66
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3943
+    output: 906
+    cache_read: 0
+    cache_write: 0

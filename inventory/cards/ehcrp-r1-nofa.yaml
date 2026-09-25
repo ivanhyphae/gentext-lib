@@ -1,43 +1,41 @@
 asset_id: ehcrp-r1-nofa
 card:
-  summary: Round 1 NOFA for California's Extreme Heat and Community Resilience Program (EHCRP), announcing $20 million in
-    competitive grants for planning and implementation projects. Details eligibility, grant types (small/large planning and
-    implementation, $100k–$4M), partnership requirements, application process, scoring criteria, and technical assistance.
+  summary: NOFA for California's Extreme Heat and Community Resilience Program Round 1, announcing $20 million in funding
+    for planning and implementation grants. Covers eligibility, grant types (small/large planning and implementation, $100K–$4M),
+    partnership requirements, application process including pre-application form and full application via Submittable, scoring
+    criteria, appeals, and technical assistance availability.
   doc_role: solicitation
-  authorship: Governor's Office of Planning and Research (OPR) / ICARP
+  authorship: Governor's Office of Planning and Research (OPR), ICARP
   disposition: reference
-  disposition_reason: Authoritative statement of R1 program rules, eligibility, funding amounts, and process. Not prose to
-    reuse in proposals, but essential reference for understanding the solicitation framework and what applicants must comply
-    with.
+  disposition_reason: Authoritative program rules and eligibility criteria needed to understand Round 1 constraints and opportunities;
+    not prose to reuse in proposals.
   serves_needs: []
   sections: []
   fact_candidates:
-  - 'Subject: $20 Million total funding available for Round 1'
-  - 'Grant Types: Small Planning Grants $100,000–$250,000 (total $3M available)'
-  - 'Grant Types: Large Planning Grants $300,000–$750,000 (total $5M available)'
-  - 'Grant Types: Small Implementation Grants $100,000–$450,000 (total $3M available)'
-  - 'Grant Types: Large Implementation Grants $500,000–$4,000,000 (total $9M available)'
-  - 'Project duration: up to thirty months'
-  - 'Pre-Application Interest Form released: January 29, 2024'
-  - 'Pre-Application deadline for TA consideration: March 5, 2024 at 5 p.m. PST'
-  - 'Selection announcement anticipated: Summer 2024'
-  - 'Large Planning/Implementation scoring: 90 points + 10 points for final interview/site visit'
-  - 'Small Planning/Implementation scoring: 100 points total'
-  - Technical Assistance provided through third-party provider (Civix)
+  - '[s6] $20 million total funding available for Round 1'
+  - '[s9] $3 million allocated to Small Planning Grants ($100K–$250K per award)'
+  - '[s9] $5 million allocated to Large Planning Grants ($300K–$750K per award)'
+  - '[s10] $3 million allocated to Small Implementation Grants ($100K–$450K per award)'
+  - '[s10] $9 million allocated to Large Implementation Grants ($500K–$4 million per award)'
+  - '[s7] Projects span up to thirty months'
+  - '[s12] Pre-Application Interest Form released 29 January 2024'
+  - '[s14] Small grants receive single score out of 100 points; large grants receive 90 points plus up to 10 for interview/site
+    visit'
+  - '[s18] TA provider is Civix; pre-application deadline for TA interest 5 March 2024 at 5 p.m. PST'
+  - '[s17] Anticipated announcement of award recommendations Summer 2024'
   flags:
-  - This is EHCRP Round 1 (FY 2023–2024); Hyphae is pursuing Round 2 (EHCRP-r2-webinars-office-hours and r2 preapp feedback
-    are more relevant)
-  - Excerpt too thin to judge partnership language applicability to Bay Point projects
-  - No detail on Round 1 scoring rubric or narrative question specifics in NOFA body; must reference EHCRP R1 Final Guidelines
-    separately
+  - This is Round 1 NOFA, not Round 2 (EHCRP R2 is the active solicitation in the needs list)
+  - excerpt too thin to judge detailed scoring criteria, narrative question topics, and specific partnership requirements—see
+    Full Guidelines for substantive content
+  - contact email redacted
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: bf515689f8b4bd04090e5708740fe0a9e05ed0b437673c64249b539a1f6e2530
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 5305
-    output: 531
+    input: 5468
+    output: 475
     cache_read: 0
     cache_write: 0

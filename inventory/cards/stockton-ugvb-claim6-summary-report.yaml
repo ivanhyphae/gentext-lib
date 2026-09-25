@@ -1,0 +1,48 @@
+asset_id: stockton-ugvb-claim6-summary-report
+card:
+  summary: Claim 6 grant-claim summary report for the Little Manila Rising urban greening / vegetative barrier project in
+    Stockton (AB 617 Community Emissions Reduction Program). Documents delivered quantities and stewardship work during the
+    claim period 05/01/2026–05/31/2026. Hyphae is listed as subcontractor.
+  doc_role: report
+  authorship: Little Manila Rising (partner-authored); Hyphae Design Lab (subcontractor)
+  disposition: hold
+  disposition_reason: Citable delivered quantities and outcomes from a completed grant-funded Hyphae project case (Stockton
+    urban greening). Contains stewardship methodology and site-prioritization approach relevant to heat mitigation library.
+    Partner-authored, demonstrates field delivery and planning approach.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Completed Hyphae subcontract deliverable with quantified outcomes for urban greening / vegetative barrier project
+      in disadvantaged community (AB 617)
+  - need_id: lib-methods
+    how: Describes weighted analysis methodology for prioritizing planting sites based on canopy, heat stress, and pollution;
+      stewardship master plan approach
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: Grant claim overview for Stockton urban greening case; describes stewardship capacity building, site preparation,
+      maintenance, and long-term stewardship master plan development with field teams
+  fact_candidates:
+  - 'part 1: Contractor: Little Manila Rising; Subcontractor: Hyphae Design Lab'
+  - 'part 1: Project: Urban Greening Project (AB 617 Community Emissions Reduction Program)'
+  - 'part 1: Claim Period: 05/01/2026–05/31/2026'
+  - 'part 1: Claim #6'
+  - 'part 2: Weighted Analysis goal: generate weighted map of street segments and parcels based on low existing tree canopy,
+    high heat stress, and pollution levels'
+  - 'part 2: Targeting Interventions prioritizes areas for planting or pavement removal'
+  flags:
+  - 'excerpt too thin to judge: only section openings provided; full outcomes, quantities, and deliverables not visible'
+  - word counts suggest minimal substance (663 words total for 2-section claim report)
+  - owner contact redacted but indicates Little Manila Rising authorship
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8f57a8a2a547c7ae22afb7183d29ae7d4017066cefddb42172417e67d857a31d
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2929
+    output: 540
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,21 @@
+asset_id: community-heat-modeling-routing-decks
+source_path: sources/community-heat-modeling-routing-decks/community-heat-modeling-routing-decks.md
+source_sha256: 44631e34532443edf2e0db7f314f9a857e64dd191271ef68ae902a87cc4af54b
+text_sha256: 312a5067e11e3afcd532b74511c94ca10ea6b8f4f0603322b81390e3dd5fe1b7
+words: 778
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 178
+section_count: 2
+profiled: '2026-09-25'
+profiler: p2

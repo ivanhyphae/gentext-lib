@@ -1,0 +1,58 @@
+asset_id: ambrose-center-park-community-meeting-decks
+card:
+  summary: Presentation deck from first community meeting (December 3, 2025) for Ambrose Center Park Green Infrastructure
+    Enhancement Project, led by Hyphae and Contra Costa Resource Conservation District, covering water-related priorities
+    (stormwater, tap water, trash), project origins from 2019 needs assessment, and stated benefits (education, beautification,
+    cooling, green jobs). Very thin excerpts; full slide content not visible.
+  doc_role: presentation
+  authorship: James Hansen (Hyphae Design Laboratory); Chris Lim (Contra Costa Resource Conservation District)
+  disposition: hold
+  disposition_reason: Early evidence of community engagement process and site-specific priorities at Ambrose Center Park;
+    directly supports be-q2 (engagement strategies, community input) and hr-q1 (community voices about infrastructure needs).
+    Community meeting deck with stated priorities and next steps. Thin excerpts limit detail extraction, but document captures
+    lived priorities and engagement structure worth referencing.
+  serves_needs:
+  - need_id: be-q2
+    how: Shows participatory engagement strategy (community meeting, survey) and community-identified priorities (water management,
+      cooling, green jobs); demonstrates how input shapes project direction
+  - need_id: hr-q1
+    how: Lists specific exposure pathways (stormwater infrastructure, tap water quality, heat/shade deficit in urban heat
+      islands) tied to Bay Point community concerns; community meeting format indicates lived experience input
+  - need_id: ambrose-community-voices
+    how: Meeting deck format suggests capture of community priorities and voices; community survey link indicates ongoing
+      collection of resident input
+  sections:
+  - sid: s1
+    path: part 1
+    type: need-statement
+    reuse_value: medium
+    note: Project origins rooted in 2019 community needs assessment; three specific water-related priorities (stormwater,
+      tap water, urban cooling) identified by Bay Point residents; establishes community-defined problem statements
+  - sid: s2
+    path: part 2
+    type: capability
+    reuse_value: medium
+    note: Stated benefits include educational programming, green jobs, and cost reduction; demonstrates engagement approach
+      linking infrastructure to community workforce and environmental outcomes
+  fact_candidates:
+  - 's1: Project origins from 2019 needs assessment'
+  - 's1: Three priority areas: trash/stormwater, tap water infrastructure, water management in streets/trails'
+  - 's2: Stated benefits include educational opportunities, beautified public spaces, shade and cooling, reduced stormwater
+    costs, green jobs'
+  - 's2: Community meeting held December 3, 2025'
+  - 's2: Next step: community survey at https://ccrcd.hyphae.net/survey.html'
+  flags:
+  - 'excerpt too thin to judge: full slide content not visible; only opening text and closing benefits section provided'
+  - no community quotes or stories visible in excerpts; survey link indicates collection in progress
+  - 2019 needs assessment referenced but content not shown; verify whether full assessment document is available
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8f1d4d2ff91b6f305d353d1f8a1d74734933202cf1d438cd37a2c522358e1e23
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2925
+    output: 650
+    cache_read: 0
+    cache_write: 0

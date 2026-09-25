@@ -1,0 +1,178 @@
+asset_id: nsf-scc-tamu-2025
+card:
+  summary: 'NSF S&CC TAMU 2025 is a draft proposal for precision heat mapping and community-driven cooling interventions in
+    Houston, led by Texas A&M (Dessler, PI) with HARC (Piper, co-PI) and Hyphae as subawardee. The document is a working assembly
+    of a preliminary proposal (due 2/20/2025, full proposal 4/4/2025) plus extensive background materials: prior Hyphae project
+    narratives (Arlington Park/Dallas, Boyle Heights), methodology documentation, budget notes, internal coordination emails,
+    and solicitation guidance. The core research proposes meter-scale heat mapping via lidar-derived digital twins, sensor
+    networks, and SOLEWIG modeling to optimize cooling interventions (tree planting, cool pavements, shade structures) in
+    partnership with community-based organizations. Strong capability and method content; limited new site-specific facts
+    or community voices for Bay Point context.'
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab (Brent Bucknum, Maxwell Pingeon, Daniel Fleischer, Ivan Heitmann) with Texas A&M (Andrew Dessler)
+    and HARC (Stephanie Piper); primarily drafted by Hyphae.
+  disposition: hold
+  disposition_reason: Contains substantial reusable Hyphae capability, methods (evidence-based design, heat modeling, sensor
+    deployment, community engagement), and project case material (Arlington Park, Boyle Heights, Harry Hines). Valuable reference
+    for NSF proposal structure, budget language, and heat-mitigation approach. However, significant content is draft scaffolding
+    and near-duplicate material from other proposals (49% overlap flagged). Extract high-value sections on Hyphae's EBD approach,
+    heat modeling methodology, and monitoring protocols.
+  serves_needs:
+  - need_id: lib-methods
+    how: Detailed sections on evidence-based design workflow, heat modeling (SOLEWIG, mean radiant temperature, 1-meter resolution
+      digital twins), sensor deployment planning, pre/post study methodology, and community engagement strategies (s22, s26,
+      s56, s65-76, s93, s119-137, s168).
+  - need_id: lib-firm-experience
+    how: 'Three completed project cases with outcome narratives: Arlington Park (Dallas; pedestrian safety, tree planting,
+      complete streets, air quality monitoring); Boyle Heights (Los Angeles; EPA grant work on air filtration buffers, cool
+      pavements, community training); Harry Hines (Dallas; evidence-based design methodology report with monitoring results
+      and thermal comfort hypotheses). (s44, s48, s79-101, s119-137).'
+  - need_id: lib-partners
+    how: Partner roles and expertise documented for TAMU (climate science, resilience), HARC (community development, heat
+      mapping), Hyphae (evidence-based design, geospatial analysis, sensor networks), plus mentions of CBOs in Houston (Gulfton,
+      Ultra Barrio, Houston Land Trust). (s170, s141, s153).
+  sections:
+  - sid: s22
+    path: 'SCC-IRG: Closing the Heat Gap > Introduction'
+    type: capability
+    reuse_value: high
+    note: 'Hyphae''s integrative approach to heat research: urban heat island drivers, research novelty at meter scale, community
+      engagement infused with research, pilot intervention design, evaluation and scalability.'
+  - sid: s26
+    path: 'SCC-IRG: Closing the Heat Gap > Introduction > Community Engagement > Pilot Intervention'
+    type: method
+    reuse_value: high
+    note: 'Concrete workflow: stakeholder engagement in iterative design, software for greening simulation, pre/post sensor
+      data collection, design optimization via modeling.'
+  - sid: s44
+    path: Overview > Budget Justification > Evidence Base Design
+    type: project-case
+    reuse_value: high
+    note: Hyphae's EBD methodology and track record across Dallas, Louisville, Boyle Heights, Richmond, Stockton, Oakland;
+      roles of Brent Bucknum, Ivan Heitmann, Merissa MacDonald; Year 1 baseline, community co-design process.
+  - sid: s48
+    path: Narrative project description > Project need > Safety and Resilience Challenges in Arlington Park
+    type: site-context
+    reuse_value: medium
+    note: 'Arlington Park neighborhood (Dallas) barriers: pedestrian infrastructure gaps, sidewalk discontinuity, unsafe crossings,
+      isolation from parks and employment; community-identified safety concerns and connectivity needs.'
+  - sid: s53
+    path: Narrative project description > Socio-Demographics characteristics of Arlington Park neighborhood
+    type: evidence-data
+    reuse_value: medium
+    note: 'Arlington Park census data: population 1,358; demographics 35.5% Hispanic, 31.2% non-Hispanic White, 32.4% non-Hispanic
+      Black; comparison to City of Dallas totals.'
+  - sid: s55
+    path: Narrative project description > Community Co-Design Approach
+    type: method
+    reuse_value: high
+    note: 'Hyphae''s EJ approach: 10+ years supporting grassroots organizations with technical assistance, environmental monitoring,
+      design solutions; empowerment via data and science; policy wins in pollution reduction, climate resilience, green infrastructure.'
+  - sid: s56
+    path: Narrative project description > Evidence-Based Design Approach
+    type: method
+    reuse_value: high
+    note: 'Core EBD process: problem understanding (literature, sensor data, spatial modeling), community engagement (participatory
+      design, co-ownership), design integration, measurement and iteration; emphasis on hyperlocal tailoring and evidence-driven
+      decisions.'
+  - sid: s65
+    path: Narrative project description > Evidence-Based Design Approach > Measurement of environmental indicators > Data
+      Analysis and Modeling
+    type: method
+    reuse_value: medium
+    note: 'Data analysis workflow: satellite/aerial data synthesis, machine learning validation, high-resolution spatial models;
+      SOLEWIG and mean radiant temperature estimation; before/during/after physical surveys via lidar and Street View.'
+  - sid: s93
+    path: 'BH-EPA-Grant EDITED > Approach > The Approach: Measurement & Modeling'
+    type: method
+    reuse_value: high
+    note: 'Adaptive measurement, design, modeling workflow: data collection on heat/AQ/greenness, model validation and expansion,
+      sensor deployment prioritization, design optimization, post-intervention evaluation. Digital twin methodology using
+      lidar and GSV before/during/after.'
+  - sid: s119
+    path: Harry Hines Evidence-based design methodology report > Executive summary > Introduction
+    type: project-case
+    reuse_value: high
+    note: 'Harry Hines redevelopment (Dallas, TX) evidence-based design process: pre/post monitoring, environmental simulation,
+      design optimization; generalizable platform for other communities; integration of project into broader research framework.'
+  - sid: s125
+    path: Harry Hines Evidence-based design methodology report > Brief Literature review > Strategies for air pollution >
+      Vegetated Air Barriers for Roadside Pollution Mitigation
+    type: method
+    reuse_value: medium
+    note: 'Design rubric for roadside vegetated buffers: high surface area, no gaps, dense plantings of Thuja, Abies, Pinus,
+      Taxus, Juniperus; clear-zone species (tall grasses, shrubs); literature-grounded species selection guidance.'
+  - sid: s135
+    path: Harry Hines Evidence-based design methodology report > Pre/Post & Cross-Sectional Study Methodology > Quantitative
+      methods
+    type: method
+    reuse_value: high
+    note: Pre/post study design for thermal comfort and air pollution; cross-sectional and longitudinal hypotheses; ~30 temperature
+      sensor locations; Phase 2 monitoring protocol for air pollution and additional variables; quantitative analysis framework.
+  - sid: s168
+    path: Project Description > Integrative Research Approach
+    type: method
+    reuse_value: high
+    note: 'High-resolution heat mapping: 1-meter 3D digital twin via lidar, SOLEWIG MRT estimation, sensor network validation,
+      machine learning, community-driven interventions. Meter-scale shift beyond census-tract analysis; geospatial, engineering,
+      and social science integration.'
+  - sid: s170
+    path: Project Personnel and Partner Institutions
+    type: org-profile
+    reuse_value: medium
+    note: 'Team roles: Dessler (TAMU, climate science, AGU/AAAS fellow), Piper (HARC, community resilience), Fleischer/Bucknum/Penaloza/Heitmann
+      (Hyphae, modeling, design, geospatial expertise). Institutional affiliations and leadership roles.'
+  fact_candidates:
+  - 's2: Extreme heat contributing to estimated $100 billion annually in direct medical expenses in the United States; expected
+    to drive to $500 billion per year by 2050.'
+  - 's22: Urban Heat Island (UHI) occurs due to high thermal mass materials (concrete, asphalt) and waste heat from buildings,
+    vehicles, HVAC, industrial processes.'
+  - 's32: NSF Award AGS-2243602 (Dessler): 7/23–6/26; total $591,203; focus on excess mortality-based extreme heat definition
+    and climate model simulations.'
+  - 's44: Hyphae experience in Dallas, Louisville, Boyle Heights, Richmond, Stockton, Oakland; team includes Brent Bucknum
+    (Principal), Ivan Heitmann (Landscape Designer, GIS), Merissa MacDonald (Certified Arborist).'
+  - 's45: Sensor network deployed in Arlington Park corridor; expansion beyond initial pilot zone into Arlington Park neighborhood.'
+  - 's53: Arlington Park population 1,358; 35.5% Hispanic, 31.2% non-Hispanic White, 32.4% non-Hispanic Black.'
+  - 's138: NSF S&CC total funding $23,260,000; Development Grants 10–20, Integrative Research Grants 10–20, Large-Scale Research
+    1; minimum $750,000 per project.'
+  - 's138: NSF S&CC preliminary proposal deadline 2/20/2025; full proposal deadline 4/4/2025.'
+  - 's144: Total NSF grant ~$1.5M for entire period (~$500k/year for 3 years); A&M overhead 52.5–54%; rough budget: A&M ~$100k/year,
+    HARC ~$100k/year, Hyphae ~$300k/year.'
+  - 's168: Proposed 1-meter scale digital twin of Houston using publicly available aerial lidar; SOLEWIG mean radiant temperature
+    estimation for typical summer day.'
+  - 's170: Hyphae subawardees: Daniel Fleischer (Chief Science Officer), Brent Bucknum (Principal), Juan Penaloza Gutierrez
+    (Modeling Expert), Ivan Heitmann (Modeling and Design Lead).'
+  - 's172: Gulfton neighborhood identified as one of hottest in Houston; Nature Conservancy funded Greener Gulfton project
+    in collaboration with Asakura Robinson and Ultra Barrio shade structures.'
+  flags:
+  - Document is primarily a working assembly, not a polished draft; heavy internal coordination notes, email chains, and scaffolding
+    present.
+  - 'Near-duplicate alert: 49% overlap with resilient-philadelphia-grant-2025, arlington-park-ttf-epa-ccg-2024, and calepa-ej-action-grant-2025;
+    many sections appear to be templates/boilerplate reused across multiple proposals.'
+  - Metadata inventory_note claims 'heat-relevant' but the document is primarily a research-framed NSF proposal, not a Hyphae-authored
+    case with citable community outcomes.
+  - Section s2 (Pre-Proposal Only, 2040 words) is solicitation guidance, not Hyphae content; many administrative sections
+    (s3–s7, s9–s18) are boilerplate NSF guidelines.
+  - Houston-focused (Gulfton, Houston Land Trust, HARC, Stephanie Piper); does not address Bay Point or Ambrose applications
+    directly. Arlington Park sections are Dallas-based prior work.
+  - Contact data redacted; email addresses and phone numbers replaced with [email]/[phone] markers.
+  - 'Internal candid notes flag: sections s139–s157 contain email threads, budget negotiations, meeting notes with frank discussions
+    of project cost-benefit, community engagement strategy (''30% of community engagement needs to go to CBO liaisons''),
+    and LoS quality concerns (''personally hate when the LoS are ghost written'').'
+  - Harry Hines methodology (s119–s137) is detailed and high-value but appears to be a standalone deliverable report, not
+    draft proposal text.
+  - Excerpt coverage thin for many sections (e.g., s9, s10, s15, s16, s18–s21, s24, s27, s31, s34–s39); judgment limited by
+    sparse opening text.
+  - 'Community voices minimal: no direct quotes or stories from Houston or Arlington Park residents about heat or cooling
+    needs. Arlington Park section is needs-framed but lacks ''lived experience'' integration per EHCRP harm-reduction criteria.'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: bd9ac2f825c96e7ae700473f97009440b31a1d8a79c548baa8423cb93163bc91
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 15869
+    output: 3002
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,47 @@
+asset_id: west-oakland-tcc-r6-strategy7-urban-greening
+card:
+  summary: West Oakland TCC Round 6 Strategy 7 proposal-draft on urban greening and green infrastructure for Oakland Parks
+    and Recreation Foundation's 'Community Greening' project in the OPRF project area. Document is an instruction template
+    and partial form with narrative question prompts (200–500 word limits) but minimal substantive answers filled in. Only
+    metadata and question headers visible; almost no actual project narrative, design details, community needs, or outcomes
+    are present in the excerpts.
+  doc_role: proposal-draft
+  authorship: Oakland Parks and Recreation Foundation (OPRF); Hyphae (co-writing)
+  disposition: ignore
+  disposition_reason: This is a nearly empty form template with question scaffolding but no meaningful proposal content. The
+    few excerpts show only question prompts, eligibility checkboxes, and field instructions. No actual narrative answers,
+    project design, community engagement details, outcomes, or site-specific facts are visible. The document is a live work-in-progress
+    (modified 2026-09-21) but at this stage offers no reusable prose, citable facts, or project case material. Flag the context-leakage
+    risk noted in inventory (overlap with UGG and EHCRP) and wait for completed draft.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 's4: Oakland Parks and Recreation Foundation (OPRF) is Project Lead'
+  - 's4: EIN 94-2751052'
+  - 's4: Organization type: Non-Profit'
+  - 's5: Project proposal name: Community Greening'
+  - 's6: Summary limit: 200 words'
+  - 's7: Management capacity question limit: 200 words'
+  - 's8: Project design question limit: 500 words'
+  - 's8: Health/equity question limit: 300 words'
+  - 's9: Operations/maintenance question limit: 300 words'
+  - 's10: Climate resilience question limit: 300 words'
+  - 's10: Community benefits question limit: 300 words'
+  flags:
+  - 'excerpt too thin to judge: no substantive answers visible, only question prompts and form instructions'
+  - 'context leakage risk flagged in inventory: overlaps UGG and EHCRP greening language; wait for completed version before
+    extracting'
+  - live draft modified 2026-09-21; likely superseded by later version
+  - no community voices, site details, or design specifics present in available text
+  - form template structure only; reusable prose not yet written
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: cb9e5ddcc3d616dbc263166636db1cfc96ddea9aabc476a192bceedae7f059c4
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4239
+    output: 541
+    cache_read: 0
+    cache_write: 0

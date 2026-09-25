@@ -17,7 +17,7 @@ from gentext import inventory as inv
 from gentext.extract import EMAIL, PHONE, cached_text
 
 PROFILE_DIR = Path("inventory/profiles")
-PROFILER_VERSION = "p1"
+PROFILER_VERSION = "p2"
 SHINGLE = 8
 FALLBACK_PART_WORDS = 600
 
@@ -136,7 +136,7 @@ def profile_assets(assets: list[inv.Asset]) -> list[dict]:
             "words": len(text.split()),
             "pii": {"emails": len(EMAIL.findall(text)), "phones": len(PHONE.findall(text))},
             "near_duplicates": sorted(dups, key=lambda d: -d["contained_in"]),
-            "sections": [{"path": s.path, "level": s.level, "words": s.words} for s in sects[a.id][:400]],
+            "sections": [{"sid": f"s{i}", "path": s.path, "level": s.level, "words": s.words} for i, s in enumerate(sects[a.id][:400], 1)],
             "section_count": len(sects[a.id]),
             "profiled": dt.date.today().isoformat(),
             "profiler": PROFILER_VERSION,

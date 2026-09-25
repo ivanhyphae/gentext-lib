@@ -1,0 +1,39 @@
+asset_id: ehcrp-r1-small-grant-awardees-2024
+card:
+  summary: List of 15 EHCRP Round 1 small-grant awardees (planning and implementation) announced November 2024, showing funded
+    project scopes, lead applicants, and award amounts ($125k–$450k). Covers heat resilience, nature-based solutions, cooling
+    infrastructure, and community planning across California. No detailed outcomes or lessons learned; primarily an award
+    announcement.
+  doc_role: report
+  authorship: LCI (California Energy Commission or administering agency)
+  disposition: reference
+  disposition_reason: Authoritative list of what reviewers funded in R1 small grants; useful to understand funder priorities
+    and precedent project scopes for context when developing R2 applications. Not prose to reuse, and near-duplicate of ehcrp-r1-awards-list.
+    No new facts or community-specific evidence beyond project titles and award amounts.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 's1: Communities United for Restorative Youth Justice led East/West Oakland I-880 corridor project, $125,000 Small Planning
+    Grant'
+  - 's1: LA County Dept of Public Health led health-impact assessment project, $249,950'
+  - 's2: Special Service for Groups/API Forward Movement led Fremont Elementary green schoolyard planning, $249,999.96'
+  - 's2: Fresno Council of Governments led county heat analysis and shade plan, $250,000'
+  - 's3: Sacramento Regional Transit District funded 20 heat-resilient bus stop shelters, $449,900'
+  - 's3: Black Cultural Zone CDC led 31,000 sq ft resilience hub pre-development, $450,000'
+  - 's1: Total R1 small-grant funding awarded: $4,374,225.26'
+  flags:
+  - near-duplicate of ehcrp-r1-awards-list (78%); minimal new value beyond award confirmation
+  - 'excerpt thin: no outcomes, metrics, or lessons learned from R1 projects'
+  - no Bay Point or Ambrose-specific information
+  - does not address R2 application questions or evidence gaps
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8eb8701f5b4d0b2fa49a883d46752c027a2204abb9f36271deadd578867f05fd
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3299
+    output: 460
+    cache_read: 0
+    cache_write: 0

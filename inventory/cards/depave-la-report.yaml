@@ -1,0 +1,108 @@
+asset_id: depave-la-report
+card:
+  summary: DePave LA is a comprehensive 2026 technical assessment of pavement distribution, environmental burdens (heat, flooding,
+    canopy deficit), and depaving opportunities across Los Angeles County. Co-authored by Accelerate Resilience L.A. (ARLA)
+    and Hyphae Design Laboratory, it maps over two million parcels and rights-of-way using remote sensing, identifies "stacked
+    needs" hotspots where environmental harms overlap, and provides a framework for equitable, multi-benefit pavement removal
+    prioritization. The report spans parcel-level and corridor-scale analysis, cost modeling, design precedents, and methodology
+    documentation.
+  doc_role: report
+  authorship: Accelerate Resilience L.A. (ARLA) and Hyphae Design Laboratory
+  disposition: hold
+  disposition_reason: Published case study co-authored by Hyphae demonstrating firm's technical capability in large-scale
+    depaving assessment, heat/flood/canopy mapping, and equity-focused prioritization. Strong source for method text, site
+    context examples, and firm experience narrative. Inventory note flags Chapter 5+ as priority; while outline does not expose
+    full section content, the excerpts show robust technical methodology and real-world outcomes.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Hyphae co-authored published depaving assessment for LA County; demonstrates heat/flood/canopy mapping and multi-benefit
+      prioritization capability.
+  - need_id: lib-methods
+    how: Describes UTCI, ECOSTRESS surface temperature, flood risk (PRIMo), landcover-derived pavement quantification, and
+      hexagonal grid population-filtering methodology for environmental need assessment.
+  sections:
+  - sid: s15
+    path: part 15 / Technical approach and scope
+    type: method
+    reuse_value: high
+    note: 'Core methodology: two-category pavement framework (core vs. non-core), fine-scale metrics integration (heat, flood,
+      canopy, pavement intensity), stacked-needs mapping, equity filtering via population density and SB535 DAC overlap.'
+  - sid: s20
+    path: part 20 / Needs assessment introduction and definitions
+    type: method
+    reuse_value: high
+    note: Defines parcel-, corridor-, and hexgrid-scale environmental indicators (ECOSTRESS surface temperature, PRIMo flood
+      extents, landcover pavement share, canopy coverage); population-filtered aggregation rationale.
+  - sid: s23
+    path: part 23 / Heat exposure and UTCI
+    type: method
+    reuse_value: medium
+    note: Explains heat measurement approaches (air, surface, radiant temperature) and Universal Thermal Comfort Index; cites
+      OurCounty Plan targets (18% canopy by 2035, 30% heat-stress ED visit reduction).
+  - sid: s25
+    path: part 25 / Stormwater and Safe Clean Water Program context
+    type: site-context
+    reuse_value: medium
+    note: LA County stormwater capture goal (580k acre-feet/year), SCWP target (300k acre-feet/year via NBS), Watershed Planning
+      Framework and Opportunity Areas concept; depaving role in regional strategy.
+  - sid: s26
+    path: 'part 26 / Flood risk: streamflow, stormtide, rainfall'
+    type: method
+    reuse_value: medium
+    note: Three flood hazard categories mapped; historical pavement and channelization tradeoffs; relationship between impervious
+      surfaces and infiltration/groundwater recharge.
+  - sid: s31
+    path: part 31 / Cross-plan synthesis and findings summary
+    type: site-context
+    reuse_value: medium
+    note: Compares Depave LA results to other LA planning efforts (CVA heat rankings, CFMP canopy, SCWP flood); notes lack
+      of coordinated depaving initiative; supervisorial district patterns for targeted allocation.
+  - sid: s32
+    path: 'part 32 / Pavement distribution: residential, industrial, government patterns'
+    type: evidence-data
+    reuse_value: high
+    note: Countywide acreage by parcel type; intensity ratios (multi-family vs. single-family, trucking terminals vs. warehouses);
+      top-quartile risk area pavement burden breakdown—source for quantitative claims.
+  - sid: s42
+    path: 'part 42 / Non-core pavement: unincorporated areas and ROW'
+    type: evidence-data
+    reuse_value: medium
+    note: 23,380 acres non-core pavement in unincorporated parcels; 1,305 acres in ROW; distinction between core (roads, parking,
+      sidewalks) and non-core opportunity framing.
+  fact_candidates:
+  - 's15: Analysis categorizes pavement into core (roads, sidewalks, required parking) and non-core (not required for roads,
+    sidewalks, parking).'
+  - 's16: Commercial non-core pavement 22,857 acres countywide; 10% landscape requirement retrofit would remove 1,018 acres;
+    50% of 4M commercial/industrial parking spaces could be angled to free ~1,259 football fields.'
+  - 's16: One small tree could be planted per 2M parking spaces after angled parking retrofit.'
+  - 's23: Sylmar, Northridge, Pacoima projected to experience over 30 additional extreme heat days annually.'
+  - 's23: OurCounty Plan targets: 18% canopy coverage by 2035, 20% by 2045; 20% heat-stress ED visit reduction by 2035, 30%
+    by 2045.'
+  - 's25: LA County stormwater capture goal: 580,000 acre-feet/year; SCWP target: 300,000 acre-feet/year from stormwater capture.'
+  - 's29: Among 293 hexagons ranking top quartile on all four metrics (heat, flood, pavement, low canopy), 232 (79%) within
+    SB535 DACs.'
+  - 's32: Single-family homes contain 80% of all residential pavement (58,936 acres countywide).'
+  - 's38: 3,179 school parcels with 2,084,992 total student enrollment; at least 15,240 acres pavement (~137 sq ft per student).'
+  - 's42: Unincorporated areas contain 23,380 acres potentially non-core pavement in parcels; 1,305 acres non-core pavement
+    in ROW.'
+  flags:
+  - 'Outline structure opaque: parts 1–14 are placeholder section divisions (each ~600 words); actual chapter and subsection
+    titles are embedded in section text, making granular reuse difficult without full document review.'
+  - Inventory note requests Chapter 5 (p.129+) review; outline shows s4 covers figure/table ranges ~p.152–171 (cost analysis,
+    landscape benchmarks) but excerpt too thin to assess that content.
+  - 'Near-duplicate flagged: depave-la-report-final-gdoc (67% overlap); confirm this is the authoritative version before extracting
+    chunks.'
+  - 'Authorship: Hyphae contributors named (Fleischer, Bucknum, Pingeon, Olson, Futerfas) but ARLA listed as co-lead; verify
+    correct attribution for firm-experience narrative.'
+  - Report dated January 2026 (future date in metadata); confirm actual publication date and whether this is final or draft.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 9a0b2ec99c92938add4bb0e7a792e8db6d89aef6b34eb7a26e1688cfb9315ae5
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 10971
+    output: 1694
+    cache_read: 0
+    cache_write: 0

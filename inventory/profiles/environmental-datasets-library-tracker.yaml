@@ -1,0 +1,285 @@
+asset_id: environmental-datasets-library-tracker
+source_path: sources/environmental-datasets-library-tracker/environmental-datasets-library-tracker.md
+source_sha256: 3ad4a77f5da855e80cbe0b9fdafc626a692c41615bbb71531f4698adceec5d67
+text_sha256: b14c7dd4a7c32334dd190f5083f609d139fa746870b38b376860b7007d0318ff
+words: 6255
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: (preamble)
+  level: 0
+  words: 3
+- sid: s2
+  path: Table Context
+  level: 2
+  words: 0
+- sid: s3
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker'
+  level: 3
+  words: 0
+- sid: s4
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: THE LAYERS'
+  level: 3
+  words: 0
+- sid: s5
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AM185'
+  level: 3
+  words: 0
+- sid: s6
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 241
+- sid: s7
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 355
+- sid: s8
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Stockton Analysis in AdaptOS'
+  level: 3
+  words: 0
+- sid: s9
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AM52'
+  level: 3
+  words: 0
+- sid: s10
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 241
+- sid: s11
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 355
+- sid: s12
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Stockton Specific Layers'
+  level: 3
+  words: 0
+- sid: s13
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AM28'
+  level: 3
+  words: 0
+- sid: s14
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 241
+- sid: s15
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 355
+- sid: s16
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Twin Cities Selected Layers'
+  level: 3
+  words: 0
+- sid: s17
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AL184'
+  level: 3
+  words: 0
+- sid: s18
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 235
+- sid: s19
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 346
+- sid: s20
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: MN Staging'
+  level: 3
+  words: 0
+- sid: s21
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AL1029'
+  level: 3
+  words: 0
+- sid: s22
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 235
+- sid: s23
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 346
+- sid: s24
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: PHL Selected Layers'
+  level: 3
+  words: 0
+- sid: s25
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AO168'
+  level: 3
+  words: 0
+- sid: s26
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 257
+- sid: s27
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 377
+- sid: s28
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Philly Staging'
+  level: 3
+  words: 0
+- sid: s29
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AL396'
+  level: 3
+  words: 0
+- sid: s30
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 235
+- sid: s31
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 346
+- sid: s32
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: WPF Datalayers'
+  level: 3
+  words: 0
+- sid: s33
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:F65'
+  level: 3
+  words: 0
+- sid: s34
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 33
+- sid: s35
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 48
+- sid: s36
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Dallas Story Map 2024'
+  level: 3
+  words: 0
+- sid: s37
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:N6'
+  level: 3
+  words: 0
+- sid: s38
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 87
+- sid: s39
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 126
+- sid: s40
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Copy of shortlist'
+  level: 3
+  words: 0
+- sid: s41
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:P122'
+  level: 3
+  words: 0
+- sid: s42
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 67
+- sid: s43
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 112
+- sid: s44
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: QGIS Layers - Broadway'
+  level: 3
+  words: 0
+- sid: s45
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:S185'
+  level: 3
+  words: 0
+- sid: s46
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 121
+- sid: s47
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 175
+- sid: s48
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Tree Surveys'
+  level: 3
+  words: 0
+- sid: s49
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AA90'
+  level: 3
+  words: 0
+- sid: s50
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 145
+- sid: s51
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 223
+- sid: s52
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Regressions with Tree Survey Da'
+  level: 3
+  words: 0
+- sid: s53
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:AC119'
+  level: 3
+  words: 0
+- sid: s54
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 175
+- sid: s55
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 259
+- sid: s56
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: other meta-information'
+  level: 3
+  words: 0
+- sid: s57
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:C7'
+  level: 3
+  words: 0
+- sid: s58
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 15
+- sid: s59
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 21
+- sid: s60
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: fletch tools'
+  level: 3
+  words: 0
+- sid: s61
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:A49'
+  level: 3
+  words: 0
+- sid: s62
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 7
+- sid: s63
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 7
+- sid: s64
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Sheet Name: Sheet3'
+  level: 3
+  words: 0
+- sid: s65
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Range: A1:I29'
+  level: 3
+  words: 0
+- sid: s66
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Sample Data'
+  level: 3
+  words: 43
+- sid: s67
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Table Columns'
+  level: 3
+  words: 67
+- sid: s68
+  path: 'Table Context > File Name: EnvironmentalDataSetsLibraryTracker > Comment Anchors'
+  level: 3
+  words: 77
+section_count: 68
+profiled: '2026-09-25'
+profiler: p2

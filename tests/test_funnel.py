@@ -52,7 +52,7 @@ def test_card_schema_is_strict():
 GOOD = {
     "summary": "s", "doc_role": "guidance", "authorship": "LCI", "disposition": "reference",
     "disposition_reason": "r", "serves_needs": [{"need_id": "hr-q2", "how": "h"}],
-    "sections": [{"path": "A", "type": "method", "reuse_value": "high", "note": "n"}],
+    "sections": [{"sid": "s1", "path": "A", "type": "method", "reuse_value": "high", "note": "n"}],
     "fact_candidates": [], "flags": [],
 }
 
@@ -71,3 +71,27 @@ def test_ingest_validates(tmp_path, monkeypatch):
 def test_needs_text_lists_questions():
     txt = card.needs_text()
     assert "hr-q1" in txt and "ambrose-memorial-park" in txt
+
+
+def test_slice_by_anchors_is_verbatim():
+    from gentext.candidates import slice_by_anchors
+
+    src = "Intro text. The project planted 1,750 trees in Stockton neighborhoods over four years. Next para."
+    got = slice_by_anchors(src, "The project planted 1,750", "over four years.")
+    assert got == "The project planted 1,750 trees in Stockton neighborhoods over four years."
+    assert slice_by_anchors(src, "The project planted 9,999", "four years.") is None
+    assert slice_by_anchors(src, "over four years.", "The project planted") is None  # order matters
+
+
+def test_extraction_schema_keeps_title_property():
+    from gentext.candidates import _schema
+
+    chunk = _schema()["$defs"]["ChunkProposal"]
+    assert "title" in chunk["properties"] and "title" in chunk["required"]
+
+
+def test_anchors_ignore_markdown_markup():
+    from gentext.candidates import slice_by_anchors
+
+    src = "- **Prescott Greening Project** (2021-2024, AB 617 funding): planted trees near the freeway.​"
+    assert slice_by_anchors(src, "Prescott Greening Project (2021-2024, AB 617", "trees near the freeway.") is not None

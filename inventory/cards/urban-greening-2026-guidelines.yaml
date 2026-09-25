@@ -1,49 +1,109 @@
 asset_id: urban-greening-2026-guidelines
 card:
-  summary: 'CNRA Urban Greening Grant Program 2026 solicitation guidelines with application forms, evaluation criteria, and
-    compliance requirements. Authorizes $46.125M in Climate Bond funding for nature-based solutions to mitigate urban heat
-    island effect, rising temperatures, and extreme heat impacts. Minimum award $200K, maximum $5M. Eligible applicants include
-    public agencies, nonprofits, tribes, and utilities. Two-stage process: Concept Proposals (due May 4–June 4, 2026) followed
-    by Full Proposals. Evaluation rubric scores 0–70 points for project merit (extreme heat threat, community benefits, readiness,
-    design quality, leverage) plus up to 30 bonus points for Climate Bond priorities (disadvantaged/severely disadvantaged
-    communities, vulnerable populations). Requires 20–25 year operation & maintenance commitment. Appendices include concept
-    and full proposal forms, glossary, CHAT instructions, tribal consultation, and environmental compliance guidance.'
+  summary: 'CNRA Urban Greening Grant Program 2026 solicitation guidelines (May 2026 final). Authorizes $46.125M in Climate
+    Bond funding for nature-based solutions to mitigate urban heat island effect in urban areas. Available to public agencies,
+    tribes, nonprofits, utilities, and special districts. Awards: $200K–$5M minimum/maximum. Development projects (construction
+    + nonconstruction ≤25%) eligible; planning/education/training standalone ineligible. Requires public benefit, public access,
+    site control. Prioritizes vulnerable populations, disadvantaged communities, severely disadvantaged communities. Concept
+    Proposals due May 4–June 4, 2026 (subject to change); full proposals follow. Projects must complete by March 1, 2030.
+    Includes scoring rubric (0–70 base points + 30 climate bond priority points), TA workshops, required appendices (CHAT
+    instructions, CEQA, VCP, glossary, plant palette guidance, tribal consultation best practices).'
   doc_role: solicitation
   authorship: California Natural Resources Agency (CNRA)
   disposition: reference
-  disposition_reason: Authoritative source document defining Urban Greening program rules, timelines, scoring rubric, and
-    application procedures. Not prose to reuse, but essential reference for Bay Point applicants to understand eligibility,
-    funding caps, Climate Bond priorities, disadvantaged community thresholds, and compliance deadlines. EHCRP is a separate
-    program; this document is contextual only.
-  serves_needs: []
-  sections: []
+  disposition_reason: Authoritative solicitation text defining program rules, scoring criteria, eligible costs, and applicant
+    requirements; necessary for proposal compliance and strategy but not proposal prose to reuse.
+  serves_needs:
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: Guidelines mention TA workshops and office hours (dates/links on CNRA webpage) but this document itself does not
+      contain webinar slides, recordings, or Q&A materials.
+  sections:
+  - sid: s15
+    path: I. Introduction > Program Authority
+    type: solicitation-text
+    reuse_value: medium
+    note: Climate Bond 2024 authorization and CNRA grant program legal basis; useful context for proposal authority statement.
+  - sid: s16
+    path: I. Introduction > Funding Purpose
+    type: solicitation-text
+    reuse_value: high
+    note: Definition of nature-based solutions, examples (tree planting, green spaces, canopy), and heat mitigation outcomes—directly
+      quotable for proposal problem/solution framing.
+  - sid: s19
+    path: II. Program Information > Funding Requirements
+    type: solicitation-text
+    reuse_value: medium
+    note: Public benefit, public access, site control, tribal outreach requirements—essential compliance checklist for Bay
+      Point proposals.
+  - sid: s20
+    path: II. Program Information > Climate Bond Funding Priorities
+    type: solicitation-text
+    reuse_value: high
+    note: Definitions of vulnerable population, disadvantaged community, severely disadvantaged community; scoring priority
+      criteria directly applicable to need-statement and belonging sections.
+  - sid: s26
+    path: III. Competitive Grant Process > Full Proposal Evaluation
+    type: solicitation-text
+    reuse_value: high
+    note: Detailed 0–70 point scoring rubric (Extreme Heat Threat, Community Engagement, Project Benefits, Technical Feasibility,
+      co-benefits) and 30-point Climate Bond bonus criteria; essential for proposal strategy.
+  - sid: s49
+    path: Appendix B. Full Proposal Form > Project Description
+    type: template
+    reuse_value: medium
+    note: Project deliverables and project elements examples (trees, plants, bioswales, paths, benches, shade structures)
+      provide model language and checklist for Bay Point proposals.
+  - sid: s50
+    path: Appendix B. Full Proposal Form > Project Questions
+    type: template
+    reuse_value: high
+    note: CHAT census tract, Annual Number of Health Events, Heat Health Action Index required data; establishes data reporting
+      standard.
+  - sid: s69
+    path: Appendix D. Glossary of Terms
+    type: boilerplate
+    reuse_value: medium
+    note: Canonical definitions (active recreation, California Native American tribe, climate bond, disadvantaged community,
+      vulnerable population, etc.) for consistent terminology in proposals.
+  - sid: s70
+    path: Appendix E. California Heat Assessment Tool Instructions
+    type: evidence-data
+    reuse_value: high
+    note: 'CHAT usage instructions: HHEs (Heat Health Events), HHAI (Heat Health Action Index) extraction and interpretation;
+      critical for hr-q1, hr-q2 data baseline.'
+  - sid: s73
+    path: Appendix H. Vulnerable Communities Platform Instructions
+    type: evidence-data
+    reuse_value: high
+    note: VCP climate vulnerability mapping (extreme heat hazard, social vulnerability layers, high/medium/low designation)
+      methodology; required for identifying disadvantaged community benefit.
   fact_candidates:
-  - 'Available Funding: $46,125,000'
-  - 'Minimum award: $200,000; Maximum award: $5,000,000'
-  - 'Concept Proposal Solicitation Period: May 4 – June 4, 2026'
-  - Projects must be completed by no later than March 1, 2030
-  - Non-construction costs limited to 25 percent of grant funds
-  - Climate Bond requires at least 40 percent of funding for projects benefiting vulnerable populations or disadvantaged communities
-  - 'Operation & Maintenance commitment: At least 20 years for grants up to $1 million; At least 25 years for grants over
-    $1 million'
-  - 'Indirect costs: grantee may choose negotiated rate, federally approved rate (if available), or de minimis rate of 15
-    percent of modified total direct costs'
-  - Up to 30 additional points for meeting Climate Bond Funding Priorities (total 100 possible points)
-  - 'Two data layers required in CHAT: Annual Number of Health Events and Heat Health Action Index'
+  - $46,125,000 total available funding
+  - Minimum award $200,000; maximum award $5,000,000
+  - Projects must complete by March 1, 2030
+  - Concept Proposal submission period May 4–June 4, 2026 (subject to change)
+  - Nonconstruction costs limited to 25 percent of grant funds
+  - 'Full Proposal scoring: 0–70 base points + 30 climate bond priority points = 100 possible'
+  - Operations and maintenance required for 20 years (grants ≤$1M) or 25 years (grants >$1M)
+  - Projects may only be implemented on single site (except street tree planting in public rights-of-way)
+  - 'Plant establishment period: up to 3 years eligible for grant funding'
+  - 'Indirect cost rate options: negotiated rate, provisional rate, or 20% de minimis rate'
   flags:
-  - This is Urban Greening, not EHCRP Round 2 (Early Infrastructure)—different programs with different timelines and priorities
-  - No direct connection to Bay Point applications visible; inventory_note was empty and document does not mention Ambrose
-    or Bay Point
-  - Concept Proposal deadline May 4–June 4, 2026 is earlier than EHCRP Round 2 full application deadline (Oct 13, 2026)
-  - Useful for context on state climate-funded greening criteria but not a primary source for EHCRP application strategy
+  - Document is solicitation text, not proposal draft or deliverable; extensive but thin on Bay Point specifics
+  - CHAT and VCP tools referenced but not included; require separate access and data entry
+  - No pre-application feedback or past Round 1 materials included
+  - Concept Proposal form preview (Appendix A) and Full Proposal form preview (Appendix B) are templates only; actual RAPTR
+    system forms referenced as live links not captured here
+  - Tribal consultation requirements present but no Bay Point tribal engagement record visible in this document
+  - Plant palette guidance references external tools (Cal Poly, WUCOLS, CAL FIRE) not included in excerpts
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: fd6a7f34604e323d33f772724e2f7acb330e5d90e3e82bf4ab78810b9e4f554c
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 10921
-    output: 703
+    input: 11288
+    output: 1387
     cache_read: 0
     cache_write: 0

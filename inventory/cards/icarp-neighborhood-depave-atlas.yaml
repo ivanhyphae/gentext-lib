@@ -1,0 +1,31 @@
+asset_id: icarp-neighborhood-depave-atlas
+card:
+  summary: 'ICARP Depave Atlas: a presentation deck with selected maps of depaving-related metrics (pavement usage, parking
+    needs, flood risk, surface temperature, tree canopy, population density) for four neighborhoods in Southern California
+    (East Los Angeles, Paramount, Panorama City, West Whittier). No narrative text provided in excerpt; appears to be primarily
+    visual/cartographic output.'
+  doc_role: presentation
+  authorship: Hyphae Design Lab
+  disposition: reference
+  disposition_reason: Maps and metrics are cartographic evidence and benchmarking tools useful for site context and LCB planning,
+    but the deck excerpt contains no reusable proposal prose, no citable outcome data, and no narrative about methodology
+    or findings. Useful as a reference for depaving-related data and visualization examples; keep for lookup but not for extraction.
+  serves_needs: []
+  sections: []
+  fact_candidates: []
+  flags:
+  - 'excerpt too thin to judge: only section headers and map descriptions; no substantive text or data values shown'
+  - 'no Bay Point content: all four neighborhoods are in Southern California, not relevant to active Ambrose Center / Ambrose
+    Memorial applications'
+  - presentation format suggests visual-first; cannot assess reusable prose or specific claims without slides themselves
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 4e7b9bf7e9abe3dfe271f85fe97b2b3ba01e691d4d988329f9fdb3b00816c196
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 2803
+    output: 277
+    cache_read: 0
+    cache_write: 0

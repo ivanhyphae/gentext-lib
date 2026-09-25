@@ -1,63 +1,63 @@
 asset_id: cnra-ugg-2026-concept-bay-point
 card:
-  summary: 'CNRA Urban Greening Grant concept proposal for retrofitting Bay Point transit stops with green infrastructure
-    (shade trees, native vegetation, GSI) to address extreme heat and build community resilience. Lead: Contra Costa Resource
-    Conservation District (CCRCD). Budget: $4.2M over ~3 years (Feb 2027–Feb 2030). Framed as workforce pathways project;
-    focuses on priority transit corridors in frontline community.'
+  summary: '2026 Urban Greening Grant Program concept proposal for Bay Point climate-resilient transit stops and workforce
+    pathways, led by Contra Costa Resource Conservation District (CCRCD). Requests $4.217M to retrofit transit stops on priority
+    corridors (e.g., Willow Pass Road) with shade trees, native vegetation, and green stormwater infrastructure to address
+    extreme heat and improve public health in frontline community. Project runs Feb 2027–Feb 2030. Checks multiple climate
+    benefits: extreme heat protection, GHG reduction, resilience, biodiversity, and workforce/monitoring capacity.'
   doc_role: proposal-draft
-  authorship: Contra Costa Resource Conservation District (CCRCD)
+  authorship: Contra Costa Resource Conservation District (CCRCD); primary contact Chris Lim, secondary Adam Gelfand
   disposition: hold
-  disposition_reason: Tests funder-neutral language and framing for same Bay Point site across two funders (EHCRP R2 vs. CNRA
-    UGG); proposal prose on heat exposure, community vulnerability, and infrastructure rationale are directly reusable for
-    EHCRP application. Site context, need statement, and design concept applicable across grant mechanisms.
+  disposition_reason: 'Funder-neutral reuse test: same community (Bay Point) and similar infrastructure vision as EHCRP application;
+    contains site-specific need statement, design rationale, and project structure that can inform library assets for site
+    context and belonging/design elements. Draft status suggests incomplete but worth extracting proven framing.'
   serves_needs:
   - need_id: lib-site-bay-point
-    how: Names Willow Pass Road corridor as priority transit area; describes existing conditions (heat exposure, lack of amenities,
-      pavement-dominant stops) and community vulnerability (housing, transportation, economic challenges).
-  - need_id: lib-methods
-    how: 'Describes retrofit approach: shade trees, native vegetation, green stormwater infrastructure as integrated heat-mitigation
-      strategy; implies climate-ready species selection for drought resilience.'
+    how: Confirms Bay Point transit-rider heat exposure, lack of amenities, urban heat island conditions, and housing/transportation/economic
+      challenges; names Willow Pass Road as priority corridor; establishes community vulnerability profile.
+  - need_id: be-q1
+    how: 'Describes specific design elements: shade trees, native vegetation, green stormwater infrastructure at transit stops;
+      rooted in rider experience and frontline community identity.'
   sections:
-  - path: part 2
-    type: need-statement
-    reuse_value: high
-    note: Specific, vivid description of Bay Point transit rider exposure to heat and lack of basic amenities; frames bus
-      stops as frequently-used community spaces and opportunity for intervention.
-  - path: part 4
+  - sid: s2
+    path: part 2 — Project description and rationale
     type: site-context
     reuse_value: high
-    note: 'Documents vulnerability: housing instability, transportation access, economic opportunity challenges; urban heat
-      island + air quality; establishes why transit stops matter as public spaces in daily life.'
-  - path: part 3
-    type: method
-    reuse_value: medium
-    note: Lists climate benefits and design elements (shade trees, native vegetation, GSI, climate-ready species); checklist
-      format less prose-ready but captures integrated heat/resilience approach.
+    note: Concrete description of Bay Point bus-stop conditions, heat exposure, and design response (shade, vegetation, GSI);
+      directly applicable to belonging and site facts.
+  - sid: s4
+    path: part 4 — Community vulnerability and project benefits
+    type: need-statement
+    reuse_value: high
+    note: Articulates housing stability, transportation access, economic opportunity gaps; existing heat island and air quality
+      concerns; positions bus stops as frequent-use community assets. Strong need foundation.
   fact_candidates:
-  - 'part 1 | Project location: 3105 Willow Pass Rd, Bay Point, CA 94565'
-  - part 1 | Latitude 38.0289, Longitude -121.9447
-  - 'part 1 | Grant amount requested: $4,217,818'
-  - 'part 1 | Total project cost: $4,217,818'
-  - 'part 1 | Project start: February 1, 2027'
-  - 'part 1 | Project end: February 28, 2030'
-  - 'part 1 | CCRCD address: 2001 Clayton Road, Suite 200, Concord, CA 94520'
-  - 'part 1 | County: Contra Costa, Senate District 9, Assembly District 15'
-  - 'part 2 | Proposed improvements: shade trees, native vegetation, green stormwater infrastructure'
+  - 's1: Project location 3105 Willow Pass Rd, Bay Point, CA 94565; latitude 38.0289, longitude -121.9447'
+  - 's1: Grant amount requested $4,217,818; total project cost $4,217,818'
+  - 's1: Project start date February 1, 2027; end date February 28, 2030 (36 months)'
+  - 's1: Applicant: Contra Costa Resource Conservation District, 2001 Clayton Road, Suite 200, Concord, CA 94520'
+  - 's1: County Contra Costa, Senate District 9, Assembly District 15'
+  - 's2: Bus stops currently consist of sign + pavement with no shade or amenities'
+  - 's3: Project checks climate benefits: extreme heat, GHG reduction, resilience to heat/drought, biodiversity protection,
+    workforce/monitoring capacity'
+  - 's4: Residents face housing stability, transportation access, economic opportunity challenges related to climate response
+    capacity'
   flags:
-  - 'Excerpt thin: part 1 is form boilerplate with contact redaction; parts 2–4 are opening paragraphs only—full proposal
-    text not visible.'
-  - No workforce pathways detail despite title emphasis—insufficient excerpt to evaluate that component.
-  - Metadata note claims 'funder-neutral library test' but no comparative language or versioning visible in excerpts.
-  - No community voice, data, or partnership specifics visible in excerpt—likely present in full document.
-  - No metrics or outcome targets visible; cannot assess alignment with EHCRP hr-q2 (measurable harm reduction).
+  - Excerpt too thin to judge full proposal quality; only opening/form sections visible.
+  - Contact data redacted ([email], [phone]).
+  - Lead applicant is CCRCD, not Ambrose Recreation and Park District (ARPD); different funder (Urban Greening Grant vs EHCRP);
+    unclear whether this is parallel track or alternative.
+  - No quantified harm-reduction or metric outcomes visible in excerpts; no community voice or data integration shown.
+  - Workforce pathways mentioned in title but not elaborated in excerpts; capacity-building component unclear.
+  - Pre-application or concept stage; full proposal may contain stronger need/harm/partnership detail.
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
-  backend: api-batch
-  text_sha256: a76113e5d928f21c0915da6ba5938c93f32e71bf0412734ad2b2c2aa71847e54
-  created: '2026-09-25T13:52:29'
+  prompt_version: c3
+  backend: api-sync
+  text_sha256: d6e4c4e1769c88a02b77952438d51d4d3a940d79e266a285b22324b929da329d
+  created: '2026-09-25T14:16:42'
   usage:
-    input: 3305
-    output: 827
+    input: 3394
+    output: 872
     cache_read: 0
     cache_write: 0

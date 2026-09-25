@@ -6,173 +6,231 @@ words: 2934
 pii:
   emails: 0
   phones: 0
-near_duplicates: []
+near_duplicates:
+- asset_id: ehcrp-r1-small-grant-awardees-2024
+  jaccard: 0.412
+  contained_in: 0.465
 sections:
-- path: Extreme Heat and Community Resilience
+- sid: s1
+  path: Extreme Heat and Community Resilience
   level: 2
   words: 122
-- path: Extreme Heat and Community Resilience > Program Structure
+- sid: s2
+  path: Extreme Heat and Community Resilience > Program Structure
   level: 2
   words: 74
-- path: Extreme Heat and Community Resilience > Large Implementation Grants
+- sid: s3
+  path: Extreme Heat and Community Resilience > Large Implementation Grants
   level: 2
   words: 4
-- path: Extreme Heat and Community Resilience > Community Resilience Center and Extreme Heat Response
+- sid: s4
+  path: Extreme Heat and Community Resilience > Community Resilience Center and Extreme Heat Response
   level: 2
   words: 51
-- path: Extreme Heat and Community Resilience > Panorama Park Sprayground
+- sid: s5
+  path: Extreme Heat and Community Resilience > Panorama Park Sprayground
   level: 2
   words: 5
-- path: 'Extreme Heat and Community Resilience > Total Funding Amount: $1,995,000'
+- sid: s6
+  path: 'Extreme Heat and Community Resilience > Total Funding Amount: $1,995,000'
   level: 2
   words: 35
-- path: Extreme Heat and Community Resilience > Cooling Amenities and Programs in LA County Parks
+- sid: s7
+  path: Extreme Heat and Community Resilience > Cooling Amenities and Programs in LA County Parks
   level: 2
   words: 162
-- path: 'Extreme Heat and Community Resilience > Co-Applicant: Middletown Rancheria of Pomo Indians of California'
+- sid: s8
+  path: 'Extreme Heat and Community Resilience > Co-Applicant: Middletown Rancheria of Pomo Indians of California'
   level: 2
   words: 117
-- path: Extreme Heat and Community Resilience > Small Implementation Grants
+- sid: s9
+  path: Extreme Heat and Community Resilience > Small Implementation Grants
   level: 2
   words: 73
-- path: Extreme Heat and Community Resilience > Copperopolis Community Center Heat Resilience Upgrades
+- sid: s10
+  path: Extreme Heat and Community Resilience > Copperopolis Community Center Heat Resilience Upgrades
   level: 2
   words: 5
-- path: 'Extreme Heat and Community Resilience > Co-Applicant: Copperopolis Community Center'
+- sid: s11
+  path: 'Extreme Heat and Community Resilience > Co-Applicant: Copperopolis Community Center'
   level: 2
   words: 66
-- path: Extreme Heat and Community Resilience > Extreme Heat Resilience Hub
+- sid: s12
+  path: Extreme Heat and Community Resilience > Extreme Heat Resilience Hub
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: Black Cultural Zone Community Development Corporation'
+- sid: s13
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: Black Cultural Zone Community Development Corporation'
   level: 2
   words: 57
-- path: Extreme Heat and Community Resilience > Extreme Heat Resiliency in Zero Emissions Neighborhood
+- sid: s14
+  path: Extreme Heat and Community Resilience > Extreme Heat Resiliency in Zero Emissions Neighborhood
   level: 2
   words: 6
-- path: 'Extreme Heat and Community Resilience > Total Funding Amount: $341,000.00'
+- sid: s15
+  path: 'Extreme Heat and Community Resilience > Total Funding Amount: $341,000.00'
   level: 2
   words: 41
-- path: Extreme Heat and Community Resilience > Frontline Worker Education and Advocacy Collaborative
+- sid: s16
+  path: Extreme Heat and Community Resilience > Frontline Worker Education and Advocacy Collaborative
   level: 2
   words: 79
-- path: Extreme Heat and Community Resilience > Hart ES PACEUP
+- sid: s17
+  path: Extreme Heat and Community Resilience > Hart ES PACEUP
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: Los Angeles Unified School District'
+- sid: s18
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: Los Angeles Unified School District'
   level: 2
   words: 33
-- path: 'Extreme Heat and Community Resilience > HeatShield Apparel: Enhancing Agricultural Workers'' Thermal Comfort'
+- sid: s19
+  path: 'Extreme Heat and Community Resilience > HeatShield Apparel: Enhancing Agricultural Workers'' Thermal Comfort'
   level: 2
   words: 31
-- path: Extreme Heat and Community Resilience > Tulare County Parks Extreme Heat Relief Project
+- sid: s20
+  path: Extreme Heat and Community Resilience > Tulare County Parks Extreme Heat Relief Project
   level: 2
   words: 4
-- path: 'Extreme Heat and Community Resilience > Total Funding Amount: $379,059.59'
+- sid: s21
+  path: 'Extreme Heat and Community Resilience > Total Funding Amount: $379,059.59'
   level: 2
   words: 7
-- path: Extreme Heat and Community Resilience > Valley College Community Shade and Hydration Stations Project
+- sid: s22
+  path: Extreme Heat and Community Resilience > Valley College Community Shade and Hydration Stations Project
   level: 2
   words: 53
-- path: Extreme Heat and Community Resilience > Large Planning Grants
+- sid: s23
+  path: Extreme Heat and Community Resilience > Large Planning Grants
   level: 2
   words: 3
-- path: Extreme Heat and Community Resilience > Accelerating Regional Heat Action Planning Across San Diego
+- sid: s24
+  path: Extreme Heat and Community Resilience > Accelerating Regional Heat Action Planning Across San Diego
   level: 2
   words: 137
-- path: Extreme Heat and Community Resilience > Central Valley Extreme Heat and Community Resilience Planning
+- sid: s25
+  path: Extreme Heat and Community Resilience > Central Valley Extreme Heat and Community Resilience Planning
   level: 2
   words: 65
-- path: Extreme Heat and Community Resilience > Contra Costa County Urban Forest Management Plan
+- sid: s26
+  path: Extreme Heat and Community Resilience > Contra Costa County Urban Forest Management Plan
   level: 2
   words: 63
-- path: Extreme Heat and Community Resilience > Cool Streets for Affordable Housing Neighborhoods Program
+- sid: s27
+  path: Extreme Heat and Community Resilience > Cool Streets for Affordable Housing Neighborhoods Program
   level: 2
   words: 91
-- path: 'Extreme Heat and Community Resilience > Co-Applicants: Imperial Valley Equity and Justice Coalition'
+- sid: s28
+  path: 'Extreme Heat and Community Resilience > Co-Applicants: Imperial Valley Equity and Justice Coalition'
   level: 2
   words: 42
-- path: Extreme Heat and Community Resilience > Paradise Extreme Heat Resilience Plan
+- sid: s29
+  path: Extreme Heat and Community Resilience > Paradise Extreme Heat Resilience Plan
   level: 2
   words: 6
-- path: 'Extreme Heat and Community Resilience > Co-Applicant: Rural Community Assistance Corporation'
+- sid: s30
+  path: 'Extreme Heat and Community Resilience > Co-Applicant: Rural Community Assistance Corporation'
   level: 2
   words: 67
-- path: 'Extreme Heat and Community Resilience > Co-Applicants: Sacramento Municipal Utility District, United Latinos'
+- sid: s31
+  path: 'Extreme Heat and Community Resilience > Co-Applicants: Sacramento Municipal Utility District, United Latinos'
   level: 2
   words: 52
-- path: Extreme Heat and Community Resilience > Empower Community Microgrids Plan
+- sid: s32
+  path: Extreme Heat and Community Resilience > Empower Community Microgrids Plan
   level: 2
   words: 53
-- path: Extreme Heat and Community Resilience > The Southwest Santa Rosa Holistic, Equitable, Actionable, Transformative
+- sid: s33
+  path: Extreme Heat and Community Resilience > The Southwest Santa Rosa Holistic, Equitable, Actionable, Transformative
   level: 2
   words: 7
-- path: 'Extreme Heat and Community Resilience > Co-Applicant: Latino Service Providers'
+- sid: s34
+  path: 'Extreme Heat and Community Resilience > Co-Applicant: Latino Service Providers'
   level: 2
   words: 45
-- path: Extreme Heat and Community Resilience > Ventura County Heat Action Plan
+- sid: s35
+  path: Extreme Heat and Community Resilience > Ventura County Heat Action Plan
   level: 2
   words: 5
-- path: 'Extreme Heat and Community Resilience > Co-Applicants: Community Environmental Council, Mixteco Indigena Community'
+- sid: s36
+  path: 'Extreme Heat and Community Resilience > Co-Applicants: Community Environmental Council, Mixteco Indigena Community'
   level: 2
   words: 49
-- path: Extreme Heat and Community Resilience > Small Planning Grants
+- sid: s37
+  path: Extreme Heat and Community Resilience > Small Planning Grants
   level: 2
   words: 4
-- path: Extreme Heat and Community Resilience > Advancing Nature-Based Solutions in Extreme Heat Resilience Planning
+- sid: s38
+  path: Extreme Heat and Community Resilience > Advancing Nature-Based Solutions in Extreme Heat Resilience Planning
   level: 2
   words: 182
-- path: Extreme Heat and Community Resilience > Building Resilient and Empowering Zones for Everyone (BREZE)
+- sid: s39
+  path: Extreme Heat and Community Resilience > Building Resilient and Empowering Zones for Everyone (BREZE)
   level: 2
   words: 32
-- path: Extreme Heat and Community Resilience > City of Vista Public Tree Master Plan
+- sid: s40
+  path: Extreme Heat and Community Resilience > City of Vista Public Tree Master Plan
   level: 2
   words: 5
-- path: 'Extreme Heat and Community Resilience > Total Funding Amount: $250,000.00'
+- sid: s41
+  path: 'Extreme Heat and Community Resilience > Total Funding Amount: $250,000.00'
   level: 2
   words: 20
-- path: Extreme Heat and Community Resilience > Community Climate Resilience Initiative (CCRI)
+- sid: s42
+  path: Extreme Heat and Community Resilience > Community Climate Resilience Initiative (CCRI)
   level: 2
   words: 227
-- path: Extreme Heat and Community Resilience > Florence Firestone Bus Shelter Project
+- sid: s43
+  path: Extreme Heat and Community Resilience > Florence Firestone Bus Shelter Project
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: Kounkuey Design Initiative, Inc'
+- sid: s44
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: Kounkuey Design Initiative, Inc'
   level: 2
   words: 61
-- path: Extreme Heat and Community Resilience > Fremont Elementary School Multibenefit Campus Greening Project
+- sid: s45
+  path: Extreme Heat and Community Resilience > Fremont Elementary School Multibenefit Campus Greening Project
   level: 2
   words: 39
-- path: Extreme Heat and Community Resilience > Happy Camp Cool Community Resilience and Emergency Operations
+- sid: s46
+  path: Extreme Heat and Community Resilience > Happy Camp Cool Community Resilience and Emergency Operations
   level: 2
   words: 34
-- path: Extreme Heat and Community Resilience > HeatBeat Community Alert Program
+- sid: s47
+  path: Extreme Heat and Community Resilience > HeatBeat Community Alert Program
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: Folsom Cordova Community Partnership'
+- sid: s48
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: Folsom Cordova Community Partnership'
   level: 2
   words: 33
-- path: Extreme Heat and Community Resilience > HeatSafe Colusa
+- sid: s49
+  path: Extreme Heat and Community Resilience > HeatSafe Colusa
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: City of Colusa'
+- sid: s50
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: City of Colusa'
   level: 2
   words: 162
-- path: Extreme Heat and Community Resilience > Koreatown Environmental Equity Project (KEEP)
+- sid: s51
+  path: Extreme Heat and Community Resilience > Koreatown Environmental Equity Project (KEEP)
   level: 2
   words: 0
-- path: 'Extreme Heat and Community Resilience > Lead Applicant: Koreatown Youth and Community Center'
+- sid: s52
+  path: 'Extreme Heat and Community Resilience > Lead Applicant: Koreatown Youth and Community Center'
   level: 2
   words: 17
-- path: Extreme Heat and Community Resilience > San Bernardino Community Resilience and Greening Planning
+- sid: s53
+  path: Extreme Heat and Community Resilience > San Bernardino Community Resilience and Greening Planning
   level: 2
   words: 47
-- path: Extreme Heat and Community Resilience > Western Alameda County Tree Partner Network
+- sid: s54
+  path: Extreme Heat and Community Resilience > Western Alameda County Tree Partner Network
   level: 2
   words: 17
-- path: 'Extreme Heat and Community Resilience > Total Funding Amount: $244,545.00'
+- sid: s55
+  path: 'Extreme Heat and Community Resilience > Total Funding Amount: $244,545.00'
   level: 2
   words: 34
 section_count: 55
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

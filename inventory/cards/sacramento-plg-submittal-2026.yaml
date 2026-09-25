@@ -1,0 +1,103 @@
+asset_id: sacramento-plg-submittal-2026
+card:
+  summary: Sacramento Parking Lot Greening & Depaving full submittal (April 2026) for City of Sacramento RFP G15252000. Hyphae
+    proposes geospatial pavement analysis using adaptOS platform, technical manual development (Shade Manual and Guidebook),
+    pilot project support, and community engagement. Contract period Aug 2026–Dec 2027; $100k budget. Demonstrates firm capabilities
+    in depaving assessment, green infrastructure design, and community-centered planning.
+  doc_role: submitted-proposal
+  authorship: Hyphae Design Laboratory
+  disposition: hold
+  disposition_reason: Contains reusable proposal prose on firm qualifications, methodologies (adaptOS platform, geospatial
+    hotspot mapping, community engagement), and project approach applicable to future green infrastructure / climate resilience
+    proposals. Demonstrates completed work scope and deliverables (technical manuals, pilot implementation, engagement models)
+    with schedule and budget structure.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Recent submittal (2026) showing Hyphae's depaving, green infrastructure design, and community engagement approach;
+      references DepaveLA (140k acres), adaptOS platform, Tree Corps model, multi-language outreach.
+  - need_id: lib-methods
+    how: Describes geospatial pavement analysis, UTCI thermal stress mapping, LiDAR-based digital twins, green infrastructure
+      design standards, and community-centered engagement with translated materials (English/Spanish/Hmong).
+  sections:
+  - sid: s2
+    path: 1. Introductory Letter
+    type: boilerplate
+    reuse_value: high
+    note: Firm origin story, mission statement, and positioning for climate resilience/EJ projects; adaptable cover letter
+      language.
+  - sid: s4
+    path: 3. Qualifications and Experience of Project Manager and Team
+    type: org-profile
+    reuse_value: high
+    note: Firm founding (2008), discipline mix (engineers, biologists, planners), work focus (90% environmental health/justice);
+      foundational corporate profile.
+  - sid: s5
+    path: 3. Qualifications and Experience of Project Manager and Team > Key Personnel
+    type: org-profile
+    reuse_value: high
+    note: 'Named key staff with credentials: Bucknum (founder, 20+ yrs, NASA/LADWP advisor), Olson (PE C71460, 15 yrs, DepaveLA),
+      Visco (urban forestry, Green the Church lead), Fleischer (adaptOS lead, 10+ patents).'
+  - sid: s6
+    path: 4. Project Approach and Work Plan
+    type: capability
+    reuse_value: high
+    note: Core service line statement (green design, geospatial modeling, civil/MEP, landscape restoration, community design);
+      data-driven, evidence-based framing applicable to multiple infrastructure contexts.
+  - sid: s7
+    path: 4. Project Approach and Work Plan > The adaptOS Platform
+    type: method
+    reuse_value: high
+    note: 'Proprietary platform description: synthesizes aerial/satellite/LiDAR, creates 3D digital twins, simulates heat/flood/pollution,
+      models greening scenarios before implementation.'
+  - sid: s8
+    path: '4. Project Approach and Work Plan > Task 1: Geospatial Pavement Analysis & Hotspot Mapping'
+    type: method
+    reuse_value: medium
+    note: High-resolution imagery + LiDAR, functional pavement classification, UTCI thermal stress + runoff layering for priority
+      site identification.
+  - sid: s9
+    path: '4. Project Approach and Work Plan > Task 2: Development of Technical Manuals'
+    type: method
+    reuse_value: medium
+    note: 'Two-tier deliverable model: technical standards manual (tree protection, soil volume, heat mitigation) + public-facing
+      guidebook (translated, actionable).'
+  - sid: s11
+    path: '4. Project Approach and Work Plan > Task 4: Community Engagement & Education'
+    type: method
+    reuse_value: medium
+    note: Tree Corps model adaptation; 6 community events; multilingual materials (English, Spanish, Hmong); stewardship framing.
+  - sid: s12
+    path: 5. Project Schedule
+    type: other
+    reuse_value: medium
+    note: '19-month schedule template (Aug 2026–Dec 2027): mobilization, mapping, manual drafts, pilot site selection/RFP,
+      final report; milestone-based structure.'
+  fact_candidates:
+  - 's2: Hyphae founded in Oakland, California in 2008'
+  - 's4: Over 90% of Hyphae''s work focused on environmental health and justice'
+  - 's5: Brent Bucknum has 20+ years experience in ecological design'
+  - 's5: Eric Olson is a California Professional Engineer (#C71460) with 15 years civil/environmental experience'
+  - 's5: Daniel Fleischer holds 10+ patents in environmental monitoring'
+  - 's6: DepaveLA assessment covered 140,000 acres'
+  - 's8: Mapping will use LiDAR data and high-resolution imagery'
+  - 's12: Project final report due Dec 15, 2027'
+  - 's20: Total labor budget $75,200'
+  - 's21: Direct costs $20,040; contingency $4,760; grand total $100,000'
+  - 's21: Contract period spans Aug 2026 to Dec 2027 (19 months)'
+  flags:
+  - Not applicable to active EHCRP Round 2 solicitation (Bay Point / Ambrose sites); different funder, different geography
+  - Proposal is for Sacramento city project, not grant application to LCI
+  - No community voices or harm-reduction framing present (not applicable to this context)
+  - adaptOS and DepaveLA references are Hyphae internal/proprietary assets—strong for firm credibility but limited external
+    verification in excerpt
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 61349c2fc951f84c59a7d4d204920e661ae111f938372aee33e775230cf4ae3b
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 5237
+    output: 1335
+    cache_read: 0
+    cache_write: 0

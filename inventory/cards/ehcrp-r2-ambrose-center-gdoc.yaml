@@ -1,0 +1,160 @@
+asset_id: ehcrp-r2-ambrose-center-gdoc
+card:
+  summary: This is a working-draft Google Doc containing ARPD-led pre-application materials for the Ambrose Center Park EHCRP
+    Round 2 application (due Oct 13, 2026). It includes strategic notes on program requirements, partner lists, grant documentation,
+    meeting notes, a pre-application form template, and example Fresno County proposal language. The document conflates two
+    near-duplicate sites (Center Park and Memorial Park) and contains internal team coordination notes, decision logs, and
+    action items. Much of the content is administrative or preparatory rather than polished application text.
+  doc_role: working-doc
+  authorship: Hyphae Design Lab + I-ReLab team (kj, Brent Bucknum, Ivan Heitmann, James Hansen, Chris Lim, Mei)
+  disposition: hold
+  disposition_reason: Contains reusable grant writing language (firm experience blurbs, technical capability statements, partnership
+    rationale), a template letter of interest, pre-application form narrative drafts, and strategic guidance on EHCRP program
+    structure and requirements. The team's decision-making process and meeting notes also document partnership-building methodology
+    and site-specific context for Bay Point work. Sections s106, s108, s110 (Fresno example), and s112 (pre-app narrative)
+    are high-value reusable assets. Internal notes (s32, s33, s36, s51, s80–s100) capture strategic framing on relational
+    infrastructure, harm reduction, and belonging that may inform future proposals.
+  serves_needs:
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: Sections s8–s20 summarize deadlines, webinar schedules, office hours registration links, and example city presentations
+      (Tempe, Phoenix, Fresno) relevant to Round 2 application strategy.
+  - need_id: lib-methods
+    how: Sections s106 and s108 document Hyphae's UTCI modeling, LiDAR/geospatial analysis, heat vulnerability modeling, and
+      heat-integrated design methodology. Section s112 mentions 'site-scale heat vulnerability modeling' and 'digital twin
+      modeling' for Ambrose Center Park.
+  - need_id: lib-partners
+    how: Sections s32–s50 list and discuss potential partners (Amigas de los Ríos, Northeast Trees, Council for Watershed
+      Health, Contra Costa RCD, CEJC, SOS Richmond, LA County, Ambrose Community Org). Sections s106 and s110 profile Hyphae's
+      track record and network (WOIP, Valley Improvement Project, Little Manila Rising, CEJC, Mayor Rey Leon's LEAP).
+  - need_id: pt-q1
+    how: Sections s32–s33 and s51 articulate why single orgs cannot succeed and describe partnership formation principles.
+      Section s100 (Mei notes) documents partner eligibility discussion and co-applicant requirements. Section s66 notes SOS
+      Richmond as CBO partner for bus stop pre-app.
+  - need_id: pt-q2
+    how: Sections s95 and s100 reference Ambrose Community Center prior grant submissions, RCD green bus stop project already
+      submitted to separate grant, and Prescott Greening Project (2021–2024) with $150K TCC + $300K MTC + other funding (s106).
+      Lack of detail on partner milestones/lessons learned.
+  sections:
+  - sid: s3
+    path: '2026 Hyphae + I-ReLab: EHCRP > Strategic notes and emerging opportunities'
+    type: notes
+    reuse_value: high
+    note: Team meeting notes on program strategy, partner-first approach, relational vs. physical infrastructure distinction,
+      and emerging opportunity framing.
+  - sid: s10
+    path: Introduction > Program Funding and Purpose
+    type: solicitation-text
+    reuse_value: high
+    note: '$27.5M EHCRP Round 2 program summary: $7.5M Early Infrastructure (planning + demo, $750K–$1.2M, 30 months); $20M
+      Advanced Infrastructure ($3M–$4.5M, 48 months). Climate Bond and GGR Fund.'
+  - sid: s12
+    path: Introduction > Grant Types and Available Funds
+    type: solicitation-text
+    reuse_value: medium
+    note: Early vs. Advanced Infrastructure tier definitions and budget ranges.
+  - sid: s32
+    path: The Opportunity
+    type: notes
+    reuse_value: high
+    note: 'Articulates Hyphae''s role: translate community relationships into fundable climate projects; highlights Partnership,
+      Belonging, Lasting Community Benefits, Implementation Readiness requirements.'
+  - sid: s33
+    path: Applicant's role
+    type: notes
+    reuse_value: high
+    note: Describes Hyphae's support areas (partnership formation, belonging, storytelling, stewardship planning, grant development)
+      and clarifies that Hyphae cannot serve as lead applicant.
+  - sid: s36
+    path: Emerging Strategy
+    type: notes
+    reuse_value: high
+    note: 'Strategic principle: ''work begins with partners, not projects''; relationship-first approach strengthens proposals
+      and long-term implementation.'
+  - sid: s51
+    path: Strategic Reflection
+    type: notes
+    reuse_value: high
+    note: Distinction between physical and relational infrastructure; opportunity for I-ReLab to strengthen cultural, relational,
+      implementation frameworks around climate projects.
+  - sid: s106
+    path: Fresno EHCRP example > Firm Experience
+    type: capability
+    reuse_value: high
+    note: 'Prescott Greening Project case study (2021–2024, AB 617, TCC): air quality monitoring, vegetated buffers, tree
+      planting in West Oakland. $150K TCC + $300K MTC + $600K ACTC + $50K Port Oakland + $100K CalFire. Phased implementation,
+      community air action plan integration.'
+  - sid: s108
+    path: Fresno EHCRP example > Technical Capabilities
+    type: capability
+    reuse_value: high
+    note: Land cover classification, parcel-scale geospatial analysis, LiDAR, cloud/GPU processing, UTCI heat modeling, pedestrian
+      behavior simulations.
+  - sid: s110
+    path: Fresno EHCRP example > Local Knowledge
+    type: network
+    reuse_value: high
+    note: 'Hyphae partnerships: CEJC, Valley Improvement Project, Little Manila Rising, Mayor Rey Leon''s LEAP; Central Valley
+      network for EJ coalition engagement.'
+  - sid: s112
+    path: Pre-application
+    type: solicitation-text
+    reuse_value: medium
+    note: Pre-application form template and Ambrose Center Park narrative draft. Site-scale heat vulnerability modeling, UTCI
+      before/after, nature-based cooling, plaza/parking/ballfield/garden interventions.
+  - sid: s80
+    path: August 4, 2026 - check in KJ BB MV IH > Decisions
+    type: notes
+    reuse_value: medium
+    note: 'Strategy decision: focus on Ambrose + bus stops for Aug 11 deadline; Ambrose has master plan, CEQA underway, prior
+      grant materials.'
+  - sid: s91
+    path: July 22, 2026 - Partnership Workstream > Decisions
+    type: notes
+    reuse_value: medium
+    note: Early infrastructure = 25% min demo, 75% planning/engagement/belonging; pre-app letter does not require site control;
+      county partner adds credibility.
+  fact_candidates:
+  - 's10: $27.5 million total EHCRP Round 2 funding announced by Governor''s Office of Land Use and Climate Innovation (LCI).'
+  - 's10: Funded by Climate Bond (Proposition 4) and Greenhouse Gas Reduction Fund.'
+  - 's12: Early Infrastructure: $7.5 million total, $750,000–$1.2 million per award, 30-month completion.'
+  - 's12: Advanced Infrastructure: $20 million total, $3 million–$4 million per award, 48-month completion.'
+  - 's8: Pre-Application Window 1 closes July 21, 2026, 2:00 PM PST (TA requests available only in Window 1).'
+  - 's8: Pre-Application Window 2 closes August 11, 2026, 2:00 PM PST (no TA requests).'
+  - 's8: Full Application deadline October 13, 2026, 2:00 PM PST.'
+  - 's106: Prescott Greening Project funded by $150,000 Transformative Climate Communities grant (California Strategic Growth
+    Council).'
+  - 's106: Prescott Project additional funding: $300,000 MTC Priority Conservation Areas, $600,000 Alameda County Transportation
+    Commission, $50,000 Port of Oakland, $100,000 CalFire.'
+  - 's112: Ambrose Center Park demonstration includes UTCI modeling and digital twin before/after thermal stress quantification.'
+  - 's14: Applications scored out of 90 points: 55 narrative, 15 Funding Priority Groups, 20 workplan/budget; top applicants
+    score additional 10 points for interview/site visit (total 100).'
+  - 's100: Pre-application deadline for Ambrose/bus stops: August 11, 2026, 2:00 PM (Window 2).'
+  flags:
+  - near-duplicate of ehcrp-r2-ambrose-memorial-gdoc (97%), ehcrp-r2-ambrose-center-docx (95%), ehcrp-r2-ambrose-memorial-docx
+    (92%); Hyphae should consolidate into single application file.
+  - 'internal/candid team notes: Sections s80–s100 are meeting transcripts and action item logs; reveal bandwidth constraints,
+    partner relationship fragility, and speculative outreach challenges.'
+  - 'excerpt too thin to judge: Section s1 (Overview) is 3 words only; sections s2, s4–s7, s18, s22, s29, s37, s44–s45, s48–s50,
+    s64, s82, s90, s102, s105, s107, s109, s111, s113 are stubs or blank.'
+  - 'contact data redacted: email addresses and phone numbers replaced with [email]/[phone] throughout; team members identifiable
+    by role.'
+  - 'context leakage risk: Sections s32–s51 contain Hyphae-specific strategy and self-assessment (role as non-lead partner,
+    relational infrastructure focus) that may not be reusable outside team context.'
+  - 'conflation: Document title and metadata refer to ''Center Park'' but sections s115–s118 mention ''Memorial Park'' and
+    ''125 Memorial Way'' address; inventory note says ''live source of Center Park DOCX'' but pre-app form drafted for Memorial
+    Park.'
+  - 'possibly outdated: All dates are 2026 (meetings through Aug 4, 2026); document last modified Aug 18, 2026. Useful for
+    Round 2 application cycle but obsolete post-Oct-13-2026 deadline.'
+  - 'city examples: Sections s20 and s104 cite City of Tempe and City of Phoenix EHCRP Round 2 projects as comparison; may
+    be useful for method/infrastructure benchmarking but not directly applicable to Bay Point context.'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 67e9a36506f456756603f4ba16737e3e0e56cbcd02dce6a01dba28395897b8f2
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 16653
+    output: 2615
+    cache_read: 0
+    cache_write: 0

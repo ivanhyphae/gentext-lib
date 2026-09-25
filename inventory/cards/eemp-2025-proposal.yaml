@@ -1,0 +1,80 @@
+asset_id: eemp-2025-proposal
+card:
+  summary: 2025 CNRA Environmental Enhancement and Mitigation Program (EEMP) proposal draft for a Caltrans I-880 urban forestry
+    project in the Prescott area. Covers solicitation requirements, proposal coordination, scoring criteria, internal meeting
+    notes on Caltrans partnership and CEQA/maintenance logistics, draft proposal text, budget framework (7-year maintenance
+    horizon), and extensive boilerplate/template material from prior Hyphae projects (Fresno, Arvin/Lamont vegetated buffers,
+    EHCRP, Green Latinos). The document is primarily a working file mixing live proposal content with reference materials
+    and archived project language.
+  doc_role: working-doc
+  authorship: Hyphae Design Lab (Maxwell Pingeon, Mei Visco, Brent Bucknum leads)
+  disposition: reference
+  disposition_reason: This is an active grant proposal under development for a different funder (CNRA EEMP, not LCI EHCRP)
+    and a different site/partner (Caltrans I-880 / Prescott, not Ambrose Park / Bay Point). While it contains reusable urban
+    forestry and heat-mitigation language, the proposal structure, partnership model, and site context do not match the active
+    EHCRP needs. The document is valuable as reference for grant-writing approach and maintenance strategy templates, but
+    should not be mined for prose to answer EHCRP-specific questions. Inventory note's 'heat full-text hit' is accurate for
+    general heat/greening narrative, but the document is largely a working collage of prior project templates and does not
+    contain Bay Point or Ambrose-specific content. Near-duplicates (Arvin-Lamont, Fresno extreme heat) suggest significant
+    text reuse; holding this doc would risk duplicate library entries.
+  serves_needs: []
+  sections:
+  - sid: s2
+    path: Proposal Coordination
+    type: solicitation-text
+    reuse_value: medium
+    note: EEMP 2025 funder guidelines, deadlines, award amounts, and submission checklist; useful reference for similar CA
+      state grant processes
+  - sid: s25
+    path: PROPOSAL (ONLY)
+    type: template
+    reuse_value: medium
+    note: Draft urban forestry proposal questions and structure; reusable template for EEM-type solicitations, though site-specific
+      content limits direct reuse
+  - sid: s26
+    path: Budget
+    type: method
+    reuse_value: medium
+    note: Seven-year maintenance budget framework and rationale for balancing grant-period establishment maintenance with
+      post-grant long-term stewardship handoff to lead agency
+  - sid: s31
+    path: TEXT FROM OTHER PROJECTS > C. Overview
+    type: evidence-data
+    reuse_value: low
+    note: Fresno County heat statistics (100+ days over 100°F in 2023); CalEnviroScreen context; not site-specific to Hyphae's
+      active projects
+  fact_candidates:
+  - 's2: EEMP funder is California Natural Resources Agency (CNRA)'
+  - 's2: Max funding amount is $750k'
+  - 's2: Grant length is 48 months (budget for 7 years maintenance)'
+  - 's2: Grant start date January 2026 (could be March 2026), end by March 1 2030'
+  - 's2: EEM deadline 07/15/25 5 PM PT'
+  - 's77: Downtown Fresno projected to hit 106.6°F 43 times a year under continued emissions scenarios'
+  - 's77: Heat Health Events in Fresno region predicted to last up to two weeks (Thorne et al., 2018)'
+  - 's21: If EEM funding below $100k, maintenance commitment is 10–15 years; $100k–$1M is 20 years; above $1M is 25 years'
+  - 's19: Establishment maintenance (2–3 years) is defensible if included in initial planting contractor''s scope within grant
+    period'
+  - 's20: Caltrans landscape team can assume long-term maintenance after initial contractor establishment period (4–20 year
+    handoff model)'
+  flags:
+  - 'near-duplicate risk: 80% overlap with arvin-lamont-veg-buffer-proposal; 79% overlap with fresno-extreme-heat-analysis-doc—check
+    if those assets are already held before extracting prose'
+  - 'working doc status: extensive meeting notes and internal coordination details (s6–s24); contact data redacted but candid
+    discussion of partner skepticism and logistics constraints'
+  - 'excerpt too thin on urban forestry outcomes: sections s31–s84 are primarily task descriptions and methods from Fresno/EHCRP
+    projects, not delivered case results'
+  - 'mismatch with active need: EEMP is different funder, timeline, and site (I-880 Prescott/Caltrans) vs. LCI EHCRP Bay Point/Ambrose;
+    do not use this proposal as template for EHCRP applications'
+  - 'template boilerplate heavy: s27–s84 labeled ''TEXT FROM OTHER PROJECTS'' are scaffolding for future proposals, not site
+    outcomes; s38 (Endless Frontier company description) is generic capability text'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 4d128038767fada8bcd32a98d2025de63227450a369f469a6077255cd43e3ce6
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 17260
+    output: 1175
+    cache_read: 0
+    cache_write: 0

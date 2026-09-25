@@ -8,105 +8,138 @@ pii:
   phones: 1
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation And Resilience Program
+- sid: s1
+  path: Integrated Climate Adaptation And Resilience Program
   level: 1
   words: 0
-- path: Integrated Climate Adaptation And Resilience Program > Extreme Heat and Community Resilience Program
+- sid: s2
+  path: Integrated Climate Adaptation And Resilience Program > Extreme Heat and Community Resilience Program
   level: 2
   words: 0
-- path: Integrated Climate Adaptation And Resilience Program > Round 2 Grant Guidelines (DRAFT)
+- sid: s3
+  path: Integrated Climate Adaptation And Resilience Program > Round 2 Grant Guidelines (DRAFT)
   level: 2
   words: 529
-- path: Integrated Climate Adaptation And Resilience Program > Guideline Overview
+- sid: s4
+  path: Integrated Climate Adaptation And Resilience Program > Guideline Overview
   level: 2
   words: 1225
-- path: Integrated Climate Adaptation And Resilience Program > Program Values
+- sid: s5
+  path: Integrated Climate Adaptation And Resilience Program > Program Values
   level: 2
   words: 571
-- path: Integrated Climate Adaptation And Resilience Program > Project Types
+- sid: s6
+  path: Integrated Climate Adaptation And Resilience Program > Project Types
   level: 2
   words: 154
-- path: Integrated Climate Adaptation And Resilience Program > 25% - 60%
+- sid: s7
+  path: Integrated Climate Adaptation And Resilience Program > 25% - 60%
   level: 2
   words: 169
-- path: 'Integrated Climate Adaptation And Resilience Program > Table 2: Linking Project Phases to Program Values'
+- sid: s8
+  path: 'Integrated Climate Adaptation And Resilience Program > Table 2: Linking Project Phases to Program Values'
   level: 2
   words: 0
-- path: Integrated Climate Adaptation And Resilience Program > Project Phases Values
+- sid: s9
+  path: Integrated Climate Adaptation And Resilience Program > Project Phases Values
   level: 2
   words: 764
-- path: Integrated Climate Adaptation And Resilience Program > Project Phases Examples
+- sid: s10
+  path: Integrated Climate Adaptation And Resilience Program > Project Phases Examples
   level: 2
   words: 664
-- path: Integrated Climate Adaptation And Resilience Program > Incorrect Project Type Submissions
+- sid: s11
+  path: Integrated Climate Adaptation And Resilience Program > Incorrect Project Type Submissions
   level: 2
   words: 91
-- path: Integrated Climate Adaptation And Resilience Program > Early Transformative Infrastructure
+- sid: s12
+  path: Integrated Climate Adaptation And Resilience Program > Early Transformative Infrastructure
   level: 2
   words: 200
-- path: Integrated Climate Adaptation And Resilience Program > Built Environment Solutions for Extreme Heat
+- sid: s13
+  path: Integrated Climate Adaptation And Resilience Program > Built Environment Solutions for Extreme Heat
   level: 2
   words: 60
-- path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
+- sid: s14
+  path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
   level: 2
   words: 280
-- path: Integrated Climate Adaptation And Resilience Program > Nature-Based Solutions for Extreme Heat
+- sid: s15
+  path: Integrated Climate Adaptation And Resilience Program > Nature-Based Solutions for Extreme Heat
   level: 2
   words: 226
-- path: Integrated Climate Adaptation And Resilience Program > Advanced Transformative Infrastructure
+- sid: s16
+  path: Integrated Climate Adaptation And Resilience Program > Advanced Transformative Infrastructure
   level: 2
   words: 185
-- path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
+- sid: s17
+  path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
   level: 2
   words: 67
-- path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
+- sid: s18
+  path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
   level: 2
   words: 248
-- path: Integrated Climate Adaptation And Resilience Program > Nature-based Solution for Extreme Heat
+- sid: s19
+  path: Integrated Climate Adaptation And Resilience Program > Nature-based Solution for Extreme Heat
   level: 2
   words: 283
-- path: Integrated Climate Adaptation And Resilience Program > Eligible Applicants Definitions
+- sid: s20
+  path: Integrated Climate Adaptation And Resilience Program > Eligible Applicants Definitions
   level: 2
   words: 38
-- path: Integrated Climate Adaptation And Resilience Program > Congestion Management Agencies
+- sid: s21
+  path: Integrated Climate Adaptation And Resilience Program > Congestion Management Agencies
   level: 2
   words: 59
-- path: Integrated Climate Adaptation And Resilience Program > California Native American Tribes (Tribes)
+- sid: s22
+  path: Integrated Climate Adaptation And Resilience Program > California Native American Tribes (Tribes)
   level: 2
   words: 70
-- path: Integrated Climate Adaptation And Resilience Program > Community-Based Organizations (CBOs)
+- sid: s23
+  path: Integrated Climate Adaptation And Resilience Program > Community-Based Organizations (CBOs)
   level: 2
   words: 346
-- path: Integrated Climate Adaptation And Resilience Program > Ineligible Applicants
+- sid: s24
+  path: Integrated Climate Adaptation And Resilience Program > Ineligible Applicants
   level: 2
   words: 211
-- path: Integrated Climate Adaptation And Resilience Program > Applicant Team and Partnership Requirements
+- sid: s25
+  path: Integrated Climate Adaptation And Resilience Program > Applicant Team and Partnership Requirements
   level: 2
   words: 1113
-- path: Integrated Climate Adaptation And Resilience Program > Funding Goals
+- sid: s26
+  path: Integrated Climate Adaptation And Resilience Program > Funding Goals
   level: 2
   words: 437
-- path: Integrated Climate Adaptation And Resilience Program > Application Process
+- sid: s27
+  path: Integrated Climate Adaptation And Resilience Program > Application Process
   level: 2
   words: 1430
-- path: Integrated Climate Adaptation And Resilience Program > Application Review
+- sid: s28
+  path: Integrated Climate Adaptation And Resilience Program > Application Review
   level: 2
   words: 155
-- path: Integrated Climate Adaptation And Resilience Program > Application Support
+- sid: s29
+  path: Integrated Climate Adaptation And Resilience Program > Application Support
   level: 2
   words: 431
-- path: Integrated Climate Adaptation And Resilience Program > California Native American Tribes
+- sid: s30
+  path: Integrated Climate Adaptation And Resilience Program > California Native American Tribes
   level: 2
   words: 952
-- path: Integrated Climate Adaptation And Resilience Program > Grant Administration
+- sid: s31
+  path: Integrated Climate Adaptation And Resilience Program > Grant Administration
   level: 2
   words: 1203
-- path: Integrated Climate Adaptation And Resilience Program > Advanced pay
+- sid: s32
+  path: Integrated Climate Adaptation And Resilience Program > Advanced pay
   level: 2
   words: 737
-- path: Integrated Climate Adaptation And Resilience Program > Legal Notes
+- sid: s33
+  path: Integrated Climate Adaptation And Resilience Program > Legal Notes
   level: 2
   words: 716
 section_count: 33
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

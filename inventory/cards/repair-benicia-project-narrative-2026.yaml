@@ -1,0 +1,86 @@
+asset_id: repair-benicia-project-narrative-2026
+card:
+  summary: Bay REPAIR Round 1 application narrative from a Carquinez Strait coalition (led by OCE, with partners including
+    CAMN and Hyphae) proposing expanded air monitoring networks and community engagement in East Contra Costa County refinery-adjacent
+    communities nominated but not yet selected for AB 617 funding. Focuses on data access, health protection, and community-driven
+    accountability in the Rodeo–Martinez–Vallejo–Crockett corridor.
+  doc_role: submitted-proposal
+  authorship: Organization for Community Empowerment (OCE), with Hyphae and CAMN as partners
+  disposition: hold
+  disposition_reason: Recent, nearby geography (Carquinez Strait); strong community-partnership and engagement prose; air-quality
+    monitoring rationale; measurable outcomes framework; directly reusable chunks for LCI EHCRP partnership and belonging
+    sections.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Hyphae role in air-monitoring partnership and calibration infrastructure; citable outcomes from fiscal sponsorship
+      and field deployment
+  - need_id: lib-methods
+    how: Community-driven air monitoring design, QAPP calibration protocols, community-training model, multi-layered engagement
+      strategy
+  - need_id: lib-partners
+    how: OCE leadership, CAMN partnership, fiscal sponsorship model, multi-org governance in industrialized region
+  sections:
+  - sid: s3
+    path: part 3 — Community engagement efforts; identification of needs; meaningful involvement
+    type: capability
+    reuse_value: high
+    note: Years of community-led environmental organizing; community-informed air-monitoring design; reflects priorities and
+      lived experience of local residents; directly applicable to Belonging and Partnership sections.
+  - sid: s5
+    path: part 5 — Community engagement strategy; multi-layered engagement; resident empowerment at every stage
+    type: capability
+    reuse_value: high
+    note: Detailed engagement approach (targeted outreach, consultation, empowerment); trauma-informed lens implicit; strong
+      model for participatory implementation.
+  - sid: s6
+    path: part 6 — Geographic scope and regional alignment; data access and public outreach
+    type: site-context
+    reuse_value: medium
+    note: Carquinez Strait region definition; industrialized, environmentally overburdened; shared living conditions and pollution
+      exposures; relevant to site context.
+  - sid: s8
+    path: part 8 — OCE track record and fiscal sponsorship experience
+    type: org-profile
+    reuse_value: high
+    note: $2.3M+ managed; $1.7M Peltier film; grant and vendor management; large contractor teams; partnership leverage with
+      CAMN and regional orgs.
+  - sid: s9
+    path: part 9 — Operations, maintenance, and training; QAPP protocols; calibration equipment and community capacity-building
+    type: method
+    reuse_value: medium
+    note: Specific equipment (2B Technologies, Monitor Labs, Teledyne); calibration protocols; community-member training model;
+      sustainability framework.
+  fact_candidates:
+  - '[s8] OCE managing over $2.3 million, including over $1.7 million for Peltier film production and impact campaign'
+  - '[s8] Free Leonard Peltier streaming on Netflix starting October 2026'
+  - '[s7] Project focuses on communities consistently nominated for AB 617 Community Air Protection Program but not yet formally
+    part of that network'
+  - '[s6] Focus on Carquinez Strait region (Vallejo, Rodeo, Crockett, and related communities)'
+  - '[s4] Existing regulatory fenceline monitors sit below stack height, leaving plumes undetected'
+  - '[s2] Bay REPAIR Local Community Benefit Fund strategy: Reduce air pollution, improve health outcomes, build economic
+    resilience, advance integrated projects'
+  - '[s9] Calibration equipment includes 2B Technologies Model 306 ozone calibrator, POM ozone monitor, Monitor Labs 9830B
+    CO analyzer, ACD CAL2000 NO₂ source, Teledyne T200U NOₓ analyzer'
+  - '[s3] Project builds on years of community-led environmental organizing in Rodeo–Martinez refinery corridor'
+  - '[s4] CARB Cycle 5 Community Air Grant covers Vallejo, Rodeo, and Crockett (active monitoring)'
+  - '[s1] Project Narrative scored out of 100 points; applications not to exceed 15 pages; BAAQMD application dated May 2026'
+  flags:
+  - Different solicitation (Bay REPAIR, not LCI EHCRP); geography and partnerships may inform but do not directly answer EHCRP
+    needs
+  - Hyphae mentioned only as technical partner (calibration equipment/protocols) not as lead; excerpts do not show Hyphae's
+    direct project authorship or decision-making
+  - OCE is lead applicant; CAMN and Hyphae are partners—partner role and capacity visible but limited detail on prior Hyphae–OCE–CAMN
+    collaboration
+  - Community voices quoted or stories from residents not visible in excerpts; engagement strategy described but evidence
+    of lived experience integration thin
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 6432e73245656f2da71484d104adc68dbed1a5e3957365b4347921ec0529dd76
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4221
+    output: 1166
+    cache_read: 0
+    cache_write: 0

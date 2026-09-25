@@ -1,0 +1,200 @@
+asset_id: harry-hines-ebd-report
+card:
+  summary: 'Comprehensive evidence-based design (EBD) report for the Harry Hines Green Spine Streetscape and Park intervention
+    in Dallas''s Southwestern Medical District. Documents a multidisciplinary project integrating thermal comfort and air
+    pollution simulation (ENVI-met, SOLWEIG, OpenFOAM) with field monitoring using novel LoRaWAN sensor networks. Reports
+    Phase 1 monitoring results showing mature trees reduce mean radiant temperature 43°F and air temperature 14°F; simulations
+    reveal nuanced tradeoffs between canopy shade, wind dispersion, and pollution mitigation. Includes detailed methodology
+    for digital twin construction, CFD modeling, pre-post study design, and design iteration workflows. Outcomes: thermal
+    comfort improvements >20°C UTCI in shaded areas; demonstration that dense tall trees can trap pollutants unless paired
+    with buffers; biodiversity baseline (existing Shannon Diversity Index 2.16). Living laboratory framework with cross-disciplinary
+    collaboration lessons.'
+  doc_role: report
+  authorship: Hyphae Design Lab (lead), Texas Trees Foundation, Peter Walker Partners, Field Operations, Burro Happold, Kimley
+    Horn, university partners (Texas A&M, UVA, USDA Forest Service)
+  disposition: hold
+  disposition_reason: Delivered project case with citable outcomes, methods, and monitoring data; strong source for lib-methods
+    (thermal comfort simulation, sensor monitoring, design iteration workflows) and lib-firm-experience (demonstrates Hyphae's
+    EBD integration and living-lab capability). Reusable prose on simulation platforms, validation approaches, and collaboration
+    challenges directly applicable to future proposals.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Complete project case with measured outcomes (43°F MRT reduction, 14°F air temp reduction); demonstrates Hyphae's
+      integration of simulation and monitoring; shows living-laboratory and cross-disciplinary collaboration model.
+  - need_id: lib-methods
+    how: Detailed methodology for UTCI and MRT thermal comfort simulation; sensor network design and placement strategy; pre-post
+      study hypotheses; CFD approaches for pollution transport; design iteration workflows coordinating designers and modelers.
+  sections:
+  - sid: s6
+    path: Executive summary > Introduction
+    type: project-case
+    reuse_value: high
+    note: 'Clear project framing: Harry Hines Blvd corridor in SWMD, tree planting + cloverleaf park replacement, explicit
+      health goals, living-laboratory positioning. 1,322 words, citable project context.'
+  - sid: s7
+    path: Executive summary > Design Process, Collaboration and Iteration
+    type: method
+    reuse_value: high
+    note: Multidisciplinary team assembly and collaborative workflow (Peter Walker Partners visioning, Field Operations 30%
+      design, parallel design-simulation coordination). Demonstrates integrated EBD process model.
+  - sid: s12
+    path: Executive summary > Simulation > Simulation results > Thermal comfort simulations results
+    type: method
+    reuse_value: high
+    note: 'Key findings on tree size/spacing effects: mature trees > younger trees; groves synergistic; sparse plantings less
+      effective. Directly applicable design heuristics for shade and cooling.'
+  - sid: s13
+    path: Executive summary > Simulation > Simulation results > Air pollution simulations results
+    type: method
+    reuse_value: high
+    note: 'Counterintuitive finding: dense high canopy at roadside can enhance ground-level wind dispersion (30 ft to peak),
+      but low canopies trap pollution. Design rubrics for buffer configurations.'
+  - sid: s14
+    path: Executive summary > Monitoring and pre-post study
+    type: evidence-data
+    reuse_value: high
+    note: 'Phase 1 monitoring outcomes: 43°F MRT reduction (shade vs. sun), 14°F average afternoon air temperature reduction
+      under large trees, 6.3°F under small trees. Bus shelter thermal performance noted. Citable measured benefits.'
+  - sid: s20
+    path: Brief Literature review > Strategies for Heat Mitigation
+    type: method
+    reuse_value: medium
+    note: Synthesis of heat-mitigation literature; grounding for UTCI/MRT metrics and design strategies.
+  - sid: s21
+    path: Brief Literature review > Strategies for Biodiversity
+    type: method
+    reuse_value: medium
+    note: 'Health linkages: greenness (NDVI) to lower cancer mortality, plant biodiversity to asthma and childhood leukemia
+      risk. Justifies biodiversity design rubric.'
+  - sid: s28
+    path: Results > Simulation of thermal comfort > Metrics being simulated
+    type: method
+    reuse_value: high
+    note: UTCI definition and justification; comparison with air temperature, dPET. Clear explanation of why multi-parameter
+      thermal indices matter for outdoor comfort studies.
+  - sid: s35
+    path: 'Results > [image] > Corridor Scale Simulations: Benchmark and Baseline'
+    type: method
+    reuse_value: medium
+    note: SOLWEIG/UMEP approach for corridor-scale MRT; maximal planting scenario methodology; July 12, 2023 benchmark day
+      case. Transferable simulation protocol.
+  - sid: s47
+    path: Results > Monitoring > Cross-sectional monitoring of thermal impact of built-environment features
+    type: evidence-data
+    reuse_value: high
+    note: Mixed-effects regression results for globe temperature, air temperature, humidity by location category (big tree,
+      small tree, sun). Statistical methodology and sensor placement strategy (23 sun, 15 under big trees, 7 under small trees).
+  - sid: s48
+    path: Results > Monitoring > Comparison of simulation with monitoring data
+    type: method
+    reuse_value: high
+    note: 'Simulation-monitoring validation approach: LIDAR 3D model + historical clear-sky day + Love Field meteorology +
+      CBE clima tool. July 12, 2023 case. Demonstrates calibration workflow.'
+  - sid: s57
+    path: Methods > Monitoring > Sensor Hardware
+    type: method
+    reuse_value: high
+    note: LoRaWAN hub architecture (Parkland Hospital 18th floor), Dragino LSN50-V2 modules, cloud MQTT relay, time-series
+      database. Replicable low-cost network design for heat/pollution monitoring.
+  - sid: s58
+    path: Methods > Monitoring > Sensor Placement
+    type: method
+    reuse_value: medium
+    note: 'Systematic placement logic: 23 sun-exposed, 15 big-tree shade, 7 small-tree shade, plus air temperature/humidity
+      in bus shelters. Strategy for capturing design intervention effects.'
+  - sid: s62
+    path: Methods > Pre/Post & Cross-Sectional Study Methodology > Quantitative methods
+    type: method
+    reuse_value: medium
+    note: Pre-post and cross-sectional study design; hypotheses addressing thermal comfort, air pollution (NO2, UFP, black
+      carbon), biodiversity; two-phase monitoring roadmap.
+  - sid: s66
+    path: Methods > Simulation > ENVI-met
+    type: method
+    reuse_value: high
+    note: 'ENVI-met platform justification: coupled solvers (radiance, wind, humidity, particulate transport, vegetation-atmosphere
+      interaction). Design-oriented + scientifically validated. Tool selection rationale.'
+  - sid: s67
+    path: Methods > Simulation > Inputs
+    type: method
+    reuse_value: high
+    note: 'Digital twin input philosophy: balance between data availability and model utility. Emphasis on vegetation detail
+      for health-impact hypotheses. Input quality strategy.'
+  - sid: s72
+    path: Methods > Simulation > Digital twin procedure > Different data sources > Landcover data
+    type: method
+    reuse_value: medium
+    note: Landcover material properties (soil, grass, concrete, asphalt) and thermal sensitivity. Hand-digitization and automated
+      pipelines. Data sourcing for urban microclimate models.
+  - sid: s73
+    path: Methods > Simulation > Digital twin procedure > LiDAR processing
+    type: method
+    reuse_value: medium
+    note: Classified point cloud segmentation; terrain, structures, canopy extraction; terrestrial vs. aerial LiDAR workflows.
+      Geometric filtering and error tolerance.
+  - sid: s76
+    path: Methods > Simulation > Digital twin procedure > Tree canopy > Raster processing pipeline for tree canopy
+    type: method
+    reuse_value: medium
+    note: Watershed algorithm for canopy outlines; irregular voxel matrices for leaf-area density; LAI estimation from ALS.
+      Canopy representation for CFD.
+  - sid: s89
+    path: Methods > Simulation > Traffic data inputs > Emissions factors
+    type: method
+    reuse_value: medium
+    note: 'Emissions factor derivation: 0.052 g/veh-km (PM2.5, Los Angeles tunnel 1996 baseline); Vouitsis et al. literature
+      review values; Euro standards. Pollution input calibration.'
+  - sid: s108
+    path: Methods > Simulation > OpenFoam methods
+    type: method
+    reuse_value: medium
+    note: RANS k-epsilon turbulence model for CFD; vegetation as porous medium; detailed OpenFOAM setup for wind and pollution
+      transport. Advanced simulation methodology.
+  - sid: s119
+    path: Conclusions
+    type: project-case
+    reuse_value: high
+    note: 'Summary of outcomes and framework positioning: national model potential; mature canopy > thermal stress; vegetation
+      + buffers > air quality tradeoffs; species selection matters for biodiversity; integrated collaboration model.'
+  fact_candidates:
+  - 's6: Harry Hines Blvd corridor between Market Center and Mockingbird, Dallas, Texas; focus of streetscape intervention
+    with tree planting and traffic flow modifications.'
+  - 's6: Cloverleaf interchange between Inwood and Harry Hines to be replaced with park.'
+  - 's7: Lead: Texas Trees Foundation; Design teams: Peter Walker Partners (early visioning), Field Operations (30% design);
+    Engineering: Burro Happold (traffic analysis early stage), Kimley Horn (30% design traffic engineering); Hyphae Design
+    Lab (EBD integration and planting design).'
+  - 's12: Peak MRT reduction: 43 degrees Fahrenheit between shade of large established tree and sun-exposed areas (monitoring
+    Phase 1).'
+  - 's14: Average summer afternoon globe temperature: 14 degrees F lower in shade of large trees than in sun.'
+  - 's14: Small tree shade effect: 6.3 degrees F cooler average temperature than sun, over much smaller area.'
+  - 's28: UTCI (Universal Thermal Climate Index) integrates air temperature, wind speed, humidity, and radiation into single
+    thermal stress value for outdoor environments.'
+  - 's35: Simulation date: July 12, 2023; meteorological inputs from Love Field station; SOLWEIG/UMEP used for corridor-scale
+    MRT.'
+  - 's47: Sensor deployment: 23 temperature sensors in sun-exposed areas; 15 sensors under large mature trees; 7 sensors under
+    small/recently planted trees; additional air temperature/humidity in bus shelters.'
+  - 's49: Existing street tree Shannon Diversity Index (SDI): 2.16; overabundance at species level: Crepe myrtle, southern
+    live oak, Shumardi oak (>10% each); genus level: Quercus and Lagerstroemia (>20%).'
+  - 's54: Simulated thermal comfort improvements: >20 degrees C UTCI improvement where shade intersects pedestrian paths.'
+  - 's57: LoRaWAN hub deployed on Parkland Memorial Hospital 18th floor rooftop; covers whole corridor Market Center to Mockingbird;
+    Dragino LSN50-V2 radio modules; MQTT relay to cloud time-series databases.'
+  flags:
+  - 'Inventory note accuracy confirmed: substantial project deliverable with citable monitoring outcomes and transferable
+    methods.'
+  - Document excerpts are thin for sections 32–34, 39–40, 42–43, and many methods subsections (placeholder image references;
+    CFD detail in s108 very dense but limited excerpt). Full text likely denser than excerpts suggest.
+  - No explicit mention of Bay Point, Ambrose Center Park, or EHCRP context; this is a Dallas, Texas project (Southwestern
+    Medical District), not relevant to LCI EHCRP Round 2 Bay Point applications. Different geographic and funding context.
+  - Reusable methods and outcomes are substantial, but geographic site-context knowledge not applicable to Bay Point EHCRP
+    work.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: e9768ac101d51b4d874d36a56ffe0ce43d82450e8880c8c6a51db3f354033ae4
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 13431
+    output: 2859
+    cache_read: 0
+    cache_write: 0

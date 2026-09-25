@@ -1,95 +1,49 @@
 asset_id: ehcrp-r1-guidelines
 card:
-  summary: EHCRP Round 1 Final Guidelines (January 2024), a 28,600-word solicitation document defining the program's scope,
-    eligibility, application processes, scoring rubrics, and grant administration for planning and implementation projects
-    addressing extreme heat and building community resilience. Establishes funding tiers (Small/Large Planning and Implementation
-    Grants), partnership requirements, priority communities (heat-vulnerable, DAC, tribal, regional diversity), four implementation
-    tracks (Public Awareness, Community Services, Built Environment, Nature-Based Solutions), narrative questions, and post-award
-    support. Includes appendices on climate tools (CalAdapt, VCP, CCHVI), CA Climate Adaptation Strategy regions, and comprehensive
-    glossary.
+  summary: EHCRP Round 1 Final Guidelines (dated 29 January 2024) establish the competitive grant program administered by
+    California's Office of Planning and Research to fund planning and implementation projects addressing extreme heat and
+    urban heat island effects. The document defines program vision, values, applicant eligibility, partnership requirements,
+    funding tiers (small/large planning and implementation grants), application procedures, scoring criteria, and grant administration.
+    It emphasizes equity, community resilience, vulnerable communities, and multistakeholder partnerships as core principles.
   doc_role: solicitation
-  authorship: California Governor's Office of Planning and Research (OPR)
+  authorship: California Office of Planning and Research (OPR)
   disposition: reference
-  disposition_reason: Authoritative program definition and scoring criteria essential for structuring Round 2 applications;
-    R1 guidelines provide baseline for comparing what Round 2 may reward differently. Not prose to extract, but foundational
-    reference material for all Bay Point applications.
+  disposition_reason: Authoritative program guidelines needed to contextualize Round 2 requirements and scoring shifts; not
+    prose to reuse but essential reference material for understanding solicitation intent and administration.
   serves_needs:
-  - need_id: ehcrp-r2-webinars-office-hours
-    how: R1 guidelines predate R2; this document does not contain R2 webinars or office hours, but establishes the program
-      framework that R2 builds upon.
-  sections:
-  - path: I. Program Overview
-    type: solicitation-text
-    reuse_value: high
-    note: Defines EHCRP scope, funding sources (SB 155, $25M 2022-23), eligible activities (heat action plans, shade, reflectance,
-      cooling, evaporative cooling), and multistakeholder partnership requirement.
-  - path: II. Program Vision and Values
-    type: solicitation-text
-    reuse_value: high
-    note: Five core values (Place & Belonging, Indigenous Land Stewardship, Co-Investments, Technology & Innovative Design,
-      All Hazards Resilience) and four implementation tracks; directly relevant to framing Hyphae proposals.
-  - path: III. Applicant Eligibility, Partnership, and Funding
-    type: solicitation-text
-    reuse_value: high
-    note: Eligible applicants (local/regional public entities, tribes, CBOs, school districts); partnership tiers (Co-Applicant,
-      Contributor, Supporter); DAC/heat-vulnerable community prioritization criteria.
-  - path: IV. Planning Grants
-    type: solicitation-text
-    reuse_value: high
-    note: Small Planning (<$500K, 24 mo) and Large Planning ($500K–$2M, 30 mo) structures, eligible activities, and timelines;
-      directly applicable to Ambrose pre-applications.
-  - path: V. Implementation Grants
-    type: solicitation-text
-    reuse_value: high
-    note: Small Implementation (<$1M, 24 mo) and Large Implementation ($1M–$5M, 30 mo); four tracks (Awareness, Services,
-      Built Environment, Nature-Based); eligible activities and site-control requirements.
-  - path: VII. Application Narrative
-    type: solicitation-text
-    reuse_value: high
-    note: Required narrative sections (Project Vision, Communities Served, Partnership & Engagement, Work Plan & Budget) with
-      word limits and scoring rubrics; templates for Ambrose responses.
-  - path: 'Appendix D: Climate Adaptation and Resilience Resources'
-    type: solicitation-text
-    reuse_value: medium
-    note: Directed references to CalAdapt, VCP, CCHVI, Healthy Places Index, Regional Opportunity Index; essential tools for
-      Bay Point vulnerability and heat assessment.
-  - path: 'Appendix F: Glossary and Acronyms'
-    type: solicitation-text
-    reuse_value: medium
-    note: Canonical definitions (Heat Vulnerable Community, Adaptive Capacity, Co-Benefits, etc.) useful for lib-glossary
-      and consistent terminology across proposals.
+  - need_id: ehcrp-r2-preapp-feedback
+    how: Round 1 guidelines establish baseline scoring and requirements against which Round 2 changes can be compared to understand
+      what OPR now prioritizes
+  sections: []
   fact_candidates:
-  - Program created by SB 155 Public Resources Trailer Bill (2021); $25 million awarded to OPR in 2022–23 fiscal year for
-    EHCRP
-  - Round 1 Final Guidelines issued 29 January 2024; Application period 29 January – 7 May 2024
-  - Pre-Application Interest Form due 7 May 2024, 5 p.m. PST; Fall 2024 expected start date for awarded projects
-  - 'Small Planning Grants: up to $500,000, up to 24 months; Large Planning Grants: up to $2,000,000, up to 30 months'
-  - 'Small Implementation Grants: up to $1,000,000, up to 24 months; Large Implementation Grants: up to $5,000,000, up to
-    30 months'
-  - Nine public listening sessions held Spring 2023 (two general, two tribal, five regional); over 800 individuals registered
-  - Program requires multistakeholder partnerships; minimum indirect administrative costs capped at 20% of award
-  - 'Recommended budget allocation for workshops/TA: $5,000 (Small), $20,000 (Large Planning), $30,000 (Large Implementation)'
-  - Heat-vulnerable communities defined as experiencing historical disinvestment, increasing heat events, inadequate infrastructure
-    and tree canopy
-  - 'Four implementation tracks: Track A (Public Awareness), Track B (Community Services), Track C (Built Environment), Track
-    D (Nature-Based Solutions)'
+  - SB 155 Public Resources Trailer Bill (2021) made available $25 million in 2022–23 fiscal year to OPR for EHCRP
+  - By 2050, average heat-health events projected to last two weeks longer in Central Valley and four to ten times more often
+    in Northern Sierra region
+  - EHCRP staff hosted nine public listening sessions in Spring 2023 with over 800 registrants
+  - Draft Guidelines released 2 October 2023 for public comment
+  - EHCRP Round 1 Final Guidelines released 29 January 2024
+  - 'Application period: 29 January 2024 – 7 May 2024'
+  - 'Pre-Application Interest Form due: 7 May 2024, 5 p.m. PST'
+  - 'Minimum program meeting/workshop budget: $5,000 for Small Planning/Implementation Grants, $20,000 for Large Planning
+    Grants, $30,000 for Large Implementation Grants'
+  - Indirect administrative costs may account for up to 20% of total EHCRP award
+  - 'Anticipated grant end date: up to thirty months from start'
   flags:
-  - Document is R1 guidelines (2024-01-29); compare against R2 guidelines when released to identify scoring or eligibility
-    shifts
-  - Appendix D references Vulnerable Communities Platform (VCP) as 'under development'; confirm current VCP functionality
-    for Bay Point tract data
-  - No contact information or specific R2 details visible in excerpts; full guidelines are authoritative but thin on R2-specific
-    changes
-  - 'Potential context gap: inventory_note asks to ''compare R1 vs R2'' but this document is R1 only; R2 guidelines needed
-    for comparative analysis'
+  - This is Round 1 guidelines (dated Jan 2024); inventory note requests R1 vs R2 comparison but R2 guidelines not yet in
+    collection
+  - Excerpt coverage is thin for most sections; full document must be consulted for detailed scoring rubrics and activity
+    eligibility lists
+  - 'Near-duplicate risk: may overlap with Round 2 guidelines if both are retained'
+  - Document contains extensive appendices (D-F) on resources, regions, and glossary; reuse value of appendix content not
+    assessed given section selection rules
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: aa9b56ad74ee7dea5ced6ca1e11bbb44f7996bc624bbfdf50ffb6b6d80759567
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 16823
-    output: 1371
+    input: 18218
+    output: 615
     cache_read: 0
     cache_write: 0

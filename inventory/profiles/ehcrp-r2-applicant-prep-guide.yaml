@@ -8,114 +8,150 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Extreme Heat and Community Resilience Program
+- sid: s1
+  path: Extreme Heat and Community Resilience Program
   level: 2
   words: 0
-- path: Extreme Heat and Community Resilience Program > Round 2 Applicant Preparation Guide
+- sid: s2
+  path: Extreme Heat and Community Resilience Program > Round 2 Applicant Preparation Guide
   level: 2
   words: 71
-- path: Extreme Heat and Community Resilience Program > EHCRP Round 2 Overview
+- sid: s3
+  path: Extreme Heat and Community Resilience Program > EHCRP Round 2 Overview
   level: 2
   words: 68
-- path: Extreme Heat and Community Resilience Program > Anticipated Timeline & Milestones
+- sid: s4
+  path: Extreme Heat and Community Resilience Program > Anticipated Timeline & Milestones
   level: 2
   words: 42
-- path: Extreme Heat and Community Resilience Program > Early 2026
+- sid: s5
+  path: Extreme Heat and Community Resilience Program > Early 2026
   level: 2
   words: 0
-- path: Extreme Heat and Community Resilience Program > Fall 2026
+- sid: s6
+  path: Extreme Heat and Community Resilience Program > Fall 2026
   level: 2
   words: 0
-- path: Extreme Heat and Community Resilience Program > RFP & Pre-Application
+- sid: s7
+  path: Extreme Heat and Community Resilience Program > RFP & Pre-Application
   level: 2
   words: 3
-- path: Extreme Heat and Community Resilience Program > Round 2 Grant Awardees
+- sid: s8
+  path: Extreme Heat and Community Resilience Program > Round 2 Grant Awardees
   level: 2
   words: 68
-- path: Extreme Heat and Community Resilience Program > Technical Assistance for Applicants
+- sid: s9
+  path: Extreme Heat and Community Resilience Program > Technical Assistance for Applicants
   level: 2
   words: 125
-- path: Extreme Heat and Community Resilience Program > Who Can Apply?
+- sid: s10
+  path: Extreme Heat and Community Resilience Program > Who Can Apply?
   level: 2
   words: 209
-- path: Extreme Heat and Community Resilience Program > Applicant Team Roles
+- sid: s11
+  path: Extreme Heat and Community Resilience Program > Applicant Team Roles
   level: 2
   words: 261
-- path: Extreme Heat and Community Resilience Program > What Kinds of Projects are Eligible for Awards?
+- sid: s12
+  path: Extreme Heat and Community Resilience Program > What Kinds of Projects are Eligible for Awards?
   level: 2
   words: 105
-- path: Extreme Heat and Community Resilience Program > Early Transformative
+- sid: s13
+  path: Extreme Heat and Community Resilience Program > Early Transformative
   level: 2
   words: 4
-- path: Extreme Heat and Community Resilience Program > Award Amounts
+- sid: s14
+  path: Extreme Heat and Community Resilience Program > Award Amounts
   level: 2
   words: 0
-- path: Extreme Heat and Community Resilience Program > Budget Requirement
+- sid: s15
+  path: Extreme Heat and Community Resilience Program > Budget Requirement
   level: 2
   words: 2
-- path: Extreme Heat and Community Resilience Program > Budget Requirement
+- sid: s16
+  path: Extreme Heat and Community Resilience Program > Budget Requirement
   level: 2
   words: 4
-- path: Extreme Heat and Community Resilience Program > $600,000 $1,000,000
+- sid: s17
+  path: Extreme Heat and Community Resilience Program > $600,000 $1,000,000
   level: 2
   words: 7
-- path: Extreme Heat and Community Resilience Program > Minimum 15% to
+- sid: s18
+  path: Extreme Heat and Community Resilience Program > Minimum 15% to
   level: 2
   words: 5
-- path: Extreme Heat and Community Resilience Program > $2.5 M - $4.0 M
+- sid: s19
+  path: Extreme Heat and Community Resilience Program > $2.5 M - $4.0 M
   level: 2
   words: 5
-- path: Extreme Heat and Community Resilience Program > Minimum 10% to
+- sid: s20
+  path: Extreme Heat and Community Resilience Program > Minimum 10% to
   level: 2
   words: 5
-- path: Extreme Heat and Community Resilience Program > Connecting Proposed Projects to Program Values
+- sid: s21
+  path: Extreme Heat and Community Resilience Program > Connecting Proposed Projects to Program Values
   level: 2
   words: 215
-- path: 2. Make sure you’ve bookmarked the EHCRP webpage and signed up for program and
+- sid: s22
+  path: 2. Make sure you’ve bookmarked the EHCRP webpage and signed up for program and
   level: 1
   words: 15
-- path: 1. Identify and Scope Your Project
+- sid: s23
+  path: 1. Identify and Scope Your Project
   level: 1
   words: 59
-- path: 1. Identify and Scope Your Project > Project Identiﬁcation and Scoping Checklist
+- sid: s24
+  path: 1. Identify and Scope Your Project > Project Identiﬁcation and Scoping Checklist
   level: 2
   words: 199
-- path: 2. Begin Building Partnerships
+- sid: s25
+  path: 2. Begin Building Partnerships
   level: 1
   words: 46
-- path: 2. Begin Building Partnerships > Partnership Requirements
+- sid: s26
+  path: 2. Begin Building Partnerships > Partnership Requirements
   level: 2
   words: 54
-- path: 2. Begin Building Partnerships > Lead Applicant Type
+- sid: s27
+  path: 2. Begin Building Partnerships > Lead Applicant Type
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > Required Co-Applicant Type
+- sid: s28
+  path: 2. Begin Building Partnerships > Required Co-Applicant Type
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > Local or Regional Public Entity
+- sid: s29
+  path: 2. Begin Building Partnerships > Local or Regional Public Entity
   level: 2
   words: 1
-- path: 2. Begin Building Partnerships > Community-Based Organization (CBO)
+- sid: s30
+  path: 2. Begin Building Partnerships > Community-Based Organization (CBO)
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > Local or Regional Public Entity
+- sid: s31
+  path: 2. Begin Building Partnerships > Local or Regional Public Entity
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > Public Academic Institution
+- sid: s32
+  path: 2. Begin Building Partnerships > Public Academic Institution
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > CBO AND Local or Regional Public Entity
+- sid: s33
+  path: 2. Begin Building Partnerships > CBO AND Local or Regional Public Entity
   level: 2
   words: 0
-- path: 2. Begin Building Partnerships > CA Native American Tribe or Tribal Entity
+- sid: s34
+  path: 2. Begin Building Partnerships > CA Native American Tribe or Tribal Entity
   level: 2
   words: 221
-- path: 2. Begin Building Partnerships > Partnership Building Checklist
+- sid: s35
+  path: 2. Begin Building Partnerships > Partnership Building Checklist
   level: 2
   words: 187
-- path: 3. Gather Documents Required for Round 2 Application
+- sid: s36
+  path: 3. Gather Documents Required for Round 2 Application
   level: 1
   words: 326
 section_count: 36
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

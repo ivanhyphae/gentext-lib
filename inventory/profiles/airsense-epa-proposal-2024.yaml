@@ -1,0 +1,116 @@
+asset_id: airsense-epa-proposal-2024
+source_path: sources/airsense-epa-proposal-2024/airsense-epa-proposal-2024.md
+source_sha256: 91a8f9d9f05fada77bd62864a9764a1b3b4644fc7f2060261cbd9ced02e0ccdc
+text_sha256: 783624060a747c09baa8d96f2095e62a076fd2e65d5d8ce6e1071dd08949a710
+words: 14689
+pii:
+  emails: 2
+  phones: 0
+near_duplicates:
+- asset_id: epa-aq-final-submission-2024
+  jaccard: 0.834
+  contained_in: 1.0
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 600
+- sid: s8
+  path: part 8
+  level: 1
+  words: 600
+- sid: s9
+  path: part 9
+  level: 1
+  words: 600
+- sid: s10
+  path: part 10
+  level: 1
+  words: 600
+- sid: s11
+  path: part 11
+  level: 1
+  words: 600
+- sid: s12
+  path: part 12
+  level: 1
+  words: 600
+- sid: s13
+  path: part 13
+  level: 1
+  words: 600
+- sid: s14
+  path: part 14
+  level: 1
+  words: 600
+- sid: s15
+  path: part 15
+  level: 1
+  words: 600
+- sid: s16
+  path: part 16
+  level: 1
+  words: 600
+- sid: s17
+  path: part 17
+  level: 1
+  words: 600
+- sid: s18
+  path: part 18
+  level: 1
+  words: 600
+- sid: s19
+  path: part 19
+  level: 1
+  words: 600
+- sid: s20
+  path: part 20
+  level: 1
+  words: 600
+- sid: s21
+  path: part 21
+  level: 1
+  words: 600
+- sid: s22
+  path: part 22
+  level: 1
+  words: 600
+- sid: s23
+  path: part 23
+  level: 1
+  words: 600
+- sid: s24
+  path: part 24
+  level: 1
+  words: 600
+- sid: s25
+  path: part 25
+  level: 1
+  words: 289
+section_count: 25
+profiled: '2026-09-25'
+profiler: p2

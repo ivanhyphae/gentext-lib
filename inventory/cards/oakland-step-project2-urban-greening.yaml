@@ -1,0 +1,64 @@
+asset_id: oakland-step-project2-urban-greening
+card:
+  summary: 'Oakland STEP Project 2 pedestrian and urban-greening component proposal draft (2022). Scope: implement pedestrian
+    safety improvements and plant 2,000 trees/shrubs in West Oakland via street trees, medians, and private property; develop
+    community stewardship and job training. Budget: $6.45M total ($4.19M grant, $2.26M in-kind). Partners: Oakland DOT, Parks
+    and Recreation Foundation, West Oakland Green Initiative, Urban Biofilter, West Oakland Environmental Indicators Project.
+    Grounded in 2019 West Oakland Community Action Plan and 2017 Oakland Walks pedestrian plan.'
+  doc_role: submitted-proposal
+  authorship: City of Oakland / Hyphae (project partners)
+  disposition: hold
+  disposition_reason: Completed project with named deliverables (2,000 trees planted), budget, and multi-partner implementation.
+    Exemplar of Hyphae's prior urban greening + pedestrian safety work with citable scope and outcomes. Supports lib-firm-experience
+    and lib-methods (community stewardship model, green infrastructure design with community engagement).
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Example of Hyphae-supported urban greening project with defined scope (2,000 trees), budget ($6.45M), and multi-partner
+      delivery model; demonstrates stewardship + job training integration.
+  - need_id: lib-methods
+    how: Documents community-based stewardship model for long-term green infrastructure maintenance, including resident job
+      training, monitoring, and evaluation framework.
+  sections:
+  - sid: s1
+    path: part 1 — Implementers, Funds, Scope of Work
+    type: project-case
+    reuse_value: high
+    note: Clearly names lead and partner organizations, budget breakdown, and project scope grounded in West Oakland Community
+      Action Plan (WOCAP). Core proposal language for urban greening + pedestrian safety integration.
+  - sid: s2
+    path: part 2 — Tree Planting and Community Greening Program
+    type: project-case
+    reuse_value: high
+    note: 'Detailed tasks: 2,000 tree/shrub target, community partner roles (West Oakland Green Initiative), public education
+      and reporting system, design strategy work with Urban Biofilter. Reusable for community engagement and planting models.'
+  - sid: s3
+    path: part 3 — Urban Greening Stewardship Model
+    type: method
+    reuse_value: medium
+    note: Describes long-term community-based stewardship approach involving job training organizations (Civic Corps), maintenance
+      strategies (tree guards, watering, plant care), and air quality/environmental monitoring. Framework adaptable to other
+      sites.
+  fact_candidates:
+  - 's1: Grant request $4,191,908.50; In-kind contributions $2,261,251.50; Total project cost $6,453,160.00'
+  - 's1: 2,019 West Oakland Community Action Plan identified pedestrian/safety improvements need'
+  - 's1: Referenced 2017 Oakland Walks Pedestrian Plan (Oakland DOT)'
+  - 's1: WOCAP Strategy #56 targets walking, bicycles, scooters, buses over cars'
+  - 's2: 2,000 trees or shrubs to be planted (street trees and vegetative medians)'
+  - 's2: Part-time stewardship position (20 hours per week)'
+  - 's3: Stewardship partners include OPRF, Urban Biofilter, Civic Corps, and fabrication organizations'
+  flags:
+  - Excerpt too thin to judge full scope details and actual outcomes (document is draft, 2022).
+  - 'Near-duplicate risk: inventory note flags this as ''primary source behind Oakland STEP project case''—check for redundancy
+    with any finalized case summary in library.'
+  - Vendors/implementers named but no baseline environmental or community health data shown in excerpts.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: e4b2a80a18ddb0b386d9b85204b1f068ce6ad8186632e0bb5309a45553c8eeab
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3218
+    output: 934
+    cache_read: 0
+    cache_write: 0

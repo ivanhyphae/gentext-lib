@@ -1,0 +1,67 @@
+asset_id: hyphae-extreme-heat-deck-2024
+card:
+  summary: Hyphae 2024 capability presentation on extreme-heat modeling and mitigation methods. Demonstrates computational
+    fluid dynamics (CFD), UTCI microclimate simulation, and field validation (sensor networks) applied to West Oakland greening
+    projects (Prescott, Environmental Indicators). Shows leaf-area-density parametrics for air-barrier effectiveness and radiant-temperature
+    cooling (up to 16°C from large trees). Lists team roles (research, community engagement, implementation, design review)
+    but is a visual deck with minimal prose; text export lacks design context and narrative flow.
+  doc_role: presentation
+  authorship: Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Contains reusable method descriptions (CFD/UTCI modeling pipeline, sensor validation approach) and citable
+    heat-mitigation outcomes (16°C canopy cooling, mean radiant temperature benchmarks). Sections on method and site context
+    (West Oakland precedent) support lib-methods and capability library chunks. Visual-only format limits prose extraction
+    but the quantified results and modeling workflow are valuable.
+  serves_needs:
+  - need_id: lib-methods
+    how: Describes UTCI microclimate simulation, CFD air-barrier modeling, sensor-based validation (r² calibration); leaf-area-density
+      parametrics for greening effectiveness.
+  - need_id: lib-firm-experience
+    how: West Oakland Environmental Indicators Project and Prescott Greening Project cited as Hyphae precedents with quantified
+      outcomes (7°C–16°C MRT reduction).
+  sections:
+  - sid: s2
+    path: part 2
+    type: method
+    reuse_value: high
+    note: UTCI modeling pipeline, CFD simulation integration with design, radiant-temperature benchmarking methodology; 9.1°C
+      MRT cooling measured in existing vs maximal-canopy scenario.
+  - sid: s3
+    path: part 3
+    type: method
+    reuse_value: high
+    note: 'Field sensor validation approach: time-series clustering, ground-truth comparison (r²=0.82–0.91); real-time microclimate
+      data (globe temp, humidity, wind); quantified tree cooling (small trees few degrees, large trees up to 16°C).'
+  - sid: s1
+    path: part 1
+    type: site-context
+    reuse_value: medium
+    note: West Oakland Environmental Indicators Project and Prescott Greening Project precedents; LAD parametrics for roadside
+      vegetated air-barriers; particle-transport simulation results on 7th St.
+  fact_candidates:
+  - 'part 2: Mean Radiant Temperature reduction 9.1°C (existing vs maximal canopy)'
+  - 'part 3: Large trees provide up to 16 degrees of cooling in radiant temperature'
+  - 'part 3: Under trees, globe temperature ~33°C; in sun ~46°C (June 7, 2023, 12:47pm)'
+  - 'part 3: Sensor calibration r²=0.82 (geopositioning/LIDAR age issue noted)'
+  - 'part 3: Sensor calibration r²=0.91 (better fit, method not specified)'
+  - 'part 2: Leaf area density parametric comparison LAD=1 vs LAD=3 for pollution mitigation simulation'
+  - 'part 1: West Oakland Environmental Indicators Project cited as Hyphae precedent'
+  - 'part 1: Prescott Greening Project cited with roadside vegetated air-barrier results'
+  flags:
+  - Text export only; original deck format lost, limiting design-narrative and visual-hierarchy context.
+  - 'Near-duplicate flagged: 41% overlap with ''modeling-aq-extreme-heat-deck''; verify which is primary.'
+  - No dates on West Oakland project completion or field-data collection period (June 2023 sensor snapshot only).
+  - LIDAR data noted as 2018 vintage; unclear if still current for model validation.
+  - Mentions 'interactive websites for 2d slicing of envimet-outputs' but no links or URLs provided.
+  - Excerpt thin on community engagement narrative or co-production details; team roles listed but not described.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: f41a7d75aa73efc00ac3c53bd99cb6a328122d30aeb7c1a6686eb4eac0df3ef9
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3432
+    output: 931
+    cache_read: 0
+    cache_write: 0

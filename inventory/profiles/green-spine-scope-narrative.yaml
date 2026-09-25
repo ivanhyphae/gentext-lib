@@ -1,0 +1,41 @@
+asset_id: green-spine-scope-narrative
+source_path: sources/green-spine-scope-narrative/green-spine-scope-narrative.md
+source_sha256: 8082ddf7cb1e375339b7807d111015d61f70f3a6d92bdbb4651588da19f669de
+text_sha256: 74b3596d45a60ea4e122879eeb7a8097e430ea3a9bbd500c6b6f80820c800800
+words: 3831
+pii:
+  emails: 2
+  phones: 2
+near_duplicates: []
+sections:
+- sid: s1
+  path: part 1
+  level: 1
+  words: 600
+- sid: s2
+  path: part 2
+  level: 1
+  words: 600
+- sid: s3
+  path: part 3
+  level: 1
+  words: 600
+- sid: s4
+  path: part 4
+  level: 1
+  words: 600
+- sid: s5
+  path: part 5
+  level: 1
+  words: 600
+- sid: s6
+  path: part 6
+  level: 1
+  words: 600
+- sid: s7
+  path: part 7
+  level: 1
+  words: 231
+section_count: 7
+profiled: '2026-09-25'
+profiler: p2

@@ -8,69 +8,90 @@ pii:
   phones: 1
 near_duplicates: []
 sections:
-- path: June 16, 2026
+- sid: s1
+  path: June 16, 2026
   level: 2
   words: 0
-- path: June 16, 2026 > Notice of Funding Availability Extreme Heat and
+- sid: s2
+  path: June 16, 2026 > Notice of Funding Availability Extreme Heat and
   level: 2
   words: 4
-- path: June 16, 2026 > All Potential Applicants
+- sid: s3
+  path: June 16, 2026 > All Potential Applicants
   level: 2
   words: 0
-- path: 'From:'
+- sid: s4
+  path: 'From:'
   level: 1
   words: 12
-- path: 'Subject:'
+- sid: s5
+  path: 'Subject:'
   level: 1
   words: 118
-- path: 'Subject: > LCI - Public'
+- sid: s6
+  path: 'Subject: > LCI - Public'
   level: 2
   words: 0
-- path: Program Summary
+- sid: s7
+  path: Program Summary
   level: 1
   words: 127
-- path: Program Summary > Applicant Eligibility
+- sid: s8
+  path: Program Summary > Applicant Eligibility
   level: 2
   words: 54
-- path: Program Summary > Grant Types
+- sid: s9
+  path: Program Summary > Grant Types
   level: 2
   words: 178
-- path: Program Summary > LCI - Public
+- sid: s10
+  path: Program Summary > LCI - Public
   level: 2
   words: 17
-- path: Program Summary > Co-Applicant Requirements
+- sid: s11
+  path: Program Summary > Co-Applicant Requirements
   level: 2
   words: 208
-- path: Program Summary > Application Process
+- sid: s12
+  path: Program Summary > Application Process
   level: 2
   words: 97
-- path: Program Summary > LCI - Public
+- sid: s13
+  path: Program Summary > LCI - Public
   level: 2
   words: 195
-- path: Program Summary > Application Scoring
+- sid: s14
+  path: Program Summary > Application Scoring
   level: 2
   words: 238
-- path: Program Summary > LCI - Public
+- sid: s15
+  path: Program Summary > LCI - Public
   level: 2
   words: 0
-- path: Program Summary > Appeal Process and Deadlines
+- sid: s16
+  path: Program Summary > Appeal Process and Deadlines
   level: 2
   words: 362
-- path: Program Summary > LCI - Public
+- sid: s17
+  path: Program Summary > LCI - Public
   level: 2
   words: 212
-- path: Other Terms And Conditions
+- sid: s18
+  path: Other Terms And Conditions
   level: 1
   words: 132
-- path: Other Terms And Conditions > LCI - Public
+- sid: s19
+  path: Other Terms And Conditions > LCI - Public
   level: 2
   words: 143
-- path: Resources And Questions
+- sid: s20
+  path: Resources And Questions
   level: 1
   words: 37
-- path: Resources And Questions > LCI - Public
+- sid: s21
+  path: Resources And Questions > LCI - Public
   level: 2
   words: 0
 section_count: 21
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

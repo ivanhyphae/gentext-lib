@@ -1,0 +1,481 @@
+asset_id: cdph-chpr-contra-costa-2017
+source_path: sources/cdph-chpr-contra-costa-2017/CHPR013ContraCosta_County2-23-17.pdf
+source_sha256: 44fc72e71c52a8f5e2aa169abfb7b9468b8bcbbdbc548c040c8618a9fd15d0bd
+text_sha256: 38e1f9141719e580c3ca898bd2cb26a1308c5f6201b68f8c21337c488a3e5ab7
+words: 8936
+pii:
+  emails: 1
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Climate Change and Health Profile Report
+  level: 2
+  words: 3
+- sid: s2
+  path: Climate Change and Health Profile Report > February 2017
+  level: 2
+  words: 49
+- sid: s3
+  path: Climate Change and Health Profile Report > Neil Maizlish, Dorette English, Jacqueline
+  level: 2
+  words: 197
+- sid: s4
+  path: Table Of Contents
+  level: 1
+  words: 579
+- sid: s5
+  path: Table Of Contents > Karen Smith, MD, MPH
+  level: 2
+  words: 8
+- sid: s6
+  path: Acknowledgements
+  level: 1
+  words: 29
+- sid: s7
+  path: Acknowledgements > Abe Doherty, Ocean Protection Council and
+  level: 2
+  words: 5
+- sid: s8
+  path: Acknowledgements > Matthew Heberger, Pacific Institute
+  level: 2
+  words: 1
+- sid: s9
+  path: Acknowledgements > David Sapsis and Chris Keithley, California
+  level: 2
+  words: 8
+- sid: s10
+  path: Acknowledgements > Leroy Westerling, University of California, Merced
+  level: 2
+  words: 91
+- sid: s11
+  path: Acknowledgements > California Department of Public Health Contributors
+  level: 2
+  words: 1
+- sid: s12
+  path: Acknowledgements > Dulce Bustamante, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s13
+  path: Acknowledgements > Rickie Cleere, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s14
+  path: Acknowledgements > Solange Gould, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s15
+  path: Acknowledgements > Linda Helland, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s16
+  path: Acknowledgements > Sumi Hoshiko, Environmental Health Investigations
+  level: 2
+  words: 3
+- sid: s17
+  path: Acknowledgements > Melissa Ibarra, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s18
+  path: Acknowledgements > Rob Lipton, Office of Health Equity
+  level: 2
+  words: 4
+- sid: s19
+  path: Acknowledgements > Meredith Milet, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s20
+  path: Acknowledgements > Frank Molina, Office of Health Equity
+  level: 2
+  words: 1
+- sid: s21
+  path: Acknowledgements > Eva Weinstein, Office of Heatlh Equity
+  level: 2
+  words: 0
+- sid: s22
+  path: Acknowledgements > California Fire Siege 2007, California Department of
+  level: 2
+  words: 25
+- sid: s23
+  path: Introduction
+  level: 1
+  words: 410
+- sid: s24
+  path: Background
+  level: 1
+  words: 407
+- sid: s25
+  path: Nasa
+  level: 1
+  words: 206
+- sid: s26
+  path: What Are The Climate Projections For The Bay Area Region?
+  level: 1
+  words: 62
+- sid: s27
+  path: What Are The Climate Projections For The Bay Area Region? > Figure 1. California Climate
+  level: 2
+  words: 10
+- sid: s28
+  path: 'What Are The Climate Projections For The Bay Area Region? > Sources: California Natural Resource Agency'
+  level: 2
+  words: 153
+- sid: s29
+  path: What Are The Climate Projections For The Bay Area Region? > Sea Level Rise
+  level: 2
+  words: 72
+- sid: s30
+  path: What Are The Climate Projections For The Bay Area Region? > Heat Wave
+  level: 2
+  words: 76
+- sid: s31
+  path: What Are The Climate Projections For The Bay Area Region? > Fire Risk
+  level: 2
+  words: 45
+- sid: s32
+  path: What Are The Climate Projections For Contra Costa County?
+  level: 1
+  words: 87
+- sid: s33
+  path: What Are The Climate Projections For Contra Costa County? > Figure 2. Projected
+  level: 2
+  words: 154
+- sid: s34
+  path: What Are The Climate Projections For Contra Costa County? > Very High
+  level: 2
+  words: 149
+- sid: s35
+  path: What Are The Climate Projections For Contra Costa County? > Projected Wildfire Acreage in Contra Costa County
+  level: 2
+  words: 186
+- sid: s36
+  path: What Are The Climate Projections For Contra Costa County? > Figure 4. Relative
+  level: 2
+  words: 13
+- sid: s37
+  path: What Are The Climate Projections For Contra Costa County? > Projected Sea Level Rise in Contra Costa County
+  level: 2
+  words: 310
+- sid: s38
+  path: Overview Of Climate Change And Health Impacts
+  level: 1
+  words: 139
+- sid: s39
+  path: Overview Of Climate Change And Health Impacts > Health Impacts of Heat
+  level: 2
+  words: 154
+- sid: s40
+  path: Overview Of Climate Change And Health Impacts > Vector-borne Illnesses
+  level: 2
+  words: 43
+- sid: s41
+  path: Overview Of Climate Change And Health Impacts > Health Impacts of Drought
+  level: 2
+  words: 116
+- sid: s42
+  path: Overview Of Climate Change And Health Impacts > Sea Level Rise, Mold, and Indoor Air Quality
+  level: 2
+  words: 85
+- sid: s43
+  path: Overview Of Climate Change And Health Impacts > Socioeconomic Disruption
+  level: 2
+  words: 137
+- sid: s44
+  path: Which Population Subgroups Are Particularly Vulnerable?
+  level: 1
+  words: 441
+- sid: s45
+  path: What Are The Current Health Status, Health Inequities, And Population
+  level: 1
+  words: 905
+- sid: s46
+  path: What Are The Current Health Status, Health Inequities, And Population > Rate or Percent
+  level: 2
+  words: 1
+- sid: s47
+  path: 2010 Age-Adjusted Death Rate/10,000*
+  level: 1
+  words: 56
+- sid: s48
+  path: 2010 Age-Adjusted Death Rate/10,000* > 128,000 17%
+  level: 2
+  words: 66
+- sid: s49
+  path: 2010 Age-Adjusted Death Rate/10,000* > Rate or Percent
+  level: 2
+  words: 1
+- sid: s50
+  path: 2010 Age-Adjusted Death Rate/10,000* > 67,018 6%
+  level: 2
+  words: 97
+- sid: s51
+  path: 2010 Age-Adjusted Death Rate/10,000* > Climate Risks
+  level: 2
+  words: 297
+- sid: s52
+  path: Near-Term Actions
+  level: 1
+  words: 0
+- sid: s53
+  path: Long-Term Term Actions
+  level: 1
+  words: 38
+- sid: s54
+  path: 2. Educate, empower and engage
+  level: 1
+  words: 32
+- sid: s55
+  path: 3. Identify and promote mitigation and
+  level: 1
+  words: 15
+- sid: s56
+  path: 4. Establish, improve and maintain
+  level: 1
+  words: 22
+- sid: s57
+  path: 5. Improve and sustain public health
+  level: 1
+  words: 18
+- sid: s58
+  path: 6. Work in multi-sectoral partnerships
+  level: 1
+  words: 14
+- sid: s59
+  path: 7. Conduct applied research to enable
+  level: 1
+  words: 37
+- sid: s60
+  path: 9. Identify, develop and maintain
+  level: 1
+  words: 70
+- sid: s61
+  path: Resources
+  level: 1
+  words: 16
+- sid: s62
+  path: Resources > California Climate Change Adaptation Planning Guide, 2012
+  level: 2
+  words: 2
+- sid: s63
+  path: 'Resources > Safeguarding California: Reducing Climate Risk, 2014'
+  level: 2
+  words: 2
+- sid: s64
+  path: Resources > California Climate Adaptation Strategy, 2009
+  level: 2
+  words: 2
+- sid: s65
+  path: 'Resources > Cal-Adapt: Exploring California''s Climate Change Research'
+  level: 2
+  words: 2
+- sid: s66
+  path: 'Resources > Preparing California for Extreme Heat: Guidance and Recommendations'
+  level: 2
+  words: 57
+- sid: s67
+  path: Resources > Urban Heat Island Index for California
+  level: 2
+  words: 2
+- sid: s68
+  path: References
+  level: 1
+  words: 29
+- sid: s69
+  path: 1. Solomon S, Qin D, Manning M, Chen Z, Marquis M, Averyt
+  level: 1
+  words: 33
+- sid: s70
+  path: 11. Heberger M, Cooley H, Herrera P, Gleick P, Moore E. The
+  level: 1
+  words: 15
+- sid: s71
+  path: 2. Earth System Research Laboratory. Trends in Atmospheric
+  level: 1
+  words: 65
+- sid: s72
+  path: 3. Solomon S, Plattner G, Knutti R, Friedlingstein P. Irreversible
+  level: 1
+  words: 35
+- sid: s73
+  path: 13. Borden KA, Cutter SL. Spatial patterns of natural hazards
+  level: 1
+  words: 10
+- sid: s74
+  path: 5. California Emergency Management Agency, California
+  level: 1
+  words: 12
+- sid: s75
+  path: 14. Knowlton K, Rotkin-Ellman M, Geballe L, Max W, Solomon
+  level: 1
+  words: 70
+- sid: s76
+  path: 7. California Ocean Protection Council 2013; State of
+  level: 1
+  words: 7
+- sid: s77
+  path: 17. Ahern M, Kovats R, Wilkinson P, Few R, Matthies F. Global
+  level: 1
+  words: 9
+- sid: s78
+  path: 8. California Department of Forestry and Fire Protection
+  level: 1
+  words: 24
+- sid: s79
+  path: 18. Bouchama A, Dehbi M, Mohamed G, Matthies F, Shoukri
+  level: 1
+  words: 15
+- sid: s80
+  path: 9. California Department of Forestry and Fire Protection
+  level: 1
+  words: 8
+- sid: s81
+  path: 19. Basu R, Ostro B. A multicounty analysis identifying the
+  level: 1
+  words: 17
+- sid: s82
+  path: 30. Kawachi I. Social capital and community effects on
+  level: 1
+  words: 12
+- sid: s83
+  path: 20. Westerling AL, Bryant BP. Climate change and wildfire in
+  level: 1
+  words: 34
+- sid: s84
+  path: 31. Braveman PA, Egerter S, Woolf SH, Marks JS. When do we
+  level: 1
+  words: 19
+- sid: s85
+  path: 22. Luber G, Knowlton K, Balbus J, Frumkin H, Hayden M, Hess
+  level: 1
+  words: 46
+- sid: s86
+  path: 32. Gilbert KL, Quinn SC, Goodman RM, Butler J, Wallace J. A
+  level: 1
+  words: 38
+- sid: s87
+  path: 23. Kessler RC, Borges G, Walters EE. Prevalence of and Risk
+  level: 1
+  words: 16
+- sid: s88
+  path: 34. Reuveny R. Climate change-induced migration and
+  level: 1
+  words: 131
+- sid: s89
+  path: '37. Gould S, Dervin K. Climate Action for Health: Integrating'
+  level: 1
+  words: 33
+- sid: s90
+  path: 27. Shonkoff SB, Morello-Frosch R, Pastor M, Sadd J. The
+  level: 1
+  words: 24
+- sid: s91
+  path: 39. Karl TR, Melillo JM, Peterson TC (Eds). Global Climate
+  level: 1
+  words: 14
+- sid: s92
+  path: 28. Peck C, Logan J, Maizlish N, Van Court J. The Burden of
+  level: 1
+  words: 15
+- sid: s93
+  path: 40. Centers for Disease Control and Prevention. Climate and
+  level: 1
+  words: 9
+- sid: s94
+  path: '29. Dynes RR. Social capital: dealing with community'
+  level: 1
+  words: 6
+- sid: s95
+  path: 'Appendix 1: How Are Future Changes In Climate Predicted?'
+  level: 1
+  words: 372
+- sid: s96
+  path: 'Appendix 2: Public Health Impacts Of Climate Change In California'
+  level: 1
+  words: 5
+- sid: s97
+  path: Populations Most
+  level: 1
+  words: 1
+- sid: s98
+  path: Health Impacts
+  level: 1
+  words: 43
+- sid: s99
+  path: Health Impacts > Poor Air Quality/
+  level: 2
+  words: 17
+- sid: s100
+  path: Health Impacts > • Children
+  level: 2
+  words: 70
+- sid: s101
+  path: Climate Change
+  level: 1
+  words: 1
+- sid: s102
+  path: Populations Most
+  level: 1
+  words: 1
+- sid: s103
+  path: Health Impacts
+  level: 1
+  words: 209
+- sid: s104
+  path: Climate Change
+  level: 1
+  words: 2
+- sid: s105
+  path: Climate Change > All Impacts
+  level: 2
+  words: 0
+- sid: s106
+  path: Health Impacts
+  level: 1
+  words: 54
+- sid: s107
+  path: Populations Most
+  level: 1
+  words: 111
+- sid: s108
+  path: 'Appendix 3: Data Sources'
+  level: 1
+  words: 2
+- sid: s109
+  path: Indicator
+  level: 1
+  words: 0
+- sid: s110
+  path: 1. California Department of Forestry and Fire Protection (CalFIRE). Fire and
+  level: 1
+  words: 40
+- sid: s111
+  path: 3. Environmental Health Tracking Program. Heat-Related Illness Data Query
+  level: 1
+  words: 46
+- sid: s112
+  path: 5. Heberger M, Cooley H, Herrera P, Gleick P, Moore E. The Impacts of Sea
+  level: 1
+  words: 22
+- sid: s113
+  path: 6. Palmgren C, Stevens N, Goldberg M, Barnes R, Rothkin K. California
+  level: 1
+  words: 14
+- sid: s114
+  path: '7. Public Interest Energy Research (PIER) Program. Cal-adapt: Exploring'
+  level: 1
+  words: 75
+- sid: s115
+  path: 9. U.S. Census Bureau. American Community Survey or SF1 file (Living with
+  level: 1
+  words: 121
+- sid: s116
+  path: 11. Southern California Association of Governments (SCAG), Metropolitan
+  level: 1
+  words: 25
+- sid: s117
+  path: 12. Statewide Database, University of California Berkeley Law, Center for
+  level: 1
+  words: 34
+section_count: 117
+profiled: '2026-09-25'
+profiler: p2

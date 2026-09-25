@@ -1,0 +1,66 @@
+asset_id: nueva-corridor-hyphae-letter-2026
+card:
+  summary: Hyphae Design Lab proposal letter (Sept 2026) for Nueva Street Corridor Planning Study RFP, describing firm qualifications
+    and scope including LiDAR digital twin, CFD thermal modeling, pollution dispersion, field sensor networks, and land-use
+    evaluation. Document is a working draft with editorial notes and multiple reorganization attempts; contains boilerplate
+    firm-experience language tied to named university partnerships (Louisville, UC Berkeley, UC Merced, UCSF, Texas A&M) and
+    current Dallas Southwestern Medical District project.
+  doc_role: proposal-draft
+  authorship: Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Contains current firm-qualification and scope-of-work language applicable to similar infrastructure/planning
+    RFPs; specific technical methodologies (LiDAR, CFD, ENVI-met, sensor networks) and university partnership descriptions
+    are reusable assets for future proposals.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Names Hyphae partnerships with University of Louisville, UC Berkeley (Tina Chow), UC Merced (Asa Bradman), UCSF (Neeta
+      Thakur), Texas A&M (NIH cancer grant); describes Greenheart Project and Marin City project with Dr. Ivey; current Dallas
+      SWMD project with Texas Trees Foundation.
+  - need_id: lib-methods
+    how: Describes LiDAR-based digital twin, sub-meter thermal comfort/microclimate simulation (CFD/ENVI-met), highway pollution
+      and wind dispersion modeling, field sensor networks (particulate, wind, temperature/humidity), data validation pipeline.
+  sections:
+  - sid: s1
+    path: Initial Outline
+    type: capability
+    reuse_value: high
+    note: 'Concrete technical scope: LiDAR digital twin, CFD/ENVI-met thermal modeling, pollution dispersion, sensor networks,
+      land-use evaluation—directly transferable to similar corridor/planning studies.'
+  - sid: s4
+    path: Reorganization > Firm Experience
+    type: org-profile
+    reuse_value: high
+    note: Polished firm-qualification text with named university partnerships and project examples; suitable for reuse in
+      similar RFP responses.
+  - sid: s5
+    path: Reorganization > Firm Experience > [Greenspine/SWMD]
+    type: project-case
+    reuse_value: medium
+    note: Description of Dallas SWMD Greenspine project (current, Texas Trees Foundation collaboration) combining environmental
+      sensors, agent-based modeling, tree planting, pedestrian thermal comfort; partial draft language.
+  fact_candidates:
+  - 's1: LiDAR-based digital twin covering tree canopy, structures, terrain'
+  - 's1: Sub-meter thermal comfort simulation using CFD/ENVI-met'
+  - 's1: Field sensor network for particulate, wind, temperature/humidity baseline data'
+  - 's4: Partnership with Texas Trees Foundation on Greenspine/SWMD project (Dallas, current)'
+  - 's4: Collaborations named: Greenheart Project, University of Louisville (KY), Marin City (CA) with Dr. Ivey, UC Berkeley
+    with Tina Chow, UC Merced with Asa Bradman, UCSF with Neeta Thakur'
+  - 's4: New NIH cancer grant with Texas A&M'
+  - 's5: SWMD project integrates traffic flow modifications with large-scale tree planting initiative'
+  flags:
+  - Document is working draft with editorial notes (s2, s3 are revision commentary, not final prose)
+  - s3 contains unformatted links to external presentations (SWMD Transformation, 2024 SWMD Review, ASLA 2024 EBD)
+  - Duplicate/near-identical firm-experience blocks in s4 and s7 suggest ongoing reorganization
+  - 'RFP details sparse: RFP No. 743-2026-RFP-1426 mentioned but no client name or deliverable dates visible in excerpts'
+  - Excerpt coverage thin for sections s2–s7; most detail in s1 and s4; s6 empty
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 121edc203215a01c2371c73a55292c10000657e17f1f63ea5db8ad0afd4d8d45
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 4074
+    output: 945
+    cache_read: 0
+    cache_write: 0

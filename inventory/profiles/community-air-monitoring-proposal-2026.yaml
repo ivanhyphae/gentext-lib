@@ -1,0 +1,121 @@
+asset_id: community-air-monitoring-proposal-2026
+source_path: sources/community-air-monitoring-proposal-2026/community-air-monitoring-proposal-2026.md
+source_sha256: 2f4e00a9973041dbca04590b05850095d4bdf5f39c988fcd12ac62a7f768688d
+text_sha256: 36c0d04776af6a7020bab0eb1ab6468ce4257592952eb211e913591f0d865def
+words: 10500
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: 2026-04-10 - Community Air Monitoring Proposal
+  level: 1
+  words: 30
+- sid: s2
+  path: 2026-04-10 - Community Air Monitoring Proposal > ✨ Summary
+  level: 2
+  words: 195
+- sid: s3
+  path: 2026-04-10 - Community Air Monitoring Proposal > ✅ Action Items
+  level: 2
+  words: 351
+- sid: s4
+  path: 2026-04-10 - Community Air Monitoring Proposal > 🔍 Key Questions
+  level: 2
+  words: 89
+- sid: s5
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics
+  level: 2
+  words: 0
+- sid: s6
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Opening and Agenda (00:00)
+  level: 3
+  words: 64
+- sid: s7
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Program Scope and Geographic Expansion (01:39)
+  level: 3
+  words: 85
+- sid: s8
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Speciated Pollutants and Indoor/Outdoor Sampling (03:02)
+  level: 3
+  words: 65
+- sid: s9
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Rapid Response System Design and Sensor Tiers (06:30)
+  level: 3
+  words: 92
+- sid: s10
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Wind Data and Comparative Studies (09:06)
+  level: 3
+  words: 48
+- sid: s11
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Grant Strategy and Partners (12:11)
+  level: 3
+  words: 143
+- sid: s12
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Near-Term Next Steps and Outreach (20:42)
+  level: 3
+  words: 51
+- sid: s13
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Partnership with Heidi and Outreach Roles (22:44)
+  level: 3
+  words: 92
+- sid: s14
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Complementary People's Air Grant Efforts (25:18)
+  level: 3
+  words: 58
+- sid: s15
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Soil Contamination and Lead Concerns (26:22)
+  level: 3
+  words: 51
+- sid: s16
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Biomonitoring and Academic Partnerships (28:50)
+  level: 3
+  words: 31
+- sid: s17
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Health Data and EMS Analysis Idea (32:23)
+  level: 3
+  words: 51
+- sid: s18
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Budgeting and Rapid-Response Model (37:34)
+  level: 3
+  words: 82
+- sid: s19
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Grant Strategy and Competitive Positioning (41:26)
+  level: 3
+  words: 34
+- sid: s20
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Final remarks and departures (46:06)
+  level: 3
+  words: 45
+- sid: s21
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Drafting outreach description (46:42)
+  level: 3
+  words: 64
+- sid: s22
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Document updates and draft ownership (47:18)
+  level: 3
+  words: 81
+- sid: s23
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Partner lists and outreach logistics (48:12)
+  level: 3
+  words: 75
+- sid: s24
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Technical framing and content priorities (49:02)
+  level: 3
+  words: 56
+- sid: s25
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Meeting cadence and scheduling (49:54)
+  level: 3
+  words: 85
+- sid: s26
+  path: 2026-04-10 - Community Air Monitoring Proposal > 💬 Chapters & Topics > Closing and acknowledgements (51:19)
+  level: 3
+  words: 27
+- sid: s27
+  path: 2026-04-10 - Community Air Monitoring Proposal > 🗣 Transcript
+  level: 2
+  words: 8289
+section_count: 27
+profiled: '2026-09-25'
+profiler: p2

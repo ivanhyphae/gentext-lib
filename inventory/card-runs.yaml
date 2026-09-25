@@ -20,3 +20,36 @@
   output_tokens: 42631
   est_cost_usd: 0.2455
   errors: {}
+- run: sync-20260925T141409
+  date: '2026-09-25'
+  backend: api-sync
+  model: claude-haiku-4-5
+  prompt_version: c3
+  requested: 6
+  cards: 6
+  input_tokens: 81811
+  output_tokens: 13673
+  est_cost_usd: 0.1502
+  errors: {}
+- run: sync-20260925T141642
+  date: '2026-09-25'
+  backend: api-sync
+  model: claude-haiku-4-5
+  prompt_version: c3
+  requested: 4
+  cards: 4
+  input_tokens: 46208
+  output_tokens: 6545
+  est_cost_usd: 0.0789
+  errors: {}
+- run: msgbatch_01XM5skBzCUqB4ykhfeBGMXz
+  date: '2026-09-25'
+  backend: api-batch
+  model: claude-haiku-4-5
+  prompt_version: c3
+  requested: 97
+  cards: 97
+  input_tokens: 719274
+  output_tokens: 117538
+  est_cost_usd: 0.6535
+  errors: {}

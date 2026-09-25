@@ -93,6 +93,24 @@ def _card(args: argparse.Namespace) -> int:
     return 2
 
 
+def _extract(args: argparse.Namespace) -> int:
+    from gentext import candidates
+
+    if args.plan:
+        todo, skipped = candidates.plan(args.ids or None)
+        for it in todo:
+            print(f"{it['asset'].id}\t{it['sid']}\t{len(it['body'].split())}w\t{it['path'][:70]}")
+        print(f"{len(todo)} sections to extract; {len(skipped)} skipped")
+        return 0
+    if args.revalidate:
+        entry = candidates.revalidate(Path(args.revalidate))
+        print(json.dumps(entry, indent=2, default=str))
+        return 0
+    entry = candidates.run(args.ids or None, batch=not args.sync)
+    print(json.dumps(entry, indent=2, default=str))
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="gentext")
     parser.add_argument("--version", action="store_true")
@@ -128,6 +146,12 @@ def main(argv: list[str] | None = None) -> int:
     p_ing = card_sub.add_parser("ingest", help="subagent backend: validate and save {asset_id: card} JSON")
     p_ing.add_argument("file")
 
+    p_ext = sub.add_parser("extract", help="T3: held sections -> verbatim candidate chunks (DR-0011)")
+    p_ext.add_argument("ids", nargs="*", help="asset ids (default: all hold)")
+    p_ext.add_argument("--plan", action="store_true", help="list sections that would be extracted, then stop")
+    p_ext.add_argument("--sync", action="store_true")
+    p_ext.add_argument("--revalidate", metavar="RAW_DIR", help="re-slice saved raw outputs (build/extract-raw/<run>) without API calls")
+
     args = parser.parse_args(argv)
     if args.version:
         from importlib.metadata import version
@@ -140,6 +164,8 @@ def main(argv: list[str] | None = None) -> int:
         return _profile(args)
     if args.cmd == "card":
         return _card(args)
+    if args.cmd == "extract":
+        return _extract(args)
     parser.print_help()
     return 0
 

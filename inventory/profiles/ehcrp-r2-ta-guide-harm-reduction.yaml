@@ -8,66 +8,86 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+- sid: s1
+  path: Integrated Climate Adaptation and Resilience Program (ICARP)
   level: 2
   words: 6
-- path: 'What You Need To Know:'
+- sid: s2
+  path: 'What You Need To Know:'
   level: 1
   words: 52
-- path: 'What You Need To Know: > Understanding Harm Reduction as a Program Value'
+- sid: s3
+  path: 'What You Need To Know: > Understanding Harm Reduction as a Program Value'
   level: 2
   words: 241
-- path: 'What You Need To Know: > Elements of Harm Reduction'
+- sid: s4
+  path: 'What You Need To Know: > Elements of Harm Reduction'
   level: 2
   words: 693
-- path: 'What You Need To Know: > Extreme Heat Days'
+- sid: s5
+  path: 'What You Need To Know: > Extreme Heat Days'
   level: 2
   words: 4
-- path: 'What You Need To Know: > California Extreme'
+- sid: s6
+  path: 'What You Need To Know: > California Extreme'
   level: 2
   words: 2
-- path: 'What You Need To Know: > From Cal Adapt'
+- sid: s7
+  path: 'What You Need To Know: > From Cal Adapt'
   level: 2
   words: 0
-- path: 'What You Need To Know: > From UCLA’s Luskin Institute for Innovation'
+- sid: s8
+  path: 'What You Need To Know: > From UCLA’s Luskin Institute for Innovation'
   level: 2
   words: 4
-- path: 'What You Need To Know: > California Heat'
+- sid: s9
+  path: 'What You Need To Know: > California Heat'
   level: 2
   words: 2
-- path: 'What You Need To Know: > CalBRACE Climate'
+- sid: s10
+  path: 'What You Need To Know: > CalBRACE Climate'
   level: 2
   words: 2
-- path: 'What You Need To Know: > From the California Natural Resources Agency'
+- sid: s11
+  path: 'What You Need To Know: > From the California Natural Resources Agency'
   level: 2
   words: 0
-- path: 'What You Need To Know: > From the California Department of Public Health'
+- sid: s12
+  path: 'What You Need To Know: > From the California Department of Public Health'
   level: 2
   words: 4
-- path: 'What You Need To Know: > Climate Change & Health'
+- sid: s13
+  path: 'What You Need To Know: > Climate Change & Health'
   level: 2
   words: 2
-- path: 'What You Need To Know: > Climate Change & Health'
+- sid: s14
+  path: 'What You Need To Know: > Climate Change & Health'
   level: 2
   words: 2
-- path: 'What You Need To Know: > From the California Department of Public Health'
+- sid: s15
+  path: 'What You Need To Know: > From the California Department of Public Health'
   level: 2
   words: 0
-- path: 'What You Need To Know: > From the California Department of Public Health'
+- sid: s16
+  path: 'What You Need To Know: > From the California Department of Public Health'
   level: 2
   words: 4
-- path: 'What You Need To Know: > Access and Functional'
+- sid: s17
+  path: 'What You Need To Know: > Access and Functional'
   level: 2
   words: 2
-- path: 'What You Need To Know: > National Heat Risk Data'
+- sid: s18
+  path: 'What You Need To Know: > National Heat Risk Data'
   level: 2
   words: 2
-- path: 'What You Need To Know: > From the California Office of Emergency Services'
+- sid: s19
+  path: 'What You Need To Know: > From the California Office of Emergency Services'
   level: 2
   words: 0
-- path: 'What You Need To Know: > From the National Integrated Heat Health'
+- sid: s20
+  path: 'What You Need To Know: > From the National Integrated Heat Health'
   level: 2
   words: 6
 section_count: 20
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

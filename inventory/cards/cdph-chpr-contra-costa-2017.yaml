@@ -1,0 +1,79 @@
+asset_id: cdph-chpr-contra-costa-2017
+card:
+  summary: State-authored (CDPH) climate and health vulnerability profile for Contra Costa County (2017). Covers climate projections
+    (temperature, wildfire, sea-level rise), health impact pathways (heat, air quality, drought, vector-borne illness, displacement),
+    vulnerable populations, and adaptation strategies. Authoritative baseline data on county-level climate risks and health
+    disparities.
+  doc_role: report
+  authorship: California Department of Public Health (CDPH), Office of Health Equity; authors Maizlish, English, Chan, Dervin,
+    English
+  disposition: reference
+  disposition_reason: Authoritative state health department data on Contra Costa County climate and health vulnerabilities;
+    citable for need statements and harm reduction rationale. Not reusable prose; designed as lookup reference.
+  serves_needs:
+  - need_id: hr-q1
+    how: 'Provides county-level health disparities data (death rates by race/ethnicity, chronic conditions, heat-related ER
+      visits, vulnerable populations: elderly, low-income, outdoor workers, linguistically isolated) and identifies heat as
+      direct health threat; lacks lived experience voices or VCP data.'
+  - need_id: lib-site-bay-point
+    how: Contra Costa County population vulnerability profile, heat exposure data (113 annual heat-related ER visits/100,000),
+      and geographic heat risk context applicable to Bay Point site; fire and flooding hazards also documented.
+  sections:
+  - sid: s45
+    path: What Are The Current Health Status, Health Inequities, And Population Vulnerabilities in Contra Costa County?
+    type: evidence-data
+    reuse_value: high
+    note: Detailed county health status, disparities by race/ethnicity, chronic conditions, and vulnerability indicators (poverty,
+      age, linguistic isolation, outdoor workers, AC access); tables with population counts and percentages.
+  - sid: s38
+    path: Overview Of Climate Change And Health Impacts
+    type: need-statement
+    reuse_value: medium
+    note: Summary of three main health impact pathways (direct exposure, indirect exposure, socioeconomic disruption) applicable
+      to harm reduction framing; brief but establishes causal logic.
+  - sid: s39
+    path: Overview Of Climate Change And Health Impacts > Health Impacts of Heat
+    type: need-statement
+    reuse_value: medium
+    note: Direct statement of heat health harms (heat stroke, exacerbation of pre-existing conditions, medically fragile populations)
+      and secondary pathways (air quality, ozone); connects temperature rise to disease burden.
+  - sid: s32
+    path: What Are The Climate Projections For Contra Costa County?
+    type: site-context
+    reuse_value: medium
+    note: Contra Costa County-specific temperature projections (1–2.3°F rise near-term; diverging scenarios by 2100) and fire
+      hazard severity zone methodology; baseline for local climate data.
+  fact_candidates:
+  - 's45: In 2010, age-adjusted death rate in Contra Costa County was slightly lower than state average (implies county death
+    rate data available; exact number not stated in excerpt)'
+  - 's45: Annual heat-related ER visits in Contra Costa County: 113 per 100,000 (2005–10)'
+  - 's48: Contra Costa County adult obesity: 10% (2011–12)'
+  - 's48: Contra Costa County living with disability: 102,971 (11% of population, 2008–12)'
+  - 's48: Contra Costa County children aged 0–4 years: 8,316 (0.8%)'
+  - 's50: Contra Costa County adults aged 65+: 130,438 (12% of population)'
+  - 's50: Contra Costa County linguistically isolated households: 24,255 (7%)'
+  - 's50: Contra Costa County poverty rate: 92,233 (9%)'
+  - 's50: Contra Costa County households with AC: 222,992 (70%)'
+  - 's50: Contra Costa County tree canopy: 13% (census tract average area)'
+  - 's51: Contra Costa County population in high-risk wildfire area (2010): 65,729 (6.27%)'
+  - 's51: Contra Costa County population in 100-year flood area + 55 inches SLR (2100): 8,977 (0.9%)'
+  flags:
+  - Dated 2017; climate projections and health data are historical baselines, not current. May be superseded by newer CDPH/Cal-Adapt
+    runs.
+  - Contra Costa County profile is regional; does not contain Bay Point-specific data. Requires disaggregation or supplementation
+    with tract-level VCP/CHAT data (wanted assets vcp-bay-point-tracts, chat-bay-point).
+  - No community voices, lived experience, or quote material present; inventory note correctly identifies this as corroborating
+    source only, not primary harm-reduction evidence.
+  - Excerpt too thin to verify completeness of health disparities tables; full county/race stratification data in Figures
+    7–8 not fully visible in section openings.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 38e1f9141719e580c3ca898bd2cb26a1308c5f6201b68f8c21337c488a3e5ab7
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 14277
+    output: 1149
+    cache_read: 0
+    cache_write: 0

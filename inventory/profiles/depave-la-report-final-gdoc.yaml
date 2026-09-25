@@ -1,0 +1,1648 @@
+asset_id: depave-la-report-final-gdoc
+source_path: sources/depave-la-report-final-gdoc/depave-la-report-final-gdoc.md
+source_sha256: 1701993991a66a06c189b01e085e7b363349ed8b790032da4be4d20aa6465a53
+text_sha256: 76209be915fa829cff04150d4896eec2733b2146a9d58ded48182b108ddd35e7
+words: 67387
+pii:
+  emails: 37
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: FINAL DepaveLA Report
+  level: 1
+  words: 487
+- sid: s2
+  path: FINAL DepaveLA Report > Authors
+  level: 3
+  words: 20
+- sid: s3
+  path: \[image\]
+  level: 1
+  words: 0
+- sid: s4
+  path: \[image\] > Contributors
+  level: 4
+  words: 26
+- sid: s5
+  path: \[image\] > Contributors > Acknowledgments
+  level: 4
+  words: 24
+- sid: s6
+  path: \[image\]
+  level: 1
+  words: 59
+- sid: s7
+  path: \[image\] > Land Acknowledgment
+  level: 4
+  words: 80
+- sid: s8
+  path: \[image\] > Land Acknowledgment > Reviews
+  level: 4
+  words: 41
+- sid: s9
+  path: Executive Summary
+  level: 1
+  words: 301
+- sid: s10
+  path: Executive Summary > Scope and Methodology
+  level: 2
+  words: 176
+- sid: s11
+  path: Executive Summary > Summary of Key Findings & Recommendations
+  level: 2
+  words: 0
+- sid: s12
+  path: Executive Summary > Summary of Key Findings & Recommendations > Scale of Opportunity
+  level: 3
+  words: 177
+- sid: s13
+  path: Executive Summary > Summary of Key Findings & Recommendations > Residential Pavement Area
+  level: 3
+  words: 185
+- sid: s14
+  path: Executive Summary > Summary of Key Findings & Recommendations > Vacant Lots
+  level: 3
+  words: 79
+- sid: s15
+  path: Executive Summary > Summary of Key Findings & Recommendations > Commercial and Industrial parcels
+  level: 3
+  words: 95
+- sid: s16
+  path: Executive Summary > Summary of Key Findings & Recommendations > Government Parcels
+  level: 3
+  words: 49
+- sid: s17
+  path: Executive Summary > Summary of Key Findings & Recommendations > Right-of-Way
+  level: 3
+  words: 102
+- sid: s18
+  path: Executive Summary > Summary of Key Findings & Recommendations > Supervisorial District Pavement
+  level: 3
+  words: 98
+- sid: s19
+  path: Executive Summary > Summary of Key Findings & Recommendations > Watershed Pavement
+  level: 3
+  words: 85
+- sid: s20
+  path: Executive Summary > Summary of Key Findings & Recommendations > Schools Pavement
+  level: 3
+  words: 152
+- sid: s21
+  path: Executive Summary > Recommendations
+  level: 2
+  words: 45
+- sid: s22
+  path: 'Chapter 1: Introduction'
+  level: 1
+  words: 0
+- sid: s23
+  path: 'Chapter 1: Introduction > Overview'
+  level: 2
+  words: 302
+- sid: s24
+  path: 'Chapter 1: Introduction > Overview > A History of Hardscape'
+  level: 3
+  words: 1
+- sid: s25
+  path: 'Chapter 1: Introduction > Overview > A History of Hardscape > Figure 1: Left, postcard of L.A. mid-20th century. Right, Santa Monica Boulevard circa 1900 (Pierce, C. C. (1861-1946) / Security Pacific
+    National Bank Collection / Los Angeles Public Library)'
+  level: 5
+  words: 150
+- sid: s26
+  path: 'Chapter 1: Introduction > Overview > Prior Pavement Removal Initiatives'
+  level: 3
+  words: 358
+- sid: s27
+  path: 'Chapter 1: Introduction > Overview > A Community Approach'
+  level: 3
+  words: 142
+- sid: s28
+  path: 'Chapter 1: Introduction > Report Structure, Key Concepts, and Definitions'
+  level: 2
+  words: 703
+- sid: s29
+  path: 'Chapter 2: Needs Assessment'
+  level: 1
+  words: 0
+- sid: s30
+  path: 'Chapter 2: Needs Assessment > 2.1 Introduction'
+  level: 2
+  words: 363
+- sid: s31
+  path: 'Chapter 2: Needs Assessment > 2.1 Introduction > What about census tracts?'
+  level: 4
+  words: 142
+- sid: s32
+  path: 'Chapter 2: Needs Assessment > 2.2 Pavement Coverage'
+  level: 2
+  words: 345
+- sid: s33
+  path: 'Chapter 2: Needs Assessment > 2.2 Pavement Coverage > 2.2.1 Pavement Coverage Ranking by Countywide Statistical Area (CSA)'
+  level: 3
+  words: 164
+- sid: s34
+  path: 'Chapter 2: Needs Assessment > 2.2 Pavement Coverage > 2.2.2 Pavement Exposure within Supervisorial Districts'
+  level: 3
+  words: 118
+- sid: s35
+  path: 'Chapter 2: Needs Assessment > 2.2 Pavement Coverage > 2.2.3 Pavement at Schools'
+  level: 3
+  words: 118
+- sid: s36
+  path: 'Chapter 2: Needs Assessment > 2.2 Pavement Coverage > 2.2.4 Pavement in Vision Zero Road Segments'
+  level: 3
+  words: 129
+- sid: s37
+  path: 'Chapter 2: Needs Assessment > 2.3 Heat'
+  level: 2
+  words: 705
+- sid: s38
+  path: 'Chapter 2: Needs Assessment > 2.3 Heat > 2.3.1 Community Heat Burden'
+  level: 3
+  words: 240
+- sid: s39
+  path: 'Chapter 2: Needs Assessment > 2.3 Heat > 2.3.2 Heat Exposure within Supervisorial Districts'
+  level: 3
+  words: 127
+- sid: s40
+  path: 'Chapter 2: Needs Assessment > 2.3 Heat > 2.3.3 Heat for Schools'
+  level: 3
+  words: 64
+- sid: s41
+  path: 'Chapter 2: Needs Assessment > 2.3 Heat > 2.3.4 Heat in Vision Zero Road Segments'
+  level: 3
+  words: 94
+- sid: s42
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater'
+  level: 2
+  words: 99
+- sid: s43
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.1 Stormwater Capture and Groundwater Recharge'
+  level: 3
+  words: 322
+- sid: s44
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.2 Flooding'
+  level: 3
+  words: 579
+- sid: s45
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.3 Community Flood Risk Burden'
+  level: 3
+  words: 350
+- sid: s46
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.4 Supervisorial District Population Filtered Flood Risk'
+  level: 3
+  words: 130
+- sid: s47
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.5 Flooding Needs by School'
+  level: 3
+  words: 58
+- sid: s48
+  path: 'Chapter 2: Needs Assessment > 2.4 Flooding and Groundwater > 2.4.6 Flooding by Vision Zero Segments'
+  level: 3
+  words: 96
+- sid: s49
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy'
+  level: 2
+  words: 211
+- sid: s50
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy > 2.5.1 Community Tree Canopy Burden'
+  level: 3
+  words: 32
+- sid: s51
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy > 2.5.2 Canopy Coverage within Supervisorial Districts'
+  level: 3
+  words: 24
+- sid: s52
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy > 2.5.3 Canopy within Communities'
+  level: 3
+  words: 29
+- sid: s53
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy > 2.5.4 Canopy at Schools'
+  level: 3
+  words: 22
+- sid: s54
+  path: 'Chapter 2: Needs Assessment > 2.5 Tree Canopy > 2.5.5 Canopy in Vision Zero Road Segments'
+  level: 3
+  words: 108
+- sid: s55
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles'
+  level: 2
+  words: 58
+- sid: s56
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.1 Each Need Separately'
+  level: 3
+  words: 138
+- sid: s57
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.2 Stacked Needs Pavement Analysis'
+  level: 3
+  words: 0
+- sid: s58
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.2 Stacked Needs Pavement Analysis > 2.6.2.1 Overlapping Quartiles'
+  level: 4
+  words: 130
+- sid: s59
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.2 Stacked Needs Pavement Analysis > 2.6.2.2 Overlapping Quartiles per CSA'
+  level: 4
+  words: 133
+- sid: s60
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.2 Stacked Needs Pavement Analysis > 2.6.2.3 Overlapping Quartiles per SB535 Disadvantaged Communities'
+  level: 4
+  words: 145
+- sid: s61
+  path: 'Chapter 2: Needs Assessment > 2.6 Stacked Needs - Top Quantiles > 2.6.2 Stacked Needs Pavement Analysis > 2.6.2.4 Overlapping Quartile Tiers'
+  level: 4
+  words: 348
+- sid: s62
+  path: 'Chapter 2: Needs Assessment > 2.7 Comparison with Other Assessments'
+  level: 2
+  words: 300
+- sid: s63
+  path: 'Chapter 2: Needs Assessment > 2.8 Needs Assessment Conclusions'
+  level: 2
+  words: 74
+- sid: s64
+  path: 'Chapter 2: Needs Assessment > 2.8 Needs Assessment Conclusions > Conclusions'
+  level: 3
+  words: 323
+- sid: s65
+  path: 'Chapter 3: Pavement Distribution Analysis'
+  level: 1
+  words: 0
+- sid: s66
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.1 Introduction'
+  level: 2
+  words: 487
+- sid: s67
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis'
+  level: 2
+  words: 0
+- sid: s68
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.1 Summary of Parcels Analysis Findings'
+  level: 3
+  words: 195
+- sid: s69
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.2 Parcels Definition'
+  level: 3
+  words: 189
+- sid: s70
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use'
+  level: 3
+  words: 206
+- sid: s71
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.1 Residential Parcel Pavement'
+  level: 4
+  words: 536
+- sid: s72
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.2 Industrial Parcels Pavement'
+  level: 4
+  words: 410
+- sid: s73
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.3 Government Parcels Pavement'
+  level: 4
+  words: 651
+- sid: s74
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.3 Parcel Pavement per Land Use > 3.2.3.4 Vacant Parcels'
+  level: 4
+  words: 471
+- sid: s75
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.2 Parcels Analysis > 3.2.4 Public Parcel Pavement by Ownership'
+  level: 3
+  words: 378
+- sid: s76
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.3 ROW Analysis'
+  level: 2
+  words: 0
+- sid: s77
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.3 ROW Analysis > 3.3.1 Summary of ROW Analysis Findings'
+  level: 3
+  words: 249
+- sid: s78
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.4 Supervisorial District Analysis'
+  level: 2
+  words: 180
+- sid: s79
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.5 Watershed Analysis'
+  level: 2
+  words: 480
+- sid: s80
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.6 Community Analysis'
+  level: 2
+  words: 135
+- sid: s81
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.7 Schools Analysis'
+  level: 2
+  words: 98
+- sid: s82
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.8 Vision Zero Pavement Analysis'
+  level: 2
+  words: 68
+- sid: s83
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.9 Top Needs Quantile Analysis'
+  level: 2
+  words: 0
+- sid: s84
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.9 Top Needs Quantile Analysis > 3.9.1 Each Need Separately'
+  level: 3
+  words: 198
+- sid: s85
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.9 Top Needs Quantile Analysis > 3.9.2 Stacked Needs Pavement Analysis'
+  level: 3
+  words: 219
+- sid: s86
+  path: 'Chapter 3: Pavement Distribution Analysis > 3.10 Chapter 3 Conclusions'
+  level: 2
+  words: 208
+- sid: s87
+  path: 'Chapter 4: Pavement Necessity Analysis'
+  level: 1
+  words: 0
+- sid: s88
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.1 Introduction'
+  level: 2
+  words: 1063
+- sid: s89
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity'
+  level: 2
+  words: 0
+- sid: s90
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity > Introduction to Findings'
+  level: 4
+  words: 49
+- sid: s91
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity > Introduction to Findings > Pavement Necessity Analysis'
+  level: 4
+  words: 495
+- sid: s92
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity > Introduction to Findings > Pavement Necessity Analysis > Table 4.1: Total County-wide (incorporated and unincorporated)
+    parcel and ROW pavement, non-road pavement, road pavement, non-core pavement, and pavement needed for parking'
+  level: 5
+  words: 145
+- sid: s93
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.2 Heuristic Analysis of Pavement Necessity > Introduction to Findings > Pavement Necessity Analysis > Table 4.2: Unincorporated parcel and ROW pavement,
+    non-road pavement, road pavement, non-core pavement, and pavement needed for parking'
+  level: 5
+  words: 467
+- sid: s94
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.3 Conclusions & Key Insights'
+  level: 2
+  words: 77
+- sid: s95
+  path: 'Chapter 4: Pavement Necessity Analysis > 4.3 Conclusions & Key Insights > 4.3.1 Key Insights'
+  level: 3
+  words: 327
+- sid: s96
+  path: 'Chapter 5: Design & Planning'
+  level: 1
+  words: 0
+- sid: s97
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction'
+  level: 2
+  words: 76
+- sid: s98
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.2 Design Standards & Guidelines'
+  level: 3
+  words: 0
+- sid: s99
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.2 Design Standards & Guidelines > Green Infrastructure Design Standards'
+  level: 4
+  words: 186
+- sid: s100
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.2 Design Standards & Guidelines > Pavement Management System'
+  level: 4
+  words: 84
+- sid: s101
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.3 Planned Projects'
+  level: 3
+  words: 0
+- sid: s102
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.3 Planned Projects > CFMP Projects'
+  level: 4
+  words: 69
+- sid: s103
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.3 Planned Projects > SCWP Projects'
+  level: 4
+  words: 173
+- sid: s104
+  path: 'Chapter 5: Design & Planning > 5.1 Introduction > 5.1.3 Planned Projects > Infrastructure L.A. Projects'
+  level: 4
+  words: 138
+- sid: s105
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies'
+  level: 2
+  words: 0
+- sid: s106
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview'
+  level: 3
+  words: 158
+- sid: s107
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Strategy Development'
+  level: 4
+  words: 154
+- sid: s108
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Model Depaved Block'
+  level: 4
+  words: 235
+- sid: s109
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Model Depaved Block > Figure 5.1: Typical street and block layout before depaving interventions applied'
+  level: 5
+  words: 2
+- sid: s110
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Model Depaved Block > Figure 5.2: Typical sStreet and bBlock lLayout after dDepaving sStrategies aApplied.
+    See Table 5.1 for legend of numbered intervention strategies'
+  level: 5
+  words: 0
+- sid: s111
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Existing Conditions & Proposed Depaving Strategies'
+  level: 4
+  words: 47
+- sid: s112
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.1 Depaving Strategies Overview > Existing Conditions & Proposed Depaving Strategies > Table 5.2: Applicable land uses table identifies
+    which strategies pair with which land uses.'
+  level: 5
+  words: 0
+- sid: s113
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics'
+  level: 3
+  words: 0
+- sid: s114
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.1 Introduction'
+  level: 4
+  words: 191
+- sid: s115
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies'
+  level: 4
+  words: 77
+- sid: s116
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > Conversion from Standard to Compact Parking'
+  level: 5
+  words: 206
+- sid: s117
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > Figure 5.3: Compact parking space conversion'
+  level: 5
+  words: 7
+- sid: s118
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > Conversion from sStandard to aAngled pParking'
+  level: 5
+  words: 118
+- sid: s119
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > \[image\]'
+  level: 5
+  words: 0
+- sid: s120
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > Figure 5.4: As the angle of parking gets smaller, the aisle width
+    can shrink with the triangles between spaces reaching maximum area at 45 degrees.'
+  level: 5
+  words: 382
+- sid: s121
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > 5.2.2 Depaving Strategy Heuristics > 5.2.2.2 Parking Lot Strategies > Perpendicular-Facing Space Diamonds'
+  level: 5
+  words: 100
+- sid: s122
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\]'
+  level: 3
+  words: 7
+- sid: s123
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.3 Sidewalk Strategies'
+  level: 4
+  words: 0
+- sid: s124
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.3 Sidewalk Strategies > Bus Stop Strategies'
+  level: 5
+  words: 51
+- sid: s125
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies'
+  level: 4
+  words: 40
+- sid: s126
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Periodic Bulbouts on Roadways'
+  level: 5
+  words: 38
+- sid: s127
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.6: Bulbouts on rRoadways - bBefore/aAfter'
+  level: 5
+  words: 1
+- sid: s128
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.6: Bulbouts on rRoadways'
+  level: 5
+  words: 0
+- sid: s129
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Wide Intersection Planted Bulbouts'
+  level: 5
+  words: 92
+- sid: s130
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.7: Wide iIntersections - bBefore/aAfter'
+  level: 5
+  words: 1
+- sid: s131
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.7: Wide iIntersections'
+  level: 5
+  words: 0
+- sid: s132
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Tree Wells in the Right-of-Way'
+  level: 5
+  words: 75
+- sid: s133
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.8: Tree wWells in the rRight-of-wWay'
+  level: 5
+  words: 1
+- sid: s134
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Roadway Strategies > Figure 5.8: Tree wells in the rRight-of-wWay'
+  level: 5
+  words: 0
+- sid: s135
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\]'
+  level: 3
+  words: 7
+- sid: s136
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Activity Space Strategies'
+  level: 4
+  words: 0
+- sid: s137
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Activity Space Strategies > Patio Conversion'
+  level: 5
+  words: 114
+- sid: s138
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\] > 5.2.2.4 Activity Space Strategies > Figure 5.9: Patio cConversion - bBefore/aAfter'
+  level: 5
+  words: 7
+- sid: s139
+  path: 'Chapter 5: Design & Planning > 5.2 Depaving Strategies > \[image\]'
+  level: 3
+  words: 7
+- sid: s140
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis'
+  level: 2
+  words: 0
+- sid: s141
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.1 Approach'
+  level: 3
+  words: 225
+- sid: s142
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.1 Approach > 5.3.1.1 Contractor Outreach & Collaboration'
+  level: 4
+  words: 80
+- sid: s143
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.1 Approach > 5.3.1.2 Design Elements'
+  level: 4
+  words: 92
+- sid: s144
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings'
+  level: 3
+  words: 0
+- sid: s145
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.1 Costs of Pavement Removal Alone'
+  level: 4
+  words: 164
+- sid: s146
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.2 Costs of Pavement Removal with Planting Strategies'
+  level: 4
+  words: 190
+- sid: s147
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.3 Construction Cost Factors'
+  level: 4
+  words: 78
+- sid: s148
+  path: 'Chapter 5: Design & Planning > 5.3 Cost Analysis > 5.3.2 Cost Analysis Findings > 5.3.2.4 O\&M'
+  level: 4
+  words: 55
+- sid: s149
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks'
+  level: 2
+  words: 0
+- sid: s150
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.1 Landscape Requirements'
+  level: 3
+  words: 0
+- sid: s151
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.1 Landscape Requirements > 5.4.1.1 Commercial Landscape Requirements'
+  level: 4
+  words: 131
+- sid: s152
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.1 Landscape Requirements > 5.4.1.2 Residential Landscape Requirements'
+  level: 4
+  words: 93
+- sid: s153
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.2 Bringing Above Average Pavement Down to Average'
+  level: 3
+  words: 0
+- sid: s154
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.2 Bringing Above Average Pavement Down to Average > 5.4.2.1 Parks Heuristic'
+  level: 4
+  words: 80
+- sid: s155
+  path: 'Chapter 5: Design & Planning > 5.4 Landscape Benchmarks > 5.4.2 Bringing Above Average Pavement Down to Average > 5.4.2.2 Schools Heuristic'
+  level: 4
+  words: 94
+- sid: s156
+  path: 'Chapter 5: Design & Planning > 5.5 Targets'
+  level: 2
+  words: 0
+- sid: s157
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.1 Introduction to Depaving Targets'
+  level: 3
+  words: 69
+- sid: s158
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.1 Introduction to Depaving Targets > 5.5.1.2 Baseline'
+  level: 4
+  words: 210
+- sid: s159
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.1 Introduction to Depaving Targets > 5.5.1.3 Benchmarks'
+  level: 4
+  words: 250
+- sid: s160
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.2 Depaving Targets'
+  level: 3
+  words: 24
+- sid: s161
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.2 Depaving Targets > 5.5.2.1 Potential Target Setting Framework'
+  level: 4
+  words: 409
+- sid: s162
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.3 Monitoring, Evaluation, and Adaptive Management'
+  level: 3
+  words: 28
+- sid: s163
+  path: 'Chapter 5: Design & Planning > 5.5 Targets > 5.5.3 Monitoring, Evaluation, and Adaptive Management > 5.5.3.1 Change Analysis Against Baseline Assessments'
+  level: 4
+  words: 70
+- sid: s164
+  path: 'Chapter 5: Design & Planning > 5.6 Design and Planning Conclusions'
+  level: 2
+  words: 169
+- sid: s165
+  path: 'Chapter 6: Recommendations'
+  level: 1
+  words: 20
+- sid: s166
+  path: 'Chapter 6: Recommendations > Recommendation 1: Implement Depaving Projects in Hotspot Locations and on Vacant Parcels'
+  level: 2
+  words: 238
+- sid: s167
+  path: 'Chapter 6: Recommendations > Recommendation 2: Create a Depave Taskforce'
+  level: 2
+  words: 125
+- sid: s168
+  path: 'Chapter 6: Recommendations > Recommendation 3: Use An Implementation Framework'
+  level: 2
+  words: 473
+- sid: s169
+  path: 'Chapter 6: Recommendations > Recommendation 4: Explore Incentive-Based Approaches for Depaving on Private Property'
+  level: 2
+  words: 411
+- sid: s170
+  path: 'Chapter 6: Recommendations > Recommendation 5: Promote Depaving of Schoolyards and Campuses'
+  level: 2
+  words: 209
+- sid: s171
+  path: 'Chapter 7: Methodology'
+  level: 1
+  words: 107
+- sid: s172
+  path: 'Chapter 7: Methodology > 7.1 Pavement Classifications'
+  level: 2
+  words: 0
+- sid: s173
+  path: 'Chapter 7: Methodology > 7.1 Pavement Classifications > 7.1.1 Source Imagery'
+  level: 3
+  words: 44
+- sid: s174
+  path: 'Chapter 7: Methodology > 7.1 Pavement Classifications > 7.1.2 Pavement Classification'
+  level: 3
+  words: 166
+- sid: s175
+  path: 'Chapter 7: Methodology > 7.1 Pavement Classifications > 7.1.3 Pavement Class Evaluation'
+  level: 3
+  words: 440
+- sid: s176
+  path: 'Chapter 7: Methodology > 7.2 Aggregation methods'
+  level: 2
+  words: 0
+- sid: s177
+  path: 'Chapter 7: Methodology > 7.2 Aggregation methods > 7.2.1 Raster Aggregation Methods'
+  level: 3
+  words: 1661
+- sid: s178
+  path: 'Chapter 7: Methodology > 7.2 Aggregation methods > 7.2.2 Polygon Aggregation Methods'
+  level: 3
+  words: 428
+- sid: s179
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods'
+  level: 2
+  words: 0
+- sid: s180
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.1 Parking Requirements Method'
+  level: 3
+  words: 376
+- sid: s181
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.1 Parking Requirements Method > Table 7.5: Assumptions for parking requirements for commercial and industrial parcels.'
+  level: 5
+  words: 116
+- sid: s182
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.2 Sidewalks Requirements Method'
+  level: 3
+  words: 603
+- sid: s183
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.3 Landscape Potential Heuristics'
+  level: 3
+  words: 0
+- sid: s184
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.3 Landscape Potential Heuristics > Commercial Landscape Potential'
+  level: 4
+  words: 55
+- sid: s185
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.3 Landscape Potential Heuristics > Residential Landscape Potential'
+  level: 4
+  words: 143
+- sid: s186
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.4 Public Parcel Ownership Category'
+  level: 3
+  words: 189
+- sid: s187
+  path: 'Chapter 7: Methodology > 7.3 Heuristic Methods > 7.3.5 Intersections'
+  level: 3
+  words: 157
+- sid: s188
+  path: 'Chapter 7: Methodology > 7.4 Limitations of These Methods'
+  level: 2
+  words: 504
+- sid: s189
+  path: 'Chapter 7: Methodology > 7.4 Limitations of These Methods > Many of these limitations point towards the necessity of site-scale follow-up when moving beyond the county-scale. For example'
+  level: 4
+  words: 156
+- sid: s190
+  path: 'Chapter 7: Methodology > 7.5 Opportunities for Refinement'
+  level: 2
+  words: 511
+- sid: s191
+  path: Scraps
+  level: 1
+  words: 260
+- sid: s192
+  path: Scraps > 7.3.4 Depaving Targets
+  level: 3
+  words: 83
+- sid: s193
+  path: Scraps > 7.3.4 Depaving Targets > Schools target
+  level: 5
+  words: 973
+- sid: s194
+  path: 'Scraps > 7.3.4 Depaving Targets > Chapter 6: Summary and Recommendations'
+  level: 3
+  words: 124
+- sid: s195
+  path: 'Scraps > 7.3.4 Depaving Targets > Chapter 7: Methodology'
+  level: 3
+  words: 114
+- sid: s196
+  path: Scraps > Summary of Key Findings & Recommendations
+  level: 2
+  words: 0
+- sid: s197
+  path: Scraps > Summary of Key Findings & Recommendations > THIS WE IMAGINE AS IN INFOGRAPHIC 2 page spread.
+  level: 3
+  words: 1172
+- sid: s198
+  path: Scraps > Summary of Key Findings & Recommendations > Integration into Countywide Plans & Programs
+  level: 3
+  words: 5
+- sid: s199
+  path: Scraps > Summary of Key Findings & Recommendations > Integration into Countywide Plans & Programs > Plans & Programs
+  level: 4
+  words: 143
+- sid: s200
+  path: Scraps > Summary of Key Findings & Recommendations > Integration into Countywide Plans & Programs > Design Standards
+  level: 4
+  words: 131
+- sid: s201
+  path: Scraps > Summary of Key Findings & Recommendations > Integration into Countywide Plans & Programs > Hotspots & Environmental Justice
+  level: 4
+  words: 84
+- sid: s202
+  path: Scraps > Summary of Key Findings & Recommendations > Interdepartmental Coordination & Governance
+  level: 3
+  words: 97
+- sid: s203
+  path: Scraps > Summary of Key Findings & Recommendations > Pilot Projects
+  level: 3
+  words: 158
+- sid: s204
+  path: Scraps > Summary of Key Findings & Recommendations > Incentives Program
+  level: 3
+  words: 249
+- sid: s205
+  path: Scraps > Summary of Key Findings & Recommendations > Schools
+  level: 3
+  words: 153
+- sid: s206
+  path: Scraps > Summary of Key Findings & Recommendations > Adaptive Management
+  level: 3
+  words: 436
+- sid: s207
+  path: Scraps > Summary of Key Findings & Recommendations > Proposed Targets
+  level: 3
+  words: 178
+- sid: s208
+  path: 'Scraps > Summary of Key Findings & Recommendations > Proposed Targets > Tier 1: Tactical (Most Readily Implementable)'
+  level: 4
+  words: 171
+- sid: s209
+  path: 'Scraps > Summary of Key Findings & Recommendations > Proposed Targets > Tier 2: Intermediate (Moderate Ambition)'
+  level: 4
+  words: 228
+- sid: s210
+  path: 'Scraps > Summary of Key Findings & Recommendations > Proposed Targets > Tier 3: Transformative (Most Ambitious)'
+  level: 4
+  words: 63
+- sid: s211
+  path: Scraps > Summary of Key Findings & Recommendations > 6.2.1 Needs Assessment Findings
+  level: 3
+  words: 249
+- sid: s212
+  path: Scraps > Summary of Key Findings & Recommendations > 6.3.1 Pavement Assessment Findings
+  level: 3
+  words: 162
+- sid: s213
+  path: Scraps > Summary of Key Findings & Recommendations > 6.4.1 Pavement Needs Findings
+  level: 3
+  words: 775
+- sid: s214
+  path: Scraps > Implementation Roadmap
+  level: 2
+  words: 437
+- sid: s215
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~
+  level: 2
+  words: 0
+- sid: s216
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~1. Integrate Depaving into County Plans and Programs~~
+  level: 3
+  words: 42
+- sid: s217
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~2. Reform RFP and Design Standards~~
+  level: 3
+  words: 68
+- sid: s218
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~3. Launch a 5-Year Depaving Pilot Program~~
+  level: 3
+  words: 60
+- sid: s219
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~4. Incentivize Private Parcel Transformations~~
+  level: 3
+  words: 44
+- sid: s220
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~5. Expand Schoolyard Greening~~
+  level: 3
+  words: 226
+- sid: s221
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~5. Expand Schoolyard Greening~~ > Commercial/Industrial Parcels
+  level: 4
+  words: 33
+- sid: s222
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~5. Expand Schoolyard Greening~~ > 6.5.4.4 Residential Parcels
+  level: 4
+  words: 50
+- sid: s223
+  path: Scraps > ~~\[REVISE TO MATCH REVISED POLICY Recommendations SECTION\]~~ > ~~5. Expand Schoolyard Greening~~ > 6.5.4.5
+  level: 4
+  words: 0
+- sid: s224
+  path: Scraps > Problem-Solution Framework
+  level: 2
+  words: 0
+- sid: s225
+  path: 'Scraps > Problem-Solution Framework > Problem: Too Much Pavement (and Why It’s So Hard to Remove)'
+  level: 3
+  words: 189
+- sid: s226
+  path: 'Scraps > Problem-Solution Framework > Solution: Strategic Depaving (through Multi-Sector Coordination)'
+  level: 3
+  words: 466
+- sid: s227
+  path: Old Policy Material
+  level: 1
+  words: 0
+- sid: s228
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion
+  level: 1
+  words: 55
+- sid: s229
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here).
+  level: 3
+  words: 129
+- sid: s230
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.1 Integration into Countywide Plans and Standards
+  level: 3
+  words: 0
+- sid: s231
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.1 Integration into Countywide Plans and Standards > 6.1.1 Plan Coordination
+  level: 4
+  words: 343
+- sid: s232
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.1 Integration into Countywide Plans and Standards > 6.1.2 Design Standards
+    / RFPs
+  level: 4
+  words: 875
+- sid: s233
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.2 Interdepartmental Coordination & Governance
+  level: 3
+  words: 0
+- sid: s234
+  path: 'Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.2 Interdepartmental Coordination & Governance > 6.2.1 Agency Roles:
+    Alignment & Accountability'
+  level: 4
+  words: 833
+- sid: s235
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.3 Pilot Projects
+  level: 3
+  words: 0
+- sid: s236
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.3 Pilot Projects > County Pilot Projects
+  level: 4
+  words: 215
+- sid: s237
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.3 Pilot Projects > Vacant Parcels
+  level: 4
+  words: 82
+- sid: s238
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.3 Pilot Projects > Commercial & Private Parcels
+  level: 4
+  words: 0
+- sid: s239
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.4 Incentives Program
+  level: 3
+  words: 0
+- sid: s240
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.4 Incentives Program > 6.4.2 Residential and Commercial Program
+  level: 4
+  words: 350
+- sid: s241
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.4 Incentives Program > 6.4.3 Industrial Program
+  level: 4
+  words: 126
+- sid: s242
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.4 Incentives Program > 6.4.4 Toolkit for Property Owners
+  level: 4
+  words: 96
+- sid: s243
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.5 Schools
+  level: 3
+  words: 324
+- sid: s244
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.6 Develop Implementation Plans
+  level: 3
+  words: 345
+- sid: s245
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.7 Develop Depaving Consortium/Working Groups
+  level: 3
+  words: 98
+- sid: s246
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.8 Adaptive Management
+  level: 3
+  words: 254
+- sid: s247
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > 6.9 Chapter 6 conclusions
+  level: 3
+  words: 60
+- sid: s248
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > Last hyphae draft before devons rework
+  level: 3
+  words: 0
+- sid: s249
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > I actually really like the beginning of the order of the findings and recommendations in the Ex Summary. Here are my suggestions
+    for the order + keep in-line changes made within each section below (and just move the sections to the ordered outlined here). > OLD SCRAPS before august 26th
+  level: 3
+  words: 196
+- sid: s250
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~
+  level: 2
+  words: 50
+- sid: s251
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~Proposed Targets:~~
+  level: 3
+  words: 1168
+- sid: s252
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~2. Residential Pavement Area ~~
+  level: 3
+  words: 271
+- sid: s253
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~3. Vacant Lots~~
+  level: 3
+  words: 83
+- sid: s254
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~4. Commercial and Industrial parcels~~
+  level: 3
+  words: 128
+- sid: s255
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~5. Government Parcels ~~
+  level: 3
+  words: 51
+- sid: s256
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~6. Right-of-Way ~~
+  level: 3
+  words: 166
+- sid: s257
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~7. Supervisorial District Pavement~~
+  level: 3
+  words: 98
+- sid: s258
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~8. Watershed Pavement~~
+  level: 3
+  words: 101
+- sid: s259
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~9. Schools Pavement~~
+  level: 3
+  words: 94
+- sid: s260
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~10. Vision Zero Road Segments~~
+  level: 3
+  words: 150
+- sid: s261
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Strategic Policy Recommendations ~~ > ~~10. Vision Zero Road Segments~~ > Patio Conversion (from 5.3.2.4 Activity Space
+    Strategies)
+  level: 5
+  words: 301
+- sid: s262
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Overview
+  level: 2
+  words: 96
+- sid: s263
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights
+  level: 2
+  words: 142
+- sid: s264
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~Key Findings:~~
+  level: 3
+  words: 0
+- sid: s265
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~1. Scale of Opportunity~~
+  level: 3
+  words: 66
+- sid: s266
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~2. Surprisingly large Residential Pavement Area ~~
+  level: 3
+  words: 154
+- sid: s267
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~3. Vacant Lots~~
+  level: 3
+  words: 82
+- sid: s268
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~4. Commercial and Industrial parcels~~
+  level: 3
+  words: 133
+- sid: s269
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~5. Government Parcels ~~
+  level: 3
+  words: 51
+- sid: s270
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~6. Right-of-Way ~~
+  level: 3
+  words: 165
+- sid: s271
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~7. Supervisorial District Pavement~~
+  level: 3
+  words: 86
+- sid: s272
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~8. Watershed Pavement~~
+  level: 3
+  words: 101
+- sid: s273
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~9. Schools Pavement~~
+  level: 3
+  words: 31
+- sid: s274
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Insights > ~~10. Vision Zero Road Segments~~
+  level: 3
+  words: 31
+- sid: s275
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Meeting Goals
+  level: 2
+  words: 96
+- sid: s276
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Meeting Goals > Meeting Goals
+  level: 3
+  words: 0
+- sid: s277
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Meeting Goals > Targets
+  level: 3
+  words: 793
+- sid: s278
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~I. Goals~~
+  level: 2
+  words: 64
+- sid: s279
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Baseline
+  level: 2
+  words: 41
+- sid: s280
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Benchmarks~~
+  level: 2
+  words: 54
+- sid: s281
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~III. Depaving Targets~~
+  level: 2
+  words: 0
+- sid: s282
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Target-Setting Methodology~~
+  level: 2
+  words: 130
+- sid: s283
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Depaving Targets~~
+  level: 2
+  words: 183
+- sid: s284
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Depaving Targets~~ > ~~County‑Wide Pavement Removal Targets~~
+  level: 3
+  words: 75
+- sid: s285
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Depaving Targets~~ > ~~Schools Program~~
+  level: 3
+  words: 68
+- sid: s286
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Depaving Targets~~ > ~~Aggregate Result~~
+  level: 3
+  words: 70
+- sid: s287
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~V. Monitoring, Evaluation, and Adaptation~~
+  level: 2
+  words: 106
+- sid: s288
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > VII. Funding Plan
+  level: 2
+  words: 36
+- sid: s289
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > VIII. Implementation & Capacity Building
+  level: 2
+  words: 67
+- sid: s290
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > IX. Consortium & Policy Alignment
+  level: 2
+  words: 39
+- sid: s291
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > X. Next Steps
+  level: 2
+  words: 55
+- sid: s292
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ARLA OUTLINE (copy-pasted below and linked here)
+  level: 2
+  words: 1864
+- sid: s293
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations
+  level: 2
+  words: 15
+- sid: s294
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~1. Scale of Opportunity~~
+  level: 3
+  words: 54
+- sid: s295
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~2. Surprisingly large Residential Pavement volume ~~
+  level: 3
+  words: 134
+- sid: s296
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~3. Vacant Lots~~
+  level: 3
+  words: 0
+- sid: s297
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 4. Commercial Sites
+  level: 3
+  words: 78
+- sid: s298
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 5. Right-of-Way Tree Wells
+  level: 3
+  words: 81
+- sid: s299
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6. Government Land
+  level: 3
+  words: 20
+- sid: s300
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~7. Block-Scale Interventions Spanning Multiple Land Uses~~
+  level: 3
+  words: 34
+- sid: s301
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.1 Introduction
+  level: 3
+  words: 242
+- sid: s302
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.2 Integration into Countywide Plans and Standards
+  level: 3
+  words: 0
+- sid: s303
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Sustainability Documents
+  level: 3
+  words: 258
+- sid: s304
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > B. Design Standards and RFP Language
+  level: 3
+  words: 502
+- sid: s305
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~6.I.3 Program Funding and Policy Levers~~
+  level: 3
+  words: 0
+- sid: s306
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~A. Safe Clean Water Program (Measure W)~~
+  level: 3
+  words: 426
+- sid: s307
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~B. Vision Zero Corridors~~
+  level: 3
+  words: 128
+- sid: s308
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~C. Measure A / Measure W Coordination~~
+  level: 3
+  words: 68
+- sid: s309
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~D. MWD Partnership Model~~
+  level: 3
+  words: 48
+- sid: s310
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~6.1.4 School Infrastructure and Los Angeles Unified School District (LAUSD) ~~
+  level: 3
+  words: 0
+- sid: s311
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~A. Institutional Inertia and Accountability~~
+  level: 3
+  words: 247
+- sid: s312
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > B. Soil Contamination Risk and Liability
+  level: 3
+  words: 161
+- sid: s313
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~C. Bond Funding and Physical Education (PE) Standards~~
+  level: 3
+  words: 216
+- sid: s314
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > D. Maintenance and ADA Compliance
+  level: 3
+  words: 162
+- sid: s315
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~E. Prioritization Tools and Small District Support~~
+  level: 3
+  words: 110
+- sid: s316
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > F. Tree Infrastructure Standards
+  level: 3
+  words: 107
+- sid: s317
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~G. Site Classification and Community Engagement~~
+  level: 3
+  words: 37
+- sid: s318
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~H. Integration with Watershed Planning~~
+  level: 3
+  words: 39
+- sid: s319
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.5 Private Property Incentives and Constraints
+  level: 3
+  words: 0
+- sid: s320
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Commercial and Industrial Parcels
+  level: 3
+  words: 365
+- sid: s321
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Commercial and Industrial Parcels > Recommendation 3 – Launch a Vacant Parcel
+    Pilot Program
+  level: 4
+  words: 121
+- sid: s322
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > B. Residential Program
+  level: 3
+  words: 209
+- sid: s323
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.6 Maintenance, Enforcement, and Legal Barriers
+  level: 3
+  words: 0
+- sid: s324
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Operations & Maintenance
+  level: 3
+  words: 105
+- sid: s325
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > B. ADA Compliance and Emergency Access
+  level: 3
+  words: 62
+- sid: s326
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > C. Soil Contamination Risk
+  level: 3
+  words: 162
+- sid: s327
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.7 Interdepartmental Coordination and Governance
+  level: 3
+  words: 0
+- sid: s328
+  path: 'Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Agency Roles: Alignment & Accountability'
+  level: 3
+  words: 279
+- sid: s329
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.8 Pilot Program and Toolkit Deployment
+  level: 3
+  words: 0
+- sid: s330
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > A. Program Design
+  level: 3
+  words: 257
+- sid: s331
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~B. Design Toolkit~~
+  level: 3
+  words: 118
+- sid: s332
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > ~~6.1.9 Implementation Roadmap~~
+  level: 3
+  words: 428
+- sid: s333
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.10 Pilot Projects to Advance depaving strategies
+  level: 3
+  words: 48
+- sid: s334
+  path: 'Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.10 Pilot Projects to Advance depaving strategies > ~~Tier 1: Tactical (Most
+    Readily Implementable)~~'
+  level: 4
+  words: 172
+- sid: s335
+  path: 'Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.10 Pilot Projects to Advance depaving strategies > ~~Tier 2: Intermediate
+    (Moderate Ambition)~~'
+  level: 4
+  words: 231
+- sid: s336
+  path: 'Old Chapter 6 content to be removed pending real chapter 6 completion > 6.1 \[2nd Draft\] Policy Recommendations > 6.1.10 Pilot Projects to Advance depaving strategies > ~~Tier 3: Transformative
+    (Most Ambitious)~~'
+  level: 4
+  words: 85
+- sid: s337
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > Original \[1st Draft\] Policy Section in outline form
+  level: 2
+  words: 3
+- sid: s338
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~
+  level: 2
+  words: 19
+- sid: s339
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~Pilot Depaving Program~~
+  level: 3
+  words: 0
+- sid: s340
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~A pilot program was recommended early in this report process and adopted by the County Supervisors as part
+    of the Community Forest Plan approval. Further development is needed to detail out the pilot program but some high level approaches are included below.~~
+  level: 3
+  words: 150
+- sid: s341
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~Depaving Technical Support ~~
+  level: 3
+  words: 343
+- sid: s342
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~Departmental Recommendations~~
+  level: 3
+  words: 1380
+- sid: s343
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~A. Public Works~~
+  level: 3
+  words: 86
+- sid: s344
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~B. SCWP / Stormwater Division~~
+  level: 3
+  words: 68
+- sid: s345
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~C. Tree Division / CFMP~~
+  level: 3
+  words: 32
+- sid: s346
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~D. County Properties~~
+  level: 3
+  words: 30
+- sid: s347
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~E. Public Health~~
+  level: 3
+  words: 54
+- sid: s348
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~F. Chief Sustainability Office / Regional Planning~~
+  level: 3
+  words: 28
+- sid: s349
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~G. LAUSD and School Districts~~
+  level: 3
+  words: 51
+- sid: s350
+  path: Old Chapter 6 content to be removed pending real chapter 6 completion > ~~Overview~~ > ~~H. NGOs and Watershed Coordinators~~
+  level: 3
+  words: 61
+- sid: s351
+  path: SCWP-specific Material
+  level: 1
+  words: 0
+- sid: s352
+  path: Material for Outreach to Specific Agencies
+  level: 1
+  words: 0
+- sid: s353
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives
+  level: 2
+  words: 0
+- sid: s354
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1 SCWP Tax Credit Analysis
+  level: 3
+  words: 0
+- sid: s355
+  path: 'Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1.1 SCWP Tax Incentives and Credits: Background and Key Points'
+  level: 3
+  words: 142
+- sid: s356
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1.2 The Commercial Scenario
+  level: 3
+  words: 170
+- sid: s357
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1.3 The Residential Scenario
+  level: 3
+  words: 142
+- sid: s358
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1.4 Industrial and Government Scenarios
+  level: 3
+  words: 156
+- sid: s359
+  path: Material for Outreach to Specific Agencies > 5.4 SCWP Incentives > 5.4.1.4 Industrial and Government Scenarios > 5.4.1.5 Monitoring
+  level: 4
+  words: 194
+- sid: s360
+  path: Cut Appendix Material
+  level: 1
+  words: 567
+- sid: s361
+  path: 'Cut Appendix Material > Appendix B: Preliminary Target Calculation'
+  level: 2
+  words: 0
+- sid: s362
+  path: 'Cut Appendix Material > Appendix B: Preliminary Target Calculation > Preliminary Target calculation summary'
+  level: 4
+  words: 273
+- sid: s363
+  path: Cut Appendix Material > Assorted figures
+  level: 2
+  words: 0
+- sid: s364
+  path: Cut Appendix Material > Assorted figures > Unpave La Uses
+  level: 3
+  words: 208
+- sid: s365
+  path: Cut Appendix Material > District 2 key locations
+  level: 2
+  words: 0
+- sid: s366
+  path: Cut Appendix Material > District 2 key locations > Opportunity Sites District \#2
+  level: 3
+  words: 0
+- sid: s367
+  path: Cut Appendix Material > District 2 key locations > \[image\]
+  level: 3
+  words: 0
+- sid: s368
+  path: 'Cut Appendix Material > District 2 key locations > \[image\] > Figure 8.1: District 2 Sites'
+  level: 5
+  words: 75
+- sid: s369
+  path: Cut Appendix Material > Representative Sites
+  level: 2
+  words: 23
+- sid: s370
+  path: Cut Appendix Material > ROW
+  level: 2
+  words: 0
+- sid: s371
+  path: Cut Appendix Material > ROW > Compton Ave
+  level: 3
+  words: 24
+- sid: s372
+  path: 'Cut Appendix Material > ROW > Compton Ave > Figure 8.2: Compton Ave'
+  level: 5
+  words: 0
+- sid: s373
+  path: Cut Appendix Material > ROW > Central Ave
+  level: 3
+  words: 79
+- sid: s374
+  path: 'Cut Appendix Material > ROW > Central Ave > Figure 8.3, 8.4, 8.5: Central Ave depaving strategies'
+  level: 5
+  words: 0
+- sid: s375
+  path: Cut Appendix Material > ROW > Median Planters
+  level: 3
+  words: 1
+- sid: s376
+  path: 'Cut Appendix Material > ROW > Median Planters > Figure 8.6: Median Planters'
+  level: 5
+  words: 56
+- sid: s377
+  path: Cut Appendix Material > Transit Parking Lot
+  level: 2
+  words: 1
+- sid: s378
+  path: 'Cut Appendix Material > Transit Parking Lot > Figure 8.7: Transit Parking'
+  level: 5
+  words: 28
+- sid: s379
+  path: Cut Appendix Material > School Parking Lot
+  level: 2
+  words: 4
+- sid: s380
+  path: 'Cut Appendix Material > School Parking Lot > Figure 8.8, 8.9: Walnut Park Elementary'
+  level: 5
+  words: 42
+- sid: s381
+  path: Cut Appendix Material > Industrial Parking Lot
+  level: 2
+  words: 1
+- sid: s382
+  path: 'Cut Appendix Material > Industrial Parking Lot > Figure 8.10: Industrial Parking Lot'
+  level: 5
+  words: 74
+- sid: s383
+  path: Cut Appendix Material > Industrial Parking Lot > Cut Sheets
+  level: 3
+  words: 22
+- sid: s384
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cut Sheets > Figures 8.11, 8.12: Sample Cut Sheets'
+  level: 5
+  words: 0
+- sid: s385
+  path: Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details
+  level: 3
+  words: 11
+- sid: s386
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate'
+  level: 5
+  words: 11
+- sid: s387
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Table X: L.A. County Pricing Data'
+  level: 5
+  words: 268
+- sid: s388
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Figure X: Preliminary Cost Estimates per Square Foot'
+  level: 5
+  words: 36
+- sid: s389
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Figure 8.13: Tree People Tree Planting Costs'
+  level: 5
+  words: 1
+- sid: s390
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Figure X: Tree People Tree Planting Costs'
+  level: 5
+  words: 16
+- sid: s391
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Figure 8.14: Bioswale Cross Section'
+  level: 5
+  words: 13
+- sid: s392
+  path: 'Cut Appendix Material > Industrial Parking Lot > Cost Analysis Details > Table X: Contractor Submitted Cost Estimate > Figure 8.15: Stormwater Infiltration Tree Well'
+  level: 5
+  words: 0
+- sid: s393
+  path: zzivanscraps
+  level: 1
+  words: 0
+- sid: s394
+  path: Meetings
+  level: 1
+  words: 0
+- sid: s395
+  path: Meetings > Dec 16, 2025 | ARLA x Hyphae Depave Check Ins
+  level: 2
+  words: 415
+- sid: s396
+  path: Meetings > Dec 9, 2025 | ARLA x Hyphae Depave Check Ins
+  level: 2
+  words: 771
+- sid: s397
+  path: Meetings > Nov 25, 2025 | ARLA x Hyphae - Depave Follow Up and Kristina Kreter
+  level: 2
+  words: 817
+- sid: s398
+  path: Meetings > Nov 19, 2025
+  level: 2
+  words: 0
+- sid: s399
+  path: 'Meetings > ARLA x Hyphae re: Data Viewer Scope & Consortium Concept'
+  level: 2
+  words: 475
+- sid: s400
+  path: Meetings > Nov 18, 2025|
+  level: 2
+  words: 360
+section_count: 402
+profiled: '2026-09-25'
+profiler: p2

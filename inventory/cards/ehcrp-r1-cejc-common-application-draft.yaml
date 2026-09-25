@@ -1,0 +1,115 @@
+asset_id: ehcrp-r1-cejc-common-application-draft
+card:
+  summary: EHCRP Round 1 full application draft by California Environmental Justice Coalition (CEJC), with Hyphae as technical
+    partner. Lead applicant CEJC; project is Community-led Microclimate Observation Network (COMMON), targeting farmworker
+    and agricultural communities in Central and Imperial valleys. Application was submitted, interviewed, but not awarded;
+    LCI encouraged reapplication in Round 2. Document is the form template plus narrative draft (8,901 words of substantive
+    content) covering project vision, community needs, partnership structure, and multi-benefit claims. Large grant application
+    (appears targeting $500k–$4M implementation or $300k–$750k planning). Submitted April 2024; form deadline was May 7, 2024.
+  doc_role: submitted-proposal
+  authorship: California Environmental Justice Coalition (CEJC); technical partner Hyphae Design Lab
+  disposition: hold
+  disposition_reason: Direct precedent for Hyphae's approach to EHCRP framing; submitted, interviewed, and received funder
+    encouragement to reapply. Strongest evidence of what resonated and what did not with this funder. Narrative sections demonstrate
+    community-led framing, hyperlocal heat monitoring, farmworker focus, and multi-benefit claims applicable to Round 2 (Ambrose
+    projects). Contains reusable language on coalition structure, vulnerable-community representation, and heat equity rationale.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Submitted EHCRP R1 proposal with interview stage reached; outcome data (not awarded but encouraged to reapply) and
+      narrative framing serve as precedent for Hyphae's track record and heat-resilience positioning.
+  - need_id: lib-methods
+    how: Describes Community-led Microclimate Observation Network (CAMO) sensor grid approach, farmworker oasis design, mobile-home
+      retrofit strategies, and appeal to hyperlocal data collection with community partnership model.
+  - need_id: ehcrp-r1-interview-and-feedback
+    how: Document is the submitted R1 full application; interview occurred but debrief/feedback materials not present in excerpts.
+      Reapplication guidance from LCI mentioned in metadata but not in document text.
+  sections:
+  - sid: s14
+    path: Application Narrative > Project Vision and Description
+    type: project-case
+    reuse_value: high
+    note: Vision statement framing COMMON as community-led research observatory for farmworker and agricultural heat resilience
+      in Central and Imperial valleys; positions EJ coalition as lead, emphasizes hyperlocal monitoring and underserved regions.
+  - sid: s15
+    path: Communities Served
+    type: need-statement
+    reuse_value: high
+    note: Community needs identification for extreme heat in farmworker-populated areas; emphasizes need for hyperlocal data
+      to pinpoint high-risk areas and correlate vulnerability with health outcomes; process-oriented (who identified needs,
+      how).
+  - sid: s19
+    path: Partnership and Community Engagement
+    type: partner-role
+    reuse_value: medium
+    note: Describes how heat-vulnerable community members control decision-making; leverages established EJ groups; addresses
+      power and representation. Metadata note flags this section as weak ('weaksauce'); excerpt confirms brief and underdeveloped
+      rationale.
+  - sid: s20
+    path: Partnership and Community Engagement > Option 3B- Alternative (CBO and Coalition Large Grant Applicants only)
+    type: partner-role
+    reuse_value: medium
+    note: Explains intentional choice of community-based (not public entity) co-applicant structure; describes barriers to
+      public partnership (permitting, property access); notes partners have secured property owner consent and local govt
+      agreements.
+  - sid: s21
+    path: Projects with Multiple Benefits
+    type: capability
+    reuse_value: medium
+    note: 'Multi-benefit framing: hyperlocal heat-stress prediction and user-friendly app; addresses climate adaptation, social
+      equity, and environmental co-benefits for vulnerable communities. Aligns with solicitation''s emphasis on interconnected
+      climate impacts.'
+  - sid: s31
+    path: California Environmental Justice Coalition (CEJC) Extreme Heat Grant Proposal
+    type: project-case
+    reuse_value: high
+    note: 8,901-word narrative draft of CEJC's heat resilience proposal; detailed overview of CEJC (90+ grassroots EJ communities),
+      COMMON project structure (sensor network, farmworker oasis, mobile-home retrofit), and justification of community-led
+      approach to extreme heat in agricultural valleys.
+  - sid: s36
+    path: Projects/Technologies/Strategies
+    type: method
+    reuse_value: medium
+    note: 'Lists three implementation strategies: Farmworker Oasis (grove shade, water, composting toilets), Mobile Home Shields
+      (retrofits, trellises, solar canopies, tree planting), California Microclimate Observatory (sensor grid, ecoregions,
+      local climate zones, community + professional collaboration model).'
+  fact_candidates:
+  - 's4: EHCRP R1 offers Small Planning Grants ($100k–$250k), Large Planning Grants ($300k–$750k), Small Implementation Grants
+    ($100k–$450k), and Large Implementation Grants ($500k–$4M).'
+  - 's4: Total funding available: $3M for Small Planning, $5M for Large Planning, $3M for Small Implementation, $9M for Large
+    Implementation.'
+  - 's6: Application deadline: May 7, 2024, 11:59 PM PST.'
+  - 's14: CEJC vision: form community-led research observatory and task force to monitor and mitigate extreme heat in Central
+    and Imperial valleys.'
+  - 's31: CEJC represents over 90 grassroots environmental justice communities across California.'
+  - 's31: In 2021, National Weather Service classified extreme heat events (context for project urgency).'
+  - 's36: Farmworker Oasis strategy includes grove of trees, drinking water, composting toilets, sinks, greywater irrigation.'
+  - 's36: California Microclimate Observatory (CAMO) proposes grid of sensors in statistically diverse microclimates, ecoregions,
+    local climate zones.'
+  - 's32: EHCRP listening session attended 12/6/2023; State''s program manager is Braden Kay (Office of Planning and Research).'
+  - 's20: Partners have signed agreements with local governments for tree planting and secured property owner consent.'
+  - 's3: Pre-Application Interest Form required before full application submission.'
+  - 's29: Budget justification limit: 300 words; budget must balance programmatic, staff, and direct expense costs.'
+  flags:
+  - Excerpt thin on interview feedback / debrief materials; metadata notes LCI encouraged reapplication but specific feedback
+    not visible in this document.
+  - Section s19 flagged by author as weak ('weaksauce') — indicates known weakness in community-participation narrative for
+    R1.
+  - Document is application form + narrative draft; includes embedded form instructions (s8–s12, s24–s30) that are boilerplate
+    solicitation text, not reusable Hyphae content.
+  - CEJC is lead applicant, not Hyphae; Hyphae role as technical partner not detailed in excerpts shown.
+  - No outcome data from interview stage or post-rejection feedback visible; reapplication context known only from metadata,
+    not document text.
+  - Links in s35, s38–s43, s44, s45 point to external resources (maps, partner orgs, farmworker data); some are exploratory
+    notes rather than vetted references.
+  - Possible contact data redacted (email [email] in s5); no other PII visible.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 647fff22d5ae3b5d445cdc2fd1271e360fa7a0be1bc47f67679964029720ad38
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 10979
+    output: 1737
+    cache_read: 0
+    cache_write: 0

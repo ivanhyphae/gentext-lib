@@ -1,0 +1,52 @@
+asset_id: groundwork-cnra-budget-press-release
+card:
+  summary: 2022 press release and budget for Groundwork Richmond's CNRA-funded Urban Greening Project; announces 700+ new
+    trees across two projects (Wellness Trail and Urban Greening), with $900k CNRA grant. Budget detail shows task breakdown
+    (planning, site prep, planting, monitoring) and cost allocation across Groundwork Richmond and Hyphae (listed as direct
+    project administration at $65k).
+  doc_role: report
+  authorship: Groundwork Richmond; Kathy Chouteau (press author); Hyphae (budget consulting)
+  disposition: hold
+  disposition_reason: Citable project case with named deliverables (700+ trees), funder (CNRA), award amount ($900k), and
+    team composition. Hyphae involvement as project administrator makes it directly relevant to firm experience library.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Completed CNRA urban greening grant project with named deliverables, budget, and outcome (700+ trees planted in Richmond).
+  sections:
+  - sid: s1
+    path: part 1
+    type: project-case
+    reuse_value: high
+    note: Press release naming project, funder, award amount, deliverable (700+ trees), partner (Groundwork Richmond), and
+      timeline (2021).
+  - sid: s2
+    path: part 2
+    type: evidence-data
+    reuse_value: medium
+    note: Budget detail showing cost allocation, tasks (planning, site prep, planting, monitoring), and Hyphae role as direct
+      project administrator ($65k).
+  fact_candidates:
+  - 's1: 700+ new trees planted via two projects (Wellness Trail and Urban Greening)'
+  - 's1: $900,000 grant from California Natural Resources Agency (CNRA) for Urban Greening Project'
+  - 's1: Wellness Trail Project kicked off late April 2021'
+  - 's1: Project involves Groundwork Richmond and local entities'
+  - 's2: Hyphae direct project administration: $65,000'
+  - 's2: Groundwork community engagement: $34,000 (three line items)'
+  - 's2: Task 1 (planning/engagement): $277,000 subtotal, not to exceed 25% of grant'
+  - 's2: Task 2 (site prep): $26,250 subtotal'
+  - 's2: Trees 15 gallons: $150 each; Richmond Parkway South Atchison Village: 123 trees'
+  flags:
+  - excerpt thin for part 2 (budget table only; full task descriptions and monitoring protocols not visible)
+  - press release date (May 5, 2021) predates file modification (June 2022); confirm project status
+  - Hyphae role documented as consulting/admin, not lead applicant
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 8b31838cec5dc2f5e50f42f7951ee56a1beada920192f6d9b18e730cd5165407
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3198
+    output: 631
+    cache_read: 0
+    cache_write: 0

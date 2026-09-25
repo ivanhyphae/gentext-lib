@@ -1,0 +1,46 @@
+asset_id: calepa-ej-action-grant-2025
+card:
+  summary: Large multi-project working document (23,707 words, 114 sections) mixing completed EPA/NSF grant narratives for
+    Arlington Park (Dallas) and Green Spine (SWMD) projects with exploratory Binational/farmworker heat work and EHCRP Bay
+    Point pre-application notes. Contains substantial evidence-based design methodology, monitoring/modeling case studies,
+    and community engagement frameworks. Document is 93–92% duplicated across three other held assets; this version is the
+    CalEPA EJ Action Grant draft but subsumes older completed projects.
+  doc_role: working-doc
+  authorship: Hyphae Design Laboratory (Brent Bucknum, Ivan Heitmann, Max Pingeon, others listed in budget justifications)
+  disposition: ignore
+  disposition_reason: High-value content (EBD methodology, monitoring protocols, community engagement language, site/partnership
+    data) is already substantially held in near-duplicates (arlington-park-ttf-epa-ccg-2024, nsf-scc-tamu-2025, resilient-philadelphia-grant-2025
+    at 93%, 92%, 92% overlap). This version is a working aggregate of past projects plus thin EHCRP Bay Point exploratory
+    notes; no new EHCRP-specific deliverables or Bay Point site facts beyond section s5 links. Extraction effort better spent
+    on the deduplicated held assets.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 's14: Hyphae has worked in Dallas, Louisville Kentucky, Boyle Heights Los Angeles, Richmond CA, Stockton CA, Oakland CA'
+  - 's18: Arlington Park neighborhood population 1,358; 35.5% Hispanic/Latino, 31.2% Non-Hispanic White, 32.4% Non-Hispanic
+    Black'
+  - 's61: Hyphae funded by NSF SBIR Grant #2218499'
+  - 's75: Harry Hines corridor intervention in South West Medical District (SWMD) Dallas between Market Center and Mockingbird'
+  - 's90: Peak mean radiant temperature (MRT) reductions of 24 degrees seen in shade of large mature trees vs. sun-exposed
+    areas'
+  - 's90: Average summer afternoon globe temperatures 8 degrees lower in shade of large trees than sun'
+  - 's99: 23 temperature sensors in sun-exposed areas, 15 in shade of large mature trees, 7 in shade of small/immature trees'
+  flags:
+  - 'excerpt too thin to judge: s5 is link list only; no substantive EHCRP Bay Point content visible beyond references'
+  - near-duplicate of arlington-park-ttf-epa-ccg-2024 (93%), nsf-scc-tamu-2025 (92%), resilient-philadelphia-grant-2025 (92%)
+    — consolidate before extraction
+  - 'possible context leakage: Green Spine and Arlington Park content may reuse Dallas site-specific language in Bay Point
+    applications; verify before copying'
+  - EHCRP sections (s5, s8, s107, s109–114) are fragmentary notes/coordination only — no complete application draft visible
+  - 'internal/working status: ''PROPOSAL (ONLY)'' headers (s2, s3) mark incomplete sections; document not submission-ready'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 597bf8838f690efeed2c618de0fe62d4bb5508d8d6d282e9a5f9521eb559c100
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 14587
+    output: 736
+    cache_read: 0
+    cache_write: 0

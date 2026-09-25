@@ -1,0 +1,47 @@
+asset_id: ebd-approaches-deck
+source_path: sources/ebd-approaches-deck/ebd-approaches-deck.md
+source_sha256: 5df31fdf7bcff0d6b8482ff455cdacc3f4a6d83b5f900424d51254801909b73c
+text_sha256: aa254e14dea930df1ed6b2df40308b0826ac4d76ed3803ed0358fbea19a18e36
+words: 3419
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Evidence-based design approachesModeling, measurement, and design at Hyphae Design Lab# AgendaIntroductions (5-10 min)
+  level: 1
+  words: 477
+- sid: s2
+  path: Imagine a Green, Inclusive, Safe, Accessible, and Healthy DistrictTexas Trees FoundationHarry Hines Blvd Today2017 Dallas’ Urban Heat IslandTree Canopy CoveragePaving Surface CoverageAverage Daily
+    High TemperatureSWMDSWMDSWMDMedical District DriveThe Green Heart
+  level: 1
+  words: 816
+- sid: s3
+  path: Modeling Radiant Temperature @ Microclimate Scale# OpenFOAM based wind and pollution simulationFocus on West OaklandAspectENVI-metOpenFOAMUMEPNumerical AccuracyModerate. Simple upwind schemesHigh.
+    Access to simple and advanced schemesLow-moderate. Simplified physics (empirical and balanced flow); no CFD numerical solver; lacks turbulence modelingMesh / GeometrySimplified block-based geometry
+    and mesh; flat surfaces; limited terrain fidelitySupports complex 3D geometries (buildings, terrain) with structured/unstructured meshesRaster-based inputs; geometry simplified into stacked blocks;
+    no mesh generationSimulation SpeedOptimized for moderate scenarios; typically fastDepends on model complexity; can require HPCVery fast (single CPU); no solvers or meshing involvedValidationValidated
+    for urban microclimate and thermal comfort; less frequently used in peer-reviewed pollutant dispersion validationExtensive. Widely validated in academic literature (wind tunnel, field, and regulatory
+    modeling); often used in regulatory, academic, and peer-reviewed studiesValidated as a screening tool; not used for high-accuracy flow modeling; Validated against wind tunnel and QUIC-URB for various
+    building/tree layoutsStrengthsQuick setup, urban design tools, vegetation & thermal comfort analysisHigh-fidelity physics, custom solvers, scalable to complex domainsLightweight, rapid results, supports
+    large-area screening; GIS integrationLimitationsNot ideal for high-wind conditions, large domains, or complex terrainRequires CFD expertise; time-consuming setupNo CFD capabilities, no turbulence modeling,
+    simplified physics; limited accuracy, flat terrain only, single-core onlyLicensing and AccessProprietary software (limited transparency, support dependency)Open-source (full code access; large user
+    community; free for academic and commercial use)Open-source; runs in QGISVisualizationBuilt-in visualization; good GUIRequires ParaView or custom scripting for post-processingGIS-native output (QGIS
+    maps)Learning CurveLow (intuitive GUI, pre-packaged workflows)High (requires understanding of CFD and OpenFOAM architecture)Low (easy to learn for urban planners and GIS users)# ENVI-met vs OpenFOAM
+    vs UMEPPrescott Impact ZoneCaltrans PlantingFrontage Road DietImmediately Plantable7th StreetEDF/Aclima Black Carbon Measurements
+  level: 1
+  words: 403
+- sid: s4
+  path: Groundwork USA# ENDBrent’s comments
+  level: 1
+  words: 236
+- sid: s5
+  path: More sample analysesSimulation tools in practice# Comparing 4 planting scenarios during early design explorationEvaluation of configurations for their impact on thermal comfort and air quality.ParklandExisting
+    conditions domainExisting conditions ‘EC’KHA 15% design ‘KH’Hedge and set-back larger canopy ‘H’Mature Grove on Grid ‘G’Hedge and set-back larger canopy ‘H’KHA 15% design ‘KH’Mature Grove on Grid ‘G’UTCI
+    (℉) difference from ‘EC’-15+130Removing large, mature trees from the median reduces thermal comfort a lot, but mainly in the roadway. Adding small trees improves it slightly.
+  level: 1
+  words: 1098
+section_count: 5
+profiled: '2026-09-25'
+profiler: p2

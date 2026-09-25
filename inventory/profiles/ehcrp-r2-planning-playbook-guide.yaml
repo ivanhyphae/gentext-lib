@@ -8,33 +8,42 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+- sid: s1
+  path: Integrated Climate Adaptation and Resilience Program (ICARP)
   level: 2
   words: 6
-- path: 'What You Need To Know:'
+- sid: s2
+  path: 'What You Need To Know:'
   level: 1
   words: 195
-- path: Identify
+- sid: s3
+  path: Identify
   level: 1
   words: 12
-- path: Test
+- sid: s4
+  path: Test
   level: 1
   words: 1
-- path: Test > Where Early
+- sid: s5
+  path: Test > Where Early
   level: 2
   words: 3
-- path: Finalize
+- sid: s6
+  path: Finalize
   level: 1
   words: 6
-- path: Finalize > Where Advanced
+- sid: s7
+  path: Finalize > Where Advanced
   level: 2
   words: 80
-- path: Finalized Planning
+- sid: s8
+  path: Finalized Planning
   level: 1
   words: 393
-- path: Intervention
+- sid: s9
+  path: Intervention
   level: 1
   words: 418
 section_count: 9
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

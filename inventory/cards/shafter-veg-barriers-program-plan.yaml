@@ -1,0 +1,82 @@
+asset_id: shafter-veg-barriers-program-plan
+card:
+  summary: Shafter vegetative-barrier and urban-greening CERP program plan under AB 617 Community Emission Reduction Program.
+    Covers project identification criteria, application process, physical design recommendations for roadside vegetation barriers
+    (height, leaf characteristics, species selection), combined noise + vegetation barriers, implementation timeline, cost
+    structure, and detailed guidance on three calculator tools (i-Tree, WUCOLS IV, CNRA Benefits). Includes references to
+    EPA research on near-road air quality mitigation and design specifications.
+  doc_role: guidance
+  authorship: San Joaquin Valley Air Pollution Control District; includes EPA technical guidance by Rich Baldauf (U.S. EPA
+    Office of Research and Development)
+  disposition: reference
+  disposition_reason: Authoritative program plan and methods documentation for vegetative-barrier emission reduction projects
+    under established state program (AB 617/CCI). Contains design standards, eligibility criteria, and tool guidance but is
+    not prose to directly reuse. Relevant as precedent and technical reference for Hyphae's potential vegetative-barrier work,
+    but not a completed project case or site-specific deliverable.
+  serves_needs:
+  - need_id: lib-methods
+    how: 'Design specifications for vegetative barriers: minimum 5m height, leaf characteristics (waxy/hairy surfaces preferred),
+      species selection (year-round foliage, non-invasive, pollution-resistant), gap-free configuration, combined noise barriers.
+      References CFD modeling and particle capture mechanisms.'
+  sections:
+  - sid: s5
+    path: part 5 – Roadside Vegetation Barriers to Improve Near-Road Air Quality (EPA guidance)
+    type: method
+    reuse_value: high
+    note: EPA technical design recommendations with physical characteristics, vegetation selection criteria, and barrier configuration
+      principles applicable to any near-road air quality project.
+  - sid: s11
+    path: part 11 – Summary Table and Barrier Recommendations
+    type: method
+    reuse_value: high
+    note: 'Canonical design specifications: height ≥5m, waxy/hairy leaf surfaces, non-invasive species, seasonal retention,
+      roadway safety compliance. Directly reusable design standard.'
+  - sid: s1
+    path: part 1 – Project Identification and AB 617 CERP Context
+    type: capability
+    reuse_value: medium
+    note: Establishes vegetative barriers as recognized emission-reduction strategy under California Climate Investments;
+      useful context for funding eligibility and framing in proposals.
+  - sid: s13
+    path: part 13 – Project Implementation Timeline and Key Roles
+    type: method
+    reuse_value: medium
+    note: 'Template structure for implementation planning: timeline, responsible individuals, cost categories (supplies, labor,
+      contracted services, contingency). Applicable to similar infrastructure projects.'
+  fact_candidates:
+  - 's1: Vegetative Barrier and Urban Greening projects are part of California Climate Investments, a statewide initiative
+    funded by Cap-and-Trade dollars'
+  - 's2: Applicants must maintain green space during entire contract period of ten (10) years, including tree maintenance
+    and replacement of dead trees'
+  - 's2: Projects must be implemented within selected AB 617 communities and applicant must own the land or have authority
+    from owner'
+  - 's3: District aims to respond to prospective applicants with 90 days following end of RFP period to alert if projects
+    have been selected for funding'
+  - 's11: Minimum vegetative barrier height is 5 meters or higher for effective pollutant reductions'
+  - 's8: Trees that lose leaves during cold season should not be considered for air-quality barrier mitigation; coniferous
+    plants preferred'
+  - 's8: Vegetation with waxy and/or hairy leaf surfaces preferentially removes particulates compared to smooth leaf surfaces'
+  - 's7: Vegetative barriers require full coverage from ground to top of canopy; gaps can result in higher downwind pollutant
+    concentrations than without barrier'
+  - 's12: Non-invasive, non-poisonous species strongly encouraged, especially near sensitive populations such as elementary
+    schools, parks, recreation fields'
+  - 's10: Research developed with experts including David Nowak and Greg McPherson (U.S. Forest Service), Bay Area Air Quality
+    Management District staff'
+  flags:
+  - EPA technical guidance section (s5–s11) appears to be embedded reference material, not original SJVAPCD authorship
+  - excerpt too thin to judge full scope of emission reduction quantification methodology
+  - calculator tools (i-Tree, WUCOLS IV, CNRA) require external access; only user guidance provided
+  - no specific outcome data from Shafter project implementation; this is guidance document, not project case with results
+  - 'context leakage risk: generic design standards reused verbatim across multiple projects; verify applicability to Bay
+    Area climate and site conditions'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: cfc23da8ffb9764ce706b9a145d41b32f47bfc104396f1b8f7a4d36cf120f674
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 6363
+    output: 1051
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,176 @@
+asset_id: adaptos-marketing-copy
+card:
+  summary: 'Marketing and product copy for Hyphae''s AdaptOS platform. A 49-section compilation of website content, elevator
+    pitches, grant narratives, mission statements, business model descriptions, and strategic positioning materials. Includes
+    the five-stage Adapt Cycle (Problem-Solution, Analysis, Design, Implementation, Monitoring, Evaluation), sector-specific
+    pitches for CBOs/government/academic/private/funder audiences, competitive analysis, and commercial applications. Also
+    contains secondary material: a summary of Mark Nevitt''s climate law paper and drafts pitching AdaptOS to potential partners/funders.'
+  doc_role: working-doc
+  authorship: 'Hyphae Design Lab (primary author unclear; credited: Max Pingeon as Director of Development; notes attribute
+    sections to ''MP'', ''MM'', and community partners)'
+  disposition: reference
+  disposition_reason: Marketing copy and product positioning are not reusable proposal prose or citable outcomes. The Adapt
+    Cycle narrative describes Hyphae's methodology and platform capabilities and has appeared in prior grant applications
+    (CMEJ, Google Data, Endless Frontier), but this document is a collection of polished alternatives and talking points,
+    not a finalized asset. The secondary material (Nevitt summary, pitcher drafts) is strategic intelligence, not library
+    content. Store for internal reference and brand consistency checks, but do not extract sections as boilerplate.
+  serves_needs: []
+  sections:
+  - sid: s2
+    path: General Hyphae material
+    type: org-profile
+    reuse_value: medium
+    note: 15+ years EJ experience; national leader in evidence-based design; small, mission-driven firm; bridges researchers,
+      planners, city staff, CBOs. High-level positioning; avoid contact/internal details if extracted.
+  - sid: s4
+    path: Community Engagement Material > Partnership Approach Statement - CBOs
+    type: capability
+    reuse_value: medium
+    note: 'Core values: mission-driven, under-resourced communities, collaboration, interconnected teamwork, integrated problem-solving.
+      Generic enough to reuse; tighten for proposal.'
+  - sid: s9
+    path: Website content > AdaptOS general page > Adapt Cycle > Problem-Solution
+    type: method
+    reuse_value: high
+    note: Defines problem (census-tract data inadequacy, traditional planning gaps) and adaptOS solution (hyper-local, topography-aware
+      data, end-to-end lifecycle). Clear, reusable narrative for proposals.
+  - sid: s10
+    path: Website content > AdaptOS general page > Adapt Cycle > Analysis
+    type: method
+    reuse_value: high
+    note: 'Detailed Analyze phase: 3D mapping (aerial, LiDAR, Street View), community data collection, integration of local
+      knowledge. Methodologically sound for proposal context.'
+  - sid: s11
+    path: Website content > AdaptOS general page > Adapt Cycle > Design
+    type: method
+    reuse_value: high
+    note: Co-creation with community; specific interventions named (vegetated buffers, bioswales, constructed wetlands, living
+      shorelines, vegetated trellises). Examples-based methodology.
+  - sid: s12
+    path: Website content > AdaptOS general page > Adapt Cycle > Implementation
+    type: capability
+    reuse_value: high
+    note: Concierge-level project management, personalized support, grant-funding help, cross-sector networking (academics,
+      public health, CBOs, contractors). Differentiator for Hyphae service model.
+  - sid: s13
+    path: Website content > AdaptOS general page > Adapt Cycle > Monitoring
+    type: method
+    reuse_value: high
+    note: Real-time sensor networks (air quality, temperature, pollutant speciation), citizen science, community-generated
+      data. Participatory approach to environmental tracking.
+  - sid: s14
+    path: Website content > AdaptOS general page > Adapt Cycle > Evaluation
+    type: method
+    reuse_value: high
+    note: Long-term impact tracking, environmental and social outcomes, community feedback, qualitative + quantitative assessment.
+      Adaptive management closure.
+  - sid: s18
+    path: Previous text > From MM, July 2024
+    type: capability
+    reuse_value: medium
+    note: Adaptive management definition and application to urban ecology; integration of human/natural systems. Foundational
+      concept for adaptOS framing.
+  - sid: s20
+    path: Previous grant/proposal content > From CMEJ-MPCA grant
+    type: evidence-data
+    reuse_value: medium
+    note: 'Factual summary: NSF and NIH funding for adaptOS; hyperlocal mapping for air/water/soil risk; co-design of environmental
+      interventions; U of Louisville clinical trial on greening + air quality.'
+  - sid: s21
+    path: Previous grant/proposal content > From CMEJ Google Data Grant
+    type: method
+    reuse_value: medium
+    note: Citizen science + community capacity-building; fixed/mobile air quality sensors; CFD modeling; specific interventions
+      (vegetated buffers, road diets, reforestation). Tested approach.
+  - sid: s22
+    path: Previous grant/proposal content > From Boyle Heights Community Change
+    type: evidence-data
+    reuse_value: medium
+    note: Summary of NSF/NIH-funded adaptOS; hyperlocal measurement/modeling for air/soil/water/heat/flood/noise/wildfire/vector-borne
+      disease; five-stage iterative cycle (measurement, simulation, implementation, assessment, refinement).
+  - sid: s23
+    path: Previous grant/proposal content > From Endless Frontier (submitted 8/24)
+    type: project-case
+    reuse_value: high
+    note: 100-word company description; platform overview; long-term vision; integration of high-resolution analytics, automated
+      design, project management. Strong boilerplate for grant contexts.
+  - sid: s24
+    path: Vision of Business Model
+    type: capability
+    reuse_value: medium
+    note: 'Business positioning: hyperlocal, community-driven, data-driven design. Differentiates from traditional GIS. Market
+      context and feature list.'
+  - sid: s25
+    path: Elevator Pitches
+    type: boilerplate
+    reuse_value: medium
+    note: Multiple pitch versions emphasizing health, resilience, sustainability, community empowerment. Useful for different
+      contexts (funder, agency, CBO).
+  - sid: s32
+    path: Mission Statement for Hyphae Design Laboratory
+    type: org-profile
+    reuse_value: medium
+    note: Multiple versions of mission; emphasis on EJ groups, measurement tools, community-led process, infrastructure transformation,
+      environmental health. Choose final version for consistency.
+  - sid: s33
+    path: Mission Statement for Hyphae Design Laboratory > Material I wrote for Bentway
+    type: org-profile
+    reuse_value: medium
+    note: 'Case example: Dallas heat-stressed medical district microclimate monitoring + NSF SBIR grant + Texas Trees Foundation
+      partnership. Pre-construction + post-occupancy cycle narrative.'
+  - sid: s36
+    path: AdaptOS as an Essential Platform in Climate Adaptation
+    type: capability
+    reuse_value: medium
+    note: 'Detailed technical overview of AdaptOS: machine learning, supercomputers, data integration, 3D point clouds, environmental
+      metrics, bio-engineering remediation, climate adaptation support.'
+  - sid: s41
+    path: Utilizing AdaptOS to Implement Climate Adaptation Strategies
+    type: method
+    reuse_value: medium
+    note: 'Application of adaptOS to Mark Nevitt''s climate adaptation framework (inform, retreat, suspend): risk identification,
+      community warning, managed relocation support. Strategic bridge to policy.'
+  - sid: s45
+    path: Potential Competitors to adaptOS (or possibly collaborators)
+    type: evidence-data
+    reuse_value: low
+    note: Competitive analysis vs. TreePlotter, ESRI, others. Useful for market positioning; limited reuse value for proposals.
+  fact_candidates:
+  - Hyphae has 15+ years of experience working with environmental justice communities (s2)
+  - Hyphae is a national leader in evidence-based design (s20)
+  - adaptOS platform received funding from NSF and NIH (s20)
+  - University of Louisville is leading a clinical trial on effects of urban greening on air quality in partnership with Hyphae
+    (s20)
+  - 'adaptOS platform cycles through five stages: measurement, simulation, implementation, assessment, refinement (s22)'
+  - Hyphae received NSF Small Business Innovation Research (SBIR) grant to develop adaptOS (s33)
+  - Texas Trees Foundation partnered with Hyphae on Dallas microclimate monitoring pilot (s33)
+  - adaptOS integrates data from LiDAR scans, Google Street View, aerial/satellite imagery (s9, s36)
+  - adaptOS conducts hyperlocal environmental mapping at neighborhood and block scale (s24)
+  - Design interventions include vegetated buffers, bioswales, constructed wetlands, living shorelines, vegetated trellises
+    (s11, s21)
+  - adaptOS provides real-time sensor data on air quality, temperature, and pollutant speciation (s13)
+  - Hyphae offers concierge-level project management and personalized support to clients (s12)
+  flags:
+  - Document is a working collection of marketing drafts and alternatives, not a finished proposal or methodology text; multiple
+    versions and editorial notes remain (e.g., tabs, strikethrough, section numbering queries).
+  - No specific Hyphae project outcomes, metrics, or case study results are stated; claims of NSF/NIH funding and partnerships
+    are mentioned but not detailed.
+  - Secondary material includes summaries of Mark Nevitt's climate law work and unsent pitch letters to potential partners—strategic
+    intelligence, not library assets.
+  - Excerpt too thin to assess depth or accuracy of technical claims (machine learning, CFD modeling, sensor specifications).
+  - 'Internal notes and questions visible (e.g., s15: ''Do we still want tiers and packages?''; s34: ''FIND OTHER SIMILAR
+    COMPANIES'').'
+  - No data on actual deployments, community feedback, or measurable outcomes from adaptOS in any section.
+  - Potential reputational risk if marketing claims about platform capabilities cannot be substantiated in proposals; recommend
+    cross-check against NSF/NIH award abstracts and actual project results.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: 0a2620974574c3661963e374c0696046a0ed89fbe9f4eab6a6a638174931deaa
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 11770
+    output: 2326
+    cache_read: 0
+    cache_write: 0

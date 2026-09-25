@@ -1,0 +1,493 @@
+asset_id: harry-hines-ebd-report
+source_path: sources/harry-hines-ebd-report/harry-hines-ebd-report.md
+source_sha256: 1ecf852abcf6d1ab8a2a75489d59f335da3efa9ef6937672f265da2d43b95b2f
+text_sha256: e9768ac101d51b4d874d36a56ffe0ce43d82450e8880c8c6a51db3f354033ae4
+words: 30433
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- sid: s1
+  path: Evidence Based Design for Dallas Southwestern Medical District
+  level: 1
+  words: 0
+- sid: s2
+  path: Evidence Based Design for Dallas Southwestern Medical District > Hyphae Design Lab
+  level: 2
+  words: 3
+- sid: s3
+  path: Partners in the Revival of Nature in Dallas
+  level: 1
+  words: 39
+- sid: s4
+  path: Table of Contents
+  level: 1
+  words: 191
+- sid: s5
+  path: Executive summary
+  level: 1
+  words: 0
+- sid: s6
+  path: Executive summary > Introduction
+  level: 2
+  words: 1322
+- sid: s7
+  path: Executive summary > Design Process, Collaboration and Iteration
+  level: 2
+  words: 298
+- sid: s8
+  path: Executive summary > Simulation
+  level: 2
+  words: 0
+- sid: s9
+  path: Executive summary > Simulation > Simulation Platforms
+  level: 3
+  words: 122
+- sid: s10
+  path: Executive summary > Simulation > Outputs and implementation
+  level: 3
+  words: 115
+- sid: s11
+  path: Executive summary > Simulation > Simulation results
+  level: 3
+  words: 0
+- sid: s12
+  path: Executive summary > Simulation > Simulation results > Thermal comfort simulations results
+  level: 4
+  words: 396
+- sid: s13
+  path: Executive summary > Simulation > Simulation results > Air pollution simulations results
+  level: 4
+  words: 354
+- sid: s14
+  path: Executive summary > Monitoring and pre-post study
+  level: 2
+  words: 276
+- sid: s15
+  path: Brief Literature review
+  level: 1
+  words: 0
+- sid: s16
+  path: Brief Literature review > Strategies for air pollution
+  level: 2
+  words: 0
+- sid: s17
+  path: Brief Literature review > Strategies for air pollution > Urban Vegetation for Air Quality Improvement
+  level: 3
+  words: 112
+- sid: s18
+  path: Brief Literature review > Strategies for air pollution > Vegetated Air Barriers for Roadside Pollution Mitigation
+  level: 3
+  words: 370
+- sid: s19
+  path: Brief Literature review > Strategies for air pollution > Urban Trees for Ambient Pollution Mitigation
+  level: 3
+  words: 130
+- sid: s20
+  path: Brief Literature review > Strategies for Heat Mitigation
+  level: 2
+  words: 135
+- sid: s21
+  path: Brief Literature review > Strategies for Biodiversity
+  level: 2
+  words: 671
+- sid: s22
+  path: Brief Literature review > Simulation Validation
+  level: 2
+  words: 957
+- sid: s23
+  path: Results
+  level: 1
+  words: 0
+- sid: s24
+  path: Results > Preliminary remote sensing analysis
+  level: 2
+  words: 0
+- sid: s25
+  path: Results > Preliminary remote sensing analysis > Satellite and aerial
+  level: 3
+  words: 629
+- sid: s26
+  path: Results > Preliminary remote sensing analysis > Streetview
+  level: 3
+  words: 358
+- sid: s27
+  path: Results > Simulation of thermal comfort
+  level: 2
+  words: 0
+- sid: s28
+  path: Results > Simulation of thermal comfort > Metrics being simulated
+  level: 3
+  words: 290
+- sid: s29
+  path: Results > Simulation of thermal comfort > Initial simulations of existing conditions
+  level: 3
+  words: 248
+- sid: s30
+  path: Results > Simulation of thermal comfort > Small scale simulations of design iterations
+  level: 3
+  words: 294
+- sid: s31
+  path: Results > Simulation of thermal comfort > 30% design scenarios
+  level: 3
+  words: 146
+- sid: s32
+  path: Results > \[image\]
+  level: 2
+  words: 44
+- sid: s33
+  path: Results > \[image\]
+  level: 2
+  words: 14
+- sid: s34
+  path: Results > \[image\]
+  level: 2
+  words: 39
+- sid: s35
+  path: 'Results > \[image\] > Corridor Scale Simulations: Benchmark and Baseline'
+  level: 3
+  words: 741
+- sid: s36
+  path: Results > Park Simulation Thermal Comfort
+  level: 2
+  words: 89
+- sid: s37
+  path: Results > Simulation of pollution
+  level: 2
+  words: 0
+- sid: s38
+  path: Results > Simulation of pollution > Design element iterations
+  level: 3
+  words: 158
+- sid: s39
+  path: Results > Simulation of pollution > Selected buffer hypotheses
+  level: 3
+  words: 0
+- sid: s40
+  path: Results > Simulation of pollution > Selected buffer hypotheses > Dense canopy and wind undercurrent
+  level: 4
+  words: 63
+- sid: s41
+  path: Results > Simulation of pollution > Selected buffer hypotheses > Median plantings
+  level: 4
+  words: 326
+- sid: s42
+  path: Results > Simulation of pollution > Selected buffer hypotheses > Decomposed elements and simulations
+  level: 4
+  words: 69
+- sid: s43
+  path: Results > Simulation of pollution > Selected buffer hypotheses > Impermeable barriers
+  level: 4
+  words: 147
+- sid: s44
+  path: Results > Simulation of pollution > Simulation of 30% design pollution transport
+  level: 3
+  words: 99
+- sid: s45
+  path: Results > \[image\]\[image\]
+  level: 2
+  words: 502
+- sid: s46
+  path: Results > Monitoring
+  level: 2
+  words: 110
+- sid: s47
+  path: Results > Monitoring > Cross-sectional monitoring of thermal impact of built-environment features
+  level: 3
+  words: 1199
+- sid: s48
+  path: Results > Monitoring > Comparison of simulation with monitoring data
+  level: 3
+  words: 1151
+- sid: s49
+  path: Results > Diversity
+  level: 2
+  words: 260
+- sid: s50
+  path: Results > Collaboration process
+  level: 2
+  words: 0
+- sid: s51
+  path: Results > Collaboration process > Opportunities
+  level: 3
+  words: 222
+- sid: s52
+  path: Results > Collaboration process > Challenges
+  level: 3
+  words: 471
+- sid: s53
+  path: Results > Collaboration process > Synthesis
+  level: 3
+  words: 267
+- sid: s54
+  path: Discussion
+  level: 1
+  words: 863
+- sid: s55
+  path: Methods
+  level: 1
+  words: 0
+- sid: s56
+  path: Methods > Monitoring
+  level: 2
+  words: 0
+- sid: s57
+  path: Methods > Monitoring > Sensor Hardware
+  level: 3
+  words: 307
+- sid: s58
+  path: Methods > Monitoring > Sensor Placement
+  level: 3
+  words: 252
+- sid: s59
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology
+  level: 2
+  words: 151
+- sid: s60
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology > The cross-sectional hypotheses are
+  level: 3
+  words: 261
+- sid: s61
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology > The longitudinal hypotheses are
+  level: 3
+  words: 210
+- sid: s62
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology > Quantitative methods
+  level: 3
+  words: 1516
+- sid: s63
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology > Qualitative studies
+  level: 3
+  words: 88
+- sid: s64
+  path: Methods > Pre/Post & Cross-Sectional Study Methodology > IRB approval
+  level: 3
+  words: 122
+- sid: s65
+  path: Methods > Simulation
+  level: 2
+  words: 30
+- sid: s66
+  path: Methods > Simulation > ENVI-met
+  level: 3
+  words: 233
+- sid: s67
+  path: Methods > Simulation > Inputs
+  level: 3
+  words: 704
+- sid: s68
+  path: Methods > Simulation > Digital twin procedure
+  level: 3
+  words: 138
+- sid: s69
+  path: Methods > Simulation > Digital twin procedure > Different data sources
+  level: 4
+  words: 0
+- sid: s70
+  path: Methods > Simulation > Digital twin procedure > Different data sources > GIS data
+  level: 5
+  words: 59
+- sid: s71
+  path: Methods > Simulation > Digital twin procedure > Different data sources > Buildings
+  level: 5
+  words: 86
+- sid: s72
+  path: Methods > Simulation > Digital twin procedure > Different data sources > Landcover data
+  level: 5
+  words: 330
+- sid: s73
+  path: Methods > Simulation > Digital twin procedure > LiDAR processing
+  level: 4
+  words: 174
+- sid: s74
+  path: Methods > Simulation > Digital twin procedure > Tree canopy
+  level: 4
+  words: 0
+- sid: s75
+  path: Methods > Simulation > Digital twin procedure > Tree canopy > Surveyed trees
+  level: 5
+  words: 77
+- sid: s76
+  path: Methods > Simulation > Digital twin procedure > Tree canopy > Raster processing pipeline for tree canopy
+  level: 5
+  words: 289
+- sid: s77
+  path: Methods > Simulation > Digital twin procedure > Meshing algorithms (triangular mesh geometry)
+  level: 4
+  words: 138
+- sid: s78
+  path: Methods > Simulation > Gridding (CFD meshing)
+  level: 3
+  words: 0
+- sid: s79
+  path: Methods > Simulation > Gridding (CFD meshing) > Scales
+  level: 4
+  words: 119
+- sid: s80
+  path: Methods > Simulation > Gridding (CFD meshing) > Mesh dependency
+  level: 4
+  words: 108
+- sid: s81
+  path: Methods > Simulation > Meteorology inputs
+  level: 3
+  words: 0
+- sid: s82
+  path: Methods > Simulation > Meteorology inputs > Wind direction sampling
+  level: 4
+  words: 42
+- sid: s83
+  path: Methods > Simulation > Meteorology inputs > Wind direction sampling > From airport (eg., Love Field in Dallas)
+  level: 5
+  words: 78
+- sid: s84
+  path: Methods > Simulation > Meteorology inputs > Wind direction sampling > From sensors
+  level: 5
+  words: 63
+- sid: s85
+  path: Methods > Simulation > Meteorology inputs > Typical temperature and humidity ranges
+  level: 4
+  words: 167
+- sid: s86
+  path: Methods > Simulation > Meteorology inputs > Typical days to study
+  level: 4
+  words: 71
+- sid: s87
+  path: Methods > Simulation > Traffic data inputs
+  level: 3
+  words: 0
+- sid: s88
+  path: Methods > Simulation > Traffic data inputs > Vehicle counts
+  level: 4
+  words: 102
+- sid: s89
+  path: Methods > Simulation > Traffic data inputs > Emissions factors
+  level: 4
+  words: 308
+- sid: s90
+  path: Methods > Simulation > Traffic data inputs > Pollutant characteristics
+  level: 4
+  words: 203
+- sid: s91
+  path: Methods > Simulation > Traffic data inputs > General vegetation methodology
+  level: 4
+  words: 189
+- sid: s92
+  path: Methods > Simulation > Output Metrics
+  level: 3
+  words: 0
+- sid: s93
+  path: Methods > Simulation > Output Metrics > Thermal comfort - UTCI
+  level: 4
+  words: 56
+- sid: s94
+  path: Methods > Simulation > Output Metrics > Mean Radiant Temperature - MRT
+  level: 4
+  words: 115
+- sid: s95
+  path: Methods > Simulation > Output Metrics > Change in particulate concentration
+  level: 4
+  words: 115
+- sid: s96
+  path: Methods > Simulation > Output Metrics > Other metrics of use
+  level: 4
+  words: 134
+- sid: s97
+  path: Methods > Simulation > Limitations
+  level: 3
+  words: 0
+- sid: s98
+  path: Methods > Simulation > Limitations > Platform limitations
+  level: 4
+  words: 0
+- sid: s99
+  path: Methods > Simulation > Limitations > Platform limitations > Validation of pollution model
+  level: 5
+  words: 64
+- sid: s100
+  path: Methods > Simulation > Limitations > Platform limitations > Particle mass vs. particle number
+  level: 5
+  words: 26
+- sid: s101
+  path: Methods > Simulation > Limitations > Platform limitations > Vehicle Induced Turbulence (VIT)
+  level: 5
+  words: 123
+- sid: s102
+  path: Methods > Simulation > Limitations > Platform limitations > Wind direction selection and averaging
+  level: 5
+  words: 30
+- sid: s103
+  path: Methods > Simulation > Limitations > Boundary conditions
+  level: 4
+  words: 0
+- sid: s104
+  path: Methods > Simulation > Limitations > Boundary conditions > Out of domain wind obstacles
+  level: 5
+  words: 82
+- sid: s105
+  path: Methods > Simulation > Limitations > Boundary conditions > Spatial variation in incident wind field
+  level: 5
+  words: 0
+- sid: s106
+  path: Methods > Simulation > Limitations > Boundary conditions > Edge compression
+  level: 5
+  words: 66
+- sid: s107
+  path: Methods > Simulation > Limitations > Validation
+  level: 4
+  words: 131
+- sid: s108
+  path: Methods > Simulation > OpenFoam methods
+  level: 3
+  words: 3378
+- sid: s109
+  path: Methods > Design Process, Collaboration and Iteration
+  level: 2
+  words: 121
+- sid: s110
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration
+  level: 3
+  words: 0
+- sid: s111
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Baseline Model
+  level: 4
+  words: 91
+- sid: s112
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Benchmarking, goals and studies
+  level: 4
+  words: 119
+- sid: s113
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Design evaluation
+  level: 4
+  words: 183
+- sid: s114
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Design optimization
+  level: 4
+  words: 76
+- sid: s115
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Impact Estimation of Final 30% Design Development Plans
+  level: 4
+  words: 41
+- sid: s116
+  path: Methods > Design Process, Collaboration and Iteration > Stages of Collaboration > Design Development
+  level: 4
+  words: 104
+- sid: s117
+  path: Methods > Design Process, Collaboration and Iteration > Overview of Iteration
+  level: 3
+  words: 159
+- sid: s118
+  path: Methods > Design Process, Collaboration and Iteration > Decision Tree
+  level: 3
+  words: 119
+- sid: s119
+  path: Conclusions
+  level: 1
+  words: 451
+- sid: s120
+  path: References
+  level: 1
+  words: 3254
+section_count: 120
+profiled: '2026-09-25'
+profiler: p2

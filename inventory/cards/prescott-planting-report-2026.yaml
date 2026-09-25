@@ -1,0 +1,74 @@
+asset_id: prescott-planting-report-2026
+card:
+  summary: 'Final planting report for Prescott Greening project (West Oakland): documents tree planting along Frontage Road
+    in partnership with WOEIP. Details site preparation, species selection, partner roles, and connection to larger air-quality
+    and equity strategy. Includes aerial maps, planting zones, and proposed road-diet design.'
+  doc_role: report
+  authorship: Hyphae Design Lab in partnership with West Oakland Environmental Indicators Project (WOEIP)
+  disposition: hold
+  disposition_reason: Completed project case with documented outcomes (planting counts, species, site preparation, partnership
+    model, monitoring framework) and reusable methods for environmental equity greening work. Strong example of evidence-based
+    design process from modeling through implementation.
+  serves_needs:
+  - need_id: lib-firm-experience
+    how: Completed Prescott Greening case showing air-quality modeling, community-led design, partnership implementation,
+      and long-term stewardship approach for environmental equity.
+  - need_id: lib-methods
+    how: Documents site preparation methods (soil remediation, drainage, irrigation replacement), species selection criteria
+      (drought tolerance, biodiversity, pollinator value), and monitoring framework from model→design→build→monitor cycle.
+  sections:
+  - sid: s4
+    path: part 4 — Strategic approach and long-term vision
+    type: method
+    reuse_value: high
+    note: 'Describes Hyphae''s evidence-based design framework: air quality modeling, monitoring, intervention design, and
+      phased funding strategy for environmental equity projects.'
+  - sid: s2
+    path: part 2 — Plant selection and site review
+    type: method
+    reuse_value: high
+    note: Plant list criteria (drought-prone, low water/maintenance, biodiversity, ecosystem services) and multi-stakeholder
+      review process (City, arborists, ecology advisors).
+  - sid: s3
+    path: part 3 — Site preparation and partnership model
+    type: method
+    reuse_value: medium
+    note: Soil remediation, drainage repair, irrigation replacement; partnership with unhoused workers for post-grant stewardship.
+  - sid: s1
+    path: part 1 — Project context and partnership
+    type: project-case
+    reuse_value: medium
+    note: West Oakland Sustainable Transportation Equity Project; Frontage Road planting addressing long-resident desire;
+      WOEIP partnership.
+  fact_candidates:
+  - 's1: Hyphae partnered with West Oakland Environmental Indicators Project (WOEIP) on Prescott Greening planting.'
+  - 's2: Majority of trees along Frontage Road are Redwoods in good condition; trees between 7th-10th streets in poor condition
+    require replacement.'
+  - 's2: Plant list criteria: thrive in drought-prone area, require little water or maintenance after establishment, provide
+    biodiversity, provide ecosystem services for pollinators.'
+  - 's2: City of Oakland''s trees team and arborists reviewed and approved final planting plan.'
+  - 's3: Site preparation included soil remediation, fixing abandoned drainage system, and replacing defunct irrigation.'
+  - 's3: Grant terms did not permit funding for work after end of contract, requiring pre-grant-end stewardship planning.'
+  - 's4: Hyphae and WOEIP use air quality modeling, monitoring, and evidence-based design to improve health; then fund implementation
+    through multiple sources.'
+  - 's5: Prescott project implements visions from West Oakland Community Air Action Plan.'
+  - 's5: Frontage Road planting is first phase of larger goal; multiple adjacent planting projects identified.'
+  - 's6: Proposed road diet reduces lane numbers and sizes to slow traffic; large vegetated buffers placed between traffic
+    and bicycle/pedestrian corridors.'
+  flags:
+  - Excerpt summaries only; full planting counts and species list not visible in section openings.
+  - Document shows completed implementation but monitoring/results data (post-planting health, pollutant reduction measured)
+    not evident in excerpts.
+  - Strong match for Hyphae project case and methods library; consider extracting design process narrative and partnership
+    model details.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: c8f9ac1017ceafbcc3043e89ea01b1deb2e38cdf0637f2480768d84812305cce
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 3673
+    output: 908
+    cache_read: 0
+    cache_write: 0

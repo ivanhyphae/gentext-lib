@@ -1,56 +1,41 @@
 asset_id: ehcrp-r2-preapp-form
 card:
-  summary: EHCRP Round 2 Pre-Application Interest Form (draft). A solicitation template with eligibility screening questions
-    for the Extreme Heat and Community Resilience Program Round 2. Covers funding priority groups (Tribes, DACs, vulnerable
-    populations), co-applicant requirements, and TA intake. Contains program definitions of Harm Reduction, Partnership, Belonging,
-    and Lasting Community Benefits. Form structure and logic flow documented but without final application questions.
+  summary: Draft pre-application interest form for EHCRP Round 2, containing eligibility screening questions, funding priority
+    group identification (tribal, DAC, vulnerable population), co-applicant requirements, and technical assistance intake.
+    This is a blank template with form structure and instructions, not completed application content.
   doc_role: solicitation
-  authorship: LCI (Integrated Climate Adaptation and Resilience Program) / Extreme Heat Program staff
+  authorship: LCI (Integrated Climate Adaptation and Resilience Program)
   disposition: reference
-  disposition_reason: Authoritative solicitation template showing pre-app intake logic and eligibility scaffolding; needed
-    to understand what applicants will see and what TA gaps exist. Not prose to reuse, but essential context for understanding
-    application pathway and staff feedback opportunities.
+  disposition_reason: Authoritative solicitation template that defines application structure, eligibility criteria, and required
+    information fields. Needed for understanding what questions Hyphae's Bay Point applications must answer, but no prose
+    or facts to extract; serves as lookup reference for application requirements.
   serves_needs:
   - need_id: ehcrp-r2-webinars-office-hours
-    how: Form signals TA availability and structures; actual webinar/office-hours content not present in document, but this
-      is the intake form that routes applicants to TA.
-  sections:
-  - path: preamble
-    type: solicitation-text
-    reuse_value: high
-    note: Program goals, four core principles (Harm Reduction, Partnership, Belonging, Lasting Community Benefits), and project
-      type eligibility definitions. Citable for grant framing.
-  - path: LCI - Public
-    type: solicitation-text
-    reuse_value: high
-    note: Co-applicant requirement matrix by lead entity type (public entity, CBO, Tribe) with clear rules on pairing. Essential
-      for partnership section of applications.
+    how: this is the form itself; webinars and office hours would supplement it with live guidance
+  sections: []
   fact_candidates:
-  - Pre-app form targets Early and Advanced Infrastructure projects
-  - Co-Applicant required for most lead types (with CBO exception under Eligibility Section 6)
-  - Lead applicant entity types include local/regional public entities, CBOs, California Native American Tribes
-  - 'Funding Priority Groups: Federally recognized Tribes, non-federally recognized Tribes on state consultation list, (S)DAC
-    via 2024 Climate Bond map, Vulnerable Populations via VCP'
-  - TA provider offers one-on-one meetings, email updates, frameworks/tools/templates, and application section review (not
-    full drafting)
-  - Form uses 2024 Climate Bond Disadvantaged Communities Map for DAC identification
-  - Form uses Vulnerable Communities Platform for vulnerable population identification
+  - 's1: Pre-Application Interest Form is draft; final questions may vary on Submittable platform'
+  - 's2: Extreme Heat Program funds Early and Advanced Infrastructure projects'
+  - 's4: Co-Applicant required unless applicant is Tribal or CBO with Early Infrastructure exception'
+  - 's6: Four Funding Priority Group options: Native American Tribe, (S)DAC, Vulnerable Population, or None'
+  - 's8: Applicants use 2024 Climate Bond Disadvantaged Communities Map for DAC identification'
+  - 's15: Applicants use Vulnerable Communities Platform for Vulnerable Population identification'
+  - 's21-22: TA provider offers one-on-one meetings, email updates, frameworks/templates, and application section feedback
+    (but not full drafting)'
   flags:
-  - Draft form; final questions and formatting may vary on Submittable platform
-  - Near-duplicate of ehcrp-r2-working-doc (52%), ehcrp-r2-ambrose-memorial-docx (51%), and ehcrp-r2-ambrose-center-docx (51%)
-    — check if those docs contain additional program text or application-specific details
-  - 'Excerpt coverage thin: sections 1–1c are mostly field/dropdown definitions; actual narrative application questions not
-    present in this draft'
-  - Modified 2026-07-22 (recent); monitor for final Submittable version launch
-  - 'TA limitations stated: will not provide full application reviews or assist with drafting narrative'
+  - form is draft with placeholder text and dropdowns; no completed data or specific project information
+  - 'near-duplicates noted: 51-52% overlap with working doc and two Ambrose pre-apps suggests this template was populated
+    into those application docs'
+  - excerpt too thin to judge some sections (s5, s9, s23 contain minimal content)
+  - contact fields redacted in metadata but form structure visible
 meta:
   model: claude-haiku-4-5
-  prompt_version: c2
+  prompt_version: c3
   backend: api-batch
   text_sha256: 8277414790fab6ab031aaeb18397e4f2786396d2cc9ae70778338c7e2e83dc8e
-  created: '2026-09-25T13:52:29'
+  created: '2026-09-25T14:22:59'
   usage:
-    input: 4513
-    output: 743
+    input: 4680
+    output: 482
     cache_read: 0
     cache_write: 0

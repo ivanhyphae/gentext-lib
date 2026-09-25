@@ -8,66 +8,86 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+- sid: s1
+  path: Integrated Climate Adaptation and Resilience Program (ICARP)
   level: 2
   words: 6
-- path: 'What You Need To Know:'
+- sid: s2
+  path: 'What You Need To Know:'
   level: 1
   words: 51
-- path: 'What You Need To Know: > Understanding Belonging as a Program Value'
+- sid: s3
+  path: 'What You Need To Know: > Understanding Belonging as a Program Value'
   level: 2
   words: 387
-- path: 'What You Need To Know: > Elements of Belonging'
+- sid: s4
+  path: 'What You Need To Know: > Elements of Belonging'
   level: 2
   words: 775
-- path: 6 Tips for Inclusive
+- sid: s5
+  path: 6 Tips for Inclusive
   level: 1
   words: 2
-- path: 6 Tips for Inclusive > Learning Center
+- sid: s6
+  path: 6 Tips for Inclusive > Learning Center
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > From the American Planning Association
+- sid: s7
+  path: 6 Tips for Inclusive > From the American Planning Association
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > From the California Arts Council
+- sid: s8
+  path: 6 Tips for Inclusive > From the California Arts Council
   level: 2
   words: 4
-- path: 6 Tips for Inclusive > How the Arts Advance
+- sid: s9
+  path: 6 Tips for Inclusive > How the Arts Advance
   level: 2
   words: 4
-- path: 6 Tips for Inclusive > Public Participation
+- sid: s10
+  path: 6 Tips for Inclusive > Public Participation
   level: 2
   words: 1
-- path: 6 Tips for Inclusive > From California for the Arts
+- sid: s11
+  path: 6 Tips for Inclusive > From California for the Arts
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > From the U.S. EPA
+- sid: s12
+  path: 6 Tips for Inclusive > From the U.S. EPA
   level: 2
   words: 4
-- path: 6 Tips for Inclusive > The Spectrum of
+- sid: s13
+  path: 6 Tips for Inclusive > The Spectrum of
   level: 2
   words: 4
-- path: 6 Tips for Inclusive > Tips for Equitable Digital
+- sid: s14
+  path: 6 Tips for Inclusive > Tips for Equitable Digital
   level: 2
   words: 1
-- path: 6 Tips for Inclusive > From Facilitating Power
+- sid: s15
+  path: 6 Tips for Inclusive > From Facilitating Power
   level: 2
   words: 2
-- path: 6 Tips for Inclusive > From the American Planning Association
+- sid: s16
+  path: 6 Tips for Inclusive > From the American Planning Association
   level: 2
   words: 21
-- path: 6 Tips for Inclusive > Lexington, KY Sprayground
+- sid: s17
+  path: 6 Tips for Inclusive > Lexington, KY Sprayground
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > The Fargo Project
+- sid: s18
+  path: 6 Tips for Inclusive > The Fargo Project
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > ¡Sombra! The Celebration of Shade
+- sid: s19
+  path: 6 Tips for Inclusive > ¡Sombra! The Celebration of Shade
   level: 2
   words: 0
-- path: 6 Tips for Inclusive > NYC Rain Garden Stewardship Program
+- sid: s20
+  path: 6 Tips for Inclusive > NYC Rain Garden Stewardship Program
   level: 2
   words: 0
 section_count: 20
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

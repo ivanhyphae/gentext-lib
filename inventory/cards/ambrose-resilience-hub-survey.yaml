@@ -1,0 +1,90 @@
+asset_id: ambrose-resilience-hub-survey
+card:
+  summary: '35 community survey responses (March 2026) from Bay Point residents about current use of and desired services
+    at the Ambrose Community Center resilience hub. Respondents report current use of senior programs, food distribution,
+    cooling/heating, exercise, computer labs, and emergency preparedness training. Desired services include cooling/heating,
+    food resources, medical support, emergency preparedness, CERT training, and community gathering. Hazards cited: earthquakes,
+    fire, extreme weather during power outages, wildfires. Demographics span age 31–90+, income $30k–$90k+, multiple ethnicities
+    (White, Asian, Black, Hispanic), and mixed geography (some in Bay Point near center, some distant, some outside Bay Point).
+    Respondents report high satisfaction ("Good" to "Great") and interest in future updates.'
+  doc_role: dataset
+  authorship: Ambrose Recreation and Park District / Hyphae (survey administration)
+  disposition: hold
+  disposition_reason: Direct community voices on heat, cooling, emergency preparedness, and belonging at the Ambrose resilience
+    hub site. High-value evidence for harm-reduction and belonging need statements (hr-q1, be-q2) and community-voice gap
+    (ambrose-community-voices). Quotes are anonymized; contact data redacted.
+  serves_needs:
+  - need_id: ambrose-community-voices
+    how: 35 anonymized community responses about heat stress, cooling access, emergency preparedness, and sense of belonging/connection
+      at Ambrose resilience hub; direct quotes available with consent
+  - need_id: hr-q1
+    how: 'Community-named harms: earthquakes, fire, extreme weather during power outages, wildfires; exposure pathways (proximity
+      to Ambrose or lack thereof); lived experience data integrated with infrastructure access'
+  - need_id: be-q2
+    how: Reports on engagement at Ambrose (senior cafe, exercise, dance, food distribution, computer lab, events); barriers
+      cited (distance, limited time, not enough money); community interest in future involvement and information
+  sections:
+  - sid: s2
+    path: part 2 (survey responses 1–10)
+    type: evidence-data
+    reuse_value: high
+    note: Raw survey data with hazard names, desired resilience services, demographics, and satisfaction ratings; anonymized
+  - sid: s3
+    path: part 3 (survey responses 10–15)
+    type: evidence-data
+    reuse_value: high
+    note: Continued survey responses; includes fire experience quote and named threats (fire, animals/pet services, sheltering,
+      CERT)
+  - sid: s4
+    path: part 4 (survey responses 15–20)
+    type: evidence-data
+    reuse_value: high
+    note: Survey responses with extreme weather + power outage hazard and medication refrigeration need; emergency preparedness
+      themes
+  - sid: s5
+    path: part 5 (survey responses 20–26)
+    type: evidence-data
+    reuse_value: high
+    note: Spanish-language responses; incendio (fire), cooling/heating, food distribution, CERT training; diverse geography
+      and income
+  - sid: s6
+    path: part 6 (survey responses 26–33)
+    type: evidence-data
+    reuse_value: high
+    note: Spanish and English responses; terremotos (earthquakes), sheltering, cooling; barriers (existing health condition,
+      not enough money)
+  - sid: s7
+    path: part 7 (survey responses 33–35)
+    type: evidence-data
+    reuse_value: high
+    note: Final responses; earthquake, animal services, emergency preparedness, community gathering spaces desired
+  fact_candidates:
+  - 35 survey responses collected March 2026
+  - Responses from Bay Point residents and nearby areas (Pittsburg, outside service area)
+  - 'Current services used: senior cafe (daily), exercise/gym (monthly), dance, food distribution, computer lab, cooling/heating'
+  - 'Desired services: cooling/heating and air filtration, emergency food/water/ice, medical support, CERT training, sheltering,
+    backup battery/solar power'
+  - 'Named hazards: earthquakes, fire, extreme weather during power outages, wildfires (terremotos, incendio)'
+  - 'Respondent age range: 31–90+; income range $30k–$90k+'
+  - 'Demographics: White, Asian, Black, Hispanic residents; Spanish and English speakers'
+  - 'Satisfaction levels: "Good" and "Great" responses reported'
+  - 'Interest in future engagement: volunteering, community events, connection with Ambrose Recreation and Park District'
+  - One respondent reported house fire and positive Red Cross experience
+  - 'Barriers to services cited: limited time, not enough money, don''t know how/where to start, caring for others'
+  flags:
+  - Contact data ([email], [phone]) has been redacted per metadata
+  - Excerpt shows raw survey sheet headers and partial data rows only; full text of free-form responses not visible in outline
+  - Survey is anonymized (respondent names not shown in excerpts); consent status for quotation unknown—verify before use
+  - No response rate or sampling frame provided; 35 responses is count, not clear if complete or representative
+  - Survey administered March 2026 (recent, highly current for 2026-10-13 application deadline)
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c3
+  backend: api-batch
+  text_sha256: a63879919283301a3b7f5fd3d49b8f308cc3f52b668051311733443e23881a29
+  created: '2026-09-25T14:22:59'
+  usage:
+    input: 5003
+    output: 1179
+    cache_read: 0
+    cache_write: 0

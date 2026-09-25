@@ -8,225 +8,298 @@ pii:
   phones: 0
 near_duplicates: []
 sections:
-- path: Urban Greening
+- sid: s1
+  path: Urban Greening
   level: 2
   words: 0
-- path: Urban Greening > Grant Program Guidelines
+- sid: s2
+  path: Urban Greening > Grant Program Guidelines
   level: 2
   words: 3
-- path: Urban Greening Grant Program At-A-Glance
+- sid: s3
+  path: Urban Greening Grant Program At-A-Glance
   level: 1
   words: 3
-- path: 'Urban Greening Grant Program At-A-Glance > Available Funding:'
+- sid: s4
+  path: 'Urban Greening Grant Program At-A-Glance > Available Funding:'
   level: 2
   words: 2
-- path: 'Urban Greening Grant Program At-A-Glance > Eligible Applicants:'
+- sid: s5
+  path: 'Urban Greening Grant Program At-A-Glance > Eligible Applicants:'
   level: 2
   words: 9
-- path: Urban Greening Grant Program At-A-Glance > Public Agencies
+- sid: s6
+  path: Urban Greening Grant Program At-A-Glance > Public Agencies
   level: 2
   words: 22
-- path: 'Urban Greening Grant Program At-A-Glance > Grant Amounts:'
+- sid: s7
+  path: 'Urban Greening Grant Program At-A-Glance > Grant Amounts:'
   level: 2
   words: 2
-- path: 'Urban Greening Grant Program At-A-Glance > Minimum Award: $200,000'
+- sid: s8
+  path: 'Urban Greening Grant Program At-A-Glance > Minimum Award: $200,000'
   level: 2
   words: 3
-- path: 'Urban Greening Grant Program At-A-Glance > Eligible Project Type:'
+- sid: s9
+  path: 'Urban Greening Grant Program At-A-Glance > Eligible Project Type:'
   level: 2
   words: 5
-- path: Urban Greening Grant Program At-A-Glance > Technical Assistance Workshops (tentative)
+- sid: s10
+  path: Urban Greening Grant Program At-A-Glance > Technical Assistance Workshops (tentative)
   level: 2
   words: 2
-- path: Urban Greening Grant Program At-A-Glance > May 5, 10:00AM – 11:30 AM
+- sid: s11
+  path: Urban Greening Grant Program At-A-Glance > May 5, 10:00AM – 11:30 AM
   level: 2
   words: 6
-- path: Urban Greening Grant Program At-A-Glance > Concept Proposal Solicitation Period
+- sid: s12
+  path: Urban Greening Grant Program At-A-Glance > Concept Proposal Solicitation Period
   level: 2
   words: 1
-- path: Urban Greening Grant Program At-A-Glance > May 4 – June 4, 2026 (subject to
+- sid: s13
+  path: Urban Greening Grant Program At-A-Glance > May 4 – June 4, 2026 (subject to
   level: 2
   words: 1
-- path: Table Of Contents
+- sid: s14
+  path: Table Of Contents
   level: 1
   words: 131
-- path: I. Introduction
+- sid: s15
+  path: I. Introduction
   level: 1
   words: 99
-- path: I. Introduction > Funding Purpose
+- sid: s16
+  path: I. Introduction > Funding Purpose
   level: 2
   words: 188
-- path: Ii. Program Information
+- sid: s17
+  path: Ii. Program Information
   level: 1
   words: 48
-- path: Ii. Program Information > Eligible Projects
+- sid: s18
+  path: Ii. Program Information > Eligible Projects
   level: 2
   words: 233
-- path: Ii. Program Information > Funding Requirements
+- sid: s19
+  path: Ii. Program Information > Funding Requirements
   level: 2
   words: 253
-- path: Ii. Program Information > Climate Bond Funding Priorities
+- sid: s20
+  path: Ii. Program Information > Climate Bond Funding Priorities
   level: 2
   words: 408
-- path: Ii. Program Information > Corpsmember Services
+- sid: s21
+  path: Ii. Program Information > Corpsmember Services
   level: 2
   words: 122
-- path: Ii. Program Information > Other Funding Considerations
+- sid: s22
+  path: Ii. Program Information > Other Funding Considerations
   level: 2
   words: 322
-- path: Iii. Competitive Grant Process
+- sid: s23
+  path: Iii. Competitive Grant Process
   level: 1
   words: 88
-- path: Iii. Competitive Grant Process > Concept Proposals
+- sid: s24
+  path: Iii. Competitive Grant Process > Concept Proposals
   level: 2
   words: 102
-- path: Iii. Competitive Grant Process > Full Proposals
+- sid: s25
+  path: Iii. Competitive Grant Process > Full Proposals
   level: 2
   words: 65
-- path: Iii. Competitive Grant Process > Full Proposal Evaluation
+- sid: s26
+  path: Iii. Competitive Grant Process > Full Proposal Evaluation
   level: 2
   words: 811
-- path: Iii. Competitive Grant Process > Field Visits
+- sid: s27
+  path: Iii. Competitive Grant Process > Field Visits
   level: 2
   words: 34
-- path: Iv. Grant Administration
+- sid: s28
+  path: Iv. Grant Administration
   level: 1
   words: 36
-- path: Iv. Grant Administration > General Grant Information
+- sid: s29
+  path: Iv. Grant Administration > General Grant Information
   level: 2
   words: 621
-- path: Iv. Grant Administration > Records Retention
+- sid: s30
+  path: Iv. Grant Administration > Records Retention
   level: 2
   words: 24
-- path: Iv. Grant Administration > Changes to Approved Project
+- sid: s31
+  path: Iv. Grant Administration > Changes to Approved Project
   level: 2
   words: 240
-- path: Iv. Grant Administration > Gavin Newsom, Governor
+- sid: s32
+  path: Iv. Grant Administration > Gavin Newsom, Governor
   level: 2
   words: 0
-- path: Iv. Grant Administration > Wade Crowfoot, Secretary for Natural Resources
+- sid: s33
+  path: Iv. Grant Administration > Wade Crowfoot, Secretary for Natural Resources
   level: 2
   words: 83
-- path: Iv. Grant Administration > Site Control
+- sid: s34
+  path: Iv. Grant Administration > Site Control
   level: 2
   words: 199
-- path: Iv. Grant Administration > Eligible Project Costs
+- sid: s35
+  path: Iv. Grant Administration > Eligible Project Costs
   level: 2
   words: 91
-- path: Iv. Grant Administration > Types of Eligible Costs
+- sid: s36
+  path: Iv. Grant Administration > Types of Eligible Costs
   level: 2
   words: 61
-- path: Iv. Grant Administration > Indirect Costs
+- sid: s37
+  path: Iv. Grant Administration > Indirect Costs
   level: 2
   words: 711
-- path: Iv. Grant Administration > Consultants/Contracted Services
+- sid: s38
+  path: Iv. Grant Administration > Consultants/Contracted Services
   level: 2
   words: 500
-- path: Iv. Grant Administration > Staff Travel Costs
+- sid: s39
+  path: Iv. Grant Administration > Staff Travel Costs
   level: 2
   words: 151
-- path: Appendix A. Concept Proposal Form
+- sid: s40
+  path: Appendix A. Concept Proposal Form
   level: 1
   words: 46
-- path: Appendix A. Concept Proposal Form > Proposed Project Information
+- sid: s41
+  path: Appendix A. Concept Proposal Form > Proposed Project Information
   level: 2
   words: 31
-- path: 'Appendix A. Concept Proposal Form > Project Location: Enter Address'
+- sid: s42
+  path: 'Appendix A. Concept Proposal Form > Project Location: Enter Address'
   level: 2
   words: 7
-- path: 'Appendix A. Concept Proposal Form > Latitude: Enter Latitude'
+- sid: s43
+  path: 'Appendix A. Concept Proposal Form > Latitude: Enter Latitude'
   level: 2
   words: 0
-- path: 'Appendix A. Concept Proposal Form > Senate District: Enter'
+- sid: s44
+  path: 'Appendix A. Concept Proposal Form > Senate District: Enter'
   level: 2
   words: 6
-- path: 'Appendix A. Concept Proposal Form > Assembly District: Enter'
+- sid: s45
+  path: 'Appendix A. Concept Proposal Form > Assembly District: Enter'
   level: 2
   words: 286
-- path: 10. Will the completed proposed project be publicly accessible? Note that students
+- sid: s46
+  path: 10. Will the completed proposed project be publicly accessible? Note that students
   level: 1
   words: 19
-- path: 10. Will the completed proposed project be publicly accessible? Note that students > Project Description
+- sid: s47
+  path: 10. Will the completed proposed project be publicly accessible? Note that students > Project Description
   level: 2
   words: 250
-- path: 10. Will the completed proposed project be publicly accessible? Note that students > Authorized Representative Certification
+- sid: s48
+  path: 10. Will the completed proposed project be publicly accessible? Note that students > Authorized Representative Certification
   level: 2
   words: 18
-- path: Appendix B. Full Proposal Form And Required
+- sid: s49
+  path: Appendix B. Full Proposal Form And Required
   level: 1
   words: 117
-- path: Appendix B. Full Proposal Form And Required > Project Questions
+- sid: s50
+  path: Appendix B. Full Proposal Form And Required > Project Questions
   level: 2
   words: 179
-- path: Appendix B. Full Proposal Form And Required > Community and Tribal Engagement
+- sid: s51
+  path: Appendix B. Full Proposal Form And Required > Community and Tribal Engagement
   level: 2
   words: 184
-- path: 10. Please provide details describing your past, current, and any future planned
+- sid: s52
+  path: 10. Please provide details describing your past, current, and any future planned
   level: 1
   words: 233
-- path: '10. Please provide details describing your past, current, and any future planned > Climate Bond Disadvantaged Communities Map:'
+- sid: s53
+  path: '10. Please provide details describing your past, current, and any future planned > Climate Bond Disadvantaged Communities Map:'
   level: 2
   words: 1
-- path: 12. Does the project provide benefits to vulnerable populations, disadvantaged
+- sid: s54
+  path: 12. Does the project provide benefits to vulnerable populations, disadvantaged
   level: 1
   words: 54
-- path: 13. Describe the vulnerable population(s) who benefits from the project. If not
+- sid: s55
+  path: 13. Describe the vulnerable population(s) who benefits from the project. If not
   level: 1
   words: 198
-- path: 17. Please explain how the project will meet all four meaningful and direct benefits
+- sid: s56
+  path: 17. Please explain how the project will meet all four meaningful and direct benefits
   level: 1
   words: 57
-- path: 18. If your project will not provide meaningful and direct benefits to disadvantaged
+- sid: s57
+  path: 18. If your project will not provide meaningful and direct benefits to disadvantaged
   level: 1
   words: 271
-- path: 24. How will the proposed project be designed to withstand and adapt to climate
+- sid: s58
+  path: 24. How will the proposed project be designed to withstand and adapt to climate
   level: 1
   words: 70
-- path: 24. How will the proposed project be designed to withstand and adapt to climate > Notice of Exemption
+- sid: s59
+  path: 24. How will the proposed project be designed to withstand and adapt to climate > Notice of Exemption
   level: 2
   words: 143
-- path: 24. How will the proposed project be designed to withstand and adapt to climate > List of Required Documents
+- sid: s60
+  path: 24. How will the proposed project be designed to withstand and adapt to climate > List of Required Documents
   level: 2
   words: 71
-- path: Appendix C. Available Resources
+- sid: s61
+  path: Appendix C. Available Resources
   level: 1
   words: 41
-- path: Appendix C. Available Resources > Extreme Heat Threat Assessment Tools
+- sid: s62
+  path: Appendix C. Available Resources > Extreme Heat Threat Assessment Tools
   level: 2
   words: 10
-- path: Appendix C. Available Resources > Disadvantaged Communities and Vulnerable Populations
+- sid: s63
+  path: Appendix C. Available Resources > Disadvantaged Communities and Vulnerable Populations
   level: 2
   words: 36
-- path: Appendix C. Available Resources > Tribal Consultation
+- sid: s64
+  path: Appendix C. Available Resources > Tribal Consultation
   level: 2
   words: 16
-- path: Appendix C. Available Resources > California Conservation Corps (CCC) Consultation
+- sid: s65
+  path: Appendix C. Available Resources > California Conservation Corps (CCC) Consultation
   level: 2
   words: 10
-- path: Appendix C. Available Resources > Plant Palette, Species Selection, and Water Use
+- sid: s66
+  path: Appendix C. Available Resources > Plant Palette, Species Selection, and Water Use
   level: 2
   words: 50
-- path: Appendix C. Available Resources > Carbon Sequestration
+- sid: s67
+  path: Appendix C. Available Resources > Carbon Sequestration
   level: 2
   words: 3
-- path: Appendix C. Available Resources > Park-Poor Tool
+- sid: s68
+  path: Appendix C. Available Resources > Park-Poor Tool
   level: 2
   words: 6
-- path: Appendix D. Glossary Of Terms
+- sid: s69
+  path: Appendix D. Glossary Of Terms
   level: 1
   words: 1119
-- path: Appendix E. California Heat Assessment Tool
+- sid: s70
+  path: Appendix E. California Heat Assessment Tool
   level: 1
   words: 469
-- path: Appendix F. Environmental Compliance
+- sid: s71
+  path: Appendix F. Environmental Compliance
   level: 1
   words: 398
-- path: Appendix G. Limited Waiver Of Sovereign Immunity
+- sid: s72
+  path: Appendix G. Limited Waiver Of Sovereign Immunity
   level: 1
   words: 396
-- path: Appendix H. Vulnerable Communities Platform
+- sid: s73
+  path: Appendix H. Vulnerable Communities Platform
   level: 1
   words: 249
 section_count: 73
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2

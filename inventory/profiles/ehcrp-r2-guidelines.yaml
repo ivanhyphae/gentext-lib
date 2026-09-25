@@ -8,162 +8,214 @@ pii:
   phones: 1
 near_duplicates: []
 sections:
-- path: Integrated Climate Adaptation And Resiliency Program
+- sid: s1
+  path: Integrated Climate Adaptation And Resiliency Program
   level: 1
   words: 0
-- path: Integrated Climate Adaptation And Resiliency Program > Extreme Heat and Community Resilience Program
+- sid: s2
+  path: Integrated Climate Adaptation And Resiliency Program > Extreme Heat and Community Resilience Program
   level: 2
   words: 0
-- path: Integrated Climate Adaptation And Resiliency Program > Round 2 Grant Guidelines
+- sid: s3
+  path: Integrated Climate Adaptation And Resiliency Program > Round 2 Grant Guidelines
   level: 2
   words: 2
-- path: Integrated Climate Adaptation And Resiliency Program > Guideline Overview
+- sid: s4
+  path: Integrated Climate Adaptation And Resiliency Program > Guideline Overview
   level: 2
   words: 322
-- path: Integrated Climate Adaptation And Resiliency Program > Table of Contents
+- sid: s5
+  path: Integrated Climate Adaptation And Resiliency Program > Table of Contents
   level: 2
   words: 108
-- path: 1. Background
+- sid: s6
+  path: 1. Background
   level: 1
   words: 371
-- path: 2. Program Values
+- sid: s7
+  path: 2. Program Values
   level: 1
   words: 337
-- path: 3. Early Infrastructure Projects
+- sid: s8
+  path: 3. Early Infrastructure Projects
   level: 1
   words: 921
-- path: 4. Advanced Infrastructure Projects
+- sid: s9
+  path: 4. Advanced Infrastructure Projects
   level: 1
   words: 424
-- path: '4. Advanced Infrastructure Projects > 4.6 Completed Infrastructure Requirements: All proposed infrastructure must be fully'
+- sid: s10
+  path: '4. Advanced Infrastructure Projects > 4.6 Completed Infrastructure Requirements: All proposed infrastructure must be fully'
   level: 2
   words: 127
-- path: 5. Workplan and Eligible Activities
+- sid: s11
+  path: 5. Workplan and Eligible Activities
   level: 1
   words: 371
-- path: '5. Workplan and Eligible Activities > Task 2. Community Assessment and Engagement:'
+- sid: s12
+  path: '5. Workplan and Eligible Activities > Task 2. Community Assessment and Engagement:'
   level: 2
   words: 210
-- path: '5. Workplan and Eligible Activities > Task 3. Infrastructure Readiness:'
+- sid: s13
+  path: '5. Workplan and Eligible Activities > Task 3. Infrastructure Readiness:'
   level: 2
   words: 280
-- path: '5. Workplan and Eligible Activities > Task 4. Infrastructure Deployment:'
+- sid: s14
+  path: '5. Workplan and Eligible Activities > Task 4. Infrastructure Deployment:'
   level: 2
   words: 94
-- path: '5. Workplan and Eligible Activities > Task 5. Planning and Policy:'
+- sid: s15
+  path: '5. Workplan and Eligible Activities > Task 5. Planning and Policy:'
   level: 2
   words: 298
-- path: 6. Eligibility
+- sid: s16
+  path: 6. Eligibility
   level: 1
   words: 564
-- path: 6. Eligibility > Co-Applicant Requirement
+- sid: s17
+  path: 6. Eligibility > Co-Applicant Requirement
   level: 2
   words: 6
-- path: 6. Eligibility > Local or Regional Public Entity
+- sid: s18
+  path: 6. Eligibility > Local or Regional Public Entity
   level: 2
   words: 803
-- path: 7. Funding Priorities
+- sid: s19
+  path: 7. Funding Priorities
   level: 1
   words: 244
-- path: 7. Funding Priorities > California Native American Tribe
+- sid: s20
+  path: 7. Funding Priorities > California Native American Tribe
   level: 2
   words: 1
-- path: 7. Funding Priorities > Severely Disadvantaged Community (SDAC)
+- sid: s21
+  path: 7. Funding Priorities > Severely Disadvantaged Community (SDAC)
   level: 2
   words: 1
-- path: 7. Funding Priorities > Vulnerable Populations
+- sid: s22
+  path: 7. Funding Priorities > Vulnerable Populations
   level: 2
   words: 1
-- path: 7. Funding Priorities > Disadvantaged Community (DAC)
+- sid: s23
+  path: 7. Funding Priorities > Disadvantaged Community (DAC)
   level: 2
   words: 9
-- path: '7. Funding Priorities > 7.3 Funding Priorities Groups Definitions:'
+- sid: s24
+  path: '7. Funding Priorities > 7.3 Funding Priorities Groups Definitions:'
   level: 2
   words: 179
-- path: '7. Funding Priorities > 7.4 How Points Are Awarded: During the pre-application phase, Extreme Heat Program'
+- sid: s25
+  path: '7. Funding Priorities > 7.4 How Points Are Awarded: During the pre-application phase, Extreme Heat Program'
   level: 2
   words: 262
-- path: 8. Application Process
+- sid: s26
+  path: 8. Application Process
   level: 1
   words: 1287
-- path: 9. Post-Award Requirements
+- sid: s27
+  path: 9. Post-Award Requirements
   level: 1
   words: 114
-- path: '9. Post-Award Requirements > 9.2 Readiness Review Requirements: Grantees must demonstrate readiness before'
+- sid: s28
+  path: '9. Post-Award Requirements > 9.2 Readiness Review Requirements: Grantees must demonstrate readiness before'
   level: 2
   words: 477
-- path: 10. Legal Notes
+- sid: s29
+  path: 10. Legal Notes
   level: 1
   words: 468
-- path: 11. Appendix
+- sid: s30
+  path: 11. Appendix
   level: 1
   words: 698
-- path: '11. Appendix > Appendix B: Belonging Guide'
+- sid: s31
+  path: '11. Appendix > Appendix B: Belonging Guide'
   level: 2
   words: 877
-- path: '11. Appendix > Appendix C: Eligible Projects Examples'
+- sid: s32
+  path: '11. Appendix > Appendix C: Eligible Projects Examples'
   level: 2
   words: 379
-- path: '11. Appendix > Nature-Based Solutions:'
+- sid: s33
+  path: '11. Appendix > Nature-Based Solutions:'
   level: 2
   words: 246
-- path: '11. Appendix > Appendix D: Workplan Examples'
+- sid: s34
+  path: '11. Appendix > Appendix D: Workplan Examples'
   level: 2
   words: 346
-- path: 11. Appendix > Community Assessment
+- sid: s35
+  path: 11. Appendix > Community Assessment
   level: 2
   words: 6
-- path: 11. Appendix > Planning and Policy
+- sid: s36
+  path: 11. Appendix > Planning and Policy
   level: 2
   words: 263
-- path: 11. Appendix > Advanced Infrastructure Example
+- sid: s37
+  path: 11. Appendix > Advanced Infrastructure Example
   level: 2
   words: 631
-- path: '11. Appendix > Appendix E: Guide to Assessing Funding Priority Points'
+- sid: s38
+  path: '11. Appendix > Appendix E: Guide to Assessing Funding Priority Points'
   level: 2
   words: 514
-- path: '11. Appendix > Option 2: Use the Report Generator:'
+- sid: s39
+  path: '11. Appendix > Option 2: Use the Report Generator:'
   level: 2
   words: 197
-- path: '11. Appendix > Appendix F: Scoring Criteria'
+- sid: s40
+  path: '11. Appendix > Appendix F: Scoring Criteria'
   level: 2
   words: 57
-- path: 11. Appendix > Total Points Possible
+- sid: s41
+  path: 11. Appendix > Total Points Possible
   level: 2
   words: 12
-- path: '2. Narrative Section (55 Points):'
+- sid: s42
+  path: '2. Narrative Section (55 Points):'
   level: 1
   words: 222
-- path: '2. Narrative Section (55 Points): > 2.2 Narrative Section: Harm Reduction (12 Points):'
+- sid: s43
+  path: '2. Narrative Section (55 Points): > 2.2 Narrative Section: Harm Reduction (12 Points):'
   level: 2
   words: 493
-- path: '2. Narrative Section (55 Points): > 2.3 Narrative Section: Partnership (12 Points):'
+- sid: s44
+  path: '2. Narrative Section (55 Points): > 2.3 Narrative Section: Partnership (12 Points):'
   level: 2
   words: 984
-- path: '2. Narrative Section (55 Points): > 2.4 Narrative Section: Belonging (12 Points):'
+- sid: s45
+  path: '2. Narrative Section (55 Points): > 2.4 Narrative Section: Belonging (12 Points):'
   level: 2
   words: 526
-- path: '2. Narrative Section (55 Points): > 2.5 Narrative Section: Lasting Community Benefits (12 Points):'
+- sid: s46
+  path: '2. Narrative Section (55 Points): > 2.5 Narrative Section: Lasting Community Benefits (12 Points):'
   level: 2
   words: 287
-- path: '3. Funding Priorities (15 Points):'
+- sid: s47
+  path: '3. Funding Priorities (15 Points):'
   level: 1
   words: 105
-- path: '3. Funding Priorities (15 Points): > Direct and Meaningful Benefits Criteria'
+- sid: s48
+  path: '3. Funding Priorities (15 Points): > Direct and Meaningful Benefits Criteria'
   level: 2
   words: 43
-- path: '3. Funding Priorities (15 Points): > Application Question'
+- sid: s49
+  path: '3. Funding Priorities (15 Points): > Application Question'
   level: 2
   words: 20
-- path: '3. Funding Priorities (15 Points): > Table 7. Mapping Benefits Criteria to Application Questions'
+- sid: s50
+  path: '3. Funding Priorities (15 Points): > Table 7. Mapping Benefits Criteria to Application Questions'
   level: 2
   words: 212
-- path: '3. Funding Priorities (15 Points): > 3.4 Vulnerable Population (12 points):'
+- sid: s51
+  path: '3. Funding Priorities (15 Points): > 3.4 Vulnerable Population (12 points):'
   level: 2
   words: 900
-- path: '3. Funding Priorities (15 Points): > Appendix G: Glossary of Terms'
+- sid: s52
+  path: '3. Funding Priorities (15 Points): > Appendix G: Glossary of Terms'
   level: 2
   words: 1108
 section_count: 52
 profiled: '2026-09-25'
-profiler: p1
+profiler: p2
