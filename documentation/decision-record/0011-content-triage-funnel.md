@@ -61,3 +61,7 @@ So the funnel spends tokens on whatever helps the live application first. The sa
 - Where do Claude Docs and meeting-notes context enter the funnel? Lean: T1/T2 only, disposition `ignore` or `reference`, never `hold` without a human.
 
 ## Revisions
+- 2026-09-25: **Model access is a pluggable backend** (the maintainer raised API-key availability in cloud Claude Code). `gentext card` separates *prompt building and output validation* (deterministic, in the repo) from *execution*:
+  - `subagent` (default for the pilot): `gentext card prepare` writes bounded prompt files; Claude Code spawns Haiku sub-agents that return JSON; `gentext card ingest` validates and caches the results. This needs **no API key**. It uses the session's own Claude auth and works the same locally and in cloud sessions (sub-agents behave the same in cloud sessions per the Claude Code docs, accessed 2026-09-25).
+  - `api`: direct Anthropic API or Batch API for large unattended runs, with `ANTHROPIC_API_KEY` from `.env` locally (gitignored, loaded with `uv run --env-file .env`) or from Google Secret Manager on Cloud Run (DR-0009).
+  - Cloud Claude Code with the `api` backend: environment variables on a cloud environment are readable by anyone using that environment, and the docs warn against putting secrets there. Proxy-attached "API credentials" exist only on Pro/Max plans, not Team/Enterprise yet. So cloud sessions use the `subagent` backend.
