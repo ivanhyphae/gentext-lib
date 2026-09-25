@@ -13,6 +13,8 @@ updated: 2026-09-25
 
 > **TL;DR** Record provenance in two layers. **Layer 1 (mandatory):** a `provenance:` block in every chunk's YAML frontmatter, using W3C PROV terms (who, from what, by which activity), plus a small file per LLM generation. **Layer 2 (optional):** a standoff `*.prov.yaml` sidecar that anchors *exceptions* (a partner's sentence, an AI-drafted clause, a fact assertion) to spans with W3C Web Annotation text-quote selectors, re-anchored fuzzily after edits. Do not use inline markup in canonical text, and do not rely on watermarks, C2PA, or Google Docs history. Span-level provenance is the can of worms. Keep it opt-in, exceptions-only, and allowed to decay to "unknown" honestly.
 
+> **Revision 2026-09-25 (maintainer):** authorship exists for **accountability and quality control**, not reuse rights: who to ask when there's a problem, and where weak text came from. Replace `owner` + `reuse` with `steward` (the person to ask) + `reviewed_by[]`. See DR-0008.
+
 ## The question
 
 The user wants to know, for any string in a proposal: who wrote it (Hyphae staff, a partner, an AI model with a given prompt), who edited it, which source document and chunk it came from, and which facts it asserts. That record has to survive edits, forks, length variants, and a round-trip through Claude Docs and manual paste into Google Docs. DR-0002 (lesson 9) and DR-0003 (open question 2) already flag partner-authored text as a need.

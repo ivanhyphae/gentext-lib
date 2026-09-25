@@ -40,6 +40,7 @@ A fact that shapes every choice: **the corpus is small.** The pilot will yield a
 - [hosted-vector-dbs.md](hosted-vector-dbs.md): Turbopuffer, Pinecone, Qdrant. **hold**
 - [claude-code-web.md](claude-code-web.md): Claude Code on the web over the git repo. **trial**
 - [remote-mcp-hosting.md](remote-mcp-hosting.md): where to host our MCP server. **trial**
+- [cloud-run-mcp.md](cloud-run-mcp.md): Google Cloud Run, the chosen host (DR-0009). **adopt**
 - [claude-memory-stores.md](claude-memory-stores.md): Anthropic memory tool and Managed Agents memory stores. **assess**
 - [agent-memory-services.md](agent-memory-services.md): mem0, Zep/Graphiti, Letta, Supermemory. **hold**
 

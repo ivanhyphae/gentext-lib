@@ -40,15 +40,16 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - Add every new record to the index in `documentation/decision-record/README.md`.
 - If you're unsure whether something needs a record: if a future collaborator would ask "why is it like this?", write one.
 
-### Confidentiality
-- This is a **private repo**. Sample and pilot sources under `projects/` are committed deliberately (DR-0004). They still contain personal contact details, internal meeting notes, partner assessments, and pre-decisional strategy, so never copy raw source text into anything *outside* the repo (public artifacts, shared links, web tools, third-party APIs) unless a human asks.
-- Only text that has been deliberately promoted into `library/` (with a `sensitivity` tag) is shareable, and only according to that tag.
+### Confidentiality (pragmatic)
+- This is a **private repo**. Sample and pilot sources under `projects/` are committed deliberately (DR-0004).
+- Most proposal prose ends up public or semi-public (it's submitted to government agencies). Sending proposal, library, and draft text to reputable third-party APIs (embeddings, writing feedback, LLMs) is **fine**.
+- Handle two things with care: **personal contact details** (emails, phone numbers) and **candid internal assessments** of people or partners from meeting notes. Keep them out of the library, out of published artifacts, and out of API payloads where practical.
 - Meeting notes and internal strategy are *context*, not library chunks, unless a human promotes them.
 
 ### Truthfulness of prose
 - This system produces claims made to funders. **Never invent** facts, figures, dates, dollar amounts, partner names, quotes, or citations. Any factual claim in generated text must trace to a library chunk or fact with provenance. If no source exists, leave a visible placeholder such as `[[NEEDS SOURCE: tree count for Stockton project]]`.
 - Keep the lineage when adapting a chunk (which chunk, which variant, what changed).
-- **Authorship is essential provenance.** Final proposals mix Hyphae, partner, and AI-written text without distinction, but the library must record who wrote what: human author/org, or AI model + inputs, and who edited or approved it. Record it at chunk level always, and at span level where it matters (DR-0008).
+- **Authorship is essential provenance, for accountability and quality control, not legal rights.** Final proposals mix Hyphae, partner, and AI-written text without distinction. The library records who wrote what (a person/org, or an AI model + inputs) and who edited or approved it, so that when there's a problem we know **who to ask** and can trace bad text back to its origin. Record it at chunk level always, and at span level where it matters (DR-0008).
 - Watch for **context leakage**: text reused from one client/place and still naming the old one. The pilot contains a real case: firm boilerplate in the Bay Point doc ends with "…for Fresno County."
 
 ### Terminology

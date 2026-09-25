@@ -12,6 +12,7 @@ children:
   - provenance/index.md
   - claude-platform/index.md
   - prior-art/index.md
+  - prose-signals/index.md
 tags: [synthesis]
 status: draft
 updated: 2026-09-25
@@ -38,13 +39,13 @@ Read the conventions in [conventions.md](conventions.md). Each topic below is a 
 | Provenance | `provenance:` frontmatter block (PROV-O terms) + per-generation records; opt-in `*.prov.yaml` span sidecars using Web Annotation text-quote selectors | adopt / trial | [provenance](provenance/index.md), [schema](provenance/schema.md) |
 | M8 Surface | One Python core + JSON CLI; Skills for procedure; FastMCP (Streamable HTTP, OAuth) for data and checks; one plugin | adopt | [delivery-architecture](claude-platform/delivery-architecture.md) |
 | M9 Collaboration | Claude Docs for iteration; manual paste into Google Docs; harvest edits back through Claude | adopt (DR-0007) | [docs-roundtrip](claude-platform/docs-roundtrip.md) |
-| M10 Storage/deploy | Git canonical; SQLite FTS5 + sqlite-vec derived; Claude Code on the web now, hosted MCP next; Supabase only as a derived mirror if needed | adopt; Supabase = assess | [storage-platforms](storage-platforms/index.md) |
+| M10 Storage/deploy | Git canonical; SQLite FTS5 + sqlite-vec derived; Claude Code cloning the repo now; next a FastMCP server on **Google Cloud Run** (DR-0009); Supabase only as a derived mirror if ever needed | adopt; Supabase = hold | [storage-platforms](storage-platforms/index.md), [cloud-run-mcp](storage-platforms/cloud-run-mcp.md) |
 
 ## Phasing
 
 1. **Now → 2026-10-13 (pilot):** local Claude Code, CLI + skills, Claude Docs drafts. Checks aimed at Harm Reduction Q1/Q2.
 2. **After submission:** re-ingest the final submitted doc, harvest the edits, calibrate the LLM judge against a small human gold set, and package the plugin.
-3. **Then:** host the MCP server (read + check tools) as a claude.ai connector, then add write tools that open PRs.
+3. **Then:** host the MCP server (read + check tools) on Google Cloud Run as a claude.ai connector, then add write tools that open PRs.
 4. **Only if needed:** Supabase mirror, RDF layer, reranker.
 
 ## Cross-cutting findings
@@ -52,7 +53,8 @@ Read the conventions in [conventions.md](conventions.md). Each topic below is a 
 - **Scores are not decisions.** 2026 studies of LLMs reviewing grants found inflated, compressed scores that matched funding decisions at or below chance. What we deliver is the quoted findings. [judge-reliability](llm-evaluation/judge-reliability.md)
 - **Distinctiveness is a risk.** AI-assisted proposals read as less distinctive (PNAS 2026), and some funders restrict AI-drafted text. Record each funder's AI policy in the solicitation model. [funder-ai-policies](prior-art/funder-ai-policies.md)
 - **Watch licenses:** pymupdf4llm (AGPL), YAKE (AGPL/LGPL conflict), `language_tool_python` (GPL; call a self-hosted server over HTTP instead), Bespoke-MiniCheck-7B (non-commercial).
-- **Data leaving the machine** (DR-0004): local or open-weight embeddings are viable, so no API is required for sensitive text.
+- **Data leaving the machine** (DR-0004, relaxed): API embeddings and writing-feedback APIs are fine for proposal text. Only personal contact data and candid assessments stay out.
+- **Authorship = accountability** (DR-0008): provenance answers "who do I ask?" and "where did this bad sentence come from?", not reuse rights. Read the provenance pages' `owner`/reuse-terms material in that light.
 
 ## Conflicts and unverified claims to test
 
@@ -60,7 +62,7 @@ Read the conventions in [conventions.md](conventions.md). Each topic below is a 
 - **Claude Docs → Google Docs export:** the help centre and the connector guide disagree. [claude-docs](claude-platform/claude-docs.md)
 - **Drive connector reading every tab:** unverified. [google-drive-connector](claude-platform/google-drive-connector.md)
 - **Skill sharing across a claude.ai org:** the docs disagree.
-- **MCP hosting costs** (e.g., Prefect Horizon free tier): vendor claims go stale fast. [remote-mcp-hosting](storage-platforms/remote-mcp-hosting.md)
+- **Cloud Run + claude.ai OAuth:** Cloud Run defaults to IAM auth, but claude.ai connectors need OAuth. Resolve this when implementing (DR-0009).
 
 ## Topics
 
@@ -72,6 +74,7 @@ Read the conventions in [conventions.md](conventions.md). Each topic below is a 
 - [Provenance](provenance/index.md): authorship over chunks and spans; PROV-O; anchoring spans across edits.
 - [Claude platform](claude-platform/index.md): Skills, plugins, MCP, Claude Docs, API features, Agent SDK.
 - [Prior art](prior-art/index.md): RFP libraries, grant-AI tools, compliance matrices, color teams.
+- [Prose signals](prose-signals/index.md): holistic and span-level quality signals (generic, AI slop, grade level, grammar density), and commercial writing APIs.
 
 ## Candidate decision records
 

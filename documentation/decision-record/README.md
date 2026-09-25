@@ -18,11 +18,12 @@ Numbered, append-mostly records of how and why `gentext-lib` is shaped the way i
 | [0001](0001-record-architecture-decisions.md) | Record architecture decisions | Accepted |
 | [0002](0002-pilot-case-ehcrp-round-2.md) | Pilot case: EHCRP Round 2 (Bay Point) | Accepted |
 | [0003](0003-module-decomposition.md) | Module decomposition | Proposed |
-| [0004](0004-source-corpus-confidentiality.md) | Source corpus in the private repo; sensitivity tagging | Accepted |
+| [0004](0004-source-corpus-confidentiality.md) | Source corpus in the private repo; light sensitivity tagging | Accepted |
 | [0005](0005-canonical-store-plain-text.md) | Canonical library is plain-text Markdown in git; indexes are derived | Proposed |
 | [0006](0006-language-and-tooling.md) | Python + uv; classical NLP stack | Proposed |
 | [0007](0007-collaboration-workflow-shadow-pilot.md) | Collaboration: Claude Docs iteration, manual paste to Google Docs | Accepted |
-| [0008](0008-authorship-provenance.md) | Authorship as first-class provenance (chunk + optional span) | Proposed |
+| [0008](0008-authorship-provenance.md) | Authorship as first-class provenance (chunk + optional span), for accountability/QC | Proposed |
+| [0009](0009-deployment-path.md) | Deployment: Claude Code clone MVP → FastMCP on Google Cloud Run | Accepted |
 
 ## Template
 
