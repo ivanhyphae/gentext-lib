@@ -53,7 +53,7 @@ These are market signals that the DR-0003 design is right:
 | Vendor feature | gentext equivalent |
 |---|---|
 | Sentence-level citations | M6 inline provenance map (sentence → chunk/fact ids); see [provenance](../provenance/index.md) |
-| "Information unavailable" | `[[NEEDS SOURCE: …]]` placeholders |
+| "Information unavailable" | `{>>TK source: …<<}` placeholders |
 | Conflict with earlier answer / prior RFP | M7 cross-answer redundancy and consistency check; extend to *prior submissions to the same funder* via the usage log |
 | Stale flags | M2 `next_review` + M3 fact validity windows |
 | Confidence score | M7 per-sentence support score (embedding similarity to cited source), shown and not hidden |

@@ -51,7 +51,7 @@ findings (upheld) ─► reviser(constrained) ─► draft'
 
 - **External signal, not introspection.** Critiques come from the skeptic and panel, anchored to quotes and rubric ids. Verification comes from M3 and deterministic checks. This is the setting where Huang et al.'s negative result does *not* apply, because the feedback isn't intrinsic.
 - **Reviser allowed actions** (structured output): `replace_sentence(sentence_id, with: chunk_variant_id | fact_id | placeholder)`, `delete_sentence`, `reorder`. Free prose is allowed only as connective tissue under 15 words per edit, and it is flagged `llm-authored` in provenance.
-- Any new claim not resolvable to M3 becomes `[[NEEDS SOURCE: …]]`, never a fabricated number or quote.
+- Any new claim not resolvable to M3 becomes `{>>TK source: …<<}`, never a fabricated number or quote.
 - Output is a **diff plus rationale per edit** (finding id → edit), shown for human acceptance. Nothing is committed to `library/` automatically.
 
 ## Strengths

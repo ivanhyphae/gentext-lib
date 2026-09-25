@@ -57,7 +57,7 @@ Ten modules in four layers. **Bold** marks modules the pilot slice needs.
 
 ### M6 Compose: requirement + library → draft
 - For a target question: retrieve candidate chunks (M2 + embeddings) → select → adapt to place/funder/voice → fit to the word limit (prefer existing variants over LLM compression) → emit a draft with an **inline provenance map** (sentence → chunk/fact ids).
-- Unsourced claims become visible placeholders (`[[NEEDS SOURCE: …]]`), never invented.
+- Unsourced claims become visible placeholders (`{>>TK source: …<<}`), never invented.
 
 ### M7 QA / checks: draft → report
 Deterministic checks first, LLM judgment second:

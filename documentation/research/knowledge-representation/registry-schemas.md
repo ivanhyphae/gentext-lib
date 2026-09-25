@@ -81,7 +81,7 @@ library/sources.yaml          # manifest ids only; raw files stay in projects/ (
   valid_until: null                           # or a date for time-sensitive stats
   status: needs-source                        # needs-source | sourced | verified
 ```
-Every number in a draft must resolve to a `fact:` id, or it becomes `[[NEEDS SOURCE: …]]`.
+Every number in a draft must resolve to a `fact:` id, or it becomes `{>>TK source: …<<}`.
 
 ## Glossary term
 ```yaml

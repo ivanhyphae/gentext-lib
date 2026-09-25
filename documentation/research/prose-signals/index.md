@@ -46,7 +46,7 @@ The probes ran locally on paragraphs from the Ambrose docs plus synthetic contro
 1. **Norm everything** against a named reference corpus (Hyphae's best submitted proposals, then funder-winning exemplars when available). Report the percentile, the direction ("low is bad"), a reliability flag (too short, out of domain), and the worst spans. [m-norming-presentation](m-norming-presentation.md) (adopt)
 2. **Name symptoms, not scores.** Don't collapse the signals into one composite number.
 3. **One finding format** for every detector, a superset of the adversarial-pass and check-catalog reports. LLM findings are witnesses: the validator must find the quote, or the finding is dropped. [span-feedback-schema](span-feedback-schema.md)
-4. **Fixes respect provenance and truth:** suggestions carry constraints (`no-new-facts`, `keep-funder-terms`), and "make specific" means pulling a sourced fact from M3 or inserting `[[NEEDS SOURCE]]`.
+4. **Fixes respect provenance and truth:** suggestions carry constraints (`no-new-facts`, `keep-funder-terms`), and "make specific" means pulling a sourced fact from M3 or inserting `{>>TK …<<}`.
 5. **AI-text detectors stay on hold.** They answer "who wrote it", which provenance already records (DR-0008), and their false-positive rates on edited professional text are poor. [s-ai-detectors](s-ai-detectors.md)
 
 ## Buy vs build

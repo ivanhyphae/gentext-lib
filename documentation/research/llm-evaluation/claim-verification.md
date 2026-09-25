@@ -49,7 +49,7 @@ AGENTS.md: "Never invent facts… Any factual claim in generated text must trace
 2. **Resolve deterministically**: normalise numbers, units, and ranges, then match against M3 `facts[].value`. Match names against the entity registry, including aliases, which catches "Council/Counsel". Use the provenance map from M6 when the sentence already cites a fact id.
 3. **Verify the remainder** (LLM): pass candidate facts as documents with [Citations](anthropic-citations-api.md) enabled and ask whether claim X is supported, contradicted, or not addressed. Keep the returned `cited_text` as proof.
 4. **CoVe-style independence**: the verifier sees only the claim and the candidate facts, *not* the surrounding draft, so fluent context can't carry an unsupported claim.
-5. **Report**: per-claim status, with `unsourced` claims turned into suggested `[[NEEDS SOURCE: …]]` placeholders. Also report a draft-level *supported fraction* (FActScore-style) as a trend metric, not a gate.
+5. **Report**: per-claim status, with `unsourced` claims turned into suggested `{>>TK source: …<<}` placeholders. Also report a draft-level *supported fraction* (FActScore-style) as a trend metric, not a gate.
 
 **Hallucination detection** comes for free: any `number`, `date`, or `name` claim with no registry match and no provenance is a hallucination candidate. Invented community quotes (the pressure point for HR Q1 "voices") are caught the same way. Quotes must resolve to a registry entry holding the consented source, or they're flagged.
 

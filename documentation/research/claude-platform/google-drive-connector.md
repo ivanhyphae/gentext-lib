@@ -46,7 +46,7 @@ The team works in Google Docs today (DR-0003 Q5), and the final application is a
 ## How it would fit
 
 - `ingest-source` skill: Drive search → `read_file_content` → `gentext ingest --stdin --source gdrive:<fileId>`, recording the file id and modified time in the manifest.
-- Final QA: read the submission Doc → `check_draft` per section → report leftover `[[NEEDS SOURCE]]`, leakage and word overruns.
+- Final QA: read the submission Doc → `check_draft` per section → report leftover `{>>TK …<<}`, leakage and word overruns.
 - **Not** a write target for final prose. A human pastes (see [docs-roundtrip.md](docs-roundtrip.md)).
 - For full Google Docs editing we would need our own MCP server calling the Google Docs API (`documents.batchUpdate`). Out of scope. *(assess later)*
 

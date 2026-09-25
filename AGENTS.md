@@ -49,7 +49,12 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - Meeting notes and internal strategy are *context*, not library chunks, unless a human promotes them.
 
 ### Truthfulness of prose
-- This system produces claims made to funders. **Never invent** facts, figures, dates, dollar amounts, partner names, quotes, or citations. Any factual claim in generated text must trace to a library chunk or fact with provenance. If no source exists, leave a visible placeholder such as `[[NEEDS SOURCE: tree count for Stockton project]]`.
+- This system produces claims made to funders. **Never invent** facts, figures, dates, dollar amounts, partner names, quotes, or citations. Any factual claim in generated text must trace to a library chunk or fact with provenance. If no source exists, leave a visible placeholder such as `{>>TK source: tree count for Stockton project<<}`.
+- **Placeholders and inline editorial notes use CriticMarkup with a `TK` keyword** ("to come", the publishing convention). This is the only inline-note syntax. Don't use `[[…]]` (Obsidian wikilinks) or `[key:: value]` (Dataview fields).
+  - Form: `{>>TK <type>: <what's needed><<}`. To attach a note to existing text, highlight it first: `{==span==}{>>TK confirm: …<<}`.
+  - Types: `source` (a fact needed from M3, or no source exists), `quote` (a community voice needed), `confirm` (the text exists; a human should verify it), `name` (check an entity's spelling), `data` (a number to pull from a dataset or tool).
+  - Example: `The project planted {>>TK source: tree count, Stockton AB 617<<} trees…`
+  - A block isn't paste-ready while any `{>>TK` remains, unless the note is deliberately left for the lead writer. The braces survive paste into Google Docs, so leftovers stay visible.
 - Keep the lineage when adapting a chunk (which chunk, which variant, what changed).
 - **Authorship is essential provenance, for accountability and quality control, not legal rights.** Final proposals mix Hyphae, partner, and AI-written text without distinction. The library records who wrote what (a person/org, or an AI model + inputs) and who edited or approved it, so that when there's a problem we know **who to ask** and can trace bad text back to its origin. Record it at chunk level always, and at span level where it matters (DR-0008).
 - Watch for **context leakage**: text reused from one client/place and still naming the old one. The pilot contains a real case: firm boilerplate in the Bay Point doc ends with "…for Fresno County."

@@ -41,7 +41,7 @@ Rules of thumb:
 
 - **CLI** holds anything deterministic, anything that needs the full repo, and anything slow. It must run without an LLM (DR-0003).
 - **MCP tools** are small, typed verbs over the CLI's functions (call the Python API in-process, not a subprocess). Use tool annotations: `readOnlyHint` on reads, `destructiveHint` on writes. Use **resources** for addressable text such as chunks and solicitation YAML, and **prompts** for canned entry points ("draft EHCRP Q3"). Claude supports tools, prompts, resources and text/binary content. It does not support resource subscriptions or sampling (same source).
-- **Skills** hold judgment and sequence: which tool first, how to treat `[[NEEDS SOURCE]]`, the truthfulness rules from AGENTS.md, and when to hand back to a human. Keep each SKILL.md short and link to reference files (progressive disclosure: ~100 tokens of metadata per skill, body under 5k tokens).
+- **Skills** hold judgment and sequence: which tool first, how to treat `{>>TK …<<}`, the truthfulness rules from AGENTS.md, and when to hand back to a human. Keep each SKILL.md short and link to reference files (progressive disclosure: ~100 tokens of metadata per skill, body under 5k tokens).
 - **Pure-stdlib check scripts** (word counts, a leakage regex over a supplied name list) can also ship inside a skill's `scripts/`. They then run in claude.ai's sandbox with no network. This is a cheap fallback before the MCP server exists. *(Design option, not tested.)*
 
 ## Packaging

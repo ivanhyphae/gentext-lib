@@ -49,7 +49,7 @@ Sources: [Claude Docs help](https://support.claude.com/en/articles/16923645-get-
 
 **One Claude Doc per application, one tab per narrative question.** This matches the tabbed Google Doc, so each paste is tab → tab. Put question id, word limit and points in the tab name or lead line (from M5). A "QA" tab holds the latest `check_draft` summary.
 
-**Provenance travels as comments, not inline markup.** Inline `[chunk:…]` tags would get pasted into the Google Doc by accident. Anchor a comment on each adapted sentence with its chunk/fact ids instead. Keep `[[NEEDS SOURCE: …]]` placeholders inline, because they *should* block a paste. Comment limits: 1000 threads per doc and 100 comments per thread (Docs connector guide).
+**Provenance travels as comments, not inline markup.** Inline `[chunk:…]` tags would get pasted into the Google Doc by accident. Anchor a comment on each adapted sentence with its chunk/fact ids instead. Keep `{>>TK source: …<<}` placeholders inline, because they *should* block a paste. Comment limits: 1000 threads per doc and 100 comments per thread (Docs connector guide).
 
 **Harvest is Claude-mediated.** Our MCP server can't read Claude Docs. Only Claude can, through the Docs connector. The `harvest-edits` skill tells Claude to read the tab, diff it against the draft that `draft_context` produced, and call `propose_variant(chunk_id, text, lineage={edited_in: <doc link>, tab, date})`. The fallback is Export → Markdown, then `gentext harvest file.md`.
 

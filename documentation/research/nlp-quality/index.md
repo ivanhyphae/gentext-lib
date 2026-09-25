@@ -25,7 +25,7 @@ Which classical NLP and embedding techniques should gentext's M4 (Characterize) 
 
 | Stage | Checks | Tools | Output |
 |---|---|---|---|
-| 0. Structural | word/char limits per question; `[[NEEDS SOURCE]]` placeholders left; required sections | plain Python + M5 YAML | hard pass/fail |
+| 0. Structural | word/char limits per question; `{>>TK …<<}` placeholders left; required sections | plain Python + M5 YAML | hard pass/fail |
 | 1. Deterministic lexical | glossary terms and forbidden variants; acronym defined-once and matches glossary; canonical org names; **context leakage** (off-target places/orgs/funders); grammar patterns; hype/booster lexicon; passive voice; typography | Vale (vocab + custom styles), spaCy PhraseMatcher/EntityRuler/Matcher, Schwartz-Hearst, rapidfuzz, LanguageTool (secondary) | findings with rule id + span + registry ref |
 | 2. Statistical | readability, sentence-length spread, repetition fractions, lexical overlap with sources, near-duplicate/lineage against library | textstat / TextDescriptives, datasketch MinHash | metrics vs targets; warnings |
 | 3. Embedding / model | rubric descriptor → evidence retrieval; cross-answer redundancy; semantic near-duplicates; claim support against cited chunk/fact | sentence-transformers or Voyage; MiniCheck / AlignScore | scored findings with evidence sentence pairs |

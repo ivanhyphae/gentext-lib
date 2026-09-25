@@ -64,7 +64,7 @@ All of these run locally, and none needs an API or a GPU. That fits the DR-0004 
 
 1. Read **symptoms**, not metrics. A symptom fires only when two or more signals agree (e.g., *generic* = unanchored AND concreteness < p20, OR portable > 0.6 in a place-specific question).
 2. Treat every percentile as relative to `firm-exemplar` (see [norming](m-norming-presentation.md)). Out-of-domain models are advisory.
-3. Fix **content first**. The remedy for generic text is a fact from M3 (or a `[[NEEDS SOURCE]]` placeholder), not synonyms. Don't rewrite to move a number.
+3. Fix **content first**. The remedy for generic text is a fact from M3 (or a `{>>TK …<<}` placeholder), not synonyms. Don't rewrite to move a number.
 4. Metrics never fail a draft. They supply quotable evidence for the [rubric pass](../llm-evaluation/rubric-judging.md) and the [adversarial reviewer](../llm-evaluation/adversarial-review-pass.md).
 
 ## Open questions / next steps

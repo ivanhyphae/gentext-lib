@@ -66,7 +66,7 @@ Both measures work per sentence and are stable at paragraph level (≈10 sentenc
 ## How it would fit
 
 - M4 stores per-sentence `concreteness`, `anchors[]`, and `anchored: bool`.
-- M7 emits findings like `S4 unanchored, concreteness 2.3 (p8 vs firm corpus): name the site, the partner, or a number`. The fix hint points Claude at M3 facts for the target place, which also serves the no-invention rule (a missing fact becomes a `[[NEEDS SOURCE]]` placeholder).
+- M7 emits findings like `S4 unanchored, concreteness 2.3 (p8 vs firm corpus): name the site, the partner, or a number`. The fix hint points Claude at M3 facts for the target place, which also serves the no-invention rule (a missing fact becomes a `{>>TK …<<}` placeholder).
 - Numbers found here feed the fact-provenance check (every number resolves to M3).
 
 ## Weaknesses / risks

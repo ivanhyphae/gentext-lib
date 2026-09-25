@@ -14,7 +14,7 @@
 1. **Iterate in Claude Docs.** Drafts produced by M6 (with M7 QA notes) are pushed to a Claude Doc per application section. Humans comment there, and Claude revises there.
 2. **Final hand-off is manual.** A human copies approved blocks into the team's Google Doc. Agents never write to the team's Google Docs.
 3. **Harvest back into the repo.** Accepted text is saved to the library as a new chunk variant with lineage (`edited-in: claude-doc:<id>`, editors, date) so the round-trip keeps provenance (DR-0008).
-4. Each block handed off is *paste-ready*: within the word limit, no unresolved `[[NEEDS SOURCE]]` placeholders unless flagged in bold, plain formatting that survives paste.
+4. Each block handed off is *paste-ready*: within the word limit, no unresolved `{>>TK …<<}` notes (AGENTS.md convention) unless deliberately left for the lead writer, plain formatting that survives paste.
 
 ## Consequences
 - No dependency on the Google Docs API for writing. Tab-aware *reading* of Google Docs, for ingest, is still worth solving (research topic).
@@ -25,3 +25,4 @@
 - Repo-only Markdown review: fine for agents, unfamiliar for the grant team.
 
 ## Revisions
+- 2026-09-25: Placeholder syntax changed from `[[NEEDS SOURCE]]` to CriticMarkup `{>>TK type: …<<}`, which avoids a clash with Obsidian wikilinks.

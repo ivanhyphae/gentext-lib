@@ -41,7 +41,7 @@ It is the lightest way to get the library in front of Claude web in the pilot wi
 
 ## How it would fit
 
-- P0/P1 on the web: a shared "EHCRP Round 2" project. Knowledge = exported library Markdown (reviewed, shareable-tagged chunks only), glossary, solicitation YAML. Instructions = "cite chunk ids; use `[[NEEDS SOURCE]]`".
+- P0/P1 on the web: a shared "EHCRP Round 2" project. Knowledge = exported library Markdown (reviewed, shareable-tagged chunks only), glossary, solicitation YAML. Instructions = "cite chunk ids; use `{>>TK …<<}`".
 - A script (`gentext export-project`) builds the upload bundle from git, so the copy stays reproducible.
 - Superseded in P2 by the MCP connector plus skills. The project may then stay as a place for instructions and chat history.
 

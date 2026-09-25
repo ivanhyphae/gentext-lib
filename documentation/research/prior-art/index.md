@@ -42,7 +42,7 @@ Who has already solved "reusable proposal prose + requirement tracking + draftin
 3. **Moderation gate**: text harvested from Claude Docs lands as a `draft` variant until a named moderator promotes it. (M9 → M2)
 4. **ROT audit** (redundant, outdated, trivial): near-duplicates (M1), expired facts (M3), client-specific leftovers (M7 leakage check) as one periodic job.
 5. **Few broad tags, controlled vocabulary**: fewer, clearer topics beat hundreds of tags. (M2, M3)
-6. **Sentence-level citations + "information unavailable"**: the market's best anti-hallucination feature is our provenance map and `[[NEEDS SOURCE]]`. Keep it. (M6)
+6. **Sentence-level citations + "information unavailable"**: the market's best anti-hallucination feature is our provenance map and `{>>TK …<<}`. Keep it. (M6)
 7. **Shred to one requirement per row**, including "hidden" requirements in narrative and scoring text, in the funder's numbering. (M5) See [compliance matrix](compliance-matrix.md).
 8. **Citation gate on extraction**: every extracted requirement must quote the solicitation verbatim with page/line, checked by code. (M5, M7) See [rfp-evaluation-matrix](rfp-evaluation-matrix.md).
 9. **Color-team stages as QA modes**: pink (structure vs rubric), red (independent scoring as the evaluator, our adversarial LLM pass), gold (final compliance). (M7, M8) See [color teams](color-team-review.md).

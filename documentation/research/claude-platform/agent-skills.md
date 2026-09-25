@@ -44,7 +44,7 @@ The README asks for "anthropic format skills". The format also mirrors our wiki:
 ## How it would fit
 
 - Skills: `find-copy`, `draft-answer`, `check-draft`, `model-solicitation`, `harvest-edits`, `ingest-source` (Claude Code only).
-- Each SKILL.md states the workflow, the truthfulness rules (no invented facts, `[[NEEDS SOURCE]]`), which MCP tools or CLI verbs to call, and where to stop for human review.
+- Each SKILL.md states the workflow, the truthfulness rules (no invented facts, `{>>TK …<<}`), which MCP tools or CLI verbs to call, and where to stop for human review.
 - `references/` holds the voice guide, a glossary summary and a funder-values crib. `scripts/` holds stdlib-only checks that also run in the claude.ai sandbox.
 - Source of truth is `plugins/gentext/skills/` in git, published to each surface from there.
 

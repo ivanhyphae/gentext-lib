@@ -19,7 +19,7 @@ updated: 2026-09-25
 2. **LLMs quote; code locates.** Offsets are always computed by the validator, never trusted from a model ([evidence](s-llm-span-annotation.md)).
 3. **One taxonomy, many sources.** `category` is ours. Source-native labels (LAMP, Shaib, Scarecrow, humanizer pattern) go in `also`.
 4. **Evidence is typed.** A reader can tell at a glance whether a finding rests on a rule, a number or an opinion.
-5. **Suggestions carry constraints.** The default is `no-new-facts`. A fix that needs a fact becomes `add-source`, which produces a `[[NEEDS SOURCE: …]]` placeholder (AGENTS.md).
+5. **Suggestions carry constraints.** The default is `no-new-facts`. A fix that needs a fact becomes `add-source`, which produces a `{>>TK source: …<<}` placeholder (AGENTS.md).
 6. **Advisory by default.** Only `fact.*`, `context.*` and structural checks may reach `critical`. Style and slop top out at `major`.
 
 ## Record (YAML, one per finding, stored in `findings.jsonl`)
@@ -120,7 +120,7 @@ anchor: {exact: "…", prefix: "…", suffix: "…"}   # offsets filled by valid
 evidence: {type: reason, rubric_ref: EHCRP-R2/HR-Q1/medium/not-generic,
            rationale: "True of any hot inland suburb; no Bay Point anchor."}
 suggestion: {action: make-specific, constraints: [no-new-facts],
-             instruction: "Use a Bay Point fact from M3 (e.g., bus-stop shade gap) or insert [[NEEDS SOURCE: …]]."}
+             instruction: "Use a Bay Point fact from M3 (e.g., bus-stop shade gap) or insert {>>TK source: …<<}."}
 ```
 
 ## Validator (plain Python, runs after every detector)
