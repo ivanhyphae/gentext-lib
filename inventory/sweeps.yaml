@@ -1,0 +1,35 @@
+# Discovery sweep log (DR-0010). One entry per discovery run; assets reference `discovered.sweep`.
+- id: s-2026-09-25-pilot
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: local
+  method: read pilot sources in projects/EHCRP Round 2/ and list referenced-but-missing assets
+  found: 17
+  recorded: 17
+  notes: Seeds `wanted` items from references inside the pilot working doc and solicitation.
+
+- id: s-2026-09-25-gdrive-01
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: gdrive
+  method: Google Drive connector search_files (metadata only, excludeContentSnippets)
+  queries:
+    - "fullText contains 'Extreme Heat' and fullText contains 'Resilience'"
+    - "title contains 'proposal' or title contains 'Proposal' or title contains 'RFP' or title contains 'narrative'"
+    - "title contains 'EHCRP' or title contains 'EHRGP' or title contains 'Round 1' or fullText contains 'Extreme Heat and Community Resilience'"
+  found: 85
+  recorded: 41
+  notes: >
+    41 records cover ~60 files (related duplicates and vendor families are grouped into one record's notes). First page of each query only (next pages not fetched). Triage from titles/metadata, no content read.
+    Next: page through results; walk folders `extreme-heat-grant-2023-folder` and `ehcrp-round-2-drive-folder`;
+    sweep for past submitted proposals by funder (CNRA, CalFire UCF, SGC TCC, EPA, NSF, Caltrans).
+
+- id: s-2026-09-25-web-01
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: web
+  method: WebSearch
+  queries:
+    - "Extreme Heat and Community Resilience Program Round 1 awards list LCI 2025 grantees"
+  found: 10
+  recorded: 5

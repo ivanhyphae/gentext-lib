@@ -102,4 +102,5 @@ M0 → M1 → M2 (≈15–25 chunks: firm experience, Bay Point context, methods
 5. Should M9 target Claude Docs, Google Docs (where the team works today), or both?
 
 ## Revisions
+- 2026-09-25: Added **M11 Discovery & inventory** upstream of M0 (DR-0010): find, triage, and track assets (past proposals, prior-round award lists, cited reports, datasets) before they're acquired and ingested.
 - 2026-09-25: Maintainer accepted section-level chunks as a starting point, to be revisited as more cases arrive. Partner-authored text goes *in* the library with authorship provenance (DR-0008). M9 targets Claude Docs, with manual paste to Google Docs (DR-0007).

@@ -24,6 +24,7 @@ Numbered, append-mostly records of how and why `gentext-lib` is shaped the way i
 | [0007](0007-collaboration-workflow-shadow-pilot.md) | Collaboration: Claude Docs iteration, manual paste to Google Docs | Accepted |
 | [0008](0008-authorship-provenance.md) | Authorship as first-class provenance (chunk + optional span), for accountability/QC | Proposed |
 | [0009](0009-deployment-path.md) | Deployment: Claude Code clone MVP → FastMCP on Google Cloud Run | Accepted |
+| [0010](0010-asset-discovery-and-inventory.md) | Asset discovery and inventory (M11): YAML manifest, sweep log, discovery skill | Accepted |
 
 ## Template
 

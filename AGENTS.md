@@ -24,9 +24,12 @@ documentation/research/          progressive-disclosure research wiki (start at 
 projects/                         RAW client/solicitation sources, committed (private repo, DR-0004)
 pyproject.toml, uv.lock, .python-version   uv project (DR-0006); .venv/ is local and gitignored
 src/gentext/                      the Python package and `gentext` CLI
+inventory/                        asset manifest (assets.yaml), sweep log (sweeps.yaml), generated index.md (DR-0010)
+skills/                           Agent Skills; asset-discovery/ = how to sweep Drive/web into the inventory
+tests/                            pytest (`uv run pytest`)
 ```
 
-Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown), `solicitations/`, `skills/`, `tests/`.
+Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown), `solicitations/`, `sources/` (acquired files, keyed by inventory id).
 
 ## Pilot case
 
@@ -58,6 +61,10 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - Keep the lineage when adapting a chunk (which chunk, which variant, what changed).
 - **Authorship is essential provenance, for accountability and quality control, not legal rights.** Final proposals mix Hyphae, partner, and AI-written text without distinction. The library records who wrote what (a person/org, or an AI model + inputs) and who edited or approved it, so that when there's a problem we know **who to ask** and can trace bad text back to its origin. Record it at chunk level always, and at span level where it matters (DR-0008).
 - Watch for **context leakage**: text reused from one client/place and still naming the old one. The pilot contains a real case: firm boilerplate in the Bay Point doc ends with "…for Fresno County."
+
+### Finding and tracking sources (DR-0010)
+- Before hunting for material, check `inventory/index.md`. If something is missing, follow `skills/asset-discovery/SKILL.md`: log a sweep, run `gentext inventory find` before adding a record, triage, then validate → index → test → commit.
+- Anything we know we need but don't have goes in as `status: wanted` with a `hint`, including evidence gaps in drafts (a cited report, a dataset, community quotes).
 
 ### Terminology
 - Canonical terms and acronym expansions go in a controlled glossary (planned: `library/glossary/`). Known pilot collision: UTCI appears as both "Universal Thermal Climate Index" (correct) and "Urban Thermal Comfort Index". Use the glossary form.
