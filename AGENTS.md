@@ -22,9 +22,11 @@ AGENTS.md                         this file
 documentation/decision-record/    numbered decision records (see below)
 documentation/research/          progressive-disclosure research wiki (start at index.md)
 projects/                         RAW client/solicitation sources, committed (private repo, DR-0004)
+pyproject.toml, uv.lock, .python-version   uv project (DR-0006); .venv/ is local and gitignored
+src/gentext/                      the Python package and `gentext` CLI
 ```
 
-Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown), `solicitations/`, `src/gentext/`, `skills/`, `tests/`.
+Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown), `solicitations/`, `skills/`, `tests/`.
 
 ## Pilot case
 
@@ -56,14 +58,16 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - Canonical terms and acronym expansions go in a controlled glossary (planned: `library/glossary/`). Known pilot collision: UTCI appears as both "Universal Thermal Climate Index" (correct) and "Urban Thermal Comfort Index". Use the glossary form.
 - Funder vocabulary (e.g., EHCRP's *Harm Reduction, Partnership, Belonging, Lasting Community Benefits*) belongs to the solicitation model. Don't mix it into the firm glossary.
 
-### Working with source files
-- Tools present on the dev machine: `pdftotext` (poppler) and `python3`. `pandoc` and `python-docx` are not installed. DOCX can be read with stdlib `zipfile` + `xml.etree` on `word/document.xml`.
-- Write extraction output and other intermediates to a scratch/temp directory, not the repo, until the ingest module defines where derived text lives.
+### Python environment (DR-0006)
+- The machine is Arch Linux. System Python is externally managed, so **never** `pip install` into it, and never use pacman `python-*` packages for this project.
+- The project uses a repo-local **`.venv` managed by uv**, on a uv-managed interpreter pinned in `.python-version` (3.12). Run `uv sync` after pulling, then run everything through **`uv run`** (`uv run gentext …`, `uv run pytest`, `uv run python script.py`). Don't call bare `python3` for project code.
+- Add dependencies with `uv add <pkg>`, or `uv add --group nlp|models <pkg>` for heavy ones. Commit `pyproject.toml` + `uv.lock` together.
+- pandoc comes from `pypandoc-binary` (inside `.venv`); Vale from the `vale` PyPI wrapper; LanguageTool, if needed, from a podman container.
+- Quick throwaway experiments go in a temp venv under the scratchpad (`uv venv`), not in the project's dependencies.
 
-### Code conventions (proposed, see DR-0006)
-- Python ≥3.12, managed with `uv`, matching the sibling `hyphae_ai_skills` repo.
-- Plain-text canonical data (Markdown + YAML frontmatter). Databases and indexes are *derived* and must be rebuildable from the repo.
-- Skills follow the Anthropic skill format (`SKILL.md` + scripts + references).
+### Working with source files
+- DOCX → Markdown: pandoc (`uv run python -c "import pypandoc; …"` or the bundled binary). `pdftotext` (poppler) is available system-wide for PDFs.
+- Write extraction output and other intermediates to a scratch/temp directory, not the repo, until the ingest module defines where derived text lives.
 
 ### Related repos (siblings in `hyphae-dev/`)
 - `hyphae_ai_skills`: existing Hyphae Claude skills (bpmn, tana-paste, graph-charts, everhour).

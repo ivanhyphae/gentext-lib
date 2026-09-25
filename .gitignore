@@ -1,0 +1,10 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Derived data (DR-0005): rebuildable, never committed
+/build/
+*.sqlite
+*.sqlite-journal

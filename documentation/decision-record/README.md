@@ -20,7 +20,7 @@ Numbered, append-mostly records of how and why `gentext-lib` is shaped the way i
 | [0003](0003-module-decomposition.md) | Module decomposition | Proposed |
 | [0004](0004-source-corpus-confidentiality.md) | Source corpus in the private repo; light sensitivity tagging | Accepted |
 | [0005](0005-canonical-store-plain-text.md) | Canonical library is plain-text Markdown in git; indexes are derived | Proposed |
-| [0006](0006-language-and-tooling.md) | Python + uv; classical NLP stack | Proposed |
+| [0006](0006-language-and-tooling.md) | Python + uv with a repo-local .venv; no system Python packages | Accepted |
 | [0007](0007-collaboration-workflow-shadow-pilot.md) | Collaboration: Claude Docs iteration, manual paste to Google Docs | Accepted |
 | [0008](0008-authorship-provenance.md) | Authorship as first-class provenance (chunk + optional span), for accountability/QC | Proposed |
 | [0009](0009-deployment-path.md) | Deployment: Claude Code clone MVP → FastMCP on Google Cloud Run | Accepted |
