@@ -31,8 +31,19 @@ PROMPT_VERSION = "c3"
 HEAD_WORDS = 120
 MAX_HEAD_WORDS_TOTAL = 5000
 MAX_TOKENS = 4000
-# Haiku 4.5 list price per MTok (claude-api skill, cached 2026-06-24); Batch API is 50% off.
-PRICE_IN, PRICE_OUT = 1.00, 5.00
+# List price per MTok (claude-api skill, cached 2026-06-24); Batch API is 50% off.
+PRICES = {"claude-haiku-4-5": (1.00, 5.00), "claude-sonnet-5": (2.00, 10.00), "claude-opus-5": (5.00, 25.00)}
+PRICE_IN, PRICE_OUT = PRICES[MODEL]
+
+
+def use_model(model: str, out_dir: Path | None = None) -> None:
+    """Switch model (and optionally output dir, for side-by-side tests). Sonnet/Opus think adaptively, so allow more tokens."""
+    global MODEL, PRICE_IN, PRICE_OUT, MAX_TOKENS, CARD_DIR, RUN_LOG
+    MODEL = model
+    PRICE_IN, PRICE_OUT = PRICES[model]
+    MAX_TOKENS = 4000 if "haiku" in model else 16000
+    if out_dir:
+        CARD_DIR, RUN_LOG = out_dir, out_dir / "card-runs.yaml"
 
 Disposition = Literal["hold", "reference", "ignore", "drop"]
 SectionType = Literal[

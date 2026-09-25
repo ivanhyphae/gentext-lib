@@ -2,6 +2,8 @@
 
 Guidance for AI agents (Claude Code, Claude web, others) and human collaborators working in `gentext-lib`.
 
+> **Start here:** [`documentation/status.md`](documentation/status.md) has the current state, what's in hand for the live application, next steps, and how to resume in a cloud session. The tooling backlog is in [`documentation/backlog.md`](documentation/backlog.md).
+
 ## What this repo is
 
 A library and toolkit for Hyphae's **archival proposal prose**: grant narratives, qualifications, firm experience, project descriptions, and marketing copy. The goals (see `README.md`):
@@ -23,7 +25,9 @@ documentation/decision-record/    numbered decision records (see below)
 documentation/research/          progressive-disclosure research wiki (start at index.md)
 projects/                         RAW client/solicitation sources, committed (private repo, DR-0004)
 pyproject.toml, uv.lock, .python-version   uv project (DR-0006); .venv/ is local and gitignored
-src/gentext/                      the Python package and `gentext` CLI
+src/gentext/                      the Python package and `gentext` CLI (inventory, profile, card, extract)
+library/_candidates/              T3 candidate chunks (verbatim, with provenance); not yet the library
+scripts/cloud-setup.sh            setup script for Claude Code cloud environments
 inventory/                        asset manifest (assets.yaml), sweep log (sweeps.yaml), generated index.md (DR-0010);
                                   profiles/ (T1, no LLM) and cards/ (T2, Haiku) per asset, card-runs.yaml cost log (DR-0011)
 solicitations/<funder>/<program>/<round>/   solicitation.yaml, questions.yaml (verbatim from the form), applications/ (DR-0012)
@@ -71,8 +75,10 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 
 ### Processing sources: spend tokens in proportion to value (DR-0011)
 - Don't read large sources end to end. Run `uv run gentext profile` (free), then read the **cards** in `inventory/cards/` (disposition, reusable sections, fact candidates) before opening any source.
-- Make new cards with `uv run --env-file .env gentext card run [ids]` (Batch API, Haiku). In cloud sessions without a key, use `gentext card prepare` plus Haiku sub-agents, then `gentext card ingest`.
-- Only `hold` documents go on to extraction. `reference` documents are looked up when a question needs them.
+- Make new cards with `uv run --env-file .env gentext card run [ids]` (Batch API, **Haiku**). In cloud sessions without a key, use `gentext card prepare` plus Haiku sub-agents, then `gentext card ingest`.
+- Only `hold` documents go on to extraction, **in need order**. `uv run --env-file .env gentext extract [ids]` uses **Sonnet 5** (tested better than Haiku for chunk boundaries and quoted facts). Without a key: `gentext extract --prepare`, then Sonnet sub-agents write JSON to `build/extract-raw/<run>/<asset>__<sid>.json`, then `gentext extract --revalidate <dir>`.
+- Candidates in `library/_candidates/` are staging, not library. Promotion (T4) is a deliberate human/Opus step.
+- `reference` documents are looked up when a question needs them.
 
 ### Terminology
 - Canonical terms and acronym expansions go in a controlled glossary (planned: `library/glossary/`). Known pilot collision: UTCI appears as both "Universal Thermal Climate Index" (correct) and "Urban Thermal Comfort Index". Use the glossary form.

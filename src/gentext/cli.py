@@ -74,6 +74,8 @@ def _card(args: argparse.Namespace) -> int:
     from gentext import card
 
     assets = _select(args.ids, None)
+    if getattr(args, "model", None):
+        card.use_model(args.model, Path(args.out) if args.out else None)
     if args.card_cmd == "run":
         entry = card.run_api(assets, batch=not args.sync, force=args.force)
         print(json.dumps(entry, indent=2, default=str))
@@ -101,6 +103,10 @@ def _extract(args: argparse.Namespace) -> int:
         for it in todo:
             print(f"{it['asset'].id}\t{it['sid']}\t{len(it['body'].split())}w\t{it['path'][:70]}")
         print(f"{len(todo)} sections to extract; {len(skipped)} skipped")
+        return 0
+    if args.prepare:
+        n = candidates.prepare(args.ids or None)
+        print(f"wrote {n} prompt files to {candidates.PROMPT_DIR}")
         return 0
     if args.revalidate:
         entry = candidates.revalidate(Path(args.revalidate))
@@ -141,6 +147,8 @@ def main(argv: list[str] | None = None) -> int:
         sp.add_argument("--force", action="store_true", help="re-card even if the card is current")
         if name == "run":
             sp.add_argument("--sync", action="store_true", help="one request at a time instead of the Batch API")
+            sp.add_argument("--model", choices=["claude-haiku-4-5", "claude-sonnet-5", "claude-opus-5"])
+            sp.add_argument("--out", help="write cards to this dir instead of inventory/cards (for comparisons)")
         if name == "show-prompt":
             sp.add_argument("--system", action="store_true")
     p_ing = card_sub.add_parser("ingest", help="subagent backend: validate and save {asset_id: card} JSON")
@@ -150,6 +158,7 @@ def main(argv: list[str] | None = None) -> int:
     p_ext.add_argument("ids", nargs="*", help="asset ids (default: all hold)")
     p_ext.add_argument("--plan", action="store_true", help="list sections that would be extracted, then stop")
     p_ext.add_argument("--sync", action="store_true")
+    p_ext.add_argument("--prepare", action="store_true", help="sub-agent backend: write prompt files to build/extract-prompts/")
     p_ext.add_argument("--revalidate", metavar="RAW_DIR", help="re-slice saved raw outputs (build/extract-raw/<run>) without API calls")
 
     args = parser.parse_args(argv)

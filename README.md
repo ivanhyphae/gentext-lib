@@ -14,7 +14,7 @@
 
 ## Implementation plan
 
-[TBD in collaboration with llm agent and human colleagues]
+See [`documentation/status.md`](documentation/status.md) for the current state and next steps, [`documentation/decision-record/`](documentation/decision-record/README.md) for decisions, [`documentation/backlog.md`](documentation/backlog.md) for pending tooling, and [`AGENTS.md`](AGENTS.md) for working agreements.
 
 ### Targets
 

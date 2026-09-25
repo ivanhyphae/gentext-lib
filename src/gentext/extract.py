@@ -6,6 +6,7 @@ Deterministic, no LLM. Output is cached under build/text/ (derived, gitignored).
 from __future__ import annotations
 
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -26,8 +27,12 @@ def _from_md(path: Path) -> str:
 
 
 def _from_pdf(path: Path) -> str:
-    out = subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True, check=True)
-    return out.stdout
+    """pdftotext (poppler) when installed; pypdf fallback for environments without it (e.g. cloud sessions)."""
+    if shutil.which("pdftotext"):
+        return subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True, check=True).stdout
+    from pypdf import PdfReader
+
+    return "\n\n".join(page.extract_text() or "" for page in PdfReader(str(path)).pages)
 
 
 _TITLE_DIV = re.compile(r'^::: \{custom-style="(Title|Subtitle)"\}\n(.*?)\n:::$', re.M | re.S)

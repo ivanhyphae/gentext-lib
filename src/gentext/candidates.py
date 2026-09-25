@@ -15,6 +15,7 @@ Candidates are NOT library chunks; promotion (T4) is a human/Opus step.
 from __future__ import annotations
 
 import datetime as dt
+import json
 import re
 import time
 from pathlib import Path
@@ -24,15 +25,18 @@ import yaml
 from pydantic import BaseModel, ConfigDict
 
 from gentext import inventory as inv
-from gentext.card import CARD_DIR, PRICE_IN, PRICE_OUT, _M as _Strict
+from gentext.card import CARD_DIR, PRICES, _M as _Strict
 from gentext.extract import redact
 from gentext.profile import asset_text, shingles
 
 CAND_DIR = Path("library/_candidates")
 RUN_LOG = Path("library/_candidates/extract-runs.yaml")
-MODEL = "claude-haiku-4-5"
+# Sonnet 5 beat Haiku 4.5 on extraction in a 2026-09-25 test (finer chunks, more quoted facts, 3% vs ~11%
+# anchor misses) at ~20x cost, still ~$1.5–3 per batch of ~45 sections. Haiku stays the card (T2) model.
+MODEL = "claude-sonnet-5"
 PROMPT_VERSION = "x1"
-MAX_TOKENS = 6000
+MAX_TOKENS = 16000  # Sonnet thinks adaptively; thinking counts toward max_tokens
+MIN_CHUNK_WORDS = 25
 MAX_SECTION_WORDS = 3500
 SKIP_TYPES = {"solicitation-text", "admin", "notes"}
 DUP_CONTAINMENT = 0.9
@@ -217,6 +221,9 @@ def write_candidates(item: dict, ext: Extraction, usage: dict) -> tuple[int, lis
         if not text:
             problems.append(f"{sid}#{n} anchors not found: {ch.title}")
             continue
+        if len(text.split()) < MIN_CHUNK_WORDS:
+            problems.append(f"{sid}#{n} under {MIN_CHUNK_WORDS} words: {ch.title}")
+            continue
         facts = [f.model_dump() for f in ch.facts if _norm(f.quote) and _norm(f.quote) in text]
         dropped = len(ch.facts) - len(facts)
         fm = {
@@ -250,6 +257,21 @@ def item_for(asset_id: str, sid: str) -> dict:
     sec = sections[int(sid[1:]) - 1]
     body = " ".join(" ".join(sec.lines).split()[:MAX_SECTION_WORDS]) if sec.words > MAX_SECTION_WORDS else "\n".join(sec.lines)
     return {"asset": a, "sid": sid, "path": sec.path, "type_hint": "", "body": body, "source_sha": a.local.sha256}
+
+
+PROMPT_DIR = Path("build/extract-prompts")
+
+
+def prepare(asset_ids: list[str] | None = None) -> int:
+    """Sub-agent backend: one self-contained prompt file per section. A sub-agent must write the JSON object it
+    produces (matching `schema`) to build/extract-raw/<run>/<asset>__<sid>.json; then run `gentext extract --revalidate`."""
+    todo, _ = plan(asset_ids)
+    PROMPT_DIR.mkdir(parents=True, exist_ok=True)
+    for it in todo:
+        key = f"{it['asset'].id}__{it['sid']}"
+        (PROMPT_DIR / f"{key}.json").write_text(json.dumps(
+            {"key": key, "system": SYSTEM, "user": _user(it), "schema": _schema()}, ensure_ascii=False))
+    return len(todo)
 
 
 def revalidate(raw_dir: Path) -> dict:
@@ -322,7 +344,7 @@ def run(asset_ids: list[str] | None = None, batch: bool = True, poll: int = 30) 
     entry = {"run": run_id, "date": dt.date.today().isoformat(), "model": MODEL, "prompt_version": PROMPT_VERSION,
              "sections": len(key), "candidates": written, "anchor_problems": problems, "errors": errors,
              "skipped": len(skipped), "input_tokens": tin, "output_tokens": tout,
-             "est_cost_usd": round((tin * PRICE_IN + tout * PRICE_OUT) / 1e6 * (0.5 if batch else 1), 4)}
+             "est_cost_usd": round((tin * PRICES[MODEL][0] + tout * PRICES[MODEL][1]) / 1e6 * (0.5 if batch else 1), 4)}
     CAND_DIR.mkdir(parents=True, exist_ok=True)
     runs = (yaml.safe_load(RUN_LOG.read_text()) if RUN_LOG.exists() else None) or []
     RUN_LOG.write_text(yaml.safe_dump(runs + [entry], sort_keys=False, width=120))
