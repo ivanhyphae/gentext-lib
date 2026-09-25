@@ -25,8 +25,8 @@ Numbered, append-mostly records of how and why `gentext-lib` is shaped the way i
 | [0008](0008-authorship-provenance.md) | Authorship as first-class provenance (chunk + optional span), for accountability/QC | Proposed |
 | [0009](0009-deployment-path.md) | Deployment: Claude Code clone MVP → FastMCP on Google Cloud Run | Accepted |
 | [0010](0010-asset-discovery-and-inventory.md) | Asset discovery and inventory (M11): YAML manifest, sweep log, discovery skill | Accepted |
-| [0011](0011-content-triage-funnel.md) | Content triage funnel: profile → Haiku card → extract → promote; dispositions hold/reference/ignore/drop | Proposed |
-| [0012](0012-solicitation-and-application-model.md) | Solicitation model with explicit applications (permutations of site/partners) | Proposed |
+| [0011](0011-content-triage-funnel.md) | Content triage funnel: profile → Haiku card → extract → promote; dispositions hold/reference/ignore/drop | Accepted (provisional) |
+| [0012](0012-solicitation-and-application-model.md) | Solicitation model with explicit applications (permutations of site/partners) | Accepted (provisional) |
 
 ## Template
 

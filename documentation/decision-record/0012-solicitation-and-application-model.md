@@ -1,6 +1,6 @@
 # 0012. Solicitation model with explicit applications (permutations)
 
-- Status: Proposed (2026-09-25)
+- Status: Accepted (2026-09-25, provisional: "ok for now, let's see how it goes")
 - Date: 2026-09-25
 - Deciders: Ivan Heitmann; Claude (drafting)
 
@@ -34,6 +34,7 @@ solicitations/<funder>/<program>/<round>/
 - Should the workbook (workplan/budget) constraints be modelled in the pilot, or narrative questions only? Lean: narrative only until after Oct 13.
 
 ## Revisions
+- 2026-09-25: Accepted provisionally by the maintainer; revisit after the EHCRP application.
 - 2026-09-25 (maintainer): guidelines and scoring criteria often live **outside the primary solicitation document** and must still be part of the model. Added:
   - A **`standards:`** list in `solicitation.yaml`: every document that sets the bar (form, FAQ clarifications, guidelines and appendices, checklist, external criteria such as the Meaningful and Direct Benefits Assessment, external tools such as VCP, TA/reviewer guides), each with a `role` and a `precedence` for resolving conflicts. The lower number wins; if equal, the newer document wins. Superseded drafts are listed but never cited.
   - **`requirements.yaml`** for requirements not tied to a narrative question (priority-point criteria, budget shares, Belonging timing, TA-guide expectations), each citing its standard, the questions it applies to, and how M7 can check it.

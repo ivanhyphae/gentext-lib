@@ -1,6 +1,6 @@
 # 0011. Content triage funnel: spend tokens in proportion to value
 
-- Status: Proposed (2026-09-25)
+- Status: Accepted (2026-09-25, provisional: "ok for now, let's see how it goes")
 - Date: 2026-09-25
 - Deciders: Ivan Heitmann; Claude (drafting)
 
@@ -61,6 +61,7 @@ So the funnel spends tokens on whatever helps the live application first. The sa
 - Where do Claude Docs and meeting-notes context enter the funnel? Lean: T1/T2 only, disposition `ignore` or `reference`, never `hold` without a human.
 
 ## Revisions
+- 2026-09-25: Accepted provisionally by the maintainer; revisit after the EHCRP application.
 - 2026-09-25: **Model split by tier, from a side-by-side test.** Cards: Sonnet 5 agreed with Haiku on 10/12 dispositions at ~8× the cost, so T2 stays on Haiku. Extraction: on the same 6 Bay Point sections, Sonnet 5 produced 32 library-sized chunks (Haiku: 13, some >1,000 words), 39 quoted facts (22), and 3% anchor misses (~11%), for ~$0.07/section sync, so **T3 defaults to Sonnet 5**, with a 25-word minimum chunk size. Added `extract --prepare` so the sub-agent backend covers T3 as well as T2, and a pypdf fallback when `pdftotext` is absent (cloud sessions).
 - 2026-09-25: **T3 implemented** (`gentext extract`). Haiku proposes chunks as start/end *anchors*, and code slices the exact source text (whitespace- and markup-insensitive), so candidates are verbatim by construction. Facts are kept only if their quote occurs in the chunk. Sections ≥90% contained in an already-extracted section are skipped. Raw outputs are saved under `build/extract-raw/<run>/`, and `--revalidate` re-slices them with no API cost. First run: 44 sections → **111 candidates**, 190 kept facts, 14 unmatched anchors (~11%), **≈$0.15**. Context-leakage flags work: 7 raised; the "Monument Corridor" flag in both Bay Point pre-apps was verified as a deliberate citation of the CCHS 2015 case study (p. 34), not leakage. A bug where the schema helper stripped a property literally named `title` was caught and fixed, with a regression test.
 - 2026-09-25: Card batch 2 (prompt c3, section ids): 97/97 cards, **≈$0.65**. Dispositions: 55 hold, 46 reference, 3 ignore. Haiku leans generous on `hold`, so T3 should be ordered by needs (live questions first), not run on every hold.

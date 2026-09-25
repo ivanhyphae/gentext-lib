@@ -27,7 +27,7 @@ It also has a **solicitation model** for the live application (LCI EHCRP Round 2
 
 | What | Where | State |
 |---|---|---|
-| Decision records | `documentation/decision-record/` (0001–0012) | 0011 and 0012 are implemented but still marked Proposed. Ask the maintainer to accept. |
+| Decision records | `documentation/decision-record/` (0001–0012) | 0011 and 0012 accepted provisionally (revisit after the EHCRP application) |
 | Research wiki | `documentation/research/index.md` | 9 topics, ~150 pages |
 | Inventory | `inventory/assets.yaml` (182 records), `index.md`, `sweeps.yaml` | 104 acquired, ~72 include/defer, 8 wanted |
 | Sources | `sources/<asset-id>/` + `projects/EHCRP Round 2/` | committed (private repo) |
@@ -71,7 +71,6 @@ See `documentation/backlog.md` for the tooling backlog.
 
 ## Open questions for the maintainer
 
-- Accept DR-0011 (triage funnel) and DR-0012 (solicitation/application model)?
 - Is there any Round 1 interview or feedback material (Brent)? It is recorded as a wanted asset.
 - Which funders were behind the successful Ambrose Center Park green stormwater grants? (Wanted item; the "Ambrose Stormwater" folder is not yet walked.)
 - Should "card" be renamed (e.g., "triage record")? It was borrowed from catalog cards / model cards.
