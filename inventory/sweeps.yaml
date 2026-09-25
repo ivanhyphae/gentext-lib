@@ -118,3 +118,17 @@
     owner = james: 2 pages (5 + 50). Stopped on page 2: it had moved into CVs, headshots, GIS layers and pesticide-grant citations; a next-page token remains.
     James's heat language: NOT FOUND. No James-owned heat application exists in the shared Drive. His files are Ambrose/UGG material (UGG concept form, Willow Pass bus-stop draft, project notes, Resilience Hub survey) and a DPR pesticide application. Prior heat-application text by others is recorded (EHCRP R1 CEJC draft, Max's 'EHCRP Round 2' 2025 doc, Greening Africatown, Resilient Philadelphia, CalEPA EJ). The wanted item stays open: ask James.
     High-value P1 finds: 'Past Proposals' doc (matches past-hyphae-proposals-overview), the Ambrose Resilience Hub survey (matches ambrose-community-voices), and James's Willow Pass and Ambrose UGG concept drafts.
+
+- id: s-2026-09-25-gdrive-05
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: gdrive
+  method: Google Drive connector search_files (metadata only)
+  queries:
+    - "(fullText contains 'Ambrose' and (fullText contains 'stormwater' or fullText contains 'green infrastructure'))"
+  found: 30
+  recorded: 9
+  notes: >
+    Prompted by the maintainer: James co-wrote successful green stormwater infrastructure grants for Ambrose Center Park.
+    Page 1 only. Invoices and Ivan's internal meeting notes skipped (not recorded). Also records the maintainer's
+    R1 outcome (submitted, interviewed, not awarded) and retires the mistaken 'James heat language' wanted item.

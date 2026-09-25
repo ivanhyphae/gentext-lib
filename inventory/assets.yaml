@@ -515,17 +515,6 @@
   priority: 3
   location: {system: gdrive, id: 1t9K-DXFfPFByP_ctBNlejOnQ0D9d73smRzg9lXIGKDY, url: "https://docs.google.com/spreadsheets/d/1t9K-DXFfPFByP_ctBNlejOnQ0D9d73smRzg9lXIGKDY/edit", mime: application/vnd.google-apps.spreadsheet, modified: 2023-08-08}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
-
-- id: prior-heat-application-language-james
-  title: James's prior heat-focused application language
-  kind: proposal
-  status: wanted
-  priority: 1
-  hint: "Action item in the 2026-08-07 meeting notes: 'James Hansen will provide or adapt his prior heat-focused application language'. Ask James, or sweep Drive for docs he owns."
-  relevance: {programs: [ehcrp-r2], note: "Likely the best-matched existing heat narrative."}
-  discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
-  notes: "2026-09-25 sweeps s-2026-09-25-gdrive-02..04 (owner='james@hyphae.net' 2 pages + 'extreme heat' full-text since 2025, 3 pages): NO James-authored heat application found. James's Drive holds Ambrose/UGG material (ambrose-memorial-ugg-concept-form, willow-pass-bus-stop-gi-concept, ambrose-center-park-project-notes, ambrose-resilience-hub-survey) and a non-heat DPR application (spm-2027-pesticide-application-james). The prior heat-application language found is by others: ehcrp-r1-cejc-common-application-draft (Brent, EHCRP R1 2024), fresno-rfp-hyphae-2024, ehcrp-r2-early-doc-2025 (Max), greening-africatown-final-submission, resilient-philadelphia-grant-2025. His prior heat work may predate Hyphae or live outside the shared Drive. Still ask James."
-
 - id: past-hyphae-proposals-overview
   title: Past Hyphae proposals (the empty 'Past Proposals' section of the working doc)
   kind: proposal
@@ -1108,7 +1097,7 @@
     sweep: s-2026-09-25-web-02
 - id: ehcrp-r1-cejc-common-application-draft
   title: 'Extreme heat grant research (EHCRP): EHCRP R1 Full Application draft, CEJC lead / COMMON project (2024)'
-  kind: proposal-draft
+  kind: proposal
   status: include
   priority: 1
   location:
@@ -1130,12 +1119,12 @@
     - imperial-valley
     - stockton
     - fresno
-    note: "Hyphae's EHCRP ROUND 1 effort: the R1 Full Application Form (due 2024-05-07) transcribed with drafted answers for the California Environmental Justice Coalition (lead) 'Community-led Microclimate Observation Network (COMMON)', Hyphae as technical partner with JPL and UC Merced, Central/Imperial Valleys (Stockton, Fresno). Answers exist for Project Vision/Description; also a 2024-04-24 CEJC proposal summary, partner lists, and research links. Direct precedent for EHCRP R2 Project Description, Partnership and Harm Reduction answers and for Hyphae's heat-monitoring/digital-twin capability chunks. CEJC is not on the 2025-05-29 R1 awards list, so it was probably unfunded or not submitted."
+    note: "Hyphae's EHCRP Round 1 application (CEJC lead / COMMON project, Hyphae technical partner). SUBMITTED; INTERVIEWED; NOT AWARDED; LCI encouraged reapplying in Round 2 (maintainer, 2026-09-25). The closest precedent for how Hyphae framed heat work to this funder, plus what did not win."
   discovered:
     date: 2026-09-25
     by: claude-opus-5-5
     sweep: s-2026-09-25-gdrive-02
-  notes: "Content read 2026-09-25 (text export ~172k chars) to answer 'is this the R1 application?'. Snapshot copy 'Copy of Extreme heat grant research (EHCRP)' 1WJyRNYIvVsKbWzjYyZplSOwZeJHY_TIVjcJwLDIIeIA (2024-05-08, brent) is the same doc at an earlier date. Submission status unconfirmed: ask Brent."
+  notes: "Outcome per maintainer. Compare its answers with R1 scoring and the R2 rubric changes to see what to do differently."
 - id: hyphae-ehcrp-prez-2024
   title: Hyphae_EHCRP+prez (deck, 2024)
   kind: presentation
@@ -3213,3 +3202,189 @@
     by: claude-opus-5-5
     sweep: s-2026-09-25-gdrive-04
   notes: "Related: 'Acana sensor highlighs' 1p3SKlerZMhEm5aAP3COi_EcUuymyYn7UpcwV4WqIX7s; 'ACANA_GSI_James_Task_List.docx' 15NLO5ojRkLZjcAga3QD3wjdpwd99Zt-P."
+- id: ehcrp-r1-interview-and-feedback
+  title: EHCRP Round 1 interview materials and any LCI feedback/debrief
+  kind: guidance
+  status: wanted
+  priority: 1
+  hint: "R1 application was interviewed but not funded. Look for interview prep, questions asked, notes, and any feedback email from LCI (Brent/Ivan). Drive search: 'interview' + EHCRP/extreme heat, 2024."
+  relevance:
+    programs:
+    - ehcrp-r1
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Direct evidence of what reviewers probed and where the R1 proposal fell short.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+- id: ambrose-center-park-gi-additional-funding
+  title: Ambrose Center Park Green Infrastructure Enhancements — Additional Funding (Google Doc, James, 2024)
+  kind: proposal-draft
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1_vvsviJbFmPg8-He3cFtWJ7Zu-M7u_vAAT3o9d1oUNw
+    url: https://docs.google.com/document/d/1_vvsviJbFmPg8-He3cFtWJ7Zu-M7u_vAAT3o9d1oUNw/edit
+    mime: application/vnd.google-apps.document
+    size: 13866
+    modified: 2024-11-14
+    owner: james@hyphae.net
+  relevance:
+    places:
+    - bay-point
+    - ambrose-center-park
+    projects:
+    - ambrose-center-park-gi
+    note: 'Grant text for the successful Ambrose Center Park green stormwater infrastructure project, which James helped write. Same site as the ambrose-center-park application: site description, ARPD partnership track record (Partnership Q2), community process.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+  notes: 'DOCX sibling: 1Yd0epUVLS1TL2RxYd4_X6HqFV6omNA7U (modified 2025-05-28).'
+- id: ambrose-center-park-gsi-grant-applications
+  title: Successful green stormwater infrastructure grant applications for Ambrose Center Park (funders TBD)
+  kind: proposal
+  status: wanted
+  priority: 1
+  hint: "Maintainer: James helped a lot with, and wrote part of, successful GSI grants for Ambrose Center Park. Look in the 'Ambrose Stormwater' folder (1joCyP53TaKSmtx8jAElLwzONxhp9bC_6), James's Ambrose folders (parents 18E3Q2TzivntiSgktnTXz2sGv8fZNWe5o, 1vP1crmL27JgwrGYIxU12SJzoBAhjDOoW), or ask James which funder(s)."
+  relevance:
+    places:
+    - ambrose-center-park
+    note: Winning prose for the same site and lead agency; award facts for Partnership readiness.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+- id: ambrose-center-park-ceqa-project-description
+  title: AmbroseCenterPark_CEQA_Project_Description (Google Doc, James, Aug 2026)
+  kind: report
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 10xXr6KZ9MVTVsdslrIEqQmX-7v2KjIem0yKVng4IT6k
+    url: https://docs.google.com/document/d/10xXr6KZ9MVTVsdslrIEqQmX-7v2KjIem0yKVng4IT6k/edit
+    mime: application/vnd.google-apps.document
+    size: 7741981
+    modified: 2026-08-19
+    owner: james@hyphae.net
+    parent: 1uZlDQSKpuyLBRifW3eveZTXBY-cCjalE
+  relevance:
+    places:
+    - ambrose-center-park
+    note: Current, formal site/project description (CEQA). Authoritative site-context facts for the Center Park application and readiness evidence (the working doc says 'in CEQA').
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+- id: ambrose-center-park-community-meeting-decks
+  title: Ambrose Center Park community/ARPD meeting decks (2025–2026, James)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1fo1NfYnb6uzn8uM6CtJAludNVB_wcR1I
+    url: https://drive.google.com/file/d/1fo1NfYnb6uzn8uM6CtJAludNVB_wcR1I/view
+    mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
+    size: 43399026
+    modified: 2025-12-03
+    owner: james@hyphae.net
+  relevance:
+    places:
+    - ambrose-center-park
+    note: Evidence of an existing community engagement process at the site (Belonging Q2, Harm Reduction lived experience). 'Ambrose community meeting 1.pptx' plus related decks.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+  notes: 'Related decks: 1P6d6dS5uQe5AV2zeBsZOCbAx9WHvJLFibUxdZJIlMv4 (12/3/25), 1fJEY_CY7xTaHHxOkd-QjygI-zRI4yBAUHlzx8wjyN1Y (4/1/26), 1EnW8LIIfNwhUW3ruuVhINmTruPxroxHNvsFOqw_Pki4 (6/17/25), 1XVUd8IKIErjAxk1pNVKSOdbLYkxPLzX7BcmgBHFI9N8 (8/26/25). Large (text export only).'
+- id: ecc-green-infrastructure-arpd-deck
+  title: 'ECC Green Infrastructure: ARPD (deck, 10/24/24; earlier 2022 version)'
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1j47sMkjyC50c53HtNxSMlwakwdMxsptYrnamQ9bqWsU
+    url: https://docs.google.com/presentation/d/1j47sMkjyC50c53HtNxSMlwakwdMxsptYrnamQ9bqWsU/edit
+    mime: application/vnd.google-apps.presentation
+    size: 55093290
+    modified: 2026-06-04
+    owner: james@hyphae.net
+  relevance:
+    places:
+    - bay-point
+    projects:
+    - ambrose-center-park-gi
+    note: 'Hyphae–ARPD green infrastructure program history: partnership track record.'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+  notes: '2022 version: 1afjt_NeHCUa-UDT3iuqESizlxSem5VY3SM-hJ90GkYA. ARPD overview deck: 1AyJvKcK4vHczYVkhjdUDkxMIabf8BylwZd-G-IUgKHY.'
+- id: cccpw-gi-plan-bay-point-ambrose
+  title: CCCPW GI Plan — Bay Point / Ambrose Park District (deck, 2022, Brent)
+  kind: presentation
+  status: include
+  priority: 2
+  location:
+    system: gdrive
+    id: 1WYNTdzI0uSWbhZ5jzqCxQJk7sODtKX3g
+    url: https://drive.google.com/file/d/1WYNTdzI0uSWbhZ5jzqCxQJk7sODtKX3g/view
+    mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
+    size: 28078938
+    modified: 2022-04-14
+    owner: brent@hyphae.net
+  relevance:
+    places:
+    - bay-point
+    note: 'County Public Works GI plan context for Bay Point: prior planning (Lasting Community Benefits, readiness).'
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+- id: ambrose-stormwater-folder
+  title: 'Drive folder: Ambrose Stormwater (Eric)'
+  kind: other
+  status: include
+  priority: 1
+  location:
+    system: gdrive
+    id: 1joCyP53TaKSmtx8jAElLwzONxhp9bC_6
+    url: https://drive.google.com/drive/folders/1joCyP53TaKSmtx8jAElLwzONxhp9bC_6
+    mime: application/vnd.google-apps.folder
+    modified: 2025-10-29
+    owner: eric@hyphae.net
+  relevance:
+    places:
+    - ambrose-center-park
+    note: Walk for the successful GSI grant applications and award documents.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+- id: ambrose-center-park-sd-budget-2025
+  title: Ambrose Center Park_SDBudget_final (Mar 2025)
+  kind: report
+  status: defer
+  priority: 3
+  location:
+    system: gdrive
+    id: 1WRlwHClVp99RWmQYCigIlrJ7AFw1WasY
+    url: https://drive.google.com/file/d/1WRlwHClVp99RWmQYCigIlrJ7AFw1WasY/view
+    mime: application/pdf
+    size: 1782401
+    modified: 2025-08-21
+  relevance:
+    places:
+    - ambrose-center-park
+    note: Schematic design budget; cost-estimate context for readiness.
+  discovered:
+    date: 2026-09-25
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-gdrive-05
+  notes: 'Copies: 1DoRZpwMyxDnHyveAp1_0NJ8JbkZ_6Q45 (PDF), 1Pv6WE5xCXn2JX34gy8Dlwf-VdMWtqDTyCiwCf_7DBhY (Google Doc).'
