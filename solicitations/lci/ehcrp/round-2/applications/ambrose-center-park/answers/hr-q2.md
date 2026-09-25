@@ -12,7 +12,7 @@ inputs: [ehcrp-r2-ambrose-center-gdoc (pre-app 2a/5/6a), ambrose-center-park-ceq
 
 ## Draft
 
-The project puts shade and cooler ground where Question 1 locates exposure: where people walk, wait and gather around the center.
+The project puts shade and cooler ground where Question 1 locates exposure: where people walk, wait and gather.
 
 - **Gathering:** a shaded community pavilion beside the concession stand, and permeable decomposed-granite gathering areas with native plantings in place of hot pavement.
 - **Walking:** shaded seating nodes along the paths between the parking lot, center and fields, so older adults and parents with small children can rest out of the sun.
@@ -48,4 +48,4 @@ Hyphae leads modeling, CCRCD's Ecostewards maintain the sensors, and results fee
 - **Who and when.** The TA guide asks who tracks metrics, how and when. The roles above are a proposal. Hyphae isn't named in the Center Park pre-app's partner list (6a), so its formal role needs confirming.
 - **Harms from Q1 that this doesn't address.** Shade does nothing for acute PM2.5 days. A reviewer may ask about them because Q1 raises them. Options: drop PM2.5 from Q1, or name the center's indoor refuge as the air-quality response and say so here.
 - **Cool-refuge reliability.** Q1 mentions the center being closed during an evacuation. Q2 doesn't answer that. If ARPD has plans for hours or operations, one sentence here would close the loop. Otherwise drop the line from Q1.
-- **Words:** 247 of 250, excluding TK notes and markup. Bullets and bold may not survive the form field. James may want the list as plain sentences.
+- **Words:** 248 of 250, excluding TK notes and markup. Bullets and bold may not survive the form field. James may want the list as plain sentences.
