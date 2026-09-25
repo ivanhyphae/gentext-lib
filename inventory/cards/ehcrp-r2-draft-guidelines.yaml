@@ -1,0 +1,136 @@
+asset_id: ehcrp-r2-draft-guidelines
+card:
+  summary: EHCRP Round 2 draft grant guidelines (dated 2026-02-02) for the California Extreme Heat and Community Resilience
+    Program. Covers program overview, values (harm reduction, collaboration, belonging, transformation), two project types
+    (Early Transformative Infrastructure $600k–$1M; Advanced Transformative Infrastructure $2.5M–$4M), eligible applicants,
+    partnership requirements, funding goals (100% in Priority Populations), application process with pre-application and full
+    application windows, review and scoring, technical assistance availability, and grant administration. 30-month project
+    term required. Infrastructure must be located in California Climate Investments Priority Populations areas.
+  doc_role: solicitation
+  authorship: California Governor's Office of Land Use and Climate Innovation (LCI)
+  disposition: reference
+  disposition_reason: Authoritative program requirements and scoring framework essential for application strategy, but prose
+    is regulatory boilerplate not reusable for proposals. Will be superseded by final guidelines; inventory note flags value
+    in diff against final version.
+  serves_needs:
+  - need_id: overview
+    how: Defines Early vs. Advanced project types with budget ranges, deliverable structure (planning + demonstration vs.
+      implementation), and 30-month term requirement
+  - need_id: pt-q1
+    how: 'Specifies partnership requirements: site control entity must be lead or co-applicant; minimum budget allocations
+      for partnerships (15% Early, 10% Advanced); applicant team definition'
+  - need_id: lcb-q1
+    how: Priority Populations mapping requirement and funding commitment (100% in Priority Populations); mentions heat action
+      plans as eligible planning products
+  sections:
+  - path: Integrated Climate Adaptation And Resilience Program > Extreme Heat and Community Resilience Program > Round 2 Grant
+      Guidelines (DRAFT)
+    type: solicitation-text
+    reuse_value: high
+    note: Contents and overview structure of guidelines
+  - path: Integrated Climate Adaptation And Resilience Program > Guideline Overview
+    type: solicitation-text
+    reuse_value: high
+    note: Program definition, funding activities, project types, and eligibility overview
+  - path: Integrated Climate Adaptation And Resilience Program > Program Values
+    type: solicitation-text
+    reuse_value: high
+    note: Four program values (harm reduction, collaboration, belonging, transformation) with definitions and evaluation criteria
+  - path: Integrated Climate Adaptation And Resilience Program > Project Types
+    type: solicitation-text
+    reuse_value: high
+    note: Award amounts and budget allocation requirements for Early and Advanced project types
+  - path: Integrated Climate Adaptation And Resilience Program > Project Phases Values
+    type: solicitation-text
+    reuse_value: high
+    note: Project phases linked to program values and questions translating values into action
+  - path: Integrated Climate Adaptation And Resilience Program > Project Phases Examples
+    type: solicitation-text
+    reuse_value: medium
+    note: Cool Corridor Master Plan example with budget phase breakdown for Early Transformative Infrastructure
+  - path: Integrated Climate Adaptation And Resilience Program > Early Transformative Infrastructure
+    type: solicitation-text
+    reuse_value: high
+    note: Award range ($600k–$1M), infrastructure budget minimum (25%), partnership allocation (15%), belonging allocation
+      (5%)
+  - path: Integrated Climate Adaptation And Resilience Program > Built Environment Solutions for Extreme Heat
+    type: solicitation-text
+    reuse_value: medium
+    note: Eligible solution categories (cool pavements, cool corridors, passive/active cooling, heat action plans)
+  - path: Integrated Climate Adaptation And Resilience Program > Built Environment for Extreme Heat
+    type: solicitation-text
+    reuse_value: medium
+    note: Eligible built environment solutions for planning and deployment
+  - path: Integrated Climate Adaptation And Resilience Program > Nature-Based Solutions for Extreme Heat
+    type: solicitation-text
+    reuse_value: medium
+    note: Eligible nature-based solutions (forestry, pocket forests, green stormwater, water-based strategies, restoration)
+  - path: Integrated Climate Adaptation And Resilience Program > Advanced Transformative Infrastructure
+    type: solicitation-text
+    reuse_value: high
+    note: Award range ($2.5M–$4M), infrastructure budget minimum (70%), partnership allocation (10%), belonging allocation
+      (5%)
+  - path: Integrated Climate Adaptation And Resilience Program > Eligible Applicants Definitions
+    type: solicitation-text
+    reuse_value: high
+    note: Comprehensive list of eligible lead applicant types (local/regional public entities, tribes, CBOs)
+  - path: Integrated Climate Adaptation And Resilience Program > Applicant Team and Partnership Requirements
+    type: solicitation-text
+    reuse_value: high
+    note: Site control requirement, applicant team definition, co-applicant and contributor roles
+  - path: Integrated Climate Adaptation And Resilience Program > Funding Goals
+    type: solicitation-text
+    reuse_value: high
+    note: 100% funding in Priority Populations requirement; additional points for tribes and disadvantaged communities
+  - path: Integrated Climate Adaptation And Resilience Program > Application Process
+    type: solicitation-text
+    reuse_value: medium
+    note: Submittable platform, pre-application and full application windows, technical assistance availability
+  - path: Integrated Climate Adaptation And Resilience Program > Application Review
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Three-stage review: eligibility, interagency panel scoring, final interviews'
+  - path: Integrated Climate Adaptation And Resilience Program > Application Support
+    type: solicitation-text
+    reuse_value: medium
+    note: Technical assistance prioritization and scope (one-on-one meetings, webinars, office hours, workshops)
+  - path: Integrated Climate Adaptation And Resilience Program > Grant Administration
+    type: solicitation-text
+    reuse_value: medium
+    note: Contract execution, work start restrictions, state compliance requirements
+  - path: Integrated Climate Adaptation And Resilience Program > Advanced pay
+    type: solicitation-text
+    reuse_value: low
+    note: Up to 25% advance payment availability for 501(c)(3) nonprofits; negotiable for larger advances
+  fact_candidates:
+  - 'Early Transformative Infrastructure award range: $600,000–$1 million'
+  - 'Advanced Transformative Infrastructure award range: $2.5 million–$4 million'
+  - 'Early Transformative Infrastructure infrastructure budget minimum: 25%'
+  - 'Early Transformative Infrastructure infrastructure budget maximum: 60%'
+  - 'Advanced Transformative Infrastructure infrastructure budget minimum: 70%'
+  - 'Early Transformative Infrastructure partnership budget allocation minimum: 15%'
+  - 'Advanced Transformative Infrastructure partnership budget allocation minimum: 10%'
+  - All projects must be completed within 30-month term
+  - Program invests 100% of funding in California Priority Populations
+  - Infrastructure location requirement uses California Climate Investments Priority Populations Mapping Tool 4.0
+  - Tribes serving as lead applicant or co-applicant on tribal land receive 7 additional scoring points
+  - Pre-application and full application submitted through Submittable platform
+  flags:
+  - Draft document (dated 2026-02-02); final guidelines not yet published
+  - Specific application window dates redacted (Month X placeholders)
+  - No explicit mention of EHCRP Round 1 outcomes or lessons applied to Round 2 design
+  - Appendix X (Scoring Criteria) referenced but not included in excerpt
+  - 'excerpt thin for some sections: Confidential Information (Sec 15), Legal Notes lack detail on dispute resolution or liability'
+  - possible relevance to Ambrose applications unclear from document alone; guidelines apply broadly to Priority Populations
+    statewide
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: e9f966b3a0a364a7d5b29ed4dfc62e11a486eb859a22874a9bf966608a197114
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 7733
+    output: 1726
+    cache_read: 0
+    cache_write: 0

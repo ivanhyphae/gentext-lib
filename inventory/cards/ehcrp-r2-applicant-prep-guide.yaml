@@ -1,0 +1,87 @@
+asset_id: ehcrp-r2-applicant-prep-guide
+card:
+  summary: EHCRP Round 2 applicant preparation guide covering eligibility, timeline, project types, partnership requirements,
+    and application checklists. Published 2025-11-13. Covers Early and Advanced Transformative Infrastructure categories,
+    harm reduction and belonging budget minimums, and step-by-step guidance for applicants.
+  doc_role: guidance
+  authorship: LCI (Lead and Collaborate Institute) / EHCRP Program
+  disposition: reference
+  disposition_reason: Authoritative program guidance defining Round 2 requirements, timelines, and eligibility criteria. Essential
+    for understanding application framework but not prose to reuse in proposals.
+  serves_needs:
+  - need_id: overview
+    how: Defines two project types (Early/Advanced Transformative Infrastructure) with award amounts and budget allocation
+      requirements by category
+  - need_id: hr-q1
+    how: 'Program value definition: ''reduce heat-related illness and/or death'' but no specific methodologies or data integration
+      approaches shown'
+  - need_id: pt-q1
+    how: Specifies required Lead/Co-Applicant pairings and states partnerships must center 'heat vulnerable voices' but provides
+      no examples of successful prior collaborations
+  - need_id: be-q1
+    how: Names 'belonging' as program value requiring design elements but provides no concrete examples of eligible belonging
+      activities
+  - need_id: lcb-q1
+    how: Mentions 'lasting' solutions and 'transformational' projects as core value but lacks detail on how planning documents
+      drive future infrastructure or funding pathways
+  sections:
+  - path: Extreme Heat and Community Resilience Program > EHCRP Round 2 Overview
+    type: solicitation-text
+    reuse_value: high
+    note: $22.5M funding; GGRF and Prop 4 sources; community services + physical improvements focus
+  - path: Extreme Heat and Community Resilience Program > Anticipated Timeline & Milestones
+    type: solicitation-text
+    reuse_value: high
+    note: NOFA release early 2026; pre-app due 4-6 weeks after; awardees announced Fall 2026
+  - path: Extreme Heat and Community Resilience Program > What Kinds of Projects are Eligible for Awards?
+    type: solicitation-text
+    reuse_value: high
+    note: 'Two types: Early ($600K-$1M, min 25% demo infrastructure) vs Advanced ($2.5-4M, 70-85% infrastructure); budget
+      minimums for partnerships (15%/10%) and belonging (5%)'
+  - path: Extreme Heat and Community Resilience Program > Connecting Proposed Projects to Program Values
+    type: solicitation-text
+    reuse_value: high
+    note: Harm Reduction, Collaborative Partnerships (Co-Applicants required except Tribes), Transformational Projects defined
+      as program values
+  - path: Extreme Heat and Community Resilience Program > Who Can Apply?
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Eligible applicant types: public entities, CBOs, public academic institutions, Tribes; relevant for team structure
+      planning'
+  - path: Extreme Heat and Community Resilience Program > Applicant Team Roles
+    type: solicitation-text
+    reuse_value: medium
+    note: Defines Lead, Co-Applicant, Contributor, Supporter roles and funding flow; Co-Applicants required for all except
+      Tribes
+  fact_candidates:
+  - $22.5 million in Round 2 funding from Greenhouse Gas Reduction Fund and California Climate Bond (Prop 4)
+  - NOFA and Pre-Application Interest Form expected early 2026
+  - Pre-Application due 4-6 weeks after NOFA release
+  - Awardees announced Fall 2026
+  - 'Early Transformative Infrastructure: $600,000–$1,000,000 awards; minimum 25% toward infrastructure demo project'
+  - 'Advanced Transformative Infrastructure: $2.5M–$4.0M awards; 70–85% toward infrastructure'
+  - Early Infrastructure projects minimum 15% budget to partnerships; minimum 5% to belonging
+  - Advanced Infrastructure projects minimum 10% budget to partnerships; minimum 5% to belonging
+  - Co-Applicants required for all applicants except California Native American Tribes or Tribal Entities
+  - Technical Assistance prioritized for disadvantaged communities, Tribes, regions not funded in Round 1, and those without
+    consultant access
+  - 'Eligible Lead Applicant types: local/regional public entities, CBOs, public academic institutions, CA Tribes/Tribal entities'
+  - 'Required Co-Applicant pairing: Local/Regional Public Entity lead requires CBO co-applicant; CBO lead requires Local/Regional
+    Public Entity co-applicant'
+  flags:
+  - 'Excerpt too thin to judge: no specific harm reduction metrics, data integration approaches, or partner case studies visible'
+  - Guidance document does not contain reusable proposal language or site-specific evidence
+  - 'Contact email redacted: [email]'
+  - Timeline and requirements noted as subject to change; directs applicants to EHCRP website for updates
+  - No prior Round 1 outcomes or feedback visible in this guide
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: fa153ca7ba5f2300e8ae9d314dd1f59a60f0fd9854b3c5c21875ca0e96978fe3
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 5533
+    output: 1234
+    cache_read: 0
+    cache_write: 0

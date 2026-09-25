@@ -1,0 +1,75 @@
+asset_id: ehcrp-r1-awards-list
+card:
+  summary: 'List of 46 projects funded in EHCRP Round 1 (FY 2024-25) totaling ~$32M. Includes large and small implementation
+    grants ($15.8M–$4.1M) and large/small planning grants ($7.7M–$4.3M). Projects led by public agencies, tribes, CBOs, and
+    academic institutions; 95%+ serve disadvantaged communities. Strategies: heat action plans, cooling centers, shade trees/structures,
+    solar microgrids, cool pavements, workforce development, community engagement. Round 2 anticipated FY 2025-26 with GGRF
+    and Prop 4 funding.'
+  doc_role: report
+  authorship: California Natural Resources Agency or LCI program
+  disposition: reference
+  disposition_reason: Authoritative inventory of funded approaches and outcomes in the EHCRP landscape. Shows what reviewers
+    prioritized; useful for benchmarking Hyphae's Bay Point applications against funded precedents. Not prose to extract,
+    but checkable facts and strategic models.
+  serves_needs:
+  - need_id: lib-methods
+    how: '47 projects demonstrate diverse heat-resilience methods: shade/tree strategies, cooling centers, microgrids, heat
+      action planning, nature-based solutions, workforce development, community engagement models'
+  - need_id: ehcrp-r1-interview-and-feedback
+    how: Award descriptions show selection criteria and funded scope; can inform expectations for Round 2 application depth
+      and credibility
+  sections:
+  - path: Extreme Heat and Community Resilience
+    type: evidence-data
+    reuse_value: high
+    note: Program overview, funding totals by tier, 46 project summaries with lead applicants, co-applicants, funding amounts,
+      project scopes
+  - path: Extreme Heat and Community Resilience > Large Implementation Grants
+    type: evidence-data
+    reuse_value: high
+    note: $15.8M across 10+ projects; cooling centers, shade/spraygrounds, solar microgrids, HVAC, workforce training
+  - path: Extreme Heat and Community Resilience > Large Planning Grants
+    type: evidence-data
+    reuse_value: high
+    note: $7.7M across 8+ projects; heat action plans, vulnerability indices, cooling toolkits, urban forest plans, cool pavement
+      roadmaps
+  - path: Extreme Heat and Community Resilience > Small Implementation Grants
+    type: evidence-data
+    reuse_value: medium
+    note: $4.1M across smaller-scale projects; in-home cooling, bus shelters, schoolyard greening, shade structures
+  - path: Extreme Heat and Community Resilience > Small Planning Grants
+    type: evidence-data
+    reuse_value: medium
+    note: $4.3M across 13+ planning/assessment projects; community asset mapping, tree master plans, heat alert systems, resilience
+      assessments
+  fact_candidates:
+  - Round 1 awarded nearly $32 million across 46 projects (FY 2024-25)
+  - Over 95% of Round 1 projects represent disadvantaged communities
+  - Round 1 received over $300 million in funding requests for limited availability
+  - Round 2 expected FY 2025-26, funded by Greenhouse Gas Reduction Fund (GGRF) and Prop 4
+  - Governor's budget proposes $16M of $50M in Prop 4 funding available in FY25-26 for the program
+  - $7.5 million remains in GGRF; $14M available from Aliso Canyon Recovery Settlement
+  - 'Large Implementation Grants total: $15,765,669'
+  - 'Small Implementation Grants total: $4,133,098.09'
+  - 'Large Planning Grants total: $7,741,170'
+  - 'Small Planning Grants total: $4,294,225.30'
+  - 'Community Resilience Center (CA Parenting Institute): $1,529,669'
+  - 'Panorama Park Sprayground (City of Redding): $1,995,000'
+  flags:
+  - Excerpt coverage thin for many projects (1–2 sentences); full descriptions may be more detailed in source document
+  - No Round 2 funding amounts or solicitation text provided; referenced as 'anticipated FY 2025-26'
+  - Lists 46 projects but sections title says '46 awards' and early text says 'nearly $32 million across 46 projects'—count
+    consistent
+  - Valuable for precedent and strategy inventory; less actionable for Bay Point specifics without deeper review of similar
+    projects (e.g., park/green infrastructure, tribal co-applicants)
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 2574211398312185de854078bd89e935b22bdce1e1c165750c8dff3671087f6b
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 7870
+    output: 1034
+    cache_read: 0
+    cache_write: 0

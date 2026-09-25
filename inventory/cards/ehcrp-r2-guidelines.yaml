@@ -1,0 +1,148 @@
+asset_id: ehcrp-r2-guidelines
+card:
+  summary: 'EHCRP Round 2 Final Guidelines (June 2026): The official solicitation for California''s Extreme Heat and Community
+    Resilience Program Round 2, funded by the 2024 Climate Bond. Establishes two project tracks—Early Infrastructure ($750K–$1.2M,
+    30 months, planning document + demo) and Advanced Infrastructure ($3M–$4.5M, 48 months, full implementation + Future Implementation
+    Playbook). Guided by four core values: Harm Reduction, Partnership, Belonging, and Lasting Community Benefits. Requires
+    lead applicants from local/regional public entities, CBOs, tribes, or academic institutions, with mandatory co-applicant
+    partnerships. Scoring emphasizes community vulnerability assessment, partnership structure, design for belonging, and
+    sustained funding pathways. Minimum 40% of funding directed to DACs/Vulnerable Populations; minimum 10% to SDACs. Application
+    via Submittable; pre-application and full application windows. Includes workplan template with six tasks, eligibility
+    rules, co-applicant office requirements, readiness review, and appendices with examples, glossary, and scoring rubric
+    (Appendix F: 100 points total across narrative 55 pts, funding priorities 15 pts, workplan 10 pts, budget 10 pts, interview
+    10 pts).'
+  doc_role: solicitation
+  authorship: California Governor's Office of Land Use and Climate Innovation (LCI) / Extreme Heat Program
+  disposition: reference
+  disposition_reason: Authoritative solicitation document establishing application requirements, scoring criteria, eligible
+    project types, and partnership rules. Not prose to reuse in proposals, but essential reference for understanding application
+    scope, deliverable expectations, and evaluation framework. Appendix F (Scoring Criteria) directly drives narrative section
+    preparation.
+  serves_needs:
+  - need_id: overview
+    how: Section 3.1 and 4.1 define project purpose and required deliverables for both tracks; Section 5 outlines six tasks
+      and sequencing; 30-month (Early) and 48-month (Advanced) contract periods specified.
+  - need_id: hr-q1
+    how: Appendix B Harm Reduction section and Section 2.2 scoring criteria require 'specific heat-vulnerable community,'
+      exposure pathways, harms, community voices, and data integration via Vulnerable Communities Platform.
+  - need_id: hr-q2
+    how: Section 2.2 scoring criteria and Appendix E require pathway from infrastructure to harm reduction, rationale for
+      solution, measurable outcome metrics, and tracking methodology.
+  - need_id: pt-q1
+    how: Section 2.3 Partnership Question 1 and scoring criteria require named Lead and Co-Applicants, unique expertise of
+      each, why partnership is necessary, and balance of community knowledge and institutional capacity.
+  - need_id: pt-q2
+    how: Section 2.3 Partnership Question 2 scoring guidance expects concrete prior projects, milestones, lessons, and proven
+      capacity.
+  - need_id: be-q1
+    how: Section 2.4 Belonging Question 1 and Appendix B require specific design elements (murals, color palettes, cultural
+      programming, plant species, architecture) rooted in community identity.
+  - need_id: be-q2
+    how: Section 2.4 Belonging Question 2 requires engagement strategies (participatory design, workshops, trauma-informed),
+      barrier removal (language, access), and how input shapes decisions.
+  - need_id: lcb-q1
+    how: Section 2.5 Lasting Community Benefits Question 1 requires Planning Document or Future Implementation Playbook to
+      articulate local support building and named funding streams or revenue sources for infrastructure beyond grant term.
+  sections:
+  - path: 1. Background
+    type: solicitation-text
+    reuse_value: low
+    note: Program history and Round 1 lessons; context only.
+  - path: 2. Program Values
+    type: solicitation-text
+    reuse_value: high
+    note: Defines four core values (Harm Reduction, Partnership, Belonging, Lasting Community Benefits) that frame all application
+      narrative sections; canonical reference for values language.
+  - path: 3. Early Infrastructure Projects
+    type: solicitation-text
+    reuse_value: high
+    note: Defines purpose, award range ($750K–$1.2M), eligible project types (built environment, nature-based, cooling), and
+      30-month contract period with two required deliverables (planning document, demo project).
+  - path: 4. Advanced Infrastructure Projects
+    type: solicitation-text
+    reuse_value: high
+    note: Defines purpose, award range ($3M–$4.5M), feasibility requirements, 48-month period, infrastructure completion requirements,
+      and Future Implementation Playbook requirements.
+  - path: 5. Workplan and Eligible Activities
+    type: solicitation-text
+    reuse_value: high
+    note: Six-task structure (Project Initiation, Community Assessment and Engagement, Infrastructure Readiness, Infrastructure
+      Deployment, Planning and Policy, Stewardship and Monitoring); eligible activities and sequencing for both project types.
+  - path: 6. Eligibility
+    type: solicitation-text
+    reuse_value: high
+    note: Lead applicant entity types (local/regional public entities, CBOs, tribes, academic institutions, coalitions); co-applicant
+      requirements by lead type; CBO office location rule (within 100 miles of project site).
+  - path: 7. Funding Priorities
+    type: solicitation-text
+    reuse_value: high
+    note: '2024 Climate Bond requirements: minimum 40% to DACs/Vulnerable Populations, minimum 10% to SDACs. Definitions and
+      point values for California Native American Tribes (15 pts), SDAC (15 pts), Vulnerable Populations (12 pts), DAC (10
+      pts). Meaningful and direct benefits criteria (four criteria must all be met).'
+  - path: 8. Application Process
+    type: solicitation-text
+    reuse_value: medium
+    note: Submittable platform, Pre-Application Interest Form, two submission windows, Full Application Form requirements;
+      useful for timeline and logistics.
+  - path: '11. Appendix B: Belonging Guide'
+    type: solicitation-text
+    reuse_value: high
+    note: Explains why Belonging is core value; how infrastructure can be designed to foster welcome, safety, and trust; why
+      underutilization occurs without belonging design; canonical reference for belonging concept.
+  - path: '11. Appendix C: Eligible Projects Examples'
+    type: solicitation-text
+    reuse_value: medium
+    note: Built environment and nature-based solution examples (cool pavements, cool corridors, tree planting, green stormwater,
+      water features, restoration); useful reference for infrastructure type menu.
+  - path: '11. Appendix D: Workplan Examples'
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Two worked examples (Early: Chill Out City of Seasons Cool Corridor; Advanced: Beating the Heat on Maple Avenue)
+      showing task sequencing and deliverable flow.'
+  - path: '11. Appendix E: Guide to Assessing Funding Priority Points'
+    type: solicitation-text
+    reuse_value: high
+    note: Step-by-step guidance for identifying funding priority groups; Vulnerable Communities Platform use; Option 1 (manual)
+      and Option 2 (Report Generator) methods; essential for qualifying communities.
+  - path: '11. Appendix F: Scoring Criteria'
+    type: solicitation-text
+    reuse_value: high
+    note: '100-point rubric across six sections: Narrative (55 pts: Project Overview 7, Harm Reduction 12, Partnership 12,
+      Belonging 12, Lasting Community Benefits 12), Funding Priorities (15 pts), Workplan (10 pts), Budget (10 pts), Interview
+      (10 pts). Detailed high/medium/low point descriptors for each narrative question.'
+  - path: '11. Appendix G: Glossary of Terms'
+    type: solicitation-text
+    reuse_value: medium
+    note: Canonical definitions for program terms (Advanced/Early Infrastructure Projects, Belonging, Harm Reduction, Planning
+      Document, Future Implementation Playbook, etc.); reference for consistent terminology.
+  fact_candidates:
+  - 'Early Infrastructure Projects award range: $750,000 to $1.2 million (Section 3.2)'
+  - 'Early Infrastructure Projects contract period: 30 months (Section 3.1)'
+  - 'Advanced Infrastructure Projects award range: $3 million to $4.5 million (Section 4.2)'
+  - 'Advanced Infrastructure Projects contract period: 48 months (Section 4.1)'
+  - Round 1 awarded $32 million to 47 grantees across 23 counties (Section 1.1)
+  - Minimum 40% of Round 2 funding directed to DACs or Vulnerable Populations; minimum 10% to SDACs (Section 7.1)
+  - CBO co-applicant must maintain staffed operational office within 100 miles of project site (Section 6, Co-Applicant Requirement)
+  - 'Native American Tribes: 15 funding priority points (Section 7.3)'
+  - 'Severely Disadvantaged Communities (SDAC): 15 funding priority points (Section 7.3)'
+  - 'Vulnerable Populations: 12 funding priority points (Section 7.3)'
+  - 'Disadvantaged Communities (DAC): 10 funding priority points (Section 7.3)'
+  - 'Total application scoring: 100 points (Appendix F: Scoring Criteria)'
+  flags:
+  - This is the authoritative solicitation; must be read in full for any application work.
+  - Appendix F (Scoring Criteria) directly maps to narrative section structure and drives M5 preparation.
+  - Pre-application feedback timing and process crucial for partnership and funding priority assessment; see Section 8.2.
+  - Readiness Review must occur within first 12 months and before any implementation costs incurred (Section 9.2).
+  - All four criteria must be met for meaningful and direct benefits to qualify for funding priority points (Section 7.4).
+  - Workplan template and examples (Appendix D) essential reference for task sequencing and deliverable production.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: af4ce0fb355479406085b9e7f819ebbfcecb5e6f22b901dafacf677da089e2db
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 10585
+    output: 2454
+    cache_read: 0
+    cache_write: 0

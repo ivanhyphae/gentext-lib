@@ -1,0 +1,43 @@
+asset_id: ehcrp-r1-nofa
+card:
+  summary: Round 1 NOFA for California's Extreme Heat and Community Resilience Program (EHCRP), announcing $20 million in
+    competitive grants for planning and implementation projects. Details eligibility, grant types (small/large planning and
+    implementation, $100k–$4M), partnership requirements, application process, scoring criteria, and technical assistance.
+  doc_role: solicitation
+  authorship: Governor's Office of Planning and Research (OPR) / ICARP
+  disposition: reference
+  disposition_reason: Authoritative statement of R1 program rules, eligibility, funding amounts, and process. Not prose to
+    reuse in proposals, but essential reference for understanding the solicitation framework and what applicants must comply
+    with.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 'Subject: $20 Million total funding available for Round 1'
+  - 'Grant Types: Small Planning Grants $100,000–$250,000 (total $3M available)'
+  - 'Grant Types: Large Planning Grants $300,000–$750,000 (total $5M available)'
+  - 'Grant Types: Small Implementation Grants $100,000–$450,000 (total $3M available)'
+  - 'Grant Types: Large Implementation Grants $500,000–$4,000,000 (total $9M available)'
+  - 'Project duration: up to thirty months'
+  - 'Pre-Application Interest Form released: January 29, 2024'
+  - 'Pre-Application deadline for TA consideration: March 5, 2024 at 5 p.m. PST'
+  - 'Selection announcement anticipated: Summer 2024'
+  - 'Large Planning/Implementation scoring: 90 points + 10 points for final interview/site visit'
+  - 'Small Planning/Implementation scoring: 100 points total'
+  - Technical Assistance provided through third-party provider (Civix)
+  flags:
+  - This is EHCRP Round 1 (FY 2023–2024); Hyphae is pursuing Round 2 (EHCRP-r2-webinars-office-hours and r2 preapp feedback
+    are more relevant)
+  - Excerpt too thin to judge partnership language applicability to Bay Point projects
+  - No detail on Round 1 scoring rubric or narrative question specifics in NOFA body; must reference EHCRP R1 Final Guidelines
+    separately
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: bf515689f8b4bd04090e5708740fe0a9e05ed0b437673c64249b539a1f6e2530
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 5305
+    output: 531
+    cache_read: 0
+    cache_write: 0

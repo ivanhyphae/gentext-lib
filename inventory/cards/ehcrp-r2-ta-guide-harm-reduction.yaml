@@ -1,0 +1,53 @@
+asset_id: ehcrp-r2-ta-guide-harm-reduction
+card:
+  summary: LCI program guidance on Harm Reduction as a core value for EHCRP Round 2 applications. Defines harm reduction as
+    infrastructure that directly interrupts the pathway between extreme heat and exposed people; outlines framework elements
+    (specific harms, vulnerabilities, exposure pathways, community knowledge); lists data tools and resources (CHAT, CalBRACE,
+    Cal Adapt, CDPH profiles).
+  doc_role: guidance
+  authorship: Likely LCI / California Natural Resources Agency or CDPH (not explicitly stated)
+  disposition: reference
+  disposition_reason: Authoritative program guidance essential for understanding evaluation criteria (hr-q1, hr-q2) and available
+    data tools. Not prose to reuse, but must be consulted when drafting harm-reduction sections.
+  serves_needs:
+  - need_id: hr-q1
+    how: Frames what 'specific community,' 'exposure pathways,' 'specific harms,' and integration of data with lived experience
+      means in program terms.
+  - need_id: hr-q2
+    how: Defines the 'pathway from infrastructure to harms' requirement and emphasizes measurable harm-reduction outcome metrics
+      and tracking mechanism (who/how/when).
+  sections:
+  - path: 'What You Need To Know: > Understanding Harm Reduction as a Program Value'
+    type: need-statement
+    reuse_value: high
+    note: 'Core definition: harm reduction = infrastructure directly interrupts extreme heat→exposure→people pathway. Shows
+      grounding in community understanding and underlying causes.'
+  - path: 'What You Need To Know: > Elements of Harm Reduction'
+    type: method
+    reuse_value: high
+    note: 'Framework questions for competitive applications: identify specific harms (health impacts, past events); identify
+      vulnerabilities (who exposed, how); connect infrastructure to each harm; metrics and tracking (who/how/when); community
+      voice and local knowledge parity with data.'
+  fact_candidates:
+  - EHCRP Round 2 funds Early and Advanced Infrastructure projects
+  - 'Program values: Harm Reduction, Collaborative Partnerships, Belonging, Lasting Community Benefits'
+  - Harm reduction requires showing how infrastructure directly interrupts pathway between extreme heat and exposed people
+  - Framework requires identifying specific health impacts (heat stroke, respiratory illness, mental health impacts named
+    as examples)
+  - Program accepts data, mapping tools, and local knowledge as evidence
+  - 'Framework asks: who is most exposed, how does exposure occur, what data supports determination'
+  flags:
+  - 'Excerpt too thin to judge: many section headings list tool names (CHAT, CalBRACE, Cal Adapt, CDPH) with ''Click here''
+    but no content shown; full tool descriptions and citation guidance not visible.'
+  - Authorship not explicitly stated in excerpts; assumed LCI or state agency based on content and program voice.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: d7784f324d7f07ad394a0e44cfcccc7740eaba4e101900a1051166e4321fd124
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 3375
+    output: 620
+    cache_read: 0
+    cache_write: 0

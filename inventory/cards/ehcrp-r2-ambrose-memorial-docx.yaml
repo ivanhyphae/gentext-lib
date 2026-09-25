@@ -1,0 +1,132 @@
+asset_id: ehcrp-r2-ambrose-memorial-docx
+card:
+  summary: Working document containing Hyphae Design Lab and I-ReLab's strategic notes, meeting minutes, and grant application
+    materials for EHCRP Round 2. Includes solicitation overview, office hours schedule, deadlines, program requirements, partner
+    outreach strategy, and a partially-completed pre-application form for "Ambrose Memorial Park" project in Bay Point (titled
+    "From Heat Island to Cool Haven"). The document captures internal discussions about partnership strategy, project tiers,
+    and co-applicant requirements. Large sections are duplicated from the Center Park variant; near-duplicate of ehcrp-r2-working-doc.
+  doc_role: working-doc
+  authorship: Hyphae Design Lab + I-ReLab (kj, Ivan Heitmann, Brent Bucknum, Mei, James Hansen, Chris Lim)
+  disposition: hold
+  disposition_reason: Contains reusable strategic guidance on EHCRP partnership-first approach, meeting notes with actionable
+    decisions, draft application language for heat/greening infrastructure, and articulation of Hyphae's firm experience and
+    technical capabilities relevant to future proposals. Demonstrates community engagement and belonging emphasis. Despite
+    high duplication with Center Park version, this snapshot captures decision-making context and may clarify which site was
+    prioritized.
+  serves_needs:
+  - need_id: ehcrp-r2-preapp-feedback
+    how: Document is the pre-app itself and captures internal team feedback on EHCRP requirements; however, does not contain
+      LCI staff feedback on the submissions
+  - need_id: lib-methods
+    how: Describes UTCI heat modeling, digital twin modeling, tree placement optimization, and integration of heat vulnerability
+      modeling with community input for park design
+  - need_id: lib-partners
+    how: Lists Ambrose Recreation and Park District (ARPD), RCD, SOS Richmond, Council for Watershed Health, Northeast Trees,
+      and other regional partners with brief context on track record and engagement
+  sections:
+  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round
+      2 Extreme Heat and Community Resilience Program application process are'
+    type: solicitation-text
+    reuse_value: high
+    note: 'Definitive EHCRP Round 2 deadlines and application windows: Pre-App Window 1 closes July 21, 2026; Window 2 closes
+      August 11, 2026; Full application due October 13, 2026'
+  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Program Funding and Purpose'
+    type: solicitation-text
+    reuse_value: medium
+    note: $27.5M total; states Prop 4 and GGRF funding; defines program mission to mitigate extreme heat impacts and protect
+      vulnerable populations
+  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Grant Types and Available Funds'
+    type: solicitation-text
+    reuse_value: high
+    note: 'Early Infrastructure: $7.5M total, $750K–$1.2M per award, 30-month timeline, 25% minimum infrastructure + planning
+      doc; Advanced Infrastructure: $20M, $3M–$4.5M, 48 months'
+  - path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Scoring and Selection Process'
+    type: solicitation-text
+    reuse_value: high
+    note: '90 points: project narrative (55), benefits to priority groups (15), workplan/budget (20); top scorers get interview/site
+      visit (10 points); total 100 possible'
+  - path: Applicant's role
+    type: boilerplate
+    reuse_value: high
+    note: 'Hyphae positioning statement: firm helps translate community relationships into fundable projects; role in partnership
+      formation, demo projects, belonging, storytelling, stewardship, and grant development'
+  - path: Technical Capabilities
+    type: org-profile
+    reuse_value: high
+    note: 'Hyphae capabilities: land cover classification at meter scale, LiDAR/geospatial processing, GPU computing for street
+      view data, UTCI heat modeling, pedestrian behavior simulation'
+  - path: Firm Experience > Hyphae Design Lab has extensive experience...
+    type: org-profile
+    reuse_value: high
+    note: 'Prescott Greening Project case (2021–2024): $150K TCC grant + $300K MTC PCA + $600K ACTC + $50K Port + $100K CalFire;
+      air quality monitoring, vegetated buffers, tree planting in West Oakland'
+  - path: Local Knowledge
+    type: org-profile
+    reuse_value: high
+    note: 'Hyphae connections: CEJC, Valley Improvements Project, Little Manila Rising, Mayor Rey Leon''s LEAP; network across
+      California for community engagement'
+  - path: Project Information > Co-Applicant Requirement
+    type: solicitation-text
+    reuse_value: medium
+    note: Defines co-applicant pairing rules by entity type (public entity + CBO or Tribe; CBO + public + Tribe; academic
+      + CBO + public/Tribe; Coalition + CBO + public/Tribe)
+  - path: Project Concepts & Emerging Ideas > July 22, 2026 - Partnership Workstream > Decisions
+    type: notes
+    reuse_value: medium
+    note: 'Key decisions: Early Infrastructure tier target; pre-app does NOT require site control; county partnership strengthens
+      pre-app credibility; 25% minimum infrastructure (not 60–70%)'
+  - path: Project Concepts & Emerging Ideas > Extreme Heat and Greening Grants > Key Discussion Points
+    type: notes
+    reuse_value: medium
+    note: Discussion of Early Infrastructure vs. Advanced; CBO partner (SOS Richmond) evaluation; urban greening ($4.2M for
+      ~10 bus stops); timeline mismatches between grants
+  - path: Project Concepts & Emerging Ideas > August 4, 2026 - check in KJ BB MV IH > Decisions
+    type: notes
+    reuse_value: medium
+    note: 'With Aug 11 deadline, focus on active leads only: Ambrose + bus stops; partnership-first strategy; no speculative
+      outreach one week before deadline'
+  - path: Project Information > From Heat Island to Cool Haven...
+    type: project-case
+    reuse_value: medium
+    note: 'Pre-application excerpt for Ambrose Memorial Park: UTCI simulations and digital twin modeling for tree/vegetation
+      placement to maximize shade; picnic areas with permeable decomposed granite; shaded gathering infrastructure planned'
+  fact_candidates:
+  - 'Pre-Application Window 1 deadline: July 21, 2026, 2:00 PM PST'
+  - 'Pre-Application Window 2 deadline: August 11, 2026, 2:00 PM PST'
+  - 'Full Application deadline: October 13, 2026, 2:00 PM PST'
+  - 'Early Infrastructure funding: $7.5 million total pool'
+  - 'Early Infrastructure award range: $750,000–$1.2 million per project'
+  - 'Advanced Infrastructure funding: $20 million total pool'
+  - 'Advanced Infrastructure award range: $3 million–$4.5 million per project'
+  - 'Early Infrastructure project timeline: 30 months to completion'
+  - 'Advanced Infrastructure project timeline: 48 months to completion'
+  - 'Early Infrastructure minimum infrastructure requirement: 25%'
+  - 'Project narrative scoring: 55 points out of 90 base points'
+  - 'Funding priority groups scoring: 15 points out of 90 base points'
+  - 'Workplan and budget scoring: 20 points out of 90 base points'
+  - 'Interview or site visit scoring: 10 additional points (100 total possible)'
+  - 'Prescott Greening Project initial funding: $150,000 from Transformative Climate Communities grant'
+  - 'Prescott Greening Project additional funding: $300,000 MTC + $600,000 ACTC + $50,000 Port + $100,000 CalFire'
+  - 'Urban Greening bus stops proposal funding: ~$4.2 million for ~10 stops'
+  flags:
+  - High duplication with ehcrp-r2-ambrose-center-docx (96%) and ehcrp-r2-working-doc (72%); compare versions for which site
+    was ultimately prioritized
+  - 'Internal/candid notes: contains team member names, email redaction, and decision-making rationale; suitable for hold
+    but not external sharing'
+  - 'Excerpt too thin to judge full pre-application quality: only demonstrationproject section opening visible; full narrative,
+    partner details, and harm-reduction specifics not shown'
+  - CEQA status for Ambrose mentioned but not documented in this extract; verify against separate project file
+  - Moodle template referenced for application support but not included in document
+  - Site address given (125 Memorial Way, Bay Point, CA) but no VCP vulnerability data or CHAT scores provided in excerpt
+    to validate site eligibility for funding priority points
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 248a5bd9ffb3bf7eb2d2c0e9937fdbf02d742d7c09283744c18c92640f4aaa8e
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 16489
+    output: 2037
+    cache_read: 0
+    cache_write: 0

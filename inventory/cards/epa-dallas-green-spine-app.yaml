@@ -1,0 +1,160 @@
+asset_id: epa-dallas-green-spine-app
+card:
+  summary: 'Submitted EPA ECJ Community Change Grant application from Texas Trees Foundation for the Dallas Green Spine project.
+    Proposes $19.3M to transform Harry Hines Boulevard in the Southwestern Medical District (SWMD) and adjacent Arlington
+    Park neighborhood through green infrastructure, heat mitigation, and community engagement. Partners include Texas A&M
+    University (research/design) and Arlington Park Neighborhood Association. Project period July 2025–June 2028. Targets
+    5 disadvantaged census tracts with 24,277 residents; 69% people of color, 30% Hispanic, 38% low-income in Arlington Park.
+    Addresses extreme heat, air quality non-attainment (top 10–20% nationally for PM, ozone, NO₂), traffic proximity, and
+    low canopy cover (7% vs. minimum standard). Includes tree planting, pedestrian/bike infrastructure, stormwater management,
+    and community-led design co-development with Resident Researchers (Community Ambassadors). Deliverables: Green Spine construction,
+    tactical park interventions, municipal infrastructure proposals, impact evaluations (physical activity, health, stress,
+    mobility, heat exposure, flood resilience). Community engagement documented in spring 2024 listening sessions and co-design
+    workshops.'
+  doc_role: submitted-proposal
+  authorship: Texas Trees Foundation (lead); Texas A&M University C-HEaRT team; Arlington Park Neighborhood Association; City
+    of Dallas
+  disposition: hold
+  disposition_reason: Submitted federal grant with detailed community engagement narrative, site characterization, partnership
+    structure, and outcomes framework. Contains reusable prose on heat equity, climate justice design, participatory methods,
+    and community-embedded research. Site facts (demographics, environmental burdens, canopy cover) and harm-reduction pathway
+    specifics (tree cooling, pedestrian safety, air quality, flood mitigation) are relevant to Bay Point EHCRP applications.
+    Project case demonstrates successful multi-sector coordination and community-led co-design in a disadvantaged urban heat
+    island.
+  serves_needs:
+  - need_id: lib-methods
+    how: Detailed community engagement, co-design, and participatory planning approach; pre/post monitoring framework for
+      heat, mobility, health outcomes; integration of community voices in design process
+  - need_id: lib-firm-experience
+    how: Hyphae-led grant application (submitted) demonstrating capability in EPA ECJ grants, environmental justice, urban
+      heat, green infrastructure, and community partnership management
+  sections:
+  - path: part 5
+    type: need-statement
+    reuse_value: high
+    note: Pollution Reduction Strategy framing; 5 disadvantaged EPA IRA census tracts; air quality non-attainment status (top
+      10–20% PM, ozone, NO₂); heat island, traffic proximity, legacy pollution, housing, workforce gaps
+  - path: part 6
+    type: site-context
+    reuse_value: high
+    note: 'Dallas SWMD environmental burden data: 55 days >100°F in 2023; 13th worst ozone in 228 US metros; 7% tree canopy
+      vs. minimum standard; air quality rankings; specific pollutants and proximity risks'
+  - path: part 7
+    type: site-context
+    reuse_value: medium
+    note: 'CEJST census tract detail (48113010000, 48113000401, 48113000406): climate change, legacy pollution, transportation,
+      housing, workforce burdens; percentile ranks for income, green space, RMP proximity, linguistic isolation, education'
+  - path: part 8
+    type: need-statement
+    reuse_value: medium
+    note: 'Community vision framing: health beyond healthcare institutions; holistic approach to environment and social resilience;
+      model for future greening; emphasis on community-driven solutions and replicability'
+  - path: part 9
+    type: method
+    reuse_value: medium
+    note: 'Robust monitoring and evaluation plan: pre/post data collection, community surveys, public reporting, lessons learned
+      dissemination; community data collection and advocacy backed by modeling'
+  - path: part 10
+    type: method
+    reuse_value: high
+    note: Community engagement and collaborative governance; past outreach summary; TTF leading engagement as part of 30%
+      design; multiple engagement venues (listening sessions, community events, co-design)
+  - path: part 11
+    type: method
+    reuse_value: medium
+    note: 'Specific engagement activities: Trunk or Treat 2024, spring 2024 collaborative event with Councilmember Jesse Moreno
+      and City departments; community input on priorities; platform for community voice and city resource connection'
+  - path: part 12
+    type: partner-role
+    reuse_value: high
+    note: 'Collaborative governance structure: TTF (lead, grant management, monthly strategy sessions); TAMU C-HEaRT team
+      (research, co-design support); Arlington Park Neighborhood Association (connector, community convening); City of Dallas
+      (governmental relationships, infrastructure approvals)'
+  - path: part 13
+    type: method
+    reuse_value: medium
+    note: Local hiring and procurement priorities; Resident Researchers (Community Ambassadors) from project area; participatory
+      planning, community wealth building, inclusive decision-making processes
+  - path: part 14
+    type: capability
+    reuse_value: medium
+    note: 'Intervention logic model: tree planting, impervious surface reduction, stormwater diversion, walking/bike paths,
+      pedestrian safety measures, community engagement workshops, health and resilience metrics'
+  - path: part 15
+    type: partner-role
+    reuse_value: high
+    note: 'TAMU profile: land-grant, sea-grant, space-grant institution; Dr. Chanam Lee (Professor Landscape Architecture,
+      Executive Associate Dean, Design Research for Active Living); Gretchen Riley (Management Chief TAMU Forest Service);
+      20+ years interdisciplinary research and community engagement'
+  - path: part 16
+    type: partner-role
+    reuse_value: medium
+    note: 'Dr. Chanam Lee expertise: complex urban issues, participatory design, community resilience; graduate design studio
+      involvement in co-design, open houses, mock-ups; community capacity building'
+  - path: part 17
+    type: admin
+    reuse_value: low
+    note: 'Project milestones and timeline: NEPA completion M1–M7, procurement M3–M5, co-design M5–M9, pre-intervention assessment
+      M13–M15, Green Spine construction M13–M36, tactical interventions M16–M24, impact evaluations M28–M36'
+  - path: part 39
+    type: site-context
+    reuse_value: high
+    note: 'Target community definition: SWMD + Arlington Park; 24,277 SWMD population, 11,000+ within 1-mile radius Harry
+      Hines–Inwood; Arlington Park 69% people of color, 30% Hispanic, 38% low-income; median household income 44% below area
+      median; multiple barriers (poverty, linguistic isolation, education, income)'
+  - path: part 40
+    type: site-context
+    reuse_value: medium
+    note: SWMD includes UT Southwestern Medical Center (primary teaching hospital); 8 census tracts (4 disadvantaged); Arlington
+      Park designated disadvantaged by CEJST, EPA EJScreen, DOT ETC Explorer; high prevalence health problems linked to climate
+      and transportation; automobile dependency
+  - path: part 41
+    type: method
+    reuse_value: medium
+    note: 'C-HEaRT team methodology: climate change and health equity focus; methodological expertise; immediate actionable
+      solutions; Arlington Park Neighborhood Association as connector and convening entity; years-long prior engagement'
+  - path: part 42
+    type: need-statement
+    reuse_value: medium
+    note: Community quotes on safety (pedestrian/vehicle), lack of shade and protected transit connections, desire for safe
+      walking; 24 TAMU design students engaged; feedback shapes design priorities
+  fact_candidates:
+  - 'part 5: $19.3M EPA funding requested; July 2025–June 2028 project period; 5 EPA IRA disadvantaged census tracts targeted
+    (48113000401, 48113000409, 48113000410, 48113000610, 48113010001)'
+  - 'part 6: 55 days >100°F in 2023; Dallas–Fort Worth 13th worst ozone of 228 US metros; top 10–20% nationally for PM, ozone,
+    NO₂, diesel particulate matter, traffic proximity; 7% tree canopy cover in Harry Hines right-of-way'
+  - 'part 40: Arlington Park 69% people of color, 30% Hispanic, 38% low-income; 44% median household income below area median;
+    24,277 total SWMD population; 11,000+ within 1-mile Harry Hines–Inwood radius'
+  - 'part 40: UT Southwestern Medical Center serves large disadvantaged population, primary teaching hospital for region;
+    8 census tracts in SWMD (4 disadvantaged); Arlington Park designated disadvantaged by CEJST, EPA EJScreen, DOT ETC Explorer'
+  - 'part 17: NEPA/construction documents M1–M7; Procurement/award M3–M5; Co-design begins M5–M9; Pre-intervention assessment
+    M13–M15; Green Spine construction M13–M36; Tactical interventions M16–M24; Impact evaluation completion M28–M36'
+  - 'part 13: Texas Trees Foundation total budget $19,333,316.91 (direct charges $17,993,900.17; indirect $1,339,416.74)'
+  - 'part 12: Monthly formal strategy sessions; TTF grant management and EPA reporting; TAMU responsible for design and evaluation;
+    Arlington Park Neighborhood Association hosting meetings and co-design'
+  - 'part 9: Monitoring includes pre/post data, community surveys, public reporting; community-led data collection with modeling
+    support; metrics on community participation and workshop attendance'
+  flags:
+  - Document is substantial submitted federal grant (~27K words, 46 sections); outline provided shows administrative forms,
+    contracts, maintenance agreements mixed with narrative sections—only narrative sections (5–42) appear in excerpts
+  - Excerpt evidence thin for detailed fact extraction; sections 43–46 appear blank or very short in outline
+  - Contact details redacted ([email], [phone])
+  - Document shows Texas Trees Foundation as lead applicant and grant administrator; appears Hyphae staff (ivan@hyphae.net
+    owner) may have been involved in preparation but author attribution unclear from excerpts
+  - 'Potential context leakage: specific census tract IDs, neighborhood names, and institutional partners (UT Southwestern,
+    TAMU, Arlington Park) disclosed but appropriate for reuse (public application)'
+  - No contradiction between inventory note (SW Medical District / Harry Hines content) and actual document
+  - Timeline shows project completion M36 (June 2028); if document modified Nov 2024, proposal likely submitted before deadline
+  - Strong match to lib-methods and lib-firm-experience needs; moderate relevance to site-context for understanding community
+    engagement and equity-centered design approaches, though site is Dallas not Bay Point
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 12514a9e5f2dff65036857197ca23aae6e4cbad57c2cd2c484dccc0b328c3747
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 11261
+    output: 2500
+    cache_read: 0
+    cache_write: 0

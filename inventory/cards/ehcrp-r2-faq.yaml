@@ -1,0 +1,175 @@
+asset_id: ehcrp-r2-faq
+card:
+  summary: 'Live FAQ document (last updated 9/24/2026) compiled from applicant questions about EHCRP Round 2 Extreme Heat
+    and Community Resilience Program. Covers eligibility (single CBO without co-applicant exceptions, CCA eligibility, AB
+    617 committees), budget rules (Partnership 6% collective threshold, Belonging minimums 4% Early/2% Advanced, cost-sharing),
+    workplan/task structure (workforce training vs. Belonging design activities), application process (timeline: site visits
+    December 2026, awards January 2027, grant start June 2027), readiness requirements (site control, subset demonstration
+    allowed), eligible activities (tree planting on private/public, volunteers, heat mapping, cooling centers, tactical urbanism),
+    infrastructure permanence expectations, operational lifespan, cost duplication rules, and partnership documentation (MOU/operating
+    agreement for CBO purpose). Grant periods: Early Infrastructure to January 2030, Advanced to May 2031. Maximum award $4.5M.
+    No expectation that funding be proportionate to beneficiaries served.'
+  doc_role: guidance
+  authorship: LCI (state program staff)
+  disposition: reference
+  disposition_reason: Authoritative state-issued FAQ on program rules, eligibility, budget thresholds, and application mechanics.
+    Not prose to reuse but essential lookup resource for Bay Point applications. Rules and dates are binding; supersedes verbal
+    responses per document header.
+  serves_needs:
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: mentions office hours hosted by 3rd party TA provider with schedule to be released; confirms office hours continue
+      throughout application period and TA available only to Window 1 applicants
+  - need_id: overview
+    how: clarifies infrastructure types and deliverables structure; states Early projects run to January 2030 and Advanced
+      to May 2031; defines readiness and site control requirements; explains task structure (Tasks 2–5) and Belonging integration;
+      addresses operational lifespan expectations
+  sections:
+  - path: part 1
+    type: solicitation-text
+    reuse_value: high
+    note: 'Eligibility rules: single CBO Lead (Early only) with justification and partnership-development activities; Co-Applicant
+      limits; CCA case-by-case evaluation; AB 617 steering committees not eligible as CBOs.'
+  - path: part 2
+    type: solicitation-text
+    reuse_value: high
+    note: 'Budget allocation rules: workforce training under Task 4; Belonging minimums (4% Early, 2% Advanced) reserved for
+      co-design process and tangible products; distinction between workforce training and Belonging eligibility.'
+  - path: part 3
+    type: solicitation-text
+    reuse_value: medium
+    note: Readiness Review reference (Section 9.2 Guidelines); Community Choice Aggregator eligibility case-by-case; legal/audit
+      documentation requirements.
+  - path: part 4
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Belonging design staffing: artist, arts org, Indigenous Knowledge Expert, Social Worker, or Equity Consultant;
+      readiness for subset of multi-site projects site-by-site.'
+  - path: part 5
+    type: solicitation-text
+    reuse_value: high
+    note: 'Timeline: site visits December 2026, award notifications January 2027, grant start June 2027; Early Infrastructure
+      grant period to January 2030, Advanced to May 2031; pre-award costs eligibility.'
+  - path: part 6
+    type: solicitation-text
+    reuse_value: high
+    note: Partner eligibility rules if CBO is co-applicant; office hours ongoing with schedule TBA; TA availability limited
+      to Window 1.
+  - path: part 7
+    type: solicitation-text
+    reuse_value: high
+    note: Readiness definition requires site control for actual tree planting locations; sign-up-later approach insufficient;
+      multi-site readiness shown site-by-site before implementation costs incurred.
+  - path: part 9
+    type: solicitation-text
+    reuse_value: high
+    note: 'Partnership budget requirement: 6% collective total (not per-partner); address requirements within designated census
+      tracts; Co-Applicants and Contributors can be added in Full Application if not identified at Pre-Application.'
+  - path: part 11
+    type: solicitation-text
+    reuse_value: medium
+    note: Early Infrastructure allows site changes if not finalized; Advanced Infrastructure does not allow site changes;
+      general areas acceptable for Pre-Application if within Funding Priority Points Population census tracts.
+  - path: part 12
+    type: solicitation-text
+    reuse_value: high
+    note: 'Infrastructure permanence: no required lifespan specified but designed to protect durably; contract may specify
+      expected useful life; tactical urbanism/quick-build (temporary shade, movable planters, painted zones, modular biofilters)
+      eligible if justified for heat harm reduction; competitiveness may be challenged for temporary-only approaches.'
+  - path: part 13
+    type: solicitation-text
+    reuse_value: medium
+    note: Heat harm-reduction intent required; infrastructure must be deliberate choice for location, not general greening/beautification
+      framed as heat protection.
+  - path: part 14
+    type: solicitation-text
+    reuse_value: high
+    note: 'Readiness supporting docs: site plan, preliminary design/engineering, preliminary cost estimates; budget scope
+      includes all implementation costs beyond infrastructure (engagement, staff, indirect); operational lifespan planning
+      required.'
+  - path: part 15
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Financial documentation: division-level budget acceptable for county departments; only Lead Applicant financial
+      docs required.'
+  - path: part 16
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Cost-sharing rules: positions may be funded across multiple grants if invoices/documentation prevent cost duplication
+      to single funding source.'
+  - path: part 17
+    type: solicitation-text
+    reuse_value: high
+    note: No expectation that funding be proportionate to beneficiaries served; higher-cost projects competitive if budget
+      well justified by infrastructure, benefits, needs, and replicability potential.
+  - path: part 18
+    type: solicitation-text
+    reuse_value: medium
+    note: Community member compensation for heat-mapping campaign eligible if tied to specific service/contribution and deliverables;
+      gift card mechanism requires legal consultation.
+  - path: part 19
+    type: solicitation-text
+    reuse_value: high
+    note: 'Belonging process intent: dedicated work with facilitation, community sessions, specialist expertise (artist, architect,
+      designer, facilitator, cultural practitioner); not absorbed into general engagement or side-of-desk work.'
+  - path: part 20
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Project mission alignment: extreme heat protection as main objective preferred over secondary benefits from decarbonization/efficiency
+      projects; contract process post-award.'
+  - path: part 21
+    type: solicitation-text
+    reuse_value: medium
+    note: 'Priority Points eligibility: DAC vs. Vulnerable Populations (VCP); at least one qualifying community must benefit;
+      student neighborhood analysis permitted.'
+  - path: part 22
+    type: solicitation-text
+    reuse_value: high
+    note: 'CBO Lead Applicant (Early Infrastructure) exception rules: may apply without public entity/Tribe Co-Applicant if
+      includes justification and partnership-development activities; missing these requirements = ineligible.'
+  - path: part 23
+    type: solicitation-text
+    reuse_value: high
+    note: 'Co-Applicant documentation: MOU, operating agreement, or similar document establishing CBO purpose (usually generated
+      at formal establishment, e.g., Articles of Incorporation); used to verify CBO legitimacy.'
+  - path: part 24
+    type: solicitation-text
+    reuse_value: high
+    note: 'Co-Applicant contract role: Lead Applicant signs state contract; Co-Applicant responsibilities limited to clearly
+      defined grant-funded activities/deliverables in workplan, budget, partnership agreement; amendments possible but those
+      documents serve as official basis for invoicing.'
+  fact_candidates:
+  - Last updated 9/24/2026
+  - Full Application due 2026-10-13 (from needs list context; not explicit in FAQ but referenced)
+  - 'Site visits/interviews: sometime in December 2026'
+  - 'Award notifications: sometime in January 2027'
+  - Early Infrastructure grant period runs to January 2030
+  - Advanced Infrastructure grant period runs to May 2031
+  - 'Expected grant start: June 2027'
+  - 'Partnership budget requirement: minimum 6% collective total'
+  - 'Belonging minimum: 4% for Early Infrastructure'
+  - 'Belonging minimum: 2% for Advanced Infrastructure'
+  - 'Maximum award amount: $4.5 million'
+  - Office hours hosted by 3rd party TA provider; schedule to be released
+  flags:
+  - Live document with periodic updates (re-export before final QA per inventory note)
+  - Document header states verbal responses not binding; written guidance supersedes
+  - Readiness requirements tied to Section 9.2 Guidelines (not fully detailed here)
+  - Partnership Agreement Template available post-award only (Q93)
+  - TA availability limited to Window 1; Window 1 pre-application and full application submission periods have ended (Q105/109)
+  - Gift card compensation mechanism requires post-award legal clarification
+  - Many Q&A cross-reference Guidelines sections (6.3, 4.5, etc.) not provided in this export
+  - 'Excerpt too thin to judge: some guidance on advanced topic (e.g., asbestos abatement for cooling center Q85) cut off'
+  - No detailed TA provider contact or office hours schedule provided yet
+  - 'Context leakage risk: specific case examples (e.g., school serving no-DAC, county health department division) may not
+    generalize to Bay Point applications'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: e6a7512cdf840c961b96d0d5ff28934ab1a3035f5914b22ec2cede143e7c423b
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 6916
+    output: 2217
+    cache_read: 0
+    cache_write: 0

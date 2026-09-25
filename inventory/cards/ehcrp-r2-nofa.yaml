@@ -1,0 +1,75 @@
+asset_id: ehcrp-r2-nofa
+card:
+  summary: 'Official Notice of Funding Availability for EHCRP Round 2, issued June 16, 2026. Announces $27.5M total funding
+    across two grant types: Early Infrastructure ($7.5M, $750k–$1.2M per award) and Advanced Infrastructure ($20M, $3–$4.5M
+    per award). Details eligibility, co-applicant requirements, application process with two pre-app windows, scoring criteria
+    (90 points + 10-point interview), and deadlines. Full application due October 13, 2026.'
+  doc_role: solicitation
+  authorship: Governor's Office of Land Use and Climate Innovation (LCI) Extreme Heat Program Staff
+  disposition: reference
+  disposition_reason: Authoritative source for official program requirements, deadlines, funding amounts, and eligibility
+    rules. Essential reference material but not prose to reuse in proposals.
+  serves_needs: []
+  sections:
+  - path: Program Summary
+    type: solicitation-text
+    reuse_value: high
+    note: Complete program overview, grant types, funding amounts, and infrastructure requirements. Core reference for understanding
+      program structure.
+  - path: Program Summary > Applicant Eligibility
+    type: solicitation-text
+    reuse_value: high
+    note: Defines eligible lead applicant types (public entities, CBOs, tribes, academic institutions, coalitions). Critical
+      for determining partnership eligibility.
+  - path: Program Summary > Grant Types
+    type: solicitation-text
+    reuse_value: high
+    note: Detailed description of Early Infrastructure and Advanced Infrastructure tracks, funding ranges, deliverables (planning
+      document + demonstration), and timeline (30 or 48 months).
+  - path: Program Summary > Co-Applicant Requirements
+    type: solicitation-text
+    reuse_value: high
+    note: Specifies co-applicant requirements by lead applicant type. Essential for structuring Ambrose partnerships.
+  - path: Program Summary > Application Process
+    type: solicitation-text
+    reuse_value: high
+    note: 'Two pre-application windows (1: June 16–July 21; 2: July 1–August 11), full application process, and submission
+      platform (Submittable). Critical timeline reference.'
+  - path: Program Summary > Application Scoring
+    type: solicitation-text
+    reuse_value: high
+    note: 'Scoring breakdown: narrative (55 points), Funding Priority benefits (15 points), workplan/budget (20 points), interview/site
+      visit (10 points). Total 100 points.'
+  - path: Subject
+    type: solicitation-text
+    reuse_value: medium
+    note: High-level program goals and funding source. States that projects must reduce extreme heat impacts, build community
+      resilience, protect vulnerable populations, partner with communities, foster belonging, and ensure lasting change.
+  fact_candidates:
+  - 'Total funding available: $27.5 million for Round 2'
+  - 'Early Infrastructure track: $7.5 million total; $750,000–$1.2 million per award'
+  - 'Advanced Infrastructure track: $20 million total; $3–$4.5 million per award'
+  - Early Infrastructure projects must complete planning document and demonstration within 30 months of grant award start
+    date
+  - Advanced Infrastructure projects must complete construction within 48 months of grant award start date
+  - 'Pre-Application Interest Form Window 1: Opens June 16, 2026; closes July 21, 2026 at 2:00 PM PST'
+  - 'Pre-Application Interest Form Window 2: Opens July 1, 2026; closes August 11, 2026 at 2:00 PM PST'
+  - 'Full Application scoring: 55 points (narrative) + 15 points (Funding Priority) + 20 points (workplan/budget) + 10 points
+    (interview) = 100 points maximum'
+  - 'Funding source: Climate Bond (Proposition 4) and Greenhouse Gas Reduction Fund'
+  - Co-Applicant required unless lead applicant is California Native American Tribe
+  flags:
+  - Contact email redacted; direct questions to ehcrp email
+  - 'Public records notice: awarded applications will be posted on program website'
+  - NOFA dated June 16, 2026; full application due 2026-10-13 per active needs list
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 193a5b3e00de05f9b6bf9932ce6ed9afb60505dd1a2ccbed3ac4c32f0b01c59b
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 4817
+    output: 952
+    cache_read: 0
+    cache_write: 0

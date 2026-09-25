@@ -1,0 +1,32 @@
+asset_id: ehcrp-r1-resources-page
+card:
+  summary: 'LCI web page listing Round 1 EHCRP resources: final guidelines, NOFA, expenditure records, quarterly report template,
+    and eight YouTube workshop videos from Feb–Mar 2024 covering program overview, planning grants, implementation grants,
+    budget/workplan, and technical assistance.'
+  doc_role: guidance
+  authorship: LCI (California Lands Commission)
+  disposition: reference
+  disposition_reason: Authoritative index to official EHCRP R1 guidance and training materials. Not prose to reuse, but essential
+    lookup resource for understanding program requirements and TA landscape.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - EHCRP Round 1 Final Guidelines dated 2024-04-08
+  - EHCRP Round 1 NOFA dated 2024-04-08
+  - Eight EHCRP R1 application workshops held Feb 8 – Mar 27, 2024
+  - Quarterly Report Template dated 2025-08-13
+  - GGRF Expenditure Record dated 2025-05-30
+  flags:
+  - Resource page only; no substantive content excerpts to assess. Metadata date 2026-09-25 is future-dated (likely a typo).
+    Links provided but not validated. Does not answer any active Round 2 application questions.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: aec2f0feee58980b9e7be0b1944d4ca25add6bf272193613ae9de4655fb86e73
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 3115
+    output: 305
+    cache_read: 0
+    cache_write: 0

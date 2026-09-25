@@ -1,0 +1,90 @@
+asset_id: ehcrp-r2-meaningful-direct-benefits
+card:
+  summary: State guidance on the 2024 Climate Bond's requirement that 40% of funding provide meaningful and direct benefits
+    to disadvantaged/severely disadvantaged communities (DACs/SDACs) or vulnerable populations. Defines a four-step evaluation
+    framework (identify benefits, identify beneficiary communities, assess directness and meaningfulness, document community
+    engagement). Lists benefit categories by bond chapter (wildfire, coastal, extreme heat, biodiversity, parks, clean air,
+    etc.). Provides definitions of DAC/SDAC/vulnerable population, identifies mapping tools (CalEnviroScreen, CCIP, CAFN Viewer,
+    Parks Community FactFinder), and includes sample assessment questions and engagement best practices.
+  doc_role: guidance
+  authorship: California Natural Resources Agency (CNRA)
+  disposition: reference
+  disposition_reason: Authoritative state guidance defining funding criteria and evaluation framework. Hyphae will need to
+    understand and apply these definitions and assessment steps when developing Bay Point applications, but the document itself
+    contains no reusable proposal prose or extractable project facts.
+  serves_needs:
+  - need_id: ehcrp-r2-preapp-feedback
+    how: Defines the four criteria (benefits, beneficiaries, directness, meaningfulness/engagement) behind the 15 Climate
+      Bond funding-priority points that Bay Point applications will be evaluated against
+  sections:
+  - path: Meaningful and Direct Benefits Assessment > Evaluation Framework
+    type: method
+    reuse_value: high
+    note: Four-step process for determining if project provides meaningful/direct benefits; core rubric for application
+  - path: Meaningful and Direct Benefits Assessment > Cross-Cutting Across All Bond Chapters
+    type: method
+    reuse_value: high
+    note: Cross-cutting benefit categories (jobs, capacity building, tribal stewardship, education) applicable to all chapters
+      including extreme heat
+  - path: 'Meaningful and Direct Benefits Assessment > Chapter 5: Extreme Heat Mitigation'
+    type: method
+    reuse_value: high
+    note: Specific benefit categories for heat projects (cooler neighborhoods, flood risk, stormwater, air quality, energy,
+      parks, emergency coordination, awareness, carbon storage)
+  - path: Meaningful and Direct Benefits Assessment > Planning Projects Across All Bond Chapters
+    type: method
+    reuse_value: high
+    note: Benefits specific to planning projects (meaningful leadership roles, consideration of social/economic/physical health
+      of DACs/vulnerable populations)
+  - path: Meaningful and Direct Benefits Assessment > Vulnerable Populations
+    type: method
+    reuse_value: medium
+    note: Definition and identification tools for vulnerable populations (including tribes); relevant for assessing Bay Point
+      community
+  - path: 'Meaningful and Direct Benefits Assessment > APPENDIX B: Sample Questions for Assessing and Verifying'
+    type: method
+    reuse_value: medium
+    note: Sample questions for verifying meaningful/direct benefits (applicant representation, budget line items, deliverables,
+      letters of support, community expression)
+  - path: 'Meaningful and Direct Benefits Assessment > Meaningful Engagement Best Practices:'
+    type: method
+    reuse_value: medium
+    note: Engagement best practices (co-visioning, community priorities, trust-building, power dynamics, decision-making role,
+      representation, sustained engagement)
+  fact_candidates:
+  - 'Meaningful and Direct Benefits Assessment > Bond Requirement on Meaningful and Direct Benefits: At least 40 percent of
+    total 2024 Climate Bond funding must be allocated for projects providing meaningful/direct benefits to vulnerable populations
+    or DACs'
+  - 'Meaningful and Direct Benefits Assessment > Bond Requirement on Meaningful and Direct Benefits: Of the 40 percent, at
+    least 10 percent of total funding must be allocated for projects providing meaningful/direct benefits to SDACs'
+  - 'Meaningful and Direct Benefits Assessment > (S)DAC and Vulnerable Population Definitions: DAC defined as community with
+    median household income less than 80 percent of area average OR less than 80 percent of statewide median household income'
+  - 'Meaningful and Direct Benefits Assessment > (S)DAC and Vulnerable Population Definitions: SDAC defined as community with
+    median household income less than 60 percent of area average OR less than 60 percent of statewide median household income'
+  - 'Meaningful and Direct Benefits Assessment > (S)DAC and Vulnerable Population Definitions: Vulnerable population is subgroup
+    within region/community facing disproportionately heightened risk to climate change impacts and lacking adequate resources
+    to cope/adapt/recover'
+  - 'Meaningful and Direct Benefits Assessment > Chapter 8: Park Creation and Outdoor Access: Park-poor communities defined
+    as neighborhoods with less than 3 acres of usable parkland per 1,000 residents OR median household income less than 80%
+    statewide average AND inadequate access to recreation facilities'
+  - 'Meaningful and Direct Benefits Assessment > Disadvantaged Communities and Severely Disadvantaged Communities: DAC definition
+    (repeated): median household income less than 80 percent area average or statewide median'
+  - 'Meaningful and Direct Benefits Assessment > Note: CalEnviroScreen and the California Climate Investments Priority Populations
+    Mapping Tool cannot be used to identify DACs/SDACs for Climate Bond funding due to different definitions from Prop 4 vs.
+    SB 535 and AB 1550'
+  flags:
+  - State guidance document; not a Climate Bond regulation or formal selection criteria but 'evergreen' resource
+  - Contact details redacted ([email])
+  - No project case studies, site-specific data, or Hyphae examples; applicable as reference only
+  - Excerpt coverage is adequate to assess relevance; document is authoritative but primarily procedural
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 465ecb7c7a9747933cb9a5ac5d76604294231fe1fc6c1400db3af94f807dbf53
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 6640
+    output: 1222
+    cache_read: 0
+    cache_write: 0

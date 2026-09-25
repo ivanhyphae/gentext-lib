@@ -1,0 +1,104 @@
+asset_id: ehcrp-r2-partnerships-guide
+card:
+  summary: Official EHCRP Round 2 technical assistance guide on partnership requirements, roles, structures, and documentation.
+    Covers Lead Applicant and Co-Applicant requirements; eligible entity types; required partnership pairings by applicant
+    type; financial and operational capacity self-assessment prompts; and partnership-building checklist. Structured as reference
+    material for applicants preparing Round 2 applications due Oct 2026.
+  doc_role: guidance
+  authorship: LCI (State of California Governor's Office of Land Use and Climate Innovation)
+  disposition: reference
+  disposition_reason: Authoritative program guidance defining partnership eligibility and requirements for EHCRP R2. Not prose
+    to reuse, but essential lookup reference for application structure and mandatory partner documentation.
+  serves_needs:
+  - need_id: pt-q1
+    how: Defines required Co-Applicant pairings by Lead Applicant type and lists eligible entity types; specifies partnership
+      roles and responsibilities.
+  - need_id: pt-q2
+    how: Provides partnership-building checklist and prompts for identifying partners with proven track records; organizational
+      capacity self-assessment guides what to look for in co-applicants.
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: Guide references that webinars and office hours will cover partnership prep; may be companion materials.
+  sections:
+  - path: Integrated Climate Adaptation and Resilience Program > Extreme Heat and Community Resilience Program
+    type: solicitation-text
+    reuse_value: high
+    note: Program scope and Round 2 objectives; citable framing for partnership rationale.
+  - path: Integrated Climate Adaptation and Resilience Program > Applicant Team Roles
+    type: solicitation-text
+    reuse_value: high
+    note: Definitions of Lead Applicant, Co-Applicant, Contributor, Supporter roles with responsibilities.
+  - path: Integrated Climate Adaptation and Resilience Program > Round 2 Partnership Requirements
+    type: solicitation-text
+    reuse_value: high
+    note: Mandatory Co-Applicant requirement, tribal exemption, partnership agreement requirement.
+  - path: Integrated Climate Adaptation and Resilience Program > Lead Applicant and Co-Applicant Types
+    type: solicitation-text
+    reuse_value: high
+    note: Required Co-Applicant type matrix by Lead Applicant type; critical for Ambrose Center Park and Ambrose Memorial
+      Park applications.
+  - path: Integrated Climate Adaptation and Resilience Program > Documentation Required in the Full Application
+    type: solicitation-text
+    reuse_value: high
+    note: Financial documents, letters of support, work plan/budget requirements by role.
+  - path: Project Roles > Co-Applicant Requirements
+    type: solicitation-text
+    reuse_value: high
+    note: Detailed Co-Applicant documentation, Letter of Support content requirements.
+  - path: Project Roles > Identifying Potential Partnerships
+    type: method
+    reuse_value: medium
+    note: Guiding questions for identifying trusted partners in vulnerable communities; examples of partner types.
+  - path: Project Roles > Partnership Building Checklist
+    type: method
+    reuse_value: medium
+    note: Sequenced steps for partnership formation, role clarification, documentation gathering, and Letter of Support timelines.
+  - path: Project Roles > Organizational Capacity Self-Assessment Prompts for Lead Applicants
+    type: method
+    reuse_value: medium
+    note: Financial, operational, and grant management capacity assessment framework; identifies gaps to address in partner
+      selection.
+  - path: Project Roles > Financial & Grant Management Capacity
+    type: method
+    reuse_value: medium
+    note: Nine-item checklist for financial systems, compliance, reporting capacity.
+  - path: Project Roles > Operational Capacity
+    type: method
+    reuse_value: medium
+    note: Eight-item checklist for staffing, data systems, partner management, organizational readiness.
+  fact_candidates:
+  - EHCRP will fund Early and Advanced Transformative Infrastructure projects to mitigate extreme heat impacts.
+  - Lead Applicant is the only entity to enter into an agreement for grant funding with the State if awarded.
+  - Co-Applicants are required by the Program for each project.
+  - California Native American Tribes and Tribal Entities are exempt from the requirement to include a Co-Applicant.
+  - 'Eligible applicant types: Local or Regional Public Entities, Community-Based Organisations (CBOs), Public Higher Academic
+    Institutions, CA Native American Tribe or Tribal Entity, Coalitions/collaboratives of nonprofits fiscally sponsored by
+    501(c)(3).'
+  - 'Lead Applicant must be paired with Co-Applicant type determined by matrix: Local/Regional Public Entity pairs with CBO;
+    CBO pairs with Local/Regional Public Entity AND another Co-Applicant type.'
+  - Contributors may receive no more than 30% of project budget.
+  - Co-Applicants must submit formal Partnership Agreement post-award (template provided by Program).
+  - Co-Applicants require Letter of Support documenting how project aligns with their goals and organizational interests.
+  - 'Financial capacity documents required: two years of financial statements (balance sheets, income statements, cash flow);
+    for nonprofits, most recent Form 990 and IRS 501(c)(3) Tax Determination Letter; audit findings if received in last five
+    years.'
+  - EHCRP Round 2 application expected to launch in early 2026.
+  flags:
+  - 'excerpt_thin: sections on actual case studies and appendix examples not included in provided outline, limiting depth
+    on proven partnership models'
+  - 'near_duplicate_of_ehcrp-r2-full-guide: inventory note mentions ''earlier, longer partnerships guide''; unclear if this
+    is superseded or complementary version'
+  - 'no_bay_point_specifics: guide is generic across all EHCRP Round 2; does not address Ambrose Center Park or Ambrose Memorial
+    Park partnership structures specifically'
+  - 'moodle_reference: guide references ''Moodle template'' only in context checklist (''Looking Ahead'' section 1007 words);
+    obtain separate template for partner support as distinct asset'
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: eda339767d97586e7f1be0ba16ce7a16d8c329751045137f9089f10a4f45883f
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 5535
+    output: 1476
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,37 @@
+asset_id: lci-cfcc-2025-presentation
+card:
+  summary: LCI program presentation to the California Financing Coordinating Committee (October 2025) covering Round 1 outcomes
+    and Round 2 funding priorities. Documents 32M awarded in R1 across 45 grants in 23 counties; R2 allocates 22.5M. Emphasizes
+    harm reduction, collaborative partnerships, and eligible applicants (CBOs, public entities, academic institutions, tribes).
+    Excerpt cuts off mid-text at program values section.
+  doc_role: guidance
+  authorship: California LCI program (Catherine Foster, Policy Lead)
+  disposition: reference
+  disposition_reason: Authoritative program guidance on EHCRP Round 2 priorities, eligible applicants, and funding allocation.
+    Not proposal prose to reuse, but essential context for understanding reviewer expectations and program direction.
+  serves_needs:
+  - need_id: ehcrp-r2-webinars-office-hours
+    how: LCI program's own account of R2 framework and values; partial match (presentation, not webinar/office hours)
+  sections: []
+  fact_candidates:
+  - 32 million awarded in EHCRP Round 1
+  - 45 grants funded in Round 1 across 23 counties
+  - 22.5 million allocated for Round 2 funding
+  - Round 2 funded from Greenhouse Gas Reduction Fund and Proposition 4
+  - 'Eligible applicants: CBOs, local/regional public entities, public academic institutions, California Native American tribes'
+  - Program values emphasize harm reduction and collaborative partnerships
+  flags:
+  - excerpt too thin to judge—cuts off mid-section at program values; unable to assess full content or any Hyphae-specific
+    guidance
+  - no sections with extractable reuse_value identified from partial text
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 479a458e9dbfeefca14b20bca7ee4b918c57dc1230d70eaa01b021c2309ef134
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 2731
+    output: 393
+    cache_read: 0
+    cache_write: 0

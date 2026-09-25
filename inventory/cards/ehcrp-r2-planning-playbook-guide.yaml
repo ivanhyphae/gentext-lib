@@ -1,0 +1,48 @@
+asset_id: ehcrp-r2-planning-playbook-guide
+card:
+  summary: LCI EHCRP Round 2 guidance on required Early Infrastructure Planning Documents (Heat Action Plans or Infrastructure
+    Master Plans) and Advanced Infrastructure Future Implementation Playbooks. Explains the role of these documents in long-term
+    heat resilience planning, the relationship between demonstration projects and planning, and application requirements.
+  doc_role: guidance
+  authorship: LCI (Low Carbon Cities)
+  disposition: reference
+  disposition_reason: Authoritative solicitation guidance on deliverable expectations; needed to answer lcb-q1 (lasting community
+    benefits pathway through planning document) and shape Full Application scope.
+  serves_needs:
+  - need_id: lcb-q1
+    how: 'Defines what Planning Document must accomplish: establish foundation for needed interventions, provide 10+ year
+      practical pathway, show how infrastructure demonstration tests and informs long-term strategy.'
+  sections:
+  - path: What You Need To Know
+    type: solicitation-text
+    reuse_value: high
+    note: Core definition of Planning Document requirements and role in long-term heat resilience planning; directly answers
+      application expectations.
+  - path: Finalized Planning DOCUMENT
+    type: solicitation-text
+    reuse_value: high
+    note: Details document form options (Heat Action Plan or Infrastructure Master Plan), timeline scope (10+ years), and
+      relationship between demonstration project and planning.
+  fact_candidates:
+  - Round 2 will fund Early and Advanced Infrastructure projects.
+  - Early Infrastructure requires a Planning Document; Advanced Infrastructure requires a Future Implementation Playbook.
+  - Planning Document must take form of either an Extreme Heat Action Plan or an Infrastructure Master Plan.
+  - 10+ year timeline for long-term strategy.
+  - Infrastructure demonstration serves as test of long-term strategy.
+  - 'Three example documents referenced: Example 1 (Infrastructure Master Plan), Example 2 (Heat Action Plan), Example 3 (Heat
+    Action Plan).'
+  flags:
+  - Excerpt lacks specific guidance on metrics, community engagement, or harm-reduction integration—may require review of
+    full text or examples.
+  - No contact information or LCI staff office-hours details provided; separate source needed for technical assistance.
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 2f7142001971e778fa18af8005fc3ab37cd28c303d5f1f1da5cd2ffb8db779a9
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 3203
+    output: 460
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,32 @@
+asset_id: ehcrp-r2-checklist-advanced
+card:
+  summary: Advanced Infrastructure tier application checklist for EHCRP Round 2 grant. Spreadsheet format listing required
+    documents, responsible parties, document descriptions, and cross-references to program guidelines sections. Covers infrastructure
+    location, team structure, cost estimates, organizational documentation, and funding priority requirements.
+  doc_role: solicitation
+  authorship: LCI (Extreme Heat and Community Resilience Grant Program)
+  disposition: reference
+  disposition_reason: Authoritative checklist for application requirements; necessary to track completeness but not prose
+    to reuse. Near-duplicate of Early Infrastructure checklist (83% overlap) suggests limited new substantive content.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - Checklist requires lead applicant and co-applicant CBO to have staffed operational office within 100 miles of project
+    site (Section 6.3)
+  - Applicants must use Climate Bond tool to record census tract GEOIDs for (S)DAC priority points (Appendix E)
+  - Organizations must submit IRS Form 990 and 501(c)(3) Tax Determination Letter (Section 6.4)
+  flags:
+  - Near-duplicate of ehcrp-r2-checklist-early (83% overlap); consider consolidating or dropping this version
+  - Spreadsheet format with limited excerpt coverage; full checklist items not visible in text sample
+  - Document is administrative tracking tool rather than guidance or substantive requirements
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: b0b4c028800e6572bb50dd2eef92645be652b9c8a16d5e76de136a48e1ec1ac8
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 2933
+    output: 318
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,53 @@
+asset_id: ehcrp-r2-ta-guide-belonging
+card:
+  summary: Official LCI guidance document on the Belonging program value for EHCRP Round 2. Defines Belonging as community-centered
+    infrastructure design ensuring end-user investment and long-term stewardship. Emphasizes genuine engagement in shaping
+    design, inclusivity (identifying vulnerable communities, ensuring representation), and accessibility (equitable access,
+    marginalized voices, community-centered design). Provides tipsheets and external resource links (APA, California Arts
+    Council, EPA, etc.) with project examples (Lexington KY Sprayground, Fargo Project, ¡Sombra!, NYC Rain Garden Stewardship).
+  doc_role: guidance
+  authorship: LCI (Extreme Heat and Community Resilience Program)
+  disposition: reference
+  disposition_reason: Authoritative guidance directly tied to EHCRP Round 2 application requirements. Defines evaluation criteria
+    for Belonging Q1/Q2 but contains no reusable proposal prose, citable facts, or site-specific content. Essential to consult
+    when drafting belonging sections but not a source for library chunks.
+  serves_needs:
+  - need_id: be-q1
+    how: 'Explicitly describes design elements and community-centered approach needed: process of engaging community members
+      in shaping design; infrastructure reflecting people it serves; safe, welcoming, reflective of users.'
+  - need_id: be-q2
+    how: Details engagement strategies (identify vulnerable communities via data, work with community leaders, pursue broad
+      support, ensure marginalized voices have power in decision-making) and barrier removal (accessibility, equitable access,
+      reach ESL/immigrant groups).
+  sections:
+  - path: 'What You Need To Know: > Understanding Belonging as a Program Value'
+    type: need-statement
+    reuse_value: high
+    note: Canonical definition of Belonging as program value; describes what strong applications must demonstrate about community
+      engagement in design.
+  - path: 'What You Need To Know: > Elements of Belonging'
+    type: method
+    reuse_value: high
+    note: 'Operational framework: Inclusivity (data-driven vulnerable community identification, representation, power in decision-making);
+      Accessibility (marginalized voice amplification, community-centered design, access barrier removal).'
+  fact_candidates:
+  - EHCRP Round 2 funds Early and Advanced Infrastructure projects to mitigate extreme heat impacts
+  - 'EHCRP program values: Harm Reduction, Collaborative Partnerships, Belonging, Lasting Community Benefits'
+  - Belonging defined as genuine community engagement in infrastructure design for long-term stewardship and use
+  flags:
+  - 'Excerpt too thin to judge: many sections contain only link text or headers with no substantive content (e.g. ''6 Tips
+    for Inclusive > Learning Center [0 words]'', project example sections empty)'
+  - Project examples (Lexington KY Sprayground, Fargo Project, ¡Sombra!, NYC Rain Garden) referenced but content not included
+    in excerpt; clickthrough resources not accessible
+  - No citations or case study details provided; strictly prescriptive rather than evidential
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 742612715771fedd7a0dca2042ca6924b52b630538a30e4621ef356840758155
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 3362
+    output: 675
+    cache_read: 0
+    cache_write: 0

@@ -1,0 +1,41 @@
+asset_id: ehcrp-r2-calendar
+card:
+  summary: Public calendar of EHCRP Round 2 events for Summer–Fall 2026, listing webinars, office hours, and special presentations
+    by example cities (Tucson, Salt Lake City, Austin, Tempe, Phoenix) and Indigenous arts organization. Intended to help
+    applicants understand Round 2 components released since February.
+  doc_role: guidance
+  authorship: LCI (California Office of Planning and Research)
+  disposition: reference
+  disposition_reason: Authoritative source for EHCRP Round 2 event schedule and registration links; useful for planning engagement
+    but contains no reusable proposal prose or citable factual claims about Bay Point, Hyphae's methods, or partner experience.
+  serves_needs: []
+  sections: []
+  fact_candidates:
+  - 'Preamble: application deadline stated as Fall 2026 (full date not in excerpt)'
+  - 'Wednesday June 17 (1–2 PM PST): City of Tucson Special Presentation on Storm to Shade Program'
+  - 'Monday June 22 (1–2 PM PST): Salt Lake City presentation on Green Loop and Three Creeks Confluence projects'
+  - 'Tuesday June 23 (9–10 AM PST): City of Austin presentation on climate resilience projects'
+  - 'Thursday June 25 (10–11 AM PST): Round 2 Kickoff Webinar on guidelines and timeline'
+  - 'Tuesday June 30 (2–3 PM): Round 2 Guidelines Session 2'
+  - Civix is named as 3rd Party TA Provider for office hours and webinars
+  - Multiple office hours scheduled for July 1, 7, 9, 13 (times and registrations listed)
+  - 'Tuesday July 28 (9–10 AM PST): City of Tempe presentation on Rain to Roots Program and Green Stormwater Infrastructure'
+  - 'Thursday July 30 (1–2 PM): City of Phoenix presentation on Food Forests and Cool Corridor Program by Dave Hondula (Director
+    of Heat Response and Heat Mitigation)'
+  - 'Tuesday August 4 (3–3:45 PM): Hekiu Indigenous Arts Continuum special presentation on centering indigenous knowledge
+    in public spaces'
+  flags:
+  - 'excerpt too thin to judge: Phoenix section (1074 words) heavily truncated; Hekiu Arts Continuum content incomplete'
+  - no citable outcomes or methods visible; document is administrative calendar only
+  - matches need ehcrp-r2-webinars-office-hours but content is event listing, not recorded Q&A or slides
+meta:
+  model: claude-haiku-4-5
+  prompt_version: c2
+  backend: api-batch
+  text_sha256: 702a1d4b1d34f9db4f89e0c5edc2ff7fc6422d74282bbfb90b00d02bd4ecb7f2
+  created: '2026-09-25T13:52:29'
+  usage:
+    input: 6440
+    output: 570
+    cache_read: 0
+    cache_write: 0
