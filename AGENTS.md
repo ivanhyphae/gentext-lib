@@ -101,5 +101,9 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 - The `graph-keeper` skills (RDF/Turtle knowledge graph in git) are candidates for the optional semantic-graph layer (DR-0003, M3).
 
 ### Git
-- Until the maintainer says otherwise (expected at a milestone), **work directly on `main` and commit at your own judgment**: small, coherent commits with descriptive messages, whenever a unit of work is done (a DR, a research topic, a module step). Don't push unless asked.
+- **Branch from `main` for all work** (as of 2026-09-25; the first milestone). Never commit directly to `main`.
+  - Name branches `<type>/<short-topic>`: `feat/fact-registry`, `extract/bay-point-sonnet`, `draft/hr-q1-q2`, `docs/…`, `fix/…`, `inventory/…`. Claude Code cloud sessions may use their own `claude/…` session branches instead.
+  - Within a branch, **commit at your own judgment**: small, coherent commits with descriptive messages whenever a unit of work is done.
+  - Pushing the working branch is fine (cloud sessions need it to persist work). **Never push to `main`.** Changes reach `main` by a pull request the maintainer reviews and merges.
+  - Keep branches short-lived and focused on one unit of work (a module step, one application answer set, one sweep). Open the PR with a summary of what changed and anything the maintainer must decide.
 - Do not commit generated indexes, embeddings, or bulk extracted text. Those are derived and rebuildable.

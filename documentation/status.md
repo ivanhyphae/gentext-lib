@@ -50,7 +50,7 @@ Total model spend so far is about **$2.30** (cards ≈ $1.00, extraction ≈ $0.
    - Cards: `uv run adapt-rfp card prepare [ids]` → a Haiku sub-agent per file in `build/card-prompts/` returns card JSON → collect into `{asset_id: card}` → `uv run adapt-rfp card ingest results.json`.
    - Extraction: `uv run adapt-rfp extract --prepare [ids]` → a Sonnet sub-agent per file in `build/extract-prompts/` writes its JSON to `build/extract-raw/<run>/<asset>__<sid>.json` → `uv run adapt-rfp extract --revalidate build/extract-raw/<run>`.
 3. **Google Drive:** discovery and acquisition use the claude.ai Google Drive connector if the session has it. Otherwise work from what is already in `sources/`.
-4. Commit on `main` at your own judgment (AGENTS.md); **push only when asked**.
+4. **Work on a branch, never on `main`** (AGENTS.md → Git). Commit at your own judgment, push the branch, and open a PR for the maintainer to merge.
 
 ## Next steps (in order)
 
