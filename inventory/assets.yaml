@@ -24,12 +24,12 @@
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
 
 - id: ehcrp-r2-working-doc
-  title: Hyphae + I-ReLab EHCRP (Google Doc in the EHCRP Round 2 folder)
+  title: Hyphae + I-ReLab EHCRP (Google Doc) — exploratory I-ReLab track
   kind: working-doc
   status: acquired
-  priority: 1
+  priority: 2
   location: {system: gdrive, id: 1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M, url: "https://docs.google.com/document/d/1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M/edit", mime: application/vnd.google-apps.document, size: 4869434, modified: 2026-08-07, parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI}
-  relevance: {programs: [ehcrp-r2], places: [bay-point], note: "A DIFFERENT COPY from the two Ambrose DOCX exports: its pre-app form is blank and its 7 comment threads (kj, Ivan, Mei) differ from the DOCX comments (James, Chris, Ivan). Find which copy James is working in before treating any as canonical."}
+  relevance: {programs: [ehcrp-r2], places: [bay-point], note: "Separate, earlier exploratory track with I-ReLab (DR-0012 app `irelab-exploratory`). NOT upstream of the ARPD pre-applications; if I-ReLab participates it will assist James's ARPD applications. Useful for strategy context and I-ReLab-authored prose (authorship: I-ReLab/kj)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
   local:
     path: sources/ehcrp-r2-working-doc/ehcrp-r2-working-doc.md
@@ -39,25 +39,26 @@
   notes: 'Connector text: tabs render as plain H1s (# Overview, # Notes, # Template Letter, # Fresno EHCRP example, # Pre-application); TOC links all point to ?tab=t.0, so no tab ids; images dropped; comments come with thread status + timestamps. Contains team emails. 2026-09-25: the EHCRP Round 2 folder also holds per-site Google Docs ''Ambrose Memorial Park EHCRP'' (1XUQxpLCwFCkANNubP55I0KwMWHjLGHkhyTxcv45irWc) and ''Ambrose Center Park EHCRP'' (1g-L8522IMdJjtdRRba5IHoPQLvjQbeqRR2U3iGqsJhY), created 2026-08-11 and edited 2026-08-18, which match the two DOCX exports; an archived predecessor is ehcrp-r2-working-doc-archive.'
 
 - id: ehcrp-r2-ambrose-memorial-docx
-  title: Ambrose Memorial Park EHCRP.docx (export of the working doc, Memorial Park pre-app)
+  title: Ambrose Memorial Park EHCRP.docx — export of the ARPD Memorial Park pre-application
   kind: working-doc
   status: acquired
   priority: 1
   location: {system: local}
-  relevance: {programs: [ehcrp-r2], places: [bay-point, ambrose-memorial-park]}
+  relevance: {programs: [ehcrp-r2], places: [bay-point, ambrose-memorial-park], note: Snapshot of ehcrp-r2-ambrose-memorial-gdoc.}
   local: {path: "projects/EHCRP Round 2/Ambrose Memorial Park EHCRP.docx", sha256: 11eeef3981319e0f8cf683aaeb37950d2dbcab1131ca5de1b82440b8e3587e38, acquired: 2026-09-25, via: manual}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
-  notes: Near-duplicate of ehcrp-r2-ambrose-center-docx (differs only in pre-app section).
+  notes: Separate application from the Center Park one (different site); they share most background text and differ in site-specific pre-app answers. Corrected 2026-09-25 per maintainer.
 
 - id: ehcrp-r2-ambrose-center-docx
-  title: Ambrose Center Park EHCRP.docx (export of the working doc, Center Park pre-app)
+  title: Ambrose Center Park EHCRP.docx — export of the ARPD Center Park pre-application
   kind: working-doc
   status: acquired
-  priority: 2
+  priority: 1
   location: {system: local}
-  relevance: {programs: [ehcrp-r2], places: [bay-point, ambrose-center-park]}
+  relevance: {programs: [ehcrp-r2], places: [bay-point, ambrose-center-park], note: Snapshot of ehcrp-r2-ambrose-center-gdoc.}
   local: {path: "projects/EHCRP Round 2/Ambrose Center Park EHCRP.docx", sha256: 54de98cb2d0d679a947571924ae1c69250840fe76d8c69fc488772bb23544c34, acquired: 2026-09-25, via: manual}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  notes: Separate application (Center Park site). Corrected 2026-09-25 per maintainer.
 
 - id: cnra-ugg-2026-concept-bay-point
   title: 2026 Urban Greening Grant Program Concept Proposal — Bay Point transit stops (CCRCD lead)
@@ -1329,7 +1330,7 @@
     sweep: s-2026-09-25-gdrive-02
   notes: 'GIS ids: 1f5yEFMief0Mo-sur6yVk7HkFGPZSG4WE, 1_J3U7eW1yyggfOnv9b3gbTf3Hx5PYknc, 1QVPi5-fvJh_Mb4fkk9VKVTBnaf-ZBXbv, 147510maHfmAdsXzPjDBYTfTn1aBPxsWZ. Icon folder paged once (50 of more) then skipped.'
 - id: ehcrp-r2-ambrose-memorial-gdoc
-  title: Ambrose Memorial Park EHCRP (Google Doc, EHCRP Round 2 folder)
+  title: Ambrose Memorial Park EHCRP (Google Doc) — ARPD-led pre-application, Memorial Park site
   kind: working-doc
   status: include
   priority: 1
@@ -1349,13 +1350,13 @@
     places:
     - bay-point
     - ambrose-memorial-park
-    note: Live Google Doc behind the 'Ambrose Memorial Park EHCRP.docx' export (created 2026-08-11, last edit 2026-08-18). Likely the copy the team is authoring in; resolves part of the 'which copy is canonical' question on ehcrp-r2-working-doc. Re-acquire via connector-text before drafting.
+    note: One of the lead writer's two submitted pre-applications (ARPD lead, Lori). Live source of the Memorial Park DOCX. This is an APPLICATION (DR-0012 app `ambrose-memorial-park`), not a copy of the I-ReLab doc. Re-acquire via connector-text before drafting.
   discovered:
     date: 2026-09-25
     by: claude-opus-5-5
     sweep: s-2026-09-25-gdrive-02
 - id: ehcrp-r2-ambrose-center-gdoc
-  title: Ambrose Center Park EHCRP (Google Doc, EHCRP Round 2 folder)
+  title: Ambrose Center Park EHCRP (Google Doc) — ARPD-led pre-application, Center Park site
   kind: working-doc
   status: include
   priority: 1
@@ -1375,7 +1376,7 @@
     places:
     - bay-point
     - ambrose-center-park
-    note: Live Google Doc behind 'Ambrose Center Park EHCRP.docx'; sibling pre-app for the Center Park site. Compare with the Memorial Park doc before treating either as canonical.
+    note: The lead writer's second submitted pre-application (ARPD lead), Center Park site. Live source of the Center Park DOCX. DR-0012 app `ambrose-center-park`.
   discovered:
     date: 2026-09-25
     by: claude-opus-5-5
