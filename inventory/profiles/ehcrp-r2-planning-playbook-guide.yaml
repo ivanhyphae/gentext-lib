@@ -1,0 +1,40 @@
+asset_id: ehcrp-r2-planning-playbook-guide
+source_path: sources/ehcrp-r2-planning-playbook-guide/Round-2-Planning-Playbook-Application-Guide.pdf
+source_sha256: 871c6024a4b072be0c03b6a7aabf7ef7c81523501646a84c37e642ad9b1ed5f5
+text_sha256: 2f7142001971e778fa18af8005fc3ab37cd28c303d5f1f1da5cd2ffb8db779a9
+words: 1136
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+  level: 2
+  words: 6
+- path: 'What You Need To Know:'
+  level: 1
+  words: 195
+- path: Identify
+  level: 1
+  words: 12
+- path: Test
+  level: 1
+  words: 1
+- path: Test > Where Early
+  level: 2
+  words: 3
+- path: Finalize
+  level: 1
+  words: 6
+- path: Finalize > Where Advanced
+  level: 2
+  words: 80
+- path: Finalized Planning
+  level: 1
+  words: 393
+- path: Intervention
+  level: 1
+  words: 418
+section_count: 9
+profiled: '2026-09-25'
+profiler: p1

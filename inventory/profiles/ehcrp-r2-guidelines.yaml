@@ -1,0 +1,169 @@
+asset_id: ehcrp-r2-guidelines
+source_path: projects/EHCRP Round 2/Round-2-Final-Guidelines.pdf
+source_sha256: 963b206b2f6f2f0d9f52cde021c4f312803e1f01ef79d3a4cfa638d44439ca37
+text_sha256: af4ce0fb355479406085b9e7f819ebbfcecb5e6f22b901dafacf677da089e2db
+words: 17643
+pii:
+  emails: 4
+  phones: 1
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation And Resiliency Program
+  level: 1
+  words: 0
+- path: Integrated Climate Adaptation And Resiliency Program > Extreme Heat and Community Resilience Program
+  level: 2
+  words: 0
+- path: Integrated Climate Adaptation And Resiliency Program > Round 2 Grant Guidelines
+  level: 2
+  words: 2
+- path: Integrated Climate Adaptation And Resiliency Program > Guideline Overview
+  level: 2
+  words: 322
+- path: Integrated Climate Adaptation And Resiliency Program > Table of Contents
+  level: 2
+  words: 108
+- path: 1. Background
+  level: 1
+  words: 371
+- path: 2. Program Values
+  level: 1
+  words: 337
+- path: 3. Early Infrastructure Projects
+  level: 1
+  words: 921
+- path: 4. Advanced Infrastructure Projects
+  level: 1
+  words: 424
+- path: '4. Advanced Infrastructure Projects > 4.6 Completed Infrastructure Requirements: All proposed infrastructure must be fully'
+  level: 2
+  words: 127
+- path: 5. Workplan and Eligible Activities
+  level: 1
+  words: 371
+- path: '5. Workplan and Eligible Activities > Task 2. Community Assessment and Engagement:'
+  level: 2
+  words: 210
+- path: '5. Workplan and Eligible Activities > Task 3. Infrastructure Readiness:'
+  level: 2
+  words: 280
+- path: '5. Workplan and Eligible Activities > Task 4. Infrastructure Deployment:'
+  level: 2
+  words: 94
+- path: '5. Workplan and Eligible Activities > Task 5. Planning and Policy:'
+  level: 2
+  words: 298
+- path: 6. Eligibility
+  level: 1
+  words: 564
+- path: 6. Eligibility > Co-Applicant Requirement
+  level: 2
+  words: 6
+- path: 6. Eligibility > Local or Regional Public Entity
+  level: 2
+  words: 803
+- path: 7. Funding Priorities
+  level: 1
+  words: 244
+- path: 7. Funding Priorities > California Native American Tribe
+  level: 2
+  words: 1
+- path: 7. Funding Priorities > Severely Disadvantaged Community (SDAC)
+  level: 2
+  words: 1
+- path: 7. Funding Priorities > Vulnerable Populations
+  level: 2
+  words: 1
+- path: 7. Funding Priorities > Disadvantaged Community (DAC)
+  level: 2
+  words: 9
+- path: '7. Funding Priorities > 7.3 Funding Priorities Groups Definitions:'
+  level: 2
+  words: 179
+- path: '7. Funding Priorities > 7.4 How Points Are Awarded: During the pre-application phase, Extreme Heat Program'
+  level: 2
+  words: 262
+- path: 8. Application Process
+  level: 1
+  words: 1287
+- path: 9. Post-Award Requirements
+  level: 1
+  words: 114
+- path: '9. Post-Award Requirements > 9.2 Readiness Review Requirements: Grantees must demonstrate readiness before'
+  level: 2
+  words: 477
+- path: 10. Legal Notes
+  level: 1
+  words: 468
+- path: 11. Appendix
+  level: 1
+  words: 698
+- path: '11. Appendix > Appendix B: Belonging Guide'
+  level: 2
+  words: 877
+- path: '11. Appendix > Appendix C: Eligible Projects Examples'
+  level: 2
+  words: 379
+- path: '11. Appendix > Nature-Based Solutions:'
+  level: 2
+  words: 246
+- path: '11. Appendix > Appendix D: Workplan Examples'
+  level: 2
+  words: 346
+- path: 11. Appendix > Community Assessment
+  level: 2
+  words: 6
+- path: 11. Appendix > Planning and Policy
+  level: 2
+  words: 263
+- path: 11. Appendix > Advanced Infrastructure Example
+  level: 2
+  words: 631
+- path: '11. Appendix > Appendix E: Guide to Assessing Funding Priority Points'
+  level: 2
+  words: 514
+- path: '11. Appendix > Option 2: Use the Report Generator:'
+  level: 2
+  words: 197
+- path: '11. Appendix > Appendix F: Scoring Criteria'
+  level: 2
+  words: 57
+- path: 11. Appendix > Total Points Possible
+  level: 2
+  words: 12
+- path: '2. Narrative Section (55 Points):'
+  level: 1
+  words: 222
+- path: '2. Narrative Section (55 Points): > 2.2 Narrative Section: Harm Reduction (12 Points):'
+  level: 2
+  words: 493
+- path: '2. Narrative Section (55 Points): > 2.3 Narrative Section: Partnership (12 Points):'
+  level: 2
+  words: 984
+- path: '2. Narrative Section (55 Points): > 2.4 Narrative Section: Belonging (12 Points):'
+  level: 2
+  words: 526
+- path: '2. Narrative Section (55 Points): > 2.5 Narrative Section: Lasting Community Benefits (12 Points):'
+  level: 2
+  words: 287
+- path: '3. Funding Priorities (15 Points):'
+  level: 1
+  words: 105
+- path: '3. Funding Priorities (15 Points): > Direct and Meaningful Benefits Criteria'
+  level: 2
+  words: 43
+- path: '3. Funding Priorities (15 Points): > Application Question'
+  level: 2
+  words: 20
+- path: '3. Funding Priorities (15 Points): > Table 7. Mapping Benefits Criteria to Application Questions'
+  level: 2
+  words: 212
+- path: '3. Funding Priorities (15 Points): > 3.4 Vulnerable Population (12 points):'
+  level: 2
+  words: 900
+- path: '3. Funding Priorities (15 Points): > Appendix G: Glossary of Terms'
+  level: 2
+  words: 1108
+section_count: 52
+profiled: '2026-09-25'
+profiler: p1

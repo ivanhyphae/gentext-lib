@@ -1,0 +1,79 @@
+asset_id: ehcrp-r2-meaningful-direct-benefits
+source_path: sources/ehcrp-r2-meaningful-direct-benefits/Oct2025_Meaningful_Direct-Benefits-Assessment.pdf
+source_sha256: 2c03226447cf86312f841a496fb3138c93721255aeb4c301cec99e58196ef27a
+text_sha256: 465ecb7c7a9747933cb9a5ac5d76604294231fe1fc6c1400db3af94f807dbf53
+words: 6443
+pii:
+  emails: 3
+  phones: 0
+near_duplicates: []
+sections:
+- path: Meaningful and Direct Beneﬁts Assessment
+  level: 2
+  words: 190
+- path: Meaningful and Direct Beneﬁts Assessment > Bond Requirement on Meaningful and Direct Beneﬁts
+  level: 2
+  words: 70
+- path: Meaningful and Direct Beneﬁts Assessment > (S)DAC and Vulnerable Population Deﬁnitions
+  level: 2
+  words: 154
+- path: Meaningful and Direct Beneﬁts Assessment > Evaluation Framework
+  level: 2
+  words: 129
+- path: Meaningful and Direct Beneﬁts Assessment > Cross-Cutting Across All Bond Chapters
+  level: 2
+  words: 87
+- path: Meaningful and Direct Beneﬁts Assessment > Planning Projects Across All Bond Chapters
+  level: 2
+  words: 175
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 3: Wildﬁre and Forest Resilience'
+  level: 2
+  words: 108
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 4: Coastal Resilience'
+  level: 2
+  words: 96
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 5: Extreme Heat Mitigation'
+  level: 2
+  words: 122
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 6: Protect Biodiversity and Accelerating Nature-Based Climate'
+  level: 2
+  words: 200
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 8: Park Creation and Outdoor Access'
+  level: 2
+  words: 81
+- path: 'Meaningful and Direct Beneﬁts Assessment > Chapter 9: Clean Air'
+  level: 2
+  words: 563
+- path: Meaningful and Direct Beneﬁts Assessment > Disadvantaged Communities and Severely Disadvantaged Communities
+  level: 2
+  words: 29
+- path: 'Meaningful and Direct Beneﬁts Assessment > Note: CalEnviroScreen and the California Climate'
+  level: 2
+  words: 236
+- path: Meaningful and Direct Beneﬁts Assessment > Vulnerable Populations
+  level: 2
+  words: 1776
+- path: 'Meaningful and Direct Beneﬁts Assessment > APPENDIX A: Other Area, Community, Individual, or'
+  level: 2
+  words: 1318
+- path: Meaningful and Direct Beneﬁts Assessment > California Access and Functional Needs Viewer
+  level: 2
+  words: 140
+- path: Meaningful and Direct Beneﬁts Assessment > Statewide Parks Program Community FactFinder
+  level: 2
+  words: 97
+- path: 'Meaningful and Direct Beneﬁts Assessment > APPENDIX B: Sample Questions for Assessing and Verifying'
+  level: 2
+  words: 432
+- path: 'Meaningful and Direct Beneﬁts Assessment > APPENDIX C: Tribal Consultation and Meaningful Engagement'
+  level: 2
+  words: 14
+- path: 'Meaningful and Direct Beneﬁts Assessment > Meaningful Engagement Best Practices:'
+  level: 2
+  words: 203
+- path: 'Meaningful and Direct Beneﬁts Assessment > APPENDIX D: Ways to Avoid Degradation of Community'
+  level: 2
+  words: 100
+section_count: 22
+profiled: '2026-09-25'
+profiler: p1

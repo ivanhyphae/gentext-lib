@@ -34,3 +34,4 @@ solicitations/<funder>/<program>/<round>/
 - Should the workbook (workplan/budget) constraints be modelled in the pilot, or narrative questions only? Lean: narrative only until after Oct 13.
 
 ## Revisions
+- 2026-09-25: First instance created: `solicitations/lci/ehcrp/round-2/` with `solicitation.yaml`, `questions.yaml` (verbatim from the Full Application Form, with `guideline_diff` noted for overview and hr-q2), and three applications. Evidence expectations are `status: draft` pending human review.

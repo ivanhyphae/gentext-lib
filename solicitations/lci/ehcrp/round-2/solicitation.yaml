@@ -1,0 +1,22 @@
+# DR-0012 solicitation model. Sources are inventory asset ids.
+id: lci-ehcrp-r2
+funder: lci                      # Governor's Office of Land Use and Climate Innovation
+program: Extreme Heat and Community Resilience Program (ICARP)
+round: 2
+sources:
+  form: ehcrp-r2-full-application-form      # wins where it differs from the guidelines
+  guidelines: ehcrp-r2-guidelines
+  nofa: ehcrp-r2-nofa
+  checklist_early: ehcrp-r2-checklist-early
+  ta_guides: [ehcrp-r2-ta-guide-harm-reduction, ehcrp-r2-ta-guide-partnership, ehcrp-r2-ta-guide-belonging, ehcrp-r2-ta-guide-lasting-community-benefits]
+deadlines:
+  preapp_window_1: 2026-07-21T14:00:00-07:00
+  preapp_window_2: 2026-08-11T14:00:00-07:00
+  full_application: 2026-10-13T14:00:00-07:00
+tiers:
+  early-infrastructure: {award_min: 750000, award_max: 1200000, months: 30, deliverables: [planning-document, demonstration-project]}
+  advanced-infrastructure: {award_min: 3000000, award_max: 4500000, months: 48, deliverables: [completed-infrastructure, future-implementation-playbook]}
+budget_constraints:            # Guidelines §3.4 / §4.4
+  early-infrastructure: {demonstration_pct: [25, 60], partners_min_pct: 8, belonging_min_pct: 4, post_award_setaside: 25000, indirect_max_pct: 15}
+  advanced-infrastructure: {construction_min_pct: 70, partners_min_pct: 6, belonging_min_pct: 2, post_award_setaside: 50000, indirect_max_pct: 15}
+scoring_total: 100             # narrative 55 + funding priority 15 + workbook 20 + interview 10

@@ -1,0 +1,124 @@
+asset_id: fresno-rfp-hyphae-2024
+source_path: sources/fresno-rfp-hyphae-2024/fresno-rfp-hyphae-2024.md
+source_sha256: 63d95c433e28d05c93d5c0d728f7fa1bb51a99f796a930a464613e694b9c8bce
+text_sha256: 34a6b853a937b5bff95b6462e51055b07d35a65e95e9c25444e4b202eedcc6ee
+words: 21448
+pii:
+  emails: 19
+  phones: 10
+near_duplicates:
+- asset_id: fresno-extreme-heat-analysis-doc
+  jaccard: 0.182
+  contained_in: 0.569
+sections:
+- path: part 1
+  level: 1
+  words: 600
+- path: part 2
+  level: 1
+  words: 600
+- path: part 3
+  level: 1
+  words: 600
+- path: part 4
+  level: 1
+  words: 600
+- path: part 5
+  level: 1
+  words: 600
+- path: part 6
+  level: 1
+  words: 600
+- path: part 7
+  level: 1
+  words: 600
+- path: part 8
+  level: 1
+  words: 600
+- path: part 9
+  level: 1
+  words: 600
+- path: part 10
+  level: 1
+  words: 600
+- path: part 11
+  level: 1
+  words: 600
+- path: part 12
+  level: 1
+  words: 600
+- path: part 13
+  level: 1
+  words: 600
+- path: part 14
+  level: 1
+  words: 600
+- path: part 15
+  level: 1
+  words: 600
+- path: part 16
+  level: 1
+  words: 600
+- path: part 17
+  level: 1
+  words: 600
+- path: part 18
+  level: 1
+  words: 600
+- path: part 19
+  level: 1
+  words: 600
+- path: part 20
+  level: 1
+  words: 600
+- path: part 21
+  level: 1
+  words: 600
+- path: part 22
+  level: 1
+  words: 600
+- path: part 23
+  level: 1
+  words: 600
+- path: part 24
+  level: 1
+  words: 600
+- path: part 25
+  level: 1
+  words: 600
+- path: part 26
+  level: 1
+  words: 600
+- path: part 27
+  level: 1
+  words: 600
+- path: part 28
+  level: 1
+  words: 600
+- path: part 29
+  level: 1
+  words: 600
+- path: part 30
+  level: 1
+  words: 600
+- path: part 31
+  level: 1
+  words: 600
+- path: part 32
+  level: 1
+  words: 600
+- path: part 33
+  level: 1
+  words: 600
+- path: part 34
+  level: 1
+  words: 600
+- path: part 35
+  level: 1
+  words: 600
+- path: part 36
+  level: 1
+  words: 448
+section_count: 36
+profiled: '2026-09-25'
+profiler: p1

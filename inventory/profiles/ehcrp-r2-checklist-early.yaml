@@ -1,0 +1,22 @@
+asset_id: ehcrp-r2-checklist-early
+source_path: sources/ehcrp-r2-checklist-early/Early_Infrastructure_Checklist.xlsx
+source_sha256: 133756bab76cf8e4b05dfadbbc4934a39f43f5482e8021b7adf2474767ece99e
+text_sha256: 886943f92274f63de23a41e235f9202d0260057eed58451c06c604297825e960
+words: 1077
+pii:
+  emails: 0
+  phones: 0
+near_duplicates:
+- asset_id: ehcrp-r2-checklist-advanced
+  jaccard: 0.695
+  contained_in: 0.805
+sections:
+- path: part 1
+  level: 1
+  words: 600
+- path: part 2
+  level: 1
+  words: 477
+section_count: 2
+profiled: '2026-09-25'
+profiler: p1

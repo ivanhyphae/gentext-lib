@@ -1,0 +1,22 @@
+asset_id: ehcrp-r2-checklist-advanced
+source_path: sources/ehcrp-r2-checklist-advanced/Advanced_Infrastructure_Checklist.xlsx
+source_sha256: d374440f99892c9c3069f7b56b629add1a657cdbf6ad6ac6c3faa6d18d3a60fc
+text_sha256: b0b4c028800e6572bb50dd2eef92645be652b9c8a16d5e76de136a48e1ec1ac8
+words: 1012
+pii:
+  emails: 0
+  phones: 0
+near_duplicates:
+- asset_id: ehcrp-r2-checklist-early
+  jaccard: 0.695
+  contained_in: 0.836
+sections:
+- path: part 1
+  level: 1
+  words: 600
+- path: part 2
+  level: 1
+  words: 412
+section_count: 2
+profiled: '2026-09-25'
+profiler: p1

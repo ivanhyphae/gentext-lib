@@ -1,0 +1,37 @@
+asset_id: ehcrp-r2-ta-guide-partnership
+source_path: sources/ehcrp-r2-ta-guide-partnership/EHCRP-TA-Guide-Partnership.pdf
+source_sha256: 47a0b3bc0a638832add4b0feacd4ec18e14292827ec09e862650d4f78c9089de
+text_sha256: c5854d5756ea7cc977da339fcc1802ea19fe0393c44be0b5d5f11bae6486eb2e
+words: 1343
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+  level: 2
+  words: 6
+- path: 'What You Need To Know:'
+  level: 1
+  words: 51
+- path: 'What You Need To Know: > Understanding Partnership as a Program Value'
+  level: 2
+  words: 264
+- path: 'What You Need To Know: > Elements of Project Partnership'
+  level: 2
+  words: 81
+- path: 'What You Need To Know: > -Provide CoApplicant’s key'
+  level: 2
+  words: 42
+- path: 'What You Need To Know: > -Provide a Letter of'
+  level: 2
+  words: 8
+- path: 'What You Need To Know: > -Sign Partnership'
+  level: 2
+  words: 34
+- path: 'What You Need To Know: > -Submit PreApplication Interest'
+  level: 2
+  words: 823
+section_count: 8
+profiled: '2026-09-25'
+profiler: p1

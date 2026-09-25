@@ -9,6 +9,8 @@ dependencies = [
     "pyyaml>=6",
     "pypandoc-binary>=1.13",   # bundles the pandoc binary, so no pacman/AUR install needed
     "ruamel-yaml>=0.18",
+    "anthropic>=1.8.0",
+    "openpyxl>=3.1.5",
 ]
 
 [project.scripts]

@@ -1,0 +1,76 @@
+asset_id: ehcrp-r2-nofa
+source_path: sources/ehcrp-r2-nofa/Notice-of-Funding-Availability-Extreme-Heat-Program-Round-2.pdf
+source_sha256: 648b4a85d0985675e3d75ee21fd10dfd18ff876e91319e3f3dcdbcb11b277237
+text_sha256: 193a5b3e00de05f9b6bf9932ce6ed9afb60505dd1a2ccbed3ac4c32f0b01c59b
+words: 2193
+pii:
+  emails: 3
+  phones: 1
+near_duplicates: []
+sections:
+- path: June 16, 2026
+  level: 2
+  words: 0
+- path: June 16, 2026 > Notice of Funding Availability Extreme Heat and
+  level: 2
+  words: 4
+- path: June 16, 2026 > All Potential Applicants
+  level: 2
+  words: 0
+- path: 'From:'
+  level: 1
+  words: 12
+- path: 'Subject:'
+  level: 1
+  words: 118
+- path: 'Subject: > LCI - Public'
+  level: 2
+  words: 0
+- path: Program Summary
+  level: 1
+  words: 127
+- path: Program Summary > Applicant Eligibility
+  level: 2
+  words: 54
+- path: Program Summary > Grant Types
+  level: 2
+  words: 178
+- path: Program Summary > LCI - Public
+  level: 2
+  words: 17
+- path: Program Summary > Co-Applicant Requirements
+  level: 2
+  words: 208
+- path: Program Summary > Application Process
+  level: 2
+  words: 97
+- path: Program Summary > LCI - Public
+  level: 2
+  words: 195
+- path: Program Summary > Application Scoring
+  level: 2
+  words: 238
+- path: Program Summary > LCI - Public
+  level: 2
+  words: 0
+- path: Program Summary > Appeal Process and Deadlines
+  level: 2
+  words: 362
+- path: Program Summary > LCI - Public
+  level: 2
+  words: 212
+- path: Other Terms And Conditions
+  level: 1
+  words: 132
+- path: Other Terms And Conditions > LCI - Public
+  level: 2
+  words: 143
+- path: Resources And Questions
+  level: 1
+  words: 37
+- path: Resources And Questions > LCI - Public
+  level: 2
+  words: 0
+section_count: 21
+profiled: '2026-09-25'
+profiler: p1

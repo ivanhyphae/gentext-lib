@@ -1,0 +1,89 @@
+# Narrative questions, VERBATIM from the Round 2 Full Application Form (asset ehcrp-r2-full-application-form, pp. 15–18).
+# `guideline_diff` records where Appendix F of the Guidelines words it differently (the form wins).
+# `evidence` = what a High-band answer must show; extracted from Appendix F bands + TA guides. Status: draft (human-verify).
+- id: overview
+  section: Project Overview
+  points: 7
+  word_limit: 300
+  prompt: >-
+    Summarize your project, including what infrastructure will be built and how it will support your community
+    during extreme heat, and outline the key tasks and their sequence needed to ensure completion within the contract
+    period (30 months for Early Infrastructure Projects and 48 months for Advanced Infrastructure Projects). Please
+    ensure your response includes all required information. For example, Early Infrastructure Projects require a
+    Planning Document and a Demonstration Project (see Section 3 Early Infrastructure Projects of the Grant Guidelines.
+    Advanced Infrastructure Projects require a completed Infrastructure Project and a Future Implementation Playbook
+    (see Section 4 Advanced Infrastructure Projects of the Grant Guidelines).
+  guideline_diff: "Form adds 'how it will support your community during extreme heat'; Appendix F asks 'what deliverables will be produced'."
+  evidence: [infrastructure type named, both required deliverables named (tier), key tasks in sequence within contract period]
+  status: draft
+- id: hr-q1
+  section: Harm Reduction
+  points: 6
+  word_limit: 250
+  prompt: >-
+    Which heat-vulnerable community will your project serve, how are they exposed to extreme heat, and what harms
+    result? Describe how you know, drawing on community knowledge, lived experience, and relevant data. (We encourage
+    you to use the Vulnerable Communities Platform to add insights from data to your response and complement your own
+    knowledge).
+  evidence: [specific community (not generic), exposure pathways, specific harms, data integrated with lived experience, community voices (quotes or stories), VCP or other cited data]
+  status: draft
+- id: hr-q2
+  section: Harm Reduction
+  points: 6
+  word_limit: 250
+  prompt: >-
+    How will this project help? How will the proposed infrastructure project reduce extreme heat exposures and
+    vulnerabilities described above? Be specific about the pathways through which the project will improve conditions
+    for the community it serves and the project’s expected harm reduction outcomes.
+  guideline_diff: "Form adds 'and the project's expected harm reduction outcomes'."
+  evidence: [pathway from infrastructure to each harm named in hr-q1, rationale for this solution, measurable harm-reduction outcome metrics, who/how/when metrics are tracked (TA guide)]
+  status: draft
+- id: pt-q1
+  section: Partnership
+  points: 6
+  word_limit: 250
+  prompt: >-
+    Who is at the table? Who are the Lead and Co-Applicants, and why is this partnership well-positioned to deliver the
+    proposed infrastructure project?
+  evidence: [lead and co-applicants named, unique expertise of each, why a single org could not succeed, balance of community knowledge and institutional capacity]
+  status: draft
+- id: pt-q2
+  section: Partnership
+  points: 6
+  word_limit: 250
+  prompt: >-
+    Partnership readiness: What experience demonstrates that each partner can successfully fulfill its role on this
+    project? If the partnership has worked together previously, describe how that experience informs your approach. If
+    not, provide examples that demonstrate each partner's capacity to contribute effectively.
+  evidence: [concrete prior projects per partner, milestones or lessons from prior collaboration, proven capacity not just shared values]
+  status: draft
+- id: be-q1
+  section: Belonging
+  points: 6
+  word_limit: 250
+  prompt: >-
+    Designing for Belonging: What features, design elements or experiences do you envision incorporating into the
+    infrastructure to help make intended users feel welcome, represented, and safe?
+  evidence: [specific design elements (murals, palettes, programming, plants, architecture), rooted in community identity]
+  status: draft
+- id: be-q2
+  section: Belonging
+  points: 6
+  word_limit: 250
+  prompt: >-
+    Co-Creating Belonging: How will intended users co-create the infrastructure and elements described in the response
+    above? What strategies, techniques, and facilitators will you use to remove barriers to participation and ensure
+    users are centered in the process?
+  evidence: [engagement strategies (participatory design, workshops, trauma-informed), barrier removal (language, access), how input shapes decisions]
+  status: draft
+- id: lcb-q1
+  section: Lasting Community Benefits
+  points: 12
+  word_limit: 350
+  prompt: >-
+    Resilience outcomes and sustained momentum: How will the Planning Document (for Early Infrastructure Projects) or
+    Future Implementation Playbook (for Advanced Infrastructure Projects) lead to the development of additional
+    infrastructure for extreme heat beyond the grant term in a way that grows local support and creates funding pathways?
+  evidence: [how the planning document drives future infrastructure, building local support, named funding streams or revenue sources]
+  status: draft
+# Alternative Partnership questions (Tribal/CBO without co-applicant) exist on p.17; not applicable to the ARPD applications.

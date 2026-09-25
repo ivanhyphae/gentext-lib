@@ -1,0 +1,61 @@
+asset_id: upcoming-grants-sheet
+source_path: sources/upcoming-grants-sheet/upcoming-grants-sheet.md
+source_sha256: e6ee47cbecd4d9ab7622e178e5e05c24e866dfa63d451d9f22132c123380631c
+text_sha256: a29abe82422e28149b67b4f0640be211994645130fa640c53352f7c6c3d02715
+words: 4579
+pii:
+  emails: 16
+  phones: 16
+near_duplicates: []
+sections:
+- path: (preamble)
+  level: 0
+  words: 3
+- path: Table Context
+  level: 2
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Upcoming opportunities'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:O13'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+  level: 3
+  words: 287
+- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+  level: 3
+  words: 287
+- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Active Potential Partners'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:AT59'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+  level: 3
+  words: 1078
+- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+  level: 3
+  words: 1100
+- path: 'Table Context > File Name: Upcoming Grants > Sheet Name: Archive of EHCRP interested orgs'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Range: A1:Z62'
+  level: 3
+  words: 0
+- path: 'Table Context > File Name: Upcoming Grants > Table Sample Data'
+  level: 3
+  words: 877
+- path: 'Table Context > File Name: Upcoming Grants > Table Columns'
+  level: 3
+  words: 860
+- path: 'Table Context > File Name: Upcoming Grants > Comment Anchors'
+  level: 3
+  words: 24
+section_count: 16
+profiled: '2026-09-25'
+profiler: p1

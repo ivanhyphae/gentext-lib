@@ -1,0 +1,265 @@
+asset_id: ehcrp-r2-partnership-survey
+source_path: sources/ehcrp-r2-partnership-survey/ehcrp-r2-partnership-survey.md
+source_sha256: 671c40c2fe0183e265dcc8f3bd9c163ebd1ef09f3b1567c2b3b30d5e7e5eb3eb
+text_sha256: 0dad591710f3239e5433faa68020ccaf8f3e5463814fb62cc9a189f4b46287e8
+words: 50082
+pii:
+  emails: 52
+  phones: 48
+near_duplicates: []
+sections:
+- path: part 1
+  level: 1
+  words: 600
+- path: part 2
+  level: 1
+  words: 600
+- path: part 3
+  level: 1
+  words: 600
+- path: part 4
+  level: 1
+  words: 600
+- path: part 5
+  level: 1
+  words: 600
+- path: part 6
+  level: 1
+  words: 600
+- path: part 7
+  level: 1
+  words: 600
+- path: part 8
+  level: 1
+  words: 600
+- path: part 9
+  level: 1
+  words: 600
+- path: part 10
+  level: 1
+  words: 600
+- path: part 11
+  level: 1
+  words: 600
+- path: part 12
+  level: 1
+  words: 600
+- path: part 13
+  level: 1
+  words: 600
+- path: part 14
+  level: 1
+  words: 600
+- path: part 15
+  level: 1
+  words: 600
+- path: part 16
+  level: 1
+  words: 600
+- path: part 17
+  level: 1
+  words: 600
+- path: part 18
+  level: 1
+  words: 600
+- path: part 19
+  level: 1
+  words: 600
+- path: part 20
+  level: 1
+  words: 600
+- path: part 21
+  level: 1
+  words: 600
+- path: part 22
+  level: 1
+  words: 600
+- path: part 23
+  level: 1
+  words: 600
+- path: part 24
+  level: 1
+  words: 600
+- path: part 25
+  level: 1
+  words: 600
+- path: part 26
+  level: 1
+  words: 600
+- path: part 27
+  level: 1
+  words: 600
+- path: part 28
+  level: 1
+  words: 600
+- path: part 29
+  level: 1
+  words: 600
+- path: part 30
+  level: 1
+  words: 600
+- path: part 31
+  level: 1
+  words: 600
+- path: part 32
+  level: 1
+  words: 600
+- path: part 33
+  level: 1
+  words: 600
+- path: part 34
+  level: 1
+  words: 600
+- path: part 35
+  level: 1
+  words: 600
+- path: part 36
+  level: 1
+  words: 600
+- path: part 37
+  level: 1
+  words: 600
+- path: part 38
+  level: 1
+  words: 600
+- path: part 39
+  level: 1
+  words: 600
+- path: part 40
+  level: 1
+  words: 600
+- path: part 41
+  level: 1
+  words: 600
+- path: part 42
+  level: 1
+  words: 600
+- path: part 43
+  level: 1
+  words: 600
+- path: part 44
+  level: 1
+  words: 600
+- path: part 45
+  level: 1
+  words: 600
+- path: part 46
+  level: 1
+  words: 600
+- path: part 47
+  level: 1
+  words: 600
+- path: part 48
+  level: 1
+  words: 600
+- path: part 49
+  level: 1
+  words: 600
+- path: part 50
+  level: 1
+  words: 600
+- path: part 51
+  level: 1
+  words: 600
+- path: part 52
+  level: 1
+  words: 600
+- path: part 53
+  level: 1
+  words: 600
+- path: part 54
+  level: 1
+  words: 600
+- path: part 55
+  level: 1
+  words: 600
+- path: part 56
+  level: 1
+  words: 600
+- path: part 57
+  level: 1
+  words: 600
+- path: part 58
+  level: 1
+  words: 600
+- path: part 59
+  level: 1
+  words: 600
+- path: part 60
+  level: 1
+  words: 600
+- path: part 61
+  level: 1
+  words: 600
+- path: part 62
+  level: 1
+  words: 600
+- path: part 63
+  level: 1
+  words: 600
+- path: part 64
+  level: 1
+  words: 600
+- path: part 65
+  level: 1
+  words: 600
+- path: part 66
+  level: 1
+  words: 600
+- path: part 67
+  level: 1
+  words: 600
+- path: part 68
+  level: 1
+  words: 600
+- path: part 69
+  level: 1
+  words: 600
+- path: part 70
+  level: 1
+  words: 600
+- path: part 71
+  level: 1
+  words: 600
+- path: part 72
+  level: 1
+  words: 600
+- path: part 73
+  level: 1
+  words: 600
+- path: part 74
+  level: 1
+  words: 600
+- path: part 75
+  level: 1
+  words: 600
+- path: part 76
+  level: 1
+  words: 600
+- path: part 77
+  level: 1
+  words: 600
+- path: part 78
+  level: 1
+  words: 600
+- path: part 79
+  level: 1
+  words: 600
+- path: part 80
+  level: 1
+  words: 600
+- path: part 81
+  level: 1
+  words: 600
+- path: part 82
+  level: 1
+  words: 600
+- path: part 83
+  level: 1
+  words: 600
+- path: part 84
+  level: 1
+  words: 282
+section_count: 84
+profiled: '2026-09-25'
+profiler: p1

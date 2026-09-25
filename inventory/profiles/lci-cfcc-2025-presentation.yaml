@@ -1,0 +1,16 @@
+asset_id: lci-cfcc-2025-presentation
+source_path: sources/lci-cfcc-2025-presentation/LCI-CFCC_Oct29_Presentation-ADA.pdf
+source_sha256: 08044d7e2c37f31399a86409f50e16bbb3ef2e7333c706ac8ddd5416f5b963ed
+text_sha256: 479a458e9dbfeefca14b20bca7ee4b918c57dc1230d70eaa01b021c2309ef134
+words: 270
+pii:
+  emails: 1
+  phones: 0
+near_duplicates: []
+sections:
+- path: part 1
+  level: 1
+  words: 270
+section_count: 1
+profiled: '2026-09-25'
+profiler: p1

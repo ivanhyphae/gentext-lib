@@ -1,0 +1,73 @@
+asset_id: ehcrp-r2-ta-guide-belonging
+source_path: sources/ehcrp-r2-ta-guide-belonging/EHCRP-TA-Guide-Belonging.pdf
+source_sha256: 28d499a7704c61faaa8af82c1c2dad6fba5aebecf8b358bbd62fd31694f60383
+text_sha256: 742612715771fedd7a0dca2042ca6924b52b630538a30e4621ef356840758155
+words: 1345
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+  level: 2
+  words: 6
+- path: 'What You Need To Know:'
+  level: 1
+  words: 51
+- path: 'What You Need To Know: > Understanding Belonging as a Program Value'
+  level: 2
+  words: 387
+- path: 'What You Need To Know: > Elements of Belonging'
+  level: 2
+  words: 775
+- path: 6 Tips for Inclusive
+  level: 1
+  words: 2
+- path: 6 Tips for Inclusive > Learning Center
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > From the American Planning Association
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > From the California Arts Council
+  level: 2
+  words: 4
+- path: 6 Tips for Inclusive > How the Arts Advance
+  level: 2
+  words: 4
+- path: 6 Tips for Inclusive > Public Participation
+  level: 2
+  words: 1
+- path: 6 Tips for Inclusive > From California for the Arts
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > From the U.S. EPA
+  level: 2
+  words: 4
+- path: 6 Tips for Inclusive > The Spectrum of
+  level: 2
+  words: 4
+- path: 6 Tips for Inclusive > Tips for Equitable Digital
+  level: 2
+  words: 1
+- path: 6 Tips for Inclusive > From Facilitating Power
+  level: 2
+  words: 2
+- path: 6 Tips for Inclusive > From the American Planning Association
+  level: 2
+  words: 21
+- path: 6 Tips for Inclusive > Lexington, KY Sprayground
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > The Fargo Project
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > ¡Sombra! The Celebration of Shade
+  level: 2
+  words: 0
+- path: 6 Tips for Inclusive > NYC Rain Garden Stewardship Program
+  level: 2
+  words: 0
+section_count: 20
+profiled: '2026-09-25'
+profiler: p1

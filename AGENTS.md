@@ -24,12 +24,15 @@ documentation/research/          progressive-disclosure research wiki (start at 
 projects/                         RAW client/solicitation sources, committed (private repo, DR-0004)
 pyproject.toml, uv.lock, .python-version   uv project (DR-0006); .venv/ is local and gitignored
 src/gentext/                      the Python package and `gentext` CLI
-inventory/                        asset manifest (assets.yaml), sweep log (sweeps.yaml), generated index.md (DR-0010)
+inventory/                        asset manifest (assets.yaml), sweep log (sweeps.yaml), generated index.md (DR-0010);
+                                  profiles/ (T1, no LLM) and cards/ (T2, Haiku) per asset, card-runs.yaml cost log (DR-0011)
+solicitations/<funder>/<program>/<round>/   solicitation.yaml, questions.yaml (verbatim from the form), applications/ (DR-0012)
+sources/<asset-id>/               acquired source files and text exports (DR-0010)
 skills/                           Agent Skills; asset-discovery/ = how to sweep Drive/web into the inventory
 tests/                            pytest (`uv run pytest`)
 ```
 
-Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown), `solicitations/`, `sources/` (acquired files, keyed by inventory id).
+Planned (not yet created; see DR-0003): `library/` (canonical chunks as Markdown).
 
 ## Pilot case
 
@@ -65,6 +68,11 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 ### Finding and tracking sources (DR-0010)
 - Before hunting for material, check `inventory/index.md`. If something is missing, follow `skills/asset-discovery/SKILL.md`: log a sweep, run `gentext inventory find` before adding a record, triage, then validate → index → test → commit.
 - Anything we know we need but don't have goes in as `status: wanted` with a `hint`, including evidence gaps in drafts (a cited report, a dataset, community quotes).
+
+### Processing sources: spend tokens in proportion to value (DR-0011)
+- Don't read large sources end to end. Run `uv run gentext profile` (free), then read the **cards** in `inventory/cards/` (disposition, reusable sections, fact candidates) before opening any source.
+- Make new cards with `uv run --env-file .env gentext card run [ids]` (Batch API, Haiku). In cloud sessions without a key, use `gentext card prepare` plus Haiku sub-agents, then `gentext card ingest`.
+- Only `hold` documents go on to extraction. `reference` documents are looked up when a question needs them.
 
 ### Terminology
 - Canonical terms and acronym expansions go in a controlled glossary (planned: `library/glossary/`). Known pilot collision: UTCI appears as both "Universal Thermal Climate Index" (correct) and "Urban Thermal Comfort Index". Use the glossary form.

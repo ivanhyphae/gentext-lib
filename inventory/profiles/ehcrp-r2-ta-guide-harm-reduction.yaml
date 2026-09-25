@@ -1,0 +1,73 @@
+asset_id: ehcrp-r2-ta-guide-harm-reduction
+source_path: sources/ehcrp-r2-ta-guide-harm-reduction/EHCRP-TA-Guide-Harm-Reduction.pdf
+source_sha256: efcbf21c5dfa89cfd55d8bddd404aedf80be661bf9e75cdf84b8d87575c7ca14
+text_sha256: d7784f324d7f07ad394a0e44cfcccc7740eaba4e101900a1051166e4321fd124
+words: 1124
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+  level: 2
+  words: 6
+- path: 'What You Need To Know:'
+  level: 1
+  words: 52
+- path: 'What You Need To Know: > Understanding Harm Reduction as a Program Value'
+  level: 2
+  words: 241
+- path: 'What You Need To Know: > Elements of Harm Reduction'
+  level: 2
+  words: 693
+- path: 'What You Need To Know: > Extreme Heat Days'
+  level: 2
+  words: 4
+- path: 'What You Need To Know: > California Extreme'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > From Cal Adapt'
+  level: 2
+  words: 0
+- path: 'What You Need To Know: > From UCLA’s Luskin Institute for Innovation'
+  level: 2
+  words: 4
+- path: 'What You Need To Know: > California Heat'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > CalBRACE Climate'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > From the California Natural Resources Agency'
+  level: 2
+  words: 0
+- path: 'What You Need To Know: > From the California Department of Public Health'
+  level: 2
+  words: 4
+- path: 'What You Need To Know: > Climate Change & Health'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > Climate Change & Health'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > From the California Department of Public Health'
+  level: 2
+  words: 0
+- path: 'What You Need To Know: > From the California Department of Public Health'
+  level: 2
+  words: 4
+- path: 'What You Need To Know: > Access and Functional'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > National Heat Risk Data'
+  level: 2
+  words: 2
+- path: 'What You Need To Know: > From the California Office of Emergency Services'
+  level: 2
+  words: 0
+- path: 'What You Need To Know: > From the National Integrated Heat Health'
+  level: 2
+  words: 6
+section_count: 20
+profiled: '2026-09-25'
+profiler: p1

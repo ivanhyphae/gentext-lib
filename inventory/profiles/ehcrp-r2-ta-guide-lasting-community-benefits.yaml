@@ -1,0 +1,55 @@
+asset_id: ehcrp-r2-ta-guide-lasting-community-benefits
+source_path: sources/ehcrp-r2-ta-guide-lasting-community-benefits/EHCRP-TA-Guide-Lasting-Community-Benefits.pdf
+source_sha256: 134c85366fb17f2a931bedaed3a9fd379288b9136bae5cfb0ccdae9771f1e724
+text_sha256: b7adbff1ad82fbed89add6958ff3ed08539542a54e607305cc7272f02cfef9f0
+words: 1380
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Integrated Climate Adaptation and Resilience Program (ICARP)
+  level: 2
+  words: 6
+- path: 'What You Need To Know:'
+  level: 1
+  words: 53
+- path: 'What You Need To Know: > Understanding Lasting Community Benefits as a Program Value'
+  level: 2
+  words: 319
+- path: 'What You Need To Know: > Types of Lasting Community Benefits'
+  level: 2
+  words: 142
+- path: 'What You Need To Know: > Policy Change'
+  level: 2
+  words: 30
+- path: 'What You Need To Know: > Thoughtful Planning'
+  level: 2
+  words: 37
+- path: 'What You Need To Know: > New Programs'
+  level: 2
+  words: 33
+- path: 'What You Need To Know: > Effective Infrastructure'
+  level: 2
+  words: 437
+- path: 'What You Need To Know: > Evaluating Lasting Community Benefits'
+  level: 2
+  words: 155
+- path: 'What You Need To Know: > Sample Metrits'
+  level: 2
+  words: 0
+- path: 'What You Need To Know: > Heat Impact and Mitigation'
+  level: 2
+  words: 28
+- path: 'What You Need To Know: > Belonging and Community Benefits'
+  level: 2
+  words: 35
+- path: 'What You Need To Know: > Implementation and Performance'
+  level: 2
+  words: 27
+- path: 'What You Need To Know: > Systemic Change'
+  level: 2
+  words: 26
+section_count: 14
+profiled: '2026-09-25'
+profiler: p1

@@ -1,0 +1,16 @@
+asset_id: ehcrp-r2-resources-page
+source_path: sources/ehcrp-r2-resources-page/links.md
+source_sha256: 0fe7fe3b48d33ba1ca90d5a11c90763af7a36c4dd2b87e8617d6fb5f63c7caa4
+text_sha256: 959c7883701ed16b4bb74d6fdc67ced67b9ac94d7f50ae310a37a353c3625df9
+words: 138
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: part 1
+  level: 1
+  words: 138
+section_count: 1
+profiled: '2026-09-25'
+profiler: p1

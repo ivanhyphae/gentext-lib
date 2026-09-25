@@ -1,0 +1,401 @@
+asset_id: ehcrp-r2-working-doc
+source_path: sources/ehcrp-r2-working-doc/ehcrp-r2-working-doc.md
+source_sha256: 78ecee68d704a2e850246b285e8879d209b12da9844cb571bafb748954191a34
+text_sha256: 55072af883a93042f94d0ef52517f2872e0426a7fb14c0de75da07bc0f83bcdd
+words: 13118
+pii:
+  emails: 11
+  phones: 0
+near_duplicates:
+- asset_id: ehcrp-r2-ambrose-memorial-docx
+  jaccard: 0.672
+  contained_in: 0.904
+- asset_id: ehcrp-r2-ambrose-center-docx
+  jaccard: 0.672
+  contained_in: 0.904
+sections:
+- path: Overview
+  level: 1
+  words: 3
+- path: '2026 Hyphae + I-ReLab: EHCRP'
+  level: 1
+  words: 0
+- path: '2026 Hyphae + I-ReLab: EHCRP > Strategic notes and emerging opportunities'
+  level: 2
+  words: 327
+- path: Introduction
+  level: 1
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and'
+  level: 3
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program'
+  level: 3
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Community Resilience Program > Notice of Funding Availability Extreme Heat-Program-Round 2 pdf'
+  level: 4
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are'
+  level: 3
+  words: 160
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Office
+    Hours'
+  level: 4
+  words: 99
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Program
+    Funding and Purpose'
+  level: 4
+  words: 55
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Applicant
+    Eligibility and Co-Applicant Requirements'
+  level: 4
+  words: 44
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Grant Types
+    and Available Funds'
+  level: 4
+  words: 59
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Grant Types
+    and Available Funds > Application Process and Deadlines'
+  level: 5
+  words: 59
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Scoring
+    and Selection Process'
+  level: 4
+  words: 55
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Appeals
+    Frameworks'
+  level: 4
+  words: 37
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Appeals
+    Frameworks > Support Resources and Inquiries'
+  level: 5
+  words: 41
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > The key deadlines for the Round 2 Extreme Heat and Community Resilience Program application process are > Legal and
+    Administrative Terms'
+  level: 4
+  words: 41
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Pre-application interest form'
+  level: 3
+  words: 3
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Extreme Heat and Community Resilience Program Round 2 Events Calendar'
+  level: 3
+  words: 103
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Additional example webinars'
+  level: 3
+  words: 145
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > ROUND 2  Partnership Survey Responses'
+  level: 3
+  words: 2
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026)'
+  level: 3
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Overview'
+  level: 4
+  words: 53
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Program Priorities'
+  level: 4
+  words: 44
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Application Process'
+  level: 4
+  words: 37
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Important Deadlines'
+  level: 4
+  words: 40
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Helpful Resources'
+  level: 4
+  words: 10
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Summary: Extreme Heat Program Round 2 – Final Guidelines Released (June 16, 2026) > Why This Matters'
+  level: 4
+  words: 26
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > Initial notes: Example Webinar Takeaways'
+  level: 3
+  words: 0
+- path: 'Introduction > June 16, 2026: Notice of Funding Availability Extreme Heat and > \[image\]'
+  level: 3
+  words: 1
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide.
+  level: 2
+  words: 62
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > The Opportunity
+  level: 3
+  words: 71
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Applicant’s role
+  level: 3
+  words: 197
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Emerging Area of Focus
+  level: 3
+  words: 53
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Emerging Area of Focus > I see an
+    opportunity to further explore how these concepts intersect with
+  level: 4
+  words: 45
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Emerging Strategy
+  level: 3
+  words: 92
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Immediate Priorities
+  level: 3
+  words: 0
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Immediate Priorities > Grant Documentation
+  level: 4
+  words: 27
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Immediate Priorities > Track important
+    dates and upcoming milestones.
+  level: 4
+  words: 0
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Immediate Priorities > Track important
+    dates and upcoming milestones. > Partner Development
+  level: 5
+  words: 42
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Outreach
+  level: 3
+  words: 16
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Outreach > Potential supporting
+    materials include
+  level: 4
+  words: 31
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Outreach > Research Priorities
+  level: 4
+  words: 40
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development
+  level: 3
+  words: 0
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include
+  level: 4
+  words: 0
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include > Educational Institutions
+  level: 5
+  words: 8
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include > Community Organizations
+  level: 5
+  words: 127
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include > Tribal & Indigenous Partnerships
+  level: 5
+  words: 13
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include > Agencies
+  level: 5
+  words: 11
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Initial Partner Development > Potential
+    partners discussed during today’s meeting include > Agriculture
+  level: 5
+  words: 30
+- path: Introduction > Excuse the photo taken of my computer screen from my phone, it was a live webinar and I wanted to catch it before they moved to the next slide. > Strategic Reflection
+  level: 3
+  words: 216
+- path: Project Concepts & Emerging Ideas
+  level: 1
+  words: 42
+- path: Project Concepts & Emerging Ideas > Physical Infrastructure
+  level: 2
+  words: 18
+- path: Project Concepts & Emerging Ideas > Data, Modeling & Monitoring
+  level: 2
+  words: 17
+- path: Project Concepts & Emerging Ideas > Reference Materials
+  level: 2
+  words: 7
+- path: Project Concepts & Emerging Ideas > Notes
+  level: 2
+  words: 24
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference)
+  level: 3
+  words: 0
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > 20250529-EHRGPRound-1-AwardsList.pdf
+  level: 4
+  words: 163
+- path: 'Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > 20250529-EHRGPRound-1-AwardsList.pdf > Project Categories: The scope of work is divided into four distinct
+    grant tracks'
+  level: 5
+  words: 72
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Implementation Grants
+  level: 4
+  words: 36
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Implementation Grants
+  level: 4
+  words: 31
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Large Planning Grants
+  level: 4
+  words: 40
+- path: Project Concepts & Emerging Ideas > Notes > 2024/2025 Round 1 Report (for reference) > Small Planning Grants
+  level: 4
+  words: 33
+- path: Notes
+  level: 1
+  words: 0
+- path: Notes > Extreme Heat and Greening Grants
+  level: 2
+  words: 4
+- path: Notes > Extreme Heat and Greening Grants > Summary
+  level: 3
+  words: 58
+- path: Notes > Extreme Heat and Greening Grants > Action Items
+  level: 3
+  words: 225
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points
+  level: 3
+  words: 0
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > EHCRP requirements and eligibility
+  level: 4
+  words: 49
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Urban greening grant update and bus stop project
+  level: 4
+  words: 70
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Partner eligibility and CBO discussion
+  level: 4
+  words: 59
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Submission logistics and responsibilities
+  level: 4
+  words: 55
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Potential Ambrose Park proposals
+  level: 4
+  words: 42
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Resilience hub constraints and adaptation options
+  level: 4
+  words: 50
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Co‑applicant implications and Baypoint CBO capacity
+  level: 4
+  words: 56
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Potential partner — Baypoint Gardening Club
+  level: 4
+  words: 48
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Assigning outreach and application support roles
+  level: 4
+  words: 58
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Application details and project options (Ambrose vs Memorial Park)
+  level: 4
+  words: 64
+- path: Notes > Extreme Heat and Greening Grants > Key Discussion Points > Decision to prioritize Memorial Park and next steps
+  level: 4
+  words: 59
+- path: Notes > August 4, 2026 - check in KJ BB MV IH
+  level: 2
+  words: 0
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Decisions
+  level: 3
+  words: 335
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Action Items
+  level: 3
+  words: 0
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Action Items > Grant Information & Funnel
+  level: 4
+  words: 69
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Action Items > kj's Outreach Assignments
+  level: 4
+  words: 146
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Action Items > Brent's Action Items
+  level: 4
+  words: 121
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Action Items > Admin & Collaboration
+  level: 4
+  words: 31
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Blockers & Dependencies
+  level: 3
+  words: 97
+- path: Notes > August 4, 2026 - check in KJ BB MV IH > Mei’s Notes
+  level: 3
+  words: 864
+- path: Notes > 2026-07-22 | Extreme Heat Exploratory Meeting
+  level: 2
+  words: 526
+- path: Notes > July 22, 2026 - Partnership Workstream
+  level: 2
+  words: 0
+- path: Notes > July 22, 2026 - Partnership Workstream > Decisions
+  level: 3
+  words: 312
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items
+  level: 3
+  words: 0
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items > Partner Outreach & Spreadsheet Analysis
+  level: 4
+  words: 247
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items > Letter of Interest Template
+  level: 4
+  words: 111
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items > Project Candidates
+  level: 4
+  words: 229
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items > Brent-Scheduled Meetings
+  level: 4
+  words: 80
+- path: Notes > July 22, 2026 - Partnership Workstream > Action Items > Admin & Documentation
+  level: 4
+  words: 63
+- path: Notes > July 22, 2026 - Partnership Workstream > Blockers & Dependencies
+  level: 3
+  words: 127
+- path: Notes > July 22, 2026 - Partnership Workstream > Open Questions
+  level: 3
+  words: 106
+- path: Notes > July 22, 2026 - Partnership Workstream > Mei notes
+  level: 3
+  words: 1956
+- path: Template Letter
+  level: 1
+  words: 99
+- path: Fresno EHCRP example
+  level: 1
+  words: 0
+- path: Fresno EHCRP example > Past Proposals - partial overview of past Hyphae proposals
+  level: 2
+  words: 0
+- path: Fresno EHCRP example > Example Outreach email from Fresno County EHCRP
+  level: 2
+  words: 137
+- path: Fresno EHCRP example > Firm Experience
+  level: 2
+  words: 0
+- path: Fresno EHCRP example > Firm Experience > Hyphae Design Lab has extensive experience delivering innovative, data-driven solutions that address urban resilience, environmental justice, and pollution
+    mitigation. By integrating technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable design strategies tailored to their specific needs.
+  level: 3
+  words: 1117
+- path: Fresno EHCRP example > Technical Capabilities
+  level: 2
+  words: 0
+- path: Fresno EHCRP example > Technical Capabilities > Hyphae combines cutting-edge computing resources and innovative methodologies to achieve high-resolution data analysis and design
+  level: 3
+  words: 76
+- path: Fresno EHCRP example > Local Knowledge
+  level: 2
+  words: 0
+- path: Fresno EHCRP example > Local Knowledge > Hyphae has strong connections with local environmental justice coalitions and community-based organizations (CBOs), including the Central Valley-based California
+    Environmental Justice Coalition (CEJC), Valley Improvements Project, Little Manila Rising, and Mayor Rey Leon’s Latino Equity Advocacy and Policy Institute (LEAP). This established network gives Hyphae
+    a significant advantage in understanding regional needs and engaging stakeholders effectively. Current and ongoing collaborations across California provide a head start in developing the dispersed network
+    of engaged community groups essential for the project’s success.
+  level: 3
+  words: 0
+- path: Fresno EHCRP example > Local Knowledge > Hyphae’s deep technical expertise, combined with a track record of integrating data with community-driven approaches, positions the firm as a leader in delivering
+    impactful and equitable solutions for Fresno County.
+  level: 3
+  words: 0
+- path: Pre-application
+  level: 1
+  words: 152
+- path: Pre-Application Form
+  level: 1
+  words: 18
+- path: Lead Applicant Information
+  level: 1
+  words: 234
+- path: Project Information
+  level: 1
+  words: 242
+- path: Project Information > Co-Applicant Requirement
+  level: 2
+  words: 124
+- path: 'Funding Priorities Points: Preliminary Assessment'
+  level: 1
+  words: 555
+- path: Technical Assistance
+  level: 1
+  words: 225
+- path: Before You Submit
+  level: 1
+  words: 55
+section_count: 119
+profiled: '2026-09-25'
+profiler: p1

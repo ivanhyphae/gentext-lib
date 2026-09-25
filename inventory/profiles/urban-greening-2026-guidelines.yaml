@@ -1,0 +1,232 @@
+asset_id: urban-greening-2026-guidelines
+source_path: sources/urban-greening-2026-guidelines/Urban-Greening-Guidelines_Final.pdf
+source_sha256: 372f95edd551bbdda70c208bbc5a5f2e844350ccb398b110fa90f0cdd7149064
+text_sha256: fd6a7f34604e323d33f772724e2f7acb330e5d90e3e82bf4ab78810b9e4f554c
+words: 11040
+pii:
+  emails: 0
+  phones: 0
+near_duplicates: []
+sections:
+- path: Urban Greening
+  level: 2
+  words: 0
+- path: Urban Greening > Grant Program Guidelines
+  level: 2
+  words: 3
+- path: Urban Greening Grant Program At-A-Glance
+  level: 1
+  words: 3
+- path: 'Urban Greening Grant Program At-A-Glance > Available Funding:'
+  level: 2
+  words: 2
+- path: 'Urban Greening Grant Program At-A-Glance > Eligible Applicants:'
+  level: 2
+  words: 9
+- path: Urban Greening Grant Program At-A-Glance > Public Agencies
+  level: 2
+  words: 22
+- path: 'Urban Greening Grant Program At-A-Glance > Grant Amounts:'
+  level: 2
+  words: 2
+- path: 'Urban Greening Grant Program At-A-Glance > Minimum Award: $200,000'
+  level: 2
+  words: 3
+- path: 'Urban Greening Grant Program At-A-Glance > Eligible Project Type:'
+  level: 2
+  words: 5
+- path: Urban Greening Grant Program At-A-Glance > Technical Assistance Workshops (tentative)
+  level: 2
+  words: 2
+- path: Urban Greening Grant Program At-A-Glance > May 5, 10:00AM – 11:30 AM
+  level: 2
+  words: 6
+- path: Urban Greening Grant Program At-A-Glance > Concept Proposal Solicitation Period
+  level: 2
+  words: 1
+- path: Urban Greening Grant Program At-A-Glance > May 4 – June 4, 2026 (subject to
+  level: 2
+  words: 1
+- path: Table Of Contents
+  level: 1
+  words: 131
+- path: I. Introduction
+  level: 1
+  words: 99
+- path: I. Introduction > Funding Purpose
+  level: 2
+  words: 188
+- path: Ii. Program Information
+  level: 1
+  words: 48
+- path: Ii. Program Information > Eligible Projects
+  level: 2
+  words: 233
+- path: Ii. Program Information > Funding Requirements
+  level: 2
+  words: 253
+- path: Ii. Program Information > Climate Bond Funding Priorities
+  level: 2
+  words: 408
+- path: Ii. Program Information > Corpsmember Services
+  level: 2
+  words: 122
+- path: Ii. Program Information > Other Funding Considerations
+  level: 2
+  words: 322
+- path: Iii. Competitive Grant Process
+  level: 1
+  words: 88
+- path: Iii. Competitive Grant Process > Concept Proposals
+  level: 2
+  words: 102
+- path: Iii. Competitive Grant Process > Full Proposals
+  level: 2
+  words: 65
+- path: Iii. Competitive Grant Process > Full Proposal Evaluation
+  level: 2
+  words: 811
+- path: Iii. Competitive Grant Process > Field Visits
+  level: 2
+  words: 34
+- path: Iv. Grant Administration
+  level: 1
+  words: 36
+- path: Iv. Grant Administration > General Grant Information
+  level: 2
+  words: 621
+- path: Iv. Grant Administration > Records Retention
+  level: 2
+  words: 24
+- path: Iv. Grant Administration > Changes to Approved Project
+  level: 2
+  words: 240
+- path: Iv. Grant Administration > Gavin Newsom, Governor
+  level: 2
+  words: 0
+- path: Iv. Grant Administration > Wade Crowfoot, Secretary for Natural Resources
+  level: 2
+  words: 83
+- path: Iv. Grant Administration > Site Control
+  level: 2
+  words: 199
+- path: Iv. Grant Administration > Eligible Project Costs
+  level: 2
+  words: 91
+- path: Iv. Grant Administration > Types of Eligible Costs
+  level: 2
+  words: 61
+- path: Iv. Grant Administration > Indirect Costs
+  level: 2
+  words: 711
+- path: Iv. Grant Administration > Consultants/Contracted Services
+  level: 2
+  words: 500
+- path: Iv. Grant Administration > Staff Travel Costs
+  level: 2
+  words: 151
+- path: Appendix A. Concept Proposal Form
+  level: 1
+  words: 46
+- path: Appendix A. Concept Proposal Form > Proposed Project Information
+  level: 2
+  words: 31
+- path: 'Appendix A. Concept Proposal Form > Project Location: Enter Address'
+  level: 2
+  words: 7
+- path: 'Appendix A. Concept Proposal Form > Latitude: Enter Latitude'
+  level: 2
+  words: 0
+- path: 'Appendix A. Concept Proposal Form > Senate District: Enter'
+  level: 2
+  words: 6
+- path: 'Appendix A. Concept Proposal Form > Assembly District: Enter'
+  level: 2
+  words: 286
+- path: 10. Will the completed proposed project be publicly accessible? Note that students
+  level: 1
+  words: 19
+- path: 10. Will the completed proposed project be publicly accessible? Note that students > Project Description
+  level: 2
+  words: 250
+- path: 10. Will the completed proposed project be publicly accessible? Note that students > Authorized Representative Certification
+  level: 2
+  words: 18
+- path: Appendix B. Full Proposal Form And Required
+  level: 1
+  words: 117
+- path: Appendix B. Full Proposal Form And Required > Project Questions
+  level: 2
+  words: 179
+- path: Appendix B. Full Proposal Form And Required > Community and Tribal Engagement
+  level: 2
+  words: 184
+- path: 10. Please provide details describing your past, current, and any future planned
+  level: 1
+  words: 233
+- path: '10. Please provide details describing your past, current, and any future planned > Climate Bond Disadvantaged Communities Map:'
+  level: 2
+  words: 1
+- path: 12. Does the project provide benefits to vulnerable populations, disadvantaged
+  level: 1
+  words: 54
+- path: 13. Describe the vulnerable population(s) who benefits from the project. If not
+  level: 1
+  words: 198
+- path: 17. Please explain how the project will meet all four meaningful and direct benefits
+  level: 1
+  words: 57
+- path: 18. If your project will not provide meaningful and direct benefits to disadvantaged
+  level: 1
+  words: 271
+- path: 24. How will the proposed project be designed to withstand and adapt to climate
+  level: 1
+  words: 70
+- path: 24. How will the proposed project be designed to withstand and adapt to climate > Notice of Exemption
+  level: 2
+  words: 143
+- path: 24. How will the proposed project be designed to withstand and adapt to climate > List of Required Documents
+  level: 2
+  words: 71
+- path: Appendix C. Available Resources
+  level: 1
+  words: 41
+- path: Appendix C. Available Resources > Extreme Heat Threat Assessment Tools
+  level: 2
+  words: 10
+- path: Appendix C. Available Resources > Disadvantaged Communities and Vulnerable Populations
+  level: 2
+  words: 36
+- path: Appendix C. Available Resources > Tribal Consultation
+  level: 2
+  words: 16
+- path: Appendix C. Available Resources > California Conservation Corps (CCC) Consultation
+  level: 2
+  words: 10
+- path: Appendix C. Available Resources > Plant Palette, Species Selection, and Water Use
+  level: 2
+  words: 50
+- path: Appendix C. Available Resources > Carbon Sequestration
+  level: 2
+  words: 3
+- path: Appendix C. Available Resources > Park-Poor Tool
+  level: 2
+  words: 6
+- path: Appendix D. Glossary Of Terms
+  level: 1
+  words: 1119
+- path: Appendix E. California Heat Assessment Tool
+  level: 1
+  words: 469
+- path: Appendix F. Environmental Compliance
+  level: 1
+  words: 398
+- path: Appendix G. Limited Waiver Of Sovereign Immunity
+  level: 1
+  words: 396
+- path: Appendix H. Vulnerable Communities Platform
+  level: 1
+  words: 249
+section_count: 73
+profiled: '2026-09-25'
+profiler: p1

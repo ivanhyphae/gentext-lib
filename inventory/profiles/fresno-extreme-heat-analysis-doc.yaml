@@ -1,0 +1,727 @@
+asset_id: fresno-extreme-heat-analysis-doc
+source_path: sources/fresno-extreme-heat-analysis-doc/fresno-extreme-heat-analysis-doc.md
+source_sha256: c9296faa94c9e16bf7970fdd5895e08b0d85aa624f95c04a2bc570252abd0661
+text_sha256: 842c5ef026c9b3335f72503186a28fbfb60fcaabba86dd25bcc367b8903e8694
+words: 63841
+pii:
+  emails: 39
+  phones: 2
+near_duplicates: []
+sections:
+- path: START HERE
+  level: 1
+  words: 66
+- path: PROPOSAL (ONLY)
+  level: 1
+  words: 0
+- path: FRESNO COUNTY EXTREME HEAT ANALYSIS PROPOSAL
+  level: 1
+  words: 5
+- path: \[image\]A. Transmittal Letter
+  level: 1
+  words: 216
+- path: \[image\]\[image\]\[image\]\[image\]
+  level: 1
+  words: 11
+- path: B. Table of Contents
+  level: 1
+  words: 190
+- path: C. OVERVIEW
+  level: 1
+  words: 663
+- path: D. Detailed Work Plan
+  level: 1
+  words: 0
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach'
+  level: 3
+  words: 305
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Formation of the Extreme Heat Working Group'
+  level: 4
+  words: 669
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Community Engagement Events Execution'
+  level: 4
+  words: 478
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Approach > Community Mapping'
+  level: 4
+  words: 116
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Deliverables'
+  level: 3
+  words: 0
+- path: 'D. Detailed Work Plan > Task 1: Collaboration and Community Engagement > Deliverables > Summary Memo'
+  level: 4
+  words: 137
+- path: 'D. Detailed Work Plan > Task 2: Review Existing Plans, Guidelines, and Policies'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 2: Review Existing Plans, Guidelines, and Policies > Approach'
+  level: 3
+  words: 419
+- path: 'D. Detailed Work Plan > Task 2: Review Existing Plans, Guidelines, and Policies > Deliverables'
+  level: 3
+  words: 99
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach'
+  level: 3
+  words: 268
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis'
+  level: 4
+  words: 0
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis > Resolution and Scope'
+  level: 5
+  words: 124
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis > Low resolution thermal comfort data'
+  level: 5
+  words: 246
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis > Medium resolution heat data'
+  level: 5
+  words: 205
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis > Other medium resolution data'
+  level: 5
+  words: 101
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Methodology for Extreme Heat Vulnerability Analysis > Hyper-local high resolution environmental modeling.'
+  level: 5
+  words: 444
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability'
+  level: 4
+  words: 44
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability > Census Data'
+  level: 5
+  words: 125
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability > Census Disaggregation'
+  level: 5
+  words: 193
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability > Sensitive Receptor & Worker Exposure Locations'
+  level: 5
+  words: 205
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability > 5 Project Area Modeling outcomes'
+  level: 5
+  words: 142
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Approach > Social and infrastructural vulnerability > Countywide heat vulnerability maps and segmentation'
+  level: 5
+  words: 92
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Deliverables'
+  level: 3
+  words: 70
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Deliverables > Extreme Heat Vulnerability Analysis Summary Memo'
+  level: 5
+  words: 44
+- path: 'D. Detailed Work Plan > Task 3: Extreme Heat Vulnerability Analysis > Deliverables > Extreme Heat Vulnerability Analysis Summary Memo > Enhanced Outreach Platforms'
+  level: 5
+  words: 183
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Pedestrian and Bike Analysis'
+  level: 3
+  words: 0
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Pedestrian and Bike Analysis > Methodology Development'
+  level: 4
+  words: 60
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Pedestrian and Bike Analysis > Data for Analysis'
+  level: 4
+  words: 304
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Location Analysis'
+  level: 3
+  words: 96
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Location Analysis > Hotspot Prioritization'
+  level: 4
+  words: 88
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Location Analysis > Opportunity Analysis'
+  level: 4
+  words: 148
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Location Analysis > Community and Stakeholder Engagement'
+  level: 4
+  words: 62
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Approach to Location Analysis > People Counters'
+  level: 4
+  words: 89
+- path: 'D. Detailed Work Plan > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis > Deliverables'
+  level: 3
+  words: 59
+- path: 'D. Detailed Work Plan > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects > Approach'
+  level: 3
+  words: 293
+- path: 'D. Detailed Work Plan > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects > Deliverables'
+  level: 3
+  words: 113
+- path: 'D. Detailed Work Plan > Task 6: Develop Planning Level Costs for the Identified Shade Improvement Projects'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 6: Develop Planning Level Costs for the Identified Shade Improvement Projects > Approach'
+  level: 3
+  words: 91
+- path: 'D. Detailed Work Plan > Task 6: Develop Planning Level Costs for the Identified Shade Improvement Projects > Approach > Conceptual Cost Estimates'
+  level: 4
+  words: 120
+- path: 'D. Detailed Work Plan > Task 6: Develop Planning Level Costs for the Identified Shade Improvement Projects > Approach > Contractor Outreach & Collaboration'
+  level: 4
+  words: 124
+- path: 'D. Detailed Work Plan > Task 6: Develop Planning Level Costs for the Identified Shade Improvement Projects > Deliverables'
+  level: 3
+  words: 60
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Approach'
+  level: 3
+  words: 220
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Approach > Project Identification'
+  level: 4
+  words: 110
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Approach > Criteria for Selection'
+  level: 4
+  words: 44
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Approach > Developing Project Profiles'
+  level: 4
+  words: 96
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Approach > Community Engagement in Project Development'
+  level: 4
+  words: 40
+- path: 'D. Detailed Work Plan > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles > Deliverables'
+  level: 3
+  words: 93
+- path: 'D. Detailed Work Plan > Task 8: Develop the Draft Plan and Publish the Draft for Public Review'
+  level: 2
+  words: 0
+- path: 'D. Detailed Work Plan > Task 8: Develop the Draft Plan and Publish the Draft for Public Review > Approach'
+  level: 3
+  words: 68
+- path: 'D. Detailed Work Plan > Task 8: Develop the Draft Plan and Publish the Draft for Public Review > Approach > Draft Plan Development'
+  level: 4
+  words: 75
+- path: 'D. Detailed Work Plan > Task 8: Develop the Draft Plan and Publish the Draft for Public Review > Approach > Public Review Preparation'
+  level: 4
+  words: 94
+- path: 'D. Detailed Work Plan > Task 8: Develop the Draft Plan and Publish the Draft for Public Review > Deliverables'
+  level: 3
+  words: 44
+- path: 'D. Detailed Work Plan > Task 9: Presentation and Policy Board Acceptance'
+  level: 2
+  words: 34
+- path: 'D. Detailed Work Plan > Task 9: Presentation and Policy Board Acceptance > Approach'
+  level: 3
+  words: 0
+- path: 'D. Detailed Work Plan > Task 9: Presentation and Policy Board Acceptance > Approach > Draft Final Plan Presentation'
+  level: 4
+  words: 23
+- path: 'D. Detailed Work Plan > Task 9: Presentation and Policy Board Acceptance > Approach > Feedback Integration'
+  level: 4
+  words: 21
+- path: 'D. Detailed Work Plan > Task 9: Presentation and Policy Board Acceptance > Deliverables'
+  level: 3
+  words: 40
+- path: E. Management Approach
+  level: 1
+  words: 0
+- path: E. Management Approach > Overview of Management Approach
+  level: 3
+  words: 109
+- path: E. Management Approach > Overview of Management Approach > Organization of Management
+  level: 3
+  words: 358
+- path: E. Management Approach > Overview of Management Approach > Work Assignments and Staffing
+  level: 3
+  words: 0
+- path: E. Management Approach > Overview of Management Approach > Work Assignments and Staffing > Team Assignments by Task
+  level: 4
+  words: 156
+- path: E. Management Approach > Overview of Management Approach > Partnership Structure
+  level: 3
+  words: 11
+- path: E. Management Approach > Overview of Management Approach > Partnership Structure > Urban Diversity Design
+  level: 4
+  words: 253
+- path: E. Management Approach > Overview of Management Approach > Partnership Structure > Binational of California
+  level: 4
+  words: 462
+- path: E. Management Approach > Overview of Management Approach > Partnership Structure > Tree Fresno
+  level: 4
+  words: 548
+- path: F. Budget and Billing Format
+  level: 1
+  words: 47
+- path: G. Insurance Requirements
+  level: 1
+  words: 50
+- path: H. DBE Participation
+  level: 1
+  words: 0
+- path: 'H. DBE Participation > URBAN Diversity Design (UDD): Sheila Hakimipour, Principal / Urban Designer / Community Engagement Specialist (Approx. 250 hrs budgeted)'
+  level: 4
+  words: 105
+- path: H. DBE Participation > Good Faith Efforts Documentation
+  level: 2
+  words: 178
+- path: I. Conflicts of Interest
+  level: 1
+  words: 37
+- path: J. Summary of Qualifications
+  level: 1
+  words: 0
+- path: J. Summary of Qualifications > Firm Experience
+  level: 2
+  words: 0
+- path: J. Summary of Qualifications > Firm Experience > Hyphae Design Lab has extensive experience delivering innovative, data-driven solutions that address urban resilience, environmental justice, and
+    pollution mitigation. By integrating technical rigor with robust community engagement, Hyphae empowers communities with actionable data and scalable design strategies tailored to their specific needs.
+  level: 3
+  words: 1230
+- path: J. Summary of Qualifications > Technical Capabilities
+  level: 2
+  words: 0
+- path: J. Summary of Qualifications > Technical Capabilities > Hyphae combines cutting-edge computing resources and innovative methodologies to achieve high-resolution data analysis and design
+  level: 3
+  words: 76
+- path: J. Summary of Qualifications > Local Knowledge
+  level: 2
+  words: 0
+- path: J. Summary of Qualifications > Local Knowledge > Hyphae has strong connections with local environmental justice coalitions and community-based organizations (CBOs), including the Central Valley-based
+    California Environmental Justice Coalition (CEJC), Valley Improvements Project, Little Manila Rising, and Mayor Rey Leon’s Latino Equity Advocacy and Policy Institute (LEAP). This established network
+    gives Hyphae a significant advantage in understanding regional needs and engaging stakeholders effectively. Current and ongoing collaborations across California provide a head start in developing the
+    dispersed network of engaged community groups essential for the project’s success.
+  level: 3
+  words: 0
+- path: J. Summary of Qualifications > Local Knowledge > Hyphae’s deep technical expertise, combined with a track record of integrating data with community-driven approaches, positions the firm as a leader
+    in delivering impactful and equitable solutions for Fresno County.
+  level: 3
+  words: 0
+- path: J. Summary of Qualifications > References
+  level: 2
+  words: 2
+- path: K. Attachments
+  level: 1
+  words: 0
+- path: 'K. Attachments > Attachment A: Title VI Assurance'
+  level: 2
+  words: 5
+- path: 'K. Attachments > Attachment B: DBE Bidders Listing'
+  level: 2
+  words: 113
+- path: 'K. Attachments > Attachment C: Budget and Cost Breakdown Forms'
+  level: 2
+  words: 239
+- path: 'K. Attachments > Attachment D: Resumes'
+  level: 2
+  words: 4
+- path: 'K. Attachments > Attachment E: Project Schedule'
+  level: 2
+  words: 1
+- path: 'K. Attachments > Attachment F: Additional Supporting Materials'
+  level: 2
+  words: 0
+- path: 'K. Attachments > Attachment F: Additional Supporting Materials > Slides of relevant work'
+  level: 3
+  words: 6
+- path: Scraps
+  level: 1
+  words: 649
+- path: Scraps > Data Collection and Analysis
+  level: 4
+  words: 62
+- path: Scraps > Data Collection and Analysis > Data Sources and Resolution
+  level: 4
+  words: 34
+- path: Scraps > Data Collection and Analysis > Timeline and Phases for Task 1
+  level: 3
+  words: 0
+- path: 'Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Phase 1: Initiation and Planning (Months 1–3)'
+  level: 4
+  words: 46
+- path: 'Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Phase 2: Engagement and Data Collection (Months 4–8)'
+  level: 4
+  words: 38
+- path: 'Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Phase 3: Reporting and Refinement (Months 9–12)'
+  level: 4
+  words: 21
+- path: 'Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Phase 4: Finalization and Reporting (Months 13–16, Buffer: Month 17)'
+  level: 4
+  words: 18
+- path: Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Validation Method
+  level: 4
+  words: 29
+- path: Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Health data
+  level: 4
+  words: 5
+- path: Scraps > Data Collection and Analysis > Timeline and Phases for Task 1 > Practical Applications
+  level: 4
+  words: 1369
+- path: Scraps > ~~1. Firm Experience~~
+  level: 2
+  words: 0
+- path: Scraps > ~~1. Firm Experience~~ > ~~Relevant Projects~~
+  level: 3
+  words: 416
+- path: Scraps > ~~1. Firm Experience~~ > ~~Technical Capabilities~~
+  level: 3
+  words: 73
+- path: Scraps > ~~1. Firm Experience~~ > ~~Local Knowledge~~
+  level: 3
+  words: 680
+- path: 'Scraps > ~~1. Firm Experience~~ > ~~Task 9: Presentation and Policy Board Acceptance~~'
+  level: 3
+  words: 0
+- path: 'Scraps > ~~1. Firm Experience~~ > ~~Task 9: Presentation and Policy Board Acceptance~~ > ~~Overview~~'
+  level: 4
+  words: 57
+- path: 'Scraps > ~~1. Firm Experience~~ > ~~Task 9: Presentation and Policy Board Acceptance~~ > ~~Process Steps~~'
+  level: 4
+  words: 224
+- path: 'Scraps > ~~1. Firm Experience~~ > ~~Task 9: Presentation and Policy Board Acceptance~~ > ~~Deliverables~~'
+  level: 4
+  words: 83
+- path: 'Scraps > ~~1. Firm Experience~~ > ~~Task 9: Presentation and Policy Board Acceptance~~ > ~~Timeline~~'
+  level: 4
+  words: 362
+- path: 'Scraps > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles'
+  level: 2
+  words: 1064
+- path: Stuff from other projects
+  level: 1
+  words: 1772
+- path: TEXT FROM OTHER PROJECTS
+  level: 1
+  words: 8
+- path: TEXT FROM OTHER PROJECTS > A. Transmittal Letter
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > B. Table of Contents
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > C. Overview
+  level: 2
+  words: 719
+- path: TEXT FROM OTHER PROJECTS > C. Overview > Disadvantaged Communities
+  level: 3
+  words: 11
+- path: TEXT FROM OTHER PROJECTS > C. Overview > From CARB SMMI PEG Application
+  level: 3
+  words: 1431
+- path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants
+  level: 3
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ-MPCA grant
+  level: 4
+  words: 124
+- path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From CMEJ Google Data Grant
+  level: 4
+  words: 279
+- path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Boyle Heights Community Change
+  level: 4
+  words: 290
+- path: TEXT FROM OTHER PROJECTS > C. Overview > NSF Material from previous grants > From Endless Frontier (submitted 8/24)
+  level: 4
+  words: 2122
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan
+  level: 2
+  words: 0
+- path: 'TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > Task 1: Collaboration and Community Engagement'
+  level: 3
+  words: 286
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~
+  level: 3
+  words: 59
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Working Group Formation ~~ > ~~Working Group Member Ideas:~~
+  level: 4
+  words: 108
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~
+  level: 3
+  words: 71
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Public Outreach Plan Development ~~ > ~~Outreach Channels~~
+  level: 4
+  words: 28
+- path: TEXT FROM OTHER PROJECTS > D. Detailed Work Plan > ~~Multilingual Engagement Strategy ~~
+  level: 3
+  words: 1495
+- path: TEXT FROM OTHER PROJECTS > From EHCRP
+  level: 2
+  words: 3731
+- path: 'TEXT FROM OTHER PROJECTS > From EHCRP > Task 2: Review Existing Plans, Guidelines, and Policies'
+  level: 3
+  words: 1599
+- path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis'
+  level: 2
+  words: 74
+- path: 'TEXT FROM OTHER PROJECTS > Task 3: Extreme Heat Vulnerability Analysis > ~~VERSION 2~~~~~~'
+  level: 3
+  words: 998
+- path: TEXT FROM OTHER PROJECTS > ~~3. Technical Approach Summary~~
+  level: 2
+  words: 1434
+- path: 'TEXT FROM OTHER PROJECTS > Task 4: Conduct Pedestrian and Bicyclist Traffic Analysis and Location Analysis'
+  level: 2
+  words: 66
+- path: 'TEXT FROM OTHER PROJECTS > Task 5: Develop a Draft List of Tree Canopy and Vegetative Cover Projects'
+  level: 2
+  words: 528
+- path: TEXT FROM OTHER PROJECTS > From Green Latinos draft
+  level: 2
+  words: 1049
+- path: 'TEXT FROM OTHER PROJECTS > Task 6:  Develop Planning Level Costs for the Identified Shade Improvement Projects'
+  level: 2
+  words: 25
+- path: 'TEXT FROM OTHER PROJECTS > Task 7: Select Five Projects in the Most Vulnerable Areas and Develop Project Profiles'
+  level: 2
+  words: 69
+- path: 'TEXT FROM OTHER PROJECTS > Task 8: Develop the Draft Plan and Publish the Draft for Public Review'
+  level: 2
+  words: 68
+- path: 'TEXT FROM OTHER PROJECTS > Task 9: Presentation and Policy Board Acceptance'
+  level: 2
+  words: 36
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 15
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach
+  level: 2
+  words: 11
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr)
+  level: 4
+  words: 40
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Designer & Project Manager ($150/hr)
+  level: 4
+  words: 45
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Technical Design lead ($200/hr)
+  level: 4
+  words: 66
+- path: TEXT FROM OTHER PROJECTS > E. Management Approach > Principal ($200/hr) > Modeling specialist ($150/hr)
+  level: 4
+  words: 1789
+- path: TEXT FROM OTHER PROJECTS > F. Budget and Billing Format
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > G. Insurance Requirements
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > H. Disadvantaged Business Enterprise (DBE) Certification
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > I. Conflicts of Interest
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > J. Summary of Qualifications
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > K. Signing of Proposal/Authorization to Negotiate
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > L. Attachments
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal
+  level: 2
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Vision
+  level: 3
+  words: 199
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Description
+  level: 3
+  words: 290
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Project Alignment (w/ California Extreme Heat Action Plan)
+  level: 3
+  words: 250
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Community Needs and Priorities
+  level: 3
+  words: 299
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > CommunityInformed Project Design
+  level: 3
+  words: 200
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Extreme Heat Conditions and Vulnerability
+  level: 3
+  words: 299
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > How are individuals in heat vulnerable communities represented and given power in the decisionmaking processes of the grant?
+  level: 3
+  words: 196
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Explain barriers to applying with a local and/or regional public entity
+  level: 3
+  words: 148
+- path: 'TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Engagement: How you will engage with local and regional public entities and/or'
+  level: 3
+  words: 0
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > tribes throughout the project?
+  level: 3
+  words: 183
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Partnership Development
+  level: 3
+  words: 90
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Proposal > Describe how the proposed project will prioritize strategies and outcomes that provide climate change adaptation cobenefits, especially
+    for the benefit of vulnerable communities?
+  level: 3
+  words: 292
+- path: TEXT FROM OTHER PROJECTS > Material from EHCRP Interview Process
+  level: 2
+  words: 2012
+- path: Proposal Coordination
+  level: 1
+  words: 0
+- path: Proposal Coordination > Dec 11, 2024 | Fresno pre-game
+  level: 2
+  words: 2108
+- path: Proposal Coordination > Nov 26, 2024 | Fresno Grant Check-In
+  level: 2
+  words: 221
+- path: Proposal Coordination > Partnership Structure notes
+  level: 2
+  words: 89
+- path: Proposal Coordination > Action Items
+  level: 2
+  words: 477
+- path: Proposal Coordination > Remaining pieces
+  level: 2
+  words: 360
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational
+  level: 2
+  words: 0
+- path: 'Proposal Coordination > 11/25/24 Hyphae x Binational > Meeting Notes: Fresno Heat Grant with BOCC (11/25/24)'
+  level: 3
+  words: 601
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > Blurb \#1
+  level: 3
+  words: 508
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > Blurb \# 2
+  level: 3
+  words: 516
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > Blurb \#3
+  level: 3
+  words: 516
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > Blurb \#4
+  level: 3
+  words: 449
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > Raw text from meeting
+  level: 3
+  words: 2448
+- path: Proposal Coordination > 11/25/24 Hyphae x Binational > 11/25/24 Central Valley Ranchers Call
+  level: 3
+  words: 152
+- path: Proposal Coordination > ~~Brent emails to partners:~~
+  level: 2
+  words: 0
+- path: Proposal Coordination > ~~Brent emails to partners:~~ > ~~Dear Mona,~~
+  level: 3
+  words: 138
+- path: Proposal Coordination > ~~Brent emails to partners:~~ > ~~Dear Gustavo and Sarah (Central California Asthma Collaborative)~~
+  level: 3
+  words: 174
+- path: Proposal Coordination > ~~Brent emails to partners:~~ > ~~Binational California~~
+  level: 3
+  words: 180
+- path: Proposal Coordination > ~~Emails to DBEs for review~~
+  level: 2
+  words: 1090
+- path: Proposal Coordination > Chat / comments from BB Nov 24, 2024
+  level: 2
+  words: 813
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan
+  level: 2
+  words: 9
+- path: 'Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Meeting Notes: Fresno County Extreme Heat Analysis'
+  level: 3
+  words: 18
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Context/Background
+  level: 3
+  words: 73
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points
+  level: 3
+  words: 0
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points > ~~1. Community outreach ~~
+  level: 4
+  words: 96
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points > 2. Budget Constraints and Scope Feasibility
+  level: 4
+  words: 449
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points > 3. Working Group and Community Partnerships
+  level: 4
+  words: 234
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points > 4. Project Profiles
+  level: 4
+  words: 126
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > Key Discussion Points > 5. Documentation and Visual Aids
+  level: 4
+  words: 26
+- path: Proposal Coordination > Nov 22, 2024 | \[moveable\] Fresno gameplan > NARRATIVE Section
+  level: 3
+  words: 82
+- path: Proposal Coordination > Proposed email to send to Mona (11/21/24)
+  level: 2
+  words: 313
+- path: Meeting Notes
+  level: 1
+  words: 0
+- path: Meeting Notes > Nov 25, 2024 | BB-MP-IH-DF Fresno gameplan
+  level: 2
+  words: 936
+- path: Meeting Notes > 11/19/2024 MPEDDF
+  level: 2
+  words: 414
+- path: Meeting Notes > Nov 19, 2024 | Dallas EPA details
+  level: 2
+  words: 125
+- path: Meeting Notes > MPMH Sunday 11/17/24
+  level: 2
+  words: 131
+- path: Meeting Notes > From 11/15 MPMM
+  level: 2
+  words: 175
+- path: Meeting Notes > 11/17/25 MPMMBB
+  level: 2
+  words: 1092
+- path: Meeting Notes > 11/15/2024 MPMH
+  level: 2
+  words: 159
+- path: Meeting Notes > 11/15/2024 MMMP
+  level: 2
+  words: 338
+- path: Meeting Notes > 11/14/2024 BBMMDF
+  level: 2
+  words: 389
+- path: Meeting Notes > 11/14/2024 MPMM
+  level: 2
+  words: 143
+- path: Meeting Notes > 11/13/24 IHMP
+  level: 2
+  words: 559
+- path: Meeting Notes > Nov 12, 2024 | IH-DF-MP Fresno RFP
+  level: 2
+  words: 57
+- path: Meeting Notes > MPIH 11/11/24
+  level: 2
+  words: 105
+- path: QUESTIONS
+  level: 1
+  words: 0
+- path: QUESTIONS > Q\&A Fresno County Extreme Heat Analysis
+  level: 2
+  words: 458
+- path: ACTION ITEMS
+  level: 1
+  words: 356
+- path: SUMMARY
+  level: 1
+  words: 380
+- path: APPROACH
+  level: 1
+  words: 200
+- path: BUDGET
+  level: 1
+  words: 5
+- path: Community Partners
+  level: 1
+  words: 49
+- path: Partners
+  level: 1
+  words: 427
+- path: Grant Checklist
+  level: 1
+  words: 875
+- path: Memento Tattoos
+  level: 1
+  words: 122
+section_count: 236
+profiled: '2026-09-25'
+profiler: p1
