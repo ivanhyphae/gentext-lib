@@ -216,3 +216,53 @@ def render_index(inv: Inventory) -> str:
         lines += ["", "## Sweeps", "", "| id | date | system | method | found | recorded |", "|---|---|---|---|---|---|"]
         lines += [f"| `{s.id}` | {s.date} | {s.system} | {s.method} | {s.found or ''} | {s.recorded or ''} |" for s in inv.sweeps]
     return "\n".join(lines) + "\n"
+
+
+def _deep_merge(dst, src) -> None:
+    """Merge mapping `src` into ruamel mapping `dst` in place; lists and scalars are replaced."""
+    for k, v in src.items():
+        if isinstance(v, dict) and isinstance(dst.get(k), dict):
+            _deep_merge(dst[k], v)
+        else:
+            dst[k] = v
+
+
+def upsert(records: list[dict], root: Path = Path(".")) -> tuple[list[str], list[str]]:
+    """Add or update asset records by `id`, preserving comments/formatting in assets.yaml.
+
+    Partial records merge into existing ones (nested mappings merge; lists replace).
+    The whole inventory is validated before anything is written.
+    """
+    from ruamel.yaml import YAML
+
+    ry = YAML()
+    ry.preserve_quotes = True
+    ry.width = 4096
+    path = root / ASSETS_FILE
+    doc = ry.load(path.read_text())
+    by_id = {item["id"]: item for item in doc}
+    added, updated = [], []
+    for rec in records:
+        if "id" not in rec:
+            raise ValueError(f"record without id: {rec}")
+        if rec["id"] in by_id:
+            _deep_merge(by_id[rec["id"]], rec)
+            updated.append(rec["id"])
+        else:
+            doc.append(rec)
+            by_id[rec["id"]] = rec
+            added.append(rec["id"])
+    plain = yaml.safe_load(_dump(ry, doc))
+    sweeps_path = root / SWEEPS_FILE
+    sweeps = (yaml.safe_load(sweeps_path.read_text()) or []) if sweeps_path.exists() else []
+    Inventory(assets=plain, sweeps=sweeps)  # raises on any schema/uniqueness error
+    path.write_text(_dump(ry, doc))
+    return added, updated
+
+
+def _dump(ry, doc) -> str:
+    import io
+
+    buf = io.StringIO()
+    ry.dump(doc, buf)
+    return buf.getvalue()

@@ -8,6 +8,7 @@ dependencies = [
     "pydantic>=2",
     "pyyaml>=6",
     "pypandoc-binary>=1.13",   # bundles the pandoc binary, so no pacman/AUR install needed
+    "ruamel-yaml>=0.18",
 ]
 
 [project.scripts]

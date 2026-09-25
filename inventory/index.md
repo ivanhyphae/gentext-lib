@@ -4,50 +4,38 @@
 
 | Status | Count |
 |---|---|
-| wanted | 12 |
+| wanted | 8 |
 | discovered | 1 |
-| include | 22 |
-| defer | 17 |
+| include | 14 |
+| defer | 18 |
 | exclude | 6 |
-| acquired | 5 |
+| acquired | 35 |
 
 ## Open: wanted, discovered, include
 
 | P | id | kind | status | title | note |
 |---|---|---|---|---|---|
 | 1 | `ambrose-community-voices` | other | wanted | Community quotes / stories from Bay Point residents about heat | The biggest rubric gap in current drafts (DR-0002). |
-| 1 | `cchs-2015-heat-vulnerability` | report | wanted | CCHS (2015) Climate Change Vulnerability in Contra Costa County: A Focus on Heat | Primary citation for Harm Reduction Q1 facts (M3). |
 | 1 | `chat-bay-point` | dataset | wanted | California Heat Assessment Tool (CHAT) scores for the project area | Draft cites HHE 3.55 and HHAI 45.41; re-pull with access date so the fact registry has a source. |
-| 1 | `ehcrp-r1-awards-list` | award-list | include | [EHCRP Round 1 Grant Awards Overview (2025-05-29)](https://lci.ca.gov/wp-content/uploads/20250529-EHRGPRound-1-AwardsList.pdf) | 47 funded projects, $32.4M; project overviews show what reviewers funded. Referenced in the pilot working doc. |
 | 1 | `ehcrp-r2-drive-folder` | other | include | [Drive folder: EHCRP Round 2](https://drive.google.com/drive/folders/1rNOExjsW83KUu44nKimsNrn3oxiTfzRI) | Walk children (parentId sweep) for anything not yet inventoried. |
-| 1 | `ehcrp-r2-full-application-form` | solicitation | wanted | EHCRP Round 2 Full Application (Submittable questions + workplan/budget workbook) | Exact question wording and workbook constraints for M5. |
-| 1 | `ehcrp-r2-meaningful-direct-benefits` | guidance | wanted | Meaningful and Direct Benefits Assessment (2024 Climate Bond) | Defines the four criteria behind the 15 funding-priority points. |
 | 1 | `ehcrp-r2-preapp-feedback` | guidance | wanted | LCI staff feedback on the Bay Point pre-application(s) | Includes the preliminary funding-priority determination. |
-| 1 | `ehcrp-r2-webinars-office-hours` | guidance | wanted | EHCRP Round 2 webinars, office hours, workshop slides and Q&A | Guidelines §8.8 says events are posted on the Extreme Heat Program webpage; the working doc has webinar screenshots and an events calendar. |
-| 1 | `ehcrp-r2-working-doc` | working-doc | include | [Hyphae + I-ReLab EHCRP (live Google Doc; source of the two Ambrose DOCX exports)](https://docs.google.com/document/d/1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M/edit) | Canonical live version of the pilot working doc. Re-acquire via Docs API with includeTabsContent to test tab/style handling. |
+| 1 | `ehcrp-r2-webinars-office-hours` | guidance | wanted | EHCRP Round 2 webinars, office hours, workshop slides and Q&A | Calendar acquired as ehcrp-r2-calendar. Recordings on YouTube: statewide input session 2025-08-12 (RGYDnvRIkC0), report-out 3 2025-11-04 (MQE8aQZUll4), guidelines comment webinar 2026-02 (gfm4lMDjg6c). Office-hours Q&A may be in the FAQ sheet. Transcripts would need a YouTube transcript tool. |
 | 1 | `extreme-heat-grant-2023-folder` | other | include | [Drive folder: Extreme Heat Grant (2023)](https://drive.google.com/drive/folders/11QxPQrey-LSAfiCyYm6GE_ddHOsBqbFS) | Possibly the EHCRP Round 1 (2023–24) application effort. Walk children next sweep. |
-| 1 | `fresno-extreme-heat-analysis-doc` | working-doc | include | [Fresno Extreme Heat Analysis (Google Doc, proposal working doc)](https://docs.google.com/document/d/1DJkKB_EVFkRuvPayBu6GObWo7vTLbH_bvSI690HEtr8/edit) | Working doc behind the submitted proposal; likely has long/short variants. |
-| 1 | `fresno-rfp-hyphae-2024` | proposal | include | [Fresno_RFP_Hyphae_2024.pdf (submitted proposal, Fresno COG Extreme Heat Analysis)](https://drive.google.com/file/d/1-wBqKPyVK8uIVSqSTr6VAZO2YdU8eVE_/view) | Heat-specific submitted proposal; origin of the firm-experience boilerplate that leaks 'Fresno County' into Bay Point. |
 | 1 | `prior-heat-application-language-james` | proposal | wanted | James's prior heat-focused application language | Likely the best-matched existing heat narrative. |
 | 1 | `vcp-bay-point-tracts` | dataset | wanted | Vulnerable Communities Platform + 2024 Climate Bond DAC map records for tracts 06013313203, 06013314105 | Evidence for SDAC/DAC funding-priority points. |
 | 2 | `bay-area-refinery-corridor-workplan` | proposal-draft | include | [Joint Workplan Narrative — Bay Area Refinery Corridor Community Air & Wind Study (.docx)](https://drive.google.com/file/d/14TsttXY9slPeXuE-5mj-pfKNi3Qcg9As/view) | Nearby geography (Carquinez–Delta corridor); air-quality methods. |
+| 2 | `cdph-chpr-contra-costa-2017` | report | include | [CDPH Climate Change and Health Profile Report: Contra Costa County (2017)](https://www.cdph.ca.gov/Programs/OHE/CDPH%20Document%20Library/CHPRs/CHPR013ContraCosta_County2-23-17.pdf) | State health-department heat vulnerability profile; corroborating source for Harm Reduction facts. |
 | 2 | `central-valley-extreme-heat-deck` | presentation | include | [Central Valley Extreme Heat (deck)](https://docs.google.com/presentation/d/1bCdLrYDpKofhrZPlQsVeHba5L044inKVCrMKQVoHjtY/edit) |  |
 | 2 | `depave-la-report` | report | include | [DePave_LA_260209 (LA County depave / green infrastructure strategy)](https://drive.google.com/file/d/1guo5m1EY7c9ZUk7HX5XCexrecwxp6ARh/view) | Working doc research priority: 'Review Chapters 5 p.129+ of the Depave LA report'. Source for the LA Depave project-case chunk. |
 | 2 | `ebd-approaches-deck` | presentation | include | [Evidence-based design approaches: Modeling, measurement, and design at Hyphae Design Lab (deck)](https://docs.google.com/presentation/d/1-QSkLPP2qUm4-P_tz9NLTMBK5S4gq3M8GVhKl5KyJIk/edit) | Current firm capabilities narrative; capability/method chunks. Text export only. |
 | 2 | `ehcrp-r1-awards-news-2024` | award-list | include | [LCI news — $9.4M awarded for extreme heat (2024-11-04)](https://lci.ca.gov/newsroom/news/2024/11-04/) | Earlier R1 tranche; named grantees and project blurbs. |
-| 2 | `ehcrp-r1-resources-page` | guidance | include | [EHCRP Round 1 Resources (LCI web page)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html) | Crawl for R1 guidelines, webinars, example applications, scoring materials. |
-| 2 | `ehcrp-r2-partnership-survey` | dataset | include | [20251231-EHCRP_Round_2_Partnership_Survey_Responses 2.xlsx](https://drive.google.com/file/d/19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-/view) | Program-published partner-seeking list; entity registry candidates (M3). |
-| 2 | `epa-dallas-green-spine-app` | proposal | include | [FINAL EPA DALLAS GREEN SPINE GRANT APP.pdf](https://drive.google.com/file/d/11Kspw6m1E_OTKT8KrcyRrwX99qcOuKCx/view) | Submitted federal application; SW Medical District / Harry Hines content. |
 | 2 | `epa-enhanced-aq-narrative-form` | proposal-draft | discovered | [EPA Enhanced Air Quality Application Narrative Form (shortcut)](https://drive.google.com/file/d/1qntNAYHIhkobEr-K-0SNrkEUbrKeztha/view) | Shortcut — resolve target before triage. |
 | 2 | `green-spine-scope-narrative` | proposal-draft | include | [Green Spine Design Coordination Hyphae Scope Narrative](https://docs.google.com/document/d/1xFGiOxQconNoE_NXJU_QC_MYIB-C1DFoDkEeAad1T3s/edit) |  |
 | 2 | `harry-hines-ebd-report` | report | include | [Harry Hines Evidence-based design report](https://docs.google.com/document/d/1pjgqG3wJG3j3V4w3kpBcz6cwrEsE_ZMVqWDp1iUnlqE/edit) | Deliverable; source of project-case facts. Very large (images) — text export only. |
 | 2 | `harry-hines-proposal-content-2021` | proposal-draft | include | [Harry Hines Green Spine_ Proposal Content - April 10.odt](https://drive.google.com/file/d/1T6kgLxbsHEPl-EO1IPQKplimYJIUf5WQ/view) |  |
-| 2 | `lci-cfcc-2025-presentation` | guidance | include | [LCI presentation to CFCC, Oct 29 2025 (R1 lessons, R2 plans)](https://cfcc.ca.gov/wp-content/uploads/2025/10/LCI-CFCC_Oct29_Presentation-ADA.pdf) | Program's own account of what changed between rounds; reviewer priorities. |
 | 2 | `modeling-aq-extreme-heat-deck` | presentation | include | [Modeling for AQ and Extreme Heat (deck)](https://docs.google.com/presentation/d/1fcFcxMSzMIZFH3RwQceSEV_mC2hZNJ5qYS9rgamzvs4/edit) | Method chunks: UTCI / heat modeling (glossary check for UTCI expansion). |
 | 2 | `nsf-sbir-p1-final-technical-narrative` | report | include | [HYPHAE_NSF_SBIR_PHASE1_1938665_FINAL_REPORT_Technical_Narrative](https://drive.google.com/file/d/106c6Q81e2k-uP_3aMyBHX-msMlX8wW4l/view) | Authoritative AdaptOS description for the capability/project-case chunks. |
 | 2 | `past-hyphae-proposals-overview` | proposal | wanted | Past Hyphae proposals (the empty 'Past Proposals' section of the working doc) | Each named project case needs its primary source for fact-checking (M3). |
-| 2 | `upcoming-grants-sheet` | dataset | include | [Upcoming Grants (tracking spreadsheet)](https://docs.google.com/spreadsheets/d/1oEuANd0quqhdkcFZ-z5dbXzDkYI3ZkSIDY4Oriynv_U/edit) | Pipeline of future solicitations — seeds future M5 models and tells us which library chunks will be reused next. |
-| 2 | `urban-greening-2026-guidelines` | solicitation | wanted | CNRA Urban Greening Grant Program 2026 Guidelines (incl. Appendix D definitions) | Concept proposal form references "Appendix D of the Grant Guidelines" and "pages 3-4". resources.ca.gov. |
 | 3 | `community-air-monitoring-proposal-2026` | proposal-draft | include | [2026-04-10 - Community Air Monitoring Proposal](https://docs.google.com/document/d/1iW6OWqXV4C_dpoS7SGZiPB_x--kPG9WGbAVPoaq9qoE/edit) |  |
 | 3 | `moodle-application-template` | template | wanted | "Moodle template" (application template referenced for partner support) | 2026-08-07 meeting notes action item. Ask James. |
 
@@ -55,11 +43,41 @@
 
 | P | id | kind | status | title | note |
 |---|---|---|---|---|---|
+| 1 | `cchs-2015-heat-vulnerability` | report | acquired | [CCHS (2015) Climate Change Vulnerability in Contra Costa County: A Focus on Heat](https://www.adaptingtorisingtides.org/wp-content/uploads/2015/09/CoCo_Heat-and-Health_2015.pdf) | Primary citation for Harm Reduction Q1 facts (M3). |
+| 1 | `ehcrp-r1-awards-list` | award-list | acquired | [EHCRP Round 1 Grant Awards Overview (2025-05-29)](https://lci.ca.gov/wp-content/uploads/20250529-EHRGPRound-1-AwardsList.pdf) | 47 funded projects, $32.4M; project overviews show what reviewers funded. Referenced in the pilot working doc. |
 | 1 | `ehcrp-r2-ambrose-memorial-docx` | working-doc | acquired | Ambrose Memorial Park EHCRP.docx (export of the working doc, Memorial Park pre-app) | Near-duplicate of ehcrp-r2-ambrose-center-docx (differs only in pre-app section). |
+| 1 | `ehcrp-r2-checklist-early` | solicitation | acquired | [Early Infrastructure Grant Application Checklist (xlsx)](https://docs.google.com/spreadsheets/d/1p3tgDvfYF5Hr3gTQy_COMqPu0MFQ1tkM/edit) | Compliance-matrix seed for M5 (Bay Point is Early Infrastructure). |
+| 1 | `ehcrp-r2-faq` | guidance | acquired | [EHCRP Round 2 FAQ (public Google Sheet, exported xlsx)](https://docs.google.com/spreadsheets/d/1GRcOaMhzDf8TeIO-CZmPNHqi9jxwnNMgAqh0_spMjCI/edit) | Live document; re-export before final QA. |
+| 1 | `ehcrp-r2-full-application-form` | solicitation | acquired | [EHCRP Round 2 Full Application (Submittable questions + workplan/budget workbook)](https://lci.ca.gov/wp-content/uploads/Round_2_Full_Application_Form.pdf) | Exact question wording and workbook constraints for M5. |
 | 1 | `ehcrp-r2-guidelines` | solicitation | acquired | [EHCRP Round 2 Final Guidelines (June 2026)](https://drive.google.com/file/d/1lS67mma_ao93t0903NaNvciYuQRKiTWb/view) | The solicitation; Appendix F scoring criteria drive M5. |
+| 1 | `ehcrp-r2-meaningful-direct-benefits` | guidance | acquired | [Meaningful and Direct Benefits Assessment (2024 Climate Bond)](https://resources.ca.gov/-/media/CNRA-Website/Files/Bonds/Prop-4/Oct2025_Meaningful_Direct-Benefits-Assessment.pdf) | Defines the four criteria behind the 15 funding-priority points. |
+| 1 | `ehcrp-r2-nofa` | solicitation | acquired | [EHCRP Round 2 Notice of Funding Availability (2026-06-16)](https://lci.ca.gov/wp-content/uploads/Notice-of-Funding-Availability-Extreme-Heat-Program-Round-2.pdf) | Official deadlines and amounts. |
+| 1 | `ehcrp-r2-planning-playbook-guide` | guidance | acquired | [Round 2 Planning and Playbook Application Guide](https://lci.ca.gov/wp-content/uploads/Round-2-Planning-Playbook-Application-Guide.pdf) | Early Infrastructure planning-document expectations; feeds LCB answer. |
 | 1 | `ehcrp-r2-preapp-form` | solicitation | acquired | [EHCRP Round 2 Pre-Application Interest Form (draft questions)](https://drive.google.com/file/d/1RDQzEQUExtlRD4F-oBPKY-UvJiL4ZNwR/view) |  |
+| 1 | `ehcrp-r2-resources-page` | guidance | acquired | [EHCRP Round 2 Resources (LCI web page)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-2-resources/) | Hub for the full application form, TA guides, checklists, FAQ, calendar. Re-sweep weekly until the deadline. |
+| 1 | `ehcrp-r2-ta-guide-belonging` | guidance | acquired | [TA Guide — What you need to know: Belonging](https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Belonging.pdf) | Belonging Q1/Q2 guidance. |
+| 1 | `ehcrp-r2-ta-guide-harm-reduction` | guidance | acquired | [TA Guide — What you need to know: Harm Reduction](https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Harm-Reduction.pdf) | Pilot target section. Program's own framing: interrupt the heat→people pathway; measurable harm-reduction metrics with who/how/when; local knowledge counts as evidence where data is thin. |
+| 1 | `ehcrp-r2-ta-guide-lasting-community-benefits` | guidance | acquired | [TA Guide — What you need to know: Lasting Community Benefits](https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Lasting-Community-Benefits.pdf) | LCB Q1 (12 pts, 350 words). |
+| 1 | `ehcrp-r2-ta-guide-partnership` | guidance | acquired | [TA Guide — What you need to know: Partnership](https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Partnership.pdf) | Partnership Q1/Q2 guidance (next pilot target). |
+| 1 | `ehcrp-r2-working-doc` | working-doc | acquired | [Hyphae + I-ReLab EHCRP (Google Doc in the EHCRP Round 2 folder)](https://docs.google.com/document/d/1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M/edit) | A DIFFERENT COPY from the two Ambrose DOCX exports: its pre-app form is blank and its 7 comment threads (kj, Ivan, Mei) differ from the DOCX comments (James, Chris, Ivan). Find which copy James is working in before treating any as canonical. |
+| 1 | `fresno-extreme-heat-analysis-doc` | working-doc | acquired | [Fresno Extreme Heat Analysis (Google Doc, proposal working doc)](https://docs.google.com/document/d/1DJkKB_EVFkRuvPayBu6GObWo7vTLbH_bvSI690HEtr8/edit) | Working doc behind the submitted proposal; likely has long/short variants. |
+| 1 | `fresno-rfp-hyphae-2024` | proposal | acquired | [Fresno_RFP_Hyphae_2024.pdf (submitted proposal, Fresno COG Extreme Heat Analysis)](https://drive.google.com/file/d/1-wBqKPyVK8uIVSqSTr6VAZO2YdU8eVE_/view) | Heat-specific submitted proposal; origin of the firm-experience boilerplate that leaks 'Fresno County' into Bay Point. |
+| 1 | `pse-2026-contra-costa-climate-vulnerability` | report | acquired | [PSE Healthy Energy (2026) Mapping Climate Vulnerability and Air Pollution in Contra Costa County](https://www.psehealthyenergy.org/wp-content/uploads/2026/01/Mapping-Climate-Vulnerability-and-Air-Pollution-in-Contra-Costa-County.pdf) | Newer (2026) county heat + air vulnerability evidence than the 2015 CCHS report the drafts cite; check for Bay Point findings. |
 | 2 | `cnra-ugg-2026-concept-bay-point` | proposal-draft | acquired | 2026 Urban Greening Grant Program Concept Proposal — Bay Point transit stops (CCRCD lead) | Second funder, same community: tests funder-neutral library. |
+| 2 | `ehcrp-r1-guidelines` | solicitation | acquired | [EHCRP Round 1 Final Guidelines (revised 2024-04-08)](https://lci.ca.gov/wp-content/uploads/20240408-R1_EHCRP_Guidelines_Revised.pdf) | Compare R1 vs R2 scoring to see what the program now rewards. |
+| 2 | `ehcrp-r1-resources-page` | guidance | acquired | [EHCRP Round 1 Resources (LCI web page)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html) | Crawl for R1 guidelines, webinars, example applications, scoring materials. |
 | 2 | `ehcrp-r2-ambrose-center-docx` | working-doc | acquired | Ambrose Center Park EHCRP.docx (export of the working doc, Center Park pre-app) |  |
+| 2 | `ehcrp-r2-applicant-prep-guide` | guidance | acquired | [EHCRP Applicant Preparation Guide (2025-11-13)](https://lci.ca.gov/wp-content/uploads/20251113-ICARP_EHCRP_Applicant_Preparation_Guide.pdf) | Pre-round preparation guidance. |
+| 2 | `ehcrp-r2-calendar` | guidance | acquired | [EHCRP Round 2 Calendar of Events (public Google Doc, exported docx)](https://docs.google.com/document/d/1x0Xu-myANGzP53ePAu93J2VrA1g3rkjvRo0PDiBNz3I/edit) | Office hours and workshops. |
+| 2 | `ehcrp-r2-partnership-survey` | dataset | acquired | [20251231-EHCRP_Round_2_Partnership_Survey_Responses 2.xlsx](https://drive.google.com/file/d/19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-/view) | Program-published partner-seeking list; entity registry candidates (M3). |
+| 2 | `ehcrp-r2-partnerships-guide` | guidance | acquired | [EHCRP R2 TA Guide: Partnerships (2025-11-06)](https://lci.ca.gov/wp-content/uploads/20251106-ICARP_EHCRP_R2_TA_Guide_Partnerships.pdf) | Earlier, longer partnerships guide. |
+| 2 | `epa-dallas-green-spine-app` | proposal | acquired | [FINAL EPA DALLAS GREEN SPINE GRANT APP.pdf](https://drive.google.com/file/d/11Kspw6m1E_OTKT8KrcyRrwX99qcOuKCx/view) | Submitted federal application; SW Medical District / Harry Hines content. |
+| 2 | `lci-cfcc-2025-presentation` | guidance | acquired | [LCI presentation to CFCC, Oct 29 2025 (R1 lessons, R2 plans)](https://cfcc.ca.gov/wp-content/uploads/2025/10/LCI-CFCC_Oct29_Presentation-ADA.pdf) | Program's own account of what changed between rounds; reviewer priorities. |
+| 2 | `upcoming-grants-sheet` | dataset | acquired | [Upcoming Grants (tracking spreadsheet)](https://docs.google.com/spreadsheets/d/1oEuANd0quqhdkcFZ-z5dbXzDkYI3ZkSIDY4Oriynv_U/edit) | Pipeline of future solicitations — seeds future M5 models and tells us which library chunks will be reused next. |
+| 2 | `urban-greening-2026-guidelines` | solicitation | acquired | [CNRA Urban Greening Grant Program 2026 Guidelines (incl. Appendix D definitions)](https://resources.ca.gov/-/media/CNRA-Website/Files/grants/Prop-4/Urban-Greening/Urban-Greening-Guidelines_Final.pdf) | Concept proposal form references "Appendix D of the Grant Guidelines" and "pages 3-4". resources.ca.gov. |
+| 3 | `ehcrp-r1-nofa` | solicitation | acquired | [EHCRP Round 1 NOFA (update 2024-04-08)](https://lci.ca.gov/wp-content/uploads/20240408-R1_EHCRP_NOFA_Update.pdf) |  |
+| 3 | `ehcrp-r2-checklist-advanced` | solicitation | acquired | [Advanced Infrastructure Grant Application Checklist (xlsx)](https://docs.google.com/spreadsheets/d/1Gzo4PvxCSo5SM7hn1jtxB54SZirw5PjL/edit) | Other tier; for completeness. |
+| 3 | `ehcrp-r2-draft-guidelines` | solicitation | acquired | [EHCRP Round 2 Draft Guidelines (2026-02-02)](https://lci.ca.gov/wp-content/uploads/20260202-EHCRP-Guidelines-Round2-Draft.pdf) | Diff against final to see what the program changed after comment. |
 
 ## Deferred
 
@@ -67,6 +85,7 @@
 |---|---|---|---|---|---|
 | 3 | `carb-proposal-working-meeting` | notes | defer | [CARB proposal working meeting (notes)](https://docs.google.com/document/d/16LyI0FRkxu-0fsEn7W3PCbPgFtMLHM4IIOyfSHrS254/edit) |  |
 | 3 | `ehcrp-r1-faq` | guidance | defer | [EHCRP Round 1 FAQ (LCI)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-community-resilience-faq/) |  |
+| 3 | `ehcrp-r1-workshop-recordings` | guidance | defer | [EHCRP Round 1 application workshop recordings (8 YouTube videos, Feb–Mar 2024)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html) | Links in sources/ehcrp-r1-resources-page/links.md. Transcripts could show reviewer emphasis. |
 | 3 | `green-spine-process-narrative` | report | defer | [Green Spine Process Documentation - Narrative [HYPHAE DRAFT NOT FOR EXTERNAL USE]](https://docs.google.com/document/d/1x1UlYQFFUlDFcNDKl0621Ehbg0VDbDBIC5BVpHYIBBw/edit) | Marked internal draft by its author; check with steward before library use. |
 | 3 | `greening-methodologies-compiled-2019` | report | defer | [Greening_Methodologies_Compiled(Draft1).pdf](https://drive.google.com/file/d/16oC4Y6b5sM4LcFVBVRRLDwRonNoeeEFO/view) | A second copy exists (Drive id 0B_S772FWorU8LWZIaHZDT2tUM042bGx6d0FEd1hBaVRzeFB3); same size — treat as duplicate. |
 | 3 | `gs-ebd-simulation-methodology-2023` | presentation | defer | [2023 GS EBD/Simulation Methodology (deck)](https://docs.google.com/presentation/d/1CQX9Cs2REwgUAkt1aEchpQPbDyF8W4coGnN8Me3piJQ/edit) |  |
@@ -99,3 +118,4 @@
 | `s-2026-09-25-pilot` | 2026-09-25 | local | read pilot sources in projects/EHCRP Round 2/ and list referenced-but-missing assets | 17 | 17 |
 | `s-2026-09-25-gdrive-01` | 2026-09-25 | gdrive | Google Drive connector search_files (metadata only, excludeContentSnippets) | 85 | 41 |
 | `s-2026-09-25-web-01` | 2026-09-25 | web | WebSearch | 10 | 5 |
+| `s-2026-09-25-web-02` | 2026-09-25 | web | WebSearch + WebFetch of LCI R1/R2 resource pages; curl downloads of public PDFs/exports | 45 | 26 |

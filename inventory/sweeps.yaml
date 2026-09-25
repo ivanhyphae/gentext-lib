@@ -33,3 +33,19 @@
     - "Extreme Heat and Community Resilience Program Round 1 awards list LCI 2025 grantees"
   found: 10
   recorded: 5
+
+- id: s-2026-09-25-web-02
+  date: 2026-09-25
+  by: claude-opus-5-5
+  system: web
+  method: WebSearch + WebFetch of LCI R1/R2 resource pages; curl downloads of public PDFs/exports
+  queries:
+    - "\"Meaningful and Direct Benefits\" assessment 2024 Climate Bond Proposition 4 PDF"
+    - "Contra Costa Health Services \"Climate Change Vulnerability in Contra Costa County\" \"Focus on Heat\" 2015 PDF"
+    - "LCI Extreme Heat and Community Resilience Program Round 2 webinar office hours slides recording 2026"
+    - "CNRA Urban Greening Grant Program 2026 final guidelines PDF concept proposal"
+    - "fetch https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html"
+    - "fetch https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-2-resources/"
+  found: 45
+  recorded: 26
+  notes: Resolved 5 wanted items (MDBA, CCHS 2015, Full Application Form, UGG guidelines, R1 resources). The R2 resources page linked TA guides and checklists not referenced anywhere in the working doc. CDPH download failed on TLS.

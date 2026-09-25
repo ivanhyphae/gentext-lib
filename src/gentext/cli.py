@@ -32,6 +32,19 @@ def _inventory(args: argparse.Namespace) -> int:
                 continue
             print(f"{a.priority or '-'}\t{a.status}\t{a.id}\t{a.title}")
         return 0
+    if args.inv_cmd == "upsert":
+        import yaml as _yaml
+
+        records = _yaml.safe_load(Path(args.file).read_text())
+        if isinstance(records, dict):
+            records = [records]
+        try:
+            added, updated = inv_mod.upsert(records)
+        except (ValidationError, ValueError) as e:
+            print(e, file=sys.stderr)
+            return 1
+        print(f"added {len(added)}: {added}\nupdated {len(updated)}: {updated}")
+        return 0
     if args.inv_cmd == "hash":
         print(inv_mod.sha256(Path(args.path)))
         return 0
@@ -52,6 +65,8 @@ def main(argv: list[str] | None = None) -> int:
     p_find.add_argument("source_id")
     p_list = inv_sub.add_parser("list", help="list assets")
     p_list.add_argument("--status")
+    p_up = inv_sub.add_parser("upsert", help="add/update records from a YAML file (merge by id, keeps comments)")
+    p_up.add_argument("file")
     p_hash = inv_sub.add_parser("hash", help="sha256 of a local file (for `local.sha256`)")
     p_hash.add_argument("path")
 

@@ -63,3 +63,29 @@ def test_find_source():
 def test_index_is_current():
     """inventory/index.md must be regenerated after editing assets.yaml."""
     assert inv.INDEX_FILE.read_text() == inv.render_index(inv.load())
+
+
+def test_upsert_roundtrip(tmp_path):
+    (tmp_path / "inventory").mkdir()
+    (tmp_path / "inventory" / "assets.yaml").write_text(
+        "# keep me\n- id: a\n  title: A\n  kind: proposal\n  status: discovered\n"
+        "  location: {system: gdrive, id: abc}\n"
+    )
+    added, updated = inv.upsert(
+        [{"id": "a", "status": "include", "priority": 1}, {"id": "b", "title": "B", "kind": "report", "status": "wanted", "hint": "ask"}],
+        root=tmp_path,
+    )
+    assert added == ["b"] and updated == ["a"]
+    text = (tmp_path / "inventory" / "assets.yaml").read_text()
+    assert "# keep me" in text and "{system: gdrive, id: abc}" in text
+    data = inv.load(tmp_path)
+    assert data.assets[0].status == "include"
+
+
+def test_upsert_rejects_invalid(tmp_path):
+    (tmp_path / "inventory").mkdir()
+    f = tmp_path / "inventory" / "assets.yaml"
+    f.write_text("- id: a\n  title: A\n  kind: proposal\n  status: wanted\n  hint: h\n")
+    with pytest.raises(ValidationError):
+        inv.upsert([{"id": "a", "status": "acquired"}], root=tmp_path)
+    assert "status: wanted" in f.read_text()

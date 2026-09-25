@@ -24,13 +24,19 @@
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
 
 - id: ehcrp-r2-working-doc
-  title: Hyphae + I-ReLab EHCRP (live Google Doc; source of the two Ambrose DOCX exports)
+  title: Hyphae + I-ReLab EHCRP (Google Doc in the EHCRP Round 2 folder)
   kind: working-doc
-  status: include
+  status: acquired
   priority: 1
   location: {system: gdrive, id: 1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M, url: "https://docs.google.com/document/d/1QBRG9GdMWRIIQVGTaWxUu1z-zbuq4LUe0LBxNbBCe4M/edit", mime: application/vnd.google-apps.document, size: 4869434, modified: 2026-08-07, parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI}
-  relevance: {programs: [ehcrp-r2], places: [bay-point], note: "Canonical live version of the pilot working doc. Re-acquire via Docs API with includeTabsContent to test tab/style handling."}
+  relevance: {programs: [ehcrp-r2], places: [bay-point], note: "A DIFFERENT COPY from the two Ambrose DOCX exports: its pre-app form is blank and its 7 comment threads (kj, Ivan, Mei) differ from the DOCX comments (James, Chris, Ivan). Find which copy James is working in before treating any as canonical."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  local:
+    path: sources/ehcrp-r2-working-doc/ehcrp-r2-working-doc.md
+    sha256: 78ecee68d704a2e850246b285e8879d209b12da9844cb571bafb748954191a34
+    acquired: 2026-09-25
+    via: connector-text
+  notes: 'Connector text: tabs render as plain H1s (# Overview, # Notes, # Template Letter, # Fresno EHCRP example, # Pre-application); TOC links all point to ?tab=t.0, so no tab ids; images dropped; comments come with thread status + timestamps. Contains team emails.'
 
 - id: ehcrp-r2-ambrose-memorial-docx
   title: Ambrose Memorial Park EHCRP.docx (export of the working doc, Memorial Park pre-app)
@@ -67,20 +73,32 @@
 - id: ehcrp-r1-awards-list
   title: EHCRP Round 1 Grant Awards Overview (2025-05-29)
   kind: award-list
-  status: include
+  status: acquired
   priority: 1
   location: {system: web, url: "https://lci.ca.gov/wp-content/uploads/20250529-EHRGPRound-1-AwardsList.pdf", mime: application/pdf}
   relevance: {programs: [ehcrp-r1], funders: [lci], note: "47 funded projects, $32.4M; project overviews show what reviewers funded. Referenced in the pilot working doc."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-web-01}
+  local:
+    path: sources/ehcrp-r1-awards-list/20250529-EHRGPRound-1-AwardsList.pdf
+    sha256: b0e5db1ce9711960f7c5a32b4923dce14e2e7907e71943b10c69feeb5f8420dc
+    acquired: &id001 2026-09-25
+    via: web
+  notes: "FACT CONFLICT: the PDF says 'nearly $32 million across 46 projects'; LCI's web search blurb says 47 projects / $32.4M. Reconcile in M3 before citing. Several awards are park/sprayground cooling projects comparable to Ambrose."
 
 - id: ehcrp-r1-resources-page
   title: EHCRP Round 1 Resources (LCI web page)
   kind: guidance
-  status: include
+  status: acquired
   priority: 2
   location: {system: web, url: "https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html"}
   relevance: {programs: [ehcrp-r1], funders: [lci], note: "Crawl for R1 guidelines, webinars, example applications, scoring materials."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-web-01}
+  local:
+    path: sources/ehcrp-r1-resources-page/links.md
+    sha256: dea0119f769046cc5ef5f20ffa49f1be2c9d6222619dfe1a5f182e585f7c8586
+    acquired: *id001
+    via: web
+  notes: Link list saved; linked guidelines/NOFA recorded as separate assets. Workshop recordings are YouTube (not acquired).
 
 - id: ehcrp-r1-faq
   title: EHCRP Round 1 FAQ (LCI)
@@ -103,21 +121,33 @@
 - id: lci-cfcc-2025-presentation
   title: LCI presentation to CFCC, Oct 29 2025 (R1 lessons, R2 plans)
   kind: guidance
-  status: include
+  status: acquired
   priority: 2
   location: {system: web, url: "https://cfcc.ca.gov/wp-content/uploads/2025/10/LCI-CFCC_Oct29_Presentation-ADA.pdf", mime: application/pdf}
   relevance: {programs: [ehcrp-r1, ehcrp-r2], funders: [lci], note: "Program's own account of what changed between rounds; reviewer priorities."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-web-01}
+  local:
+    path: sources/lci-cfcc-2025-presentation/LCI-CFCC_Oct29_Presentation-ADA.pdf
+    sha256: 08044d7e2c37f31399a86409f50e16bbb3ef2e7333c706ac8ddd5416f5b963ed
+    acquired: *id001
+    via: web
+  notes: Only ~270 words of extractable text (slides are mostly images); needs OCR or Claude PDF reading.
 
 - id: ehcrp-r2-partnership-survey
   title: 20251231-EHCRP_Round_2_Partnership_Survey_Responses 2.xlsx
   kind: dataset
-  status: include
+  status: acquired
   priority: 2
   location: {system: gdrive, id: 19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-, url: "https://drive.google.com/file/d/19t1VudJc8kpi2xv5ShtbH_gGSAszDbl-/view", mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, size: 224990, modified: 2026-09-01, parent: 1rNOExjsW83KUu44nKimsNrn3oxiTfzRI}
   relevance: {programs: [ehcrp-r2], note: "Program-published partner-seeking list; entity registry candidates (M3)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  notes: 'Full-row CSV-like dump. Many third-party contact emails and phones: restricted (DR-0004); use only org names and interests for the entity registry. Public copy also at https://lci.ca.gov/wp-content/uploads/20251231-EHCRP_Round_2_Partnership_Survey_Responses.xlsx'
 
+  local:
+    path: sources/ehcrp-r2-partnership-survey/ehcrp-r2-partnership-survey.md
+    sha256: 671c40c2fe0183e265dcc8f3bd9c163ebd1ef09f3b1567c2b3b30d5e7e5eb3eb
+    acquired: 2026-09-25
+    via: connector-text
 - id: ehcrp-r2-drive-folder
   title: "Drive folder: EHCRP Round 2"
   kind: other
@@ -130,29 +160,49 @@
 - id: ehcrp-r2-meaningful-direct-benefits
   title: Meaningful and Direct Benefits Assessment (2024 Climate Bond)
   kind: guidance
-  status: wanted
+  status: acquired
   priority: 1
   hint: Cited in Guidelines §7.1 footnote 2 ("full criteria on pages 12 and 13"). Likely on lci.ca.gov or the Climate Bond (Prop 4) site.
   relevance: {programs: [ehcrp-r2], funders: [lci], note: "Defines the four criteria behind the 15 funding-priority points."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  location:
+    system: web
+    url: https://resources.ca.gov/-/media/CNRA-Website/Files/Bonds/Prop-4/Oct2025_Meaningful_Direct-Benefits-Assessment.pdf
+    mime: application/pdf
+  local:
+    path: sources/ehcrp-r2-meaningful-direct-benefits/Oct2025_Meaningful_Direct-Benefits-Assessment.pdf
+    sha256: 2c03226447cf86312f841a496fb3138c93721255aeb4c301cec99e58196ef27a
+    acquired: *id001
+    via: web
+  notes: October 2025 version (CNRA). Guidelines footnote cites pages 12–13 for the four criteria.
 
 - id: ehcrp-r2-webinars-office-hours
   title: EHCRP Round 2 webinars, office hours, workshop slides and Q&A
   kind: guidance
   status: wanted
   priority: 1
-  hint: "Guidelines §8.8 says events are posted on the Extreme Heat Program webpage; the working doc has webinar screenshots and an events calendar."
+  hint: "Calendar acquired as ehcrp-r2-calendar. Recordings on YouTube: statewide input session 2025-08-12 (RGYDnvRIkC0), report-out 3 2025-11-04 (MQE8aQZUll4), guidelines comment webinar 2026-02 (gfm4lMDjg6c). Office-hours Q&A may be in the FAQ sheet. Transcripts would need a YouTube transcript tool."
   relevance: {programs: [ehcrp-r2], funders: [lci]}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
 
 - id: ehcrp-r2-full-application-form
   title: EHCRP Round 2 Full Application (Submittable questions + workplan/budget workbook)
   kind: solicitation
-  status: wanted
+  status: acquired
   priority: 1
   hint: Released to pre-applicants with feedback (Guidelines §8.3). Ask the lead writer for the Submittable link, or the workbook template.
   relevance: {programs: [ehcrp-r2], funders: [lci], note: "Exact question wording and workbook constraints for M5."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/Round_2_Full_Application_Form.pdf
+    mime: application/pdf
+  local:
+    path: sources/ehcrp-r2-full-application-form/Round_2_Full_Application_Form.pdf
+    sha256: 00a9ab2bff91d1c456b7c1fb9f72b2bbaf0fc9405b18ef6dccffd98feb0269e0
+    acquired: *id001
+    via: web
+  notes: "DOCX version also saved alongside (Round_2_Full_Application_Form.docx). WORDING DIFFERS FROM GUIDELINES: Harm Reduction Q2 adds 'and the project's expected harm reduction outcomes'. M5 should model the form, not Appendix F."
 
 - id: ehcrp-r2-preapp-feedback
   title: LCI staff feedback on the Bay Point pre-application(s)
@@ -167,11 +217,21 @@
 - id: cchs-2015-heat-vulnerability
   title: "CCHS (2015) Climate Change Vulnerability in Contra Costa County: A Focus on Heat"
   kind: report
-  status: wanted
+  status: acquired
   priority: 1
   hint: Contra Costa Health Services website. Draft cites p.32 (Bay Point indicators) and p.13 (Cal-Adapt projections).
   relevance: {places: [bay-point, contra-costa-county], note: "Primary citation for Harm Reduction Q1 facts (M3)."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  location:
+    system: web
+    url: https://www.adaptingtorisingtides.org/wp-content/uploads/2015/09/CoCo_Heat-and-Health_2015.pdf
+    mime: application/pdf
+  local:
+    path: sources/cchs-2015-heat-vulnerability/CoCo_Heat-and-Health_2015.pdf
+    sha256: 40ff2ef5e22046b3646f5e153b73453c1ca558460f7390e967b4b42700c26660
+    acquired: *id001
+    via: web
+  notes: Hosted by BCDC Adapting to Rising Tides, not CCHS. Mentions Bay Point in several places; verify the draft's p.32 and p.13 page cites against this copy.
 
 - id: vcp-bay-point-tracts
   title: Vulnerable Communities Platform + 2024 Climate Bond DAC map records for tracts 06013313203, 06013314105
@@ -204,29 +264,47 @@
 - id: fresno-rfp-hyphae-2024
   title: Fresno_RFP_Hyphae_2024.pdf (submitted proposal, Fresno COG Extreme Heat Analysis)
   kind: proposal
-  status: include
+  status: acquired
   priority: 1
   location: {system: gdrive, id: 1-wBqKPyVK8uIVSqSTr6VAZO2YdU8eVE_, url: "https://drive.google.com/file/d/1-wBqKPyVK8uIVSqSTr6VAZO2YdU8eVE_/view", mime: application/pdf, size: 15529073, modified: 2024-11-27, owner: ivan@hyphae.net, parent: 1pG4QUiGHFsiCxoQYGVIDncxtJ0cilUcJ}
   relevance: {programs: [fresno-cog-heat-2024], places: [fresno-county], note: "Heat-specific submitted proposal; origin of the firm-experience boilerplate that leaks 'Fresno County' into Bay Point."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  local:
+    path: sources/fresno-rfp-hyphae-2024/fresno-rfp-hyphae-2024.md
+    sha256: 63d95c433e28d05c93d5c0d728f7fa1bb51a99f796a930a464613e694b9c8bce
+    acquired: 2026-09-25
+    via: connector-text
+  notes: Text of the PDF (~21.5k words). Trailing link list includes partner emails; strip before library use.
 
 - id: fresno-extreme-heat-analysis-doc
   title: Fresno Extreme Heat Analysis (Google Doc, proposal working doc)
   kind: working-doc
-  status: include
+  status: acquired
   priority: 1
   location: {system: gdrive, id: 1DJkKB_EVFkRuvPayBu6GObWo7vTLbH_bvSI690HEtr8, url: "https://docs.google.com/document/d/1DJkKB_EVFkRuvPayBu6GObWo7vTLbH_bvSI690HEtr8/edit", mime: application/vnd.google-apps.document, size: 30002965, modified: 2025-11-17, owner: max@hyphae.net, parent: 1pG4QUiGHFsiCxoQYGVIDncxtJ0cilUcJ}
   relevance: {programs: [fresno-cog-heat-2024], places: [fresno-county], note: "Working doc behind the submitted proposal; likely has long/short variants."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  local:
+    path: sources/fresno-extreme-heat-analysis-doc/fresno-extreme-heat-analysis-doc.md
+    sha256: c9296faa94c9e16bf7970fdd5895e08b0d85aa624f95c04a2bc570252abd0661
+    acquired: 2026-09-25
+    via: connector-text
+  notes: "~69k words, 70 comment threads, multi-tab ('PROPOSAL (ONLY)', 'Stuff from other projects', ...). Contains candid internal process notes: context only, not library material."
 
 - id: epa-dallas-green-spine-app
   title: FINAL EPA DALLAS GREEN SPINE GRANT APP.pdf
   kind: proposal
-  status: include
+  status: acquired
   priority: 2
   location: {system: gdrive, id: 11Kspw6m1E_OTKT8KrcyRrwX99qcOuKCx, url: "https://drive.google.com/file/d/11Kspw6m1E_OTKT8KrcyRrwX99qcOuKCx/view", mime: application/pdf, size: 4381235, modified: 2024-11-22, owner: ivan@hyphae.net}
   relevance: {funders: [epa], places: [dallas], projects: [sw-medical-district], note: "Submitted federal application; SW Medical District / Harry Hines content."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  local:
+    path: sources/epa-dallas-green-spine-app/epa-dallas-green-spine-app.md
+    sha256: d73fa423e15dd1c279c0852a90b3915012cf7cf379a72a5010b4031cd12e48c6
+    acquired: 2026-09-25
+    via: connector-text
+  notes: Text of the PDF (~27k words), starts with SF-424 boilerplate.
 
 - id: harry-hines-ebd-report
   title: Harry Hines Evidence-based design report
@@ -410,11 +488,17 @@
 - id: upcoming-grants-sheet
   title: Upcoming Grants (tracking spreadsheet)
   kind: dataset
-  status: include
+  status: acquired
   priority: 2
   location: {system: gdrive, id: 1oEuANd0quqhdkcFZ-z5dbXzDkYI3ZkSIDY4Oriynv_U, url: "https://docs.google.com/spreadsheets/d/1oEuANd0quqhdkcFZ-z5dbXzDkYI3ZkSIDY4Oriynv_U/edit", mime: application/vnd.google-apps.spreadsheet, size: 2613977, modified: 2026-09-15}
   relevance: {note: "Pipeline of future solicitations — seeds future M5 models and tells us which library chunks will be reused next."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+  local:
+    path: sources/upcoming-grants-sheet/upcoming-grants-sheet.md
+    sha256: e6ee47cbecd4d9ab7622e178e5e05c24e866dfa63d451d9f22132c123380631c
+    acquired: 2026-09-25
+    via: connector-text
+  notes: "PARTIAL: the connector returned only 'Table Sample Data' (4 rows per tab, cells truncated) for 3 tabs. Re-acquire via drive-api or a manual xlsx export."
 
 - id: proposal-template-2019
   title: Proposal_Template 2019 (spreadsheet)
@@ -445,11 +529,21 @@
 - id: urban-greening-2026-guidelines
   title: CNRA Urban Greening Grant Program 2026 Guidelines (incl. Appendix D definitions)
   kind: solicitation
-  status: wanted
+  status: acquired
   priority: 2
   hint: Concept proposal form references "Appendix D of the Grant Guidelines" and "pages 3-4". resources.ca.gov.
   relevance: {programs: [cnra-ugg-2026], funders: [cnra]}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
+  location:
+    system: web
+    url: https://resources.ca.gov/-/media/CNRA-Website/Files/grants/Prop-4/Urban-Greening/Urban-Greening-Guidelines_Final.pdf
+    mime: application/pdf
+  local:
+    path: sources/urban-greening-2026-guidelines/Urban-Greening-Guidelines_Final.pdf
+    sha256: 372f95edd551bbdda70c208bbc5a5f2e844350ccb398b110fa90f0cdd7149064
+    acquired: *id001
+    via: web
+  notes: May 2026 final.
 
 - id: moodle-application-template
   title: '"Moodle template" (application template referenced for partner support)'
@@ -562,3 +656,443 @@
   location: {system: gdrive, id: 1BRcHPsnqsjOKOcUXUO6AhfEZDRlyFjbg, mime: image/png}
   notes: Screenshot; the application PDF (1_MGxC-YKqygf2tArfs9HiwjtfZj6LNCm) may be worth a later look.
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-gdrive-01}
+- id: ehcrp-r2-resources-page
+  title: EHCRP Round 2 Resources (LCI web page)
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-2-resources/
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Hub for the full application form, TA guides, checklists, FAQ, calendar. Re-sweep weekly until the deadline.
+  local:
+    path: sources/ehcrp-r2-resources-page/links.md
+    sha256: 0fe7fe3b48d33ba1ca90d5a11c90763af7a36c4dd2b87e8617d6fb5f63c7caa4
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-nofa
+  title: EHCRP Round 2 Notice of Funding Availability (2026-06-16)
+  kind: solicitation
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/Notice-of-Funding-Availability-Extreme-Heat-Program-Round-2.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Official deadlines and amounts.
+  local:
+    path: sources/ehcrp-r2-nofa/Notice-of-Funding-Availability-Extreme-Heat-Program-Round-2.pdf
+    sha256: 648b4a85d0985675e3d75ee21fd10dfd18ff876e91319e3f3dcdbcb11b277237
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-ta-guide-harm-reduction
+  title: 'TA Guide — What you need to know: Harm Reduction'
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Harm-Reduction.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: "Pilot target section. Program's own framing: interrupt the heat→people pathway; measurable harm-reduction metrics with who/how/when; local knowledge counts as evidence where data is thin."
+  local:
+    path: sources/ehcrp-r2-ta-guide-harm-reduction/EHCRP-TA-Guide-Harm-Reduction.pdf
+    sha256: efcbf21c5dfa89cfd55d8bddd404aedf80be661bf9e75cdf84b8d87575c7ca14
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-ta-guide-belonging
+  title: 'TA Guide — What you need to know: Belonging'
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Belonging.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Belonging Q1/Q2 guidance.
+  local:
+    path: sources/ehcrp-r2-ta-guide-belonging/EHCRP-TA-Guide-Belonging.pdf
+    sha256: 28d499a7704c61faaa8af82c1c2dad6fba5aebecf8b358bbd62fd31694f60383
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-ta-guide-partnership
+  title: 'TA Guide — What you need to know: Partnership'
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Partnership.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Partnership Q1/Q2 guidance (next pilot target).
+  local:
+    path: sources/ehcrp-r2-ta-guide-partnership/EHCRP-TA-Guide-Partnership.pdf
+    sha256: 47a0b3bc0a638832add4b0feacd4ec18e14292827ec09e862650d4f78c9089de
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-ta-guide-lasting-community-benefits
+  title: 'TA Guide — What you need to know: Lasting Community Benefits'
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Lasting-Community-Benefits.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: LCB Q1 (12 pts, 350 words).
+  local:
+    path: sources/ehcrp-r2-ta-guide-lasting-community-benefits/EHCRP-TA-Guide-Lasting-Community-Benefits.pdf
+    sha256: 134c85366fb17f2a931bedaed3a9fd379288b9136bae5cfb0ccdae9771f1e724
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-planning-playbook-guide
+  title: Round 2 Planning and Playbook Application Guide
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/Round-2-Planning-Playbook-Application-Guide.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Early Infrastructure planning-document expectations; feeds LCB answer.
+  local:
+    path: sources/ehcrp-r2-planning-playbook-guide/Round-2-Planning-Playbook-Application-Guide.pdf
+    sha256: 871c6024a4b072be0c03b6a7aabf7ef7c81523501646a84c37e642ad9b1ed5f5
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-applicant-prep-guide
+  title: EHCRP Applicant Preparation Guide (2025-11-13)
+  kind: guidance
+  status: acquired
+  priority: 2
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/20251113-ICARP_EHCRP_Applicant_Preparation_Guide.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Pre-round preparation guidance.
+  local:
+    path: sources/ehcrp-r2-applicant-prep-guide/20251113-ICARP_EHCRP_Applicant_Preparation_Guide.pdf
+    sha256: 196055516514cf2a3b9e6060c4b7392e26122414e0d25460fec8e30b2de19fbd
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-partnerships-guide
+  title: 'EHCRP R2 TA Guide: Partnerships (2025-11-06)'
+  kind: guidance
+  status: acquired
+  priority: 2
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/20251106-ICARP_EHCRP_R2_TA_Guide_Partnerships.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Earlier, longer partnerships guide.
+  local:
+    path: sources/ehcrp-r2-partnerships-guide/20251106-ICARP_EHCRP_R2_TA_Guide_Partnerships.pdf
+    sha256: 12eaa3c48c4aac6eb9a9ca49dcb892c5863e0184b54bb0535fbaac55a4c13f26
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-draft-guidelines
+  title: EHCRP Round 2 Draft Guidelines (2026-02-02)
+  kind: solicitation
+  status: acquired
+  priority: 3
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/20260202-EHCRP-Guidelines-Round2-Draft.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Diff against final to see what the program changed after comment.
+  local:
+    path: sources/ehcrp-r2-draft-guidelines/20260202-EHCRP-Guidelines-Round2-Draft.pdf
+    sha256: b4af0a00f789fa602f8a7c8506f9404105bc6edfd4fa89148acdbc7490f368d8
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-faq
+  title: EHCRP Round 2 FAQ (public Google Sheet, exported xlsx)
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://docs.google.com/spreadsheets/d/1GRcOaMhzDf8TeIO-CZmPNHqi9jxwnNMgAqh0_spMjCI/edit
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Live document; re-export before final QA.
+  local:
+    path: sources/ehcrp-r2-faq/EHCRP_R2_FAQ.xlsx
+    sha256: b5e819423f8b816f758150056d5dfeedb1740407995787aa223dc80332c5e61f
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-calendar
+  title: EHCRP Round 2 Calendar of Events (public Google Doc, exported docx)
+  kind: guidance
+  status: acquired
+  priority: 2
+  location:
+    system: web
+    url: https://docs.google.com/document/d/1x0Xu-myANGzP53ePAu93J2VrA1g3rkjvRo0PDiBNz3I/edit
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Office hours and workshops.
+  local:
+    path: sources/ehcrp-r2-calendar/EHCRP_R2_Calendar_of_Events.docx
+    sha256: 9e79d1ad0c0805dc3fe5188a19e604a41e9ced21b09b01e081b133ad1e183e36
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-checklist-early
+  title: Early Infrastructure Grant Application Checklist (xlsx)
+  kind: solicitation
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://docs.google.com/spreadsheets/d/1p3tgDvfYF5Hr3gTQy_COMqPu0MFQ1tkM/edit
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Compliance-matrix seed for M5 (Bay Point is Early Infrastructure).
+  local:
+    path: sources/ehcrp-r2-checklist-early/Early_Infrastructure_Checklist.xlsx
+    sha256: 133756bab76cf8e4b05dfadbbc4934a39f43f5482e8021b7adf2474767ece99e
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r2-checklist-advanced
+  title: Advanced Infrastructure Grant Application Checklist (xlsx)
+  kind: solicitation
+  status: acquired
+  priority: 3
+  location:
+    system: web
+    url: https://docs.google.com/spreadsheets/d/1Gzo4PvxCSo5SM7hn1jtxB54SZirw5PjL/edit
+  relevance:
+    programs:
+    - ehcrp-r2
+    funders:
+    - lci
+    note: Other tier; for completeness.
+  local:
+    path: sources/ehcrp-r2-checklist-advanced/Advanced_Infrastructure_Checklist.xlsx
+    sha256: d374440f99892c9c3069f7b56b629add1a657cdbf6ad6ac6c3faa6d18d3a60fc
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r1-guidelines
+  title: EHCRP Round 1 Final Guidelines (revised 2024-04-08)
+  kind: solicitation
+  status: acquired
+  priority: 2
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/20240408-R1_EHCRP_Guidelines_Revised.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    note: Compare R1 vs R2 scoring to see what the program now rewards.
+  local:
+    path: sources/ehcrp-r1-guidelines/20240408-R1_EHCRP_Guidelines_Revised.pdf
+    sha256: 48d39b5bc4c0397f4a52e15b122804a2f01c1934bd34489722b52a850644ec88
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: ehcrp-r1-nofa
+  title: EHCRP Round 1 NOFA (update 2024-04-08)
+  kind: solicitation
+  status: acquired
+  priority: 3
+  location:
+    system: web
+    url: https://lci.ca.gov/wp-content/uploads/20240408-R1_EHCRP_NOFA_Update.pdf
+    mime: application/pdf
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    note: ''
+  local:
+    path: sources/ehcrp-r1-nofa/20240408-R1_EHCRP_NOFA_Update.pdf
+    sha256: 8ff0b03d27be7717852bbdf101874d525ed33de6175ea2b00d5e1aa011316cbf
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: pse-2026-contra-costa-climate-vulnerability
+  title: PSE Healthy Energy (2026) Mapping Climate Vulnerability and Air Pollution in Contra Costa County
+  kind: report
+  status: acquired
+  priority: 1
+  location:
+    system: web
+    url: https://www.psehealthyenergy.org/wp-content/uploads/2026/01/Mapping-Climate-Vulnerability-and-Air-Pollution-in-Contra-Costa-County.pdf
+    mime: application/pdf
+  relevance:
+    programs: []
+    funders: []
+    note: Newer (2026) county heat + air vulnerability evidence than the 2015 CCHS report the drafts cite; check for Bay Point findings.
+    places:
+    - contra-costa-county
+    - bay-point
+  local:
+    path: sources/pse-2026-contra-costa-climate-vulnerability/Mapping-Climate-Vulnerability-and-Air-Pollution-in-Contra-Costa-County.pdf
+    sha256: 70bbe1cf154e65f72c2e249d8ad33030103f52bb65cd4c7d79c794f67bdc3e4c
+    acquired: *id001
+    via: web
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+- id: cdph-chpr-contra-costa-2017
+  title: 'CDPH Climate Change and Health Profile Report: Contra Costa County (2017)'
+  kind: report
+  status: include
+  priority: 2
+  location:
+    system: web
+    url: https://www.cdph.ca.gov/Programs/OHE/CDPH%20Document%20Library/CHPRs/CHPR013ContraCosta_County2-23-17.pdf
+    mime: application/pdf
+  relevance:
+    places:
+    - contra-costa-county
+    note: State health-department heat vulnerability profile; corroborating source for Harm Reduction facts.
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
+  notes: Automated download failed (cdph.ca.gov TLS chain incomplete). Download manually in a browser.
+- id: ehcrp-r1-workshop-recordings
+  title: EHCRP Round 1 application workshop recordings (8 YouTube videos, Feb–Mar 2024)
+  kind: guidance
+  status: defer
+  priority: 3
+  location:
+    system: web
+    url: https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-1-resources.html
+  relevance:
+    programs:
+    - ehcrp-r1
+    funders:
+    - lci
+    note: Links in sources/ehcrp-r1-resources-page/links.md. Transcripts could show reviewer emphasis.
+  discovered:
+    date: *id001
+    by: claude-opus-5-5
+    sweep: s-2026-09-25-web-02
