@@ -33,6 +33,7 @@ inventory/                        asset manifest (assets.yaml), sweep log (sweep
 solicitations/<funder>/<program>/<round>/   solicitation.yaml, questions.yaml (verbatim from the form), applications/ (DR-0012)
 sources/<asset-id>/               acquired source files and text exports (DR-0010)
 skills/                           Agent Skills; asset-discovery/ = how to sweep Drive/web into the inventory
+solicitations/.../todos.yaml       open decisions/questions/tasks for the round; partner-meeting agenda source (DR-0014)
 tests/                            pytest (`uv run pytest`)
 ```
 
@@ -72,6 +73,16 @@ This is a **real application, and the goal is real help.** It is a *shadow contr
 ### Finding and tracking sources (DR-0010)
 - Before hunting for material, check `inventory/index.md`. If something is missing, follow `skills/asset-discovery/SKILL.md`: log a sweep, run `adapt-rfp inventory find` before adding a record, triage, then validate → index → test → commit.
 - Anything we know we need but don't have goes in as `status: wanted` with a `hint`, including evidence gaps in drafts (a cited report, a dataset, community quotes).
+
+### Open items and the partner meeting (DR-0014)
+Decisions, questions and tasks for the live application collect in **`solicitations/lci/ehcrp/round-2/todos.yaml`** until the team meets with Brent, ARPD and the co-applicants.
+- **When to add an item.** Add one whenever something needs a person rather than a source: a draft TK only a human can resolve, a funder-feedback finding, a choice between options, or a file someone has to send. Claude adds items as it works, **in the same commit as the draft or finding that raised them**. A human can add one by editing the file or by saying "add to the list: …" in a session.
+- **How to add one.** Run `uv run adapt-rfp todo next-id`. Search the file first and extend an existing item rather than duplicating it. Required fields: `title`, `kind` (decision | question | task), `venue`, `topic`, `priority` (1 = blocks drafting before the deadline), `context`, `added`. `ask` (who answers) is required for `partner-meeting` and `ask`.
+- **Where it goes (venue).** Use `partner-meeting` only when it needs several parties in one room. Use `ask` when one named person can answer (email or chat), and `internal` for Hyphae/Claude work. Keep meeting time for real decisions.
+- **Link drafts to items.** Every `{>>TK …<<}` in an answer draft cites its item id, e.g. `{>>TK confirm: … (t-012)<<}`. `uv run adapt-rfp todo tk` lists TK notes that don't, and the test suite fails on them.
+- **Wording is shareable.** `context`, `options` and `proposal` are rendered into the partner agenda. No contact details, no candid assessments of people or partners. Those stay in private notes.
+- **Before the meeting:** `uv run adapt-rfp todo agenda --app <app> --date <date> --out solicitations/.../meetings/<date>-agenda.md`, reviewed by the maintainer before it goes to anyone.
+- **After the meeting:** set `status: answered` with a `resolution` (date, `decided_by`, text). Update the drafts, application YAML and TK notes. Then set `status: done`. Never delete items. Use `dropped` with a reason.
 
 ### Processing sources: spend tokens in proportion to value (DR-0011)
 - Don't read large sources end to end. Run `uv run adapt-rfp profile` (free), then read the **cards** in `inventory/cards/` (disposition, reusable sections, fact candidates) before opening any source.

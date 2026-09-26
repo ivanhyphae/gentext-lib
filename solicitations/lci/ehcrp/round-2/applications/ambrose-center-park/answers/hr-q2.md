@@ -15,18 +15,18 @@ inputs: [ehcrp-r2-ambrose-center-gdoc (working-doc answers 2a/5/6a; submission s
 
 ## Draft
 
-The project puts shade and cooler ground where Question 1 locates exposure: where people walk, wait and gather. {>>TK confirm: the elements below come from the working-doc 2a answer, which may not have been submitted; check them against the submitted pre-app text. LCI's feedback says the core infrastructure is "clearly defined", so match it<<}
+The project puts shade and cooler ground where Question 1 locates exposure: where people walk, wait and gather. {>>TK confirm: the elements below come from the working-doc 2a answer, which may not have been submitted; check them against the submitted pre-app text. LCI's feedback says the core infrastructure is "clearly defined", so match it (t-003)<<}
 
 - **Gathering:** a shaded community pavilion beside the concession stand, and permeable decomposed-granite gathering areas with native plantings in place of hot pavement.
 - **Walking:** shaded seating along paths between the parking lot, center and fields, so older adults and parents with small children can rest out of the sun.
 - **Learning:** a shaded outdoor classroom at the Ambrose Community Garden, so youth and garden programs continue through summer.
 - **Over time:** climate-ready native trees extend canopy over plazas and paths as they mature, while the pavilion gives full shade from the first summer.
 
-It builds on the park's state-funded (IRWM) stormwater project, which regrades the site and rebuilds the parking lot but leaves most shade unfunded. {>>TK confirm: scope split with the IRWM project<<}
+It builds on the park's state-funded (IRWM) stormwater project, which regrades the site and rebuilds the parking lot but leaves most shade unfunded. {>>TK confirm: scope split with the IRWM project (t-004)<<}
 
-**Expected outcomes, and how we will track them** {>>TK confirm: roles and sensor scope are proposed, not yet agreed with partners or budgeted<<}
+**Expected outcomes, and how we will track them** {>>TK confirm: roles and sensor scope are proposed, not yet agreed with partners or budgeted (t-005)<<}
 
-1. **Less heat stress.** Universal Thermal Climate Index (UTCI) and surface-temperature modeling of the plaza, parking lot, ballfields and garden, before and after construction, checked against on-site sensors in summer. Target: {>>TK data: modeled reduction in afternoon hours of strong heat stress (UTCI above 32°C) in treated areas<<}.
+1. **Less heat stress.** Universal Thermal Climate Index (UTCI) and surface-temperature modeling of the plaza, parking lot, ballfields and garden, before and after construction, checked against on-site sensors in summer. Target: {>>TK data: modeled reduction in afternoon hours of strong heat stress (UTCI above 32°C) in treated areas (t-024)<<}.
 2. **More shade where people are.** Shaded share of high-use areas on a July afternoon, before and after.
 3. **More use on hot days.** ARPD staff count people using shaded areas on heat-advisory days.
 4. **Residents feel protected.** The Caribbean South America Hispanic Council surveys park users in English and Spanish before construction and after the first summer.

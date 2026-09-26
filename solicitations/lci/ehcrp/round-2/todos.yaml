@@ -1,0 +1,311 @@
+# Open items for EHCRP Round 2 (DR-0014). Protocol: AGENTS.md → "Open items and the partner meeting".
+# Validate: uv run adapt-rfp todo validate · Agenda: uv run adapt-rfp todo agenda --app ambrose-center-park
+# `context`, `options` and `proposal` may be shown to partners: no contact details, no candid assessments of people.
+
+# ─── Partner meeting: Brent, ARPD, co-applicant CBO(s), CCRCD ────────────────────────
+- id: t-001
+  title: Choose the co-applicant (Bay Point Garden Club, CSAHC, or both); CCRCD's role
+  kind: decision
+  venue: partner-meeting
+  topic: partnership
+  priority: 1
+  ask: [arpd, brent, bay-point-garden-club, csahc, ccrcd]
+  owner: ivan
+  affects: [pt-q1, pt-q2, workbook]
+  context: >-
+    LCI's pre-app feedback says CCRCD cannot be the co-applicant. ARPD is a public entity, so the co-applicant must be a CBO
+    or a California Native American Tribe (Guidelines §6.3). The Bay Point Garden Club and the Caribbean South America
+    Hispanic Council would both qualify. A co-applicant receives funds through ARPD, has its own tasks and budget in the
+    workplan, and must provide a letter of support and two years of financial statements (§6.4). A CBO co-applicant needs a
+    staffed office within 100 miles of the site. CCRCD can join as a Contributor instead.
+  options:
+    - Bay Point Garden Club as co-applicant
+    - Caribbean South America Hispanic Council as co-applicant
+    - Both as co-applicants
+  proposal: >-
+    Decide based on which CBO can supply the financial documents and letter by Oct 13, and which leads engagement and
+    Belonging work. CCRCD joins as a Contributor.
+  sources: [ehcrp-r2-preapp-feedback-center, "ehcrp-r2-guidelines §6.3–6.4"]
+  due: 2026-10-02
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-002
+  title: Planning Document type and geographic scope
+  kind: decision
+  venue: partner-meeting
+  topic: planning-document
+  priority: 1
+  ask: [brent, arpd, ivan]
+  owner: ivan
+  affects: [overview, lcb-q1, hr-q2, workbook]
+  context: >-
+    LCI's main finding: the pre-app describes the demonstration but not a Planning Document, which is the primary
+    deliverable for Early Infrastructure. The demonstration should inform it. It must cover the §3.6 elements (priority areas,
+    infrastructure strategy, partnerships, community-informed design principles, cost estimates, implementation roadmap)
+    and be finished within the 30-month term.
+  options:
+    - Infrastructure Master Plan focused on cooling and shade (a "cool parks" or shade plan) for ARPD parks across Bay Point
+    - Infrastructure Master Plan for Ambrose Center Park and its surroundings only
+    - Extreme Heat Action Plan for Bay Point (broader, and must include a dedicated infrastructure section)
+  proposal: >-
+    A shade and cool-parks master plan across ARPD's parks. It builds on both Ambrose sites and gives the demonstration a
+    clear role as the first built piece.
+  sources: [ehcrp-r2-preapp-feedback-center, "ehcrp-r2-guidelines §3.6"]
+  due: 2026-10-02
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-003
+  title: Confirm the demonstration elements and where they go in the park
+  kind: decision
+  venue: partner-meeting
+  topic: scope
+  priority: 1
+  ask: [brent, arpd, james]
+  owner: ivan
+  affects: [overview, hr-q2, be-q1, workbook]
+  context: >-
+    The working draft lists a shaded pavilion by the concession stand, decomposed-granite gathering areas with native
+    plantings, shaded seating along paths, a shaded outdoor classroom at the community garden, and climate-ready trees.
+    LCI found the core infrastructure "clearly defined" in the submitted text, so the full application should match it.
+    The demonstration must be 25–60% of the budget.
+  sources: [ehcrp-r2-ambrose-center-gdoc, ehcrp-r2-preapp-feedback-center, "solicitation.yaml budget_constraints"]
+  depends_on: [t-010]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-004
+  title: Scope split with the IRWM-funded stormwater project at the park
+  kind: decision
+  venue: partner-meeting
+  topic: scope
+  priority: 1
+  ask: [ccrcd, james, brent]
+  owner: ivan
+  affects: [hr-q2, overview, lcb-q1]
+  context: >-
+    The park's green infrastructure project (CCRCD as CEQA lead agency, DWR IRWM funding) regrades the site, rebuilds the
+    parking lot and adds bioretention. Its project description says some furnishings, such as water fountains and trellises
+    for shade, may need a future grant. The EHCRP application needs a clear line: what IRWM already funds, and what EHCRP
+    would add.
+  sources: [ambrose-center-park-ceqa-project-description, ambrose-center-park-gi-additional-funding]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-005
+  title: Harm-reduction measures, who tracks them, and whether sensors are in scope
+  kind: decision
+  venue: partner-meeting
+  topic: harm-reduction
+  priority: 1
+  ask: [brent, arpd, csahc, ccrcd]
+  owner: ivan
+  affects: [hr-q2, workbook]
+  context: >-
+    LCI asks for measurable harm-reduction outcomes, with who tracks them, how and when. The draft proposes four measures:
+    modeled and sensor-checked heat stress in treated areas, shaded share of high-use areas, counts of people using shade on
+    heat-advisory days, and a before-and-after survey of park users in English and Spanish.
+  proposal: >-
+    Hyphae models heat stress and shade. CCRCD maintains the sensors. ARPD staff count users. The co-applicant runs the survey.
+    The results feed the Planning Document.
+  sources: [ehcrp-r2-ta-guide-harm-reduction, solicitations/lci/ehcrp/round-2/applications/ambrose-center-park/answers/hr-q2.md]
+  depends_on: [t-001]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-006
+  title: Belonging and engagement plan (before, during, after; ≥4% of budget)
+  kind: decision
+  venue: partner-meeting
+  topic: belonging
+  priority: 1
+  ask: [csahc, bay-point-garden-club, arpd, brent]
+  owner: ivan
+  affects: [be-q1, be-q2, lcb-q1, workbook]
+  context: >-
+    LCI reminds all applicants to develop Belonging: residents shape the design, the design reflects community identity, and
+    engagement before, during and after builds ownership that lasts past the grant. At least 4% of the Early Infrastructure
+    budget must go to Belonging, and Belonging design must be complete before Readiness Review.
+  options: []
+  sources: [ehcrp-r2-preapp-feedback-center, "ehcrp-r2-guidelines Appendix B, §3.4"]
+  depends_on: [t-001]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-007
+  title: Budget shares for partners (≥8%) and Hyphae's formal role
+  kind: decision
+  venue: partner-meeting
+  topic: budget
+  priority: 2
+  ask: [brent, arpd]
+  owner: ivan
+  affects: [workbook, pt-q1, pt-q2]
+  context: >-
+    At least 8% of the budget must go directly to co-applicants and/or contributors. Hyphae isn't named in the Center Park
+    pre-app's partner list, so its role (contributor or contractor) needs settling. Partnership answers and the workplan depend
+    on it.
+  sources: ["solicitation.yaml budget_constraints", "ehcrp-r2-guidelines §3.4, §6.4"]
+  depends_on: [t-001]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-008
+  title: Gather residents' own words about heat at the park, with consent, before Oct 13
+  kind: task
+  venue: partner-meeting
+  topic: evidence
+  priority: 1
+  ask: [csahc, arpd]
+  owner: ivan
+  affects: [hr-q1, be-q2]
+  context: >-
+    Harm Reduction Q1's top band wants community voices: quotes or stories that show lived experience of heat. The 2026
+    survey of community-center users gives numbers but no heat stories we can quote. A short listening session or intercept
+    conversations at the park (English and Spanish, with consent) would fill the gap and also count as early engagement for
+    Belonging.
+  proposal: The co-applicant hosts; ARPD provides the venue; Hyphae supplies three questions and a consent script.
+  sources: [ehcrp-r2-guidelines App. F 2.2, ambrose-resilience-hub-survey]
+  due: 2026-10-06
+  added: {date: 2026-09-26, by: claude-code}
+
+# ─── Async asks: one person can answer ───────────────────────────────────────────────
+- id: t-010
+  title: Submitted Center Park pre-app text, and which tract and status went in
+  kind: question
+  venue: ask
+  topic: admin
+  priority: 1
+  ask: [james]
+  owner: ivan
+  affects: [overview, hr-q2, funding-priority-form]
+  context: >-
+    Only the shortened project description was submitted. The copy in the working docs names Memorial Park. LCI also says the
+    community status submitted was DAC but should be SDAC, so check which tract went in (06013314105 is listed as SDAC for Center Park).
+  sources: [ehcrp-r2-ambrose-center-preapp-submitted, ehcrp-r2-preapp-feedback-center]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-011
+  title: Survey ownership, permission to cite totals, and consent for quotes
+  kind: question
+  venue: ask
+  topic: evidence
+  priority: 1
+  ask: [james]
+  owner: ivan
+  affects: [hr-q1]
+  context: >-
+    Harm Reduction Q1 cites totals from the 2026 Ambrose Community Center survey (35 responses). Who ran it, may we cite the
+    totals, and did respondents consent to being quoted?
+  sources: [ambrose-resilience-hub-survey]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-012
+  title: Source for "about 4,000 residents a year" at Ambrose Center Park
+  kind: question
+  venue: ask
+  topic: evidence
+  priority: 2
+  ask: [arpd]
+  owner: ivan
+  affects: [hr-q1, overview]
+  context: The working draft says the park's facilities serve about 4,000 residents a year. Is there an ARPD count or report behind it?
+  sources: [ehcrp-r2-ambrose-center-gdoc]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-013
+  title: Legal name of the Caribbean South America Hispanic Council
+  kind: question
+  venue: ask
+  topic: admin
+  priority: 3
+  ask: [arpd]
+  owner: ivan
+  affects: [pt-q1, all]
+  context: Our drafts use "Caribbean South America Hispanic Council"; LCI's email writes "Caribbean South American". Confirm the registered name.
+  sources: [ehcrp-r2-preapp-feedback-center]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-014
+  title: Memorial Park pre-app feedback email
+  kind: question
+  venue: ask
+  topic: admin
+  priority: 2
+  ask: [ivan]
+  apps: [ambrose-memorial-park]
+  affects: [all]
+  context: LCI's feedback on the Center Park pre-app is in hand. Is there a separate email for Memorial Park?
+  sources: [ehcrp-r2-preapp-feedback]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-015
+  title: Round 1 interview or feedback material
+  kind: question
+  venue: ask
+  topic: evidence
+  priority: 3
+  ask: [brent]
+  owner: ivan
+  apps: [ambrose-center-park, ambrose-memorial-park]
+  affects: [all]
+  context: Hyphae's Round 1 application was interviewed but not funded. Any reviewer feedback or interview notes would show what to fix.
+  sources: [documentation/status.md]
+  added: {date: 2026-09-26, by: claude-code}
+
+# ─── Internal: Hyphae / Claude ───────────────────────────────────────────────────────
+- id: t-020
+  title: Correct the funding-priority status to SDAC on the full application form
+  kind: task
+  venue: internal
+  topic: admin
+  priority: 1
+  owner: james
+  affects: [funding-priority-form]
+  context: LCI says the community status is SDAC, not DAC, and the correction is needed for priority points (up to 15).
+  sources: [ehcrp-r2-preapp-feedback-center]
+  depends_on: [t-010]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-021
+  title: Check tract 06013314105 on the 2024 Climate Bond DAC map; pull its VCP scores
+  kind: task
+  venue: internal
+  topic: evidence
+  priority: 2
+  owner: claude
+  affects: [hr-q1, funding-priority-form]
+  context: Harm Reduction Q1 has a TK for the Vulnerable Communities Platform Climate Now and Social scores for this tract.
+  sources: [vcp-bay-point-tracts]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-022
+  title: Draft the Project Overview around the Planning Document
+  kind: task
+  venue: internal
+  topic: planning-document
+  priority: 1
+  owner: claude
+  affects: [overview]
+  context: LCI's main finding. Draft both plan-type options so the t-002 discussion has text to react to.
+  depends_on: [t-002]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-023
+  title: Keep or drop PM2.5 in Harm Reduction Q1
+  kind: decision
+  venue: internal
+  topic: harm-reduction
+  priority: 2
+  owner: ivan
+  affects: [hr-q1, hr-q2]
+  context: >-
+    Q1 cites the PSE 2026 acute PM2.5 hot spot. Shade doesn't address air pollution, so Q2 can't show a pathway for it. Keep
+    it as context, or drop it to keep Q1 and Q2 aligned.
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-024
+  title: Heat-stress reduction target for Harm Reduction Q2
+  kind: task
+  venue: internal
+  topic: harm-reduction
+  priority: 2
+  owner: brent
+  affects: [hr-q2]
+  context: Q2 needs a modeled target, e.g. fewer afternoon hours of strong heat stress (UTCI above 32°C) in treated areas.
+  depends_on: [t-003]
+  added: {date: 2026-09-26, by: claude-code}

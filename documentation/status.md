@@ -33,6 +33,7 @@ It also has a **solicitation model** for the live application (LCI EHCRP Round 2
     - **The funding-priority status must be SDAC, not DAC.**
     - The core infrastructure itself was judged clearly defined and eligible.
   - Memorial Park feedback is still wanted (`ehcrp-r2-preapp-feedback`).
+- **Open items:** `solicitations/lci/ehcrp/round-2/todos.yaml` (DR-0014) tracks every decision, ask and task until the partner meeting with Brent, ARPD and the co-applicants. Start there. `uv run adapt-rfp todo list --status open`.
 - **Drafts in progress:** `solicitations/lci/ehcrp/round-2/applications/ambrose-center-park/answers/hr-q1.md`, `hr-q2.md` (draft-2). Q2 is blocked on the submitted scope.
 
 ## Where things are

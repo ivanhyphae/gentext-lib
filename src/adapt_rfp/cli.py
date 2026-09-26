@@ -117,6 +117,50 @@ def _extract(args: argparse.Namespace) -> int:
     return 0
 
 
+def _todo(args: argparse.Namespace) -> int:
+    from pydantic import ValidationError
+
+    from adapt_rfp import todos
+
+    path = Path(args.file) if args.file else todos.TODOS_FILE
+    try:
+        tl = todos.load(path)
+    except (ValidationError, ValueError) as e:
+        print(e, file=sys.stderr)
+        return 1
+    if args.todo_cmd == "validate":
+        n_open = sum(t.status == "open" for t in tl.todos)
+        print(f"ok: {len(tl.todos)} items ({n_open} open); next id {tl.next_id()}")
+        return 0
+    if args.todo_cmd == "next-id":
+        print(tl.next_id())
+        return 0
+    if args.todo_cmd == "list":
+        for t in tl.todos:
+            if args.status and t.status != args.status:
+                continue
+            if args.venue and t.venue != args.venue:
+                continue
+            print(f"{t.id}\tp{t.priority}\t{t.status}\t{t.venue}\t{t.topic}\t{t.title}")
+        return 0
+    if args.todo_cmd == "agenda":
+        md = todos.render_agenda(tl, app=args.app, date=args.date)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(md)
+            print(f"wrote {args.out}")
+        else:
+            print(md)
+        return 0
+    if args.todo_cmd == "tk":
+        hits = todos.uncovered_tk(path.parent)
+        for p, kind, text in hits:
+            print(f"{p}\t{kind}\t{text}")
+        print(f"{len(hits)} TK notes without a todo id")
+        return 0 if not hits else 3
+    return 2
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="adapt-rfp")
     parser.add_argument("--version", action="store_true")
@@ -161,6 +205,20 @@ def main(argv: list[str] | None = None) -> int:
     p_ext.add_argument("--prepare", action="store_true", help="sub-agent backend: write prompt files to build/extract-prompts/")
     p_ext.add_argument("--revalidate", metavar="RAW_DIR", help="re-slice saved raw outputs (build/extract-raw/<run>) without API calls")
 
+    p_todo = sub.add_parser("todo", help="decisions, questions and tasks for an application round (DR-0014)")
+    p_todo.add_argument("--file", help="todos.yaml (default: the EHCRP R2 round)")
+    todo_sub = p_todo.add_subparsers(dest="todo_cmd", required=True)
+    todo_sub.add_parser("validate", help="validate todos.yaml")
+    todo_sub.add_parser("next-id", help="print the next free id")
+    p_tl = todo_sub.add_parser("list", help="list items")
+    p_tl.add_argument("--status")
+    p_tl.add_argument("--venue")
+    p_ag = todo_sub.add_parser("agenda", help="render open partner-meeting items as a Markdown agenda")
+    p_ag.add_argument("--app")
+    p_ag.add_argument("--date")
+    p_ag.add_argument("--out")
+    todo_sub.add_parser("tk", help="list TK notes in answer drafts that cite no todo id")
+
     args = parser.parse_args(argv)
     if args.version:
         from importlib.metadata import version
@@ -175,6 +233,8 @@ def main(argv: list[str] | None = None) -> int:
         return _card(args)
     if args.cmd == "extract":
         return _extract(args)
+    if args.cmd == "todo":
+        return _todo(args)
     parser.print_help()
     return 0
 
