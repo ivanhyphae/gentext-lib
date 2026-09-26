@@ -17,6 +17,7 @@ status: pre-app-submitted
 submission_id: 54853419
 submitted_text: "{>>TK source: the submitted shortened project description (wanted: ehcrp-r2-ambrose-center-preapp-submitted)<<}"
 working_docs: [ehcrp-r2-ambrose-center-gdoc]
+review_doc: https://claude.ai/code/artifact/ffc4cc4e-b592-49ee-86e1-0f5481178e65   # Claude Doc for Ivan + James to comment on (DR-0007); repo answers/ stay the source
 funding_priority:
   group: SDAC                 # LCI: "The status of the community you provided is SDAC, not DAC." Must be corrected in the full application.
   tract: "06013314105"        # working-doc funding-priority form lists this tract as SDAC for Center Park; confirm it is the tract submitted

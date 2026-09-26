@@ -34,6 +34,7 @@ It also has a **solicitation model** for the live application (LCI EHCRP Round 2
     - The core infrastructure itself was judged clearly defined and eligible.
   - Memorial Park feedback is still wanted (`ehcrp-r2-preapp-feedback`).
 - **Open items:** `solicitations/lci/ehcrp/round-2/todos.yaml` (DR-0014) tracks every decision, ask and task until the partner meeting with Brent, ARPD and the co-applicants. Start there. `uv run adapt-rfp todo list --status open`.
+- **Review doc (Claude Docs):** https://claude.ai/code/artifact/ffc4cc4e-b592-49ee-86e1-0f5481178e65 has every Center Park section for Ivan and James to comment on: Overview, Harm Reduction, starting copy for Partnership, Belonging and Lasting Community Benefits, and the feedback checklist. Pull comments back into `answers/` and `todos.yaml`.
 - **Drafts in progress:** `solicitations/lci/ehcrp/round-2/applications/ambrose-center-park/answers/hr-q1.md`, `hr-q2.md` (draft-2). Q2 is blocked on the submitted scope.
 
 ## Where things are

@@ -309,3 +309,47 @@
   context: Q2 needs a modeled target, e.g. fewer afternoon hours of strong heat stress (UTCI above 32°C) in treated areas.
   depends_on: [t-003]
   added: {date: 2026-09-26, by: claude-code}
+
+- id: t-025
+  title: Lessons from the Ambrose Center Park stormwater (GI) project that shape this one
+  kind: question
+  venue: ask
+  topic: partnership
+  priority: 2
+  ask: [james, ccrcd]
+  owner: ivan
+  affects: [pt-q2, be-q2]
+  context: >-
+    Partnership Q2 asks how prior work together informs the approach. ARPD, CCRCD and Hyphae already share the IRWM-funded
+    green infrastructure project at the park (community meeting December 3, 2025). What did it teach about engagement turnout,
+    maintenance, permitting or coordination?
+  sources: [ambrose-center-park-community-meeting-decks, ambrose-center-park-ceqa-project-description]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-026
+  title: Funding pathways to name in Lasting Community Benefits, with current status
+  kind: question
+  venue: ask
+  topic: budget
+  priority: 2
+  ask: [james, brent]
+  owner: ivan
+  affects: [lcb-q1]
+  context: >-
+    The draft names CNRA Urban Greening (Bay Point concept proposals), DWR IRWM (already funding the park's stormwater work) and
+    a future EHCRP Advanced Infrastructure round. Earlier Ambrose proposals also mention EPA and county sources. Which are real
+    and current, and what is each one's status?
+  sources: [cnra-ugg-2026-concept-bay-point, ambrose-memorial-ugg-concept-form, willow-pass-bus-stop-gi-concept, ambrose-center-park-gi-additional-funding]
+  added: {date: 2026-09-26, by: claude-code}
+
+- id: t-027
+  title: Verify the Prescott Greening case (funding sources and outcomes) before citing it
+  kind: task
+  venue: internal
+  topic: partnership
+  priority: 3
+  owner: claude
+  affects: [pt-q2]
+  context: The Partnership Q2 starting copy cites Hyphae's Prescott Greening Project. The figures come from a Haiku-extracted candidate chunk and need checking against the source.
+  sources: [library/_candidates/ehcrp-r2-ambrose-center-docx/s104-2-prescott-greening-project-case-study.md]
+  added: {date: 2026-09-26, by: claude-code}
