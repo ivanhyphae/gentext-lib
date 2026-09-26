@@ -28,7 +28,7 @@ People who use the park say the same. In a 2026 survey of Ambrose Community Cent
 |---|---|---|---|
 | 1 | Address 3105 Willow Pass Road | `ambrose-center-park-ceqa-project-description` §2.4 | verified in text |
 | 2 | Center, garden, teen/youth programs, preschool around ballfields, playgrounds, lot; ~4,000 residents/yr | working-doc Q5 (`ehcrp-r2-ambrose-center-gdoc`); CEQA §2.5 (ballfields, playgrounds, parking lot, building) | **not known to be submitted**; 4,000 has no underlying source → TK |
-| 3 | Tract 06013314105 is SDAC | pre-app Funding Priority form, 1b "Community 2 … SDAC (Ambrose Center Park)" | as submitted; re-check on the 2024 Climate Bond DAC map before final |
+| 3 | Tract 06013314105 is SDAC | pre-app Funding Priority form, 1b "Community 2 … SDAC (Ambrose Center Park)" | LCI feedback confirms the community is **SDAC** (the pre-app wrongly said DAC; correct it on the form). Confirm this tract is the one submitted |
 | 4 | Bay Point among greatest health risk (East County: Pittsburg, Bay Point, Antioch) | CCHS 2015, p. 4 | verified |
 | 5 | High for under-5, poverty, linguistic isolation, asthma, treeless area | CCHS 2015, Table 3, p. 32 (Bay Point row) | verified for these five (the row is short one cell in the PDF text layer, so "high *overall*" is not claimed) |
 | 6 | East County extreme heat = above 95°F | CCHS 2015, p. 3 | verified |

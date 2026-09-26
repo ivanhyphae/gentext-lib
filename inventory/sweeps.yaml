@@ -146,3 +146,14 @@
     Both Ambrose working docs (gdoc and docx) hold only the Memorial Park shortened version; no Center Park version
     is in hand. James likely reused it with the name changed. The Ambrose Community Center resilience hub is not part of
     the Center Park EHCRP proposal. LCI pre-app feedback was received by email (maintainer to retrieve).
+
+- id: s-2026-09-26-email-01
+  date: 2026-09-26
+  by: claude-code
+  system: email
+  method: Maintainer pasted the LCI pre-app feedback email (Center Park) into the session
+  queries: []
+  found: 1
+  recorded: 1
+  notes: >
+    Center Park feedback acquired (Submission ID 54853419). Memorial Park feedback is not yet in hand.

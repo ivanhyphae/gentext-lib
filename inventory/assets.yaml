@@ -218,8 +218,8 @@
   kind: guidance
   status: wanted
   priority: 1
-  hint: Received by email (the maintainer has it and will retrieve it). Originally sent via Submittable within ~3 weeks of the Aug 11 window close (Guidelines §8.2). Confirm whether it covers one or both Ambrose pre-apps.
-  relevance: {programs: [ehcrp-r2], places: [bay-point], note: "Includes the preliminary funding-priority determination."}
+  hint: 'Center Park feedback is acquired as ehcrp-r2-preapp-feedback-center. Still wanted: the Memorial Park feedback email (sent to the ARPD lead contact via Submittable; the maintainer may have it too).'
+  relevance: {programs: [ehcrp-r2], places: [bay-point, ambrose-memorial-park], note: "Includes the preliminary funding-priority determination."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
 
 # ─── Bay Point / site evidence cited in the drafts ─────────────────────────────────
@@ -3785,3 +3785,26 @@
     date: 2026-09-26
     by: claude-code
     sweep: s-2026-09-26-maintainer-01
+- id: ehcrp-r2-preapp-feedback-center
+  title: LCI staff feedback on the Ambrose Center Park pre-application (email, Sept 2026)
+  kind: guidance
+  status: acquired
+  priority: 1
+  location:
+    system: email
+  relevance:
+    programs:
+    - ehcrp-r2
+    places:
+    - bay-point
+    - ambrose-center-park
+    note: 'Reviewer feedback on the submitted pre-app: Planning Document missing, no harm reduction, Belonging reminder, CCRCD not an eligible co-applicant, funding-priority status must be SDAC not DAC. Drives applications/ambrose-center-park.yaml preapp_feedback.'
+  local:
+    path: sources/ehcrp-r2-preapp-feedback-center/ehcrp-r2-preapp-feedback-center.md
+    sha256: a879a4a8a2a97d61e4d1ed69575a2657378b8f8c27812e34c2afd486a1ec8fe4
+    acquired: 2026-09-26
+    via: manual
+  discovered:
+    date: 2026-09-26
+    by: claude-code
+    sweep: s-2026-09-26-email-01

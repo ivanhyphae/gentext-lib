@@ -47,3 +47,24 @@
   applies_to: [all]
   check: human
   status: open
+- id: co-applicant-eligibility
+  kind: hard
+  text: >-
+    A local or regional public-entity Lead Applicant needs a CBO or California Native American Tribe as Co-Applicant. A public
+    special district such as a Resource Conservation District does not qualify, but may be a Contributor. A CBO Co-Applicant must
+    keep a staffed office within 100 miles of the site.
+  sources: [{asset: ehcrp-r2-guidelines, locator: "§6.3 Table 2, §6.4"}, {asset: ehcrp-r2-preapp-feedback-center}]
+  applies_to: [pt-q1, pt-q2, workbook]
+  check: human
+  status: draft
+- id: planning-document-primary
+  kind: hard
+  text: >-
+    For Early Infrastructure, the Planning Document (Infrastructure Master Plan or Extreme Heat Action Plan) is the primary
+    deliverable, and the demonstration project supports it. It must cover the §3.6 elements (priority areas, infrastructure
+    strategy, partnerships, community-informed design principles, implementation cost estimates, implementation roadmap) with
+    community engagement, local partnerships and Belonging strategies, and be completed within the grant term.
+  sources: [{asset: ehcrp-r2-guidelines, locator: "§3.6"}, {asset: ehcrp-r2-preapp-feedback-center}]
+  applies_to: [overview, hr-q2, lcb-q1, workbook]
+  check: llm
+  status: draft

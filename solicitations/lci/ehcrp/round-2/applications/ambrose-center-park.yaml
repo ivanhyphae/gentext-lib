@@ -1,11 +1,30 @@
 id: ambrose-center-park
 solicitation: lci-ehcrp-r2
-site: Ambrose Center Park, Bay Point (Contra Costa County)
+site: Ambrose Center Park, 3105 Willow Pass Road, Bay Point (Contra Costa County)
 tier: early-infrastructure
-lead_applicant: Ambrose Recreation and Park District (ARPD)
+lead_applicant: Ambrose Recreation and Park District (ARPD)   # local public entity (special district)
 co_applicants: []
-co_applicants_note: "{>>TK confirm: co-applicant(s) named in the submitted pre-app<<}"
+co_applicants_note: >-
+  {>>TK confirm: which CBO is the co-applicant. LCI (pre-app feedback) says CCRCD is NOT eligible, because a public-entity
+  lead needs a CBO or Tribe co-applicant. Bay Point Garden Club or the Caribbean South America Hispanic Council would qualify.
+  Either must keep a staffed office within 100 miles (Guidelines §6.3).<<}
+partners_proposed:            # from working-doc 6a; roles per Guidelines §6.4
+  - {org: Contra Costa Resource Conservation District (CCRCD), type: public entity (special district), role: contributor, note: "Ecostewards crews; cannot be co-applicant (LCI feedback)"}
+  - {org: Bay Point Garden Club, type: CBO, role: co-applicant-candidate}
+  - {org: Caribbean South America Hispanic Council, type: CBO, role: co-applicant-candidate, note: "Spelling per LCI email is 'Caribbean South American'; confirm the legal name"}
 hyphae_role: "technical partner / grant development (lead writer: James)"
 status: pre-app-submitted
+submission_id: 54853419
+submitted_text: "{>>TK source: the submitted shortened project description (wanted: ehcrp-r2-ambrose-center-preapp-submitted)<<}"
 working_docs: [ehcrp-r2-ambrose-center-gdoc]
-notes: "One of two parallel ARPD applications (DR-0012). Shared text across sites should become library chunks with adapted-for lineage."
+funding_priority:
+  group: SDAC                 # LCI: "The status of the community you provided is SDAC, not DAC." Must be corrected in the full application.
+  tract: "06013314105"        # working-doc funding-priority form lists this tract as SDAC for Center Park; confirm it is the tract submitted
+preapp_feedback:              # source: ehcrp-r2-preapp-feedback-center (email). One entry per actionable finding.
+  - {id: fb-planning-doc, affects: [overview, lcb-q1, workbook], finding: "No Planning Document in the narrative. It is the primary Early Infrastructure deliverable, and the demonstration exists to support it. Name the plan type (Infrastructure Master Plan or Extreme Heat Action Plan), cover the §3.6 minimum elements, and plan its completion by the end of the grant term.", status: open}
+  - {id: fb-harm-reduction, affects: [hr-q1, hr-q2, overview], finding: "Description does not address harm reduction: name the current harms to specific groups and how the infrastructure interrupts the heat-to-harm pathway.", status: drafting}
+  - {id: fb-belonging, affects: [be-q1, be-q2, lcb-q1], finding: "Develop Belonging (Appendix B): residents shape the design; engage before, during and after; build buy-in and ownership that lasts past the grant.", status: open}
+  - {id: fb-co-applicant, affects: [pt-q1, pt-q2, workbook], finding: "CCRCD is not an eligible co-applicant; use Bay Point Garden Club or CSAHC. CCRCD can be a Contributor (§6.4).", status: open}
+  - {id: fb-sdac, affects: [funding-priority-form, hr-q1], finding: "Community status is SDAC, not DAC; correct it for priority points.", status: open}
+  - {id: fb-infrastructure-ok, affects: [overview], finding: "Activities are eligible and the core infrastructure is clearly defined. Keep it consistent with the submitted text.", status: note}
+notes: "One of two parallel ARPD applications (DR-0012). Shared text across sites should become library chunks with adapted-for lineage. Only the shortened project description was submitted (maintainer, 2026-09-26)."

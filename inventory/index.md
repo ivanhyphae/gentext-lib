@@ -8,7 +8,7 @@
 | include | 9 |
 | defer | 48 |
 | exclude | 12 |
-| acquired | 104 |
+| acquired | 105 |
 
 ## Open: wanted, discovered, include
 
@@ -57,6 +57,7 @@
 | 1 | `ehcrp-r2-meaningful-direct-benefits` | guidance | acquired | [Meaningful and Direct Benefits Assessment (2024 Climate Bond)](https://resources.ca.gov/-/media/CNRA-Website/Files/Bonds/Prop-4/Oct2025_Meaningful_Direct-Benefits-Assessment.pdf) | Defines the four criteria behind the 15 funding-priority points. |
 | 1 | `ehcrp-r2-nofa` | solicitation | acquired | [EHCRP Round 2 Notice of Funding Availability (2026-06-16)](https://lci.ca.gov/wp-content/uploads/Notice-of-Funding-Availability-Extreme-Heat-Program-Round-2.pdf) | Official deadlines and amounts. |
 | 1 | `ehcrp-r2-planning-playbook-guide` | guidance | acquired | [Round 2 Planning and Playbook Application Guide](https://lci.ca.gov/wp-content/uploads/Round-2-Planning-Playbook-Application-Guide.pdf) | Early Infrastructure planning-document expectations; feeds LCB answer. |
+| 1 | `ehcrp-r2-preapp-feedback-center` | guidance | acquired | LCI staff feedback on the Ambrose Center Park pre-application (email, Sept 2026) | Reviewer feedback on the submitted pre-app: Planning Document missing, no harm reduction, Belonging reminder, CCRCD not an eligible co-applicant, funding-priority status must be SDAC not DAC. Drives applications/ambrose-center-park.yaml preapp_feedback. |
 | 1 | `ehcrp-r2-preapp-form` | solicitation | acquired | [EHCRP Round 2 Pre-Application Interest Form (draft questions)](https://drive.google.com/file/d/1RDQzEQUExtlRD4F-oBPKY-UvJiL4ZNwR/view) |  |
 | 1 | `ehcrp-r2-resources-page` | guidance | acquired | [EHCRP Round 2 Resources (LCI web page)](https://lci.ca.gov/climate/icarp/grants/extreme-heat-round-2-resources/) | Hub for the full application form, TA guides, checklists, FAQ, calendar. Re-sweep weekly until the deadline. |
 | 1 | `ehcrp-r2-ta-guide-belonging` | guidance | acquired | [TA Guide — What you need to know: Belonging](https://lci.ca.gov/wp-content/uploads/EHCRP-TA-Guide-Belonging.pdf) | Belonging Q1/Q2 guidance. |
@@ -224,3 +225,4 @@
 | `s-2026-09-25-gdrive-04` | 2026-09-25 | gdrive | Google Drive connector search_files for heat work by teammates since 2025, plus files owned by the lead grant writer; one content read (Ambrose Center Park notes, headings/grep only) to check for James's heat language | 165 | 21 |
 | `s-2026-09-25-gdrive-05` | 2026-09-25 | gdrive | Google Drive connector search_files (metadata only) | 30 | 9 |
 | `s-2026-09-26-maintainer-01` | 2026-09-26 | other | Maintainer report in session (no search run) |  | 2 |
+| `s-2026-09-26-email-01` | 2026-09-26 | email | Maintainer pasted the LCI pre-app feedback email (Center Park) into the session | 1 | 1 |

@@ -25,7 +25,14 @@ It also has a **solicitation model** for the live application (LCI EHCRP Round 2
   - **Only the "SHORTENED VERSION" project description was submitted** in each pre-app (maintainer, 2026-09-26). Both working docs hold only the *Memorial* Park shortened version. The Center Park submitted text is a wanted asset (`ehcrp-r2-ambrose-center-preapp-submitted`, ask James). The longer working-doc answers (2a/5/6a) are drafts, not submissions.
   - **The Ambrose Community Center resilience hub is not part of the Center Park EHCRP proposal.** Its survey is still usable as evidence of residents' heat concerns (aggregates only).
   - **"Limited access to home air conditioning"** (both pre-apps) is not supported by its cited source: CCHS 2015 Table 3 (p. 32) rates Bay Point *Low* on that factor.
-  - LCI pre-app feedback arrived by email. The maintainer will retrieve it (`ehcrp-r2-preapp-feedback`).
+  - **LCI pre-app feedback, Center Park** (`sources/ehcrp-r2-preapp-feedback-center/`, 2026-09-26). The actionable items are in `applications/ambrose-center-park.yaml` → `preapp_feedback`:
+    - **No Planning Document** in the narrative. It is the *primary* Early Infrastructure deliverable (§3.6), and the demonstration supports it.
+    - **No harm reduction** in the description.
+    - **Belonging** needs developing (Appendix B).
+    - **CCRCD is not an eligible co-applicant.** Bay Point Garden Club or CSAHC would be; CCRCD can be a Contributor (§6.4).
+    - **The funding-priority status must be SDAC, not DAC.**
+    - The core infrastructure itself was judged clearly defined and eligible.
+  - Memorial Park feedback is still wanted (`ehcrp-r2-preapp-feedback`).
 - **Drafts in progress:** `solicitations/lci/ehcrp/round-2/applications/ambrose-center-park/answers/hr-q1.md`, `hr-q2.md` (draft-2). Q2 is blocked on the submitted scope.
 
 ## Where things are
