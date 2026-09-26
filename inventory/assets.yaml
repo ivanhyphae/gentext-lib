@@ -218,7 +218,7 @@
   kind: guidance
   status: wanted
   priority: 1
-  hint: Sent via Submittable within ~3 weeks of the Aug 11 window close (Guidelines §8.2). Lead applicant (ARPD/CCRCD) or lead writer has it.
+  hint: Received by email (the maintainer has it and will retrieve it). Originally sent via Submittable within ~3 weeks of the Aug 11 window close (Guidelines §8.2). Confirm whether it covers one or both Ambrose pre-apps.
   relevance: {programs: [ehcrp-r2], places: [bay-point], note: "Includes the preliminary funding-priority determination."}
   discovered: {date: 2026-09-25, by: claude-opus-5-5, sweep: s-2026-09-25-pilot}
 
@@ -3769,3 +3769,19 @@
     by: claude-opus-5-5
     sweep: s-2026-09-25-gdrive-05
   notes: 'Copies: 1DoRZpwMyxDnHyveAp1_0NJ8JbkZ_6Q45 (PDF), 1Pv6WE5xCXn2JX34gy8Dlwf-VdMWtqDTyCiwCf_7DBhY (Google Doc).'
+- id: ehcrp-r2-ambrose-center-preapp-submitted
+  title: Ambrose Center Park EHCRP R2 pre-application as submitted (final text)
+  kind: proposal
+  status: wanted
+  priority: 1
+  hint: Ask James (lead writer), or export from Submittable. Only the shortened project description was submitted. Both working docs hold just the Memorial Park shortened version, so the Center Park text may be that one with the name changed. Also check which of the working-doc answers 2a/5/6a actually went in.
+  relevance:
+    programs:
+    - ehcrp-r2
+    places:
+    - bay-point
+    note: Defines the Center Park scope the full application must stay consistent with; blocks hr-q2 and overview.
+  discovered:
+    date: 2026-09-26
+    by: claude-code
+    sweep: s-2026-09-26-maintainer-01

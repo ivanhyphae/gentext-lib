@@ -4,7 +4,7 @@
 
 | Status | Count |
 |---|---|
-| wanted | 9 |
+| wanted | 10 |
 | include | 9 |
 | defer | 48 |
 | exclude | 12 |
@@ -19,6 +19,7 @@
 | 1 | `ambrose-stormwater-folder` | other | include | [Drive folder: Ambrose Stormwater (Eric)](https://drive.google.com/drive/folders/1joCyP53TaKSmtx8jAElLwzONxhp9bC_6) | Walk for the successful GSI grant applications and award documents. |
 | 1 | `chat-bay-point` | dataset | wanted | California Heat Assessment Tool (CHAT) scores for the project area | Draft cites HHE 3.55 and HHAI 45.41; re-pull with access date so the fact registry has a source. |
 | 1 | `ehcrp-r1-interview-and-feedback` | guidance | wanted | EHCRP Round 1 interview materials and any LCI feedback/debrief | Direct evidence of what reviewers probed and where the R1 proposal fell short. |
+| 1 | `ehcrp-r2-ambrose-center-preapp-submitted` | proposal | wanted | Ambrose Center Park EHCRP R2 pre-application as submitted (final text) | Defines the Center Park scope the full application must stay consistent with; blocks hr-q2 and overview. |
 | 1 | `ehcrp-r2-drive-folder` | other | include | [Drive folder: EHCRP Round 2](https://drive.google.com/drive/folders/1rNOExjsW83KUu44nKimsNrn3oxiTfzRI) | Walked 2026-09-25 (s-2026-09-25-gdrive-02). New: live Google Docs for both Ambrose pre-apps (ehcrp-r2-ambrose-memorial-gdoc, ehcrp-r2-ambrose-center-gdoc). Subfolders 'Ambrose Memorial Park' and 'Ambrose Center Park' are empty. Re-walk before the deadline. |
 | 1 | `ehcrp-r2-preapp-feedback` | guidance | wanted | LCI staff feedback on the Bay Point pre-application(s) | Includes the preliminary funding-priority determination. |
 | 1 | `ehcrp-r2-webinars-office-hours` | guidance | wanted | EHCRP Round 2 webinars, office hours, workshop slides and Q&A | Calendar acquired as ehcrp-r2-calendar. Recordings on YouTube: statewide input session 2025-08-12 (RGYDnvRIkC0), report-out 3 2025-11-04 (MQE8aQZUll4), guidelines comment webinar 2026-02 (gfm4lMDjg6c). Office-hours Q&A may be in the FAQ sheet. Transcripts would need a YouTube transcript tool. |
@@ -222,3 +223,4 @@
 | `s-2026-09-25-gdrive-03` | 2026-09-25 | gdrive | Google Drive connector search_files by funder/program and by project name (metadata only, excludeContentSnippets, pageSize 40–50) | 343 | 43 |
 | `s-2026-09-25-gdrive-04` | 2026-09-25 | gdrive | Google Drive connector search_files for heat work by teammates since 2025, plus files owned by the lead grant writer; one content read (Ambrose Center Park notes, headings/grep only) to check for James's heat language | 165 | 21 |
 | `s-2026-09-25-gdrive-05` | 2026-09-25 | gdrive | Google Drive connector search_files (metadata only) | 30 | 9 |
+| `s-2026-09-26-maintainer-01` | 2026-09-26 | other | Maintainer report in session (no search run) |  | 2 |

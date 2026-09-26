@@ -22,6 +22,11 @@ It also has a **solicitation model** for the live application (LCI EHCRP Round 2
   - **PSE Healthy Energy 2026** names Bay Point an acute PM2.5 hot spot. It is newer evidence than the 2015 CCHS report the drafts cite.
   - The "Monument Corridor" references in both pre-apps are a legitimate citation of the CCHS 2015 case study (p. 34), not context leakage.
   - The Round 1 awards PDF says 46 projects / ~$32M; LCI's web copy says 47 / $32.4M. Don't cite either without reconciling.
+  - **Only the "SHORTENED VERSION" project description was submitted** in each pre-app (maintainer, 2026-09-26). Both working docs hold only the *Memorial* Park shortened version. The Center Park submitted text is a wanted asset (`ehcrp-r2-ambrose-center-preapp-submitted`, ask James). The longer working-doc answers (2a/5/6a) are drafts, not submissions.
+  - **The Ambrose Community Center resilience hub is not part of the Center Park EHCRP proposal.** Its survey is still usable as evidence of residents' heat concerns (aggregates only).
+  - **"Limited access to home air conditioning"** (both pre-apps) is not supported by its cited source: CCHS 2015 Table 3 (p. 32) rates Bay Point *Low* on that factor.
+  - LCI pre-app feedback arrived by email. The maintainer will retrieve it (`ehcrp-r2-preapp-feedback`).
+- **Drafts in progress:** `solicitations/lci/ehcrp/round-2/applications/ambrose-center-park/answers/hr-q1.md`, `hr-q2.md` (draft-2). Q2 is blocked on the submitted scope.
 
 ## Where things are
 
